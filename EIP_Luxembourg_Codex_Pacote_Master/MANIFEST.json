@@ -1,0 +1,15 @@
+{
+  "package": "EIP Luxembourg Codex Master",
+  "created_at": "2026-10-14",
+  "target": "EFPA Luxembourg EIP",
+  "baseline_filename": "EIP_Luxembourg_Plano_Estudos_148_Dias.html",
+  "baseline_sha256": "b990bdc7038cf980609484eb6aa24ebc1da8cf97d3af5c58e2cb44ede3a364c1",
+  "baseline_lessons": 111,
+  "baseline_days": 148,
+  "syllabus_objective_decompositions": 109,
+  "notes": [
+    "Official score inconsistencies require verification",
+    "Granular objective titles are pedagogical breakdowns, not verbatim official syllabus",
+    "Intended for Codex; this package does not claim full course is already authored"
+  ]
+}

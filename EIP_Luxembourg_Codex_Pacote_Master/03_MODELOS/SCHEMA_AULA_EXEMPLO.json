@@ -1,0 +1,120 @@
+{
+  "kind": "illustrative_structure_not_a_completed_lesson",
+  "id": "EIP-3.1-A",
+  "module": 3,
+  "official_syllabus_refs": [
+    "3.1"
+  ],
+  "target_minutes": 30,
+  "version": "draft",
+  "source_refs": [
+    {
+      "id": "EFPA-SYLLABUS",
+      "url": "https://www.efpa.lu/_files/ugd/f712b2_ccdb8d34e71c4a04a2faa62faa709afa.pdf",
+      "section": "3.1",
+      "verified_at": null
+    }
+  ],
+  "learning_objectives": [
+    {
+      "id": "LO-1",
+      "action_en": "Calculate a future value using compound interest.",
+      "action_pt": "Calcular o valor futuro com juros compostos."
+    }
+  ],
+  "prerequisites": [
+    "number sense",
+    "percentages"
+  ],
+  "segments": [
+    {
+      "kind": "retrieval",
+      "minutes": 3,
+      "items": []
+    },
+    {
+      "kind": "theory",
+      "minutes": 11,
+      "en": null,
+      "pt_BR": null,
+      "source_refs": []
+    },
+    {
+      "kind": "worked_example",
+      "minutes": 7,
+      "en": null,
+      "pt_BR": null,
+      "steps": [],
+      "source_refs": []
+    },
+    {
+      "kind": "exercises",
+      "minutes": 7,
+      "items": []
+    },
+    {
+      "kind": "recap",
+      "minutes": 2,
+      "en": null,
+      "pt_BR": null
+    }
+  ],
+  "example_exercise_schema": {
+    "id": "EIP-3.1-A-Q01",
+    "learning_objective_id": "LO-1",
+    "cognitive_level": "A",
+    "question_en": null,
+    "question_pt_BR": null,
+    "options": [
+      {
+        "id": "A",
+        "en": null,
+        "pt_BR": null
+      },
+      {
+        "id": "B",
+        "en": null,
+        "pt_BR": null
+      },
+      {
+        "id": "C",
+        "en": null,
+        "pt_BR": null
+      },
+      {
+        "id": "D",
+        "en": null,
+        "pt_BR": null
+      }
+    ],
+    "correct_option_id": null,
+    "rationale_en": null,
+    "rationale_pt_BR": null,
+    "wrong_option_rationales": {
+      "A": {
+        "en": null,
+        "pt_BR": null
+      },
+      "B": {
+        "en": null,
+        "pt_BR": null
+      },
+      "C": {
+        "en": null,
+        "pt_BR": null
+      },
+      "D": {
+        "en": null,
+        "pt_BR": null
+      }
+    },
+    "worked_calculation": null,
+    "source_refs": [],
+    "quality_status": "PENDING"
+  },
+  "completion_criteria": {
+    "minimum_exercises": 5,
+    "required_source_verification": true,
+    "full_translation_required": true
+  }
+}

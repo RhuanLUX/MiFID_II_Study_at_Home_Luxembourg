@@ -6,13 +6,13 @@ The owner's scope correction supersedes the previous assessment-driven plan. Thi
 
 All 78 lettered syllabus leaves are mapped, plus the separate Green Finance exam area. The 109 supplied author-created micro-objective IDs are preserved. The reading plan contains 95 logical units totalling 2740 estimated minutes (45.7 hours). Durations range from 20 to 30 minutes and are editorial estimates pending learner calibration. No arbitrary day target was used: unit boundaries separate a concept, a calculation method, or a materially different regulatory decision. A short continuation stays short.
 
-This estimate is not a declaration that the entire certification can be mastered in 45.7 hours. EFPA references 80 training hours or equivalent; rereading, taking notes, slower first encounters and the separately authorised future practice phase may add substantial time. Revise unit counts and durations when substantive writing and Owner UAT reveal a need to split or combine material. No equivalence or accreditation is claimed.
+This estimate is not a declaration that the entire certification can be mastered in 45.7 hours. EFPA references 80 training hours or equivalent; rereading, taking notes, slower first encounters and the separately authorised future practice phase may add substantial time. Revise unit counts and durations when substantive learner feedback reveals a need to split or combine material. No equivalence or accreditation is claimed.
 
-86 of 95 reading units are authored. Lesson 16 is approved as the pedagogical reference. The other titles are curriculum plans, not empty lessons counted as completed work. MATRIZ_COBERTURA.csv distinguishes planned coverage from partial implemented evidence. The complete official scope is mapped, but substantive curriculum coverage is not complete.
+95 of 95 reading units are authored. Lesson 16 remains the approved pedagogical reference. All 95 planned titles now have substantive English reading content. MATRIZ_COBERTURA.csv links all official leaves and the separate exam area to implemented teaching and example blocks; COBERTURA_OBJETIVOS.csv additionally links every original micro-objective to explicit authored outcomes. Coverage does not imply accreditation or independent specialist approval.
 
 ## Sequence
 
-Economics → financial system and trading → time value and products → client needs → portfolios → insurance/retirement → regulation/ethics → Green Finance. A beginner follows the sidebar sequence. During production, only authored units open; previous/next follows the available chronological sequence. Their full curriculum positions remain visible.
+Economics → financial system and trading → time value and products → client needs → portfolios → insurance/retirement → regulation/ethics → Green Finance. A beginner follows the sidebar sequence. All units open; previous/next follows the chronological sequence, with stable curriculum positions and identifiers.
 
 Example progression: percentages → EIP-3.1-A (dated values) → EIP-3.4-A (price, yield, sensitivity) → deeper bond mechanics → 4.1 (client evidence) → 5.2 (portfolio risk) → 5.4 (client portfolio selection). Each step introduces a new use of earlier concepts.
 
@@ -106,15 +106,15 @@ Example progression: percentages → EIP-3.1-A (dated values) → EIP-3.4-A (pri
 | 84 | EIP-7.1-04 | 7.1 | Costs, charges and reporting to clients | 30 | 4.1 | CONTENT_REVIEWED |
 | 85 | EIP-7.1-05 | 7.1 | Adviser responsibility and liability boundaries | 25 | 4.1 | CONTENT_REVIEWED |
 | 86 | EIP-7.1-06 | 7.1 | Sustainability-risk disclosures in advice and investment decisions | 30 | 4.1 | CONTENT_REVIEWED |
-| 87 | EIP-7.2-01 | 7.2 | The regulatory structure of secondary markets | 30 | 2.3;7.1 | PLANNED_NOT_AUTHORED |
-| 88 | EIP-7.2-02 | 7.2 | Market abuse: inside information, disclosure and manipulation | 30 | 2.3;7.1 | PLANNED_NOT_AUTHORED |
-| 89 | EIP-7.2-03 | 7.2 | AML: customer information and escalation decisions | 30 | 2.3;7.1 | PLANNED_NOT_AUTHORED |
-| 90 | EIP-7.3-01 | 7.3 | Reputational risk: sources and consequences | 25 | 7.1;7.2 | PLANNED_NOT_AUTHORED |
-| 91 | EIP-7.3-02 | 7.3 | EFPA ethics and reasoned professional decisions | 30 | 7.1;7.2 | PLANNED_NOT_AUTHORED |
-| 92 | EIP-M8-01 | EXAM-M8 | Green-finance instruments and use-of-proceeds claims | 30 | 3.9;4.1;7.1 | PLANNED_NOT_AUTHORED |
-| 93 | EIP-M8-02 | EXAM-M8 | SFDR and taxonomy: evidence, disclosures and limits | 30 | 3.9;4.1;7.1 | PLANNED_NOT_AUTHORED |
-| 94 | EIP-M8-03 | EXAM-M8 | Sustainability data, adverse impacts and comparability | 30 | 3.9;4.1;7.1 | PLANNED_NOT_AUTHORED |
-| 95 | EIP-M8-04 | EXAM-M8 | Greenwashing: evaluating claims and conflicting evidence | 25 | 3.9;4.1;7.1 | PLANNED_NOT_AUTHORED |
+| 87 | EIP-7.2-01 | 7.2 | The regulatory structure of secondary markets | 30 | 2.3;7.1 | CONTENT_REVIEWED |
+| 88 | EIP-7.2-02 | 7.2 | Market abuse: inside information, disclosure and manipulation | 30 | 2.3;7.1 | CONTENT_REVIEWED |
+| 89 | EIP-7.2-03 | 7.2 | AML: customer information and escalation decisions | 30 | 2.3;7.1 | CONTENT_REVIEWED |
+| 90 | EIP-7.3-01 | 7.3 | Reputational risk: sources and consequences | 25 | 7.1;7.2 | CONTENT_REVIEWED |
+| 91 | EIP-7.3-02 | 7.3 | EFPA ethics and reasoned professional decisions | 30 | 7.1;7.2 | CONTENT_REVIEWED |
+| 92 | EIP-M8-01 | EXAM-M8 | Green-finance instruments and use-of-proceeds claims | 30 | 3.9;4.1;7.1 | CONTENT_REVIEWED |
+| 93 | EIP-M8-02 | EXAM-M8 | SFDR and taxonomy: evidence, disclosures and limits | 30 | 3.9;4.1;7.1 | CONTENT_REVIEWED |
+| 94 | EIP-M8-03 | EXAM-M8 | Sustainability data, adverse impacts and comparability | 30 | 3.9;4.1;7.1 | CONTENT_REVIEWED |
+| 95 | EIP-M8-04 | EXAM-M8 | Greenwashing: evaluating claims and conflicting evidence | 25 | 3.9;4.1;7.1 | CONTENT_REVIEWED |
 
 ## Matrix audit
 

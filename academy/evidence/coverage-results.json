@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-15",
+  "build_sha256": "077c51dcf4515eb4f74f0d3014d405674f6b6641647e2bdd0f3e5527870152e0",
+  "lessons": 95,
+  "planned": 95,
+  "unproduced": 0,
+  "official_leaves": 78,
+  "implemented_leaves": 78,
+  "separate_exam_areas": 1,
+  "original_objectives": 109,
+  "explicitly_implemented_objectives": 109,
+  "worked_reading_examples": 285,
+  "pending_translations": 92,
+  "limitations": [
+    "Coverage verifies explicit content links and teaching evidence; it does not establish accreditation or independent specialist approval."
+  ]
+}

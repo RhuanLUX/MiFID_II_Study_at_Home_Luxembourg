@@ -1,32 +1,24 @@
 {
   "date": "2026-10-15",
-  "version": "0.7.0-production",
+  "version": "1.0.0-reading",
   "scope": "Reading-only Phase 1",
   "owner_approval": "Lesson 16 approved as reference; continuous production authorised without batch UAT",
-  "completed_lessons": 86,
+  "completed_lessons": 95,
   "total_lessons": 95,
-  "percentage": 90.5,
+  "percentage": 100,
   "modules_completed": [
     "1. Economic Environment",
     "2. Financial Markets",
     "3. Investment Products",
     "4. Assessing Client Needs",
     "5. Portfolio Construction and Selection",
-    "6. Insurance and Retirement"
+    "6. Insurance and Retirement",
+    "7. Regulation and Ethics",
+    "8. Green Finance"
   ],
-  "current_batch": "06 — insurance, retirement and investment-service conduct",
-  "content_validation": "Source-linked author review; 416 numerical checks and 15 structural/regression checks passed; offline Edge passed for 86 lessons",
-  "remaining_lessons": [
-    "EIP-7.2-01",
-    "EIP-7.2-02",
-    "EIP-7.2-03",
-    "EIP-7.3-01",
-    "EIP-7.3-02",
-    "EIP-M8-01",
-    "EIP-M8-02",
-    "EIP-M8-03",
-    "EIP-M8-04"
-  ],
+  "current_batch": "07 — final market regulation, ethics and Green Finance; all 95 readings integrated",
+  "content_validation": "Source-linked author review; 458 numerical checks and 15 structural/regression checks passed; offline Edge passed for 95 lessons",
+  "remaining_lessons": [],
   "translation_pending": [
     "EIP-1.1-01",
     "EIP-1.1-02",
@@ -110,12 +102,21 @@
     "EIP-7.1-03",
     "EIP-7.1-04",
     "EIP-7.1-05",
-    "EIP-7.1-06"
+    "EIP-7.1-06",
+    "EIP-7.2-01",
+    "EIP-7.2-02",
+    "EIP-7.2-03",
+    "EIP-7.3-01",
+    "EIP-7.3-02",
+    "EIP-M8-01",
+    "EIP-M8-02",
+    "EIP-M8-03",
+    "EIP-M8-04"
   ],
   "blockers": [],
   "limits": [
     "Independent specialist approval is not implied by author review.",
-    "Course production remains incomplete.",
+    "All planned reading units are authored.",
     "No per-batch Owner UAT gate remains."
   ]
 }

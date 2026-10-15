@@ -1,8 +1,8 @@
 # Verified source register
 
-Research checked on 15 October 2026. This register distinguishes the exact scope inspected from future production research. A verified landing page is not treated as a complete review of the underlying circular. All lesson wording and examples are original. External source links are optional and require internet; the textbook has no online runtime dependencies.
+Research checked on 15 October 2026. This register distinguishes the exact scope inspected from case-specific and independent validation. A verified landing page is not treated as a complete review of the underlying circular. All lesson wording and examples are original. External source links are optional and require internet; the textbook has no online runtime dependencies.
 
-The complete six-page EFPA syllabus and three-page examination regulation were downloaded and read. Their retrieval hashes are in `evidence/downloads.json`. Regulatory uncertainty and future verification work are recorded in `ISSUES_DE_FONTES.md`.
+The complete six-page EFPA syllabus and three-page examination regulation were downloaded and read. Their retrieval hashes are in `evidence/downloads.json`. Regulatory uncertainty and remaining independent verification work are recorded in `ISSUES_DE_FONTES.md`.
 
 ## MIFID-4 — MiFID II Article 4 — Definitions
 
@@ -13,7 +13,7 @@ The complete six-page EFPA syllabus and three-page examination regulation were d
 - Jurisdiction / role: EU
 - Consulted section: Article 4(1)(4), (8), (10), (11)
 - Supports: Definitions of investment advice, portfolio management and retail/professional client categories.
-- Limits: Introductory retail-client treatment; full professional classification rules are outside this pilot.
+- Limits: Introductory retail-client treatment; full professional classification rules are outside the introductory teaching scope.
 
 ## EFPA-SYL — EFPA EIP Syllabus
 
@@ -154,9 +154,9 @@ The complete six-page EFPA syllabus and three-page examination regulation were d
 - Version/date: 2017 landing page checked
 - Checked: 2026-10-15
 - Jurisdiction / role: Luxembourg
-- Consulted section: Knowledge and competence subject; discovery for later module
+- Consulted section: Knowledge and competence; catalogue entry supplemented by CSSF-COMPETENCE-FULL
 - Supports: Source route for knowledge/competence requirements.
-- Limits: Detailed amended circular review is a production prerequisite; no accreditation claim.
+- Limits: Full 23-page circular and underlying guidelines were subsequently consulted; see CSSF-COMPETENCE-FULL. No accreditation claim.
 
 ## CSSF-670 — Circular CSSF 17/670
 
@@ -165,20 +165,20 @@ The complete six-page EFPA syllabus and three-page examination regulation were d
 - Version/date: 2017 landing page checked
 - Checked: 2026-10-15
 - Jurisdiction / role: Luxembourg
-- Consulted section: External training subject; discovery for later module
+- Consulted section: External training; catalogue entry supplemented by CSSF-TRAINING-FULL
 - Supports: Source route for external training requirements.
-- Limits: Detailed current circular review pending; no equivalence claim for this independent platform.
+- Limits: Full five-page circular subsequently read; see CSSF-TRAINING-FULL for scope and duration limits. No registered-training or equivalence claim.
 
 ## LU-TAX — Declaring interest received — Guichet.lu
 
 [Official publisher / source](https://guichet.public.lu/en/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/banque-luxembourgeoise.html)
 
-- Version/date: Discovery checked 2026-10-15; individual tax-unit research pending
+- Version/date: Guichet guide checked 2026-10-15; supplemented by ACD-LIR26 and product-specific sources
 - Checked: 2026-10-15
 - Jurisdiction / role: Luxembourg
 - Consulted section: Resident/non-resident treatment and declaration pathways
 - Supports: Starting source for differentiated interest-income tax research.
-- Limits: Tax production is authorised. Product, residence, taxpayer type, tax year and exceptions must be checked with ACD/Legilux before each tax lesson; discovery is not a completed tax-law audit.
+- Limits: Introductory guide supplemented by current ACD coordinated law and product-specific research. Recipient, residence, product, paying agent, tax year and exceptions remain essential; no universal tax-law opinion.
 
 ## AUTHOR-MATH — Independent mathematical derivations and original fictional examples
 
@@ -971,3 +971,157 @@ Locally authored mathematics and fictional examples.
 - Consulted section: External programme content, criteria, registration and minimum duration
 - Supports: External-training registration and formalised internal assessment are distinct routes; external minimum duration is 60 hours.
 - Limits: Five pages read. The 45.7-hour editorial reading plan is not presented as a registered 60-hour programme or EFPA’s stated 80-hour training equivalence.
+
+## CSSF-MAR — Market abuse — CSSF
+
+[Official publisher / source](https://www.cssf.lu/en/market-abuse/)
+
+- Version/date: Page updated 2 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: EU / Luxembourg
+- Consulted section: Overview, competent authority, insider lists and suspicious transaction/order reports
+- Supports: Luxembourg supervisory context and prompt controlled reporting; scope includes relevant orders and modifications.
+- Limits: Overview checked; exact reporting mechanics are not implemented by this reading platform.
+
+## CSSF-MAR-LAW — Luxembourg law of 23 December 2016 on market abuse
+
+[Official publisher / source](https://www.cssf.lu/wp-content/uploads/L_231216_market_abuse.pdf)
+
+- Version/date: Official publisher checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: EU / Luxembourg
+- Consulted section: Articles 8–9 and 17–23: reporting, confidentiality and prohibited conduct
+- Supports: National implementation and conduct definitions supplement the underlying EU framework.
+- Limits: 18-page coordinated English PDF; selected provisions inspected. French prevails in a discrepancy. No criminal-sanction advice or complete consolidated MAR opinion.
+
+## ESMA-T1-26 — ESMA statement on T+1 preparations
+
+[Official publisher / source](https://www.esma.europa.eu/press-news/esma-news/esma-calls-firms-finalise-preparations-ahead-t1-settlement-deadlines)
+
+- Version/date: 20 July 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: EU / Luxembourg
+- Consulted section: Scheduled transition and operational preparation
+- Supports: EU transition scheduled for 11 October 2027, not already operational in October 2026.
+- Limits: Instrument scope, holidays and contractual dates still require transaction-level verification.
+
+## MAR-BASE — Market Abuse Regulation 596/2014
+
+[Official publisher / source](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1791224510398&uri=CELEX%3A32014R0596)
+
+- Version/date: Official publisher checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: EU / Luxembourg
+- Consulted section: Articles 2, 7, 8, 10, 12, 14–17
+- Supports: Inside information, prohibited conduct and market integrity.
+- Limits: Base provisions read through indexed official text; current consolidated endpoint blocked automated access. Article 17 taught with the separate enacted Listing Act amendment.
+
+## MAR-LISTING — Listing Act Regulation 2024/2809
+
+[Official publisher / source](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32024R2809)
+
+- Version/date: Official Journal 14 November 2024; relevant changes applicable 5 June 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: EU / Luxembourg
+- Consulted section: Article 2(6) and Article 4 application provisions
+- Supports: Amended intermediate-step disclosure, confidentiality, delayed disclosure and loss of confidentiality.
+- Limits: Not a full consolidated MAR audit. ESMA consultation proposals are not taught as binding requirements.
+
+## ESMA-MAR-26 — ESMA consultation announcement on delayed disclosure
+
+[Official publisher / source](https://www.esma.europa.eu/press-news/esma-news/esma-seeks-input-streamline-and-simplify-its-market-abuse-guidelines)
+
+- Version/date: 19 February 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: EU / Luxembourg
+- Consulted section: Distinction between Listing Act changes and proposed guideline amendments
+- Supports: Explains the June 2026 change and consultation status.
+- Limits: Proposed additional legitimate interests are not treated as final rules.
+
+## CSSF-AML-26 — Law of 12 November 2004 — CSSF coordinated text
+
+[Official publisher / source](https://www.cssf.lu/wp-content/uploads/L_121104_AML.pdf)
+
+- Version/date: CSSF catalogue updated 8 August 2026; snapshot SHA-256 d325a5808794c51400ba2468b79fece6c0aec55d13fc176f3df8fcc97ce2a7f4
+- Checked: 2026-10-15
+- Jurisdiction / role: EU / Luxembourg
+- Consulted section: Articles 3, 3-2, 4 and 5
+- Supports: Due diligence, beneficial ownership, risk-based controls, prompt FIU reporting and confidentiality.
+- Limits: 65-page snapshot retained; relevant provisions inspected. Coordinated English text does not replace authoritative legislation or case-specific legal interpretation.
+
+## EFPA-ETHICS — EFPA Europe Code of Ethics
+
+[Official publisher / source](https://www.efpa-eu.org/wp-content/uploads/2023/04/EFPA-Europe-Code-of-Ethics-revised-31-01-2023.pdf)
+
+- Version/date: Revised 31 January 2023
+- Checked: 2026-10-15
+- Jurisdiction / role: EU / Luxembourg
+- Consulted section: Beliefs and key behaviours, pages 4–8
+- Supports: Competence, accuracy, fairness, prudence, integrity, client needs, conflicts, non-discrimination and proper designation use.
+- Limits: Eight pages read via web PDF extraction; direct local download returned HTTP 403. Original cases illustrate principles; the platform confers no designation.
+
+## EC-EUGB-26 — European green bond standard — European Commission
+
+[Official publisher / source](https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/european-green-bond-standard-supporting-transition_en)
+
+- Version/date: 16 March 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: EU / Luxembourg
+- Consulted section: Current standard, taxonomy, transparency and external reviewers
+- Supports: The EuGB framework is voluntary and external reviewers are supervised by ESMA.
+- Limits: No blanket claim that every green-labelled bond complies with EuGB, or that review guarantees repayment.
+
+## ICMA-HANDBOOK-26 — ICMA Principles Guidance Handbook
+
+[Official publisher / source](https://www.icmagroup.org/assets/documents/Sustainable-finance/2026-updates/The-Principles-Guidance-Handbook-June-2026.pdf)
+
+- Version/date: June 2026 edition, 52 pages; relevant bond sections inspected
+- Checked: 2026-10-15
+- Jurisdiction / role: EU / Luxembourg
+- Consulted section: Use-of-proceeds and sustainability-linked bond distinction
+- Supports: Voluntary market guidance helps distinguish project allocation from performance-linked structures.
+- Limits: Not EU legislation, mandatory accreditation or a universal contractual covenant.
+
+## EC-TAXONOMY-26 — EU taxonomy for sustainable activities — European Commission
+
+[Official publisher / source](https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en)
+
+- Version/date: 17 March 2026 index checked
+- Checked: 2026-10-15
+- Jurisdiction / role: EU / Luxembourg
+- Consulted section: Four conditions, six objectives and current delegated-act/FAQ index
+- Supports: Activity classification and current implementation resources.
+- Limits: Examples are simplified assumed classification arithmetic, not a sector screening-criteria audit or legal reporting template.
+
+## EU-TAXONOMY-DEFS — Taxonomy Disclosures Delegated Act 2021/2178
+
+[Official publisher / source](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02021R2178-20260101)
+
+- Version/date: Consolidated 1 January 2026 indexed official text
+- Checked: 2026-10-15
+- Jurisdiction / role: EU / Luxembourg
+- Consulted section: Article 1 definitions of eligible and aligned activity
+- Supports: Eligibility describes covered activities irrespective of satisfaction of criteria; alignment requires Article 3 compliance.
+- Limits: Definition inspected; quantitative examples do not claim to reproduce all 2026 reporting exclusions or undertaking-specific methodologies.
+
+## ESMA-STRATEGIES-26 — ESMA clarity in communications on ESG strategies
+
+[Official publisher / source](https://www.esma.europa.eu/press-news/esma-news/esma-promotes-clarity-communications-esg-strategies)
+
+- Version/date: 14 January 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: EU / Luxembourg
+- Consulted section: ESG integration and exclusion claims
+- Supports: Strategy terminology requires explanation; integration and exclusions can mean different things.
+- Limits: Supervisory communication; fictional examples do not reproduce observed firm cases.
+
+## ESMA-CLAIMS-OCT26 — ESMA clarity in impact and transition claims
+
+[Official publisher / source](https://www.esma.europa.eu/press-news/esma-news/esma-promotes-clarity-claims-impact-and-transition)
+
+- Version/date: 12 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: EU / Luxembourg
+- Consulted section: Impact mechanisms, measurement, transition assumptions and dependencies
+- Supports: Claims need clear scope and evidence, with balanced uncertainty.
+- Limits: These thematic notes expressly create no new regulatory requirements; no proposed SFDR category is treated as enacted law.

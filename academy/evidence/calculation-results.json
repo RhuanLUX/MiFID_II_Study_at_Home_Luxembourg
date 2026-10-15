@@ -1,6 +1,8 @@
 {
   "date": "2026-10-15",
-  "checks": 416,
+  "build_sha256": "077c51dcf4515eb4f74f0d3014d405674f6b6641647e2bdd0f3e5527870152e0",
+  "lessons": 95,
+  "checks": 458,
   "rows": [
     {
       "lesson": "EIP-1.1-01",
@@ -3402,6 +3404,342 @@
       "method": "difference",
       "actual": 10,
       "expected": 10,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-01",
+      "id": "venue-a",
+      "method": "sum",
+      "actual": 10018,
+      "expected": 10018,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-01",
+      "id": "venue-b",
+      "method": "sum",
+      "actual": 10022,
+      "expected": 10022,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-01",
+      "id": "consideration-difference",
+      "method": "difference",
+      "actual": 4,
+      "expected": 4,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-01",
+      "id": "illustrative-funding",
+      "method": "simple_interest",
+      "actual": 4.383561643835616,
+      "expected": 4.383561643835616,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-01",
+      "id": "settlement-gap",
+      "method": "difference",
+      "actual": 4500,
+      "expected": 4500,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-02",
+      "id": "displayed-turnover",
+      "method": "product",
+      "actual": 400000,
+      "expected": 400000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-03",
+      "id": "receipt-reconciliation",
+      "method": "sum",
+      "actual": 240000,
+      "expected": 240000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-03",
+      "id": "supported-receipt-share",
+      "method": "ratio",
+      "actual": 0.875,
+      "expected": 0.875,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-03",
+      "id": "unexplained-share",
+      "method": "ratio",
+      "actual": 0.125,
+      "expected": 0.125,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.3-01",
+      "id": "departing-assets",
+      "method": "product",
+      "actual": 6400000,
+      "expected": 6400000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.3-01",
+      "id": "fee-exposure",
+      "method": "product",
+      "actual": 38400,
+      "expected": 38400,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.3-01",
+      "id": "remaining-fees",
+      "method": "product",
+      "actual": 441600,
+      "expected": 441600,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.3-01",
+      "id": "statement-overstatement",
+      "method": "ratio",
+      "actual": 0.05,
+      "expected": 0.05,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.3-02",
+      "id": "annual-cost-gap",
+      "method": "product",
+      "actual": 600,
+      "expected": 600,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "id": "allocation-sum",
+      "method": "sum",
+      "actual": 70000000,
+      "expected": 70000000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "id": "allocation-share",
+      "method": "ratio",
+      "actual": 0.7,
+      "expected": 0.7,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "id": "original-coupon",
+      "method": "product",
+      "actual": 350.00000000000006,
+      "expected": 350,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "id": "stepped-coupon",
+      "method": "product",
+      "actual": 375,
+      "expected": 375,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "id": "extra-two-coupons",
+      "method": "product",
+      "actual": 50,
+      "expected": 50,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "id": "duration-change",
+      "method": "product",
+      "actual": -0.07,
+      "expected": -0.07,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "id": "green-price-loss",
+      "method": "product",
+      "actual": 1400.0000000000002,
+      "expected": 1400,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "id": "green-sale-value",
+      "method": "difference",
+      "actual": 18600,
+      "expected": 18600,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "id": "eligible-revenue",
+      "method": "ratio",
+      "actual": 0.6,
+      "expected": 0.6,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "id": "aligned-revenue",
+      "method": "ratio",
+      "actual": 0.35,
+      "expected": 0.35,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "id": "aligned-within-eligible",
+      "method": "ratio",
+      "actual": 0.5833333333333334,
+      "expected": 0.5833333333333334,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "id": "revenue-reconciliation",
+      "method": "sum",
+      "actual": 100000000,
+      "expected": 100000000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "id": "preference-headroom",
+      "method": "difference",
+      "actual": 0.01999999999999999,
+      "expected": 0.02,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "id": "sustainable-share",
+      "method": "ratio",
+      "actual": 0.4,
+      "expected": 0.4,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "id": "aligned-share",
+      "method": "ratio",
+      "actual": 0.15,
+      "expected": 0.15,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "id": "sustainable-other",
+      "method": "difference",
+      "actual": 2500000,
+      "expected": 2500000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "weighted-intensity",
+      "method": "weighted",
+      "actual": 68,
+      "expected": 68,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "coverage",
+      "method": "sum",
+      "actual": 0.8,
+      "expected": 0.8,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "known-contribution",
+      "method": "weighted",
+      "actual": 46,
+      "expected": 46,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "observed-average",
+      "method": "ratio",
+      "actual": 57.5,
+      "expected": 57.5,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "conditional-upper",
+      "method": "sum",
+      "actual": 86,
+      "expected": 86,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "first-intensity",
+      "method": "ratio",
+      "actual": 200,
+      "expected": 200,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "second-intensity",
+      "method": "ratio",
+      "actual": 175,
+      "expected": 175,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "intensity-change",
+      "method": "price_return",
+      "actual": -0.125,
+      "expected": -0.125,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "absolute-change",
+      "method": "price_return",
+      "actual": 0.05,
+      "expected": 0.05,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-04",
+      "id": "advertised-decline",
+      "method": "price_return",
+      "actual": -0.4,
+      "expected": -0.4,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-04",
+      "id": "conditional-complete-intensity",
+      "method": "weighted",
+      "actual": 88,
+      "expected": 88,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-04",
+      "id": "conditional-decline",
+      "method": "price_return",
+      "actual": -0.12,
+      "expected": -0.12,
       "status": "PASS"
     }
   ]

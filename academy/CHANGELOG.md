@@ -1,5 +1,9 @@
 # Changes
 
+## 1.0.0-reading — 15 October 2026
+
+Phase 1 English reading production complete: 95/95 lessons, all 78 official lettered syllabus items and the separately identified Green Finance examination area. Final nine lessons cover secondary-market regulation, MAR including June 2026 disclosure amendments, AML, reputation, EFPA ethics and Green Finance. All 109 original micro-objectives have explicit authored outcomes; the final audit corrected the bond-tax objective reference. Added a complete objective-level evidence matrix and release checks that reject stale validation evidence. The three bilingual Golden Masters and supplied baseline remain byte-for-byte unchanged. Full translations of the 92 new units remain explicitly pending. No assessment or future-project functionality was added. Final verification includes 458 numerical cases and 190 offline Edge page/viewport checks.
+
 ## 0.7.0-production — 15 October 2026
 
 Batch 06 adds fourteen English units on life insurance, retirement and investment-service conduct. Delivery: 86/95 (90.5%); Insurance and Retirement complete. Verified CAA Circular 26/1 and its existing-contract scope, 2026 €4,500 personal-retirement ceiling, capital/annuity/early-payment tax distinctions, July CAA value-for-money review, MiFID service and inducement rules, cost aggregation and complaint boundaries. 416 numerical cases and all structural regressions pass. Full CSSF 17/665 and 17/670 sources retained; this reading course claims neither registered training status nor 60/80-hour equivalence.

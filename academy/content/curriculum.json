@@ -2377,7 +2377,7 @@
         "7.2.a"
       ],
       "prerequisites": "2.3;7.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-7.2-02",
@@ -2390,7 +2390,7 @@
         "7.2.b"
       ],
       "prerequisites": "2.3;7.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-7.2-03",
@@ -2403,7 +2403,7 @@
         "7.2.c"
       ],
       "prerequisites": "2.3;7.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-7.3-01",
@@ -2417,7 +2417,7 @@
         "7.3.b"
       ],
       "prerequisites": "7.1;7.2",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-7.3-02",
@@ -2430,7 +2430,7 @@
         "7.3.c"
       ],
       "prerequisites": "7.1;7.2",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-M8-01",
@@ -2443,7 +2443,7 @@
         "EXAM-M8"
       ],
       "prerequisites": "3.9;4.1;7.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-M8-02",
@@ -2456,7 +2456,7 @@
         "EXAM-M8"
       ],
       "prerequisites": "3.9;4.1;7.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-M8-03",
@@ -2469,7 +2469,7 @@
         "EXAM-M8"
       ],
       "prerequisites": "3.9;4.1;7.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-M8-04",
@@ -2482,7 +2482,7 @@
         "EXAM-M8"
       ],
       "prerequisites": "3.9;4.1;7.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     }
   ],
   "total_minutes": 2740,

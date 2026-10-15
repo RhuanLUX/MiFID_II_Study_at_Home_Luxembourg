@@ -1,5 +1,9 @@
 # Changes
 
+## 0.5.0-production — 15 October 2026
+
+Batch 04 adds fifteen English reading units on FX, funds, ESG and complexity, bringing delivery to 58/95 (61.1%) and completing the planned Financial Products module. All 58 pages passed offline Edge desktop/mobile regression; 260 numerical cases and 15 structure/regression checks passed. Research includes the current 2010 UCI law, 2026 liquidity-tool rules and their existing-fund transition, September 2026 NGFS guide, full ESMA complexity guidelines, and July 2026 ESG-rating disclosures. SFDR proposals remain distinguished from effective rules.
+
 ## 0.4.0-production — 15 October 2026
 
 Batch 03 adds fifteen English reading units: investment-tax foundations, bond taxation, equities and derivatives. Current delivery: 43/95 (45.3%). ACD's coordinated 2026 income-tax text is retained with SHA-256 provenance. Tax examples distinguish verified conditions from assumed marginal rates and excluded assessment effects. Product-specific derivative writing, exercise and recognition remain explicit validation limits; no universal derivative tax rate is asserted.

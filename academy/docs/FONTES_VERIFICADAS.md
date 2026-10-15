@@ -422,6 +422,149 @@ Locally authored mathematics and fictional examples.
 - Supports: Official route for verifying admission, trading and market-specific rules.
 - Limits: Index inspected; specific order-validity rules, trading schedules and fees are not inferred from unexamined documents.
 
+## SFDR-DEFS — SFDR Regulation (EU) 2019/2088
+
+[Official publisher / source](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32019R2088)
+
+- Version/date: Publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: EU
+- Consulted section: Article 2(17), (22), (24); Articles 3, 6, 8 and 9
+- Supports: Distinguishes sustainable investment, sustainability risk, factors and disclosure duties.
+- Limits: Base text definitions checked; July 2026 consolidation endpoint blocked automated reading. July ESG-rating amendment verified separately through CSSF; revision proposals not treated as effective law.
+
+## CSSF-ESG26 — CSSF sustainable-finance supervisory priorities
+
+[Official publisher / source](https://www.cssf.lu/en/2026/03/the-cssfs-supervisory-priorities-in-the-area-of-sustainable-finance/)
+
+- Version/date: March 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: Investment management, disclosures and sustainability-risk supervision
+- Supports: Current national supervisory context for ESG implementation.
+- Limits: No accreditation or product endorsement implied.
+
+## CSSF-RATINGS26 — ESG Ratings Regulation and new SFDR disclosure requirements
+
+[Official publisher / source](https://www.cssf.lu/en/2026/07/communication-to-market-participants-on-the-application-of-the-esg-ratings-regulation-and-the-new-disclosure-requirements-under-the-sfdr/)
+
+- Version/date: 1 July 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg / EU
+- Consulted section: Application from 2 July 2026; Article 49 amendment to SFDR Article 13
+- Supports: Current disclosure update; ratings-provider transition does not itself imply every provider authorised.
+- Limits: October 2026 edition; transition and authorisation status must be rechecked for later use.
+
+## SFDR-REVISION26 — Council working-party agenda: SFDR revision
+
+[Official publisher / source](https://www.consilium.europa.eu/en/meetings/mpo/2026/10/financial-services-attaches-%28371412%29/)
+
+- Version/date: 12 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: EU
+- Consulted section: 12 October 2026; initial positions before trilogues
+- Supports: Confirms revision remains a proposal/negotiation at this source date.
+- Limits: Agenda is evidence of legislative stage, not enacted final text or prediction.
+
+## NGFS-2026 — Guide for supervisors: climate and nature-related risks
+
+[Official publisher / source](https://www.ngfs.net/system/files/2026-10/NGFS_Guide_for_Supervisors_2026.pdf)
+
+- Version/date: September 2026; publisher page updated 1 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal financial risk
+- Consulted section: Chapter 1 definitions/transmission; Chapter 3 scenario analysis
+- Supports: Physical and transition drivers translate into familiar financial-risk categories.
+- Limits: Supervisory guide, not a probability forecast or a retail investment rule. Original hypothetical cases illustrate channels.
+
+## ESMA-COMPLEX — Guidelines on complex debt instruments and structured deposits
+
+[Official publisher / source](https://www.esma.europa.eu/sites/default/files/library/2015-1787_-_guidelines_on_complex_debt_instruments_and_structured_deposits.pdf)
+
+- Version/date: ESMA/2015/1787; 4 February 2016 publication
+- Checked: 2026-10-15
+- Jurisdiction / role: EU
+- Consulted section: Paragraphs 12–16 and non-exhaustive examples
+- Supports: Embedded derivatives, difficult debt structures and structured-deposit return/exit criteria for MiFID II Article 25.
+- Limits: All 12 pages read; classification scope concerns appropriateness/execution-only, not a universal ban or suitability exemption.
+
+## CSSF-COMPLEX — ESMA complexity guidelines — CSSF publication
+
+[Official publisher / source](https://www.cssf.lu/en/Document/esma-guidelines-on-complex-debt-instruments-and-structured-deposits/)
+
+- Version/date: 4 February 2016; checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: ESMA/2015/1787 official national source route
+- Supports: Connects the ESMA guidelines to the Luxembourg regulatory source catalogue.
+- Limits: Landing page alone does not add new national numerical criteria.
+
+## CSSF-UCI26 — Law of 17 December 2010 relating to UCIs — coordinated text
+
+[Official publisher / source](https://www.cssf.lu/wp-content/uploads/L_171210_UCI.pdf)
+
+- Version/date: CSSF current coordinated text retrieved 15 October 2026; 128 pages
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: Part I; fund forms and parties; investment restrictions; Articles 173–176; Article 181
+- Supports: Luxembourg UCITS framework, subscription-tax distinction and compartment structure.
+- Limits: CSSF informational consolidation, updated May 2026; official Journal texts prevail. Specific product prospectus and investor tax law still required.
+
+## CSSF-LMT26 — Circular CSSF 26/910 with ESMA LMT guidelines
+
+[Official publisher / source](https://www.cssf.lu/wp-content/uploads/cssf26_910eng.pdf)
+
+- Version/date: 15 April 2026; annex ESMA34-671404336-1364 of 12 March 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg / EU
+- Consulted section: Circular section 4; annex selection/calibration of liquidity tools
+- Supports: 2026 liquidity-tool framework and transition for existing funds.
+- Limits: Guidelines apply 16 April 2026; existing funds have the stated 12-month transition to 16 April 2027. Do not conflate that with the separate statutory selection requirements.
+
+## CSSF-LMT-COMM — Communication to the investment fund industry
+
+[Official publisher / source](https://www.cssf.lu/en/2026/03/communication-to-the-investment-fund-industry/)
+
+- Version/date: 18 March 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: Statutory selection, suitability, disclosure and notification of LMTs
+- Supports: Additional liquidity-management requirements effective 16 April 2026.
+- Limits: Operational deadlines are not a promise that every investor can redeem immediately.
+
+## ESMA-CLASSES — Opinion on UCITS share classes
+
+[Official publisher / source](https://www.esma.europa.eu/sites/default/files/library/opinion_on_ucits_share_classes.pdf)
+
+- Version/date: 30 January 2017
+- Checked: 2026-10-15
+- Jurisdiction / role: EU
+- Consulted section: Common objective, non-contagion, pre-determination and transparency
+- Supports: Share classes share a pool but can have disclosed fee, currency and distribution differences.
+- Limits: Currency hedging does not imply removal of all underlying risks.
+
+## UCITS-52 — UCITS Article 52 — concentration
+
+[Official publisher / source](https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/ucits/article-52)
+
+- Version/date: Publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: EU
+- Consulted section: Issuer, deposit and counterparty limits with qualifications
+- Supports: Risk-spreading has detailed limits and exceptions.
+- Limits: Introductory examples are scoped to ordinary issuer limits; no blanket rule for sovereign/index/covered-bond exceptions.
+
+## ECB-FX — Euro foreign exchange reference rates
+
+[Official publisher / source](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html)
+
+- Version/date: Publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Euro area / universal FX arithmetic
+- Consulted section: Base euro quotation and informational purpose
+- Supports: ECB reference rates are informational, not executable customer quotes.
+- Limits: No live rate reused. All lesson prices, spreads and forward rates are fictional.
+
 ## CME-PNL — Calculating futures contract profit or loss
 
 [Official publisher / source](https://www.cmegroup.com/education/courses/introduction-to-futures/calculating-futures-contract-profit-or-loss)

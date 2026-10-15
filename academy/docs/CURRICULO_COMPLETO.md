@@ -8,7 +8,7 @@ All 78 lettered syllabus leaves are mapped, plus the separate Green Finance exam
 
 This estimate is not a declaration that the entire certification can be mastered in 45.7 hours. EFPA references 80 training hours or equivalent; rereading, taking notes, slower first encounters and the separately authorised future practice phase may add substantial time. Revise unit counts and durations when substantive writing and Owner UAT reveal a need to split or combine material. No equivalence or accreditation is claimed.
 
-43 of 95 reading units are authored. Lesson 16 is approved as the pedagogical reference. The other titles are curriculum plans, not empty lessons counted as completed work. MATRIZ_COBERTURA.csv distinguishes planned coverage from partial implemented evidence. The complete official scope is mapped, but substantive curriculum coverage is not complete.
+58 of 95 reading units are authored. Lesson 16 is approved as the pedagogical reference. The other titles are curriculum plans, not empty lessons counted as completed work. MATRIZ_COBERTURA.csv distinguishes planned coverage from partial implemented evidence. The complete official scope is mapped, but substantive curriculum coverage is not complete.
 
 ## Sequence
 
@@ -62,21 +62,21 @@ Example progression: percentages → EIP-3.1-A (dated values) → EIP-3.4-A (pri
 | 40 | EIP-3.6-04 | 3.6 | Option payoff and profit: complete scenario tables | 30 | 3.4;3.5 | CONTENT_REVIEWED |
 | 41 | EIP-3.6-05 | 3.6 | Hedging versus speculation: consequences and limits | 30 | 3.4;3.5 | CONTENT_REVIEWED |
 | 42 | EIP-3.6-06 | 3.6 | Derivatives taxation: product and taxpayer distinctions | 25 | 3.4;3.5 | CONTENT_REVIEWED |
-| 43 | EIP-3.7-01 | 3.7 | The FX market and two-way quotation conventions | 30 | 3.1;2.3 | PLANNED_NOT_AUTHORED |
-| 44 | EIP-3.7-02 | 3.7 | Cross rates and currency conversions | 30 | 3.1;2.3 | PLANNED_NOT_AUTHORED |
-| 45 | EIP-3.7-03 | 3.7 | Foreign investments: asset returns and currency effects | 30 | 3.1;2.3 | PLANNED_NOT_AUTHORED |
-| 46 | EIP-3.7-04 | 3.7 | Currency hedging and its trade-offs | 25 | 3.1;2.3 | PLANNED_NOT_AUTHORED |
-| 47 | EIP-3.8-01 | 3.8 | How a mutual fund works: parties, units and governance | 30 | 3.4;3.5 | PLANNED_NOT_AUTHORED |
-| 48 | EIP-3.8-02 | 3.8 | NAV, subscriptions and redemptions | 25 | 3.4;3.5 | PLANNED_NOT_AUTHORED |
-| 49 | EIP-3.8-03 | 3.8 | Fund policy and UCITS structures | 30 | 3.4;3.5 | PLANNED_NOT_AUTHORED |
-| 50 | EIP-3.8-04 | 3.8 | Fund risk, liquidity, costs and share classes | 30 | 3.4;3.5 | PLANNED_NOT_AUTHORED |
-| 51 | EIP-3.8-05 | 3.8 | Comparing and selecting funds with evidence | 30 | 3.4;3.5 | PLANNED_NOT_AUTHORED |
-| 52 | EIP-3.8-06 | 3.8 | Luxembourg fund-investment taxation | 25 | 3.4;3.5 | PLANNED_NOT_AUTHORED |
-| 53 | EIP-3.9-01 | 3.9 | Sustainable finance and ESG investing: meanings and limits | 30 | 3.5 | PLANNED_NOT_AUTHORED |
-| 54 | EIP-3.9-02 | 3.9 | Environmental, social and governance factors in practice | 30 | 3.5 | PLANNED_NOT_AUTHORED |
-| 55 | EIP-3.9-03 | 3.9 | Physical and transition risk in investment decisions | 25 | 3.5 | PLANNED_NOT_AUTHORED |
-| 56 | EIP-3.10-01 | 3.10 | Complex payoffs, leverage and contingent outcomes | 30 | 3.6;3.8 | PLANNED_NOT_AUTHORED |
-| 57 | EIP-3.10-02 | 3.10 | Applying ESMA and CSSF product-complexity criteria | 30 | 3.6;3.8 | PLANNED_NOT_AUTHORED |
+| 43 | EIP-3.7-01 | 3.7 | The FX market and two-way quotation conventions | 30 | 3.1;2.3 | CONTENT_REVIEWED |
+| 44 | EIP-3.7-02 | 3.7 | Cross rates and currency conversions | 30 | 3.1;2.3 | CONTENT_REVIEWED |
+| 45 | EIP-3.7-03 | 3.7 | Foreign investments: asset returns and currency effects | 30 | 3.1;2.3 | CONTENT_REVIEWED |
+| 46 | EIP-3.7-04 | 3.7 | Currency hedging and its trade-offs | 25 | 3.1;2.3 | CONTENT_REVIEWED |
+| 47 | EIP-3.8-01 | 3.8 | How a mutual fund works: parties, units and governance | 30 | 3.4;3.5 | CONTENT_REVIEWED |
+| 48 | EIP-3.8-02 | 3.8 | NAV, subscriptions and redemptions | 25 | 3.4;3.5 | CONTENT_REVIEWED |
+| 49 | EIP-3.8-03 | 3.8 | Fund policy and UCITS structures | 30 | 3.4;3.5 | CONTENT_REVIEWED |
+| 50 | EIP-3.8-04 | 3.8 | Fund risk, liquidity, costs and share classes | 30 | 3.4;3.5 | CONTENT_REVIEWED |
+| 51 | EIP-3.8-05 | 3.8 | Comparing and selecting funds with evidence | 30 | 3.4;3.5 | CONTENT_REVIEWED |
+| 52 | EIP-3.8-06 | 3.8 | Luxembourg fund-investment taxation | 25 | 3.4;3.5 | CONTENT_REVIEWED |
+| 53 | EIP-3.9-01 | 3.9 | Sustainable finance and ESG investing: meanings and limits | 30 | 3.5 | CONTENT_REVIEWED |
+| 54 | EIP-3.9-02 | 3.9 | Environmental, social and governance factors in practice | 30 | 3.5 | CONTENT_REVIEWED |
+| 55 | EIP-3.9-03 | 3.9 | Physical and transition risk in investment decisions | 25 | 3.5 | CONTENT_REVIEWED |
+| 56 | EIP-3.10-01 | 3.10 | Complex payoffs, leverage and contingent outcomes | 30 | 3.6;3.8 | CONTENT_REVIEWED |
+| 57 | EIP-3.10-02 | 3.10 | Applying ESMA and CSSF product-complexity criteria | 30 | 3.6;3.8 | CONTENT_REVIEWED |
 | 58 | EIP-4.1-A | 4.1 | Suitability: turn client evidence into a defensible decision | 30 | 3.4;3.8 | GOLDEN_MASTER_PRESERVED |
 | 59 | EIP-4.1-02 | 4.1 | Designing a clear and reliable client questionnaire | 30 | 3.4;3.8 | PLANNED_NOT_AUTHORED |
 | 60 | EIP-4.1-03 | 4.1 | Updating a profile when the client’s life changes | 25 | 3.4;3.8 | PLANNED_NOT_AUTHORED |

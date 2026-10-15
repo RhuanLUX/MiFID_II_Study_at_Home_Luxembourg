@@ -2,6 +2,8 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('n
 const sum=a=>a.reduce((s,x)=>s+x,0);const cashflows=([f,c,y,n])=>Array.from({length:n},(_,i)=>({t:i+1,pv:(c+(i===n-1?f:0))/(1+y)**(i+1)}));
 const macaulay=a=>{const cf=cashflows(a);return sum(cf.map(x=>x.t*x.pv))/sum(cf.map(x=>x.pv));};
 const methods={
+capped_note:([p,participation,cap,returns])=>returns.map(r=>p*(1+Math.min(cap,Math.max(0,r)*participation))),
+barrier_note:([p,c,barrier,ratios])=>ratios.map(r=>c+(r>=barrier?p:p*r)),
 option_table:([type,k,p,spots])=>spots.map(s=>(type==='call'?Math.max(s-k,0):Math.max(k-s,0))-p),
 protective_put:([initial,k,p,spots])=>spots.map(s=>s+Math.max(k-s,0)-initial-p),
 simple_interest:([p,r,t])=>p*r*t,net_revenue:([r,...c])=>r-sum(c),expected_net:([p,r,c])=>p*r-c,

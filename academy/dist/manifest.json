@@ -1,11 +1,11 @@
 {
-  "version": "0.4.0-production",
+  "version": "0.5.0-production",
   "scope": "Reading-only Phase 1",
   "owner_uat": "LESSON_16_REFERENCE_APPROVED_PRODUCTION_AUTHORISED",
   "date": "2026-10-15",
   "file": "EIP_Luxembourg_Academy.html",
-  "sha256": "44eef515808d0ecd0a8e07586b7d53cdfcde2dfca2e898e7a72ffbeb7e979b63",
-  "bytes": 664234,
+  "sha256": "feed0607b203ebe47557b037e313c443ccd38a38d020876a6d15b1b3be837cb1",
+  "bytes": 837106,
   "lessons": [
     {
       "id": "EIP-3.1-A",
@@ -262,6 +262,96 @@
     {
       "id": "EIP-3.6-06",
       "en_words": 1174,
+      "pt_words": 0,
+      "examples": 3
+    },
+    {
+      "id": "EIP-3.7-01",
+      "en_words": 1106,
+      "pt_words": 0,
+      "examples": 3
+    },
+    {
+      "id": "EIP-3.7-02",
+      "en_words": 1131,
+      "pt_words": 0,
+      "examples": 3
+    },
+    {
+      "id": "EIP-3.7-03",
+      "en_words": 1119,
+      "pt_words": 0,
+      "examples": 3
+    },
+    {
+      "id": "EIP-3.7-04",
+      "en_words": 1012,
+      "pt_words": 0,
+      "examples": 3
+    },
+    {
+      "id": "EIP-3.8-01",
+      "en_words": 1129,
+      "pt_words": 0,
+      "examples": 3
+    },
+    {
+      "id": "EIP-3.8-02",
+      "en_words": 1076,
+      "pt_words": 0,
+      "examples": 3
+    },
+    {
+      "id": "EIP-3.8-03",
+      "en_words": 1192,
+      "pt_words": 0,
+      "examples": 3
+    },
+    {
+      "id": "EIP-3.8-04",
+      "en_words": 1189,
+      "pt_words": 0,
+      "examples": 3
+    },
+    {
+      "id": "EIP-3.8-05",
+      "en_words": 1171,
+      "pt_words": 0,
+      "examples": 3
+    },
+    {
+      "id": "EIP-3.8-06",
+      "en_words": 1131,
+      "pt_words": 0,
+      "examples": 3
+    },
+    {
+      "id": "EIP-3.9-01",
+      "en_words": 1160,
+      "pt_words": 0,
+      "examples": 3
+    },
+    {
+      "id": "EIP-3.9-02",
+      "en_words": 1153,
+      "pt_words": 0,
+      "examples": 3
+    },
+    {
+      "id": "EIP-3.9-03",
+      "en_words": 1032,
+      "pt_words": 0,
+      "examples": 3
+    },
+    {
+      "id": "EIP-3.10-01",
+      "en_words": 1158,
+      "pt_words": 0,
+      "examples": 3
+    },
+    {
+      "id": "EIP-3.10-02",
+      "en_words": 1191,
       "pt_words": 0,
       "examples": 3
     }

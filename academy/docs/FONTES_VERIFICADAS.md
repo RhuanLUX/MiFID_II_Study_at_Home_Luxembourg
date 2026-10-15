@@ -421,3 +421,157 @@ Locally authored mathematics and fictional examples.
 - Consulted section: Current rulebook/trading-manual index, including June 2026 amendments
 - Supports: Official route for verifying admission, trading and market-specific rules.
 - Limits: Index inspected; specific order-validity rules, trading schedules and fees are not inferred from unexamined documents.
+
+## CME-PNL — Calculating futures contract profit or loss
+
+[Official publisher / source](https://www.cmegroup.com/education/courses/introduction-to-futures/calculating-futures-contract-profit-or-loss)
+
+- Version/date: Publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal financial mathematics
+- Consulted section: Contract size, tick and price-change arithmetic
+- Supports: Contract multiplier converts quoted changes to monetary gains and losses.
+- Limits: All Academy contract specifications are invented; no current exchange quote or specification reused.
+
+## CME-MTM — Mark-to-market
+
+[Official publisher / source](https://www.cmegroup.com/education/courses/introduction-to-futures/mark-to-market)
+
+- Version/date: Publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal financial concepts
+- Consulted section: Settlement prices and daily variation
+- Supports: Futures gains/losses generate cash settlement and liquidity needs.
+- Limits: Historical trading hours and product settlement formulas on the page are not reused.
+
+## CME-INITIAL — Margin: Know What Is Needed
+
+[Official publisher / source](https://www.cmegroup.com/education/courses/introduction-to-futures/margin-know-what-is-needed)
+
+- Version/date: Publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal financial concepts
+- Consulted section: Initial/maintenance margin and replenishment
+- Supports: Distinguishes performance collateral from an underlying-asset purchase.
+- Limits: No generic percentage or current broker threshold asserted.
+
+## OPENSTAX-DDM — Dividend discount models — Principles of Finance 2e
+
+[Official publisher / source](https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms)
+
+- Version/date: 2026 second edition; checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal financial mathematics
+- Consulted section: Constant growth model and assumptions
+- Supports: Present-value valuation of expected dividends.
+- Limits: Original examples and sensitivity derivations; no issuer valuation or forecast.
+
+## SEC-DIVERSIFY — Asset allocation and diversification
+
+[Official publisher / source](https://www.investor.gov/introduction-investing/getting-started/asset-allocation)
+
+- Version/date: Publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal financial concepts
+- Consulted section: Allocation, tolerance and spreading investment exposures
+- Supports: Diversification reduces concentration but does not assure a profit.
+- Limits: No US retirement/tax rules imported; client scenarios are original.
+
+## ACD-LIR26 — ACD coordinated income-tax law effective 1 January 2026
+
+[Official publisher / source](https://impotsdirects.public.lu/dam-assets/fr/legislation/LIR/texte-coordonn-en-vigueur-au-1er-janvier-2026-ver-08052026.pdf)
+
+- Version/date: Effective 1 January 2026; updated 8 May 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: Articles 2, 97, 99bis, 100, 102, 108, 111, 111bis, 115, 131, 146, 149, 156 and 157ter
+- Supports: Current coordinated reference for taxpayer scope, income classification, private disposals, exemptions and insurance/pension conditions.
+- Limits: ACD expressly labels this coordinated text informational; official Journal texts prevail. Snapshot locally retained with hash. Selected articles inspected, not a complete legal opinion.
+
+## LU-INTEREST — Declaring interest received
+
+[Official publisher / source](https://guichet.public.lu/en/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/banque-luxembourgeoise.html)
+
+- Version/date: Publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg / EU
+- Consulted section: Eligible interest, paying-agent location, 20% final levy, exclusions and foreign election
+- Supports: Distinguishes qualifying private resident interest from other recipients and fund income.
+- Limits: Guide updated 9 June 2023; checked against current ACD framework; not every debt-related receipt is automatically eligible.
+
+## LU-DIVIDENDS — Distribution of dividends
+
+[Official publisher / source](https://guichet.public.lu/en/entreprises/fiscalite/impots-benefices/benefices-patrimoine/imposition-benefices-distribues/distribution-dividendes.html)
+
+- Version/date: Publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg / EU
+- Consulted section: Natural-person resident beneficiary; withholding advance; conditional half-dividend exemption
+- Supports: Distinguishes 15% Luxembourg withholding from conditional 50% income exemption.
+- Limits: Corporate participation exemption is separate. Use ACD 2026 Article 115(15a) for conditions; old guide thresholds are not universal current-law tests.
+
+## LU-PRIVATE-GAINS — Identifying and reporting income from sale of shares or securities
+
+[Official publisher / source](https://guichet.public.lu/en/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/achat-vente-actions.html)
+
+- Version/date: Publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg / EU
+- Consulted section: Holding period, significant participation, evidence and declaration
+- Supports: Private share-disposal framework and records.
+- Limits: 2023 guide uses imprecise boundary wording and dated rate examples; lessons use 2026 LIR no-more-than-six-month boundary and strict more-than-10% test. No dated maximum rate reused.
+
+## LU-ASSIMILATION — Opting for tax treatment equivalent to that of a resident
+
+[Official publisher / source](https://guichet.public.lu/en/citoyens/fiscalite/declaration-impot-decompte/activite-professionnelle/declaration-revenus/assimilation-resident.html)
+
+- Version/date: Publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg / EU
+- Consulted section: Eligibility, worldwide income evidence and election consequences
+- Supports: An assimilation election is conditional and differs from actual tax residence.
+- Limits: Treaty and household facts require case-specific verification; election does not give every resident-only tax option.
+
+## SEC-STOCKS — Stocks — Investor.gov
+
+[Official publisher / source](https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks)
+
+- Version/date: Publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal financial concepts
+- Consulted section: Common/preferred shares, gains, dividends, risks and valuation terminology
+- Supports: Basic equity ownership and investment-risk concepts.
+- Limits: US educational terminology only; rights depend on issuer law and share class. No US tax rules imported.
+
+## SEC-OPTIONS — An Introduction to Options — Investor Bulletin
+
+[Official publisher / source](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63)
+
+- Version/date: 18 March 2015; publisher update 16 July 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal financial concepts
+- Consulted section: Call/put, strike, premium, exercise and writing risk
+- Supports: Basic listed-stock-option mechanics and risk distinctions.
+- Limits: US example contract conventions not applied to Luxembourg; all teaching multipliers/settlement terms explicitly hypothetical.
+
+## CME-FUTURES — Introduction to Futures
+
+[Official publisher / source](https://www.cmegroup.com/education/courses/introduction-to-futures)
+
+- Version/date: Publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal financial concepts
+- Consulted section: Contract specification, notional, mark-to-market, margin, hedging and forwards
+- Supports: Exchange educational route for futures mechanics.
+- Limits: Example contracts are fictional; actual specifications, clearing and broker requirements vary.
+
+## CME-MARGIN — Performance bonds and margins
+
+[Official publisher / source](https://www.cmegroup.com/solutions/risk-management/performance-bonds-margins.html)
+
+- Version/date: Publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal financial concepts
+- Consulted section: Initial margin, risk controls and settlement variation
+- Supports: Margin supports obligations and differs from purchasing the underlying.
+- Limits: No live margin threshold or guarantee of loss limitation; investor can owe more than deposit.

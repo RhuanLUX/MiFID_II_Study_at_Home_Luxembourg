@@ -18,3 +18,4 @@ module.exports=[
 {id:'AUTHOR-MATH',title:'Independent mathematical derivations and original fictional examples',url:null,version:'0.1.0-uat',section:'TVM and bond lesson equations; tests/check.cjs',jurisdiction:'Mathematics; no national tax assumption',claim:'Algebraic derivations, timelines and original numerical scenarios.',limitations:'Hypothetical fixed rates, promised cash flows and stated simplifying assumptions; not market quotes or forecasts.'}
 ].map(x=>({...x,verified_at:'2026-10-15'}));
 module.exports=module.exports.concat(require('./batch-sources.cjs'));
+module.exports=module.exports.concat(require('./production-sources.cjs'));

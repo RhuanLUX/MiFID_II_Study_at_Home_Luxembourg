@@ -1464,7 +1464,7 @@
         "3.2.a"
       ],
       "prerequisites": "3.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-3.2-02",
@@ -1477,7 +1477,7 @@
         "3.2.b"
       ],
       "prerequisites": "3.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-3.2-03",
@@ -1491,7 +1491,7 @@
         "3.2.b"
       ],
       "prerequisites": "3.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-3.3-01",
@@ -1638,7 +1638,7 @@
         "3.4.d"
       ],
       "prerequisites": "3.1;2.3",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-3.5-01",
@@ -1651,7 +1651,7 @@
         "3.5.a"
       ],
       "prerequisites": "3.1;2.3",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-3.5-02",
@@ -1664,7 +1664,7 @@
         "3.5.b"
       ],
       "prerequisites": "3.1;2.3",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-3.5-03",
@@ -1677,7 +1677,7 @@
         "3.5.c"
       ],
       "prerequisites": "3.1;2.3",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-3.5-04",
@@ -1690,7 +1690,7 @@
         "3.5.d"
       ],
       "prerequisites": "3.1;2.3",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-3.5-05",
@@ -1703,7 +1703,7 @@
         "3.5.e"
       ],
       "prerequisites": "3.1;2.3",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-3.6-01",
@@ -1716,7 +1716,7 @@
         "3.6.a"
       ],
       "prerequisites": "3.4;3.5",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-3.6-02",
@@ -1729,7 +1729,7 @@
         "3.6.a"
       ],
       "prerequisites": "3.4;3.5",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-3.6-03",
@@ -1742,7 +1742,7 @@
         "3.6.b"
       ],
       "prerequisites": "3.4;3.5",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-3.6-04",
@@ -1755,7 +1755,7 @@
         "3.6.b"
       ],
       "prerequisites": "3.4;3.5",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-3.6-05",
@@ -1769,7 +1769,7 @@
         "3.6.b"
       ],
       "prerequisites": "3.4;3.5",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-3.6-06",
@@ -1782,7 +1782,7 @@
         "3.6.c"
       ],
       "prerequisites": "3.4;3.5",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-3.7-01",

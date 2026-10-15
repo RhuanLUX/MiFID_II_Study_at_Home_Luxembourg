@@ -1,5 +1,11 @@
 # Changes
 
+## 0.4.0-production — 15 October 2026
+
+Batch 03 adds fifteen English reading units: investment-tax foundations, bond taxation, equities and derivatives. Current delivery: 43/95 (45.3%). ACD's coordinated 2026 income-tax text is retained with SHA-256 provenance. Tax examples distinguish verified conditions from assumed marginal rates and excluded assessment effects. Product-specific derivative writing, exercise and recognition remain explicit validation limits; no universal derivative tax rate is asserted.
+
+All 43 pages passed offline Edge desktop/mobile regression; 179 numerical cases and 15 structure/regression checks passed. Original Golden Masters and the progress format remain unchanged. English-first production continues without another owner gate.
+
 ## 0.3.1-production — 15 October 2026
 
 Batch 02 adds ten English reading units: multiple dated cash flows, deposits, repos, Treasury Bills, money-market benchmarks, clean/dirty bond pricing, solving yields, duration/convexity, credit risk and liquidity/reinvestment. The deposited-balance coverage discussion uses the verified FGDL standard framework; no national tax rule is inferred from it. EONIA is historical and distinguished from current €STR.

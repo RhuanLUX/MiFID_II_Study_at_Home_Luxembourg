@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "checks": 88,
+  "checks": 179,
   "rows": [
     {
       "lesson": "EIP-1.1-01",
@@ -447,6 +447,142 @@
       "status": "PASS"
     },
     {
+      "lesson": "EIP-3.2-01",
+      "id": "sale-gain",
+      "method": "net_revenue",
+      "actual": 730,
+      "expected": 730,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-01",
+      "id": "profit",
+      "method": "sum",
+      "actual": 930,
+      "expected": 930,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-01",
+      "id": "return",
+      "method": "ratio",
+      "actual": 0.11581569115815692,
+      "expected": 0.11581569115815692,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-01",
+      "id": "advance",
+      "method": "product",
+      "actual": 360,
+      "expected": 360,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-01",
+      "id": "remaining",
+      "method": "difference",
+      "actual": 120,
+      "expected": 120,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-01",
+      "id": "net-real-a",
+      "method": "real_return",
+      "actual": 0.011764705882352951,
+      "expected": 0.011764705882352941,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-02",
+      "id": "creditable-balance",
+      "method": "difference",
+      "actual": 120,
+      "expected": 120,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-02",
+      "id": "eligibility-ratio-a",
+      "method": "ratio",
+      "actual": 0.9,
+      "expected": 0.9,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-02",
+      "id": "eligibility-ratio-b",
+      "method": "ratio",
+      "actual": 0.8875,
+      "expected": 0.8875,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-02",
+      "id": "domestic-levy",
+      "method": "product",
+      "actual": 240,
+      "expected": 240,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-02",
+      "id": "election-comparison",
+      "method": "difference",
+      "actual": 60,
+      "expected": 60,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-03",
+      "id": "interest-levy",
+      "method": "product",
+      "actual": 80,
+      "expected": 80,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-03",
+      "id": "purchase-income-yield",
+      "method": "ratio",
+      "actual": 0.0326530612244898,
+      "expected": 0.0326530612244898,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-03",
+      "id": "dividend-base",
+      "method": "net_revenue",
+      "actual": 1475,
+      "expected": 1475,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-03",
+      "id": "dividend-income-tax",
+      "method": "product",
+      "actual": 442.5,
+      "expected": 442.5,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-03",
+      "id": "advance-excess",
+      "method": "difference",
+      "actual": 457.5,
+      "expected": 457.5,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-03",
+      "id": "economic-share-gain",
+      "method": "difference",
+      "actual": 1200,
+      "expected": 1200,
+      "status": "PASS"
+    },
+    {
       "lesson": "EIP-3.3-01",
       "id": "DEP-INTEREST",
       "method": "simple_interest",
@@ -716,6 +852,634 @@
       "method": "sum",
       "actual": -900,
       "expected": -900,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-07",
+      "id": "loss-after-interest-tax",
+      "method": "net_revenue",
+      "actual": 9920,
+      "expected": 9920,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-07",
+      "id": "net-loss-return",
+      "method": "ratio",
+      "actual": -0.008,
+      "expected": -0.008,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-07",
+      "id": "premium-gross-return",
+      "method": "ratio",
+      "actual": 0.019417475728155338,
+      "expected": 0.019417475728155338,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-07",
+      "id": "premium-net-return",
+      "method": "ratio",
+      "actual": 0.009708737864077669,
+      "expected": 0.009708737864077669,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-07",
+      "id": "foreign-scenario-a",
+      "method": "net_revenue",
+      "actual": 328,
+      "expected": 328,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-07",
+      "id": "foreign-scenario-b",
+      "method": "net_revenue",
+      "actual": 290,
+      "expected": 290,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-01",
+      "id": "a-votes",
+      "method": "ratio",
+      "actual": 0.005263157894736842,
+      "expected": 0.005263157894736842,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-01",
+      "id": "b-votes",
+      "method": "ratio",
+      "actual": 0.05263157894736842,
+      "expected": 0.05263157894736842,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-01",
+      "id": "levered-loss",
+      "method": "price_return",
+      "actual": -0.3,
+      "expected": -0.3,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-01",
+      "id": "diluted-percent",
+      "method": "ratio",
+      "actual": 0.008,
+      "expected": 0.008,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-01",
+      "id": "discounted-issue-value",
+      "method": "ratio",
+      "actual": 19.2,
+      "expected": 19.2,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-02",
+      "id": "reported-eps",
+      "method": "ratio",
+      "actual": 3,
+      "expected": 3,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-02",
+      "id": "adjusted-pe",
+      "method": "ratio",
+      "actual": 18,
+      "expected": 18,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-02",
+      "id": "diluted-eps",
+      "method": "ratio",
+      "actual": 1.8181818181818181,
+      "expected": 1.8181818181818181,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-02",
+      "id": "growth-value",
+      "method": "ratio",
+      "actual": 42,
+      "expected": 42,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-02",
+      "id": "higher-required-value",
+      "method": "ratio",
+      "actual": 35,
+      "expected": 35,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-02",
+      "id": "two-year-pv",
+      "method": "dated_pv",
+      "actual": 29.132231404958674,
+      "expected": 29.13223140495868,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-02",
+      "id": "terminal-change",
+      "method": "discount",
+      "actual": 3.305785123966942,
+      "expected": 3.305785123966942,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-03",
+      "id": "net-share-sale",
+      "method": "net_sale",
+      "actual": 4680,
+      "expected": 4680,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-03",
+      "id": "net-result",
+      "method": "net_revenue",
+      "actual": -140,
+      "expected": -140,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-03",
+      "id": "net-return",
+      "method": "ratio",
+      "actual": -0.027888446215139442,
+      "expected": -0.027888446215139442,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-03",
+      "id": "reinvested-quantity",
+      "method": "ratio",
+      "actual": 5.2631578947368425,
+      "expected": 5.2631578947368425,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-03",
+      "id": "linked-wealth",
+      "method": "growth_chain",
+      "actual": 9600,
+      "expected": 9600,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-03",
+      "id": "geometric-return",
+      "method": "terminal_rate",
+      "actual": -0.020204102886728803,
+      "expected": -0.020204102886728803,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-03",
+      "id": "recovery",
+      "method": "ratio",
+      "actual": 0.041666666666666664,
+      "expected": 0.041666666666666664,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-04",
+      "id": "employer-loss",
+      "method": "product",
+      "actual": 20000,
+      "expected": 20000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-04",
+      "id": "portfolio-scenario",
+      "method": "weighted",
+      "actual": -0.09999999999999999,
+      "expected": -0.1,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-04",
+      "id": "alternative-weight",
+      "method": "weighted",
+      "actual": 0.020000000000000018,
+      "expected": 0.02,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-04",
+      "id": "goal-equity-value",
+      "method": "growth_chain",
+      "actual": 22500,
+      "expected": 22500,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-04",
+      "id": "goal-shortfall",
+      "method": "difference",
+      "actual": 1500,
+      "expected": 1500,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-04",
+      "id": "reserved-value",
+      "method": "sum",
+      "actual": 28500,
+      "expected": 28500,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-05",
+      "id": "dividend-withholding",
+      "method": "product",
+      "actual": 600,
+      "expected": 600,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-05",
+      "id": "dividend-income-tax",
+      "method": "product",
+      "actual": 640,
+      "expected": 640,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-05",
+      "id": "remaining-income-tax",
+      "method": "difference",
+      "actual": 40,
+      "expected": 40,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-05",
+      "id": "private-economic-gain",
+      "method": "difference",
+      "actual": 4000,
+      "expected": 4000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-05",
+      "id": "combined-participation",
+      "method": "sum",
+      "actual": 0.12,
+      "expected": 0.12,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-05",
+      "id": "net-profit",
+      "method": "net_revenue",
+      "actual": 1055,
+      "expected": 1055,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-05",
+      "id": "short-holding-scenario",
+      "method": "net_revenue",
+      "actual": 815,
+      "expected": 815,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-01",
+      "id": "input-upside",
+      "method": "product",
+      "actual": 4000,
+      "expected": 4000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-01",
+      "id": "input-downside",
+      "method": "product",
+      "actual": -3000,
+      "expected": -3000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-01",
+      "id": "notional",
+      "method": "product",
+      "actual": 80000,
+      "expected": 80000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-01",
+      "id": "index-profit",
+      "method": "product",
+      "actual": 1600,
+      "expected": 1600,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-01",
+      "id": "index-loss",
+      "method": "product",
+      "actual": -3000,
+      "expected": -3000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-01",
+      "id": "dollar-spot-cost",
+      "method": "ratio",
+      "actual": 88000,
+      "expected": 88000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-02",
+      "id": "day-one",
+      "method": "product",
+      "actual": -400,
+      "expected": -400,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-02",
+      "id": "top-up",
+      "method": "difference",
+      "actual": 800,
+      "expected": 800,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-02",
+      "id": "ledger-profit",
+      "method": "net_revenue",
+      "actual": -200,
+      "expected": -200,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-02",
+      "id": "producer-variation",
+      "method": "product",
+      "actual": -6000,
+      "expected": -6000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-02",
+      "id": "basis-sale",
+      "method": "sum",
+      "actual": 97000,
+      "expected": 97000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-02",
+      "id": "basis",
+      "method": "difference",
+      "actual": -3,
+      "expected": -3,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-02",
+      "id": "alternative-basis-price",
+      "method": "sum",
+      "actual": 102,
+      "expected": 102,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-03",
+      "id": "call-premium",
+      "method": "product",
+      "actual": 300,
+      "expected": 300,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-03",
+      "id": "call-profit",
+      "method": "net_revenue",
+      "actual": 500,
+      "expected": 500,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-03",
+      "id": "put-loss",
+      "method": "net_revenue",
+      "actual": -100,
+      "expected": -100,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-03",
+      "id": "put-breakeven",
+      "method": "difference",
+      "actual": 38,
+      "expected": 38,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-03",
+      "id": "covered-outlay",
+      "method": "net_revenue",
+      "actual": 4800,
+      "expected": 4800,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-03",
+      "id": "covered-upside",
+      "method": "difference",
+      "actual": 700,
+      "expected": 700,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-03",
+      "id": "covered-downside",
+      "method": "difference",
+      "actual": -800,
+      "expected": -800,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-04",
+      "id": "call-table",
+      "method": "option_table",
+      "actual": [
+        -4,
+        -4,
+        -2,
+        0,
+        16
+      ],
+      "expected": [
+        -4,
+        -4,
+        -2,
+        0,
+        16
+      ],
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-04",
+      "id": "put-table",
+      "method": "option_table",
+      "actual": [
+        47,
+        17,
+        0,
+        -2,
+        -3,
+        -3
+      ],
+      "expected": [
+        47,
+        17,
+        0,
+        -2,
+        -3,
+        -3
+      ],
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-04",
+      "id": "protective-table",
+      "method": "protective_put",
+      "actual": [
+        -7,
+        -7,
+        -2,
+        18
+      ],
+      "expected": [
+        -7,
+        -7,
+        -2,
+        18
+      ],
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-04",
+      "id": "protective-max-loss",
+      "method": "product",
+      "actual": 700,
+      "expected": 700,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "id": "forward-euro-receipt",
+      "method": "ratio",
+      "actual": 90909.0909090909,
+      "expected": 90909.0909090909,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "id": "mismatched-net",
+      "method": "net_revenue",
+      "actual": 60909.0909090909,
+      "expected": 60909.0909090909,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "id": "put-downside-profit",
+      "method": "difference",
+      "actual": -300,
+      "expected": -300,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "id": "put-upside-profit",
+      "method": "difference",
+      "actual": 1200,
+      "expected": 1200,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "id": "hedge-contracts",
+      "method": "ratio",
+      "actual": 4,
+      "expected": 4,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "id": "residual-loss",
+      "method": "sum",
+      "actual": -14000,
+      "expected": -14000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-06",
+      "id": "margin-result",
+      "method": "net_revenue",
+      "actual": -200,
+      "expected": -200,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-06",
+      "id": "option-disposal",
+      "method": "net_revenue",
+      "actual": 280,
+      "expected": 280,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-06",
+      "id": "annual-aggregate",
+      "method": "sum",
+      "actual": 700,
+      "expected": 700,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-06",
+      "id": "assumed-ordinary-tax",
+      "method": "product",
+      "actual": 210,
+      "expected": 210,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-06",
+      "id": "ordinary-net",
+      "method": "net_revenue",
+      "actual": 10560,
+      "expected": 10560,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-06",
+      "id": "assumed-interest-net",
+      "method": "net_revenue",
+      "actual": 10640,
+      "expected": 10640,
       "status": "PASS"
     }
   ]

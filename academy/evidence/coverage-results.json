@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "build_sha256": "e1fb1e2507c864271c8326b08876114be605843572c4ec32db37f0c2f8fb58a0",
+  "build_sha256": "b7cf5cd8c42c1d55c6a0189d7c74319ef47ec6bb04801dff8b76e5c967054fe4",
   "lessons": 95,
   "planned": 95,
   "unproduced": 0,
@@ -10,7 +10,7 @@
   "original_objectives": 109,
   "explicitly_implemented_objectives": 109,
   "worked_reading_examples": 285,
-  "pending_translations": 92,
+  "pending_translations": 56,
   "limitations": [
     "Coverage verifies explicit content links and teaching evidence; it does not establish accreditation or independent specialist approval."
   ]

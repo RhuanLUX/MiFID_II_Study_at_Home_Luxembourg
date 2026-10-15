@@ -1,1 +1,1 @@
-module.exports={version:'1.0.1-reading',batch:'Final release — all 95 readings; two-pass content audit and corrections',date:'2026-10-15'};
+module.exports={version:'1.1.0-translation-b03',batch:'PT-BR batch 03 — Lessons 1–38 translated including preserved Golden Masters; production in progress',date:'2026-10-15'};

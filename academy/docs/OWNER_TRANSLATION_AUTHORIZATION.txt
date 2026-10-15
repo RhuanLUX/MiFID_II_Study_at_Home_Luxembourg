@@ -1,0 +1,221 @@
+# EIP LUXEMBOURG ACADEMY
+## PHASE 1.1: COMPLETE BRAZILIAN PORTUGUESE TRANSLATION
+
+**OWNER AUTHORIZATION: START FULL TRANSLATION PRODUCTION**
+
+Continue working on the existing EIP Luxembourg Academy project.
+
+The English-language version `1.0.1-reading`, commit `e0368a7`, is the approved and audited baseline.
+
+The project contains 95 completed lessons. The English curriculum has passed two content audits, financial calculations have been validated, and the offline interface has been approved.
+
+**YOUR OBJECTIVE**
+
+Translate all 95 lessons into professional, natural, technically accurate Brazilian Portuguese (PT-BR), preserving the entire English educational content.
+
+This is a TRANSLATION AND LANGUAGE QUALITY ASSURANCE task, not a content redevelopment task.
+
+### 1. PRESERVE THE APPROVED ENGLISH BASELINE
+
+- Do not rewrite, shorten, restructure or simplify English lessons.
+- Do not change approved financial formulas, calculations, examples or source references.
+- Do not alter the curriculum sequence or lesson identifiers.
+- Do not redesign the interface.
+- Do not introduce new educational functionality.
+- Preserve all existing study progress, notes, completion tracking and backup functions.
+
+If you identify a potential factual error in the English baseline, document it separately instead of silently modifying the approved material.
+
+### 2. TRANSLATE ALL 95 LESSONS
+
+Translate every meaningful educational element, including:
+
+- Lesson titles and section headings.
+- Learning objectives and introductions.
+- Financial definitions and explanations.
+- Theoretical discussions.
+- Step-by-step worked examples.
+- Financial and regulatory scenarios.
+- Mathematical explanations and formula descriptions.
+- Assumptions, limitations and risk considerations.
+- Practical implications and decision-making reasoning.
+- Common mistakes and misunderstandings.
+- Conclusions and lesson summaries.
+- Relevant explanatory notes.
+
+The translation must be COMPLETE.
+
+Do not produce abbreviated Portuguese summaries.
+
+Do not omit paragraphs or simplify complex explanations.
+
+Maintain the same educational depth, technical meaning and sequence of reasoning as the English original.
+
+### 3. FINANCIAL TERMINOLOGY
+
+Use professional terminology appropriate to Brazilian Portuguese while preserving internationally recognized financial concepts.
+
+Examples:
+
+- Suitability: adequação ao perfil do investidor.
+- Yield to Maturity: rendimento até o vencimento (YTM).
+- Duration: duration, com explicação de sua função como medida de sensibilidade quando appropriate.
+- Net Asset Value: valor patrimonial líquido (NAV).
+- Best Execution: melhor execução.
+- Credit Risk: risco de crédito.
+- Market Risk: risco de mercado.
+- Liquidity Risk: risco de liquidez.
+- Compound Interest: juros compostos.
+- Present Value: valor presente.
+- Future Value: valor futuro.
+
+Preserve English financial terminology in parentheses when useful for understanding the certification examination.
+
+Do not translate technical terms literally when doing so would produce incorrect financial meaning.
+
+Do not replace Luxembourg-specific legal or regulatory concepts with Brazilian legal equivalents.
+
+The examination is based on Luxembourg and European requirements, NOT Brazilian financial regulations.
+
+### 4. FORMULAS, NUMBERS AND EXAMPLES
+
+Preserve every:
+
+- Formula.
+- Numerical assumption.
+- Monetary amount.
+- Percentage.
+- Financial result.
+- Calculation sequence.
+- Regulatory reference.
+- Source citation.
+
+Translate the explanations surrounding calculations, but do not change the calculations themselves.
+
+Verify that the Portuguese explanation correctly describes the same mathematical operation and conclusion as the English original.
+
+Avoid accidental changes in decimal notation, currency units, percentages or dates.
+
+If localized formatting is used, ensure that the displayed value remains mathematically identical.
+
+### 5. USER EXPERIENCE
+
+Preserve the approved interface exactly as it is.
+
+English remains the primary teaching language.
+
+The existing eye icon must reveal the complete corresponding PT-BR translation.
+
+The translation should follow the English lesson structure closely so students can compare concepts, paragraphs and examples.
+
+Do not create additional translation screens, tabs, popups or unnecessary controls.
+
+The student should be able to read the English material and access the Portuguese explanation naturally whenever needed.
+
+Preserve offline operation without external translation services or API dependencies.
+
+### 6. PRODUCTION STRATEGY
+
+Work autonomously until all 95 lessons have complete PT-BR translations.
+
+Use controlled batches of approximately 10 to 15 lessons.
+
+After each batch:
+
+1. Confirm that all English content has a corresponding Portuguese translation.
+2. Check terminology consistency.
+3. Verify numerical and formula preservation.
+4. Check paragraph and section correspondence.
+5. Verify that the eye icon displays the correct translation.
+6. Run relevant existing tests.
+7. Continue automatically to the next batch.
+
+Do not request Owner approval after every batch.
+
+Do not stop merely to produce progress reports.
+
+Prioritize completing the actual translations.
+
+### 7. TRANSLATION QUALITY AUDIT
+
+After translating all 95 lessons, perform TWO verification passes.
+
+**First pass: completeness and fidelity**
+
+- Verify all 95 lessons are translated.
+- Detect missing paragraphs, sections and explanatory notes.
+- Confirm that no content was summarized or omitted.
+- Verify financial terminology consistency.
+- Compare translated examples and conclusions against their English originals.
+
+**Second pass: technical accuracy and regression**
+
+- Check financial and regulatory terminology in context.
+- Verify that mathematical and monetary values remain unchanged in meaning.
+- Check that no translation introduces a factual or regulatory contradiction.
+- Confirm that the interface still works offline.
+- Test navigation, notes, lesson completion, backup and the translation eye icon.
+- Confirm that no English material was unintentionally modified.
+
+Correct all verified translation defects.
+
+Use automated comparisons where appropriate, but do not rely exclusively on matching word counts or string lengths to establish translation quality.
+
+### 8. FINAL DELIVERABLE
+
+Deliver the complete bilingual EIP Luxembourg Academy, containing:
+
+- 95 complete lessons in English.
+- 95 complete and faithful PT-BR translations.
+- The existing approved HTML interface.
+- Functional English-to-Portuguese translation controls.
+- Fully offline operation.
+- Preserved study progress functionality.
+- Updated translation QA documentation.
+- Final automated test results.
+- Final Git commit.
+- Final HTML location.
+
+### 9. STRICT SCOPE CONTROL
+
+Do NOT:
+
+- Create new lessons.
+- Add quizzes.
+- Add reinforcement exercises.
+- Add examination simulations.
+- Introduce gamification.
+- Redesign the application.
+- Change the syllabus.
+- Add external AI services.
+- Rebuild previously approved components.
+- Repeat the complete English regulatory audit unnecessarily.
+
+This phase is exclusively about producing and validating the Portuguese translations.
+
+### 10. FINAL REPORT
+
+Provide a concise completion report containing:
+
+- Number of translated lessons.
+- Translation completion percentage.
+- Completeness and fidelity audit results.
+- Technical terminology review results.
+- Numerical consistency results.
+- Offline and functional regression results.
+- Errors discovered and corrected.
+- Remaining issues, if any.
+- Final Git commit.
+- Final HTML file location.
+
+**SUCCESS CRITERION**
+
+Every English lesson must have a complete, technically faithful and readable PT-BR translation, accessible through the existing eye icon.
+
+The Portuguese version must help a Brazilian student understand the original material without distorting financial concepts or Luxembourg regulatory requirements.
+
+Do not report translation completion until all 95 lessons have been translated and validated.
+
+Proceed autonomously until the entire translation phase is complete.
+
+**START FULL PT-BR TRANSLATION NOW.**

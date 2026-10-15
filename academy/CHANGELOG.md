@@ -1,5 +1,9 @@
 # Changes
 
+## 0.6.0-production — 15 October 2026
+
+Batch 05 adds fourteen English reading units on reliable client information, material updates, sustainability matching, return statistics, covariance, allocation, frontier interpretation and performance. Delivery: 72/95 (75.8%); Client Assessment and Portfolio Construction modules complete. Added explicit sample/population calculations, correlation boundaries, allocation constraints, cost comparisons, risk-adjusted measures and dated cash-flow reasoning. Numerical validation now covers 344 cases; the original Golden Masters remain unchanged.
+
 ## 0.5.0-production — 15 October 2026
 
 Batch 04 adds fifteen English reading units on FX, funds, ESG and complexity, bringing delivery to 58/95 (61.1%) and completing the planned Financial Products module. All 58 pages passed offline Edge desktop/mobile regression; 260 numerical cases and 15 structure/regression checks passed. Research includes the current 2010 UCI law, 2026 liquidity-tool rules and their existing-fund transition, September 2026 NGFS guide, full ESMA complexity guidelines, and July 2026 ESG-rating disclosures. SFDR proposals remain distinguished from effective rules.

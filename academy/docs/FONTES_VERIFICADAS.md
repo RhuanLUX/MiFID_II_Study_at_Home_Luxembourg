@@ -422,6 +422,72 @@ Locally authored mathematics and fictional examples.
 - Supports: Official route for verifying admission, trading and market-specific rules.
 - Limits: Index inspected; specific order-validity rules, trading schedules and fees are not inferred from unexamined documents.
 
+## STAT-SPREAD — Measures of spread — publisher reference
+
+[Official publisher / source](https://openstax.org/books/principles-finance-2e/pages/13-2-measures-of-spread)
+
+- Version/date: 2026 second edition
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal mathematics
+- Consulted section: Sample/population variance and standard deviation definitions
+- Supports: Verification of standard statistical definitions only.
+- Limits: No textbook prose, examples, tables or activities reproduced or adapted. Academy explanations and datasets independently authored.
+
+## STAT-CORRELATION — Correlation analysis — publisher reference
+
+[Official publisher / source](https://openstax.org/books/principles-finance-2e/pages/14-1-correlation-analysis)
+
+- Version/date: 2026 second edition
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal mathematics
+- Consulted section: Paired observations and standard correlation definition
+- Supports: Verification of covariance/correlation relationship.
+- Limits: No textbook prose or datasets reused; original Academy derivations and hypothetical cases.
+
+## PORTFOLIO-MATH — Risk and return to multiple assets — mathematical reference
+
+[Official publisher / source](https://openstax.org/books/principles-finance/pages/15-2-risk-and-return-to-multiple-assets)
+
+- Version/date: Publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal financial mathematics
+- Consulted section: Co-movement and portfolio volatility relationship
+- Supports: Independent verification that portfolio risk depends on co-movement.
+- Limits: No empirical examples, portfolio-size recommendations or textbook prose reused; all Academy equations and datasets independently derived.
+
+## CFA-CONSTRAINTS — Asset allocation with real-world constraints
+
+[Official publisher / source](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/asset-allocation-with-real-world-constraints)
+
+- Version/date: 2026 public refresher overview
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal portfolio concepts
+- Consulted section: Liquidity, taxes, practical implementation and policy allocation
+- Supports: Allocation depends on constraints as well as model estimates.
+- Limits: Public overview only; no candidate curriculum text reproduced or accreditation equivalence implied.
+
+## CFA-PERFORMANCE — Risk-adjusted performance measures
+
+[Official publisher / source](https://rpc.cfainstitute.org/-/media/documents/code/gips/case-study-risk-adjusted-performance-measures.pdf)
+
+- Version/date: Publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal financial mathematics
+- Consulted section: Sharpe, Treynor, information ratio and interpretation
+- Supports: Definitions and denominator distinctions for performance analysis.
+- Limits: Four-page case study inspected; no source numerical cases copied. Academy calculations are original.
+
+## CFA-TWR — Time-weighted and money-weighted returns
+
+[Official publisher / source](https://rpc.cfainstitute.org/research/cfa-digest/2017/04/using-brinson-attribution-to-explain-the-differences-between-time-weighted-twr-and-money-weigh)
+
+- Version/date: April 2017 public digest
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal performance measurement
+- Consulted section: External cash-flow timing and differing return measures
+- Supports: Different methods answer different performance questions.
+- Limits: Concept verification; original cash flows and IRR derivation; no GIPS-compliance claim.
+
 ## SFDR-DEFS — SFDR Regulation (EU) 2019/2088
 
 [Official publisher / source](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32019R2088)

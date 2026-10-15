@@ -1,1 +1,1 @@
-module.exports={version:'0.5.0-production',batch:'04 — foreign exchange, funds, ESG and product complexity',date:'2026-10-15'};
+module.exports={version:'0.6.0-production',batch:'05 — client profiling and portfolio construction/performance',date:'2026-10-15'};

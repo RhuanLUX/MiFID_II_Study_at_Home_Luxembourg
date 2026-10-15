@@ -1,7 +1,17 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');const root=path.resolve(__dirname,'..');
 const sum=a=>a.reduce((s,x)=>s+x,0);const cashflows=([f,c,y,n])=>Array.from({length:n},(_,i)=>({t:i+1,pv:(c+(i===n-1?f:0))/(1+y)**(i+1)}));
+const mean=a=>sum(a)/a.length;
+const variance=([a,sample])=>sum(a.map(x=>(x-mean(a))**2))/(a.length-(sample?1:0));
+const covariance=([a,b,sample])=>sum(a.map((x,i)=>(x-mean(a))*(b[i]-mean(b))))/(a.length-(sample?1:0));
 const macaulay=a=>{const cf=cashflows(a);return sum(cf.map(x=>x.t*x.pv))/sum(cf.map(x=>x.pv));};
 const methods={
+min_variance_weight:([a,b,rho])=>(b*b-rho*a*b)/(a*a+b*b-2*rho*a*b),
+utility:([mu,s,lambda])=>mu-lambda*s*s/2,excess_ratio:([r,rf,risk])=>(r-rf)/risk,
+capm:([rf,beta,market])=>rf+beta*(market-rf),
+irr_two_contributions:([first,second,terminal])=>(-second+Math.sqrt(second*second+4*first*terminal))/(2*first)-1,
+mean,variance,volatility:a=>Math.sqrt(variance(a)),vol_scale:([s,n])=>s*Math.sqrt(n),covariance,
+correlation:([a,b])=>covariance([a,b,1])/Math.sqrt(variance([a,1])*variance([b,1])),
+portfolio_sigma:([w,a,b,rho])=>{assert.ok(Math.abs(rho)<=1&&a>=0&&b>=0,'Invalid covariance input');const v=w*w*a*a+(1-w)**2*b*b+2*w*(1-w)*rho*a*b;assert.ok(v>=-1e-12,'Negative model variance');return Math.sqrt(Math.max(0,v));},
 capped_note:([p,participation,cap,returns])=>returns.map(r=>p*(1+Math.min(cap,Math.max(0,r)*participation))),
 barrier_note:([p,c,barrier,ratios])=>ratios.map(r=>c+(r>=barrier?p:p*r)),
 option_table:([type,k,p,spots])=>spots.map(s=>(type==='call'?Math.max(s-k,0):Math.max(k-s,0))-p),

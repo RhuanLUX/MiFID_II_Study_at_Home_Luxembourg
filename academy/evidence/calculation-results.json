@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "checks": 260,
+  "checks": 344,
   "rows": [
     {
       "lesson": "EIP-1.1-01",
@@ -2146,6 +2146,678 @@
       "method": "difference",
       "actual": 2000,
       "expected": 2000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-02",
+      "id": "uncommitted-liquid",
+      "method": "net_revenue",
+      "actual": 20000,
+      "expected": 20000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-02",
+      "id": "structured-total",
+      "method": "sum",
+      "actual": 10050,
+      "expected": 10050,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-02",
+      "id": "structured-loss",
+      "method": "difference",
+      "actual": 4950,
+      "expected": 4950,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-02",
+      "id": "longer-goal-remainder",
+      "method": "difference",
+      "actual": 7000,
+      "expected": 7000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-02",
+      "id": "decline-and-tuition",
+      "method": "net_revenue",
+      "actual": 2000,
+      "expected": 2000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-03",
+      "id": "retirement-gap",
+      "method": "difference",
+      "actual": 700,
+      "expected": 700,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-03",
+      "id": "annual-withdrawal",
+      "method": "product",
+      "actual": 8400,
+      "expected": 8400,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-03",
+      "id": "cashflow-change",
+      "method": "sum",
+      "actual": 20400,
+      "expected": 20400,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-03",
+      "id": "home-uncommitted",
+      "method": "net_revenue",
+      "actual": 20000,
+      "expected": 20000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-03",
+      "id": "inheritance-loss-share",
+      "method": "ratio",
+      "actual": 0.058823529411764705,
+      "expected": 0.058823529411764705,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-04",
+      "id": "a-sustainable-gap",
+      "method": "difference",
+      "actual": 5,
+      "expected": 5,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-04",
+      "id": "b-taxonomy-gap",
+      "method": "difference",
+      "actual": 2,
+      "expected": 2,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-04",
+      "id": "minimum-shortfall",
+      "method": "difference",
+      "actual": 10,
+      "expected": 10,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-04",
+      "id": "adaptation-gap",
+      "method": "difference",
+      "actual": 5,
+      "expected": 5,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-01",
+      "id": "three-year-wealth",
+      "method": "growth_chain",
+      "actual": 12017.5,
+      "expected": 12017.5,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-01",
+      "id": "arithmetic-mean",
+      "method": "mean",
+      "actual": 0.06666666666666667,
+      "expected": 0.06666666666666667,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-01",
+      "id": "geometric-mean",
+      "method": "terminal_rate",
+      "actual": 0.06317488841317287,
+      "expected": 0.06317488841317287,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-01",
+      "id": "volatile-two-year",
+      "method": "growth_chain",
+      "actual": 11700,
+      "expected": 11700,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-01",
+      "id": "volatile-geometric",
+      "method": "terminal_rate",
+      "actual": 0.08166538263919665,
+      "expected": 0.08166538263919688,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-01",
+      "id": "share-total",
+      "method": "ratio",
+      "actual": 0.1,
+      "expected": 0.1,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-02",
+      "id": "sample-variance",
+      "method": "variance",
+      "actual": 0.016666666666666673,
+      "expected": 0.016666666666666666,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-02",
+      "id": "population-variance",
+      "method": "variance",
+      "actual": 0.012500000000000004,
+      "expected": 0.0125,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-02",
+      "id": "sample-volatility",
+      "method": "volatility",
+      "actual": 0.12909944487358058,
+      "expected": 0.12909944487358055,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-02",
+      "id": "quiet-volatility",
+      "method": "volatility",
+      "actual": 0.011547005383792512,
+      "expected": 0.011547005383792516,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-02",
+      "id": "annual-scale",
+      "method": "vol_scale",
+      "actual": 0.06928203230275509,
+      "expected": 0.06928203230275509,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-01",
+      "id": "positive-covariance",
+      "method": "covariance",
+      "actual": 0.002,
+      "expected": 0.002,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-01",
+      "id": "positive-correlation",
+      "method": "correlation",
+      "actual": 1,
+      "expected": 1,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-01",
+      "id": "negative-covariance",
+      "method": "covariance",
+      "actual": -0.0009999999999999998,
+      "expected": -0.001,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-01",
+      "id": "negative-correlation",
+      "method": "correlation",
+      "actual": -0.4999999999999999,
+      "expected": -0.5,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-01",
+      "id": "nonlinear-zero",
+      "method": "correlation",
+      "actual": 0,
+      "expected": 0,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-02",
+      "id": "expected-return",
+      "method": "weighted",
+      "actual": 0.06,
+      "expected": 0.06,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-02",
+      "id": "alternative-return",
+      "method": "weighted",
+      "actual": 0.045,
+      "expected": 0.045,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-02",
+      "id": "realised-return",
+      "method": "weighted",
+      "actual": 0.09999999999999999,
+      "expected": 0.1,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-02",
+      "id": "drift-weight",
+      "method": "ratio",
+      "actual": 0.6545454545454545,
+      "expected": 0.6545454545454545,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-02",
+      "id": "rebalance-sale",
+      "method": "difference",
+      "actual": 6000,
+      "expected": 6000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-02",
+      "id": "leveraged-upside",
+      "method": "weighted",
+      "actual": 0.09,
+      "expected": 0.09,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-02",
+      "id": "leveraged-downside",
+      "method": "weighted",
+      "actual": -0.246,
+      "expected": -0.246,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-03",
+      "id": "zero-correlation-risk",
+      "method": "portfolio_sigma",
+      "actual": 0.12649110640673517,
+      "expected": 0.1264911064067352,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-03",
+      "id": "half-correlation-risk",
+      "method": "portfolio_sigma",
+      "actual": 0.14422205101855956,
+      "expected": 0.1442220510185596,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-03",
+      "id": "perfect-positive",
+      "method": "portfolio_sigma",
+      "actual": 0.16,
+      "expected": 0.16,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-03",
+      "id": "perfect-negative",
+      "method": "portfolio_sigma",
+      "actual": 0.08,
+      "expected": 0.08,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-03",
+      "id": "exact-offset",
+      "method": "portfolio_sigma",
+      "actual": 0,
+      "expected": 0,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-03",
+      "id": "imperfect-offset",
+      "method": "portfolio_sigma",
+      "actual": 0.042163702135578386,
+      "expected": 0.04216370213557839,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-01",
+      "id": "target-weight",
+      "method": "ratio",
+      "actual": 0.6,
+      "expected": 0.6,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-01",
+      "id": "min-variance-weight",
+      "method": "min_variance_weight",
+      "actual": 0.125,
+      "expected": 0.125,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-01",
+      "id": "minimum-volatility",
+      "method": "portfolio_sigma",
+      "actual": 0.09682458365518543,
+      "expected": 0.09682458365518543,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-01",
+      "id": "minimum-expected",
+      "method": "weighted",
+      "actual": 0.03625,
+      "expected": 0.03625,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-01",
+      "id": "utility-p-high",
+      "method": "utility",
+      "actual": 0.038400000000000004,
+      "expected": 0.0384,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-01",
+      "id": "utility-q-high",
+      "method": "utility",
+      "actual": 0.021400000000000002,
+      "expected": 0.0214,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-01",
+      "id": "utility-q-low",
+      "method": "utility",
+      "actual": 0.06190000000000001,
+      "expected": 0.0619,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-02",
+      "id": "new-equity-room",
+      "method": "difference",
+      "actual": 10000,
+      "expected": 10000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-02",
+      "id": "available-liquid",
+      "method": "difference",
+      "actual": 45000,
+      "expected": 45000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-02",
+      "id": "switch-annual-benefit",
+      "method": "product",
+      "actual": 300,
+      "expected": 300,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-02",
+      "id": "switch-simple-break-even",
+      "method": "ratio",
+      "actual": 3.3333333333333335,
+      "expected": 3.3333333333333335,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-02",
+      "id": "base-correlation-risk",
+      "method": "portfolio_sigma",
+      "actual": 0.1338656042454521,
+      "expected": 0.1338656042454521,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-02",
+      "id": "stress-correlation-risk",
+      "method": "portfolio_sigma",
+      "actual": 0.15388307249337077,
+      "expected": 0.15388307249337077,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-01",
+      "id": "minimum-weight-zero-correlation",
+      "method": "min_variance_weight",
+      "actual": 0.2,
+      "expected": 0.2,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-01",
+      "id": "minimum-risk",
+      "method": "portfolio_sigma",
+      "actual": 0.0894427190999916,
+      "expected": 0.0894427190999916,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-01",
+      "id": "half-risk",
+      "method": "portfolio_sigma",
+      "actual": 0.1118033988749895,
+      "expected": 0.1118033988749895,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-01",
+      "id": "cash-risky-expected",
+      "method": "weighted",
+      "actual": 0.056,
+      "expected": 0.056,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-01",
+      "id": "cash-risky-volatility",
+      "method": "product",
+      "actual": 0.09,
+      "expected": 0.09,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-01",
+      "id": "leveraged-model",
+      "method": "weighted",
+      "actual": 0.092,
+      "expected": 0.092,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-01",
+      "id": "higher-borrowing",
+      "method": "weighted",
+      "actual": 0.088,
+      "expected": 0.088,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-02",
+      "id": "long-term-capital",
+      "method": "net_revenue",
+      "actual": 110000,
+      "expected": 110000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-02",
+      "id": "whole-equity-weight",
+      "method": "ratio",
+      "actual": 0.36666666666666664,
+      "expected": 0.36666666666666664,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-02",
+      "id": "scenario-loss",
+      "method": "sum",
+      "actual": 22000,
+      "expected": 22000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-02",
+      "id": "whole-loss-return",
+      "method": "ratio",
+      "actual": -0.12222222222222222,
+      "expected": -0.12222222222222222,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-02",
+      "id": "required-growth",
+      "method": "terminal_rate",
+      "actual": 0.06160689621814597,
+      "expected": 0.06160689621814597,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-02",
+      "id": "six-percent-value",
+      "method": "growth_chain",
+      "actual": 196993.2466197139,
+      "expected": 196993.24661971402,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-01",
+      "id": "active-percentage-points",
+      "method": "difference",
+      "actual": 0.009999999999999995,
+      "expected": 0.01,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-01",
+      "id": "relative-wealth",
+      "method": "real_return",
+      "actual": 0.009523809523809532,
+      "expected": 0.009523809523809525,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-01",
+      "id": "policy-benchmark",
+      "method": "weighted",
+      "actual": 0.07999999999999999,
+      "expected": 0.08,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-01",
+      "id": "alternative-policy",
+      "method": "weighted",
+      "actual": 0.06,
+      "expected": 0.06,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-01",
+      "id": "net-wealth",
+      "method": "net_revenue",
+      "actual": 106500,
+      "expected": 106500,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-01",
+      "id": "net-active",
+      "method": "difference",
+      "actual": -0.0050000000000000044,
+      "expected": -0.005,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "sharpe-a",
+      "method": "excess_ratio",
+      "actual": 0.5,
+      "expected": 0.5,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "sharpe-b",
+      "method": "excess_ratio",
+      "actual": 0.3499999999999999,
+      "expected": 0.35,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "model-return",
+      "method": "capm",
+      "actual": 0.08,
+      "expected": 0.08,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "model-alpha",
+      "method": "difference",
+      "actual": 0.009999999999999995,
+      "expected": 0.01,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "treynor",
+      "method": "excess_ratio",
+      "actual": 0.05833333333333333,
+      "expected": 0.058333333333333334,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "flow-wealth",
+      "method": "product",
+      "actual": 176,
+      "expected": 176,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "time-weighted",
+      "method": "growth_chain",
+      "actual": 0.96,
+      "expected": 0.96,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "money-weighted",
+      "method": "irr_two_contributions",
+      "actual": -0.08225531212421744,
+      "expected": -0.08225531212421744,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "twr-annualised",
+      "method": "terminal_rate",
+      "actual": -0.020204102886728803,
+      "expected": -0.020204102886728803,
       "status": "PASS"
     }
   ]

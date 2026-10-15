@@ -1,0 +1,16 @@
+{
+  "sha256": "b990bdc7038cf980609484eb6aa24ebc1da8cf97d3af5c58e2cb44ede3a364c1",
+  "lessons": 111,
+  "days": 148,
+  "modules": 8,
+  "mean_words": {
+    "core": 25.4,
+    "example": 17,
+    "why": 7.3,
+    "corept": 10.7
+  },
+  "storage_key": "eip-lu-daily-20261014-v1",
+  "exam_uses_lesson_bank": true,
+  "timer_only_reports_expiry": true,
+  "external_runtime_scripts": false
+}

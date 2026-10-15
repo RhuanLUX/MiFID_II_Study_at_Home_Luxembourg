@@ -1,0 +1,6 @@
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');const root=path.resolve(__dirname,'..');
+const file=path.join(root,'../EIP_Luxembourg_Codex_Pacote_Master/00_BASELINE/EIP_Luxembourg_Plano_Estudos_148_Dias.html'),html=fs.readFileSync(file,'utf8');
+const line=html.split(/\r?\n/).find(l=>l.startsWith('<script>const DATA='));const data=JSON.parse(line.slice('<script>const DATA='.length).replace(/;<\/script>$/,''));
+const mean=k=>+(data.lessons.reduce((a,l)=>a+(l[k]||'').split(/\s+/).filter(Boolean).length,0)/data.lessons.length).toFixed(1);
+const report={sha256:crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex'),lessons:data.lessons.length,days:data.days.length,modules:data.modules.length,mean_words:{core:mean('core'),example:mean('example'),why:mean('why'),corept:mean('corept')},storage_key:(html.match(/const STORE='([^']+)'/)||[])[1],exam_uses_lesson_bank:html.includes('eligible=DATA.lessons.filter'),timer_only_reports_expiry:html.includes(":'Tempo esgotado'"),external_runtime_scripts:/<script[^>]+src=/.test(html)};
+fs.writeFileSync(path.join(root,'evidence/baseline-audit.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));

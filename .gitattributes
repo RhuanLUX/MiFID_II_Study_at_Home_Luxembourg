@@ -1,0 +1,4 @@
+EIP_Luxembourg_Codex_Pacote_Master/00_BASELINE/* -text
+*.js text eol=lf
+*.cjs text eol=lf
+*.md text eol=lf

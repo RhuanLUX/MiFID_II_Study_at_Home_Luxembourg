@@ -1,0 +1,23 @@
+[
+  {
+    "file": "efpa-syllabus.pdf",
+    "url": "https://www.efpa.lu/_files/ugd/f712b2_ccdb8d34e71c4a04a2faa62faa709afa.pdf",
+    "verified_at": "2026-10-15",
+    "pages": 6,
+    "sha256": "604e5844c3049b459298dae25d6a9466aa37d56c6d1d1258750f31c7e8880929"
+  },
+  {
+    "file": "efpa-exam.pdf",
+    "url": "https://www.efpa.lu/_files/ugd/f712b2_20da821c4d0f46ea97939e96d99122cc.pdf",
+    "verified_at": "2026-10-15",
+    "pages": 3,
+    "sha256": "69f76385a085eb42b2ff601b616381886818ce7c2db18fe2f0fabbb966a599a8"
+  },
+  {
+    "file": "esma-suitability.pdf",
+    "url": "https://www.esma.europa.eu/sites/default/files/2023-04/ESMA35-43-3172_Guidelines_on_certain_aspects_of_the_MiFID_II_suitability_requirements.pdf",
+    "verified_at": "2026-10-15",
+    "pages": 33,
+    "sha256": "84afcd4d0c5da3d1157b011789c63ca66bbd64a2af49e5e57efd335b16c2710b"
+  }
+]

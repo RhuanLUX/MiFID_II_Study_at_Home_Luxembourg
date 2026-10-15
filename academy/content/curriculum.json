@@ -1,0 +1,2490 @@
+{
+  "version": 2,
+  "scope": "Reading-only Phase 1",
+  "verified_at": "2026-10-15",
+  "modules": [
+    "Economic Environment",
+    "Financial Markets",
+    "Investment Products",
+    "Assessing Client Needs",
+    "Portfolio Construction and Selection",
+    "Insurance and Retirement",
+    "Regulation and Ethics",
+    "Green Finance"
+  ],
+  "official_leaf_count": 78,
+  "objectives": [
+    {
+      "id": "EIP-1-1-01",
+      "section": "1.1",
+      "module": 1,
+      "focus": "Scarcity and opportunity cost",
+      "observable_outcome": "Explain scarcity and opportunity cost.",
+      "leaves": [
+        "1.1.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-1-1-02",
+      "section": "1.1",
+      "module": 1,
+      "focus": "Demand supply and equilibrium",
+      "observable_outcome": "Explain demand supply and equilibrium.",
+      "leaves": [
+        "1.1.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-1-1-03",
+      "section": "1.1",
+      "module": 1,
+      "focus": "Inflation versus price level and purchasing power",
+      "observable_outcome": "Explain inflation versus price level and purchasing power.",
+      "leaves": [
+        "1.1.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-1-2-01",
+      "section": "1.2",
+      "module": 1,
+      "focus": "Fiscal versus monetary policy",
+      "observable_outcome": "Explain fiscal versus monetary policy.",
+      "leaves": [
+        "1.2.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-1-2-02",
+      "section": "1.2",
+      "module": 1,
+      "focus": "Policy goals and instruments",
+      "observable_outcome": "Explain policy goals and instruments.",
+      "leaves": [
+        "1.2.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-1-2-03",
+      "section": "1.2",
+      "module": 1,
+      "focus": "Central bank interest-rate transmission",
+      "observable_outcome": "Explain central bank interest-rate transmission.",
+      "leaves": [
+        "1.2.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-1-2-04",
+      "section": "1.2",
+      "module": 1,
+      "focus": "Country and sector financial balances",
+      "observable_outcome": "Explain country and sector financial balances.",
+      "leaves": [
+        "1.2.c",
+        "1.2.d"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-1-3-01",
+      "section": "1.3",
+      "module": 1,
+      "focus": "Public borrowing and issuance of government debt",
+      "observable_outcome": "Explain public borrowing and issuance of government debt.",
+      "leaves": [
+        "1.3.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-1-3-02",
+      "section": "1.3",
+      "module": 1,
+      "focus": "Economic cycles and investment sensitivity",
+      "observable_outcome": "Explain economic cycles and investment sensitivity.",
+      "leaves": [
+        "1.3.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-1-3-03",
+      "section": "1.3",
+      "module": 1,
+      "focus": "Economic and political shocks and asset markets",
+      "observable_outcome": "Explain economic and political shocks and asset markets.",
+      "leaves": [
+        "1.3.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-2-1-01",
+      "section": "2.1",
+      "module": 2,
+      "focus": "Financial system functions and intermediaries",
+      "observable_outcome": "Distinguish financial system functions and intermediaries.",
+      "leaves": [
+        "2.1.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-2-2-01",
+      "section": "2.2",
+      "module": 2,
+      "focus": "Market structure by instrument and liquidity",
+      "observable_outcome": "Distinguish market structure by instrument and liquidity.",
+      "leaves": [
+        "2.2.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-2-2-02",
+      "section": "2.2",
+      "module": 2,
+      "focus": "Trading venues and market participants",
+      "observable_outcome": "Distinguish trading venues and market participants.",
+      "leaves": [
+        "2.2.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-2-3-01",
+      "section": "2.3",
+      "module": 2,
+      "focus": "Primary versus secondary markets",
+      "observable_outcome": "Distinguish primary versus secondary markets.",
+      "leaves": [
+        "2.3.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-2-3-02",
+      "section": "2.3",
+      "module": 2,
+      "focus": "Issuance processes",
+      "observable_outcome": "Distinguish issuance processes.",
+      "leaves": [
+        "2.3.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-2-3-03",
+      "section": "2.3",
+      "module": 2,
+      "focus": "Regulated markets MTF OTF OTC distinctions",
+      "observable_outcome": "Distinguish regulated markets mtf otf otc distinctions.",
+      "leaves": [
+        "2.3.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-2-3-04",
+      "section": "2.3",
+      "module": 2,
+      "focus": "Order types execution and spreads",
+      "observable_outcome": "Distinguish order types execution and spreads.",
+      "leaves": [
+        "2.3.d"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-2-3-05",
+      "section": "2.3",
+      "module": 2,
+      "focus": "Trading venue selection by product",
+      "observable_outcome": "Distinguish trading venue selection by product.",
+      "leaves": [
+        "2.3.e"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-1-01",
+      "section": "3.1",
+      "module": 3,
+      "focus": "Simple and compound interest",
+      "observable_outcome": "Explain and calculate where applicable: simple and compound interest.",
+      "leaves": [
+        "3.1.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-1-02",
+      "section": "3.1",
+      "module": 3,
+      "focus": "Time value and compounding periods",
+      "observable_outcome": "Explain and calculate where applicable: time value and compounding periods.",
+      "leaves": [
+        "3.1.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-1-03",
+      "section": "3.1",
+      "module": 3,
+      "focus": "Present value and discounting",
+      "observable_outcome": "Explain and calculate where applicable: present value and discounting.",
+      "leaves": [
+        "3.1.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-1-04",
+      "section": "3.1",
+      "module": 3,
+      "focus": "Future value and investment horizon",
+      "observable_outcome": "Explain and calculate where applicable: future value and investment horizon.",
+      "leaves": [
+        "3.1.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-2-01",
+      "section": "3.2",
+      "module": 3,
+      "focus": "Investment income categories and taxable events",
+      "observable_outcome": "Explain and calculate where applicable: investment income categories and taxable events.",
+      "leaves": [
+        "3.2.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-2-02",
+      "section": "3.2",
+      "module": 3,
+      "focus": "Jurisdiction residence and investor tax status",
+      "observable_outcome": "Explain and calculate where applicable: jurisdiction residence and investor tax status.",
+      "leaves": [
+        "3.2.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-2-03",
+      "section": "3.2",
+      "module": 3,
+      "focus": "Tax treatment of investment income under verified Luxembourg rules",
+      "observable_outcome": "Explain and calculate where applicable: tax treatment of investment income under verified luxembourg rules.",
+      "leaves": [
+        "3.2.a",
+        "3.2.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-3-01",
+      "section": "3.3",
+      "module": 3,
+      "focus": "Deposits and counterparty exposure",
+      "observable_outcome": "Explain and calculate where applicable: deposits and counterparty exposure.",
+      "leaves": [
+        "3.3.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-3-02",
+      "section": "3.3",
+      "module": 3,
+      "focus": "Repos and collateral",
+      "observable_outcome": "Explain and calculate where applicable: repos and collateral.",
+      "leaves": [
+        "3.3.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-3-03",
+      "section": "3.3",
+      "module": 3,
+      "focus": "Treasury bills and discount yields",
+      "observable_outcome": "Explain and calculate where applicable: treasury bills and discount yields.",
+      "leaves": [
+        "3.3.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-3-04",
+      "section": "3.3",
+      "module": 3,
+      "focus": "EURIBOR versus historical EONIA and present €STR",
+      "observable_outcome": "Explain and calculate where applicable: euribor versus historical eonia and present €str.",
+      "leaves": [
+        "3.3.d"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-4-01",
+      "section": "3.4",
+      "module": 3,
+      "focus": "Bond contractual features and cash flows",
+      "observable_outcome": "Explain and calculate where applicable: bond contractual features and cash flows.",
+      "leaves": [
+        "3.4.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-4-02",
+      "section": "3.4",
+      "module": 3,
+      "focus": "Clean versus dirty price and accrued interest",
+      "observable_outcome": "Explain and calculate where applicable: clean versus dirty price and accrued interest.",
+      "leaves": [
+        "3.4.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-4-03",
+      "section": "3.4",
+      "module": 3,
+      "focus": "Current yield YTM and coupon rate",
+      "observable_outcome": "Explain and calculate where applicable: current yield ytm and coupon rate.",
+      "leaves": [
+        "3.4.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-4-04",
+      "section": "3.4",
+      "module": 3,
+      "focus": "Bond price sensitivity to yield changes",
+      "observable_outcome": "Explain and calculate where applicable: bond price sensitivity to yield changes.",
+      "leaves": [
+        "3.4.b",
+        "3.4.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-4-05",
+      "section": "3.4",
+      "module": 3,
+      "focus": "Duration and convexity fundamentals",
+      "observable_outcome": "Explain and calculate where applicable: duration and convexity fundamentals.",
+      "leaves": [
+        "3.4.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-4-06",
+      "section": "3.4",
+      "module": 3,
+      "focus": "Credit spread default and recovery",
+      "observable_outcome": "Explain and calculate where applicable: credit spread default and recovery.",
+      "leaves": [
+        "3.4.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-4-07",
+      "section": "3.4",
+      "module": 3,
+      "focus": "Liquidity and reinvestment risk",
+      "observable_outcome": "Explain and calculate where applicable: liquidity and reinvestment risk.",
+      "leaves": [
+        "3.4.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-4-08",
+      "section": "3.4",
+      "module": 3,
+      "focus": "Bond taxation under verified local rules",
+      "observable_outcome": "Explain and calculate where applicable: bond taxation under verified local rules.",
+      "leaves": [
+        "3.4.d"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-5-01",
+      "section": "3.5",
+      "module": 3,
+      "focus": "Share ownership and shareholder rights",
+      "observable_outcome": "Explain and calculate where applicable: share ownership and shareholder rights.",
+      "leaves": [
+        "3.5.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-5-02",
+      "section": "3.5",
+      "module": 3,
+      "focus": "Basic equity valuation concepts",
+      "observable_outcome": "Explain and calculate where applicable: basic equity valuation concepts.",
+      "leaves": [
+        "3.5.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-5-03",
+      "section": "3.5",
+      "module": 3,
+      "focus": "Capital gains dividends and total return",
+      "observable_outcome": "Explain and calculate where applicable: capital gains dividends and total return.",
+      "leaves": [
+        "3.5.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-5-04",
+      "section": "3.5",
+      "module": 3,
+      "focus": "Volatility downside risks and diversification",
+      "observable_outcome": "Explain and calculate where applicable: volatility downside risks and diversification.",
+      "leaves": [
+        "3.5.d"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-5-05",
+      "section": "3.5",
+      "module": 3,
+      "focus": "Equity taxation under verified local rules",
+      "observable_outcome": "Explain and calculate where applicable: equity taxation under verified local rules.",
+      "leaves": [
+        "3.5.e"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-6-01",
+      "section": "3.6",
+      "module": 3,
+      "focus": "Forwards and futures payoffs",
+      "observable_outcome": "Explain and calculate where applicable: forwards and futures payoffs.",
+      "leaves": [
+        "3.6.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-6-02",
+      "section": "3.6",
+      "module": 3,
+      "focus": "Margin settlement and basis risk",
+      "observable_outcome": "Explain and calculate where applicable: margin settlement and basis risk.",
+      "leaves": [
+        "3.6.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-6-03",
+      "section": "3.6",
+      "module": 3,
+      "focus": "Calls and puts payoff and break-even",
+      "observable_outcome": "Explain and calculate where applicable: calls and puts payoff and break-even.",
+      "leaves": [
+        "3.6.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-6-04",
+      "section": "3.6",
+      "module": 3,
+      "focus": "Options exercise premium and risk",
+      "observable_outcome": "Explain and calculate where applicable: options exercise premium and risk.",
+      "leaves": [
+        "3.6.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-6-05",
+      "section": "3.6",
+      "module": 3,
+      "focus": "Hedging versus speculation with derivatives",
+      "observable_outcome": "Explain and calculate where applicable: hedging versus speculation with derivatives.",
+      "leaves": [
+        "3.6.a",
+        "3.6.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-6-06",
+      "section": "3.6",
+      "module": 3,
+      "focus": "Derivatives taxation under verified local rules",
+      "observable_outcome": "Explain and calculate where applicable: derivatives taxation under verified local rules.",
+      "leaves": [
+        "3.6.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-7-01",
+      "section": "3.7",
+      "module": 3,
+      "focus": "FX quotations and base quote conventions",
+      "observable_outcome": "Explain and calculate where applicable: fx quotations and base quote conventions.",
+      "leaves": [
+        "3.7.a",
+        "3.7.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-7-02",
+      "section": "3.7",
+      "module": 3,
+      "focus": "FX cross-rate arithmetic",
+      "observable_outcome": "Explain and calculate where applicable: fx cross-rate arithmetic.",
+      "leaves": [
+        "3.7.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-7-03",
+      "section": "3.7",
+      "module": 3,
+      "focus": "Currency translation of foreign investment returns",
+      "observable_outcome": "Explain and calculate where applicable: currency translation of foreign investment returns.",
+      "leaves": [
+        "3.7.d"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-7-04",
+      "section": "3.7",
+      "module": 3,
+      "focus": "Currency risk and hedging trade-offs",
+      "observable_outcome": "Explain and calculate where applicable: currency risk and hedging trade-offs.",
+      "leaves": [
+        "3.7.d"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-8-01",
+      "section": "3.8",
+      "module": 3,
+      "focus": "Mutual fund parties and governance",
+      "observable_outcome": "Explain and calculate where applicable: mutual fund parties and governance.",
+      "leaves": [
+        "3.8.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-8-02",
+      "section": "3.8",
+      "module": 3,
+      "focus": "Open-ended funds NAV subscription redemption",
+      "observable_outcome": "Explain and calculate where applicable: open-ended funds nav subscription redemption.",
+      "leaves": [
+        "3.8.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-8-03",
+      "section": "3.8",
+      "module": 3,
+      "focus": "UCITS structure and investment policy",
+      "observable_outcome": "Explain and calculate where applicable: ucits structure and investment policy.",
+      "leaves": [
+        "3.8.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-8-04",
+      "section": "3.8",
+      "module": 3,
+      "focus": "Fund risk return liquidity and fees",
+      "observable_outcome": "Explain and calculate where applicable: fund risk return liquidity and fees.",
+      "leaves": [
+        "3.8.b",
+        "3.8.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-8-05",
+      "section": "3.8",
+      "module": 3,
+      "focus": "Fund screening and performance measures",
+      "observable_outcome": "Explain and calculate where applicable: fund screening and performance measures.",
+      "leaves": [
+        "3.8.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-8-06",
+      "section": "3.8",
+      "module": 3,
+      "focus": "Fund taxation under verified local rules",
+      "observable_outcome": "Explain and calculate where applicable: fund taxation under verified local rules.",
+      "leaves": [
+        "3.8.d"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-9-01",
+      "section": "3.9",
+      "module": 3,
+      "focus": "Definition and categories of ESG factors",
+      "observable_outcome": "Explain and calculate where applicable: definition and categories of esg factors.",
+      "leaves": [
+        "3.9.a",
+        "3.9.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-9-02",
+      "section": "3.9",
+      "module": 3,
+      "focus": "ESG integration versus ethical preferences",
+      "observable_outcome": "Explain and calculate where applicable: esg integration versus ethical preferences.",
+      "leaves": [
+        "3.9.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-9-03",
+      "section": "3.9",
+      "module": 3,
+      "focus": "Climate transition physical and reputational risks",
+      "observable_outcome": "Explain and calculate where applicable: climate transition physical and reputational risks.",
+      "leaves": [
+        "3.9.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-10-01",
+      "section": "3.10",
+      "module": 3,
+      "focus": "Complex product features leverage and contingencies",
+      "observable_outcome": "Explain and calculate where applicable: complex product features leverage and contingencies.",
+      "leaves": [
+        "3.10.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-10-02",
+      "section": "3.10",
+      "module": 3,
+      "focus": "Product payoff risks and hidden conditions",
+      "observable_outcome": "Explain and calculate where applicable: product payoff risks and hidden conditions.",
+      "leaves": [
+        "3.10.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-3-10-03",
+      "section": "3.10",
+      "module": 3,
+      "focus": "Classification of complexity and investor understanding",
+      "observable_outcome": "Explain and calculate where applicable: classification of complexity and investor understanding.",
+      "leaves": [
+        "3.10.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-4-1-01",
+      "section": "4.1",
+      "module": 4,
+      "focus": "KYC data collection purpose and suitability scope",
+      "observable_outcome": "Evaluate kyc data collection purpose and suitability scope.",
+      "leaves": [
+        "4.1.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-4-1-02",
+      "section": "4.1",
+      "module": 4,
+      "focus": "Knowledge and experience versus investment objectives",
+      "observable_outcome": "Evaluate knowledge and experience versus investment objectives.",
+      "leaves": [
+        "4.1.a",
+        "4.1.e"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-4-1-03",
+      "section": "4.1",
+      "module": 4,
+      "focus": "Risk tolerance versus financial capacity for losses",
+      "observable_outcome": "Evaluate risk tolerance versus financial capacity for losses.",
+      "leaves": [
+        "4.1.e"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-4-1-04",
+      "section": "4.1",
+      "module": 4,
+      "focus": "Investment horizon liquidity need and client constraints",
+      "observable_outcome": "Evaluate investment horizon liquidity need and client constraints.",
+      "leaves": [
+        "4.1.a",
+        "4.1.e"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-4-1-05",
+      "section": "4.1",
+      "module": 4,
+      "focus": "Suitability versus appropriateness and execution-only",
+      "observable_outcome": "Evaluate suitability versus appropriateness and execution-only.",
+      "leaves": [
+        "4.1.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-4-1-06",
+      "section": "4.1",
+      "module": 4,
+      "focus": "Questionnaire validity updates and client changes",
+      "observable_outcome": "Evaluate questionnaire validity updates and client changes.",
+      "leaves": [
+        "4.1.b",
+        "4.1.d"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-4-1-07",
+      "section": "4.1",
+      "module": 4,
+      "focus": "Sustainability preferences in suitability assessment",
+      "observable_outcome": "Evaluate sustainability preferences in suitability assessment.",
+      "leaves": [
+        "4.1.f"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-5-1-01",
+      "section": "5.1",
+      "module": 5,
+      "focus": "Asset returns timeseries arithmetic and geometric",
+      "observable_outcome": "Calculate and interpret asset returns timeseries arithmetic and geometric.",
+      "leaves": [
+        "5.1.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-5-1-02",
+      "section": "5.1",
+      "module": 5,
+      "focus": "Variance standard deviation and empirical volatility",
+      "observable_outcome": "Calculate and interpret variance standard deviation and empirical volatility.",
+      "leaves": [
+        "5.1.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-5-2-01",
+      "section": "5.2",
+      "module": 5,
+      "focus": "Covariance and correlation and their interpretation",
+      "observable_outcome": "Calculate and interpret covariance and correlation and their interpretation.",
+      "leaves": [
+        "5.2.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-5-2-02",
+      "section": "5.2",
+      "module": 5,
+      "focus": "Portfolio expected return formula",
+      "observable_outcome": "Calculate and interpret portfolio expected return formula.",
+      "leaves": [
+        "5.2.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-5-2-03",
+      "section": "5.2",
+      "module": 5,
+      "focus": "Two-asset portfolio risk and diversification scenarios",
+      "observable_outcome": "Calculate and interpret two-asset portfolio risk and diversification scenarios.",
+      "leaves": [
+        "5.2.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-5-3-01",
+      "section": "5.3",
+      "module": 5,
+      "focus": "Mean variance asset allocation assumptions",
+      "observable_outcome": "Calculate and interpret mean variance asset allocation assumptions.",
+      "leaves": [
+        "5.3.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-5-3-02",
+      "section": "5.3",
+      "module": 5,
+      "focus": "Diversification and risk constraints in allocation",
+      "observable_outcome": "Calculate and interpret diversification and risk constraints in allocation.",
+      "leaves": [
+        "5.3.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-5-4-01",
+      "section": "5.4",
+      "module": 5,
+      "focus": "Efficient frontier concept and risk-return trade-off",
+      "observable_outcome": "Calculate and interpret efficient frontier concept and risk-return trade-off.",
+      "leaves": [
+        "5.4.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-5-4-02",
+      "section": "5.4",
+      "module": 5,
+      "focus": "Client-driven portfolio selection under constraints",
+      "observable_outcome": "Calculate and interpret client-driven portfolio selection under constraints.",
+      "leaves": [
+        "5.4.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-5-5-01",
+      "section": "5.5",
+      "module": 5,
+      "focus": "Portfolio performance measurement and benchmarking",
+      "observable_outcome": "Calculate and interpret portfolio performance measurement and benchmarking.",
+      "leaves": [
+        "5.5.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-5-5-02",
+      "section": "5.5",
+      "module": 5,
+      "focus": "Risk-adjusted performance interpretation",
+      "observable_outcome": "Calculate and interpret risk-adjusted performance interpretation.",
+      "leaves": [
+        "5.5.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-6-1-01",
+      "section": "6.1",
+      "module": 6,
+      "focus": "Investment linked life insurance products",
+      "observable_outcome": "Compare investment linked life insurance products.",
+      "leaves": [
+        "6.1.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-6-1-02",
+      "section": "6.1",
+      "module": 6,
+      "focus": "Policyholder insured beneficiary and insurer roles",
+      "observable_outcome": "Compare policyholder insured beneficiary and insurer roles.",
+      "leaves": [
+        "6.1.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-6-1-03",
+      "section": "6.1",
+      "module": 6,
+      "focus": "Settlement payout options and guarantees",
+      "observable_outcome": "Compare settlement payout options and guarantees.",
+      "leaves": [
+        "6.1.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-6-1-04",
+      "section": "6.1",
+      "module": 6,
+      "focus": "Tax treatment of insurance under verified Luxembourg rules",
+      "observable_outcome": "Compare tax treatment of insurance under verified luxembourg rules.",
+      "leaves": [
+        "6.1.d"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-6-2-01",
+      "section": "6.2",
+      "module": 6,
+      "focus": "Three pillar retirement model",
+      "observable_outcome": "Compare three pillar retirement model.",
+      "leaves": [
+        "6.2.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-6-2-02",
+      "section": "6.2",
+      "module": 6,
+      "focus": "Retirement accumulation drawdown and longevity risks",
+      "observable_outcome": "Compare retirement accumulation drawdown and longevity risks.",
+      "leaves": [
+        "6.2.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-6-2-03",
+      "section": "6.2",
+      "module": 6,
+      "focus": "Pension product comparison and client needs",
+      "observable_outcome": "Compare pension product comparison and client needs.",
+      "leaves": [
+        "6.2.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-6-2-04",
+      "section": "6.2",
+      "module": 6,
+      "focus": "Retirement taxation under verified local rules",
+      "observable_outcome": "Compare retirement taxation under verified local rules.",
+      "leaves": [
+        "6.2.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-7-1-01",
+      "section": "7.1",
+      "module": 7,
+      "focus": "Investment versus ancillary services under MiFID",
+      "observable_outcome": "Apply the relevant rules to investment versus ancillary services under mifid.",
+      "leaves": [
+        "7.1.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-7-1-02",
+      "section": "7.1",
+      "module": 7,
+      "focus": "Conduct and client disclosures",
+      "observable_outcome": "Apply the relevant rules to conduct and client disclosures.",
+      "leaves": [
+        "7.1.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-7-1-03",
+      "section": "7.1",
+      "module": 7,
+      "focus": "Investment advice independent and non-independent",
+      "observable_outcome": "Apply the relevant rules to investment advice independent and non-independent.",
+      "leaves": [
+        "7.1.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-7-1-04",
+      "section": "7.1",
+      "module": 7,
+      "focus": "Inducements conflicts and client interest",
+      "observable_outcome": "Apply the relevant rules to inducements conflicts and client interest.",
+      "leaves": [
+        "7.1.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-7-1-05",
+      "section": "7.1",
+      "module": 7,
+      "focus": "Costs charges and reporting to clients",
+      "observable_outcome": "Apply the relevant rules to costs charges and reporting to clients.",
+      "leaves": [
+        "7.1.d"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-7-1-06",
+      "section": "7.1",
+      "module": 7,
+      "focus": "Adviser liability boundaries",
+      "observable_outcome": "Apply the relevant rules to adviser liability boundaries.",
+      "leaves": [
+        "7.1.e"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-7-1-07",
+      "section": "7.1",
+      "module": 7,
+      "focus": "SFDR sustainability disclosures and appropriate wording",
+      "observable_outcome": "Apply the relevant rules to sfdr sustainability disclosures and appropriate wording.",
+      "leaves": [
+        "7.1.f"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-7-2-01",
+      "section": "7.2",
+      "module": 7,
+      "focus": "Secondary market regulatory framework",
+      "observable_outcome": "Apply the relevant rules to secondary market regulatory framework.",
+      "leaves": [
+        "7.2.a"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-7-2-02",
+      "section": "7.2",
+      "module": 7,
+      "focus": "Insider dealing unlawful disclosure and manipulation",
+      "observable_outcome": "Apply the relevant rules to insider dealing unlawful disclosure and manipulation.",
+      "leaves": [
+        "7.2.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-7-2-03",
+      "section": "7.2",
+      "module": 7,
+      "focus": "AML KYC and suspicious activity escalation",
+      "observable_outcome": "Apply the relevant rules to aml kyc and suspicious activity escalation.",
+      "leaves": [
+        "7.2.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-7-3-01",
+      "section": "7.3",
+      "module": 7,
+      "focus": "Reputational risk drivers and impact",
+      "observable_outcome": "Apply the relevant rules to reputational risk drivers and impact.",
+      "leaves": [
+        "7.3.a",
+        "7.3.b"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-7-3-02",
+      "section": "7.3",
+      "module": 7,
+      "focus": "Professional ethical decision-making",
+      "observable_outcome": "Apply the relevant rules to professional ethical decision-making.",
+      "leaves": [
+        "7.3.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-7-3-03",
+      "section": "7.3",
+      "module": 7,
+      "focus": "EFPA ethical standards case studies",
+      "observable_outcome": "Apply the relevant rules to efpa ethical standards case studies.",
+      "leaves": [
+        "7.3.c"
+      ],
+      "classification": "author_decomposition"
+    },
+    {
+      "id": "EIP-EXAM-M8-01",
+      "section": "EXAM-M8",
+      "module": 8,
+      "focus": "Green finance foundations and instruments",
+      "observable_outcome": "Evaluate evidence for green finance foundations and instruments.",
+      "leaves": [
+        "EXAM-M8"
+      ],
+      "classification": "author_expansion_exam_area"
+    },
+    {
+      "id": "EIP-EXAM-M8-02",
+      "section": "EXAM-M8",
+      "module": 8,
+      "focus": "SFDR disclosures purpose and limits",
+      "observable_outcome": "Evaluate evidence for sfdr disclosures purpose and limits.",
+      "leaves": [
+        "EXAM-M8"
+      ],
+      "classification": "author_expansion_exam_area"
+    },
+    {
+      "id": "EIP-EXAM-M8-03",
+      "section": "EXAM-M8",
+      "module": 8,
+      "focus": "EU taxonomy scope and terminology",
+      "observable_outcome": "Evaluate evidence for eu taxonomy scope and terminology.",
+      "leaves": [
+        "EXAM-M8"
+      ],
+      "classification": "author_expansion_exam_area"
+    },
+    {
+      "id": "EIP-EXAM-M8-04",
+      "section": "EXAM-M8",
+      "module": 8,
+      "focus": "Sustainability preferences and suitability cases",
+      "observable_outcome": "Evaluate evidence for sustainability preferences and suitability cases.",
+      "leaves": [
+        "EXAM-M8"
+      ],
+      "classification": "author_expansion_exam_area"
+    },
+    {
+      "id": "EIP-EXAM-M8-05",
+      "section": "EXAM-M8",
+      "module": 8,
+      "focus": "Greenwashing risk and evidence-based claims",
+      "observable_outcome": "Evaluate evidence for greenwashing risk and evidence-based claims.",
+      "leaves": [
+        "EXAM-M8"
+      ],
+      "classification": "author_expansion_exam_area"
+    },
+    {
+      "id": "EIP-EXAM-M8-06",
+      "section": "EXAM-M8",
+      "module": 8,
+      "focus": "ESG metrics PAI and non-comparability",
+      "observable_outcome": "Evaluate evidence for esg metrics pai and non-comparability.",
+      "leaves": [
+        "EXAM-M8"
+      ],
+      "classification": "author_expansion_exam_area"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "EIP-1.1-01",
+      "position": 1,
+      "section": "1.1",
+      "module": 1,
+      "title": "Scarcity, choices and opportunity cost",
+      "minutes": 25,
+      "refs": [
+        "1.1.a"
+      ],
+      "prerequisites": "Basic arithmetic",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-1.1-02",
+      "position": 2,
+      "section": "1.1",
+      "module": 1,
+      "title": "How supply and demand shape prices",
+      "minutes": 30,
+      "refs": [
+        "1.1.a"
+      ],
+      "prerequisites": "Basic arithmetic",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-1.1-03",
+      "position": 3,
+      "section": "1.1",
+      "module": 1,
+      "title": "Inflation, purchasing power and real values",
+      "minutes": 30,
+      "refs": [
+        "1.1.a"
+      ],
+      "prerequisites": "Basic arithmetic",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-1.2-01",
+      "position": 4,
+      "section": "1.2",
+      "module": 1,
+      "title": "Economic policy and monetary policy: different tools",
+      "minutes": 30,
+      "refs": [
+        "1.2.a",
+        "1.2.b"
+      ],
+      "prerequisites": "1.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-1.2-02",
+      "position": 5,
+      "section": "1.2",
+      "module": 1,
+      "title": "How monetary policy reaches households and markets",
+      "minutes": 30,
+      "refs": [
+        "1.2.b"
+      ],
+      "prerequisites": "1.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-1.2-03",
+      "position": 6,
+      "section": "1.2",
+      "module": 1,
+      "title": "National and sector financial balances",
+      "minutes": 30,
+      "refs": [
+        "1.2.c",
+        "1.2.d"
+      ],
+      "prerequisites": "1.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-1.3-01",
+      "position": 7,
+      "section": "1.3",
+      "module": 1,
+      "title": "Public deficits, debt and bond issuance",
+      "minutes": 30,
+      "refs": [
+        "1.3.a"
+      ],
+      "prerequisites": "1.2",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-1.3-02",
+      "position": 8,
+      "section": "1.3",
+      "module": 1,
+      "title": "Business cycles and asset-market expectations",
+      "minutes": 30,
+      "refs": [
+        "1.3.c"
+      ],
+      "prerequisites": "1.2",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-1.3-03",
+      "position": 9,
+      "section": "1.3",
+      "module": 1,
+      "title": "Economic and political shocks: competing market effects",
+      "minutes": 25,
+      "refs": [
+        "1.3.b"
+      ],
+      "prerequisites": "1.2",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-2.1-01",
+      "position": 10,
+      "section": "2.1",
+      "module": 2,
+      "title": "How the financial system connects savers and borrowers",
+      "minutes": 30,
+      "refs": [
+        "2.1.a"
+      ],
+      "prerequisites": "1.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-2.2-01",
+      "position": 11,
+      "section": "2.2",
+      "module": 2,
+      "title": "Markets, instruments, participants and liquidity",
+      "minutes": 30,
+      "refs": [
+        "2.2.a"
+      ],
+      "prerequisites": "2.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-2.3-01",
+      "position": 12,
+      "section": "2.3",
+      "module": 2,
+      "title": "Primary markets and the issuance process",
+      "minutes": 30,
+      "refs": [
+        "2.3.a",
+        "2.3.b"
+      ],
+      "prerequisites": "2.2",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-2.3-02",
+      "position": 13,
+      "section": "2.3",
+      "module": 2,
+      "title": "Secondary trading, market types and execution venues",
+      "minutes": 30,
+      "refs": [
+        "2.3.a",
+        "2.3.c"
+      ],
+      "prerequisites": "2.2",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-2.3-03",
+      "position": 14,
+      "section": "2.3",
+      "module": 2,
+      "title": "Market and limit orders: price, spread and execution risk",
+      "minutes": 30,
+      "refs": [
+        "2.3.d"
+      ],
+      "prerequisites": "2.2",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-2.3-04",
+      "position": 15,
+      "section": "2.3",
+      "module": 2,
+      "title": "Luxembourg trading venues and product routes",
+      "minutes": 25,
+      "refs": [
+        "2.3.e"
+      ],
+      "prerequisites": "2.2",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.1-A",
+      "position": 16,
+      "section": "3.1",
+      "module": 3,
+      "title": "Money across time: build, discount, compare",
+      "minutes": 30,
+      "refs": [
+        "3.1.a",
+        "3.1.b"
+      ],
+      "prerequisites": "Percentages",
+      "status": "GOLDEN_MASTER_UAT"
+    },
+    {
+      "id": "EIP-3.1-02",
+      "position": 17,
+      "section": "3.1",
+      "module": 3,
+      "title": "Several dated payments and rate conventions",
+      "minutes": 20,
+      "refs": [
+        "3.1.a",
+        "3.1.b"
+      ],
+      "prerequisites": "Percentages",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.2-01",
+      "position": 18,
+      "section": "3.2",
+      "module": 3,
+      "title": "Investment income: categories and taxable events",
+      "minutes": 30,
+      "refs": [
+        "3.2.a"
+      ],
+      "prerequisites": "3.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.2-02",
+      "position": 19,
+      "section": "3.2",
+      "module": 3,
+      "title": "Residence, taxpayer status and declaration regimes",
+      "minutes": 30,
+      "refs": [
+        "3.2.b"
+      ],
+      "prerequisites": "3.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.2-03",
+      "position": 20,
+      "section": "3.2",
+      "module": 3,
+      "title": "Luxembourg investment taxation: a sourced decision process",
+      "minutes": 30,
+      "refs": [
+        "3.2.a",
+        "3.2.b"
+      ],
+      "prerequisites": "3.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.3-01",
+      "position": 21,
+      "section": "3.3",
+      "module": 3,
+      "title": "Deposits, access to cash and counterparty exposure",
+      "minutes": 30,
+      "refs": [
+        "3.3.a"
+      ],
+      "prerequisites": "2.3;3.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.3-02",
+      "position": 22,
+      "section": "3.3",
+      "module": 3,
+      "title": "Repos: collateral, repurchase and residual risk",
+      "minutes": 30,
+      "refs": [
+        "3.3.b"
+      ],
+      "prerequisites": "2.3;3.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.3-03",
+      "position": 23,
+      "section": "3.3",
+      "module": 3,
+      "title": "Treasury bills: discount price and return conventions",
+      "minutes": 30,
+      "refs": [
+        "3.3.c"
+      ],
+      "prerequisites": "2.3;3.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.3-04",
+      "position": 24,
+      "section": "3.3",
+      "module": 3,
+      "title": "EURIBOR, historical EONIA and the current €STR",
+      "minutes": 25,
+      "refs": [
+        "3.3.d"
+      ],
+      "prerequisites": "2.3;3.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.4-A",
+      "position": 25,
+      "section": "3.4",
+      "module": 3,
+      "title": "Bonds: price, yield and the meaning of duration",
+      "minutes": 30,
+      "refs": [
+        "3.4.a",
+        "3.4.b",
+        "3.4.c"
+      ],
+      "prerequisites": "3.1;2.3",
+      "status": "GOLDEN_MASTER_UAT"
+    },
+    {
+      "id": "EIP-3.4-02",
+      "position": 26,
+      "section": "3.4",
+      "module": 3,
+      "title": "Clean price, dirty price and accrued interest",
+      "minutes": 25,
+      "refs": [
+        "3.4.a",
+        "3.4.b"
+      ],
+      "prerequisites": "3.1;2.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.4-03",
+      "position": 27,
+      "section": "3.4",
+      "module": 3,
+      "title": "Solving and interpreting bond yields",
+      "minutes": 30,
+      "refs": [
+        "3.4.b"
+      ],
+      "prerequisites": "3.1;2.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.4-04",
+      "position": 28,
+      "section": "3.4",
+      "module": 3,
+      "title": "Macaulay duration, modified duration and convexity",
+      "minutes": 30,
+      "refs": [
+        "3.4.b",
+        "3.4.c"
+      ],
+      "prerequisites": "3.1;2.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.4-05",
+      "position": 29,
+      "section": "3.4",
+      "module": 3,
+      "title": "Credit spreads, default, seniority and recovery",
+      "minutes": 30,
+      "refs": [
+        "3.4.c"
+      ],
+      "prerequisites": "3.1;2.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.4-06",
+      "position": 30,
+      "section": "3.4",
+      "module": 3,
+      "title": "Liquidity, reinvestment and early sale",
+      "minutes": 25,
+      "refs": [
+        "3.4.c"
+      ],
+      "prerequisites": "3.1;2.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.4-07",
+      "position": 31,
+      "section": "3.4",
+      "module": 3,
+      "title": "Luxembourg bond-income taxation in context",
+      "minutes": 25,
+      "refs": [
+        "3.4.d"
+      ],
+      "prerequisites": "3.1;2.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.5-01",
+      "position": 32,
+      "section": "3.5",
+      "module": 3,
+      "title": "Share ownership, rights and capital structure",
+      "minutes": 25,
+      "refs": [
+        "3.5.a"
+      ],
+      "prerequisites": "3.1;2.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.5-02",
+      "position": 33,
+      "section": "3.5",
+      "module": 3,
+      "title": "Equity valuation: assumptions before ratios",
+      "minutes": 30,
+      "refs": [
+        "3.5.b"
+      ],
+      "prerequisites": "3.1;2.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.5-03",
+      "position": 34,
+      "section": "3.5",
+      "module": 3,
+      "title": "Dividends, price changes and total return",
+      "minutes": 30,
+      "refs": [
+        "3.5.c"
+      ],
+      "prerequisites": "3.1;2.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.5-04",
+      "position": 35,
+      "section": "3.5",
+      "module": 3,
+      "title": "Equity risk, concentration and diversification",
+      "minutes": 30,
+      "refs": [
+        "3.5.d"
+      ],
+      "prerequisites": "3.1;2.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.5-05",
+      "position": 36,
+      "section": "3.5",
+      "module": 3,
+      "title": "Luxembourg equity-income and disposal taxation",
+      "minutes": 30,
+      "refs": [
+        "3.5.e"
+      ],
+      "prerequisites": "3.1;2.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.6-01",
+      "position": 37,
+      "section": "3.6",
+      "module": 3,
+      "title": "Futures and forwards: obligations and payoff logic",
+      "minutes": 30,
+      "refs": [
+        "3.6.a"
+      ],
+      "prerequisites": "3.4;3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.6-02",
+      "position": 38,
+      "section": "3.6",
+      "module": 3,
+      "title": "Margin, settlement and basis risk",
+      "minutes": 30,
+      "refs": [
+        "3.6.a"
+      ],
+      "prerequisites": "3.4;3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.6-03",
+      "position": 39,
+      "section": "3.6",
+      "module": 3,
+      "title": "Options: calls, puts, premium and exercise",
+      "minutes": 30,
+      "refs": [
+        "3.6.b"
+      ],
+      "prerequisites": "3.4;3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.6-04",
+      "position": 40,
+      "section": "3.6",
+      "module": 3,
+      "title": "Option payoff and profit: complete scenario tables",
+      "minutes": 30,
+      "refs": [
+        "3.6.b"
+      ],
+      "prerequisites": "3.4;3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.6-05",
+      "position": 41,
+      "section": "3.6",
+      "module": 3,
+      "title": "Hedging versus speculation: consequences and limits",
+      "minutes": 30,
+      "refs": [
+        "3.6.a",
+        "3.6.b"
+      ],
+      "prerequisites": "3.4;3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.6-06",
+      "position": 42,
+      "section": "3.6",
+      "module": 3,
+      "title": "Derivatives taxation: product and taxpayer distinctions",
+      "minutes": 25,
+      "refs": [
+        "3.6.c"
+      ],
+      "prerequisites": "3.4;3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.7-01",
+      "position": 43,
+      "section": "3.7",
+      "module": 3,
+      "title": "The FX market and two-way quotation conventions",
+      "minutes": 30,
+      "refs": [
+        "3.7.a",
+        "3.7.b"
+      ],
+      "prerequisites": "3.1;2.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.7-02",
+      "position": 44,
+      "section": "3.7",
+      "module": 3,
+      "title": "Cross rates and currency conversions",
+      "minutes": 30,
+      "refs": [
+        "3.7.c"
+      ],
+      "prerequisites": "3.1;2.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.7-03",
+      "position": 45,
+      "section": "3.7",
+      "module": 3,
+      "title": "Foreign investments: asset returns and currency effects",
+      "minutes": 30,
+      "refs": [
+        "3.7.d"
+      ],
+      "prerequisites": "3.1;2.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.7-04",
+      "position": 46,
+      "section": "3.7",
+      "module": 3,
+      "title": "Currency hedging and its trade-offs",
+      "minutes": 25,
+      "refs": [
+        "3.7.d"
+      ],
+      "prerequisites": "3.1;2.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.8-01",
+      "position": 47,
+      "section": "3.8",
+      "module": 3,
+      "title": "How a mutual fund works: parties, units and governance",
+      "minutes": 30,
+      "refs": [
+        "3.8.a"
+      ],
+      "prerequisites": "3.4;3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.8-02",
+      "position": 48,
+      "section": "3.8",
+      "module": 3,
+      "title": "NAV, subscriptions and redemptions",
+      "minutes": 25,
+      "refs": [
+        "3.8.a"
+      ],
+      "prerequisites": "3.4;3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.8-03",
+      "position": 49,
+      "section": "3.8",
+      "module": 3,
+      "title": "Fund policy and UCITS structures",
+      "minutes": 30,
+      "refs": [
+        "3.8.b"
+      ],
+      "prerequisites": "3.4;3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.8-04",
+      "position": 50,
+      "section": "3.8",
+      "module": 3,
+      "title": "Fund risk, liquidity, costs and share classes",
+      "minutes": 30,
+      "refs": [
+        "3.8.b",
+        "3.8.c"
+      ],
+      "prerequisites": "3.4;3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.8-05",
+      "position": 51,
+      "section": "3.8",
+      "module": 3,
+      "title": "Comparing and selecting funds with evidence",
+      "minutes": 30,
+      "refs": [
+        "3.8.c"
+      ],
+      "prerequisites": "3.4;3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.8-06",
+      "position": 52,
+      "section": "3.8",
+      "module": 3,
+      "title": "Luxembourg fund-investment taxation",
+      "minutes": 25,
+      "refs": [
+        "3.8.d"
+      ],
+      "prerequisites": "3.4;3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.9-01",
+      "position": 53,
+      "section": "3.9",
+      "module": 3,
+      "title": "Sustainable finance and ESG investing: meanings and limits",
+      "minutes": 30,
+      "refs": [
+        "3.9.a"
+      ],
+      "prerequisites": "3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.9-02",
+      "position": 54,
+      "section": "3.9",
+      "module": 3,
+      "title": "Environmental, social and governance factors in practice",
+      "minutes": 30,
+      "refs": [
+        "3.9.b"
+      ],
+      "prerequisites": "3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.9-03",
+      "position": 55,
+      "section": "3.9",
+      "module": 3,
+      "title": "Physical and transition risk in investment decisions",
+      "minutes": 25,
+      "refs": [
+        "3.9.b"
+      ],
+      "prerequisites": "3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.10-01",
+      "position": 56,
+      "section": "3.10",
+      "module": 3,
+      "title": "Complex payoffs, leverage and contingent outcomes",
+      "minutes": 30,
+      "refs": [
+        "3.10.a"
+      ],
+      "prerequisites": "3.6;3.8",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-3.10-02",
+      "position": 57,
+      "section": "3.10",
+      "module": 3,
+      "title": "Applying ESMA and CSSF product-complexity criteria",
+      "minutes": 30,
+      "refs": [
+        "3.10.b"
+      ],
+      "prerequisites": "3.6;3.8",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-4.1-A",
+      "position": 58,
+      "section": "4.1",
+      "module": 4,
+      "title": "Suitability: turn client evidence into a defensible decision",
+      "minutes": 30,
+      "refs": [
+        "4.1.a",
+        "4.1.b",
+        "4.1.c",
+        "4.1.d",
+        "4.1.e",
+        "4.1.f"
+      ],
+      "prerequisites": "3.4;3.8",
+      "status": "GOLDEN_MASTER_UAT"
+    },
+    {
+      "id": "EIP-4.1-02",
+      "position": 59,
+      "section": "4.1",
+      "module": 4,
+      "title": "Designing a clear and reliable client questionnaire",
+      "minutes": 30,
+      "refs": [
+        "4.1.a",
+        "4.1.b"
+      ],
+      "prerequisites": "3.4;3.8",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-4.1-03",
+      "position": 60,
+      "section": "4.1",
+      "module": 4,
+      "title": "Updating a profile when the client’s life changes",
+      "minutes": 25,
+      "refs": [
+        "4.1.d",
+        "4.1.e"
+      ],
+      "prerequisites": "3.4;3.8",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-4.1-04",
+      "position": 61,
+      "section": "4.1",
+      "module": 4,
+      "title": "Sustainability preferences: detailed matching and records",
+      "minutes": 30,
+      "refs": [
+        "4.1.f"
+      ],
+      "prerequisites": "3.4;3.8",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-5.1-01",
+      "position": 62,
+      "section": "5.1",
+      "module": 5,
+      "title": "Reading a return series: arithmetic and geometric growth",
+      "minutes": 30,
+      "refs": [
+        "5.1.a"
+      ],
+      "prerequisites": "3.1;3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-5.1-02",
+      "position": 63,
+      "section": "5.1",
+      "module": 5,
+      "title": "Variance, volatility and the limits of a sample",
+      "minutes": 30,
+      "refs": [
+        "5.1.a"
+      ],
+      "prerequisites": "3.1;3.5",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-5.2-01",
+      "position": 64,
+      "section": "5.2",
+      "module": 5,
+      "title": "Covariance and correlation: how assets move together",
+      "minutes": 30,
+      "refs": [
+        "5.2.a"
+      ],
+      "prerequisites": "5.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-5.2-02",
+      "position": 65,
+      "section": "5.2",
+      "module": 5,
+      "title": "Portfolio expected return and weighting",
+      "minutes": 25,
+      "refs": [
+        "5.2.b"
+      ],
+      "prerequisites": "5.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-5.2-03",
+      "position": 66,
+      "section": "5.2",
+      "module": 5,
+      "title": "Two-asset portfolio risk and diversification",
+      "minutes": 30,
+      "refs": [
+        "5.2.a",
+        "5.2.b"
+      ],
+      "prerequisites": "5.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-5.3-01",
+      "position": 67,
+      "section": "5.3",
+      "module": 5,
+      "title": "Asset allocation in a mean–variance framework",
+      "minutes": 30,
+      "refs": [
+        "5.3.a"
+      ],
+      "prerequisites": "5.2;4.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-5.3-02",
+      "position": 68,
+      "section": "5.3",
+      "module": 5,
+      "title": "Constraints, estimation error and practical allocation",
+      "minutes": 30,
+      "refs": [
+        "5.3.a"
+      ],
+      "prerequisites": "5.2;4.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-5.4-01",
+      "position": 69,
+      "section": "5.4",
+      "module": 5,
+      "title": "The efficient frontier and the choice of a portfolio",
+      "minutes": 30,
+      "refs": [
+        "5.4.a"
+      ],
+      "prerequisites": "5.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-5.4-02",
+      "position": 70,
+      "section": "5.4",
+      "module": 5,
+      "title": "Selecting a portfolio for a specific client",
+      "minutes": 30,
+      "refs": [
+        "5.4.a"
+      ],
+      "prerequisites": "5.3",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-5.5-01",
+      "position": 71,
+      "section": "5.5",
+      "module": 5,
+      "title": "Measuring portfolio performance and choosing a benchmark",
+      "minutes": 30,
+      "refs": [
+        "5.5.a"
+      ],
+      "prerequisites": "5.4",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-5.5-02",
+      "position": 72,
+      "section": "5.5",
+      "module": 5,
+      "title": "Interpreting risk-adjusted results and cash-flow effects",
+      "minutes": 30,
+      "refs": [
+        "5.5.a"
+      ],
+      "prerequisites": "5.4",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-6.1-01",
+      "position": 73,
+      "section": "6.1",
+      "module": 6,
+      "title": "Index-linked, unit-linked and separately managed life insurance",
+      "minutes": 30,
+      "refs": [
+        "6.1.a"
+      ],
+      "prerequisites": "3.8;4.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-6.1-02",
+      "position": 74,
+      "section": "6.1",
+      "module": 6,
+      "title": "Policyholder, insured, beneficiary and insurer",
+      "minutes": 25,
+      "refs": [
+        "6.1.b"
+      ],
+      "prerequisites": "3.8;4.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-6.1-03",
+      "position": 75,
+      "section": "6.1",
+      "module": 6,
+      "title": "Settlement choices: amount, period and lifetime income",
+      "minutes": 30,
+      "refs": [
+        "6.1.c"
+      ],
+      "prerequisites": "3.8;4.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-6.1-04",
+      "position": 76,
+      "section": "6.1",
+      "module": 6,
+      "title": "Luxembourg life-insurance taxation and conditions",
+      "minutes": 30,
+      "refs": [
+        "6.1.d"
+      ],
+      "prerequisites": "3.8;4.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-6.2-01",
+      "position": 77,
+      "section": "6.2",
+      "module": 6,
+      "title": "The three pension pillars and their different roles",
+      "minutes": 30,
+      "refs": [
+        "6.2.a"
+      ],
+      "prerequisites": "3.1;4.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-6.2-02",
+      "position": 78,
+      "section": "6.2",
+      "module": 6,
+      "title": "Retirement accumulation, drawdown and longevity",
+      "minutes": 30,
+      "refs": [
+        "6.2.b"
+      ],
+      "prerequisites": "3.1;4.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-6.2-03",
+      "position": 79,
+      "section": "6.2",
+      "module": 6,
+      "title": "Comparing retirement products with client needs",
+      "minutes": 25,
+      "refs": [
+        "6.2.b"
+      ],
+      "prerequisites": "3.1;4.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-6.2-04",
+      "position": 80,
+      "section": "6.2",
+      "module": 6,
+      "title": "Luxembourg pension-product taxation and conditions",
+      "minutes": 30,
+      "refs": [
+        "6.2.c"
+      ],
+      "prerequisites": "3.1;4.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-7.1-01",
+      "position": 81,
+      "section": "7.1",
+      "module": 7,
+      "title": "Investment services and ancillary services",
+      "minutes": 30,
+      "refs": [
+        "7.1.a"
+      ],
+      "prerequisites": "4.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-7.1-02",
+      "position": 82,
+      "section": "7.1",
+      "module": 7,
+      "title": "Conduct standards and client information",
+      "minutes": 30,
+      "refs": [
+        "7.1.b"
+      ],
+      "prerequisites": "4.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-7.1-03",
+      "position": 83,
+      "section": "7.1",
+      "module": 7,
+      "title": "Independent advice, non-independent advice and inducements",
+      "minutes": 30,
+      "refs": [
+        "7.1.c"
+      ],
+      "prerequisites": "4.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-7.1-04",
+      "position": 84,
+      "section": "7.1",
+      "module": 7,
+      "title": "Costs, charges and reporting to clients",
+      "minutes": 30,
+      "refs": [
+        "7.1.d"
+      ],
+      "prerequisites": "4.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-7.1-05",
+      "position": 85,
+      "section": "7.1",
+      "module": 7,
+      "title": "Adviser responsibility and liability boundaries",
+      "minutes": 25,
+      "refs": [
+        "7.1.e"
+      ],
+      "prerequisites": "4.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-7.1-06",
+      "position": 86,
+      "section": "7.1",
+      "module": 7,
+      "title": "Sustainability-risk disclosures in advice and investment decisions",
+      "minutes": 30,
+      "refs": [
+        "7.1.f"
+      ],
+      "prerequisites": "4.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-7.2-01",
+      "position": 87,
+      "section": "7.2",
+      "module": 7,
+      "title": "The regulatory structure of secondary markets",
+      "minutes": 30,
+      "refs": [
+        "7.2.a"
+      ],
+      "prerequisites": "2.3;7.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-7.2-02",
+      "position": 88,
+      "section": "7.2",
+      "module": 7,
+      "title": "Market abuse: inside information, disclosure and manipulation",
+      "minutes": 30,
+      "refs": [
+        "7.2.b"
+      ],
+      "prerequisites": "2.3;7.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-7.2-03",
+      "position": 89,
+      "section": "7.2",
+      "module": 7,
+      "title": "AML: customer information and escalation decisions",
+      "minutes": 30,
+      "refs": [
+        "7.2.c"
+      ],
+      "prerequisites": "2.3;7.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-7.3-01",
+      "position": 90,
+      "section": "7.3",
+      "module": 7,
+      "title": "Reputational risk: sources and consequences",
+      "minutes": 25,
+      "refs": [
+        "7.3.a",
+        "7.3.b"
+      ],
+      "prerequisites": "7.1;7.2",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-7.3-02",
+      "position": 91,
+      "section": "7.3",
+      "module": 7,
+      "title": "EFPA ethics and reasoned professional decisions",
+      "minutes": 30,
+      "refs": [
+        "7.3.c"
+      ],
+      "prerequisites": "7.1;7.2",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-M8-01",
+      "position": 92,
+      "section": "EXAM-M8",
+      "module": 8,
+      "title": "Green-finance instruments and use-of-proceeds claims",
+      "minutes": 30,
+      "refs": [
+        "EXAM-M8"
+      ],
+      "prerequisites": "3.9;4.1;7.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-M8-02",
+      "position": 93,
+      "section": "EXAM-M8",
+      "module": 8,
+      "title": "SFDR and taxonomy: evidence, disclosures and limits",
+      "minutes": 30,
+      "refs": [
+        "EXAM-M8"
+      ],
+      "prerequisites": "3.9;4.1;7.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-M8-03",
+      "position": 94,
+      "section": "EXAM-M8",
+      "module": 8,
+      "title": "Sustainability data, adverse impacts and comparability",
+      "minutes": 30,
+      "refs": [
+        "EXAM-M8"
+      ],
+      "prerequisites": "3.9;4.1;7.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    },
+    {
+      "id": "EIP-M8-04",
+      "position": 95,
+      "section": "EXAM-M8",
+      "module": 8,
+      "title": "Greenwashing: evaluating claims and conflicting evidence",
+      "minutes": 25,
+      "refs": [
+        "EXAM-M8"
+      ],
+      "prerequisites": "3.9;4.1;7.1",
+      "status": "PLANNED_NOT_AUTHORED"
+    }
+  ],
+  "total_minutes": 2740,
+  "production_gate": "OWNER_UAT_PENDING"
+}

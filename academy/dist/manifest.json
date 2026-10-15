@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0-reading-uat",
+  "scope": "Reading-only Phase 1",
+  "owner_uat": "PENDING",
+  "date": "2026-10-15",
+  "file": "EIP_Luxembourg_Academy.html",
+  "sha256": "fa08aef601333fe5298e8f42debfa5d2234f4c54e4152510ad6aafb9ab73f915",
+  "bytes": 169739,
+  "lessons": [
+    {
+      "id": "EIP-3.1-A",
+      "en_words": 1808,
+      "pt_words": 1849,
+      "examples": 3
+    },
+    {
+      "id": "EIP-3.4-A",
+      "en_words": 1930,
+      "pt_words": 2071,
+      "examples": 3
+    },
+    {
+      "id": "EIP-4.1-A",
+      "en_words": 2084,
+      "pt_words": 2144,
+      "examples": 3
+    }
+  ]
+}

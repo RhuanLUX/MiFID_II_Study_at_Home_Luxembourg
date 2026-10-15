@@ -1,0 +1,219 @@
+IMPORTANT: IMMEDIATE PROJECT SCOPE CORRECTION
+
+I am the project owner, and I am explicitly redefining the scope of the EIP Luxembourg project.
+
+The previous Master Prompt was unnecessarily complex and included functionality that I do not want to develop at this stage.
+
+THIS MESSAGE OVERRIDES ALL CONFLICTING INSTRUCTIONS IN THE PREVIOUS MASTER PROMPT.
+
+PROJECT OBJECTIVE
+
+Build a simple, comprehensive, offline learning platform to prepare a student for the European Investment Practitioner (EIP) certification administered by EFPA Luxembourg.
+
+The platform is a DIGITAL TEXTBOOK WITH AN ORGANIZED STUDY PLAN.
+
+It is NOT a Duolingo-style application, an interactive examination system, or a gamified educational product.
+
+PHASE 1: LEARNING PLATFORM ONLY
+
+This is the ONLY phase currently authorized.
+
+Use the existing HTML provided in the package as the visual and functional reference.
+
+Its original interface was acceptable. The critical problem was the superficial educational content.
+
+Do not unnecessarily redesign the platform.
+
+WHAT I WANT
+
+1. A simple left sidebar containing all lessons in chronological order.
+
+2. The complete EFPA Luxembourg EIP curriculum divided into logical lessons.
+
+3. Each lesson should represent approximately 30 minutes of meaningful study.
+
+4. Determine the number of lessons according to the actual curriculum. Do not artificially target 148, 200, 250, or 300 lessons.
+
+5. A subject requiring 45 minutes can be divided into a 30-minute lesson and a 15-minute continuation. Do not artificially expand content to fill time.
+
+6. Clicking a lesson opens ONE complete reading page.
+
+7. Each lesson must provide genuine educational depth.
+
+8. The student reads the material, studies the examples, optionally takes personal notes, and marks the lesson as completed.
+
+9. Completed lessons receive a visible green checkmark in the sidebar.
+
+10. The platform remembers completed lessons locally and automatically identifies the next lesson to study.
+
+11. The student can reopen any completed lesson for revision.
+
+12. Maintain a simple backup/export option to protect learning progress.
+
+EDUCATIONAL CONTENT REQUIREMENTS
+
+For every lesson, provide:
+
+- Clear title and position within the curriculum.
+- Specific connection to the EFPA Luxembourg syllabus.
+- Introduction explaining what the student will learn.
+- Detailed theoretical explanations.
+- Definitions of relevant technical terminology.
+- Explanation of WHY the subject matters.
+- Explanation of HOW it works.
+- Explanation of WHEN it is applied.
+- Practical examples developed step by step.
+- Financial calculations and complete worked solutions whenever applicable.
+- Realistic financial or regulatory scenarios.
+- Reasoning behind decisions, alternatives, assumptions, consequences, and risks.
+- Common misunderstandings and important distinctions.
+- A concise final summary of the principal concepts.
+- Official sources and optional complementary learning materials.
+
+Examples must teach the reasoning process, not merely announce the conclusion.
+
+For instance, if an investment option is selected, explain the investor's objectives, the available alternatives, market conditions, relevant risks, financial assumptions, why the selected option is appropriate, and why the other alternatives may be less suitable.
+
+When discussing future scenarios, distinguish assumptions and uncertainty from established facts.
+
+When explaining calculations, show every necessary step and explain what the final result actually means.
+
+Research the content properly.
+
+Use the EFPA Luxembourg syllabus as the curriculum authority and consult appropriate primary sources such as CSSF, ESMA, ECB, EUR-Lex and Luxembourg authorities.
+
+Verify current rules and distinguish EU requirements from Luxembourg-specific requirements.
+
+Do not invent regulations, numbers, thresholds or references.
+
+Do not copy copyrighted textbooks or paid course materials.
+
+You may add a small COMPLEMENTARY MATERIAL section at the bottom of relevant lessons containing:
+
+- Official articles.
+- Regulatory publications.
+- Reliable educational material.
+- Relevant educational videos when genuinely useful.
+
+Include only links that you can verify.
+
+Complementary material must remain OPTIONAL. The main lesson must teach the subject independently.
+
+LANGUAGES
+
+English is the primary teaching language.
+
+Provide a faithful and COMPLETE Brazilian Portuguese translation accessible using a simple eye icon.
+
+The translation must preserve the explanations, examples, reasoning, formulas and conclusions.
+
+Do not replace complete Portuguese translations with short summaries.
+
+USER EXPERIENCE
+
+Keep the interface clean, minimal and straightforward.
+
+Navigation:
+- Lessons on the left.
+- Selected lesson on the right.
+- Previous / Next lesson.
+- Mark lesson as completed.
+- Completed lessons shown in green.
+- Current lesson clearly identified.
+- Optional translation through the eye icon.
+
+The entire lesson should be readable on one page with normal scrolling.
+
+Do not split each lesson into multiple interactive screens.
+
+The student must be able to open a lesson, read everything, understand the content, mark it as completed and close the application.
+
+The next day, the platform should show the next lesson.
+
+Do not implement features merely because they might be educationally interesting.
+
+WHAT YOU MUST NOT BUILD NOW
+
+- No quizzes.
+- No end-of-lesson exercises.
+- No mandatory knowledge checks.
+- No scores or grades.
+- No question banks.
+- No examination simulations.
+- No automated mastery assessments.
+- No complicated spaced repetition system.
+- No adaptive learning engine.
+- No gamification.
+- No leaderboards.
+- No unnecessary dashboards.
+- No excessive buttons.
+- No external AI integration.
+
+All these features are OUT OF SCOPE.
+
+FUTURE PHASES
+
+PHASE 2 will be a separate exercise and knowledge-reinforcement application.
+
+PHASE 3 will be a separate examination simulator using a large question bank, including lesson-specific and full examination modes.
+
+These phases will only be authorized later.
+
+For now, assign stable identifiers to lessons and syllabus objectives so that future exercises and simulated examination questions can reference the appropriate lesson.
+
+Do NOT implement those future modules.
+
+TECHNICAL REQUIREMENTS
+
+Prefer a lightweight offline HTML application.
+
+The student should be able to open the final HTML directly in a browser without installation, accounts, API keys, servers or internet access.
+
+External links are optional supporting resources, not dependencies.
+
+You may use modular source files during development, but provide a simple final offline application.
+
+Preserve the simplicity and visual identity of the original HTML.
+
+DEVELOPMENT PROCESS
+
+1. Review the existing HTML.
+2. Preserve its useful navigation, design and completion features.
+3. Audit the official EFPA Luxembourg syllabus.
+4. Define the complete curriculum and appropriate lesson sequence.
+5. Determine the number of lessons based on genuine educational requirements.
+6. Create THREE fully developed reading-based Golden Master lessons.
+7. Verify the accuracy, depth, English, Portuguese translations and sources.
+8. Present the Golden Masters for Owner UAT.
+9. After approval, produce the complete curriculum efficiently in controlled batches.
+10. Perform factual, linguistic and functional quality assurance.
+
+Do not spend development capacity building educational features outside this scope.
+
+Do not artificially multiply lessons or inflate the curriculum.
+
+Do not create superficial content merely to complete a large number of lessons.
+
+The platform must be SIMPLE TO USE and DEEP IN CONTENT.
+
+PRIMARY SUCCESS CRITERION
+
+A student with no previous financial-industry experience should be able to progressively study the entire EIP Luxembourg syllabus through these lessons and develop a sound understanding of the subjects.
+
+The student should not need to search externally for basic explanations missing from the lessons.
+
+After completing this learning platform, we will separately develop reinforcement exercises and examination simulations.
+
+CURRENT AUTHORIZATION
+
+Proceed autonomously with PHASE 1 ONLY.
+
+If you already started implementing quizzes, simulators, scoring systems or complex assessment mechanisms, stop that work.
+
+Preserve useful existing code where appropriate, but do not continue expanding those features.
+
+Reorient the project toward comprehensive educational reading content.
+
+Report progress based on actual syllabus coverage, lessons completed, factual validation and remaining work.
+
+START WITH THE CORRECTED SCOPE.

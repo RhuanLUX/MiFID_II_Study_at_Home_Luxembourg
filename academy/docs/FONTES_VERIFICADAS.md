@@ -190,3 +190,179 @@ Locally authored mathematics and fictional examples.
 - Consulted section: TVM and bond lesson equations; tests/check.cjs
 - Supports: Algebraic derivations, timelines and original numerical scenarios.
 - Limits: Hypothetical fixed rates, promised cash flows and stated simplifying assumptions; not market quotes or forecasts.
+
+## IMF-DEBT — What is Debt Sustainability?
+
+[Official publisher / source](https://www.imf.org/en/publications/fandd/issues/2020/09/what-is-debt-sustainability-basics)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal economics; EFPA Luxembourg curriculum context
+- Consulted section: Debt service, primary balance, interest/growth and financing needs
+- Supports: Debt sustainability needs assumptions and judgment, not a universal debt-ratio cutoff.
+- Limits: No current country debt statistic or fiscal threshold is taught. Illustrative debt dynamics independently derived.
+
+## EUROSTAT-DEBT — Government finance statistics: deficit-debt relation
+
+[Official publisher / source](https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260122-1)
+
+- Version/date: 22 January 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: EU government statistics
+- Consulted section: Deficit flow, debt stock and stock-flow adjustments
+- Supports: A change in gross debt is not necessarily identical to the recorded deficit.
+- Limits: January 2026 methodological explanation; published country observations are not used as current values.
+
+## ECB-STABILITY — Financial stability and macroprudential policy
+
+[Official publisher / source](https://www.ecb.europa.eu/ecb/orga/tasks/stability/html/index.en.html)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Euro area / EU
+- Consulted section: Financial intermediaries, markets, infrastructures and resilience
+- Supports: Financial-system functions and interconnected risk.
+- Limits: No claim that supervision eliminates losses or guarantees individual investments.
+
+## IMF-SUPPLY — Supply and Demand: Why Markets Tick
+
+[Official publisher / source](https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Supply-and-Demand)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal economics; EFPA Luxembourg curriculum context
+- Consulted section: Supply/demand, equilibrium, elasticity and market structure
+- Supports: Conceptual supply/demand framework.
+- Limits: Original hypothetical schedules, calculations and client cases; no empirical demand estimates.
+
+## ECB-INFLATION — What is inflation?
+
+[Official publisher / source](https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me-more/html/what_is_inflation.en.html)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Euro area
+- Consulted section: Broad price changes; basket weights; HICP and personal inflation
+- Supports: Inflation is a broad price-level change; weighted measures differ from personal baskets.
+- Limits: No current inflation observation is quoted. Numerical baskets and real-return calculations are original.
+
+## ECB-TARGET — Two per cent inflation target
+
+[Official publisher / source](https://www.ecb.europa.eu/mopo/strategy/pricestab/html/index.en.html)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Euro area
+- Consulted section: Quantitative target; euro-area focus; symmetric deviations
+- Supports: ECB medium-term 2% objective and euro-area focus.
+- Limits: A target is not a forecast, interest rate or guarantee for every national monthly observation.
+
+## ECB-TRANSMISSION — Transmission mechanism of monetary policy
+
+[Official publisher / source](https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Euro area
+- Consulted section: Official rates, bank/market rates, expectations, asset prices and spending
+- Supports: Channels linking monetary policy to financial conditions and economic activity.
+- Limits: No deterministic market forecast or current rate quote; numerical scenarios are conditional.
+
+## IMF-FISCAL — Fiscal Policy: Taking and Giving Away
+
+[Official publisher / source](https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Fiscal-Policy)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal economics; EFPA Luxembourg curriculum context
+- Consulted section: Fiscal instruments, automatic stabilisers, stimulus and constraints
+- Supports: Distinction between spending/taxation choices and monetary policy.
+- Limits: Hypothetical budgets; no national tax rate or current fiscal limit asserted.
+
+## IMF-GDP — Gross Domestic Product: An Economy’s All
+
+[Official publisher / source](https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/gross-domestic-product-gdp)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal economics; EFPA Luxembourg curriculum context
+- Consulted section: Production/income/expenditure measurement; real versus nominal; welfare limitations
+- Supports: GDP is a period production measure, with real/nominal and interpretation limits.
+- Limits: Only stable concepts are used; dated statistical-standard references and historical figures in the article are not taught as current.
+
+## ECB-SECTORS — Sector accounts
+
+[Official publisher / source](https://www.ecb.europa.eu/stats/macroeconomic_and_sectoral/sector_accounts/html/index.en.html)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Euro area / EU statistics
+- Consulted section: Resident sectors, non-financial/financial accounts and balance sheets
+- Supports: Accounts connect sector income, investment, financing and balance sheets.
+- Limits: Original simplified accounts explicitly omit transfers/valuation effects when assumed. Official identities require consistent boundaries.
+
+## IMF-CYCLES — Recession: When Bad Times Prevail
+
+[Official publisher / source](https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Recession)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Universal economics; EFPA Luxembourg curriculum context
+- Consulted section: Recession measurement, multiple indicators, revisions and prediction limits
+- Supports: Economic contractions require interpretation beyond one data point.
+- Limits: No historical-frequency statistics or US dating procedure imported as Luxembourg rules.
+
+## ECB-MONEY — What is money?
+
+[Official publisher / source](https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me-more/html/what_is_money.en.html)
+
+- Version/date: 24 November 2015; updated 19 June 2024; checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Euro area
+- Consulted section: Money functions; central bank money and commercial bank money
+- Supports: Distinguishes deposits, cash and central-bank reserves.
+- Limits: Digital-euro discussion is not used to assert a launch or require a fintech lesson.
+
+## MIFID-27 — MiFID II Article 27 — best execution
+
+[Official publisher / source](https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-27-obligation-execute-orders)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: EU
+- Consulted section: Article 27(1), retail total consideration, execution policies
+- Supports: Execution factors and retail price-plus-direct-cost consideration.
+- Limits: Introductory application only; no promise of the best price in every individual transaction.
+
+## LUXSE-MARKETS — Markets and platforms — Luxembourg Stock Exchange
+
+[Official publisher / source](https://www.luxse.com/listing/our-markets-and-platforms)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: Bourse de Luxembourg, Euro MTF and Securities Official List
+- Supports: Distinguishes EU regulated market, exchange-regulated market and admission without trading.
+- Limits: No listing is represented as a guarantee of liquidity, credit quality or retail suitability.
+
+## LUXSE-LIST — Official lists — Luxembourg Stock Exchange
+
+[Official publisher / source](https://www.luxse.com/market-overview/official-list)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: Official list scope and market/platform classification
+- Supports: Distinguishes securities admitted to trading from registration on SOL.
+- Limits: No live instrument price or availability is asserted.
+
+## LUXSE-RULES — Regulation — Luxembourg Stock Exchange
+
+[Official publisher / source](https://www.luxse.com/regulation)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: Current rulebook/trading-manual index, including June 2026 amendments
+- Supports: Official route for verifying admission, trading and market-specific rules.
+- Limits: Index inspected; specific order-validity rules, trading schedules and fees are not inferred from unexamined documents.

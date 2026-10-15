@@ -1,11 +1,12 @@
 {
   "date": "2026-10-15",
-  "scope": "Reading-only Golden Master",
-  "checks": 14,
-  "passed": 14,
+  "scope": "Reading-only continuous production",
+  "lessons": 18,
+  "checks": 15,
+  "passed": 15,
   "limitations": [
-    "Automated field checks do not prove semantic translation quality.",
-    "Learner timing and Owner UAT remain pending.",
-    "Regulatory specialist review remains pending."
+    "Field and length checks do not prove educational depth; each lesson also needs editorial review.",
+    "New Portuguese translations are explicitly pending.",
+    "Independent regulatory review is not implied."
   ]
 }

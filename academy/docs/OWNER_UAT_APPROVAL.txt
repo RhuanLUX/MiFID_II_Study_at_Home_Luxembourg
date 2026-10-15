@@ -1,0 +1,146 @@
+OWNER UAT: APPROVED TO CONTINUE
+
+I have reviewed Lesson 16, "Money across time: build, discount, compare", including its educational structure, explanations, financial calculations, worked examples, references and user interface.
+
+The quality is substantially better than the previous platform.
+
+I approve Lesson 16 as the pedagogical reference standard for the remaining curriculum.
+
+You are now authorized to continue developing the complete EIP Luxembourg learning platform.
+
+CURRENT MODEL: GPT-6.1 SOL HIGH
+AUTONOMY: HIGH
+
+PRIMARY OBJECTIVE
+
+Complete the learning content for all 95 planned units, subject to any necessary curriculum corrections identified through official syllabus verification.
+
+Three Golden Masters already exist. Preserve them and continue developing the remaining lessons.
+
+The project must remain a simple, comprehensive digital textbook for the EFPA Luxembourg EIP certification.
+
+PRIORITY 1: EDUCATIONAL CONTENT
+
+Focus your development effort on:
+
+1. Accurate, comprehensive financial explanations.
+2. Research using the official EFPA Luxembourg syllabus.
+3. Relevant Luxembourg and European regulatory requirements.
+4. Clear progressive explanations for beginners.
+5. Financial formulas and step-by-step calculations.
+6. Realistic scenarios demonstrating how financial concepts are applied.
+7. Worked examples explaining the reasoning behind conclusions.
+8. Common mistakes and important distinctions.
+9. Reliable sources and optional further reading.
+10. Complete coverage of the published EIP curriculum.
+
+Maintain the depth demonstrated in Lesson 16.
+
+Do not replace comprehensive explanations with short summaries.
+
+Do not artificially inflate content to meet a fixed word count.
+
+Each lesson should contain enough meaningful material for approximately 30 minutes of study when appropriate.
+
+Shorter lessons are acceptable when justified by the subject.
+
+PRIORITY 2: ACCURACY
+
+Verify financial calculations programmatically whenever appropriate.
+
+Use official and authoritative sources for regulatory, taxation and financial topics.
+
+Distinguish European regulations from Luxembourg-specific requirements.
+
+Do not invent financial rules, legal requirements, references or examples presented as historical facts.
+
+Identify outdated information and verify the currently applicable rules.
+
+All examples should clearly explain their assumptions and limitations.
+
+PRIORITY 3: EXISTING PLATFORM
+
+Preserve the currently approved layout.
+
+The left sidebar, central lesson content, navigation, personal notes, completion checkmarks and backup functionality are approved.
+
+Do not redesign them unnecessarily.
+
+The existing user experience is sufficient.
+
+TRANSLATION: SECONDARY PRIORITY
+
+The Portuguese translation is only a supporting resource.
+
+Do not spend substantial development time optimizing translations at this stage.
+
+English educational content is the priority.
+
+Keep the existing translation functionality.
+
+For new lessons, provide Portuguese translations when feasible without compromising the development of the primary English curriculum.
+
+If a translation is not yet available, clearly indicate that it is pending. Never display incomplete summaries as if they were complete translations.
+
+Translations must not block progress on the main curriculum.
+
+PRODUCTION STRATEGY
+
+Proceed autonomously with the remaining lessons.
+
+Produce content in manageable batches of approximately 10 to 15 lessons.
+
+After each batch:
+
+- Verify syllabus coverage.
+- Validate mathematical examples and calculations.
+- Check regulatory accuracy.
+- Check content depth against Lesson 16.
+- Confirm that the HTML still works offline.
+- Run existing automated tests.
+- Record completed lessons and remaining work.
+- Continue with the next batch.
+
+Do not require separate Owner UAT approval after every batch unless a critical issue or significant scope decision requires my attention.
+
+Use the existing curriculum as the production baseline, but correct omissions or unnecessary duplication when justified by the official syllabus.
+
+Preserve stable lesson identifiers.
+
+Do not create quizzes, exercises, scoring systems, simulated examinations or additional educational modules.
+
+These belong to future project phases.
+
+QUALITY STANDARD
+
+Every lesson should teach the subject sufficiently for a motivated beginner to understand the underlying concepts, financial reasoning, practical implications and common mistakes.
+
+A lesson is not complete merely because its HTML renders correctly.
+
+Avoid generic explanations, shallow content, repetitive filler and unsupported financial conclusions.
+
+Use the approved Lesson 16 as the minimum pedagogical benchmark.
+
+DELIVERABLE
+
+A complete offline EIP Luxembourg Academy containing all required lessons, properly organized and accessible through the existing interface.
+
+Maintain the project documentation, verified references and test coverage.
+
+Report progress in a concise format:
+
+- Completed lessons / total lessons
+- Percentage of curriculum completed
+- Modules completed
+- Current production batch
+- Content validation status
+- Remaining work
+- Blockers, if any
+
+Do not spend unnecessary time generating extensive progress reports.
+
+Prioritize actual implementation and educational content.
+
+You have my authorization to continue producing the entire curriculum without waiting for additional approval at each batch.
+
+START FULL CURRICULUM PRODUCTION.

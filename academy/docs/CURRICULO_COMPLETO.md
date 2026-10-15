@@ -8,11 +8,11 @@ All 78 lettered syllabus leaves are mapped, plus the separate Green Finance exam
 
 This estimate is not a declaration that the entire certification can be mastered in 45.7 hours. EFPA references 80 training hours or equivalent; rereading, taking notes, slower first encounters and the separately authorised future practice phase may add substantial time. Revise unit counts and durations when substantive writing and Owner UAT reveal a need to split or combine material. No equivalence or accreditation is claimed.
 
-Only three Golden Masters are authored. The other titles are curriculum plans, not empty lessons counted as completed work. MATRIZ_COBERTURA.csv distinguishes planned coverage from partial implemented evidence. The complete official scope is mapped, but substantive curriculum coverage is not complete.
+18 of 95 reading units are authored. Lesson 16 is approved as the pedagogical reference. The other titles are curriculum plans, not empty lessons counted as completed work. MATRIZ_COBERTURA.csv distinguishes planned coverage from partial implemented evidence. The complete official scope is mapped, but substantive curriculum coverage is not complete.
 
 ## Sequence
 
-Economics → financial system and trading → time value and products → client needs → portfolios → insurance/retirement → regulation/ethics → Green Finance. A beginner follows the sidebar sequence. During UAT only the three pilots can open; previous/next moves among available pilots and labels this limitation. Their full curriculum positions remain visible.
+Economics → financial system and trading → time value and products → client needs → portfolios → insurance/retirement → regulation/ethics → Green Finance. A beginner follows the sidebar sequence. During production, only authored units open; previous/next follows the available chronological sequence. Their full curriculum positions remain visible.
 
 Example progression: percentages → EIP-3.1-A (dated values) → EIP-3.4-A (price, yield, sensitivity) → deeper bond mechanics → 4.1 (client evidence) → 5.2 (portfolio risk) → 5.4 (client portfolio selection). Each step introduces a new use of earlier concepts.
 
@@ -20,22 +20,22 @@ Example progression: percentages → EIP-3.1-A (dated values) → EIP-3.4-A (pri
 
 | Order | Stable ID | Section | Reading unit | Minutes | Prerequisites | Status |
 |---:|---|---|---|---:|---|---|
-| 1 | EIP-1.1-01 | 1.1 | Scarcity, choices and opportunity cost | 25 | Basic arithmetic | PLANNED_NOT_AUTHORED |
-| 2 | EIP-1.1-02 | 1.1 | How supply and demand shape prices | 30 | Basic arithmetic | PLANNED_NOT_AUTHORED |
-| 3 | EIP-1.1-03 | 1.1 | Inflation, purchasing power and real values | 30 | Basic arithmetic | PLANNED_NOT_AUTHORED |
-| 4 | EIP-1.2-01 | 1.2 | Economic policy and monetary policy: different tools | 30 | 1.1 | PLANNED_NOT_AUTHORED |
-| 5 | EIP-1.2-02 | 1.2 | How monetary policy reaches households and markets | 30 | 1.1 | PLANNED_NOT_AUTHORED |
-| 6 | EIP-1.2-03 | 1.2 | National and sector financial balances | 30 | 1.1 | PLANNED_NOT_AUTHORED |
-| 7 | EIP-1.3-01 | 1.3 | Public deficits, debt and bond issuance | 30 | 1.2 | PLANNED_NOT_AUTHORED |
-| 8 | EIP-1.3-02 | 1.3 | Business cycles and asset-market expectations | 30 | 1.2 | PLANNED_NOT_AUTHORED |
-| 9 | EIP-1.3-03 | 1.3 | Economic and political shocks: competing market effects | 25 | 1.2 | PLANNED_NOT_AUTHORED |
-| 10 | EIP-2.1-01 | 2.1 | How the financial system connects savers and borrowers | 30 | 1.1 | PLANNED_NOT_AUTHORED |
-| 11 | EIP-2.2-01 | 2.2 | Markets, instruments, participants and liquidity | 30 | 2.1 | PLANNED_NOT_AUTHORED |
-| 12 | EIP-2.3-01 | 2.3 | Primary markets and the issuance process | 30 | 2.2 | PLANNED_NOT_AUTHORED |
-| 13 | EIP-2.3-02 | 2.3 | Secondary trading, market types and execution venues | 30 | 2.2 | PLANNED_NOT_AUTHORED |
-| 14 | EIP-2.3-03 | 2.3 | Market and limit orders: price, spread and execution risk | 30 | 2.2 | PLANNED_NOT_AUTHORED |
-| 15 | EIP-2.3-04 | 2.3 | Luxembourg trading venues and product routes | 25 | 2.2 | PLANNED_NOT_AUTHORED |
-| 16 | EIP-3.1-A | 3.1 | Money across time: build, discount, compare | 30 | Percentages | GOLDEN_MASTER_UAT |
+| 1 | EIP-1.1-01 | 1.1 | Scarcity, choices and opportunity cost | 25 | Basic arithmetic | CONTENT_REVIEWED |
+| 2 | EIP-1.1-02 | 1.1 | How supply and demand shape prices | 30 | Basic arithmetic | CONTENT_REVIEWED |
+| 3 | EIP-1.1-03 | 1.1 | Inflation, purchasing power and real values | 30 | Basic arithmetic | CONTENT_REVIEWED |
+| 4 | EIP-1.2-01 | 1.2 | Economic policy and monetary policy: different tools | 30 | 1.1 | CONTENT_REVIEWED |
+| 5 | EIP-1.2-02 | 1.2 | How monetary policy reaches households and markets | 30 | 1.1 | CONTENT_REVIEWED |
+| 6 | EIP-1.2-03 | 1.2 | National and sector financial balances | 30 | 1.1 | CONTENT_REVIEWED |
+| 7 | EIP-1.3-01 | 1.3 | Public deficits, debt and bond issuance | 30 | 1.2 | CONTENT_REVIEWED |
+| 8 | EIP-1.3-02 | 1.3 | Business cycles and asset-market expectations | 30 | 1.2 | CONTENT_REVIEWED |
+| 9 | EIP-1.3-03 | 1.3 | Economic and political shocks: competing market effects | 25 | 1.2 | CONTENT_REVIEWED |
+| 10 | EIP-2.1-01 | 2.1 | How the financial system connects savers and borrowers | 30 | 1.1 | CONTENT_REVIEWED |
+| 11 | EIP-2.2-01 | 2.2 | Markets, instruments, participants and liquidity | 30 | 2.1 | CONTENT_REVIEWED |
+| 12 | EIP-2.3-01 | 2.3 | Primary markets and the issuance process | 30 | 2.2 | CONTENT_REVIEWED |
+| 13 | EIP-2.3-02 | 2.3 | Secondary trading, market types and execution venues | 30 | 2.2 | CONTENT_REVIEWED |
+| 14 | EIP-2.3-03 | 2.3 | Market and limit orders: price, spread and execution risk | 30 | 2.2 | CONTENT_REVIEWED |
+| 15 | EIP-2.3-04 | 2.3 | Luxembourg trading venues and product routes | 25 | 2.2 | CONTENT_REVIEWED |
+| 16 | EIP-3.1-A | 3.1 | Money across time: build, discount, compare | 30 | Percentages | GOLDEN_MASTER_PRESERVED |
 | 17 | EIP-3.1-02 | 3.1 | Several dated payments and rate conventions | 20 | Percentages | PLANNED_NOT_AUTHORED |
 | 18 | EIP-3.2-01 | 3.2 | Investment income: categories and taxable events | 30 | 3.1 | PLANNED_NOT_AUTHORED |
 | 19 | EIP-3.2-02 | 3.2 | Residence, taxpayer status and declaration regimes | 30 | 3.1 | PLANNED_NOT_AUTHORED |
@@ -44,7 +44,7 @@ Example progression: percentages → EIP-3.1-A (dated values) → EIP-3.4-A (pri
 | 22 | EIP-3.3-02 | 3.3 | Repos: collateral, repurchase and residual risk | 30 | 2.3;3.1 | PLANNED_NOT_AUTHORED |
 | 23 | EIP-3.3-03 | 3.3 | Treasury bills: discount price and return conventions | 30 | 2.3;3.1 | PLANNED_NOT_AUTHORED |
 | 24 | EIP-3.3-04 | 3.3 | EURIBOR, historical EONIA and the current €STR | 25 | 2.3;3.1 | PLANNED_NOT_AUTHORED |
-| 25 | EIP-3.4-A | 3.4 | Bonds: price, yield and the meaning of duration | 30 | 3.1;2.3 | GOLDEN_MASTER_UAT |
+| 25 | EIP-3.4-A | 3.4 | Bonds: price, yield and the meaning of duration | 30 | 3.1;2.3 | GOLDEN_MASTER_PRESERVED |
 | 26 | EIP-3.4-02 | 3.4 | Clean price, dirty price and accrued interest | 25 | 3.1;2.3 | PLANNED_NOT_AUTHORED |
 | 27 | EIP-3.4-03 | 3.4 | Solving and interpreting bond yields | 30 | 3.1;2.3 | PLANNED_NOT_AUTHORED |
 | 28 | EIP-3.4-04 | 3.4 | Macaulay duration, modified duration and convexity | 30 | 3.1;2.3 | PLANNED_NOT_AUTHORED |
@@ -77,7 +77,7 @@ Example progression: percentages → EIP-3.1-A (dated values) → EIP-3.4-A (pri
 | 55 | EIP-3.9-03 | 3.9 | Physical and transition risk in investment decisions | 25 | 3.5 | PLANNED_NOT_AUTHORED |
 | 56 | EIP-3.10-01 | 3.10 | Complex payoffs, leverage and contingent outcomes | 30 | 3.6;3.8 | PLANNED_NOT_AUTHORED |
 | 57 | EIP-3.10-02 | 3.10 | Applying ESMA and CSSF product-complexity criteria | 30 | 3.6;3.8 | PLANNED_NOT_AUTHORED |
-| 58 | EIP-4.1-A | 4.1 | Suitability: turn client evidence into a defensible decision | 30 | 3.4;3.8 | GOLDEN_MASTER_UAT |
+| 58 | EIP-4.1-A | 4.1 | Suitability: turn client evidence into a defensible decision | 30 | 3.4;3.8 | GOLDEN_MASTER_PRESERVED |
 | 59 | EIP-4.1-02 | 4.1 | Designing a clear and reliable client questionnaire | 30 | 3.4;3.8 | PLANNED_NOT_AUTHORED |
 | 60 | EIP-4.1-03 | 4.1 | Updating a profile when the client’s life changes | 25 | 3.4;3.8 | PLANNED_NOT_AUTHORED |
 | 61 | EIP-4.1-04 | 4.1 | Sustainability preferences: detailed matching and records | 30 | 3.4;3.8 | PLANNED_NOT_AUTHORED |
@@ -124,6 +124,6 @@ Green Finance has an exam allocation but no separate detailed public syllabus in
 
 ## Content standard and gate
 
-Each lesson is a self-contained English reading page with full PT-BR, observable objectives, exact syllabus links, definitions, why/how/when explanations, step-by-step examples, assumptions, alternatives, risks, misunderstandings, summary and verified sources. Examples teach; there are no end-of-lesson exercises. Mathematics is independently derived and checked. Tax and regulatory units require current jurisdiction-specific review.
+Each lesson is a self-contained English reading page, with full PT-BR when available and an explicit pending label otherwise, observable objectives, exact syllabus links, definitions, why/how/when explanations, step-by-step examples, assumptions, alternatives, risks, misunderstandings, summary and verified sources. Examples teach; there are no end-of-lesson exercises. Mathematics is independently derived and checked. Tax and regulatory units require current jurisdiction-specific review.
 
-Owner UAT precedes further production. After approval, produce batches of 5–10 units with source, arithmetic, linguistic and functional QA. Stable IDs support future separately authorised applications; no future modules are implemented now.
+The owner approved Lesson 16 as the reference standard and authorised continuous production without further batch approval. Produce batches of 10–15 units with source, arithmetic, content-depth and functional QA. Portuguese translations are secondary and must not block English production. Stable IDs support future separately authorised applications; no future modules are implemented now.

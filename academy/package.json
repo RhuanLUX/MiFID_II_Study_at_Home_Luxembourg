@@ -1,1 +1,1 @@
-{"name":"eip-luxembourg-textbook","private":true,"version":"0.2.0","scripts":{"build":"node scripts/build.cjs","test":"node tests/check.cjs","test:browser":"node tests/browser.cjs"}}
+{"name":"eip-luxembourg-textbook","private":true,"version":"0.3.0","scripts":{"build":"node scripts/build.cjs","test":"node tests/check.cjs && node tests/calculations.cjs","test:browser":"node tests/browser.cjs"}}

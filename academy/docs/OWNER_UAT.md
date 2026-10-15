@@ -1,6 +1,6 @@
 # Owner UAT — reading-only Golden Masters
 
-Status: **PENDING**. Build: **0.2.0-reading-uat**. The owner's corrected scope requires: “Present the Golden Masters for Owner UAT” and “After approval, produce the complete curriculum efficiently in controlled batches.” No further lesson production has been started.
+Historical review checklist for build **0.2.0-reading-uat**. **Superseded by OWNER_UAT_APPROVAL.txt:** the owner reviewed Lesson 16, approved it as the reference standard and authorised continuous production without new batch approval. The original checklist below records the earlier review state; it does not impose a current production gate. Current progress is in PROGRESS.md.
 
 Open `dist/EIP_Luxembourg_Academy.html` directly in Edge or another modern browser. Only three authored lessons are available. The sidebar includes the full chronological reading plan; planned entries are explicitly unavailable and do not count as delivered lessons.
 

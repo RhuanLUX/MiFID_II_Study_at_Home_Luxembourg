@@ -1,5 +1,13 @@
 # Changes
 
+## 0.3.1-production — 15 October 2026
+
+Batch 02 adds ten English reading units: multiple dated cash flows, deposits, repos, Treasury Bills, money-market benchmarks, clean/dirty bond pricing, solving yields, duration/convexity, credit risk and liquidity/reinvestment. The deposited-balance coverage discussion uses the verified FGDL standard framework; no national tax rule is inferred from it. EONIA is historical and distinguished from current €STR.
+
+Added numerical checks for each new calculation family, including independent YTM bisection and cash-flow-weighted sensitivity. Corrected draft arithmetic discrepancies found during validation. All 88 numerical checks and 15 structure/regression checks pass; all 28 pages pass offline Edge testing at 390px and 1200px. The three Golden Master lesson files remain unchanged.
+
+Current delivery: 28/95 units, 29.5%; 67 remain. Portuguese is explicitly pending in the 25 new units. Production is authorised without further routine batch approval.
+
 ## 0.3.0-production — 15 October 2026
 
 Recorded owner approval of Lesson 16 as the reference standard and authorisation for continuous curriculum production. Preserved all three Golden Master lesson files and the approved layout.

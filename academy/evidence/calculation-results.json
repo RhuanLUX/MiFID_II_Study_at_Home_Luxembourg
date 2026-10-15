@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "checks": 50,
+  "checks": 88,
   "rows": [
     {
       "lesson": "EIP-1.1-01",
@@ -412,6 +412,310 @@
       "method": "redemption_net",
       "actual": 11741,
       "expected": 11741,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.1-02",
+      "id": "TVM-SERIES",
+      "method": "contribution_series",
+      "actual": 6243.200000000001,
+      "expected": 6243.2,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.1-02",
+      "id": "TVM-DUE",
+      "method": "contribution_series",
+      "actual": 6492.928000000001,
+      "expected": 6492.928,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.1-02",
+      "id": "TVM-MONTH",
+      "method": "periodic_effective",
+      "actual": 0.009488792934583046,
+      "expected": 0.00948879293458,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.1-02",
+      "id": "TVM-MULTI",
+      "method": "dated_pv",
+      "actual": 11260.36054751095,
+      "expected": 11260.36054751095,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-01",
+      "id": "DEP-INTEREST",
+      "method": "simple_interest",
+      "actual": 720,
+      "expected": 720,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-01",
+      "id": "DEP-AGG",
+      "method": "sum",
+      "actual": 15000,
+      "expected": 15000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-01",
+      "id": "DEP-REAL",
+      "method": "real_return",
+      "actual": -0.01435406698564584,
+      "expected": -0.0143540669856,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-02",
+      "id": "REPO-INTEREST",
+      "method": "simple_interest",
+      "actual": 3000,
+      "expected": 3000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-02",
+      "id": "REPO-COLLATERAL",
+      "method": "haircut_inverse",
+      "actual": 1020408.1632653062,
+      "expected": 1020408.1632653,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-02",
+      "id": "REPO-MARGIN",
+      "method": "margin_collateral",
+      "actual": 26428.571428571428,
+      "expected": 26428.5714286,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-03",
+      "id": "BILL-HPR",
+      "method": "price_return",
+      "actual": 0.015228426395939087,
+      "expected": 0.0152284263959,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-03",
+      "id": "BILL-SIMPLE",
+      "method": "annual_simple",
+      "actual": 0.030456852791878174,
+      "expected": 0.0304568527919,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-03",
+      "id": "BILL-DISCOUNT",
+      "method": "discount_quote_price",
+      "actual": 49500,
+      "expected": 49500,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-03",
+      "id": "BILL-SALE",
+      "method": "simple_discount",
+      "actual": 99173.55371900827,
+      "expected": 99173.553719,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-04",
+      "id": "BENCH-LOAN",
+      "method": "simple_interest",
+      "actual": 2000,
+      "expected": 2000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-04",
+      "id": "BENCH-RESET",
+      "method": "simple_interest",
+      "actual": 2300,
+      "expected": 2300,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-04",
+      "id": "BENCH-OVERNIGHT",
+      "method": "overnight_interest",
+      "actual": 258.35557162534604,
+      "expected": 258.35557162534604,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-04",
+      "id": "BENCH-FLOOR",
+      "method": "simple_interest",
+      "actual": 250,
+      "expected": 250,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-02",
+      "id": "CLEAN-ACCRUAL",
+      "method": "simple_interest",
+      "actual": 83.33333333333334,
+      "expected": 83.3333333333,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-02",
+      "id": "CLEAN-SETTLE",
+      "method": "sum",
+      "actual": 9845.3333333333,
+      "expected": 9845.3333333333,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-02",
+      "id": "CLEAN-RETURN",
+      "method": "price_return",
+      "actual": 0.003984063745051861,
+      "expected": 0.00398406374505,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-02",
+      "id": "CLEAN-ALLIN",
+      "method": "sum",
+      "actual": 19970,
+      "expected": 19970,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-03",
+      "id": "YIELD-ONE",
+      "method": "price_return",
+      "actual": 0.07216494845360824,
+      "expected": 0.0721649484536,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-03",
+      "id": "YIELD-CURRENT",
+      "method": "ratio",
+      "actual": 0.041237113402061855,
+      "expected": 0.0412371134021,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-03",
+      "id": "YIELD-SOLVE",
+      "method": "ytm_bisection",
+      "actual": 0.04999999999999993,
+      "expected": 0.05,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-03",
+      "id": "YIELD-REINVEST",
+      "method": "terminal_rate",
+      "actual": 0.04902912600598097,
+      "expected": 0.04902912600598097,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-04",
+      "id": "DURATION-MAC",
+      "method": "macaulay",
+      "actual": 1.9611829944547134,
+      "expected": 1.9611829944547134,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-04",
+      "id": "DURATION-MOD",
+      "method": "modified",
+      "actual": 1.867793328052108,
+      "expected": 1.867793328052108,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-04",
+      "id": "DURATION-CONV",
+      "method": "convexity",
+      "actual": 5.30134419756812,
+      "expected": 5.30134419756812,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-04",
+      "id": "DURATION-REPRICE",
+      "method": "bond_price",
+      "actual": 945.7594549742336,
+      "expected": 945.7594549742336,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-05",
+      "id": "CREDIT-EXPECTED",
+      "method": "weighted",
+      "actual": 1046.8,
+      "expected": 1046.8,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-05",
+      "id": "CREDIT-LOSS",
+      "method": "product",
+      "actual": 12,
+      "expected": 12,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-05",
+      "id": "CREDIT-SPREAD",
+      "method": "bond_price",
+      "actual": 937.6648084279127,
+      "expected": 937.6648084279127,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-05",
+      "id": "CREDIT-RECOVERY",
+      "method": "ratio",
+      "actual": 0.6666666666666666,
+      "expected": 0.666666666667,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-06",
+      "id": "LIQ-SALE",
+      "method": "net_sale",
+      "actual": 93920,
+      "expected": 93920,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-06",
+      "id": "LIQ-REINVEST5",
+      "method": "coupon_terminal",
+      "actual": 1157.625,
+      "expected": 1157.625,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-06",
+      "id": "LIQ-REINVEST2",
+      "method": "coupon_terminal",
+      "actual": 1153.02,
+      "expected": 1153.02,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-06",
+      "id": "LIQ-GAP",
+      "method": "sum",
+      "actual": -900,
+      "expected": -900,
       "status": "PASS"
     }
   ]

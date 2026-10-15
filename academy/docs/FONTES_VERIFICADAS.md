@@ -173,12 +173,12 @@ The complete six-page EFPA syllabus and three-page examination regulation were d
 
 [Official publisher / source](https://guichet.public.lu/en/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/banque-luxembourgeoise.html)
 
-- Version/date: Discovery checked 2026-10-15; tax production not authorised by UAT yet
+- Version/date: Discovery checked 2026-10-15; individual tax-unit research pending
 - Checked: 2026-10-15
 - Jurisdiction / role: Luxembourg
 - Consulted section: Resident/non-resident treatment and declaration pathways
 - Supports: Starting source for differentiated interest-income tax research.
-- Limits: No tax rate or threshold from this source is taught in pilots. Product, residence, taxpayer type, tax year and exceptions must be checked with ACD/Legilux before tax lessons.
+- Limits: Tax production is authorised. Product, residence, taxpayer type, tax year and exceptions must be checked with ACD/Legilux before each tax lesson; discovery is not a completed tax-law audit.
 
 ## AUTHOR-MATH — Independent mathematical derivations and original fictional examples
 
@@ -190,6 +190,61 @@ Locally authored mathematics and fictional examples.
 - Consulted section: TVM and bond lesson equations; tests/check.cjs
 - Supports: Algebraic derivations, timelines and original numerical scenarios.
 - Limits: Hypothetical fixed rates, promised cash flows and stated simplifying assumptions; not market quotes or forecasts.
+
+## FGDL-DEPOSITS — Deposit guarantee — FGDL
+
+[Official publisher / source](https://www.fgdl.lu/en/deposit-guarantee/)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: Eligible deposits, standard per-depositor/per-member-bank limit and exclusions
+- Supports: Explains standard Luxembourg deposit-guarantee scope and aggregation.
+- Limits: Eligibility, institution identity, special balances and compensation conditions must be verified; no guarantee of every product or immediate uninterrupted access.
+
+## FGDL-FAQ — Frequently asked questions — FGDL
+
+[Official publisher / source](https://www.fgdl.lu/en/frequently-asked-questions/)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: Accrued interest, multiple accounts, joint accounts and compensation conditions
+- Supports: Clarifies aggregation of eligible balances and the importance of legal account ownership.
+- Limits: The lesson uses ordinary single-depositor scenarios; special cases require the official rules.
+
+## ECB-COLLATERAL — Risk control — Eurosystem collateral
+
+[Official publisher / source](https://www.ecb.europa.eu/mopo/coll/risk/riskcontrol/html/index.en.html)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Euro area
+- Consulted section: Valuation haircuts and variation margins
+- Supports: Explains haircut-adjusted collateral valuation and maintenance.
+- Limits: Eurosystem framework is an official example, not a universal private-repo haircut schedule.
+
+## EMMI-EURIBOR — About Euribor — European Money Markets Institute
+
+[Official publisher / source](https://www.emmi-benchmarks.eu/benchmarks/euribor/)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Euro money markets
+- Consulted section: Benchmark purpose, tenors and administrator
+- Supports: Distinguishes term unsecured euro money-market benchmark from overnight €STR.
+- Limits: No live rate or future fixing is quoted; contract conventions and fallbacks remain product-specific.
+
+## ECB-ESTR-OVERVIEW — Overview of the euro short-term rate
+
+[Official publisher / source](https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_short-term_rate/html/eurostr_overview.en.html)
+
+- Version/date: Live publisher page checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Euro area
+- Consulted section: Underlying wholesale unsecured overnight borrowing costs and publication overview
+- Supports: Defines the economic interest measured by €STR.
+- Limits: A benchmark is not a guaranteed deposit rate or the same instrument as a policy rate.
 
 ## IMF-DEBT — What is Debt Sustainability?
 

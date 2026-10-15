@@ -8,7 +8,7 @@ All 78 lettered syllabus leaves are mapped, plus the separate Green Finance exam
 
 This estimate is not a declaration that the entire certification can be mastered in 45.7 hours. EFPA references 80 training hours or equivalent; rereading, taking notes, slower first encounters and the separately authorised future practice phase may add substantial time. Revise unit counts and durations when substantive writing and Owner UAT reveal a need to split or combine material. No equivalence or accreditation is claimed.
 
-18 of 95 reading units are authored. Lesson 16 is approved as the pedagogical reference. The other titles are curriculum plans, not empty lessons counted as completed work. MATRIZ_COBERTURA.csv distinguishes planned coverage from partial implemented evidence. The complete official scope is mapped, but substantive curriculum coverage is not complete.
+28 of 95 reading units are authored. Lesson 16 is approved as the pedagogical reference. The other titles are curriculum plans, not empty lessons counted as completed work. MATRIZ_COBERTURA.csv distinguishes planned coverage from partial implemented evidence. The complete official scope is mapped, but substantive curriculum coverage is not complete.
 
 ## Sequence
 
@@ -36,20 +36,20 @@ Example progression: percentages → EIP-3.1-A (dated values) → EIP-3.4-A (pri
 | 14 | EIP-2.3-03 | 2.3 | Market and limit orders: price, spread and execution risk | 30 | 2.2 | CONTENT_REVIEWED |
 | 15 | EIP-2.3-04 | 2.3 | Luxembourg trading venues and product routes | 25 | 2.2 | CONTENT_REVIEWED |
 | 16 | EIP-3.1-A | 3.1 | Money across time: build, discount, compare | 30 | Percentages | GOLDEN_MASTER_PRESERVED |
-| 17 | EIP-3.1-02 | 3.1 | Several dated payments and rate conventions | 20 | Percentages | PLANNED_NOT_AUTHORED |
+| 17 | EIP-3.1-02 | 3.1 | Several dated payments and rate conventions | 20 | Percentages | CONTENT_REVIEWED |
 | 18 | EIP-3.2-01 | 3.2 | Investment income: categories and taxable events | 30 | 3.1 | PLANNED_NOT_AUTHORED |
 | 19 | EIP-3.2-02 | 3.2 | Residence, taxpayer status and declaration regimes | 30 | 3.1 | PLANNED_NOT_AUTHORED |
 | 20 | EIP-3.2-03 | 3.2 | Luxembourg investment taxation: a sourced decision process | 30 | 3.1 | PLANNED_NOT_AUTHORED |
-| 21 | EIP-3.3-01 | 3.3 | Deposits, access to cash and counterparty exposure | 30 | 2.3;3.1 | PLANNED_NOT_AUTHORED |
-| 22 | EIP-3.3-02 | 3.3 | Repos: collateral, repurchase and residual risk | 30 | 2.3;3.1 | PLANNED_NOT_AUTHORED |
-| 23 | EIP-3.3-03 | 3.3 | Treasury bills: discount price and return conventions | 30 | 2.3;3.1 | PLANNED_NOT_AUTHORED |
-| 24 | EIP-3.3-04 | 3.3 | EURIBOR, historical EONIA and the current €STR | 25 | 2.3;3.1 | PLANNED_NOT_AUTHORED |
+| 21 | EIP-3.3-01 | 3.3 | Deposits, access to cash and counterparty exposure | 30 | 2.3;3.1 | CONTENT_REVIEWED |
+| 22 | EIP-3.3-02 | 3.3 | Repos: collateral, repurchase and residual risk | 30 | 2.3;3.1 | CONTENT_REVIEWED |
+| 23 | EIP-3.3-03 | 3.3 | Treasury bills: discount price and return conventions | 30 | 2.3;3.1 | CONTENT_REVIEWED |
+| 24 | EIP-3.3-04 | 3.3 | EURIBOR, historical EONIA and the current €STR | 25 | 2.3;3.1 | CONTENT_REVIEWED |
 | 25 | EIP-3.4-A | 3.4 | Bonds: price, yield and the meaning of duration | 30 | 3.1;2.3 | GOLDEN_MASTER_PRESERVED |
-| 26 | EIP-3.4-02 | 3.4 | Clean price, dirty price and accrued interest | 25 | 3.1;2.3 | PLANNED_NOT_AUTHORED |
-| 27 | EIP-3.4-03 | 3.4 | Solving and interpreting bond yields | 30 | 3.1;2.3 | PLANNED_NOT_AUTHORED |
-| 28 | EIP-3.4-04 | 3.4 | Macaulay duration, modified duration and convexity | 30 | 3.1;2.3 | PLANNED_NOT_AUTHORED |
-| 29 | EIP-3.4-05 | 3.4 | Credit spreads, default, seniority and recovery | 30 | 3.1;2.3 | PLANNED_NOT_AUTHORED |
-| 30 | EIP-3.4-06 | 3.4 | Liquidity, reinvestment and early sale | 25 | 3.1;2.3 | PLANNED_NOT_AUTHORED |
+| 26 | EIP-3.4-02 | 3.4 | Clean price, dirty price and accrued interest | 25 | 3.1;2.3 | CONTENT_REVIEWED |
+| 27 | EIP-3.4-03 | 3.4 | Solving and interpreting bond yields | 30 | 3.1;2.3 | CONTENT_REVIEWED |
+| 28 | EIP-3.4-04 | 3.4 | Macaulay duration, modified duration and convexity | 30 | 3.1;2.3 | CONTENT_REVIEWED |
+| 29 | EIP-3.4-05 | 3.4 | Credit spreads, default, seniority and recovery | 30 | 3.1;2.3 | CONTENT_REVIEWED |
+| 30 | EIP-3.4-06 | 3.4 | Liquidity, reinvestment and early sale | 25 | 3.1;2.3 | CONTENT_REVIEWED |
 | 31 | EIP-3.4-07 | 3.4 | Luxembourg bond-income taxation in context | 25 | 3.1;2.3 | PLANNED_NOT_AUTHORED |
 | 32 | EIP-3.5-01 | 3.5 | Share ownership, rights and capital structure | 25 | 3.1;2.3 | PLANNED_NOT_AUTHORED |
 | 33 | EIP-3.5-02 | 3.5 | Equity valuation: assumptions before ratios | 30 | 3.1;2.3 | PLANNED_NOT_AUTHORED |

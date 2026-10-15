@@ -4,7 +4,7 @@
 
 Open **dist/EIP_Luxembourg_Academy.html** directly in a modern browser. No installation or internet is needed. Read a lesson, optionally reveal the full PT-BR translation and take notes, then mark it completed. Completed lessons have a green check. The next visit opens the next unfinished available lesson. Use **Backup** to export or restore reading progress and notes.
 
-Eighteen complete reading lessons are available: the first fifteen foundational units plus the three preserved Golden Masters. Economics and Financial Markets are fully authored under the current plan. The 95-unit plan maps all 78 official lettered syllabus items plus the separately identified Green Finance exam area. Other sidebar titles are planned, not authored. The owner approved Lesson 16 as the pedagogical reference and authorised continuous production without batch UAT. New units prioritise English and clearly mark full Portuguese translations as pending.
+Twenty-eight reading lessons are available: twenty-five new units plus the three preserved Golden Masters. Economics and Financial Markets are fully authored under the current plan; time value, money markets and most non-tax bond mechanics are also authored. The 95-unit plan maps all 78 official lettered syllabus items plus the separately identified Green Finance exam area. Other sidebar titles are planned, not authored. The owner approved Lesson 16 as the pedagogical reference and authorised continuous production without batch UAT. New units prioritise English and clearly mark full Portuguese translations as pending.
 
 ## Build and verification
 

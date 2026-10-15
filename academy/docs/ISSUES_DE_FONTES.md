@@ -21,4 +21,16 @@ Checked 15 October 2026. Scope: reading-only Phase 1. The archived master prompt
 
 No email or external message has been sent to EFPA. A possible future clarification request is: please identify the currently effective EIP marking and pass rule and reconcile the published maximum implied by the category weights with the 47/77 wording. Sending that request requires separate explicit messaging authorisation.
 
+## Final two-pass audit addendum
+
+Both content passes are complete; see CONTENT_AUDIT.md and the two per-lesson JSON records. The second pass uses independent arithmetic implementation and critical cross-checking, not a second human reviewer. It does not remove the legal consolidation, specialist approval or measured-study-duration limits above.
+
+SRC-14 — The indexed ACD `164rd-26-101.pdf` deduction-form URL returned HTTP 404. The source ID is preserved, but now points directly to the successfully retrieved 2026 coordinated LIR, Articles 111bis(7)/111ter(7). Lesson 80 cites the law rather than claiming a successful live form download. Earlier references above to the current law/form should be read with this correction: the law is the final ceiling authority.
+
+SRC-15 — Lesson 19 now makes explicit that the annual foreign-interest election requires all payments within the eligible scope on form 931; it is not an account-by-account selection. Lessons 20/36 distinguish actual expenses attributable to exempt dividends from the annual minimum. These are teaching clarifications, not new tax exemptions.
+
+SRC-16 — Full catalogue access check: 102 entries (101 HTTPS, one local derivation), with 78 directly reachable, 11 HTTP access blocks, 2 challenges and 10 Python TLS uncertainties after the citation correction. All ten uncertain ECB URLs were separately readable through the web tool. No direct HTTP error remains; blocked/challenged pages are not claimed universally accessible. Counts refer to source entries, including duplicate URLs. See evidence/reference-access-audit.json for each result. TLS validation and access controls were not bypassed. A reachable URL is not proof that every provision is current or that all claims are correct.
+
+The current ACD LIR index and 2026 legislation index were additionally checked. They still identify the coordinated 2026 text, but the annual index is last updated 20 July 2026; completeness of all later legislation is not independently certified. Current Commission material continues to describe SFDR revision as a proposal. Fresh official-domain research did not establish final status for the MAR consultation guidelines, so no consultation-only provision is taught as binding.
+
 The official PDFs were read in full (syllabus: all six pages; regulation: all three pages). Local research copies and extracted text are under `evidence/`, with hashes. Source links in the textbook are optional; there are no online study dependencies.

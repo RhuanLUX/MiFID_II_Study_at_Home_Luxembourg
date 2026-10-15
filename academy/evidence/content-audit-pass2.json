@@ -1,0 +1,731 @@
+{
+  "date": "2026-10-15",
+  "status": "COMPLETE",
+  "reviewer": "Codex second author-side verification; independent method, not independent human or specialist approval",
+  "method": "All registered examples recalculated in independent Python Decimal implementation, manually transcribed Golden Master checks, adversarial cross-lesson comparisons and targeted primary-source verification; distinct from Pass 1 syllabus-order reading.",
+  "audited_bundle_sha256": "26ed8274fb36163222f46d8ef3e04dfab0c4bef3bc32110c4e146a8e28748be0",
+  "calculation_input_sha256": "ce9baa3fe36833ed22b749d89c16ae2ee4c47406566126f95a66252ebb915e8a",
+  "source_input_sha256": "06183becf228bf9bd36a64b5a7698a80a85fccccd75d7037e12f6347aa2fb26d",
+  "reviewed_lessons": [
+    {
+      "position": 1,
+      "id": "EIP-1.1-01",
+      "english_sha256": "f31c0d8bfcb85fdd0c2876902981e1b3d1e911af4f0332d70b669eecb637520b",
+      "challenge_cluster": "Macro identities, stock/flow and conditional transmission"
+    },
+    {
+      "position": 2,
+      "id": "EIP-1.1-02",
+      "english_sha256": "cfd5c111abeea4b2f79773601c2fa30db4541fc6ea8af83cef794eb9c97f9f40",
+      "challenge_cluster": "Macro identities, stock/flow and conditional transmission"
+    },
+    {
+      "position": 3,
+      "id": "EIP-1.1-03",
+      "english_sha256": "d14b8cca6d6d4bcde0f6bd3b40fb0475ecfddcbae60f681fdb74eb603383781f",
+      "challenge_cluster": "Macro identities, stock/flow and conditional transmission"
+    },
+    {
+      "position": 4,
+      "id": "EIP-1.2-01",
+      "english_sha256": "f54a9c079efb2114a62300173a8bd086da424c4261669b5d0b51dad5390ea784",
+      "challenge_cluster": "Macro identities, stock/flow and conditional transmission"
+    },
+    {
+      "position": 5,
+      "id": "EIP-1.2-02",
+      "english_sha256": "caf0da595bd5e770b2936a8a9d48589102dd1b3e59400220d537589d8901d76b",
+      "challenge_cluster": "Macro identities, stock/flow and conditional transmission"
+    },
+    {
+      "position": 6,
+      "id": "EIP-1.2-03",
+      "english_sha256": "93172316655a4c70ba33ee6e6e1418ce14cad4168e8224cb6d79ce1797873903",
+      "challenge_cluster": "Macro identities, stock/flow and conditional transmission"
+    },
+    {
+      "position": 7,
+      "id": "EIP-1.3-01",
+      "english_sha256": "ea77abdbd5909a0052d666198a105a66fd819f6ef2e156eea6b26acda01a1953",
+      "challenge_cluster": "Macro identities, stock/flow and conditional transmission"
+    },
+    {
+      "position": 8,
+      "id": "EIP-1.3-02",
+      "english_sha256": "ad8e5e5d3c09bef758f17747f3bac35845cb4d7554404215b65e2e25fd3579a5",
+      "challenge_cluster": "Macro identities, stock/flow and conditional transmission"
+    },
+    {
+      "position": 9,
+      "id": "EIP-1.3-03",
+      "english_sha256": "cf6b82d446c1b4f75fd6e6fcb9c8c2bd80a694c937eef12dbefaa2e07bf5d270",
+      "challenge_cluster": "Macro identities, stock/flow and conditional transmission"
+    },
+    {
+      "position": 10,
+      "id": "EIP-2.1-01",
+      "english_sha256": "2c21d8c57ac8e6414ced71f86c6e2ec7abc6dfa3dc2ecfe5ae174def64aa37c2",
+      "challenge_cluster": "Macro identities, stock/flow and conditional transmission"
+    },
+    {
+      "position": 11,
+      "id": "EIP-2.2-01",
+      "english_sha256": "d4f421311b968b8ed2daada27315a8f206f1ca7f26eb75451c592d74e1f43a74",
+      "challenge_cluster": "Market execution, venue and settlement scope"
+    },
+    {
+      "position": 12,
+      "id": "EIP-2.3-01",
+      "english_sha256": "ad40a8ad6830e1a8fec069083cb2723f3e9543ff4f0291b61908c1af0ac0ef8b",
+      "challenge_cluster": "Market execution, venue and settlement scope"
+    },
+    {
+      "position": 13,
+      "id": "EIP-2.3-02",
+      "english_sha256": "b682f4936bf8bfe66b7023643c86c84ac201ab9f3941966e6a8da5772bf58028",
+      "challenge_cluster": "Market execution, venue and settlement scope"
+    },
+    {
+      "position": 14,
+      "id": "EIP-2.3-03",
+      "english_sha256": "ef1ef935b3e99973feb5433e894cf5c462e3954eae83497ceb2950685f0e2c75",
+      "challenge_cluster": "Market execution, venue and settlement scope"
+    },
+    {
+      "position": 15,
+      "id": "EIP-2.3-04",
+      "english_sha256": "423fdeb5396f51d9b44c6a4a15de317dee4e4c39298400027578150c123d3031",
+      "challenge_cluster": "Market execution, venue and settlement scope"
+    },
+    {
+      "position": 16,
+      "id": "EIP-3.1-A",
+      "english_sha256": "01ac9e0b128228db4648b6afae61d0143d074dad421832b5fc1bf7c3ef11ff6e",
+      "challenge_cluster": "Dated cash-flow and purchasing-power conventions"
+    },
+    {
+      "position": 17,
+      "id": "EIP-3.1-02",
+      "english_sha256": "99bb79fac56af441171e8fa6942ece0ead7ee7ba99a5f159d3a3562867925009",
+      "challenge_cluster": "Dated cash-flow and purchasing-power conventions"
+    },
+    {
+      "position": 18,
+      "id": "EIP-3.2-01",
+      "english_sha256": "3e911c53c89d3225b00093d020151a3e8341f5ac7aedfbfb5b59a59ce761f528",
+      "challenge_cluster": "Tax status, annual election and gross/net bases"
+    },
+    {
+      "position": 19,
+      "id": "EIP-3.2-02",
+      "english_sha256": "483109d3634cdc0fb3163140084db43f14aadbf2713a170060605a870fd84074",
+      "challenge_cluster": "Tax status, annual election and gross/net bases"
+    },
+    {
+      "position": 20,
+      "id": "EIP-3.2-03",
+      "english_sha256": "7e10e549716ab50c0fd44aab16dcbec3f41e0024698844fb670d79c3ca5f92c2",
+      "challenge_cluster": "Tax status, annual election and gross/net bases"
+    },
+    {
+      "position": 21,
+      "id": "EIP-3.3-01",
+      "english_sha256": "76dc227a55b681e50d30987ccd99374b491d9446005c13aa90647bbd5f60b19e",
+      "challenge_cluster": "Deposit eligibility, collateral inversion and benchmark scope"
+    },
+    {
+      "position": 22,
+      "id": "EIP-3.3-02",
+      "english_sha256": "4764ccc5ee341caa4ccbc5bd2ea7313af994cdb88ce0b0e496ba34ed47861567",
+      "challenge_cluster": "Deposit eligibility, collateral inversion and benchmark scope"
+    },
+    {
+      "position": 23,
+      "id": "EIP-3.3-03",
+      "english_sha256": "59eef40d212f6ca9ad791ed30fea272652826bfcdb44f59a06b2cbf047855558",
+      "challenge_cluster": "Deposit eligibility, collateral inversion and benchmark scope"
+    },
+    {
+      "position": 24,
+      "id": "EIP-3.3-04",
+      "english_sha256": "bbf57e7794cd60e4081f61cf89fa76ad4657b60de4f88a1605fba75d23764381",
+      "challenge_cluster": "Deposit eligibility, collateral inversion and benchmark scope"
+    },
+    {
+      "position": 25,
+      "id": "EIP-3.4-A",
+      "english_sha256": "5099af10b4dc1518ee0bb3dd87f89c010724d0694ab438a929e80b22eb526962",
+      "challenge_cluster": "Bond yield, sensitivity, reinvestment and tax bases"
+    },
+    {
+      "position": 26,
+      "id": "EIP-3.4-02",
+      "english_sha256": "fa6ad282e0778e1399fb7c7f0a8426ea32f6e3142020f44c877bfd2b34574755",
+      "challenge_cluster": "Bond yield, sensitivity, reinvestment and tax bases"
+    },
+    {
+      "position": 27,
+      "id": "EIP-3.4-03",
+      "english_sha256": "85932691171473f7256ab5e86296160fe9208d2374eeda9f0cbe935e07537a68",
+      "challenge_cluster": "Bond yield, sensitivity, reinvestment and tax bases"
+    },
+    {
+      "position": 28,
+      "id": "EIP-3.4-04",
+      "english_sha256": "a3354bb5d305ca325ae8362da132537fd189d76a653356947bbb549b8a9e98d2",
+      "challenge_cluster": "Bond yield, sensitivity, reinvestment and tax bases"
+    },
+    {
+      "position": 29,
+      "id": "EIP-3.4-05",
+      "english_sha256": "80fe52b8c6d15cbd4c8a13dfcb9d1ad3551daa53c4cd9323b2f9f70f5b19354d",
+      "challenge_cluster": "Bond yield, sensitivity, reinvestment and tax bases"
+    },
+    {
+      "position": 30,
+      "id": "EIP-3.4-06",
+      "english_sha256": "8a43e2eab5d620800f7854a3218e938b1ae3c7202421cc4fa0a705bc86510a43",
+      "challenge_cluster": "Bond yield, sensitivity, reinvestment and tax bases"
+    },
+    {
+      "position": 31,
+      "id": "EIP-3.4-07",
+      "english_sha256": "8e5fcae83276c87c349ed16154ac76d760459a962c0ab15c3f572e6f9ee2b283",
+      "challenge_cluster": "Bond yield, sensitivity, reinvestment and tax bases"
+    },
+    {
+      "position": 32,
+      "id": "EIP-3.5-01",
+      "english_sha256": "5267aa43fbdf8a289ed9a940b0d3670a483f116250a3f8fc2bba6fdc2a535511",
+      "challenge_cluster": "Equity valuation, distribution and disposal conditions"
+    },
+    {
+      "position": 33,
+      "id": "EIP-3.5-02",
+      "english_sha256": "db3b2c697c461b0c9cfed67650acbc3594c3a9b6122fbc5515614ecf4ef56fbf",
+      "challenge_cluster": "Equity valuation, distribution and disposal conditions"
+    },
+    {
+      "position": 34,
+      "id": "EIP-3.5-03",
+      "english_sha256": "d7235d0394aef7acd680c82a9f8a65c66f0f32adefdeaf1a32a59634d23d01bc",
+      "challenge_cluster": "Equity valuation, distribution and disposal conditions"
+    },
+    {
+      "position": 35,
+      "id": "EIP-3.5-04",
+      "english_sha256": "b7a4b60736e66d2ee765b6918c858947ddc02a98dc28c2b81d8ecba096861034",
+      "challenge_cluster": "Equity valuation, distribution and disposal conditions"
+    },
+    {
+      "position": 36,
+      "id": "EIP-3.5-05",
+      "english_sha256": "edd471f301defb59760934e23fa7dd8f61757dd7034659dc1ca9e8d1b5914691",
+      "challenge_cluster": "Equity valuation, distribution and disposal conditions"
+    },
+    {
+      "position": 37,
+      "id": "EIP-3.6-01",
+      "english_sha256": "7d8aa9e5604c028f9939c907bbeff9d944be39b9bd19b350e5823d8e2f742d5a",
+      "challenge_cluster": "Derivatives signs, margin and matched hedge counterfactual"
+    },
+    {
+      "position": 38,
+      "id": "EIP-3.6-02",
+      "english_sha256": "c16b7502b96c667c3c55e6f21fbfcebf80c3639bb6eaef71947518b2a84a5d4e",
+      "challenge_cluster": "Derivatives signs, margin and matched hedge counterfactual"
+    },
+    {
+      "position": 39,
+      "id": "EIP-3.6-03",
+      "english_sha256": "e6f0d46f06f53f442bfe71fcbcd7eaf9e42a3566970a159650f29487b569c024",
+      "challenge_cluster": "Derivatives signs, margin and matched hedge counterfactual"
+    },
+    {
+      "position": 40,
+      "id": "EIP-3.6-04",
+      "english_sha256": "5bbc97ae479589e196df7f4a3bcfacf96da55941a9e3d54390f37a22d02d36d4",
+      "challenge_cluster": "Derivatives signs, margin and matched hedge counterfactual"
+    },
+    {
+      "position": 41,
+      "id": "EIP-3.6-05",
+      "english_sha256": "0143b0be2bff7a56c70c90f1b1c9aca70eabec0318bf826e6430880571cb3dc5",
+      "challenge_cluster": "Derivatives signs, margin and matched hedge counterfactual"
+    },
+    {
+      "position": 42,
+      "id": "EIP-3.6-06",
+      "english_sha256": "be0ee167fe2c948bfb8e89e8610bb27985f773c1c6abc7ede8eb74c3a4dd0ecf",
+      "challenge_cluster": "Derivatives signs, margin and matched hedge counterfactual"
+    },
+    {
+      "position": 43,
+      "id": "EIP-3.7-01",
+      "english_sha256": "3447c27c75c881054634edf7c748baeee9e5589b391a2e050e05fcff55e9fc4f",
+      "challenge_cluster": "FX quote sides, units and home-currency returns"
+    },
+    {
+      "position": 44,
+      "id": "EIP-3.7-02",
+      "english_sha256": "5ff4ccbb5b8b48d0bf0d3ca17032bb60a8f41e16c1c05f045d2c068a55e48917",
+      "challenge_cluster": "FX quote sides, units and home-currency returns"
+    },
+    {
+      "position": 45,
+      "id": "EIP-3.7-03",
+      "english_sha256": "aa6c2ef0981283812aecb6fbc8c28768a8905f84b6789f656b24f06243018cd0",
+      "challenge_cluster": "FX quote sides, units and home-currency returns"
+    },
+    {
+      "position": 46,
+      "id": "EIP-3.7-04",
+      "english_sha256": "d63dfb5a5b4910c1fe3542c32b72e66c0fe730becece48926c58ec606e0592c1",
+      "challenge_cluster": "FX quote sides, units and home-currency returns"
+    },
+    {
+      "position": 47,
+      "id": "EIP-3.8-01",
+      "english_sha256": "d8197bf01b838aeea4aecba693de6eb9a86cfa9d6206950015421295a9a3a4f1",
+      "challenge_cluster": "Fund liquidity, fee duplication and tax layers"
+    },
+    {
+      "position": 48,
+      "id": "EIP-3.8-02",
+      "english_sha256": "76cd37c9cf644997974e7f13a7f2b13befca316e2fdf302d9f15c103248e0c55",
+      "challenge_cluster": "Fund liquidity, fee duplication and tax layers"
+    },
+    {
+      "position": 49,
+      "id": "EIP-3.8-03",
+      "english_sha256": "61db7cdcac26f6ec7e85cff0cbd1714fdec56efa8f3eeba2657b54599c915179",
+      "challenge_cluster": "Fund liquidity, fee duplication and tax layers"
+    },
+    {
+      "position": 50,
+      "id": "EIP-3.8-04",
+      "english_sha256": "6705d38cce83a300eed62a4c5bcc12afe5b710af94db4c87dcc9d27a5ec7cd28",
+      "challenge_cluster": "Fund liquidity, fee duplication and tax layers"
+    },
+    {
+      "position": 51,
+      "id": "EIP-3.8-05",
+      "english_sha256": "21c415696c9a0f66ad0eb2d4ba380b4d98e040bca64e8e6f8708efc9b681d305",
+      "challenge_cluster": "Fund liquidity, fee duplication and tax layers"
+    },
+    {
+      "position": 52,
+      "id": "EIP-3.8-06",
+      "english_sha256": "add845db40ef196c2b87c326701594598bd84d697049beb3f7183765b8c2ec07",
+      "challenge_cluster": "Fund liquidity, fee duplication and tax layers"
+    },
+    {
+      "position": 53,
+      "id": "EIP-3.9-01",
+      "english_sha256": "7d1f7c6bf9e46bbe9a35c54b728bc18afc6fd06084f4b0ca7c9cdbb46d3a40bc",
+      "challenge_cluster": "ESG commitments, protection and complexity classification"
+    },
+    {
+      "position": 54,
+      "id": "EIP-3.9-02",
+      "english_sha256": "4dd24681fb1d6ddc19e06d4b8eb411975a1fd5e1a7f9ffd0d3df7557f4d08351",
+      "challenge_cluster": "ESG commitments, protection and complexity classification"
+    },
+    {
+      "position": 55,
+      "id": "EIP-3.9-03",
+      "english_sha256": "70413a8b8f1e93a8b9f16525f32fed332b6dd9dd1b1b42f6006d816203e44aca",
+      "challenge_cluster": "ESG commitments, protection and complexity classification"
+    },
+    {
+      "position": 56,
+      "id": "EIP-3.10-01",
+      "english_sha256": "77f8a85049d7f0183c260871bf948e30ba51b7f2c2f994f09dce36ce675f6e4d",
+      "challenge_cluster": "ESG commitments, protection and complexity classification"
+    },
+    {
+      "position": 57,
+      "id": "EIP-3.10-02",
+      "english_sha256": "470f0e3e7488381138a80d98e027c03481e6c45393b230222dc058a5a7171985",
+      "challenge_cluster": "ESG commitments, protection and complexity classification"
+    },
+    {
+      "position": 58,
+      "id": "EIP-4.1-A",
+      "english_sha256": "2b0ca8faa76669c9b185d8f9aea54322cfff25f8985887f446e730dd98005c43",
+      "challenge_cluster": "Service-dependent suitability and sustainability evidence"
+    },
+    {
+      "position": 59,
+      "id": "EIP-4.1-02",
+      "english_sha256": "95d8331a4df3cb1fa05456a9a353e5beaa373a22bdc5f86543583a292deffd63",
+      "challenge_cluster": "Service-dependent suitability and sustainability evidence"
+    },
+    {
+      "position": 60,
+      "id": "EIP-4.1-03",
+      "english_sha256": "b1ae8bc8bacb0c85d5f3fd334e5fa1fa7975c63b6bbd742503e0fe03ec8ded93",
+      "challenge_cluster": "Service-dependent suitability and sustainability evidence"
+    },
+    {
+      "position": 61,
+      "id": "EIP-4.1-04",
+      "english_sha256": "0be8527f43bc9eec811655c604b8e109e6a916c5913a472e1f98a2dcc584aeff",
+      "challenge_cluster": "Service-dependent suitability and sustainability evidence"
+    },
+    {
+      "position": 62,
+      "id": "EIP-5.1-01",
+      "english_sha256": "a9a8bdfb1203c46620435739722b310759b66248785a1bfc1fbc08cece9f2807",
+      "challenge_cluster": "Sample moments, covariance and horizon assumptions"
+    },
+    {
+      "position": 63,
+      "id": "EIP-5.1-02",
+      "english_sha256": "a90caeb4baa400f47c29578991480d3c1567e1f61f3f9a227850f74254cb2156",
+      "challenge_cluster": "Sample moments, covariance and horizon assumptions"
+    },
+    {
+      "position": 64,
+      "id": "EIP-5.2-01",
+      "english_sha256": "f485582d730e62825215c10a6ca6128d87539424fc939af79b5b48f4b0aae698",
+      "challenge_cluster": "Sample moments, covariance and horizon assumptions"
+    },
+    {
+      "position": 65,
+      "id": "EIP-5.2-02",
+      "english_sha256": "d079a5f1edb6189b92f974194bfd82cfc077ddb6d676045840cae7295229129c",
+      "challenge_cluster": "Sample moments, covariance and horizon assumptions"
+    },
+    {
+      "position": 66,
+      "id": "EIP-5.2-03",
+      "english_sha256": "e2a98f07cdb0c646de9108274c104f931c287e02b8b418315fc8ba73b62a767f",
+      "challenge_cluster": "Portfolio variance, efficiency, constraints and utility"
+    },
+    {
+      "position": 67,
+      "id": "EIP-5.3-01",
+      "english_sha256": "8cb66459ee9664c7a133cf500045c072e7e280007af4337b0c34b6b00f720898",
+      "challenge_cluster": "Portfolio variance, efficiency, constraints and utility"
+    },
+    {
+      "position": 68,
+      "id": "EIP-5.3-02",
+      "english_sha256": "9bf160713b72ebc257ebb721ad58e68cb8b44c2fc2dd69dcb4a60262954a7032",
+      "challenge_cluster": "Portfolio variance, efficiency, constraints and utility"
+    },
+    {
+      "position": 69,
+      "id": "EIP-5.4-01",
+      "english_sha256": "6f1d83667b77c3d6706c839d52978e5f91e9dd697e97e424c0375f04111a3f7c",
+      "challenge_cluster": "Portfolio variance, efficiency, constraints and utility"
+    },
+    {
+      "position": 70,
+      "id": "EIP-5.4-02",
+      "english_sha256": "feb84bf3f6b0c4cff36e9c9fe5538104b53ed7056138a166f64bba1ff31b4fc9",
+      "challenge_cluster": "Portfolio variance, efficiency, constraints and utility"
+    },
+    {
+      "position": 71,
+      "id": "EIP-5.5-01",
+      "english_sha256": "ce41682d5a16d00e7abc38c140c883d6c8e7605014a1048f1ba5a40b4d3b40b4",
+      "challenge_cluster": "Performance periods, flows and risk adjustment"
+    },
+    {
+      "position": 72,
+      "id": "EIP-5.5-02",
+      "english_sha256": "a67e952bb15e64601585efb121a028d1ef00f02d8a3034d68cc65a9ea820a302",
+      "challenge_cluster": "Performance periods, flows and risk adjustment"
+    },
+    {
+      "position": 73,
+      "id": "EIP-6.1-01",
+      "english_sha256": "7611527b47cc504eb31c0b6ad5a4a6b52203d3258a12cf73ab6d9cb5b5badeeb",
+      "challenge_cluster": "Insurance rights, settlement and ordinary policy tax"
+    },
+    {
+      "position": 74,
+      "id": "EIP-6.1-02",
+      "english_sha256": "aa908dbfaf441b4d311f6eebedcb0332fb6d92762a50135c3db5d4e354bd22dc",
+      "challenge_cluster": "Insurance rights, settlement and ordinary policy tax"
+    },
+    {
+      "position": 75,
+      "id": "EIP-6.1-03",
+      "english_sha256": "9de48e76aee7143d34e5aee3f64fb5b855b08745bcfec0040c3909eff4e6ea28",
+      "challenge_cluster": "Insurance rights, settlement and ordinary policy tax"
+    },
+    {
+      "position": 76,
+      "id": "EIP-6.1-04",
+      "english_sha256": "ec4663e8f7e384cf6b4fe8c5d0a527dd28fe7f0434a0e116b852e942439663cc",
+      "challenge_cluster": "Insurance rights, settlement and ordinary policy tax"
+    },
+    {
+      "position": 77,
+      "id": "EIP-6.2-01",
+      "english_sha256": "e03351c6e811438c7a4d73b1bcf7b3ca05a7f3277d898e4575310b582c92aa4e",
+      "challenge_cluster": "Retirement sequence, access, deductions and payout branches"
+    },
+    {
+      "position": 78,
+      "id": "EIP-6.2-02",
+      "english_sha256": "82d4463579059e428506b02f4962185295bb48d437bfbb2870bf357cd7876737",
+      "challenge_cluster": "Retirement sequence, access, deductions and payout branches"
+    },
+    {
+      "position": 79,
+      "id": "EIP-6.2-03",
+      "english_sha256": "5fa3882f3ebbbe27739738dfcf1fb9c7b1013931b0324682586c9206de3357aa",
+      "challenge_cluster": "Retirement sequence, access, deductions and payout branches"
+    },
+    {
+      "position": 80,
+      "id": "EIP-6.2-04",
+      "english_sha256": "b3093deb8f3f74df22d2948cb634c5dd68aa3ecdede23efc78cbc47f13d5b884",
+      "challenge_cluster": "Retirement sequence, access, deductions and payout branches"
+    },
+    {
+      "position": 81,
+      "id": "EIP-7.1-01",
+      "english_sha256": "3b4bca5f8bf3dc59d84f8516fc7cef165989b2bb4fb7b472124cc8e29959bde7",
+      "challenge_cluster": "Services, inducements, costs and complaint counterfactual"
+    },
+    {
+      "position": 82,
+      "id": "EIP-7.1-02",
+      "english_sha256": "21d98c171545699e4d07d70521771452cb2bdd356d260f8a8482b6f9755892fd",
+      "challenge_cluster": "Services, inducements, costs and complaint counterfactual"
+    },
+    {
+      "position": 83,
+      "id": "EIP-7.1-03",
+      "english_sha256": "0ee633dae5a652d1a247c4d71504059b984504e0367dcdf5f49bde9b971b20c0",
+      "challenge_cluster": "Services, inducements, costs and complaint counterfactual"
+    },
+    {
+      "position": 84,
+      "id": "EIP-7.1-04",
+      "english_sha256": "0c09b92a0edbb1b071f8c5e660e4fd06598a9458800de68f066b646bae30dc5a",
+      "challenge_cluster": "Services, inducements, costs and complaint counterfactual"
+    },
+    {
+      "position": 85,
+      "id": "EIP-7.1-05",
+      "english_sha256": "89856d350365e69c20fe5f9347de10767dac5fbb339b1da9524f97500c51f488",
+      "challenge_cluster": "Services, inducements, costs and complaint counterfactual"
+    },
+    {
+      "position": 86,
+      "id": "EIP-7.1-06",
+      "english_sha256": "cfc640c3223c88c19b7b17ed0950669c2667fd88ae61c14923f6f5e7c7669030",
+      "challenge_cluster": "Current regulation, MAR, AML and professional scope"
+    },
+    {
+      "position": 87,
+      "id": "EIP-7.2-01",
+      "english_sha256": "1baa906fbaf02591e932d50d2a557ea36a9be2b0ee0cdad9fbe20aa09537b91d",
+      "challenge_cluster": "Current regulation, MAR, AML and professional scope"
+    },
+    {
+      "position": 88,
+      "id": "EIP-7.2-02",
+      "english_sha256": "397054d05365f719de2e9d9b264ce0deb3af09e8d1c60b9f01d776890f980ab8",
+      "challenge_cluster": "Current regulation, MAR, AML and professional scope"
+    },
+    {
+      "position": 89,
+      "id": "EIP-7.2-03",
+      "english_sha256": "39c8849e19e6446c14970b9e649a214b57de793381f211c4462db7b3eb460d55",
+      "challenge_cluster": "Current regulation, MAR, AML and professional scope"
+    },
+    {
+      "position": 90,
+      "id": "EIP-7.3-01",
+      "english_sha256": "5adb7e421cd6f08c3e785ff8709f918ea89626454e278ecf4d6cb5b284e81a5c",
+      "challenge_cluster": "Current regulation, MAR, AML and professional scope"
+    },
+    {
+      "position": 91,
+      "id": "EIP-7.3-02",
+      "english_sha256": "08cd229e3ab87e18e169281f858bfad4c095b2003f49ff22e233552fe3a12e90",
+      "challenge_cluster": "Current regulation, MAR, AML and professional scope"
+    },
+    {
+      "position": 92,
+      "id": "EIP-M8-01",
+      "english_sha256": "92d414d54474a5bc6aee861d4fe2a99153fce2a593838f6d6b70810c5d820ade",
+      "challenge_cluster": "Green financing, classifications, data coverage and causation"
+    },
+    {
+      "position": 93,
+      "id": "EIP-M8-02",
+      "english_sha256": "87abd01fd26692bb24239d9f4bc198d7d656c7d8c754b9112c9045c64209866c",
+      "challenge_cluster": "Green financing, classifications, data coverage and causation"
+    },
+    {
+      "position": 94,
+      "id": "EIP-M8-03",
+      "english_sha256": "4d56a237c19fd25b5831d42902da36cbccc2348acb4e72acb5037290ac07809a",
+      "challenge_cluster": "Green financing, classifications, data coverage and causation"
+    },
+    {
+      "position": 95,
+      "id": "EIP-M8-04",
+      "english_sha256": "140dd976b3482007e437b76284647708462c1d7b024d987b680db3f4e263ba03",
+      "challenge_cluster": "Green financing, classifications, data coverage and causation"
+    }
+  ],
+  "clusters": [
+    {
+      "first": 1,
+      "last": 10,
+      "focus": "Macro identities, stock/flow and conditional transmission"
+    },
+    {
+      "first": 11,
+      "last": 15,
+      "focus": "Market execution, venue and settlement scope"
+    },
+    {
+      "first": 16,
+      "last": 17,
+      "focus": "Dated cash-flow and purchasing-power conventions"
+    },
+    {
+      "first": 18,
+      "last": 20,
+      "focus": "Tax status, annual election and gross/net bases"
+    },
+    {
+      "first": 21,
+      "last": 24,
+      "focus": "Deposit eligibility, collateral inversion and benchmark scope"
+    },
+    {
+      "first": 25,
+      "last": 31,
+      "focus": "Bond yield, sensitivity, reinvestment and tax bases"
+    },
+    {
+      "first": 32,
+      "last": 36,
+      "focus": "Equity valuation, distribution and disposal conditions"
+    },
+    {
+      "first": 37,
+      "last": 42,
+      "focus": "Derivatives signs, margin and matched hedge counterfactual"
+    },
+    {
+      "first": 43,
+      "last": 46,
+      "focus": "FX quote sides, units and home-currency returns"
+    },
+    {
+      "first": 47,
+      "last": 52,
+      "focus": "Fund liquidity, fee duplication and tax layers"
+    },
+    {
+      "first": 53,
+      "last": 57,
+      "focus": "ESG commitments, protection and complexity classification"
+    },
+    {
+      "first": 58,
+      "last": 61,
+      "focus": "Service-dependent suitability and sustainability evidence"
+    },
+    {
+      "first": 62,
+      "last": 65,
+      "focus": "Sample moments, covariance and horizon assumptions"
+    },
+    {
+      "first": 66,
+      "last": 70,
+      "focus": "Portfolio variance, efficiency, constraints and utility"
+    },
+    {
+      "first": 71,
+      "last": 72,
+      "focus": "Performance periods, flows and risk adjustment"
+    },
+    {
+      "first": 73,
+      "last": 76,
+      "focus": "Insurance rights, settlement and ordinary policy tax"
+    },
+    {
+      "first": 77,
+      "last": 80,
+      "focus": "Retirement sequence, access, deductions and payout branches"
+    },
+    {
+      "first": 81,
+      "last": 85,
+      "focus": "Services, inducements, costs and complaint counterfactual"
+    },
+    {
+      "first": 86,
+      "last": 91,
+      "focus": "Current regulation, MAR, AML and professional scope"
+    },
+    {
+      "first": 92,
+      "last": 95,
+      "focus": "Green financing, classifications, data coverage and causation"
+    }
+  ],
+  "independent_calculations": {
+    "registry_cases": 461,
+    "manual_golden_master_cases": 16,
+    "passed": 477,
+    "failed": 0,
+    "methods": 58
+  },
+  "source_access_counts": {
+    "ACCESS_BLOCKED": 11,
+    "ACCESS_CHALLENGE": 2,
+    "LOCAL_DERIVATION": 1,
+    "NETWORK_UNCERTAIN": 10,
+    "REACHABLE": 78
+  },
+  "web_verified_ecb_ids": [
+    "ECB-ESTR",
+    "ECB-COLLATERAL",
+    "ECB-ESTR-OVERVIEW",
+    "ECB-STABILITY",
+    "ECB-INFLATION",
+    "ECB-TARGET",
+    "ECB-TRANSMISSION",
+    "ECB-SECTORS",
+    "ECB-MONEY",
+    "ECB-FX"
+  ],
+  "findings_corrected": [
+    "A04 inaccessible pension-form reference replaced with exact coordinated-law provisions (80/source catalogue)",
+    "A05 annual eligible foreign-interest election scope clarified (19)"
+  ],
+  "pass1_corrections_rechecked": [
+    "A01",
+    "A02",
+    "A03"
+  ],
+  "coverage": {
+    "official_lettered_leaves": 78,
+    "separate_green_finance_exam_area": 1,
+    "supplied_micro_objectives": 109
+  },
+  "detailed_record": "docs/CONTENT_AUDIT.md",
+  "limitations": [
+    "Two different methods by the same agent are not independent human approval.",
+    "Full authoritative consolidated-law clearance, case-specific product/treaty classification and undiscovered post-snapshot amendments remain limitations.",
+    "Actual novice timing and independent linguistic approval were not measured.",
+    "Source access blocks/challenges remain disclosed; reachability is not semantic verification."
+  ],
+  "build_sha256": "e1fb1e2507c864271c8326b08876114be605843572c4ec32db37f0c2f8fb58a0"
+}

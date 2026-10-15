@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "version": "1.0.0-reading",
+  "version": "1.0.1-reading",
   "scope": "Reading-only Phase 1",
   "owner_approval": "Lesson 16 approved as reference; continuous production authorised without batch UAT",
   "completed_lessons": 95,
@@ -16,8 +16,8 @@
     "7. Regulation and Ethics",
     "8. Green Finance"
   ],
-  "current_batch": "07 — final market regulation, ethics and Green Finance; all 95 readings integrated",
-  "content_validation": "Source-linked author review; 458 numerical checks and 15 structural/regression checks passed; offline Edge passed for 95 lessons",
+  "current_batch": "Final release — all 95 readings; two-pass content audit and corrections",
+  "content_validation": "Source-linked author review; 461 numerical checks and 15 structural/regression checks passed; offline Edge passed for 95 lessons; both content passes complete; 477 independent-method calculations passed",
   "remaining_lessons": [],
   "translation_pending": [
     "EIP-1.1-01",
@@ -115,8 +115,27 @@
   ],
   "blockers": [],
   "limits": [
-    "Independent specialist approval is not implied by author review.",
-    "All planned reading units are authored.",
-    "No per-batch Owner UAT gate remains."
-  ]
+    "Both content passes are complete; independent human or specialist approval is not implied.",
+    "Full authoritative legal consolidation, individual product/treaty classification and undiscovered post-snapshot amendments remain limitations.",
+    "Blocked/challenged source access and direct Python TLS uncertainties are documented.",
+    "Actual novice study timing and independent linguistic approval are not established.",
+    "No additional production or batch UAT approval remains."
+  ],
+  "audits": {
+    "pass1": "COMPLETE — full syllabus-order English reading",
+    "pass2": "COMPLETE — independent arithmetic method and critical source/consistency checks",
+    "reviewed_lessons": 95,
+    "independent_calculations": 477,
+    "confirmed_findings_corrected": 5,
+    "reviewer": "Codex; not independent human/specialist approval",
+    "record": "CONTENT_AUDIT.md",
+    "build_sha256": "e1fb1e2507c864271c8326b08876114be605843572c4ec32db37f0c2f8fb58a0"
+  },
+  "source_access": {
+    "ACCESS_BLOCKED": 11,
+    "ACCESS_CHALLENGE": 2,
+    "LOCAL_DERIVATION": 1,
+    "NETWORK_UNCERTAIN": 10,
+    "REACHABLE": 78
+  }
 }

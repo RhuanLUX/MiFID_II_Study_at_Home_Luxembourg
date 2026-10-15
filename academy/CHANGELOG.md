@@ -1,5 +1,9 @@
 # Changes
 
+## 1.0.1-reading — 15 October 2026
+
+Completed the resumed original delivery in commit 8b5bd72, then audited all 95 English readings in two distinct passes. Clarified dividend expense allocation and the annual foreign-interest election, corrected overhedge attribution and an FX currency unit, and replaced an inaccessible pension-form citation with exact current LIR provisions. The second method independently recalculated 477 checks, including all 461 registered numerical cases and 16 Golden Master checks, with no failures. Complete reference-access results and unresolved source limits are retained. Final regression covers all 95 pages, coverage and existing offline functionality. The approved interface, stable IDs and three Golden Masters remain unchanged; no translations or new learning functionality were added.
+
 ## 1.0.0-reading — 15 October 2026
 
 Phase 1 English reading production complete: 95/95 lessons, all 78 official lettered syllabus items and the separately identified Green Finance examination area. Final nine lessons cover secondary-market regulation, MAR including June 2026 disclosure amendments, AML, reputation, EFPA ethics and Green Finance. All 109 original micro-objectives have explicit authored outcomes; the final audit corrected the bond-tax objective reference. Added a complete objective-level evidence matrix and release checks that reject stale validation evidence. The three bilingual Golden Masters and supplied baseline remain byte-for-byte unchanged. Full translations of the 92 new units remain explicitly pending. No assessment or future-project functionality was added. Final verification includes 458 numerical cases and 190 offline Edge page/viewport checks.

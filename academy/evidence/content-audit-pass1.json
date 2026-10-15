@@ -1,0 +1,494 @@
+{
+  "date": "2026-10-15",
+  "status": "COMPLETE",
+  "reviewer": "Codex author-side content audit; not independent specialist approval",
+  "baseline_commit": "8b5bd72",
+  "method": "Full English teaching-block reading in syllabus order, assumptions and worked reasoning reviewed; coverage/source metadata checked; source-sensitive issues cross-checked against official provisions.",
+  "reviewed_lessons": [
+    {
+      "position": 1,
+      "id": "EIP-1.1-01",
+      "english_sha256": "4703df3b6fe55b784055866e6f1ad02b916c688ce4704a83c770c6ab59b07835"
+    },
+    {
+      "position": 2,
+      "id": "EIP-1.1-02",
+      "english_sha256": "10a10eb4d1dce49b02033938f39c1ffca14190704e04700463f8f2563d389644"
+    },
+    {
+      "position": 3,
+      "id": "EIP-1.1-03",
+      "english_sha256": "93128f4fa0c60fb819e8aea1a445c0bbd3a79ab5ae95209ce9900df172bde8b2"
+    },
+    {
+      "position": 4,
+      "id": "EIP-1.2-01",
+      "english_sha256": "30d4a81e022a06232b5f3905d50863f0b36bc5e1780461ab8c29bdf2ce5518c1"
+    },
+    {
+      "position": 5,
+      "id": "EIP-1.2-02",
+      "english_sha256": "a906d92b9ab0a69c859c307a85b3509523f07ea6680340d907bce1c5de7623e1"
+    },
+    {
+      "position": 6,
+      "id": "EIP-1.2-03",
+      "english_sha256": "6ffa28e5273b58d380bc9c30b9388bd7e78b8b75550bcba592edb0dc95462da2"
+    },
+    {
+      "position": 7,
+      "id": "EIP-1.3-01",
+      "english_sha256": "41530bde8060b65ea12d253ce9fbecdcce4e986f16326741b3770c98e49410f3"
+    },
+    {
+      "position": 8,
+      "id": "EIP-1.3-02",
+      "english_sha256": "6dab56e8369234c56fe24a614b0ee502613d5e2ef095c0f1d4b968a391609bee"
+    },
+    {
+      "position": 9,
+      "id": "EIP-1.3-03",
+      "english_sha256": "971ce40d7d209f066fc1c0a960444e7e4eb79c5c77caf22129debffe2908cce9"
+    },
+    {
+      "position": 10,
+      "id": "EIP-2.1-01",
+      "english_sha256": "9e2b0a2ce2267f5746ce6de506856f6875433f93c34dc27584de2a8bdf4bd74a"
+    },
+    {
+      "position": 11,
+      "id": "EIP-2.2-01",
+      "english_sha256": "5111e6b61a6c383758ab26f52679c1a69e4e964c9fb71e5695e226f516368238"
+    },
+    {
+      "position": 12,
+      "id": "EIP-2.3-01",
+      "english_sha256": "6f87cbfc83addda35a4f0a4c9089bb932becb14938b239106f00d6806ae23fc7"
+    },
+    {
+      "position": 13,
+      "id": "EIP-2.3-02",
+      "english_sha256": "bbf2ba961a1785fe314d75ecb6e4755c49823a06837588bad717be38871ad69d"
+    },
+    {
+      "position": 14,
+      "id": "EIP-2.3-03",
+      "english_sha256": "f9e80248e3007d0dd9459c0e310b590e6b503a49fdac0dda79b2da0ae817c5dd"
+    },
+    {
+      "position": 15,
+      "id": "EIP-2.3-04",
+      "english_sha256": "6afd9b25cd577a9dc0ff37fbc286a13bcfb8e5f5298ee10d8cf718814ae94e9b"
+    },
+    {
+      "position": 16,
+      "id": "EIP-3.1-A",
+      "english_sha256": "759f3cd41bac4b14978f70eae58612f31ec78f53d8dcecfb236d386bfe37cbd8"
+    },
+    {
+      "position": 17,
+      "id": "EIP-3.1-02",
+      "english_sha256": "5d1d2ff5abcd78b74cf05c8d3eb971d09ae5455312a0ea3b174324d27badc971"
+    },
+    {
+      "position": 18,
+      "id": "EIP-3.2-01",
+      "english_sha256": "4a3fe6f3bad364c494e271dba84f14b4ffbbb505351098d2b13ce17117b1b737"
+    },
+    {
+      "position": 19,
+      "id": "EIP-3.2-02",
+      "english_sha256": "1deb296dfcdf14ce6262093f4a7944fbe6e734c86da1ca133e247d800a3b6d81"
+    },
+    {
+      "position": 20,
+      "id": "EIP-3.2-03",
+      "english_sha256": "45aaea05f23328074444f7194155b801af61f00af673e88b95979408aef149c8"
+    },
+    {
+      "position": 21,
+      "id": "EIP-3.3-01",
+      "english_sha256": "ed19670d3e865f2b981470dc74c3cfeb6cdab4f2500963b03b82abe1e545cf13"
+    },
+    {
+      "position": 22,
+      "id": "EIP-3.3-02",
+      "english_sha256": "c2464d72006bd67e8af45b20158b5decad7316e7e82a8bfaec0857cf70c190e5"
+    },
+    {
+      "position": 23,
+      "id": "EIP-3.3-03",
+      "english_sha256": "340c3cf30f4e142ba1350168e11b686f4a354b297211fa23f59da955ae8fa1f0"
+    },
+    {
+      "position": 24,
+      "id": "EIP-3.3-04",
+      "english_sha256": "c508b033eac4e9294b428a3376bbc752c6c501e92238d0cf47701cadf3a7f3a6"
+    },
+    {
+      "position": 25,
+      "id": "EIP-3.4-A",
+      "english_sha256": "2c56722959db5d83e04c207284fb4ca829e363ee5c2236d7b85998e6150072f2"
+    },
+    {
+      "position": 26,
+      "id": "EIP-3.4-02",
+      "english_sha256": "0badd4170e1c76af1c157bd15951fa1137a9fcaf0baed5d4c53bfc4820b2e5b7"
+    },
+    {
+      "position": 27,
+      "id": "EIP-3.4-03",
+      "english_sha256": "893a33d0b42b0a3866c3ba9d637d3cf37bd3215bf3f608c29593d0ff92e6c8ff"
+    },
+    {
+      "position": 28,
+      "id": "EIP-3.4-04",
+      "english_sha256": "2935e52814b7114729f246a897a592b7a9a09dbf6b9660f5f80049e65921b4b8"
+    },
+    {
+      "position": 29,
+      "id": "EIP-3.4-05",
+      "english_sha256": "27849b2b988e47c1dfb9068124443c29eb561bc4d847b5313fd8d431e82364e7"
+    },
+    {
+      "position": 30,
+      "id": "EIP-3.4-06",
+      "english_sha256": "eb1cf5157f22a770bf83a5effef324bf75276bfc04e8489fd014e495d4260037"
+    },
+    {
+      "position": 31,
+      "id": "EIP-3.4-07",
+      "english_sha256": "349391b2341b2fdce0d0dd02cecffe599c90ae7d7d00a608126754ae27ccbcd5"
+    },
+    {
+      "position": 32,
+      "id": "EIP-3.5-01",
+      "english_sha256": "b9d158b8376162d0b8d58629ca6e63d1a868d8eca59801f457247832dc13dcd6"
+    },
+    {
+      "position": 33,
+      "id": "EIP-3.5-02",
+      "english_sha256": "7ec3f52b92ca234188ff5be03bd009aa1670756db372160d6fe57ceaacd665fc"
+    },
+    {
+      "position": 34,
+      "id": "EIP-3.5-03",
+      "english_sha256": "85927e44c2023ac54708f5a875ef5ec59f86db0d733572bec5e45f42a59ad37f"
+    },
+    {
+      "position": 35,
+      "id": "EIP-3.5-04",
+      "english_sha256": "821cf5094a1110a88301e71d596dc7a69a86bf24ee4230652e16633df9b77e7f"
+    },
+    {
+      "position": 36,
+      "id": "EIP-3.5-05",
+      "english_sha256": "ecca7f301c705d34d51ea34aee6dcc904b162024599e6eb8b9e3f973a292b4d7"
+    },
+    {
+      "position": 37,
+      "id": "EIP-3.6-01",
+      "english_sha256": "adb870aa0dceabd8ebf07727f0bdd6c1975374e7c14889c0529c041c336392f0"
+    },
+    {
+      "position": 38,
+      "id": "EIP-3.6-02",
+      "english_sha256": "5fe14b64e397c1c643a02f42e23e003b9a3bfb44332bffa16be3438210748f8b"
+    },
+    {
+      "position": 39,
+      "id": "EIP-3.6-03",
+      "english_sha256": "a79843c69fdcda244396db34719e30d7a54faf5868e8c8df0cac8b74cf41c11a"
+    },
+    {
+      "position": 40,
+      "id": "EIP-3.6-04",
+      "english_sha256": "e88b84a3fdccfe499d2c67a032cae8042c20379ca474c7de1711e77d7b875a08"
+    },
+    {
+      "position": 41,
+      "id": "EIP-3.6-05",
+      "english_sha256": "fd0471377a12f829db729a733037e69f129a26ae6aa2cefb204f00c494ab1778"
+    },
+    {
+      "position": 42,
+      "id": "EIP-3.6-06",
+      "english_sha256": "3c51fd23a205bb75308e238a7c6d224db05025eb0c8ec569f6e741de0fbc9436"
+    },
+    {
+      "position": 43,
+      "id": "EIP-3.7-01",
+      "english_sha256": "cce29d51cc3442f3f4f034ba2436fcaf2c9e26a1d6d6b8ce1516b1f143339ef3"
+    },
+    {
+      "position": 44,
+      "id": "EIP-3.7-02",
+      "english_sha256": "c920c315dfb01e28bf34b21c66fa17098dce6f42be6ad7e93f14c2d3019f1e41"
+    },
+    {
+      "position": 45,
+      "id": "EIP-3.7-03",
+      "english_sha256": "b654242dfb7f9fb2ff49f934d476b31247186697520cacdac184d74523bbb4cf"
+    },
+    {
+      "position": 46,
+      "id": "EIP-3.7-04",
+      "english_sha256": "7ee3d09220c38bd547ae803eaa2fb3510bb47030a97871ce475e82b17a186c77"
+    },
+    {
+      "position": 47,
+      "id": "EIP-3.8-01",
+      "english_sha256": "4aa7d4d0f21a660cb3ae2a4f10f007ecca43c984d754fdda11c5d861d6682ef5"
+    },
+    {
+      "position": 48,
+      "id": "EIP-3.8-02",
+      "english_sha256": "572665650fee0401d1ac6507e5f41d48911f863b17935789e273138534e9cd4d"
+    },
+    {
+      "position": 49,
+      "id": "EIP-3.8-03",
+      "english_sha256": "0ee28e2e2b068ce026c03aff79fe01439405df946f5a1df6453efaef608faa03"
+    },
+    {
+      "position": 50,
+      "id": "EIP-3.8-04",
+      "english_sha256": "e08e22c9a8a836083bd0d7fd72518b2924b156a442e734f50f5576277169ca7f"
+    },
+    {
+      "position": 51,
+      "id": "EIP-3.8-05",
+      "english_sha256": "e0d18f462d52bcf79294e34cc49c9b23cd2323676dc4592741c742d6e08a8a54"
+    },
+    {
+      "position": 52,
+      "id": "EIP-3.8-06",
+      "english_sha256": "f96b605026becdf1bc5ffd0ff35dc1601226789bf5bbdab2826fb298426ff8f5"
+    },
+    {
+      "position": 53,
+      "id": "EIP-3.9-01",
+      "english_sha256": "b37c38467183c07178b51cc3a9161c3238d520f97c16a25e06cba05a8a5cb247"
+    },
+    {
+      "position": 54,
+      "id": "EIP-3.9-02",
+      "english_sha256": "1a003ee2f1fdf08e20504b55a74d700fcfda4f0572f9625e015558d1704767d3"
+    },
+    {
+      "position": 55,
+      "id": "EIP-3.9-03",
+      "english_sha256": "81bf2d5cf9b5be4e16894f5dd5dee423baeea7e293d267435ce66d72f2473581"
+    },
+    {
+      "position": 56,
+      "id": "EIP-3.10-01",
+      "english_sha256": "2f13259b3de7683672b1d88f5a61dd8dd0b75eed10e3a604cd96bf06184e7266"
+    },
+    {
+      "position": 57,
+      "id": "EIP-3.10-02",
+      "english_sha256": "52cfdf7721e86c7b1b638f0c20246c6a0d212e0c4a4b779aca51a4f6e341f2f9"
+    },
+    {
+      "position": 58,
+      "id": "EIP-4.1-A",
+      "english_sha256": "ce8c3e84ad81a84e5d78fd6ad3dabf67219e12668c0962f1166fdfe3b075b6b4"
+    },
+    {
+      "position": 59,
+      "id": "EIP-4.1-02",
+      "english_sha256": "aa756849ce559fa88940d5042db9c13852916f198675faa8b4b372736a3ec5e9"
+    },
+    {
+      "position": 60,
+      "id": "EIP-4.1-03",
+      "english_sha256": "38699088c183efabba6fc8690159ab0aaa60cdaff7605db52778cec2eae5c16d"
+    },
+    {
+      "position": 61,
+      "id": "EIP-4.1-04",
+      "english_sha256": "59ed3a684215ef457aa303508d852a80d1e7efc71853fafb6cb3aa942b659717"
+    },
+    {
+      "position": 62,
+      "id": "EIP-5.1-01",
+      "english_sha256": "710a39296a365bfc1263900830a5ce78b0f6e3116aae49caa86216f63477c1c3"
+    },
+    {
+      "position": 63,
+      "id": "EIP-5.1-02",
+      "english_sha256": "bd73b7f70bc0125bfd120cd4201e151b5f625ba638299d97fe4da196752589c9"
+    },
+    {
+      "position": 64,
+      "id": "EIP-5.2-01",
+      "english_sha256": "54239e528bc50052b36546bb29317004949dcc7ee9e87a2d5b0c31bb230f1b4f"
+    },
+    {
+      "position": 65,
+      "id": "EIP-5.2-02",
+      "english_sha256": "6d468a2572a815e6de6e77f323804fe0449fec25dc9ac7a6dec5712f4186592a"
+    },
+    {
+      "position": 66,
+      "id": "EIP-5.2-03",
+      "english_sha256": "fb2082f0e49eb19ce3d05852b57624a84a749f5813d10ead29995c20733f54a3"
+    },
+    {
+      "position": 67,
+      "id": "EIP-5.3-01",
+      "english_sha256": "b847a8cfd9de23c8af40aa82f1fc2ab08e4b226c4f8936d8c1a50583ffdf5ecb"
+    },
+    {
+      "position": 68,
+      "id": "EIP-5.3-02",
+      "english_sha256": "a0ba904dd748d1ee074c9b2ded0467547211395c563290ff2844c8b0a18595b5"
+    },
+    {
+      "position": 69,
+      "id": "EIP-5.4-01",
+      "english_sha256": "e6694abd95637a74e408ee3780e6fc822eb1e0afc9920aadbb630aa9994c57d4"
+    },
+    {
+      "position": 70,
+      "id": "EIP-5.4-02",
+      "english_sha256": "7434154d90ff6becd83aedb2b5c3e6f18a23ea055bee8b9383c72eb51a58dd05"
+    },
+    {
+      "position": 71,
+      "id": "EIP-5.5-01",
+      "english_sha256": "5a9bcbad6f7eb413d13f2bcdd7d766ae1edba23df04548617e261b4c560cde6e"
+    },
+    {
+      "position": 72,
+      "id": "EIP-5.5-02",
+      "english_sha256": "2bee6230b0fdfb2af4f93ff139c181a804a4cd28755ba215c3ae4c5d23a53833"
+    },
+    {
+      "position": 73,
+      "id": "EIP-6.1-01",
+      "english_sha256": "6af729ed46157925ca6eaca1a62289cbb838afdadfacb8b71c01d6be3f91e92b"
+    },
+    {
+      "position": 74,
+      "id": "EIP-6.1-02",
+      "english_sha256": "8299bb0b79f0131a1781c4f441f5a4f0e5b9ff19120ceba4edd40024ec4e079e"
+    },
+    {
+      "position": 75,
+      "id": "EIP-6.1-03",
+      "english_sha256": "ccec7172b2e248a127a9addaa7662e8d0b91f10a7ebf19eca2b1a92e1b15e8d0"
+    },
+    {
+      "position": 76,
+      "id": "EIP-6.1-04",
+      "english_sha256": "1919cf1e0135e4a79eeadc13a225d01962f3819aed09cad35401a971d7d42592"
+    },
+    {
+      "position": 77,
+      "id": "EIP-6.2-01",
+      "english_sha256": "91bbebb3c23901739bc11a13aba8ecce67beac046217e346f2af1bb2b607f729"
+    },
+    {
+      "position": 78,
+      "id": "EIP-6.2-02",
+      "english_sha256": "0b827220d73fa99306f6e124cd1301c8f2a37be43b17b5888f36fe129da09ddb"
+    },
+    {
+      "position": 79,
+      "id": "EIP-6.2-03",
+      "english_sha256": "0dc38e091a1eefa0c8a2edb1dd42056cd7efe616c67689bd4362452c0e31398b"
+    },
+    {
+      "position": 80,
+      "id": "EIP-6.2-04",
+      "english_sha256": "ece4e37e15dec96e56ea8397648dac3fda0a7a5c677c79f10fb2c91cd76620bc"
+    },
+    {
+      "position": 81,
+      "id": "EIP-7.1-01",
+      "english_sha256": "9645f4790cc435d01a0f9bc1870052b9e64ea829d93ec1712e348e2c5de83597"
+    },
+    {
+      "position": 82,
+      "id": "EIP-7.1-02",
+      "english_sha256": "1e91e3e52968373c9c7e4b66a462e954c563e7b3fcef1ad6839e9e95574d513f"
+    },
+    {
+      "position": 83,
+      "id": "EIP-7.1-03",
+      "english_sha256": "8427860520bdbca783733b69609eb994cf868b4c1cfb4bcfdc25a17349b46e6d"
+    },
+    {
+      "position": 84,
+      "id": "EIP-7.1-04",
+      "english_sha256": "b45064e6f55756f352488af19fb13a06d20603383faa6d09b253782bf43c59ea"
+    },
+    {
+      "position": 85,
+      "id": "EIP-7.1-05",
+      "english_sha256": "cd05324da652330beb11445b75858d4ca6de80bdf6c0d451a90cb81b82f66043"
+    },
+    {
+      "position": 86,
+      "id": "EIP-7.1-06",
+      "english_sha256": "c76009bd1648670442f752cd11d6768e954226b96cc52f5bb3060dd4dab7578b"
+    },
+    {
+      "position": 87,
+      "id": "EIP-7.2-01",
+      "english_sha256": "44018c86640dc4a4b8dcc45eba4a9efefd05f952a8418377a982542b3e5c2d49"
+    },
+    {
+      "position": 88,
+      "id": "EIP-7.2-02",
+      "english_sha256": "44c02805d8666a1153b381d100f1143fdf2604a2d65e3717562015bd6a88f86c"
+    },
+    {
+      "position": 89,
+      "id": "EIP-7.2-03",
+      "english_sha256": "b194cda8a2c1333b40f7eb812c97be6fd0c90eef636645e17a0ec7ddc2a89945"
+    },
+    {
+      "position": 90,
+      "id": "EIP-7.3-01",
+      "english_sha256": "ae1619519721d912cf004abee28d0cc46c467531bbbe0dbca574fd0e5c148f9d"
+    },
+    {
+      "position": 91,
+      "id": "EIP-7.3-02",
+      "english_sha256": "1d51599459879b481fdf79851b88cfeab0f57de5fa9534b7b4eb1851cdff0ca2"
+    },
+    {
+      "position": 92,
+      "id": "EIP-M8-01",
+      "english_sha256": "bd002ac20091de8178633d64b35f45c98290e0d4582530588c28780447c462ee"
+    },
+    {
+      "position": 93,
+      "id": "EIP-M8-02",
+      "english_sha256": "789b4e19e09ca1718b4c776d4d4f1ad5dc99640bd1a91cf0e2cb4678262086a0"
+    },
+    {
+      "position": 94,
+      "id": "EIP-M8-03",
+      "english_sha256": "934e5874fae62816f018b42259ec560755d06fbaa6a218d28a04de5190798414"
+    },
+    {
+      "position": 95,
+      "id": "EIP-M8-04",
+      "english_sha256": "f1f61b861c665bb40ec1c2e8a50960d3b06d34ce72637e0ab328b1a5eaf877c4"
+    }
+  ],
+  "findings": [
+    "A01 dividend actual-expense clarification (20/36)",
+    "A02 overhedge attribution corrected (41)",
+    "A03 FX currency unit corrected (43)"
+  ],
+  "limits": [
+    "Approximate lesson duration remains editorial; no novice study timing measured.",
+    "Full consolidated-law and independent specialist validation limitations remain documented."
+  ],
+  "record_stage": "End of Pass 1 before Pass 2 corrections; final state and evidence are recorded in content-audit-pass2.json"
+}

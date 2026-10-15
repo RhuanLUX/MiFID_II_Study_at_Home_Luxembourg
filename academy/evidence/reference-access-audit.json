@@ -1,0 +1,800 @@
+{
+  "date": "2026-10-15",
+  "purpose": "Read-only reachability check of every source URL; no access-control workaround",
+  "counts": {
+    "ACCESS_BLOCKED": 11,
+    "ACCESS_CHALLENGE": 2,
+    "LOCAL_DERIVATION": 1,
+    "NETWORK_UNCERTAIN": 10,
+    "REACHABLE": 78
+  },
+  "rows": [
+    {
+      "id": "MIFID-4",
+      "url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-4-definitions",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-4-definitions",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "EFPA-SYL",
+      "url": "https://www.efpa.lu/_files/ugd/f712b2_ccdb8d34e71c4a04a2faa62faa709afa.pdf",
+      "http": 200,
+      "final_url": "https://www.efpa.lu/_files/ugd/f712b2_ccdb8d34e71c4a04a2faa62faa709afa.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "EFPA-EXAM",
+      "url": "https://www.efpa.lu/_files/ugd/f712b2_20da821c4d0f46ea97939e96d99122cc.pdf",
+      "http": 200,
+      "final_url": "https://www.efpa.lu/_files/ugd/f712b2_20da821c4d0f46ea97939e96d99122cc.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "EFPA-PAGE",
+      "url": "https://www.efpa.lu/european-investment-practitioner",
+      "http": 200,
+      "final_url": "https://www.efpa.lu/european-investment-practitioner",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "ACCESS_CHALLENGE"
+    },
+    {
+      "id": "MIFID-25",
+      "url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-25-assessment-suitability-and",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-25-assessment-suitability-and",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ESMA-SUIT",
+      "url": "https://www.esma.europa.eu/sites/default/files/2023-04/ESMA35-43-3172_Guidelines_on_certain_aspects_of_the_MiFID_II_suitability_requirements.pdf",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/sites/default/files/2023-04/ESMA35-43-3172_Guidelines_on_certain_aspects_of_the_MiFID_II_suitability_requirements.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "EU-1253",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32021R1253",
+      "http": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32021R1253",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CSSF-835",
+      "url": "https://www.cssf.lu/en/Document/circular-cssf-23-835/",
+      "http": 200,
+      "final_url": "https://www.cssf.lu/en/Document/circular-cssf-23-835/",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ESMA-2026",
+      "url": "https://www.esma.europa.eu/sites/default/files/2026-05/ESMA35-915049491-6291_Statement_on_the_CSA_on_MiFID_II_sustainability_aspects.pdf",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/sites/default/files/2026-05/ESMA35-915049491-6291_Statement_on_the_CSA_on_MiFID_II_sustainability_aspects.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "SEC-COMPOUND",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-interest",
+      "http": 200,
+      "final_url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-interest",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "SEC-BONDS",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are",
+      "http": 200,
+      "final_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "FINRA-DURATION",
+      "url": "https://syndication.finra.org/content/duration-what-interest-rate-hike-could-do-your-bond-portfolio",
+      "http": 200,
+      "final_url": "https://syndication.finra.org/content/duration-what-interest-rate-hike-could-do-your-bond-portfolio",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ECB-ESTR",
+      "url": "https://www.ecb.europa.eu/press/economic-bulletin/articles/2022/html/ecb.ebart202204_03~782540dbd5.en.html",
+      "status": "NETWORK_UNCERTAIN",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "id": "CSSF-665",
+      "url": "https://www.cssf.lu/en/Document/circular-cssf-17-665/",
+      "http": 200,
+      "final_url": "https://www.cssf.lu/en/Document/circular-cssf-17-665/",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CSSF-670",
+      "url": "https://www.cssf.lu/en/Document/circular-cssf-17-670/",
+      "http": 200,
+      "final_url": "https://www.cssf.lu/en/Document/circular-cssf-17-670/",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "LU-TAX",
+      "url": "https://guichet.public.lu/en/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/banque-luxembourgeoise.html",
+      "http": 200,
+      "final_url": "https://guichet.public.lu/en/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/banque-luxembourgeoise.html",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "AUTHOR-MATH",
+      "url": null,
+      "status": "LOCAL_DERIVATION"
+    },
+    {
+      "id": "FGDL-DEPOSITS",
+      "url": "https://www.fgdl.lu/en/deposit-guarantee/",
+      "http": 200,
+      "final_url": "https://www.fgdl.lu/en/deposit-guarantee/",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "FGDL-FAQ",
+      "url": "https://www.fgdl.lu/en/frequently-asked-questions/",
+      "http": 200,
+      "final_url": "https://www.fgdl.lu/en/frequently-asked-questions/",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ECB-COLLATERAL",
+      "url": "https://www.ecb.europa.eu/mopo/coll/risk/riskcontrol/html/index.en.html",
+      "status": "NETWORK_UNCERTAIN",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "id": "EMMI-EURIBOR",
+      "url": "https://www.emmi-benchmarks.eu/benchmarks/euribor/",
+      "http": 200,
+      "final_url": "https://www.emmi-benchmarks.eu/benchmarks/euribor/",
+      "content_type": "text/html; charset=utf-8",
+      "status": "ACCESS_CHALLENGE"
+    },
+    {
+      "id": "ECB-ESTR-OVERVIEW",
+      "url": "https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_short-term_rate/html/eurostr_overview.en.html",
+      "status": "NETWORK_UNCERTAIN",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "id": "IMF-DEBT",
+      "url": "https://www.imf.org/en/publications/fandd/issues/2020/09/what-is-debt-sustainability-basics",
+      "http": 403,
+      "status": "ACCESS_BLOCKED",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "EUROSTAT-DEBT",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260122-1",
+      "http": 200,
+      "final_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260122-1",
+      "content_type": "text/html;charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ECB-STABILITY",
+      "url": "https://www.ecb.europa.eu/ecb/orga/tasks/stability/html/index.en.html",
+      "status": "NETWORK_UNCERTAIN",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "id": "IMF-SUPPLY",
+      "url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Supply-and-Demand",
+      "http": 403,
+      "status": "ACCESS_BLOCKED",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ECB-INFLATION",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me-more/html/what_is_inflation.en.html",
+      "status": "NETWORK_UNCERTAIN",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "id": "ECB-TARGET",
+      "url": "https://www.ecb.europa.eu/mopo/strategy/pricestab/html/index.en.html",
+      "status": "NETWORK_UNCERTAIN",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "id": "ECB-TRANSMISSION",
+      "url": "https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html",
+      "status": "NETWORK_UNCERTAIN",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "id": "IMF-FISCAL",
+      "url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Fiscal-Policy",
+      "http": 403,
+      "status": "ACCESS_BLOCKED",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "IMF-GDP",
+      "url": "https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/gross-domestic-product-gdp",
+      "http": 403,
+      "status": "ACCESS_BLOCKED",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ECB-SECTORS",
+      "url": "https://www.ecb.europa.eu/stats/macroeconomic_and_sectoral/sector_accounts/html/index.en.html",
+      "status": "NETWORK_UNCERTAIN",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "id": "IMF-CYCLES",
+      "url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Recession",
+      "http": 403,
+      "status": "ACCESS_BLOCKED",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ECB-MONEY",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me-more/html/what_is_money.en.html",
+      "status": "NETWORK_UNCERTAIN",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "id": "MIFID-27",
+      "url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-27-obligation-execute-orders",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-27-obligation-execute-orders",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "LUXSE-MARKETS",
+      "url": "https://www.luxse.com/listing/our-markets-and-platforms",
+      "http": 200,
+      "final_url": "https://www.luxse.com/listing/our-markets-and-platforms",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "LUXSE-LIST",
+      "url": "https://www.luxse.com/market-overview/official-list",
+      "http": 200,
+      "final_url": "https://www.luxse.com/market-overview/official-list",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "LUXSE-RULES",
+      "url": "https://www.luxse.com/regulation",
+      "http": 200,
+      "final_url": "https://www.luxse.com/regulation",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "STAT-SPREAD",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/13-2-measures-of-spread",
+      "http": 200,
+      "final_url": "https://openstax.org/books/principles-finance-2e/pages/13-2-measures-of-spread",
+      "content_type": "text/html",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "STAT-CORRELATION",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/14-1-correlation-analysis",
+      "http": 200,
+      "final_url": "https://openstax.org/books/principles-finance-2e/pages/14-1-correlation-analysis",
+      "content_type": "text/html",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "PORTFOLIO-MATH",
+      "url": "https://openstax.org/books/principles-finance/pages/15-2-risk-and-return-to-multiple-assets",
+      "http": 200,
+      "final_url": "https://openstax.org/books/principles-finance/pages/15-2-risk-and-return-to-multiple-assets",
+      "content_type": "text/html",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CFA-CONSTRAINTS",
+      "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/asset-allocation-with-real-world-constraints",
+      "http": 200,
+      "final_url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/asset-allocation-with-real-world-constraints",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CFA-PERFORMANCE",
+      "url": "https://rpc.cfainstitute.org/-/media/documents/code/gips/case-study-risk-adjusted-performance-measures.pdf",
+      "http": 200,
+      "final_url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/code/gips/case-study-risk-adjusted-performance-measures.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CFA-TWR",
+      "url": "https://rpc.cfainstitute.org/research/cfa-digest/2017/04/using-brinson-attribution-to-explain-the-differences-between-time-weighted-twr-and-money-weigh",
+      "http": 200,
+      "final_url": "https://rpc.cfainstitute.org/research/cfa-digest/2017/04/using-brinson-attribution-to-explain-the-differences-between-time-weighted-twr-and-money-weigh",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "SFDR-DEFS",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32019R2088",
+      "http": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32019R2088",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CSSF-ESG26",
+      "url": "https://www.cssf.lu/en/2026/03/the-cssfs-supervisory-priorities-in-the-area-of-sustainable-finance/",
+      "http": 200,
+      "final_url": "https://www.cssf.lu/en/2026/03/the-cssfs-supervisory-priorities-in-the-area-of-sustainable-finance/",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CSSF-RATINGS26",
+      "url": "https://www.cssf.lu/en/2026/07/communication-to-market-participants-on-the-application-of-the-esg-ratings-regulation-and-the-new-disclosure-requirements-under-the-sfdr/",
+      "http": 200,
+      "final_url": "https://www.cssf.lu/en/2026/07/communication-to-market-participants-on-the-application-of-the-esg-ratings-regulation-and-the-new-disclosure-requirements-under-the-sfdr/",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "SFDR-REVISION26",
+      "url": "https://www.consilium.europa.eu/en/meetings/mpo/2026/10/financial-services-attaches-%28371412%29/",
+      "http": 403,
+      "status": "ACCESS_BLOCKED",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "NGFS-2026",
+      "url": "https://www.ngfs.net/system/files/2026-10/NGFS_Guide_for_Supervisors_2026.pdf",
+      "http": 200,
+      "final_url": "https://www.ngfs.net/system/files/2026-10/NGFS_Guide_for_Supervisors_2026.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ESMA-COMPLEX",
+      "url": "https://www.esma.europa.eu/sites/default/files/library/2015-1787_-_guidelines_on_complex_debt_instruments_and_structured_deposits.pdf",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/sites/default/files/library/2015-1787_-_guidelines_on_complex_debt_instruments_and_structured_deposits.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CSSF-COMPLEX",
+      "url": "https://www.cssf.lu/en/Document/esma-guidelines-on-complex-debt-instruments-and-structured-deposits/",
+      "http": 200,
+      "final_url": "https://www.cssf.lu/en/Document/esma-guidelines-on-complex-debt-instruments-and-structured-deposits/",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CSSF-UCI26",
+      "url": "https://www.cssf.lu/wp-content/uploads/L_171210_UCI.pdf",
+      "http": 200,
+      "final_url": "https://www.cssf.lu/wp-content/uploads/L_171210_UCI.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CSSF-LMT26",
+      "url": "https://www.cssf.lu/wp-content/uploads/cssf26_910eng.pdf",
+      "http": 200,
+      "final_url": "https://www.cssf.lu/wp-content/uploads/cssf26_910eng.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CSSF-LMT-COMM",
+      "url": "https://www.cssf.lu/en/2026/03/communication-to-the-investment-fund-industry/",
+      "http": 200,
+      "final_url": "https://www.cssf.lu/en/2026/03/communication-to-the-investment-fund-industry/",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ESMA-CLASSES",
+      "url": "https://www.esma.europa.eu/sites/default/files/library/opinion_on_ucits_share_classes.pdf",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/sites/default/files/library/opinion_on_ucits_share_classes.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "UCITS-52",
+      "url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/ucits/article-52",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/ucits/article-52",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ECB-FX",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+      "status": "NETWORK_UNCERTAIN",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "id": "CME-PNL",
+      "url": "https://www.cmegroup.com/education/courses/introduction-to-futures/calculating-futures-contract-profit-or-loss",
+      "http": 403,
+      "status": "ACCESS_BLOCKED",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "CME-MTM",
+      "url": "https://www.cmegroup.com/education/courses/introduction-to-futures/mark-to-market",
+      "http": 403,
+      "status": "ACCESS_BLOCKED",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "CME-INITIAL",
+      "url": "https://www.cmegroup.com/education/courses/introduction-to-futures/margin-know-what-is-needed",
+      "http": 403,
+      "status": "ACCESS_BLOCKED",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "OPENSTAX-DDM",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "http": 200,
+      "final_url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "content_type": "text/html",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "SEC-DIVERSIFY",
+      "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+      "http": 200,
+      "final_url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ACD-LIR26",
+      "url": "https://impotsdirects.public.lu/dam-assets/fr/legislation/LIR/texte-coordonn-en-vigueur-au-1er-janvier-2026-ver-08052026.pdf",
+      "http": 200,
+      "final_url": "https://impotsdirects.public.lu/dam-assets/fr/legislation/LIR/texte-coordonn-en-vigueur-au-1er-janvier-2026-ver-08052026.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "LU-INTEREST",
+      "url": "https://guichet.public.lu/en/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/banque-luxembourgeoise.html",
+      "http": 200,
+      "final_url": "https://guichet.public.lu/en/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/banque-luxembourgeoise.html",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "LU-DIVIDENDS",
+      "url": "https://guichet.public.lu/en/entreprises/fiscalite/impots-benefices/benefices-patrimoine/imposition-benefices-distribues/distribution-dividendes.html",
+      "http": 200,
+      "final_url": "https://guichet.public.lu/en/entreprises/fiscalite/impots-benefices/benefices-patrimoine/imposition-benefices-distribues/distribution-dividendes.html",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "LU-PRIVATE-GAINS",
+      "url": "https://guichet.public.lu/en/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/achat-vente-actions.html",
+      "http": 200,
+      "final_url": "https://guichet.public.lu/en/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/achat-vente-actions.html",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "LU-ASSIMILATION",
+      "url": "https://guichet.public.lu/en/citoyens/fiscalite/declaration-impot-decompte/activite-professionnelle/declaration-revenus/assimilation-resident.html",
+      "http": 200,
+      "final_url": "https://guichet.public.lu/en/citoyens/fiscalite/declaration-impot-decompte/activite-professionnelle/declaration-revenus/assimilation-resident.html",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "SEC-STOCKS",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+      "http": 200,
+      "final_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "SEC-OPTIONS",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63",
+      "http": 200,
+      "final_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CME-FUTURES",
+      "url": "https://www.cmegroup.com/education/courses/introduction-to-futures",
+      "http": 403,
+      "status": "ACCESS_BLOCKED",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "CME-MARGIN",
+      "url": "https://www.cmegroup.com/solutions/risk-management/performance-bonds-margins.html",
+      "http": 403,
+      "status": "ACCESS_BLOCKED",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "CAA-UNIT26",
+      "url": "https://www.caa.lu/uploads/documents/files/LC26-1_FR.pdf",
+      "http": 200,
+      "final_url": "https://www.caa.lu/uploads/documents/files/LC26-1_FR.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CAA-CONTRACT",
+      "url": "https://www.caa.lu/uploads/documents/files/Loi_ContratAssurance_1997-07-27_coord_2025-11-25.pdf",
+      "http": 200,
+      "final_url": "https://www.caa.lu/uploads/documents/files/Loi_ContratAssurance_1997-07-27_coord_2025-11-25.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CAA-RECOVERY",
+      "url": "https://www.caa.lu/uploads/documents/files/FWU_FAQ_20250221.pdf",
+      "http": 200,
+      "final_url": "https://www.caa.lu/uploads/documents/files/FWU_FAQ_20250221.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CAA-PENSION26",
+      "url": "https://www.caa.lu/uploads/documents/files/Note_info_26-5.pdf",
+      "http": 200,
+      "final_url": "https://www.caa.lu/uploads/documents/files/Note_info_26-5.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "LU-PILLARS",
+      "url": "https://guichet.public.lu/fr/citoyens/travail/pension/pension-complementaire/droits-pension-complementaire.html",
+      "http": 200,
+      "final_url": "https://guichet.public.lu/fr/citoyens/travail/pension/pension-complementaire/droits-pension-complementaire.html",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "LU-PUBLIC-PENSION",
+      "url": "https://guichet.public.lu/fr/citoyens/travail/pension/assurance-pension/retraite-pension-vieillesse.html",
+      "http": 200,
+      "final_url": "https://guichet.public.lu/fr/citoyens/travail/pension/assurance-pension/retraite-pension-vieillesse.html",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ACD-PENSION26",
+      "url": "https://impotsdirects.public.lu/dam-assets/fr/legislation/LIR/texte-coordonn-en-vigueur-au-1er-janvier-2026-ver-08052026.pdf",
+      "http": 200,
+      "final_url": "https://impotsdirects.public.lu/dam-assets/fr/legislation/LIR/texte-coordonn-en-vigueur-au-1er-janvier-2026-ver-08052026.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "LU-EMPLOYER-PENSION-TAX",
+      "url": "https://guichet.public.lu/fr/citoyens/fiscalite/declaration-impot-decompte/pension/perception-pension/traitement-fiscal-pension-employeur.html",
+      "http": 200,
+      "final_url": "https://guichet.public.lu/fr/citoyens/fiscalite/declaration-impot-decompte/pension/perception-pension/traitement-fiscal-pension-employeur.html",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "MIFID-ANNEX",
+      "url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/annex-i",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/annex-i",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "MIFID-24",
+      "url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-24-general-principles-and",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-24-general-principles-and",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ESMA-INDUCEMENTS",
+      "url": "https://www.esma.europa.eu/publications-data/questions-answers/1121",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/publications-data/questions-answers/1121",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ESMA-COST-AGG",
+      "url": "https://www.esma.europa.eu/publications-data/questions-answers/1825",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/publications-data/questions-answers/1825",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ESMA-COST-TIMING",
+      "url": "https://www.esma.europa.eu/publications-data/questions-answers/1833",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/publications-data/questions-answers/1833",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ESMA-COST-FX",
+      "url": "https://www.esma.europa.eu/publications-data/questions-answers/2025",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/publications-data/questions-answers/2025",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CSSF-COMPLAINTS",
+      "url": "https://www.cssf.lu/en/customer-complaints/",
+      "http": 200,
+      "final_url": "https://www.cssf.lu/en/customer-complaints/",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CSSF-COMPETENCE-FULL",
+      "url": "https://www.cssf.lu/wp-content/uploads/cssf17_665eng.pdf",
+      "http": 200,
+      "final_url": "https://www.cssf.lu/wp-content/uploads/cssf17_665eng.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CSSF-TRAINING-FULL",
+      "url": "https://www.cssf.lu/wp-content/uploads/cssf17_670eng.pdf",
+      "http": 200,
+      "final_url": "https://www.cssf.lu/wp-content/uploads/cssf17_670eng.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CSSF-MAR",
+      "url": "https://www.cssf.lu/en/market-abuse/",
+      "http": 200,
+      "final_url": "https://www.cssf.lu/en/market-abuse/",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CSSF-MAR-LAW",
+      "url": "https://www.cssf.lu/wp-content/uploads/L_231216_market_abuse.pdf",
+      "http": 200,
+      "final_url": "https://www.cssf.lu/wp-content/uploads/L_231216_market_abuse.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ESMA-T1-26",
+      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-calls-firms-finalise-preparations-ahead-t1-settlement-deadlines",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/press-news/esma-news/esma-calls-firms-finalise-preparations-ahead-t1-settlement-deadlines",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "MAR-BASE",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1791224510398&uri=CELEX%3A32014R0596",
+      "http": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1791224510398&uri=CELEX%3A32014R0596",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "MAR-LISTING",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32024R2809",
+      "http": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32024R2809",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ESMA-MAR-26",
+      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-seeks-input-streamline-and-simplify-its-market-abuse-guidelines",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/press-news/esma-news/esma-seeks-input-streamline-and-simplify-its-market-abuse-guidelines",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "CSSF-AML-26",
+      "url": "https://www.cssf.lu/wp-content/uploads/L_121104_AML.pdf",
+      "http": 200,
+      "final_url": "https://www.cssf.lu/wp-content/uploads/L_121104_AML.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "EFPA-ETHICS",
+      "url": "https://www.efpa-eu.org/wp-content/uploads/2023/04/EFPA-Europe-Code-of-Ethics-revised-31-01-2023.pdf",
+      "http": 200,
+      "final_url": "https://www.efpa-eu.org/wp-content/uploads/2023/04/EFPA-Europe-Code-of-Ethics-revised-31-01-2023.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "EC-EUGB-26",
+      "url": "https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/european-green-bond-standard-supporting-transition_en",
+      "http": 200,
+      "final_url": "https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/european-green-bond-standard-supporting-transition_en",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ICMA-HANDBOOK-26",
+      "url": "https://www.icmagroup.org/assets/documents/Sustainable-finance/2026-updates/The-Principles-Guidance-Handbook-June-2026.pdf",
+      "http": 200,
+      "final_url": "https://www.icmagroup.org/assets/documents/Sustainable-finance/2026-updates/The-Principles-Guidance-Handbook-June-2026.pdf",
+      "content_type": "application/pdf",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "EC-TAXONOMY-26",
+      "url": "https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en",
+      "http": 200,
+      "final_url": "https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en",
+      "content_type": "text/html; charset=utf-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "EU-TAXONOMY-DEFS",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02021R2178-20260101",
+      "http": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02021R2178-20260101",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ESMA-STRATEGIES-26",
+      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-promotes-clarity-communications-esg-strategies",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/press-news/esma-news/esma-promotes-clarity-communications-esg-strategies",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    },
+    {
+      "id": "ESMA-CLAIMS-OCT26",
+      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-promotes-clarity-claims-impact-and-transition",
+      "http": 200,
+      "final_url": "https://www.esma.europa.eu/press-news/esma-news/esma-promotes-clarity-claims-impact-and-transition",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "REACHABLE"
+    }
+  ],
+  "limits": [
+    "Reachability does not establish claim accuracy or current legal validity.",
+    "HTTP 403/429, anti-bot challenges and timeouts are access limitations, not proof that the cited source is invalid.",
+    "Semantic official-source verification is separately recorded in CONTENT_AUDIT.md."
+  ]
+}

@@ -1,0 +1,4761 @@
+{
+  "date": "2026-10-15",
+  "method": "Independent 60-digit Python Decimal recalculation; explicit cash flows, numerical differentiation and Newton solving; no import of JavaScript test functions",
+  "registry_cases": 461,
+  "registry_lessons": 92,
+  "methods": 58,
+  "manual_golden_master_cases": 16,
+  "passed": 477,
+  "failed": 0,
+  "rows": [
+    {
+      "lesson": "EIP-1.1-01",
+      "id": "SCARCE-A",
+      "method": "simple_interest",
+      "independent": [
+        "240.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.1-01",
+      "id": "SCARCE-B",
+      "method": "net_revenue",
+      "independent": [
+        "650"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.1-01",
+      "id": "SCARCE-C",
+      "method": "expected_net",
+      "independent": [
+        "470.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.1-02",
+      "id": "DEMAND-EQ",
+      "method": "equilibrium",
+      "independent": [
+        "20",
+        "800"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.1-02",
+      "id": "DEMAND-SHIFT",
+      "method": "equilibrium",
+      "independent": [
+        "22",
+        "760"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.1-02",
+      "id": "DEMAND-PROFIT",
+      "method": "operating_profit",
+      "independent": [
+        "6400"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.1-03",
+      "id": "INF-BASKET",
+      "method": "weighted",
+      "independent": [
+        "0.070"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.1-03",
+      "id": "INF-REAL",
+      "method": "real_return",
+      "independent": [
+        "-0.018867924528301886792452830188679245283018867924528301886792"
+      ],
+      "max_abs_error": "1.886792452830188679245283018867924528301886792E-15",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.1-03",
+      "id": "INF-GOAL",
+      "method": "growth_chain",
+      "independent": [
+        "12852.0000"
+      ],
+      "max_abs_error": "0.0000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.2-01",
+      "id": "POL-TRANSFER",
+      "method": "domestic_spend",
+      "independent": [
+        "45.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.2-01",
+      "id": "POL-BUDGET",
+      "method": "difference",
+      "independent": [
+        "13"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.2-01",
+      "id": "POL-FIRM",
+      "method": "net_revenue",
+      "independent": [
+        "0.7"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.2-02",
+      "id": "TRANS-LOAN",
+      "method": "interest_change",
+      "independent": [
+        "3000.0000"
+      ],
+      "max_abs_error": "0.0000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.2-02",
+      "id": "TRANS-SAVER",
+      "method": "interest_change",
+      "independent": [
+        "750.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.2-02",
+      "id": "TRANS-REAL",
+      "method": "real_return",
+      "independent": [
+        "-0.004854368932038834951456310679611650485436893203883495145631"
+      ],
+      "max_abs_error": "1.165048543689320388349514563106796116504854369E-15",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.2-02",
+      "id": "TRANS-PV",
+      "method": "discount",
+      "independent": [
+        "9569.37799043062200956937799043062200956937799043062200956938"
+      ],
+      "max_abs_error": "6.2200956937799043062200956937799043062200956938E-10",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.2-03",
+      "id": "SECTOR-HH",
+      "method": "net_revenue",
+      "independent": [
+        "-18000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.2-03",
+      "id": "SECTOR-SUM",
+      "method": "sum",
+      "independent": [
+        "0"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.2-03",
+      "id": "SECTOR-NX",
+      "method": "sum",
+      "independent": [
+        "3"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.3-01",
+      "id": "DEBT-ISSUE",
+      "method": "sum",
+      "independent": [
+        "23"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.3-01",
+      "id": "DEBT-STOCK",
+      "method": "sum",
+      "independent": [
+        "125"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.3-01",
+      "id": "DEBT-RATIO",
+      "method": "ratio",
+      "independent": [
+        "0.490476190476190476190476190476190476190476190476190476190476"
+      ],
+      "max_abs_error": "1.90476190476190476190476190476190476190476190476E-13",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.3-01",
+      "id": "DEBT-INTEREST",
+      "method": "weighted",
+      "independent": [
+        "2.40"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.3-01",
+      "id": "DEBT-DYNAMIC",
+      "method": "growth_ratio",
+      "independent": [
+        "0.504854368932038834951456310679611650485436893203883495145631"
+      ],
+      "max_abs_error": "3.8834951456310679611650485436893203883495145631E-14",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.3-02",
+      "id": "CYCLE-REAL",
+      "method": "real_return",
+      "independent": [
+        "0.01923076923076923076923076923076923076923076923076923076923"
+      ],
+      "max_abs_error": "3.076923076923076923076923076923076923076923077E-14",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.3-02",
+      "id": "CYCLE-PATH",
+      "method": "growth_chain",
+      "independent": [
+        "98.84044800"
+      ],
+      "max_abs_error": "0E-8",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.3-02",
+      "id": "CYCLE-PROFIT",
+      "method": "operating_profit",
+      "independent": [
+        "300000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.3-02",
+      "id": "CYCLE-PV",
+      "method": "discount",
+      "independent": [
+        "8.49056603773584905660377358490566037735849056603773584905660"
+      ],
+      "max_abs_error": "4.15094339622641509433962264150943396226415094340E-12",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.3-03",
+      "id": "SHOCK-ENERGY",
+      "method": "net_revenue",
+      "independent": [
+        "380000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.3-03",
+      "id": "SHOCK-PV",
+      "method": "bond_price",
+      "independent": [
+        "1018.86094674556213017751479289940828402366863905325443786982"
+      ],
+      "max_abs_error": "4.43786982248520710059171597633136094674556213018E-9",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.3-03",
+      "id": "SHOCK-PV2",
+      "method": "bond_price",
+      "independent": [
+        "981.666073335706657173371306514773940904236383054467782128871"
+      ],
+      "max_abs_error": "4.293342826628693485226059095763616945532217871129E-9",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-1.3-03",
+      "id": "SHOCK-FX",
+      "method": "fx_net",
+      "independent": [
+        "33333.333333333333333333333333333333333333333333333333333333"
+      ],
+      "max_abs_error": "3.3333333333333333333333333333333333333333333333E-8",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.1-01",
+      "id": "SYS-BANK",
+      "method": "sum",
+      "independent": [
+        "101"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.1-01",
+      "id": "SYS-NAV",
+      "method": "ratio",
+      "independent": [
+        "103"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.1-01",
+      "id": "SYS-EXPOSURE",
+      "method": "ratio",
+      "independent": [
+        "0.01"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.2-01",
+      "id": "STRUCT-SPREAD",
+      "method": "spread_cost",
+      "independent": [
+        "120.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.2-01",
+      "id": "STRUCT-FX",
+      "method": "home_return",
+      "independent": [
+        "-0.037500000000000000000000000000000000000000000000000000000000"
+      ],
+      "max_abs_error": "0E-60",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.3-01",
+      "id": "ISSUE-NET",
+      "method": "issue_net",
+      "independent": [
+        "9780000.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.3-01",
+      "id": "ISSUE-ALLOC",
+      "method": "ratio",
+      "independent": [
+        "0.625"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.3-01",
+      "id": "ISSUE-DILUTE",
+      "method": "ratio",
+      "independent": [
+        "0.08"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.3-01",
+      "id": "ISSUE-COUPON",
+      "method": "ratio",
+      "independent": [
+        "0.0408997955010224948875255623721881390593047034764826175869121"
+      ],
+      "max_abs_error": "2.24948875255623721881390593047034764826175869121E-14",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.3-02",
+      "id": "VENUE-NET",
+      "method": "weighted_less",
+      "independent": [
+        "9800"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.3-02",
+      "id": "VENUE-NETTING",
+      "method": "sum",
+      "independent": [
+        "70000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.3-02",
+      "id": "VENUE-CASH",
+      "method": "net_sale",
+      "independent": [
+        "9730.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.3-03",
+      "id": "ORDER-MARKET",
+      "method": "weighted",
+      "independent": [
+        "8045.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.3-03",
+      "id": "ORDER-AVG",
+      "method": "ratio",
+      "independent": [
+        "20.1125"
+      ],
+      "max_abs_error": "0.0000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.3-03",
+      "id": "ORDER-LIMIT",
+      "method": "weighted",
+      "independent": [
+        "6020.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.3-03",
+      "id": "ORDER-STOP",
+      "method": "price_return",
+      "independent": [
+        "-0.12"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.3-04",
+      "id": "LUX-CLEAN",
+      "method": "weighted",
+      "independent": [
+        "9935.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-2.3-04",
+      "id": "LUX-REDEEM",
+      "method": "redemption_net",
+      "independent": [
+        "11741.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.1-02",
+      "id": "TVM-SERIES",
+      "method": "contribution_series",
+      "independent": [
+        "6243.200000"
+      ],
+      "max_abs_error": "0.000000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.1-02",
+      "id": "TVM-DUE",
+      "method": "contribution_series",
+      "independent": [
+        "6492.928000"
+      ],
+      "max_abs_error": "0.000000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.1-02",
+      "id": "TVM-MONTH",
+      "method": "periodic_effective",
+      "independent": [
+        "0.00948879293458297412635506919349395639446070084578947568747"
+      ],
+      "max_abs_error": "2.97412635506919349395639446070084578947568747E-15",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.1-02",
+      "id": "TVM-MULTI",
+      "method": "dated_pv",
+      "independent": [
+        "11260.3605475109519578083089371819310770210674761399690865148"
+      ],
+      "max_abs_error": "1.9578083089371819310770210674761399690865148E-12",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-01",
+      "id": "sale-gain",
+      "method": "net_revenue",
+      "independent": [
+        "730"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-01",
+      "id": "profit",
+      "method": "sum",
+      "independent": [
+        "930"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-01",
+      "id": "return",
+      "method": "ratio",
+      "independent": [
+        "0.115815691158156911581569115815691158156911581569115815691158"
+      ],
+      "max_abs_error": "8.418430884184308841843088418430884184308842E-18",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-01",
+      "id": "advance",
+      "method": "product",
+      "independent": [
+        "360.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-01",
+      "id": "remaining",
+      "method": "difference",
+      "independent": [
+        "120"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-01",
+      "id": "net-real-a",
+      "method": "real_return",
+      "independent": [
+        "0.01176470588235294117647058823529411764705882352941176470588"
+      ],
+      "max_abs_error": "1.7647058823529411764705882352941176470588E-19",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-02",
+      "id": "creditable-balance",
+      "method": "difference",
+      "independent": [
+        "120"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-02",
+      "id": "eligibility-ratio-a",
+      "method": "ratio",
+      "independent": [
+        "0.9"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-02",
+      "id": "eligibility-ratio-b",
+      "method": "ratio",
+      "independent": [
+        "0.8875"
+      ],
+      "max_abs_error": "0.0000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-02",
+      "id": "domestic-levy",
+      "method": "product",
+      "independent": [
+        "240.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-02",
+      "id": "election-comparison",
+      "method": "difference",
+      "independent": [
+        "60"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-03",
+      "id": "interest-levy",
+      "method": "product",
+      "independent": [
+        "80.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-03",
+      "id": "purchase-income-yield",
+      "method": "ratio",
+      "independent": [
+        "0.0326530612244897959183673469387755102040816326530612244897959"
+      ],
+      "max_abs_error": "4.0816326530612244897959183673469387755102041E-18",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-03",
+      "id": "dividend-base",
+      "method": "net_revenue",
+      "independent": [
+        "1475"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-03",
+      "id": "dividend-income-tax",
+      "method": "product",
+      "independent": [
+        "442.5"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-03",
+      "id": "advance-excess",
+      "method": "difference",
+      "independent": [
+        "457.5"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.2-03",
+      "id": "economic-share-gain",
+      "method": "difference",
+      "independent": [
+        "1200"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-01",
+      "id": "DEP-INTEREST",
+      "method": "simple_interest",
+      "independent": [
+        "720.0000"
+      ],
+      "max_abs_error": "0.0000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-01",
+      "id": "DEP-AGG",
+      "method": "sum",
+      "independent": [
+        "15000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-01",
+      "id": "DEP-REAL",
+      "method": "real_return",
+      "independent": [
+        "-0.014354066985645933014354066985645933014354066985645933014354"
+      ],
+      "max_abs_error": "4.5933014354066985645933014354066985645933014354E-14",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-02",
+      "id": "REPO-INTEREST",
+      "method": "simple_interest",
+      "independent": [
+        "2999.99999999999988000000"
+      ],
+      "max_abs_error": "1.2000000E-13",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-02",
+      "id": "REPO-COLLATERAL",
+      "method": "haircut_inverse",
+      "independent": [
+        "1020408.16326530612244897959183673469387755102040816326530612"
+      ],
+      "max_abs_error": "6.12244897959183673469387755102040816326530612E-9",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-02",
+      "id": "REPO-MARGIN",
+      "method": "margin_collateral",
+      "independent": [
+        "26428.57142857142857142857142857142857142857142857142857143"
+      ],
+      "max_abs_error": "2.857142857142857142857142857142857142857142857E-8",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-03",
+      "id": "BILL-HPR",
+      "method": "price_return",
+      "independent": [
+        "0.01522842639593908629441624365482233502538071065989847715736"
+      ],
+      "max_abs_error": "3.908629441624365482233502538071065989847715736E-14",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-03",
+      "id": "BILL-SIMPLE",
+      "method": "annual_simple",
+      "independent": [
+        "0.03045685279187817258883248730964467005076142131979695431472"
+      ],
+      "max_abs_error": "2.182741116751269035532994923857868020304568528E-14",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-03",
+      "id": "BILL-DISCOUNT",
+      "method": "discount_quote_price",
+      "independent": [
+        "49500.0000"
+      ],
+      "max_abs_error": "0.0000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-03",
+      "id": "BILL-SALE",
+      "method": "simple_discount",
+      "independent": [
+        "99173.5537190082644955945632128952940481304341199653864621919"
+      ],
+      "max_abs_error": "8.2644955945632128952940481304341199653864621919E-9",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-04",
+      "id": "BENCH-LOAN",
+      "method": "simple_interest",
+      "independent": [
+        "2000.0000"
+      ],
+      "max_abs_error": "0.0000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-04",
+      "id": "BENCH-RESET",
+      "method": "simple_interest",
+      "independent": [
+        "2300.00000"
+      ],
+      "max_abs_error": "0.00000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-04",
+      "id": "BENCH-OVERNIGHT",
+      "method": "overnight_interest",
+      "independent": [
+        "258.35557162551440329218106995884773662551440329218106996"
+      ],
+      "max_abs_error": "1.6836329218106995884773662551440329218106996E-10",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.3-04",
+      "id": "BENCH-FLOOR",
+      "method": "simple_interest",
+      "independent": [
+        "250.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-02",
+      "id": "CLEAN-ACCRUAL",
+      "method": "simple_interest",
+      "independent": [
+        "83.3333333333333360000"
+      ],
+      "max_abs_error": "3.33360000E-11",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-02",
+      "id": "CLEAN-SETTLE",
+      "method": "sum",
+      "independent": [
+        "9845.3333333333"
+      ],
+      "max_abs_error": "0E-10",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-02",
+      "id": "CLEAN-RETURN",
+      "method": "price_return",
+      "independent": [
+        "0.00398406374505191981079665504126887001290968187633507281855"
+      ],
+      "max_abs_error": "1.91981079665504126887001290968187633507281855E-15",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-02",
+      "id": "CLEAN-ALLIN",
+      "method": "sum",
+      "independent": [
+        "19970"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-03",
+      "id": "YIELD-ONE",
+      "method": "price_return",
+      "independent": [
+        "0.07216494845360824742268041237113402061855670103092783505155"
+      ],
+      "max_abs_error": "8.24742268041237113402061855670103092783505155E-15",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-03",
+      "id": "YIELD-CURRENT",
+      "method": "ratio",
+      "independent": [
+        "0.0412371134020618556701030927835051546391752577319587628865979"
+      ],
+      "max_abs_error": "3.81443298969072164948453608247422680412371134021E-14",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-03",
+      "id": "YIELD-SOLVE",
+      "method": "ytm_bisection",
+      "independent": [
+        "0.0499999999999999876295947219604149202778790702609670407575111"
+      ],
+      "max_abs_error": "1.23704052780395850797221209297390329592424889E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-03",
+      "id": "YIELD-REINVEST",
+      "method": "terminal_rate",
+      "independent": [
+        "0.04902912600598103363992859579836605690669262095292247905277"
+      ],
+      "max_abs_error": "6.363992859579836605690669262095292247905277E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-04",
+      "id": "DURATION-MAC",
+      "method": "macaulay",
+      "independent": [
+        "1.96118299445471349356572400987505291703913538455985145910351"
+      ],
+      "max_abs_error": "9.356572400987505291703913538455985145910351E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-04",
+      "id": "DURATION-MOD",
+      "method": "modified",
+      "independent": [
+        "1.86779332805210808911021334273814563527536703291414424676525"
+      ],
+      "max_abs_error": "8.911021334273814563527536703291414424676525E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-04",
+      "id": "DURATION-CONV",
+      "method": "convexity",
+      "independent": [
+        "5.30134419756812151855771664174560585303533179297597042513863"
+      ],
+      "max_abs_error": "1.51855771664174560585303533179297597042513863E-15",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-04",
+      "id": "DURATION-REPRICE",
+      "method": "bond_price",
+      "independent": [
+        "945.759454974233557515940256790986112324220455935016158616473"
+      ],
+      "max_abs_error": "4.2484059743209013887675779544064983841383527E-14",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-05",
+      "id": "CREDIT-EXPECTED",
+      "method": "weighted",
+      "independent": [
+        "1046.80"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-05",
+      "id": "CREDIT-LOSS",
+      "method": "product",
+      "independent": [
+        "12.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-05",
+      "id": "CREDIT-SPREAD",
+      "method": "bond_price",
+      "independent": [
+        "937.664808427912610077826019562095073557769706610560565459636"
+      ],
+      "max_abs_error": "8.9922173980437904926442230293389439434540364E-14",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-05",
+      "id": "CREDIT-RECOVERY",
+      "method": "ratio",
+      "independent": [
+        "0.666666666666666666666666666666666666666666666666666666666667"
+      ],
+      "max_abs_error": "3.33333333333333333333333333333333333333333333333E-13",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-06",
+      "id": "LIQ-SALE",
+      "method": "net_sale",
+      "independent": [
+        "93920.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-06",
+      "id": "LIQ-REINVEST5",
+      "method": "coupon_terminal",
+      "independent": [
+        "1157.625000"
+      ],
+      "max_abs_error": "0.000000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-06",
+      "id": "LIQ-REINVEST2",
+      "method": "coupon_terminal",
+      "independent": [
+        "1153.020000"
+      ],
+      "max_abs_error": "0.000000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-06",
+      "id": "LIQ-GAP",
+      "method": "sum",
+      "independent": [
+        "-900"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-07",
+      "id": "loss-after-interest-tax",
+      "method": "net_revenue",
+      "independent": [
+        "9920"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-07",
+      "id": "net-loss-return",
+      "method": "ratio",
+      "independent": [
+        "-0.008"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-07",
+      "id": "premium-gross-return",
+      "method": "ratio",
+      "independent": [
+        "0.0194174757281553398058252427184466019417475728155339805825243"
+      ],
+      "max_abs_error": "1.8058252427184466019417475728155339805825243E-18",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-07",
+      "id": "premium-net-return",
+      "method": "ratio",
+      "independent": [
+        "0.00970873786407766990291262135922330097087378640776699029126214"
+      ],
+      "max_abs_error": "9.0291262135922330097087378640776699029126214E-19",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-07",
+      "id": "foreign-scenario-a",
+      "method": "net_revenue",
+      "independent": [
+        "328"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.4-07",
+      "id": "foreign-scenario-b",
+      "method": "net_revenue",
+      "independent": [
+        "290"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-01",
+      "id": "a-votes",
+      "method": "ratio",
+      "independent": [
+        "0.00526315789473684210526315789473684210526315789473684210526316"
+      ],
+      "max_abs_error": "1.0526315789473684210526315789473684210526316E-19",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-01",
+      "id": "b-votes",
+      "method": "ratio",
+      "independent": [
+        "0.0526315789473684210526315789473684210526315789473684210526316"
+      ],
+      "max_abs_error": "1.0526315789473684210526315789473684210526316E-18",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-01",
+      "id": "levered-loss",
+      "method": "price_return",
+      "independent": [
+        "-0.3"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-01",
+      "id": "diluted-percent",
+      "method": "ratio",
+      "independent": [
+        "0.008"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-01",
+      "id": "discounted-issue-value",
+      "method": "ratio",
+      "independent": [
+        "19.2"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-02",
+      "id": "reported-eps",
+      "method": "ratio",
+      "independent": [
+        "3"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-02",
+      "id": "adjusted-pe",
+      "method": "ratio",
+      "independent": [
+        "18"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-02",
+      "id": "diluted-eps",
+      "method": "ratio",
+      "independent": [
+        "1.81818181818181818181818181818181818181818181818181818181818"
+      ],
+      "max_abs_error": "8.181818181818181818181818181818181818181818E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-02",
+      "id": "growth-value",
+      "method": "ratio",
+      "independent": [
+        "42"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-02",
+      "id": "higher-required-value",
+      "method": "ratio",
+      "independent": [
+        "35"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-02",
+      "id": "two-year-pv",
+      "method": "dated_pv",
+      "independent": [
+        "29.1322314049586776859504132231404958677685950413223140495867"
+      ],
+      "max_abs_error": "2.3140495867768595041322314049586776859504133E-15",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-02",
+      "id": "terminal-change",
+      "method": "discount",
+      "independent": [
+        "3.30578512396694214876033057851239669421487603305785123966942"
+      ],
+      "max_abs_error": "1.4876033057851239669421487603305785123966942E-16",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-03",
+      "id": "net-share-sale",
+      "method": "net_sale",
+      "independent": [
+        "4680"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-03",
+      "id": "net-result",
+      "method": "net_revenue",
+      "independent": [
+        "-140"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-03",
+      "id": "net-return",
+      "method": "ratio",
+      "independent": [
+        "-0.0278884462151394422310756972111553784860557768924302788844622"
+      ],
+      "max_abs_error": "2.310756972111553784860557768924302788844622E-19",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-03",
+      "id": "reinvested-quantity",
+      "method": "ratio",
+      "independent": [
+        "5.26315789473684210526315789473684210526315789473684210526316"
+      ],
+      "max_abs_error": "3.9473684210526315789473684210526315789473684E-16",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-03",
+      "id": "linked-wealth",
+      "method": "growth_chain",
+      "independent": [
+        "9600.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-03",
+      "id": "geometric-return",
+      "method": "terminal_rate",
+      "independent": [
+        "-0.020204102886728760721086370117643443213621007737331948626923"
+      ],
+      "max_abs_error": "4.2278913629882356556786378992262668051373077E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-03",
+      "id": "recovery",
+      "method": "ratio",
+      "independent": [
+        "0.0416666666666666666666666666666666666666666666666666666666667"
+      ],
+      "max_abs_error": "2.6666666666666666666666666666666666666666667E-18",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-04",
+      "id": "employer-loss",
+      "method": "product",
+      "independent": [
+        "20000.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-04",
+      "id": "portfolio-scenario",
+      "method": "weighted",
+      "independent": [
+        "-0.10"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-04",
+      "id": "alternative-weight",
+      "method": "weighted",
+      "independent": [
+        "0.02"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-04",
+      "id": "goal-equity-value",
+      "method": "growth_chain",
+      "independent": [
+        "22500.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-04",
+      "id": "goal-shortfall",
+      "method": "difference",
+      "independent": [
+        "1500"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-04",
+      "id": "reserved-value",
+      "method": "sum",
+      "independent": [
+        "28500"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-05",
+      "id": "AUDIT-DIVIDEND-EXPENSE",
+      "method": "product",
+      "independent": [
+        "50.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-05",
+      "id": "dividend-withholding",
+      "method": "product",
+      "independent": [
+        "600.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-05",
+      "id": "dividend-income-tax",
+      "method": "product",
+      "independent": [
+        "640.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-05",
+      "id": "remaining-income-tax",
+      "method": "difference",
+      "independent": [
+        "40"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-05",
+      "id": "private-economic-gain",
+      "method": "difference",
+      "independent": [
+        "4000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-05",
+      "id": "combined-participation",
+      "method": "sum",
+      "independent": [
+        "0.12"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-05",
+      "id": "net-profit",
+      "method": "net_revenue",
+      "independent": [
+        "1055"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-05",
+      "id": "short-holding-scenario",
+      "method": "net_revenue",
+      "independent": [
+        "815"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-01",
+      "id": "input-upside",
+      "method": "product",
+      "independent": [
+        "4000.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-01",
+      "id": "input-downside",
+      "method": "product",
+      "independent": [
+        "-3000.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-01",
+      "id": "notional",
+      "method": "product",
+      "independent": [
+        "80000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-01",
+      "id": "index-profit",
+      "method": "product",
+      "independent": [
+        "1600"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-01",
+      "id": "index-loss",
+      "method": "product",
+      "independent": [
+        "-3000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-01",
+      "id": "dollar-spot-cost",
+      "method": "ratio",
+      "independent": [
+        "8.80E+4"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-02",
+      "id": "day-one",
+      "method": "product",
+      "independent": [
+        "-400"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-02",
+      "id": "top-up",
+      "method": "difference",
+      "independent": [
+        "800"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-02",
+      "id": "ledger-profit",
+      "method": "net_revenue",
+      "independent": [
+        "-200"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-02",
+      "id": "producer-variation",
+      "method": "product",
+      "independent": [
+        "-6000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-02",
+      "id": "basis-sale",
+      "method": "sum",
+      "independent": [
+        "97000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-02",
+      "id": "basis",
+      "method": "difference",
+      "independent": [
+        "-3"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-02",
+      "id": "alternative-basis-price",
+      "method": "sum",
+      "independent": [
+        "102"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-03",
+      "id": "call-premium",
+      "method": "product",
+      "independent": [
+        "300"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-03",
+      "id": "call-profit",
+      "method": "net_revenue",
+      "independent": [
+        "500"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-03",
+      "id": "put-loss",
+      "method": "net_revenue",
+      "independent": [
+        "-100"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-03",
+      "id": "put-breakeven",
+      "method": "difference",
+      "independent": [
+        "38"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-03",
+      "id": "covered-outlay",
+      "method": "net_revenue",
+      "independent": [
+        "4800"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-03",
+      "id": "covered-upside",
+      "method": "difference",
+      "independent": [
+        "700"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-03",
+      "id": "covered-downside",
+      "method": "difference",
+      "independent": [
+        "-800"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-04",
+      "id": "call-table",
+      "method": "option_table",
+      "independent": [
+        "-4",
+        "-4",
+        "-2",
+        "0",
+        "16"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-04",
+      "id": "put-table",
+      "method": "option_table",
+      "independent": [
+        "47",
+        "17",
+        "0",
+        "-2",
+        "-3",
+        "-3"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-04",
+      "id": "protective-table",
+      "method": "protective_put",
+      "independent": [
+        "-7",
+        "-7",
+        "-2",
+        "18"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-04",
+      "id": "protective-max-loss",
+      "method": "product",
+      "independent": [
+        "700"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "id": "AUDIT-MATCHED-FORWARD",
+      "method": "ratio",
+      "independent": [
+        "63636.3636363636363636363636363636363636363636363636363636364"
+      ],
+      "max_abs_error": "6.3636363636363636363636363636363636363636364E-12",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "id": "AUDIT-EXCESS-EFFECT",
+      "method": "difference",
+      "independent": [
+        "2727.27272727273"
+      ],
+      "max_abs_error": "1E-11",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "id": "forward-euro-receipt",
+      "method": "ratio",
+      "independent": [
+        "90909.0909090909090909090909090909090909090909090909090909091"
+      ],
+      "max_abs_error": "9.0909090909090909090909090909090909090909091E-12",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "id": "mismatched-net",
+      "method": "net_revenue",
+      "independent": [
+        "60909.0909090909"
+      ],
+      "max_abs_error": "0E-10",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "id": "put-downside-profit",
+      "method": "difference",
+      "independent": [
+        "-300"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "id": "put-upside-profit",
+      "method": "difference",
+      "independent": [
+        "1200"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "id": "hedge-contracts",
+      "method": "ratio",
+      "independent": [
+        "4"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "id": "residual-loss",
+      "method": "sum",
+      "independent": [
+        "-14000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-06",
+      "id": "margin-result",
+      "method": "net_revenue",
+      "independent": [
+        "-200"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-06",
+      "id": "option-disposal",
+      "method": "net_revenue",
+      "independent": [
+        "280"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-06",
+      "id": "annual-aggregate",
+      "method": "sum",
+      "independent": [
+        "700"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-06",
+      "id": "assumed-ordinary-tax",
+      "method": "product",
+      "independent": [
+        "210.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-06",
+      "id": "ordinary-net",
+      "method": "net_revenue",
+      "independent": [
+        "10560"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-06",
+      "id": "assumed-interest-net",
+      "method": "net_revenue",
+      "independent": [
+        "10640"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-01",
+      "id": "sell-euros",
+      "method": "product",
+      "independent": [
+        "10990.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-01",
+      "id": "buy-euros",
+      "method": "ratio",
+      "independent": [
+        "1.0E+4"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-01",
+      "id": "inverse-bid",
+      "method": "ratio",
+      "independent": [
+        "0.908265213442325158946412352406902815622161671207992733878292"
+      ],
+      "max_abs_error": "5.8946412352406902815622161671207992733878292E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-01",
+      "id": "inverse-ask",
+      "method": "ratio",
+      "independent": [
+        "0.909918107370336669699727024567788898999090081892629663330300"
+      ],
+      "max_abs_error": "3.0300272975432211101000909918107370336669700E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-01",
+      "id": "round-trip",
+      "method": "ratio",
+      "independent": [
+        "9981.83469573115349682107175295186194368755676657584014532243"
+      ],
+      "max_abs_error": "1.50317892824704813805631244323342415985467757E-12",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-02",
+      "id": "midpoint-cross",
+      "method": "ratio",
+      "independent": [
+        "1.25"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-02",
+      "id": "cross-bid",
+      "method": "ratio",
+      "independent": [
+        "1.24744608399545970488081725312145289443813847900113507377980"
+      ],
+      "max_abs_error": "9.511918274687854710556186152099886492622020E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-02",
+      "id": "cross-ask",
+      "method": "ratio",
+      "independent": [
+        "1.25255972696245733788395904436860068259385665529010238907850"
+      ],
+      "max_abs_error": "3.788395904436860068259385665529010238907850E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-02",
+      "id": "route-gross",
+      "method": "product",
+      "independent": [
+        "1646302.0000"
+      ],
+      "max_abs_error": "0.0000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-02",
+      "id": "route-net",
+      "method": "net_revenue",
+      "independent": [
+        "1644304"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-02",
+      "id": "route-benefit",
+      "method": "difference",
+      "independent": [
+        "304"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-03",
+      "id": "gain-to-home-loss",
+      "method": "home_return",
+      "independent": [
+        "-0.032"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-03",
+      "id": "currency-factor",
+      "method": "ratio",
+      "independent": [
+        "0.88"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-03",
+      "id": "loss-to-home-gain",
+      "method": "home_return",
+      "independent": [
+        "0.02222222222222222222222222222222222222222222222222222222222"
+      ],
+      "max_abs_error": "7.7777777777777777777777777777777777777778E-19",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-03",
+      "id": "actual-final-cash",
+      "method": "fx_net",
+      "independent": [
+        "9980"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-03",
+      "id": "reference-return",
+      "method": "home_return",
+      "independent": [
+        "0.02212389380530973451327433628318584070796460176991150442478"
+      ],
+      "max_abs_error": "5.1327433628318584070796460176991150442478E-19",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-04",
+      "id": "known-forward",
+      "method": "ratio",
+      "independent": [
+        "1.0000E+5"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-04",
+      "id": "principal-hedge-total",
+      "method": "sum",
+      "independent": [
+        "108800"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-04",
+      "id": "partial-adverse",
+      "method": "net_revenue",
+      "independent": [
+        "93800"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-04",
+      "id": "partial-favourable",
+      "method": "net_revenue",
+      "independent": [
+        "104800"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.7-04",
+      "id": "partial-range",
+      "method": "difference",
+      "independent": [
+        "11000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-01",
+      "id": "nav",
+      "method": "ratio",
+      "independent": [
+        "100"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-01",
+      "id": "ownership",
+      "method": "ratio",
+      "independent": [
+        "0.002"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-01",
+      "id": "issuer-lookthrough",
+      "method": "product",
+      "independent": [
+        "4000.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-01",
+      "id": "net-assets",
+      "method": "net_revenue",
+      "independent": [
+        "5150000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-01",
+      "id": "ending-nav",
+      "method": "ratio",
+      "independent": [
+        "103"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-02",
+      "id": "assets-net",
+      "method": "net_revenue",
+      "independent": [
+        "8400000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-02",
+      "id": "subscription-units",
+      "method": "ratio",
+      "independent": [
+        "100"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-02",
+      "id": "redemption-gross",
+      "method": "product",
+      "independent": [
+        "26000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-02",
+      "id": "redemption-cash",
+      "method": "net_revenue",
+      "independent": [
+        "25850"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-02",
+      "id": "swing-nav",
+      "method": "product",
+      "independent": [
+        "99.600"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-03",
+      "id": "bond-scenario",
+      "method": "growth_chain",
+      "independent": [
+        "19000.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-03",
+      "id": "equity-scenario",
+      "method": "growth_chain",
+      "independent": [
+        "15000.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-03",
+      "id": "aggregate-large",
+      "method": "sum",
+      "independent": [
+        "0.40"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-03",
+      "id": "aggregate-failed",
+      "method": "sum",
+      "independent": [
+        "0.46"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-03",
+      "id": "tracking-gap",
+      "method": "difference",
+      "independent": [
+        "-0.006"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-03",
+      "id": "fund-ending",
+      "method": "growth_chain",
+      "independent": [
+        "10740.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-04",
+      "id": "low-cost-growth",
+      "method": "growth_chain",
+      "independent": [
+        "15529.694217328971246328222656250000"
+      ],
+      "max_abs_error": "1.246328222656250000E-12",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-04",
+      "id": "higher-cost-growth",
+      "method": "growth_chain",
+      "independent": [
+        "14105.987606211221825121972656250000"
+      ],
+      "max_abs_error": "3.174878027343750000E-12",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-04",
+      "id": "fee-added-investment",
+      "method": "ratio",
+      "independent": [
+        "1.00E+4"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-04",
+      "id": "actual-return",
+      "method": "ratio",
+      "independent": [
+        "0.0297029702970297029702970297029702970297029702970297029702970"
+      ],
+      "max_abs_error": "2.9702970297029702970297029702970297029702970E-18",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-04",
+      "id": "gate-now",
+      "method": "product",
+      "independent": [
+        "40000.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-04",
+      "id": "gate-later-loss",
+      "method": "sum",
+      "independent": [
+        "97000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-05",
+      "id": "equity-liability-value",
+      "method": "growth_chain",
+      "independent": [
+        "20000.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-05",
+      "id": "bond-liability-value",
+      "method": "growth_chain",
+      "independent": [
+        "24000.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-05",
+      "id": "thirty-percent-annualised",
+      "method": "terminal_rate",
+      "independent": [
+        "0.09139288306110584511913091252089124955293595589332585568928"
+      ],
+      "max_abs_error": "8.488086908747910875044706404410667414431072E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-05",
+      "id": "distribution-total",
+      "method": "sum",
+      "independent": [
+        "11700"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-05",
+      "id": "overlap",
+      "method": "sum",
+      "independent": [
+        "22000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-05",
+      "id": "concentration",
+      "method": "ratio",
+      "independent": [
+        "0.22"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-05",
+      "id": "group-loss",
+      "method": "product",
+      "independent": [
+        "8800.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-06",
+      "id": "annual-vehicle-tax",
+      "method": "product",
+      "independent": [
+        "50000.0000"
+      ],
+      "max_abs_error": "0.0000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-06",
+      "id": "quarter-tax",
+      "method": "ratio",
+      "independent": [
+        "12500"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-06",
+      "id": "unit-tax-effect",
+      "method": "ratio",
+      "independent": [
+        "0.05"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-06",
+      "id": "personal-net",
+      "method": "net_revenue",
+      "independent": [
+        "700"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.8-06",
+      "id": "distribution-net-wealth",
+      "method": "net_revenue",
+      "independent": [
+        "10420"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-01",
+      "id": "lookthrough-exposure",
+      "method": "product",
+      "independent": [
+        "600.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-01",
+      "id": "initial-intensity",
+      "method": "weighted",
+      "independent": [
+        "60.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-01",
+      "id": "changed-intensity",
+      "method": "weighted",
+      "independent": [
+        "40.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-01",
+      "id": "metric-change",
+      "method": "price_return",
+      "independent": [
+        "-0.333333333333333333333333333333333333333333333333333333333333"
+      ],
+      "max_abs_error": "3.3333333333333333333333333333333333333333333E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-01",
+      "id": "thematic-loss",
+      "method": "product",
+      "independent": [
+        "6000.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-02",
+      "id": "intensity-one",
+      "method": "ratio",
+      "independent": [
+        "1000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-02",
+      "id": "intensity-two",
+      "method": "ratio",
+      "independent": [
+        "900"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-02",
+      "id": "absolute-change",
+      "method": "price_return",
+      "independent": [
+        "0.08"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-02",
+      "id": "carbon-scenario",
+      "method": "product",
+      "independent": [
+        "5400000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-02",
+      "id": "turnover-net",
+      "method": "net_revenue",
+      "independent": [
+        "100000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-02",
+      "id": "weak-turnover-net",
+      "method": "net_revenue",
+      "independent": [
+        "-140000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-02",
+      "id": "minority-gap",
+      "method": "product",
+      "independent": [
+        "30000.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-03",
+      "id": "physical-cash-need",
+      "method": "net_revenue",
+      "independent": [
+        "2500000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-03",
+      "id": "transition-cost",
+      "method": "product",
+      "independent": [
+        "8000000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-03",
+      "id": "low-absorption",
+      "method": "product",
+      "independent": [
+        "2000000.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-03",
+      "id": "five-year-value",
+      "method": "dated_pv",
+      "independent": [
+        "3992710.03707808545974965201182222450811061776342964659259413"
+      ],
+      "max_abs_error": "1.34025034798817777549188938223657035340740587E-9",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.9-03",
+      "id": "three-year-value",
+      "method": "dated_pv",
+      "independent": [
+        "2577096.98724787888025199410658944266626022455926433978560179"
+      ],
+      "max_abs_error": "7.1974800589341055733373977544073566021439821E-10",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.10-01",
+      "id": "capped-payments",
+      "method": "capped_note",
+      "independent": [
+        "10000.0",
+        "10400.000",
+        "10800.00"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.10-01",
+      "id": "barrier-payments",
+      "method": "barrier_note",
+      "independent": [
+        "10600",
+        "10600",
+        "7500.00",
+        "4600.0"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.10-01",
+      "id": "barrier-loss",
+      "method": "price_return",
+      "independent": [
+        "-0.25"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.10-01",
+      "id": "boundary-change",
+      "method": "difference",
+      "independent": [
+        "3100"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.10-01",
+      "id": "path-b-payment",
+      "method": "product",
+      "independent": [
+        "8000.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.10-02",
+      "id": "ordinary-coupon",
+      "method": "product",
+      "independent": [
+        "500.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.10-02",
+      "id": "exit-estimate-one",
+      "method": "net_revenue",
+      "independent": [
+        "19100"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.10-02",
+      "id": "exit-estimate-two",
+      "method": "net_revenue",
+      "independent": [
+        "18400"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.10-02",
+      "id": "essential-shortfall",
+      "method": "difference",
+      "independent": [
+        "2000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-02",
+      "id": "uncommitted-liquid",
+      "method": "net_revenue",
+      "independent": [
+        "20000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-02",
+      "id": "structured-total",
+      "method": "sum",
+      "independent": [
+        "10050"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-02",
+      "id": "structured-loss",
+      "method": "difference",
+      "independent": [
+        "4950"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-02",
+      "id": "longer-goal-remainder",
+      "method": "difference",
+      "independent": [
+        "7000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-02",
+      "id": "decline-and-tuition",
+      "method": "net_revenue",
+      "independent": [
+        "2000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-03",
+      "id": "retirement-gap",
+      "method": "difference",
+      "independent": [
+        "700"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-03",
+      "id": "annual-withdrawal",
+      "method": "product",
+      "independent": [
+        "8400"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-03",
+      "id": "cashflow-change",
+      "method": "sum",
+      "independent": [
+        "20400"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-03",
+      "id": "home-uncommitted",
+      "method": "net_revenue",
+      "independent": [
+        "20000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-03",
+      "id": "inheritance-loss-share",
+      "method": "ratio",
+      "independent": [
+        "0.0588235294117647058823529411764705882352941176470588235294118"
+      ],
+      "max_abs_error": "8.823529411764705882352941176470588235294118E-19",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-04",
+      "id": "a-sustainable-gap",
+      "method": "difference",
+      "independent": [
+        "5"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-04",
+      "id": "b-taxonomy-gap",
+      "method": "difference",
+      "independent": [
+        "2"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-04",
+      "id": "minimum-shortfall",
+      "method": "difference",
+      "independent": [
+        "10"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-4.1-04",
+      "id": "adaptation-gap",
+      "method": "difference",
+      "independent": [
+        "5"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-01",
+      "id": "three-year-wealth",
+      "method": "growth_chain",
+      "independent": [
+        "12017.50000"
+      ],
+      "max_abs_error": "0.00000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-01",
+      "id": "arithmetic-mean",
+      "method": "mean",
+      "independent": [
+        "0.0666666666666666666666666666666666666666666666666666666666667"
+      ],
+      "max_abs_error": "3.3333333333333333333333333333333333333333333E-18",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-01",
+      "id": "geometric-mean",
+      "method": "terminal_rate",
+      "independent": [
+        "0.06317488841317292755371559762843371594657357414753651314247"
+      ],
+      "max_abs_error": "5.755371559762843371594657357414753651314247E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-01",
+      "id": "volatile-two-year",
+      "method": "growth_chain",
+      "independent": [
+        "11700.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-01",
+      "id": "volatile-geometric",
+      "method": "terminal_rate",
+      "independent": [
+        "0.08166538263919678793576638024114878387538897215357386381314"
+      ],
+      "max_abs_error": "9.206423361975885121612461102784642613618686E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-01",
+      "id": "share-total",
+      "method": "ratio",
+      "independent": [
+        "0.1"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-02",
+      "id": "sample-variance",
+      "method": "variance",
+      "independent": [
+        "0.0166666666666666666666666666666666666666666666666666666666667"
+      ],
+      "max_abs_error": "6.666666666666666666666666666666666666666667E-19",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-02",
+      "id": "population-variance",
+      "method": "variance",
+      "independent": [
+        "0.0125"
+      ],
+      "max_abs_error": "0.0000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-02",
+      "id": "sample-volatility",
+      "method": "volatility",
+      "independent": [
+        "0.129099444873580562839308846659413320361097390176386360886253"
+      ],
+      "max_abs_error": "1.2839308846659413320361097390176386360886253E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-02",
+      "id": "quiet-volatility",
+      "method": "volatility",
+      "independent": [
+        "0.0115470053837925152901829756100391491129520350254025375203720"
+      ],
+      "max_abs_error": "7.098170243899608508870479649745974624796280E-19",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.1-02",
+      "id": "annual-scale",
+      "method": "vol_scale",
+      "independent": [
+        "0.0692820323027550917410978536602348946777122101524152251222323"
+      ],
+      "max_abs_error": "1.7410978536602348946777122101524152251222323E-18",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-01",
+      "id": "positive-covariance",
+      "method": "covariance",
+      "independent": [
+        "0.002"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-01",
+      "id": "positive-correlation",
+      "method": "correlation",
+      "independent": [
+        "1"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-01",
+      "id": "negative-covariance",
+      "method": "covariance",
+      "independent": [
+        "-0.001"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-01",
+      "id": "negative-correlation",
+      "method": "correlation",
+      "independent": [
+        "-0.500000000000000000000000000000000000000000000000000000000002"
+      ],
+      "max_abs_error": "2E-60",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-01",
+      "id": "nonlinear-zero",
+      "method": "correlation",
+      "independent": [
+        "0E+60"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-02",
+      "id": "expected-return",
+      "method": "weighted",
+      "independent": [
+        "0.060"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-02",
+      "id": "alternative-return",
+      "method": "weighted",
+      "independent": [
+        "0.045"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-02",
+      "id": "realised-return",
+      "method": "weighted",
+      "independent": [
+        "0.100"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-02",
+      "id": "drift-weight",
+      "method": "ratio",
+      "independent": [
+        "0.654545454545454545454545454545454545454545454545454545454545"
+      ],
+      "max_abs_error": "4.5454545454545454545454545454545454545454545E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-02",
+      "id": "rebalance-sale",
+      "method": "difference",
+      "independent": [
+        "6000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-02",
+      "id": "leveraged-upside",
+      "method": "weighted",
+      "independent": [
+        "0.090"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-02",
+      "id": "leveraged-downside",
+      "method": "weighted",
+      "independent": [
+        "-0.246"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-03",
+      "id": "zero-correlation-risk",
+      "method": "portfolio_sigma",
+      "independent": [
+        "0.126491106406735173279955741777308741348782205573008673074300"
+      ],
+      "max_abs_error": "2.6720044258222691258651217794426991326925700E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-03",
+      "id": "half-correlation-risk",
+      "method": "portfolio_sigma",
+      "independent": [
+        "0.144222051018559571724768850698819837850051862953809848508418"
+      ],
+      "max_abs_error": "2.8275231149301180162149948137046190151491582E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-03",
+      "id": "perfect-positive",
+      "method": "portfolio_sigma",
+      "independent": [
+        "0.16"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-03",
+      "id": "perfect-negative",
+      "method": "portfolio_sigma",
+      "independent": [
+        "0.08"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-03",
+      "id": "exact-offset",
+      "method": "portfolio_sigma",
+      "independent": [
+        "1E-17"
+      ],
+      "max_abs_error": "1E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.2-03",
+      "id": "imperfect-offset",
+      "method": "portfolio_sigma",
+      "independent": [
+        "0.0421637021355783900392260272029775370520065272081479444625773"
+      ],
+      "max_abs_error": "3.92260272029775370520065272081479444625773E-20",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-01",
+      "id": "target-weight",
+      "method": "ratio",
+      "independent": [
+        "0.6"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-01",
+      "id": "min-variance-weight",
+      "method": "min_variance_weight",
+      "independent": [
+        "0.12500000"
+      ],
+      "max_abs_error": "0E-8",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-01",
+      "id": "minimum-volatility",
+      "method": "portfolio_sigma",
+      "independent": [
+        "0.0968245836551854221294816349945599902708230426322897706646893"
+      ],
+      "max_abs_error": "7.8705183650054400097291769573677102293353107E-18",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-01",
+      "id": "minimum-expected",
+      "method": "weighted",
+      "independent": [
+        "0.03625"
+      ],
+      "max_abs_error": "0.00000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-01",
+      "id": "utility-p-high",
+      "method": "utility",
+      "independent": [
+        "0.0384"
+      ],
+      "max_abs_error": "0.0000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-01",
+      "id": "utility-q-high",
+      "method": "utility",
+      "independent": [
+        "0.0214"
+      ],
+      "max_abs_error": "0.0000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-01",
+      "id": "utility-q-low",
+      "method": "utility",
+      "independent": [
+        "0.06190"
+      ],
+      "max_abs_error": "0.00000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-02",
+      "id": "new-equity-room",
+      "method": "difference",
+      "independent": [
+        "10000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-02",
+      "id": "available-liquid",
+      "method": "difference",
+      "independent": [
+        "45000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-02",
+      "id": "switch-annual-benefit",
+      "method": "product",
+      "independent": [
+        "300.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-02",
+      "id": "switch-simple-break-even",
+      "method": "ratio",
+      "independent": [
+        "3.33333333333333333333333333333333333333333333333333333333333"
+      ],
+      "max_abs_error": "1.6666666666666666666666666666666666666666667E-16",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-02",
+      "id": "base-correlation-risk",
+      "method": "portfolio_sigma",
+      "independent": [
+        "0.133865604245452087676507524125629998302850459087787551969791"
+      ],
+      "max_abs_error": "1.2323492475874370001697149540912212448030209E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.3-02",
+      "id": "stress-correlation-risk",
+      "method": "portfolio_sigma",
+      "independent": [
+        "0.153883072493370758014842903369706990990254936728956916578587"
+      ],
+      "max_abs_error": "1.1985157096630293009009745063271043083421413E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-01",
+      "id": "minimum-weight-zero-correlation",
+      "method": "min_variance_weight",
+      "independent": [
+        "0.20000000"
+      ],
+      "max_abs_error": "0E-8",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-01",
+      "id": "minimum-risk",
+      "method": "portfolio_sigma",
+      "independent": [
+        "0.0894427190999915878563669467492510494176247343844610289708359"
+      ],
+      "max_abs_error": "1.21436330532507489505823752656155389710291641E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-01",
+      "id": "half-risk",
+      "method": "portfolio_sigma",
+      "independent": [
+        "0.111803398874989484820458683436563811772030917980576286213545"
+      ],
+      "max_abs_error": "1.5179541316563436188227969082019423713786455E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-01",
+      "id": "cash-risky-expected",
+      "method": "weighted",
+      "independent": [
+        "0.056"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-01",
+      "id": "cash-risky-volatility",
+      "method": "product",
+      "independent": [
+        "0.090"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-01",
+      "id": "leveraged-model",
+      "method": "weighted",
+      "independent": [
+        "0.092"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-01",
+      "id": "higher-borrowing",
+      "method": "weighted",
+      "independent": [
+        "0.088"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-02",
+      "id": "long-term-capital",
+      "method": "net_revenue",
+      "independent": [
+        "110000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-02",
+      "id": "whole-equity-weight",
+      "method": "ratio",
+      "independent": [
+        "0.366666666666666666666666666666666666666666666666666666666667"
+      ],
+      "max_abs_error": "2.6666666666666666666666666666666666666666667E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-02",
+      "id": "scenario-loss",
+      "method": "sum",
+      "independent": [
+        "22000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-02",
+      "id": "whole-loss-return",
+      "method": "ratio",
+      "independent": [
+        "-0.122222222222222222222222222222222222222222222222222222222222"
+      ],
+      "max_abs_error": "2.222222222222222222222222222222222222222222E-18",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-02",
+      "id": "required-growth",
+      "method": "terminal_rate",
+      "independent": [
+        "0.06160689621814597530814672364717772967236863702840835200295"
+      ],
+      "max_abs_error": "5.30814672364717772967236863702840835200295E-18",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.4-02",
+      "id": "six-percent-value",
+      "method": "growth_chain",
+      "independent": [
+        "196993.24661971389839360000"
+      ],
+      "max_abs_error": "1.2160640000E-10",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-01",
+      "id": "active-percentage-points",
+      "method": "difference",
+      "independent": [
+        "0.01"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-01",
+      "id": "relative-wealth",
+      "method": "real_return",
+      "independent": [
+        "0.00952380952380952380952380952380952380952380952380952380952"
+      ],
+      "max_abs_error": "1.19047619047619047619047619047619047619048E-18",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-01",
+      "id": "policy-benchmark",
+      "method": "weighted",
+      "independent": [
+        "0.080"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-01",
+      "id": "alternative-policy",
+      "method": "weighted",
+      "independent": [
+        "0.060"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-01",
+      "id": "net-wealth",
+      "method": "net_revenue",
+      "independent": [
+        "106500"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-01",
+      "id": "net-active",
+      "method": "difference",
+      "independent": [
+        "-0.005"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "sharpe-a",
+      "method": "excess_ratio",
+      "independent": [
+        "0.5"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "sharpe-b",
+      "method": "excess_ratio",
+      "independent": [
+        "0.35"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "model-return",
+      "method": "capm",
+      "independent": [
+        "0.080"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "model-alpha",
+      "method": "difference",
+      "independent": [
+        "0.01"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "treynor",
+      "method": "excess_ratio",
+      "independent": [
+        "0.0583333333333333333333333333333333333333333333333333333333333"
+      ],
+      "max_abs_error": "6.666666666666666666666666666666666666666667E-19",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "flow-wealth",
+      "method": "product",
+      "independent": [
+        "176.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "time-weighted",
+      "method": "growth_chain",
+      "independent": [
+        "0.96"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "money-weighted",
+      "method": "irr_two_contributions",
+      "independent": [
+        "-0.082255312124217479704438145729142207388771547570407452181617"
+      ],
+      "max_abs_error": "3.9704438145729142207388771547570407452181617E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "id": "twr-annualised",
+      "method": "terminal_rate",
+      "independent": [
+        "-0.020204102886728760721086370117643443213621007737331948626923"
+      ],
+      "max_abs_error": "4.2278913629882356556786378992262668051373077E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-01",
+      "id": "allocated-premium",
+      "method": "net_revenue",
+      "independent": [
+        "19600"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-01",
+      "id": "units",
+      "method": "ratio",
+      "independent": [
+        "196"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-01",
+      "id": "policy-net-value",
+      "method": "net_revenue",
+      "independent": [
+        "17343.6"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-01",
+      "id": "policy-loss",
+      "method": "difference",
+      "independent": [
+        "2656.4"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-01",
+      "id": "index-payments",
+      "method": "capped_note",
+      "independent": [
+        "20700.000",
+        "22000.0",
+        "20000.0"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-01",
+      "id": "guaranteed-base-growth",
+      "method": "growth_chain",
+      "independent": [
+        "19894.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-02",
+      "id": "beneficiary-maria",
+      "method": "product",
+      "independent": [
+        "60000.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-02",
+      "id": "beneficiary-child",
+      "method": "product",
+      "independent": [
+        "40000.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-02",
+      "id": "higher-benefit-maria",
+      "method": "product",
+      "independent": [
+        "72000.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-02",
+      "id": "surrender-charge",
+      "method": "product",
+      "independent": [
+        "400.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-02",
+      "id": "surrender-cash",
+      "method": "net_revenue",
+      "independent": [
+        "19600"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-03",
+      "id": "zero-rate-ten-year",
+      "method": "ratio",
+      "independent": [
+        "10000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-03",
+      "id": "fixed-period-payment",
+      "method": "annuity_payment",
+      "independent": [
+        "11132.6527865316445465737734069950300478186906109662518659929"
+      ],
+      "max_abs_error": "9.5465737734069950300478186906109662518659929E-12",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-03",
+      "id": "simple-life-recovery",
+      "method": "ratio",
+      "independent": [
+        "16.6666666666666666666666666666666666666666666666666666666667"
+      ],
+      "max_abs_error": "1.3333333333333333333333333333333333333333333E-15",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-03",
+      "id": "available-income-capital",
+      "method": "net_revenue",
+      "independent": [
+        "120000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-03",
+      "id": "real-fixed-payment",
+      "method": "discount",
+      "independent": [
+        "4037.82799864834612474930763415368027288050620137434339419946"
+      ],
+      "max_abs_error": "4.87525069236584631972711949379862565660580054E-12",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-04",
+      "id": "deduction-room",
+      "method": "difference",
+      "independent": [
+        "372"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-04",
+      "id": "assumed-tax-saving",
+      "method": "product",
+      "independent": [
+        "111.6"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-04",
+      "id": "ordinary-economic-gain",
+      "method": "difference",
+      "independent": [
+        "10000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-04",
+      "id": "affected-deductions",
+      "method": "product",
+      "independent": [
+        "2016"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-04",
+      "id": "assumed-correction-tax",
+      "method": "product",
+      "independent": [
+        "604.8"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-01",
+      "id": "monthly-gap",
+      "method": "net_revenue",
+      "independent": [
+        "500"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-01",
+      "id": "annual-gap",
+      "method": "product",
+      "independent": [
+        "6000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-01",
+      "id": "dc-contributions",
+      "method": "product",
+      "independent": [
+        "30000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-01",
+      "id": "db-formula",
+      "method": "product",
+      "independent": [
+        "10000.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-01",
+      "id": "bridge-gap",
+      "method": "product",
+      "independent": [
+        "48000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-01",
+      "id": "bridge-shortfall",
+      "method": "difference",
+      "independent": [
+        "8000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-02",
+      "id": "end-year-accumulation",
+      "method": "contribution_series",
+      "independent": [
+        "89334.2357275064512911057208245216293683200000"
+      ],
+      "max_abs_error": "1.087088942791754783706316800000E-10",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-02",
+      "id": "begin-year-accumulation",
+      "method": "contribution_series",
+      "independent": [
+        "92907.6051566067093427499496575024945430528000"
+      ],
+      "max_abs_error": "1.206572500503424975054569472000E-10",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-02",
+      "id": "inflated-gap",
+      "method": "growth_chain",
+      "independent": [
+        "21397.6425020883025253122657336798126433894400"
+      ],
+      "max_abs_error": "7.4746877342663201873566105600E-12",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-02",
+      "id": "drawdown-path-a",
+      "method": "drawdown",
+      "independent": [
+        "78000.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-02",
+      "id": "drawdown-path-b",
+      "method": "drawdown",
+      "independent": [
+        "74000.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-02",
+      "id": "twenty-year-zero-real",
+      "method": "product",
+      "independent": [
+        "240000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-02",
+      "id": "thirty-year-zero-real",
+      "method": "product",
+      "independent": [
+        "360000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-03",
+      "id": "illustrative-entry-saving",
+      "method": "product",
+      "independent": [
+        "1350.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-03",
+      "id": "four-percent-twenty",
+      "method": "growth_chain",
+      "independent": [
+        "43822.4628606683870109615255532057678315520000"
+      ],
+      "max_abs_error": "1.29890384744467942321684480000E-11",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-03",
+      "id": "three-percent-twenty",
+      "method": "growth_chain",
+      "independent": [
+        "36122.2246933882762351462661516345176368020000"
+      ],
+      "max_abs_error": "2.37648537338483654823631980000E-11",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-03",
+      "id": "survivor-payment",
+      "method": "product",
+      "independent": [
+        "4900.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-03",
+      "id": "survivor-gap",
+      "method": "net_revenue",
+      "independent": [
+        "100"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-04",
+      "id": "proposed-excess",
+      "method": "net_revenue",
+      "independent": [
+        "1000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-04",
+      "id": "deduction-benefit",
+      "method": "product",
+      "independent": [
+        "1350.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-04",
+      "id": "part-year-ceiling",
+      "method": "product",
+      "independent": [
+        "3375.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-04",
+      "id": "capital-tax",
+      "method": "product",
+      "independent": [
+        "12000.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-04",
+      "id": "annuity-tax",
+      "method": "product",
+      "independent": [
+        "900.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-04",
+      "id": "early-full-base-tax",
+      "method": "product",
+      "independent": [
+        "6000.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-04",
+      "id": "early-retained",
+      "method": "net_revenue",
+      "independent": [
+        "14000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-01",
+      "id": "order-consideration",
+      "method": "product",
+      "independent": [
+        "5000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-01",
+      "id": "order-total",
+      "method": "sum",
+      "independent": [
+        "5015"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-01",
+      "id": "allocation-change",
+      "method": "difference",
+      "independent": [
+        "10000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-02",
+      "id": "adverse-note-loss",
+      "method": "difference",
+      "independent": [
+        "3300"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-02",
+      "id": "entry-cost",
+      "method": "product",
+      "independent": [
+        "500.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-02",
+      "id": "after-charge-growth",
+      "method": "growth_chain",
+      "independent": [
+        "25480.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-02",
+      "id": "actual-net-return",
+      "method": "ratio",
+      "independent": [
+        "0.0192"
+      ],
+      "max_abs_error": "0.0000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-02",
+      "id": "essential-goal-shortfall",
+      "method": "difference",
+      "independent": [
+        "4000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-03",
+      "id": "provider-commission-rate",
+      "method": "ratio",
+      "independent": [
+        "0.012"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-03",
+      "id": "annual-trail",
+      "method": "product",
+      "independent": [
+        "800.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-03",
+      "id": "annual-cost-difference",
+      "method": "product",
+      "independent": [
+        "300.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-03",
+      "id": "first-year-switch-disadvantage",
+      "method": "sum",
+      "independent": [
+        "600"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-04",
+      "id": "first-year-net-wealth",
+      "method": "net_revenue",
+      "independent": [
+        "20690.6"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-04",
+      "id": "first-year-total-charges",
+      "method": "sum",
+      "independent": [
+        "497.4"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-04",
+      "id": "first-year-net-return",
+      "method": "ratio",
+      "independent": [
+        "0.03453"
+      ],
+      "max_abs_error": "0.00000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-04",
+      "id": "embedded-total",
+      "method": "sum",
+      "independent": [
+        "1500"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-04",
+      "id": "gross-five-year",
+      "method": "growth_chain",
+      "independent": [
+        "12762.8156250000"
+      ],
+      "max_abs_error": "0E-10",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-04",
+      "id": "net-five-year",
+      "method": "growth_chain",
+      "independent": [
+        "11876.863056468750000"
+      ],
+      "max_abs_error": "5.000E-12",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-04",
+      "id": "foreign-fee-euros",
+      "method": "ratio",
+      "independent": [
+        "25"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-05",
+      "id": "market-loss",
+      "method": "product",
+      "independent": [
+        "7500.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-05",
+      "id": "actual-loss",
+      "method": "difference",
+      "independent": [
+        "6000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-05",
+      "id": "counterfactual-difference",
+      "method": "difference",
+      "independent": [
+        "4000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-06",
+      "id": "normal-coverage",
+      "method": "ratio",
+      "independent": [
+        "2.5"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-06",
+      "id": "stress-coverage",
+      "method": "ratio",
+      "independent": [
+        "1.25"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-06",
+      "id": "exposure-reallocation",
+      "method": "product",
+      "independent": [
+        "10000000.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-06",
+      "id": "preference-shortfall",
+      "method": "difference",
+      "independent": [
+        "10"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-01",
+      "id": "venue-a",
+      "method": "sum",
+      "independent": [
+        "10018"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-01",
+      "id": "venue-b",
+      "method": "sum",
+      "independent": [
+        "10022"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-01",
+      "id": "consideration-difference",
+      "method": "difference",
+      "independent": [
+        "4"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-01",
+      "id": "illustrative-funding",
+      "method": "simple_interest",
+      "independent": [
+        "4.38356164383561680000"
+      ],
+      "max_abs_error": "8.0000E-16",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-01",
+      "id": "settlement-gap",
+      "method": "difference",
+      "independent": [
+        "4500"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-02",
+      "id": "displayed-turnover",
+      "method": "product",
+      "independent": [
+        "400000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-03",
+      "id": "receipt-reconciliation",
+      "method": "sum",
+      "independent": [
+        "240000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-03",
+      "id": "supported-receipt-share",
+      "method": "ratio",
+      "independent": [
+        "0.875"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.2-03",
+      "id": "unexplained-share",
+      "method": "ratio",
+      "independent": [
+        "0.125"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.3-01",
+      "id": "departing-assets",
+      "method": "product",
+      "independent": [
+        "6400000.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.3-01",
+      "id": "fee-exposure",
+      "method": "product",
+      "independent": [
+        "38400.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.3-01",
+      "id": "remaining-fees",
+      "method": "product",
+      "independent": [
+        "441600.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.3-01",
+      "id": "statement-overstatement",
+      "method": "ratio",
+      "independent": [
+        "0.05"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.3-02",
+      "id": "annual-cost-gap",
+      "method": "product",
+      "independent": [
+        "600.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "id": "allocation-sum",
+      "method": "sum",
+      "independent": [
+        "70000000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "id": "allocation-share",
+      "method": "ratio",
+      "independent": [
+        "0.7"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "id": "original-coupon",
+      "method": "product",
+      "independent": [
+        "350.000"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "id": "stepped-coupon",
+      "method": "product",
+      "independent": [
+        "375.0000"
+      ],
+      "max_abs_error": "0.0000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "id": "extra-two-coupons",
+      "method": "product",
+      "independent": [
+        "50"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "id": "duration-change",
+      "method": "product",
+      "independent": [
+        "-0.07"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "id": "green-price-loss",
+      "method": "product",
+      "independent": [
+        "1400.00"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "id": "green-sale-value",
+      "method": "difference",
+      "independent": [
+        "18600"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "id": "eligible-revenue",
+      "method": "ratio",
+      "independent": [
+        "0.6"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "id": "aligned-revenue",
+      "method": "ratio",
+      "independent": [
+        "0.35"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "id": "aligned-within-eligible",
+      "method": "ratio",
+      "independent": [
+        "0.583333333333333333333333333333333333333333333333333333333333"
+      ],
+      "max_abs_error": "6.6666666666666666666666666666666666666666667E-17",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "id": "revenue-reconciliation",
+      "method": "sum",
+      "independent": [
+        "100000000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "id": "preference-headroom",
+      "method": "difference",
+      "independent": [
+        "0.02"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "id": "sustainable-share",
+      "method": "ratio",
+      "independent": [
+        "0.4"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "id": "aligned-share",
+      "method": "ratio",
+      "independent": [
+        "0.15"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "id": "sustainable-other",
+      "method": "difference",
+      "independent": [
+        "2500000"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "weighted-intensity",
+      "method": "weighted",
+      "independent": [
+        "68.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "coverage",
+      "method": "sum",
+      "independent": [
+        "0.8"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "known-contribution",
+      "method": "weighted",
+      "independent": [
+        "46.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "observed-average",
+      "method": "ratio",
+      "independent": [
+        "57.5"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "conditional-upper",
+      "method": "sum",
+      "independent": [
+        "86"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "first-intensity",
+      "method": "ratio",
+      "independent": [
+        "200"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "second-intensity",
+      "method": "ratio",
+      "independent": [
+        "175"
+      ],
+      "max_abs_error": "0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "intensity-change",
+      "method": "price_return",
+      "independent": [
+        "-0.125"
+      ],
+      "max_abs_error": "0.000",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "id": "absolute-change",
+      "method": "price_return",
+      "independent": [
+        "0.05"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-04",
+      "id": "advertised-decline",
+      "method": "price_return",
+      "independent": [
+        "-0.4"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-04",
+      "id": "conditional-complete-intensity",
+      "method": "weighted",
+      "independent": [
+        "88.0"
+      ],
+      "max_abs_error": "0.0",
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-M8-04",
+      "id": "conditional-decline",
+      "method": "price_return",
+      "independent": [
+        "-0.12"
+      ],
+      "max_abs_error": "0.00",
+      "status": "PASS"
+    }
+  ],
+  "golden_master_checks": [
+    {
+      "id": "GM16-compound",
+      "independent": "13498.368000",
+      "displayed": "13498.368",
+      "tolerance": "1E-9",
+      "status": "PASS"
+    },
+    {
+      "id": "GM16-required-capital",
+      "independent": "13727.1248902973935850399962662220298391089448691210155876079",
+      "displayed": "13727.12489",
+      "tolerance": "0.00001",
+      "status": "PASS"
+    },
+    {
+      "id": "GM16-annual-equivalent",
+      "independent": "0.03849882037022080523889104972028881910756005562693935186132",
+      "displayed": "0.038499",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "id": "GM16-offer-B",
+      "independent": "10795.210000",
+      "displayed": "10795.21",
+      "tolerance": "1E-8",
+      "status": "PASS"
+    },
+    {
+      "id": "GM16-real-return",
+      "independent": "0.01941747572815533980582524271844660194174757281553398058252",
+      "displayed": "0.019417",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "id": "GM25-price",
+      "independent": "981.405895691609977324263038548752834467120181405895691609977",
+      "displayed": "981.405896",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "id": "GM25-current-yield",
+      "independent": "0.0407578558225508317929759704251386321626617375231053604436229",
+      "displayed": "0.04075786",
+      "tolerance": "1E-8",
+      "status": "PASS"
+    },
+    {
+      "id": "GM25-duration",
+      "independent": "1.90476190476190476193931540870316380520509164685201943750000",
+      "displayed": "1.904762",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "id": "GM25-repricing",
+      "independent": "898.452415713932750836683812133599874216661800049414882864266",
+      "displayed": "898.452416",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "id": "GM25-A-return",
+      "independent": "0.01960784313725490196078431372549019607843137254901960784314",
+      "displayed": "0.01960784",
+      "tolerance": "1E-8",
+      "status": "PASS"
+    },
+    {
+      "id": "GM25-B-return",
+      "independent": "0.02525252525252525252525252525252525252525252525252525252525",
+      "displayed": "0.02525253",
+      "tolerance": "1E-8",
+      "status": "PASS"
+    },
+    {
+      "id": "GM58-house-capacity",
+      "independent": "5000.00",
+      "displayed": "5000",
+      "tolerance": "0",
+      "status": "PASS"
+    },
+    {
+      "id": "GM58-annual-saving",
+      "independent": "3600",
+      "displayed": "3600",
+      "tolerance": "0",
+      "status": "PASS"
+    },
+    {
+      "id": "GM58-preference-gap",
+      "independent": "0.20",
+      "displayed": "0.20",
+      "tolerance": "0",
+      "status": "PASS"
+    },
+    {
+      "id": "GM58-preference-headroom",
+      "independent": "0.05",
+      "displayed": "0.05",
+      "tolerance": "0",
+      "status": "PASS"
+    },
+    {
+      "id": "GM58-goal-pools",
+      "independent": "10000",
+      "displayed": "10000",
+      "tolerance": "0",
+      "status": "PASS"
+    }
+  ],
+  "limits": [
+    "Recalculation validates stated mathematical premises, not product classification or legal eligibility.",
+    "Manual prose reading also checks units, attribution and explanations that numerical registries cannot detect."
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "build_sha256": "077c51dcf4515eb4f74f0d3014d405674f6b6641647e2bdd0f3e5527870152e0",
+  "build_sha256": "e1fb1e2507c864271c8326b08876114be605843572c4ec32db37f0c2f8fb58a0",
   "scope": "Reading-only continuous production",
   "lessons": 95,
   "checks": 15,

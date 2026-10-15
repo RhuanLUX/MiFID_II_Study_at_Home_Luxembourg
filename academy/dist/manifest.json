@@ -1,11 +1,11 @@
 {
-  "version": "1.0.0-reading",
+  "version": "1.0.1-reading",
   "scope": "Reading-only Phase 1",
   "owner_uat": "LESSON_16_REFERENCE_APPROVED_PRODUCTION_AUTHORISED",
   "date": "2026-10-15",
   "file": "EIP_Luxembourg_Academy.html",
-  "sha256": "077c51dcf4515eb4f74f0d3014d405674f6b6641647e2bdd0f3e5527870152e0",
-  "bytes": 1289845,
+  "sha256": "e1fb1e2507c864271c8326b08876114be605843572c4ec32db37f0c2f8fb58a0",
+  "bytes": 1291673,
   "lessons": [
     {
       "id": "EIP-3.1-A",
@@ -129,13 +129,13 @@
     },
     {
       "id": "EIP-3.2-02",
-      "en_words": 1452,
+      "en_words": 1477,
       "pt_words": 0,
       "examples": 3
     },
     {
       "id": "EIP-3.2-03",
-      "en_words": 1394,
+      "en_words": 1435,
       "pt_words": 0,
       "examples": 3
     },
@@ -225,7 +225,7 @@
     },
     {
       "id": "EIP-3.5-05",
-      "en_words": 1251,
+      "en_words": 1330,
       "pt_words": 0,
       "examples": 3
     },
@@ -255,7 +255,7 @@
     },
     {
       "id": "EIP-3.6-05",
-      "en_words": 1218,
+      "en_words": 1272,
       "pt_words": 0,
       "examples": 3
     },
@@ -267,7 +267,7 @@
     },
     {
       "id": "EIP-3.7-01",
-      "en_words": 1106,
+      "en_words": 1104,
       "pt_words": 0,
       "examples": 3
     },
@@ -483,7 +483,7 @@
     },
     {
       "id": "EIP-6.2-04",
-      "en_words": 1132,
+      "en_words": 1131,
       "pt_words": 0,
       "examples": 3
     },

@@ -1,0 +1,5255 @@
+[
+  {
+    "lesson": "EIP-1.1-01",
+    "id": "SCARCE-A",
+    "method": "simple_interest",
+    "inputs": [
+      8000,
+      0.03,
+      1
+    ],
+    "expected": 240
+  },
+  {
+    "lesson": "EIP-1.1-01",
+    "id": "SCARCE-B",
+    "method": "net_revenue",
+    "inputs": [
+      900,
+      180,
+      70
+    ],
+    "expected": 650
+  },
+  {
+    "lesson": "EIP-1.1-01",
+    "id": "SCARCE-C",
+    "method": "expected_net",
+    "inputs": [
+      0.8,
+      900,
+      250
+    ],
+    "expected": 470
+  },
+  {
+    "lesson": "EIP-1.1-02",
+    "id": "DEMAND-EQ",
+    "method": "equilibrium",
+    "inputs": [
+      1200,
+      20,
+      200,
+      30
+    ],
+    "expected": [
+      20,
+      800
+    ]
+  },
+  {
+    "lesson": "EIP-1.1-02",
+    "id": "DEMAND-SHIFT",
+    "method": "equilibrium",
+    "inputs": [
+      1200,
+      20,
+      100,
+      30
+    ],
+    "expected": [
+      22,
+      760
+    ]
+  },
+  {
+    "lesson": "EIP-1.1-02",
+    "id": "DEMAND-PROFIT",
+    "method": "operating_profit",
+    "inputs": [
+      33,
+      800,
+      10,
+      12000
+    ],
+    "expected": 6400
+  },
+  {
+    "lesson": "EIP-1.1-03",
+    "id": "INF-BASKET",
+    "method": "weighted",
+    "inputs": [
+      [
+        0.4,
+        0.2,
+        0.4
+      ],
+      [
+        0.08,
+        0.15,
+        0.02
+      ]
+    ],
+    "expected": 0.07
+  },
+  {
+    "lesson": "EIP-1.1-03",
+    "id": "INF-REAL",
+    "method": "real_return",
+    "inputs": [
+      0.04,
+      0.06
+    ],
+    "expected": -0.0188679245283
+  },
+  {
+    "lesson": "EIP-1.1-03",
+    "id": "INF-GOAL",
+    "method": "growth_chain",
+    "inputs": [
+      12000,
+      0.05,
+      0.02
+    ],
+    "expected": 12852
+  },
+  {
+    "lesson": "EIP-1.2-01",
+    "id": "POL-TRANSFER",
+    "method": "domestic_spend",
+    "inputs": [
+      100,
+      0.6,
+      0.25
+    ],
+    "expected": 45
+  },
+  {
+    "lesson": "EIP-1.2-01",
+    "id": "POL-BUDGET",
+    "method": "difference",
+    "inputs": [
+      99,
+      86
+    ],
+    "expected": 13
+  },
+  {
+    "lesson": "EIP-1.2-01",
+    "id": "POL-FIRM",
+    "method": "net_revenue",
+    "inputs": [
+      5.5,
+      3.3,
+      1.2,
+      0.3
+    ],
+    "expected": 0.7
+  },
+  {
+    "lesson": "EIP-1.2-02",
+    "id": "TRANS-LOAN",
+    "method": "interest_change",
+    "inputs": [
+      400000,
+      0.035,
+      0.0425
+    ],
+    "expected": 3000
+  },
+  {
+    "lesson": "EIP-1.2-02",
+    "id": "TRANS-SAVER",
+    "method": "interest_change",
+    "inputs": [
+      50000,
+      0.01,
+      0.025
+    ],
+    "expected": 750
+  },
+  {
+    "lesson": "EIP-1.2-02",
+    "id": "TRANS-REAL",
+    "method": "real_return",
+    "inputs": [
+      0.025,
+      0.03
+    ],
+    "expected": -0.00485436893204
+  },
+  {
+    "lesson": "EIP-1.2-02",
+    "id": "TRANS-PV",
+    "method": "discount",
+    "inputs": [
+      10000,
+      0.045,
+      1
+    ],
+    "expected": 9569.37799043
+  },
+  {
+    "lesson": "EIP-1.2-03",
+    "id": "SECTOR-HH",
+    "method": "net_revenue",
+    "inputs": [
+      50000,
+      38000,
+      30000
+    ],
+    "expected": -18000
+  },
+  {
+    "lesson": "EIP-1.2-03",
+    "id": "SECTOR-SUM",
+    "method": "sum",
+    "inputs": [
+      8,
+      -5,
+      1,
+      -6,
+      2
+    ],
+    "expected": 0
+  },
+  {
+    "lesson": "EIP-1.2-03",
+    "id": "SECTOR-NX",
+    "method": "sum",
+    "inputs": [
+      30,
+      -22,
+      18,
+      -23
+    ],
+    "expected": 3
+  },
+  {
+    "lesson": "EIP-1.3-01",
+    "id": "DEBT-ISSUE",
+    "method": "sum",
+    "inputs": [
+      18,
+      4,
+      1
+    ],
+    "expected": 23
+  },
+  {
+    "lesson": "EIP-1.3-01",
+    "id": "DEBT-STOCK",
+    "method": "sum",
+    "inputs": [
+      120,
+      -18,
+      23
+    ],
+    "expected": 125
+  },
+  {
+    "lesson": "EIP-1.3-01",
+    "id": "DEBT-RATIO",
+    "method": "ratio",
+    "inputs": [
+      103,
+      210
+    ],
+    "expected": 0.490476190476
+  },
+  {
+    "lesson": "EIP-1.3-01",
+    "id": "DEBT-INTEREST",
+    "method": "weighted",
+    "inputs": [
+      [
+        80,
+        20
+      ],
+      [
+        0.02,
+        0.04
+      ]
+    ],
+    "expected": 2.4
+  },
+  {
+    "lesson": "EIP-1.3-01",
+    "id": "DEBT-DYNAMIC",
+    "method": "growth_ratio",
+    "inputs": [
+      0.5,
+      0.04,
+      0.03
+    ],
+    "expected": 0.504854368932
+  },
+  {
+    "lesson": "EIP-1.3-02",
+    "id": "CYCLE-REAL",
+    "method": "real_return",
+    "inputs": [
+      0.06,
+      0.04
+    ],
+    "expected": 0.0192307692308
+  },
+  {
+    "lesson": "EIP-1.3-02",
+    "id": "CYCLE-PATH",
+    "method": "growth_chain",
+    "inputs": [
+      100,
+      -0.04,
+      -0.02,
+      0.03,
+      0.02
+    ],
+    "expected": 98.840448
+  },
+  {
+    "lesson": "EIP-1.3-02",
+    "id": "CYCLE-PROFIT",
+    "method": "operating_profit",
+    "inputs": [
+      50,
+      90000,
+      30,
+      1500000
+    ],
+    "expected": 300000
+  },
+  {
+    "lesson": "EIP-1.3-02",
+    "id": "CYCLE-PV",
+    "method": "discount",
+    "inputs": [
+      9,
+      0.06,
+      1
+    ],
+    "expected": 8.49056603774
+  },
+  {
+    "lesson": "EIP-1.3-03",
+    "id": "SHOCK-ENERGY",
+    "method": "net_revenue",
+    "inputs": [
+      2000000,
+      1200000,
+      420000
+    ],
+    "expected": 380000
+  },
+  {
+    "lesson": "EIP-1.3-03",
+    "id": "SHOCK-PV",
+    "method": "bond_price",
+    "inputs": [
+      1000,
+      50,
+      0.04,
+      2
+    ],
+    "expected": 1018.86094675
+  },
+  {
+    "lesson": "EIP-1.3-03",
+    "id": "SHOCK-PV2",
+    "method": "bond_price",
+    "inputs": [
+      1000,
+      50,
+      0.06,
+      2
+    ],
+    "expected": 981.66607334
+  },
+  {
+    "lesson": "EIP-1.3-03",
+    "id": "SHOCK-FX",
+    "method": "fx_net",
+    "inputs": [
+      1000000,
+      1.2,
+      800000
+    ],
+    "expected": 33333.3333333
+  },
+  {
+    "lesson": "EIP-2.1-01",
+    "id": "SYS-BANK",
+    "method": "sum",
+    "inputs": [
+      100,
+      5,
+      -4
+    ],
+    "expected": 101
+  },
+  {
+    "lesson": "EIP-2.1-01",
+    "id": "SYS-NAV",
+    "method": "ratio",
+    "inputs": [
+      103000,
+      1000
+    ],
+    "expected": 103
+  },
+  {
+    "lesson": "EIP-2.1-01",
+    "id": "SYS-EXPOSURE",
+    "method": "ratio",
+    "inputs": [
+      200000,
+      20000000
+    ],
+    "expected": 0.01
+  },
+  {
+    "lesson": "EIP-2.2-01",
+    "id": "STRUCT-SPREAD",
+    "method": "spread_cost",
+    "inputs": [
+      99.4,
+      100,
+      200
+    ],
+    "expected": 120
+  },
+  {
+    "lesson": "EIP-2.2-01",
+    "id": "STRUCT-FX",
+    "method": "home_return",
+    "inputs": [
+      0.05,
+      1.1,
+      1.2
+    ],
+    "expected": -0.0375
+  },
+  {
+    "lesson": "EIP-2.3-01",
+    "id": "ISSUE-NET",
+    "method": "issue_net",
+    "inputs": [
+      10000000,
+      0.99,
+      120000
+    ],
+    "expected": 9780000
+  },
+  {
+    "lesson": "EIP-2.3-01",
+    "id": "ISSUE-ALLOC",
+    "method": "ratio",
+    "inputs": [
+      50,
+      80
+    ],
+    "expected": 0.625
+  },
+  {
+    "lesson": "EIP-2.3-01",
+    "id": "ISSUE-DILUTE",
+    "method": "ratio",
+    "inputs": [
+      100000,
+      1250000
+    ],
+    "expected": 0.08
+  },
+  {
+    "lesson": "EIP-2.3-01",
+    "id": "ISSUE-COUPON",
+    "method": "ratio",
+    "inputs": [
+      400000,
+      9780000
+    ],
+    "expected": 0.040899795501
+  },
+  {
+    "lesson": "EIP-2.3-02",
+    "id": "VENUE-NET",
+    "method": "weighted_less",
+    "inputs": [
+      [
+        6,
+        4
+      ],
+      [
+        982,
+        980
+      ],
+      12
+    ],
+    "expected": 9800
+  },
+  {
+    "lesson": "EIP-2.3-02",
+    "id": "VENUE-NETTING",
+    "method": "sum",
+    "inputs": [
+      120000,
+      -80000,
+      30000
+    ],
+    "expected": 70000
+  },
+  {
+    "lesson": "EIP-2.3-02",
+    "id": "VENUE-CASH",
+    "method": "net_sale",
+    "inputs": [
+      100,
+      97.5,
+      20
+    ],
+    "expected": 9730
+  },
+  {
+    "lesson": "EIP-2.3-03",
+    "id": "ORDER-MARKET",
+    "method": "weighted",
+    "inputs": [
+      [
+        100,
+        200,
+        100
+      ],
+      [
+        20,
+        20.1,
+        20.25
+      ]
+    ],
+    "expected": 8045
+  },
+  {
+    "lesson": "EIP-2.3-03",
+    "id": "ORDER-AVG",
+    "method": "ratio",
+    "inputs": [
+      8045,
+      400
+    ],
+    "expected": 20.1125
+  },
+  {
+    "lesson": "EIP-2.3-03",
+    "id": "ORDER-LIMIT",
+    "method": "weighted",
+    "inputs": [
+      [
+        100,
+        200
+      ],
+      [
+        20,
+        20.1
+      ]
+    ],
+    "expected": 6020
+  },
+  {
+    "lesson": "EIP-2.3-03",
+    "id": "ORDER-STOP",
+    "method": "price_return",
+    "inputs": [
+      50,
+      44
+    ],
+    "expected": -0.12
+  },
+  {
+    "lesson": "EIP-2.3-04",
+    "id": "LUX-CLEAN",
+    "method": "weighted",
+    "inputs": [
+      [
+        5000,
+        5000
+      ],
+      [
+        0.992,
+        0.995
+      ]
+    ],
+    "expected": 9935
+  },
+  {
+    "lesson": "EIP-2.3-04",
+    "id": "LUX-REDEEM",
+    "method": "redemption_net",
+    "inputs": [
+      100,
+      118,
+      0.005
+    ],
+    "expected": 11741
+  },
+  {
+    "lesson": "EIP-3.1-02",
+    "id": "TVM-SERIES",
+    "method": "contribution_series",
+    "inputs": [
+      2000,
+      0.04,
+      3,
+      false
+    ],
+    "expected": 6243.2
+  },
+  {
+    "lesson": "EIP-3.1-02",
+    "id": "TVM-DUE",
+    "method": "contribution_series",
+    "inputs": [
+      2000,
+      0.04,
+      3,
+      true
+    ],
+    "expected": 6492.928
+  },
+  {
+    "lesson": "EIP-3.1-02",
+    "id": "TVM-MONTH",
+    "method": "periodic_effective",
+    "inputs": [
+      0.12,
+      12
+    ],
+    "expected": 0.00948879293458
+  },
+  {
+    "lesson": "EIP-3.1-02",
+    "id": "TVM-MULTI",
+    "method": "dated_pv",
+    "inputs": [
+      [
+        [
+          5000,
+          1
+        ],
+        [
+          7000,
+          3
+        ]
+      ],
+      0.03
+    ],
+    "expected": 11260.36054751095
+  },
+  {
+    "lesson": "EIP-3.2-01",
+    "id": "sale-gain",
+    "method": "net_revenue",
+    "inputs": [
+      8800,
+      40,
+      8030
+    ],
+    "expected": 730
+  },
+  {
+    "lesson": "EIP-3.2-01",
+    "id": "profit",
+    "method": "sum",
+    "inputs": [
+      730,
+      200
+    ],
+    "expected": 930
+  },
+  {
+    "lesson": "EIP-3.2-01",
+    "id": "return",
+    "method": "ratio",
+    "inputs": [
+      930,
+      8030
+    ],
+    "expected": 0.11581569115815692
+  },
+  {
+    "lesson": "EIP-3.2-01",
+    "id": "advance",
+    "method": "product",
+    "inputs": [
+      2400,
+      0.15
+    ],
+    "expected": 360
+  },
+  {
+    "lesson": "EIP-3.2-01",
+    "id": "remaining",
+    "method": "difference",
+    "inputs": [
+      480,
+      360
+    ],
+    "expected": 120
+  },
+  {
+    "lesson": "EIP-3.2-01",
+    "id": "net-real-a",
+    "method": "real_return",
+    "inputs": [
+      0.032,
+      0.02
+    ],
+    "expected": 0.011764705882352941
+  },
+  {
+    "lesson": "EIP-3.2-02",
+    "id": "creditable-balance",
+    "method": "difference",
+    "inputs": [
+      420,
+      300
+    ],
+    "expected": 120
+  },
+  {
+    "lesson": "EIP-3.2-02",
+    "id": "eligibility-ratio-a",
+    "method": "ratio",
+    "inputs": [
+      72000,
+      80000
+    ],
+    "expected": 0.9
+  },
+  {
+    "lesson": "EIP-3.2-02",
+    "id": "eligibility-ratio-b",
+    "method": "ratio",
+    "inputs": [
+      71000,
+      80000
+    ],
+    "expected": 0.8875
+  },
+  {
+    "lesson": "EIP-3.2-02",
+    "id": "domestic-levy",
+    "method": "product",
+    "inputs": [
+      1200,
+      0.2
+    ],
+    "expected": 240
+  },
+  {
+    "lesson": "EIP-3.2-02",
+    "id": "election-comparison",
+    "method": "difference",
+    "inputs": [
+      260,
+      200
+    ],
+    "expected": 60
+  },
+  {
+    "lesson": "EIP-3.2-03",
+    "id": "interest-levy",
+    "method": "product",
+    "inputs": [
+      400,
+      0.2
+    ],
+    "expected": 80
+  },
+  {
+    "lesson": "EIP-3.2-03",
+    "id": "purchase-income-yield",
+    "method": "ratio",
+    "inputs": [
+      320,
+      9800
+    ],
+    "expected": 0.0326530612244898
+  },
+  {
+    "lesson": "EIP-3.2-03",
+    "id": "dividend-base",
+    "method": "net_revenue",
+    "inputs": [
+      3000,
+      25,
+      1500
+    ],
+    "expected": 1475
+  },
+  {
+    "lesson": "EIP-3.2-03",
+    "id": "dividend-income-tax",
+    "method": "product",
+    "inputs": [
+      1475,
+      0.3
+    ],
+    "expected": 442.5
+  },
+  {
+    "lesson": "EIP-3.2-03",
+    "id": "advance-excess",
+    "method": "difference",
+    "inputs": [
+      900,
+      442.5
+    ],
+    "expected": 457.5
+  },
+  {
+    "lesson": "EIP-3.2-03",
+    "id": "economic-share-gain",
+    "method": "difference",
+    "inputs": [
+      9200,
+      8000
+    ],
+    "expected": 1200
+  },
+  {
+    "lesson": "EIP-3.3-01",
+    "id": "DEP-INTEREST",
+    "method": "simple_interest",
+    "inputs": [
+      40000,
+      0.036,
+      0.5
+    ],
+    "expected": 720
+  },
+  {
+    "lesson": "EIP-3.3-01",
+    "id": "DEP-AGG",
+    "method": "sum",
+    "inputs": [
+      70000,
+      45000,
+      -100000
+    ],
+    "expected": 15000
+  },
+  {
+    "lesson": "EIP-3.3-01",
+    "id": "DEP-REAL",
+    "method": "real_return",
+    "inputs": [
+      0.03,
+      0.045
+    ],
+    "expected": -0.0143540669856
+  },
+  {
+    "lesson": "EIP-3.3-02",
+    "id": "REPO-INTEREST",
+    "method": "simple_interest",
+    "inputs": [
+      1000000,
+      0.036,
+      0.08333333333333333
+    ],
+    "expected": 3000
+  },
+  {
+    "lesson": "EIP-3.3-02",
+    "id": "REPO-COLLATERAL",
+    "method": "haircut_inverse",
+    "inputs": [
+      1000000,
+      0.02
+    ],
+    "expected": 1020408.1632653
+  },
+  {
+    "lesson": "EIP-3.3-02",
+    "id": "REPO-MARGIN",
+    "method": "margin_collateral",
+    "inputs": [
+      1001000,
+      995000,
+      0.02
+    ],
+    "expected": 26428.5714286
+  },
+  {
+    "lesson": "EIP-3.3-03",
+    "id": "BILL-HPR",
+    "method": "price_return",
+    "inputs": [
+      98500,
+      100000
+    ],
+    "expected": 0.0152284263959
+  },
+  {
+    "lesson": "EIP-3.3-03",
+    "id": "BILL-SIMPLE",
+    "method": "annual_simple",
+    "inputs": [
+      98500,
+      100000,
+      180,
+      360
+    ],
+    "expected": 0.0304568527919
+  },
+  {
+    "lesson": "EIP-3.3-03",
+    "id": "BILL-DISCOUNT",
+    "method": "discount_quote_price",
+    "inputs": [
+      50000,
+      0.04,
+      90,
+      360
+    ],
+    "expected": 49500
+  },
+  {
+    "lesson": "EIP-3.3-03",
+    "id": "BILL-SALE",
+    "method": "simple_discount",
+    "inputs": [
+      100000,
+      0.05,
+      0.16666666666666666
+    ],
+    "expected": 99173.553719
+  },
+  {
+    "lesson": "EIP-3.3-04",
+    "id": "BENCH-LOAN",
+    "method": "simple_interest",
+    "inputs": [
+      200000,
+      0.04,
+      0.25
+    ],
+    "expected": 2000
+  },
+  {
+    "lesson": "EIP-3.3-04",
+    "id": "BENCH-RESET",
+    "method": "simple_interest",
+    "inputs": [
+      200000,
+      0.046,
+      0.25
+    ],
+    "expected": 2300
+  },
+  {
+    "lesson": "EIP-3.3-04",
+    "id": "BENCH-OVERNIGHT",
+    "method": "overnight_interest",
+    "inputs": [
+      1000000,
+      [
+        0.03,
+        0.031,
+        0.032
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      360
+    ],
+    "expected": 258.35557162534604
+  },
+  {
+    "lesson": "EIP-3.3-04",
+    "id": "BENCH-FLOOR",
+    "method": "simple_interest",
+    "inputs": [
+      50000,
+      0.01,
+      0.5
+    ],
+    "expected": 250
+  },
+  {
+    "lesson": "EIP-3.4-02",
+    "id": "CLEAN-ACCRUAL",
+    "method": "simple_interest",
+    "inputs": [
+      10000,
+      0.04,
+      0.20833333333333334
+    ],
+    "expected": 83.3333333333
+  },
+  {
+    "lesson": "EIP-3.4-02",
+    "id": "CLEAN-SETTLE",
+    "method": "sum",
+    "inputs": [
+      9750,
+      83.3333333333,
+      12
+    ],
+    "expected": 9845.3333333333
+  },
+  {
+    "lesson": "EIP-3.4-02",
+    "id": "CLEAN-RETURN",
+    "method": "price_return",
+    "inputs": [
+      1045.8333333333,
+      1050
+    ],
+    "expected": 0.00398406374505
+  },
+  {
+    "lesson": "EIP-3.4-02",
+    "id": "CLEAN-ALLIN",
+    "method": "sum",
+    "inputs": [
+      19820,
+      120,
+      30
+    ],
+    "expected": 19970
+  },
+  {
+    "lesson": "EIP-3.4-03",
+    "id": "YIELD-ONE",
+    "method": "price_return",
+    "inputs": [
+      970,
+      1040
+    ],
+    "expected": 0.0721649484536
+  },
+  {
+    "lesson": "EIP-3.4-03",
+    "id": "YIELD-CURRENT",
+    "method": "ratio",
+    "inputs": [
+      40,
+      970
+    ],
+    "expected": 0.0412371134021
+  },
+  {
+    "lesson": "EIP-3.4-03",
+    "id": "YIELD-SOLVE",
+    "method": "ytm_bisection",
+    "inputs": [
+      981.40589569161,
+      1000,
+      40,
+      2
+    ],
+    "expected": 0.05
+  },
+  {
+    "lesson": "EIP-3.4-03",
+    "id": "YIELD-REINVEST",
+    "method": "terminal_rate",
+    "inputs": [
+      981.40589569161,
+      1080,
+      2
+    ],
+    "expected": 0.04902912600598097
+  },
+  {
+    "lesson": "EIP-3.4-04",
+    "id": "DURATION-MAC",
+    "method": "macaulay",
+    "inputs": [
+      1000,
+      40,
+      0.05,
+      2
+    ],
+    "expected": 1.9611829944547134
+  },
+  {
+    "lesson": "EIP-3.4-04",
+    "id": "DURATION-MOD",
+    "method": "modified",
+    "inputs": [
+      1000,
+      40,
+      0.05,
+      2
+    ],
+    "expected": 1.867793328052108
+  },
+  {
+    "lesson": "EIP-3.4-04",
+    "id": "DURATION-CONV",
+    "method": "convexity",
+    "inputs": [
+      1000,
+      40,
+      0.05,
+      2
+    ],
+    "expected": 5.30134419756812
+  },
+  {
+    "lesson": "EIP-3.4-04",
+    "id": "DURATION-REPRICE",
+    "method": "bond_price",
+    "inputs": [
+      1000,
+      40,
+      0.07,
+      2
+    ],
+    "expected": 945.7594549742336
+  },
+  {
+    "lesson": "EIP-3.4-05",
+    "id": "CREDIT-EXPECTED",
+    "method": "weighted",
+    "inputs": [
+      [
+        0.98,
+        0.02
+      ],
+      [
+        1060,
+        400
+      ]
+    ],
+    "expected": 1046.8
+  },
+  {
+    "lesson": "EIP-3.4-05",
+    "id": "CREDIT-LOSS",
+    "method": "product",
+    "inputs": [
+      0.02,
+      1000,
+      0.6
+    ],
+    "expected": 12
+  },
+  {
+    "lesson": "EIP-3.4-05",
+    "id": "CREDIT-SPREAD",
+    "method": "bond_price",
+    "inputs": [
+      1000,
+      50,
+      0.065,
+      5
+    ],
+    "expected": 937.6648084279127
+  },
+  {
+    "lesson": "EIP-3.4-05",
+    "id": "CREDIT-RECOVERY",
+    "method": "ratio",
+    "inputs": [
+      40,
+      60
+    ],
+    "expected": 0.666666666667
+  },
+  {
+    "lesson": "EIP-3.4-06",
+    "id": "LIQ-SALE",
+    "method": "net_sale",
+    "inputs": [
+      100000,
+      0.94,
+      80
+    ],
+    "expected": 93920
+  },
+  {
+    "lesson": "EIP-3.4-06",
+    "id": "LIQ-REINVEST5",
+    "method": "coupon_terminal",
+    "inputs": [
+      1000,
+      50,
+      0.05,
+      3
+    ],
+    "expected": 1157.625
+  },
+  {
+    "lesson": "EIP-3.4-06",
+    "id": "LIQ-REINVEST2",
+    "method": "coupon_terminal",
+    "inputs": [
+      1000,
+      50,
+      0.02,
+      3
+    ],
+    "expected": 1153.02
+  },
+  {
+    "lesson": "EIP-3.4-06",
+    "id": "LIQ-GAP",
+    "method": "sum",
+    "inputs": [
+      17500,
+      800,
+      800,
+      -20000
+    ],
+    "expected": -900
+  },
+  {
+    "lesson": "EIP-3.4-07",
+    "id": "loss-after-interest-tax",
+    "method": "net_revenue",
+    "inputs": [
+      10000,
+      80
+    ],
+    "expected": 9920
+  },
+  {
+    "lesson": "EIP-3.4-07",
+    "id": "net-loss-return",
+    "method": "ratio",
+    "inputs": [
+      -80,
+      10000
+    ],
+    "expected": -0.008
+  },
+  {
+    "lesson": "EIP-3.4-07",
+    "id": "premium-gross-return",
+    "method": "ratio",
+    "inputs": [
+      200,
+      10300
+    ],
+    "expected": 0.019417475728155338
+  },
+  {
+    "lesson": "EIP-3.4-07",
+    "id": "premium-net-return",
+    "method": "ratio",
+    "inputs": [
+      100,
+      10300
+    ],
+    "expected": 0.009708737864077669
+  },
+  {
+    "lesson": "EIP-3.4-07",
+    "id": "foreign-scenario-a",
+    "method": "net_revenue",
+    "inputs": [
+      460,
+      92,
+      40
+    ],
+    "expected": 328
+  },
+  {
+    "lesson": "EIP-3.4-07",
+    "id": "foreign-scenario-b",
+    "method": "net_revenue",
+    "inputs": [
+      460,
+      130,
+      40
+    ],
+    "expected": 290
+  },
+  {
+    "lesson": "EIP-3.5-01",
+    "id": "a-votes",
+    "method": "ratio",
+    "inputs": [
+      10000,
+      1900000
+    ],
+    "expected": 0.005263157894736842
+  },
+  {
+    "lesson": "EIP-3.5-01",
+    "id": "b-votes",
+    "method": "ratio",
+    "inputs": [
+      100000,
+      1900000
+    ],
+    "expected": 0.05263157894736842
+  },
+  {
+    "lesson": "EIP-3.5-01",
+    "id": "levered-loss",
+    "method": "price_return",
+    "inputs": [
+      40,
+      28
+    ],
+    "expected": -0.3
+  },
+  {
+    "lesson": "EIP-3.5-01",
+    "id": "diluted-percent",
+    "method": "ratio",
+    "inputs": [
+      10000,
+      1250000
+    ],
+    "expected": 0.008
+  },
+  {
+    "lesson": "EIP-3.5-01",
+    "id": "discounted-issue-value",
+    "method": "ratio",
+    "inputs": [
+      24000000,
+      1250000
+    ],
+    "expected": 19.2
+  },
+  {
+    "lesson": "EIP-3.5-02",
+    "id": "reported-eps",
+    "method": "ratio",
+    "inputs": [
+      12000000,
+      4000000
+    ],
+    "expected": 3
+  },
+  {
+    "lesson": "EIP-3.5-02",
+    "id": "adjusted-pe",
+    "method": "ratio",
+    "inputs": [
+      36,
+      2
+    ],
+    "expected": 18
+  },
+  {
+    "lesson": "EIP-3.5-02",
+    "id": "diluted-eps",
+    "method": "ratio",
+    "inputs": [
+      8000000,
+      4400000
+    ],
+    "expected": 1.8181818181818181
+  },
+  {
+    "lesson": "EIP-3.5-02",
+    "id": "growth-value",
+    "method": "ratio",
+    "inputs": [
+      2.1,
+      0.05
+    ],
+    "expected": 42
+  },
+  {
+    "lesson": "EIP-3.5-02",
+    "id": "higher-required-value",
+    "method": "ratio",
+    "inputs": [
+      2.1,
+      0.06
+    ],
+    "expected": 35
+  },
+  {
+    "lesson": "EIP-3.5-02",
+    "id": "two-year-pv",
+    "method": "dated_pv",
+    "inputs": [
+      [
+        [
+          1.5,
+          1
+        ],
+        [
+          33.6,
+          2
+        ]
+      ],
+      0.1
+    ],
+    "expected": 29.13223140495868
+  },
+  {
+    "lesson": "EIP-3.5-02",
+    "id": "terminal-change",
+    "method": "discount",
+    "inputs": [
+      4,
+      0.1,
+      2
+    ],
+    "expected": 3.305785123966942
+  },
+  {
+    "lesson": "EIP-3.5-03",
+    "id": "net-share-sale",
+    "method": "net_sale",
+    "inputs": [
+      100,
+      47,
+      20
+    ],
+    "expected": 4680
+  },
+  {
+    "lesson": "EIP-3.5-03",
+    "id": "net-result",
+    "method": "net_revenue",
+    "inputs": [
+      4880,
+      5020
+    ],
+    "expected": -140
+  },
+  {
+    "lesson": "EIP-3.5-03",
+    "id": "net-return",
+    "method": "ratio",
+    "inputs": [
+      -140,
+      5020
+    ],
+    "expected": -0.027888446215139442
+  },
+  {
+    "lesson": "EIP-3.5-03",
+    "id": "reinvested-quantity",
+    "method": "ratio",
+    "inputs": [
+      100,
+      19
+    ],
+    "expected": 5.2631578947368425
+  },
+  {
+    "lesson": "EIP-3.5-03",
+    "id": "linked-wealth",
+    "method": "growth_chain",
+    "inputs": [
+      10000,
+      0.2,
+      -0.2
+    ],
+    "expected": 9600
+  },
+  {
+    "lesson": "EIP-3.5-03",
+    "id": "geometric-return",
+    "method": "terminal_rate",
+    "inputs": [
+      10000,
+      9600,
+      2
+    ],
+    "expected": -0.020204102886728803
+  },
+  {
+    "lesson": "EIP-3.5-03",
+    "id": "recovery",
+    "method": "ratio",
+    "inputs": [
+      400,
+      9600
+    ],
+    "expected": 0.041666666666666664
+  },
+  {
+    "lesson": "EIP-3.5-04",
+    "id": "employer-loss",
+    "method": "product",
+    "inputs": [
+      40000,
+      0.5
+    ],
+    "expected": 20000
+  },
+  {
+    "lesson": "EIP-3.5-04",
+    "id": "portfolio-scenario",
+    "method": "weighted",
+    "inputs": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        -0.3,
+        0.1
+      ]
+    ],
+    "expected": -0.1
+  },
+  {
+    "lesson": "EIP-3.5-04",
+    "id": "alternative-weight",
+    "method": "weighted",
+    "inputs": [
+      [
+        0.2,
+        0.8
+      ],
+      [
+        -0.3,
+        0.1
+      ]
+    ],
+    "expected": 0.02
+  },
+  {
+    "lesson": "EIP-3.5-04",
+    "id": "goal-equity-value",
+    "method": "growth_chain",
+    "inputs": [
+      30000,
+      -0.25
+    ],
+    "expected": 22500
+  },
+  {
+    "lesson": "EIP-3.5-04",
+    "id": "goal-shortfall",
+    "method": "difference",
+    "inputs": [
+      24000,
+      22500
+    ],
+    "expected": 1500
+  },
+  {
+    "lesson": "EIP-3.5-04",
+    "id": "reserved-value",
+    "method": "sum",
+    "inputs": [
+      24000,
+      4500
+    ],
+    "expected": 28500
+  },
+  {
+    "lesson": "EIP-3.5-05",
+    "id": "AUDIT-DIVIDEND-EXPENSE",
+    "method": "product",
+    "inputs": [
+      100,
+      0.5
+    ],
+    "expected": 50
+  },
+  {
+    "lesson": "EIP-3.5-05",
+    "id": "dividend-withholding",
+    "method": "product",
+    "inputs": [
+      4000,
+      0.15
+    ],
+    "expected": 600
+  },
+  {
+    "lesson": "EIP-3.5-05",
+    "id": "dividend-income-tax",
+    "method": "product",
+    "inputs": [
+      2000,
+      0.32
+    ],
+    "expected": 640
+  },
+  {
+    "lesson": "EIP-3.5-05",
+    "id": "remaining-income-tax",
+    "method": "difference",
+    "inputs": [
+      640,
+      600
+    ],
+    "expected": 40
+  },
+  {
+    "lesson": "EIP-3.5-05",
+    "id": "private-economic-gain",
+    "method": "difference",
+    "inputs": [
+      18000,
+      14000
+    ],
+    "expected": 4000
+  },
+  {
+    "lesson": "EIP-3.5-05",
+    "id": "combined-participation",
+    "method": "sum",
+    "inputs": [
+      0.08,
+      0.04
+    ],
+    "expected": 0.12
+  },
+  {
+    "lesson": "EIP-3.5-05",
+    "id": "net-profit",
+    "method": "net_revenue",
+    "inputs": [
+      1100,
+      45
+    ],
+    "expected": 1055
+  },
+  {
+    "lesson": "EIP-3.5-05",
+    "id": "short-holding-scenario",
+    "method": "net_revenue",
+    "inputs": [
+      1055,
+      240
+    ],
+    "expected": 815
+  },
+  {
+    "lesson": "EIP-3.6-01",
+    "id": "input-upside",
+    "method": "product",
+    "inputs": [
+      10000,
+      0.4
+    ],
+    "expected": 4000
+  },
+  {
+    "lesson": "EIP-3.6-01",
+    "id": "input-downside",
+    "method": "product",
+    "inputs": [
+      10000,
+      -0.3
+    ],
+    "expected": -3000
+  },
+  {
+    "lesson": "EIP-3.6-01",
+    "id": "notional",
+    "method": "product",
+    "inputs": [
+      4000,
+      10,
+      2
+    ],
+    "expected": 80000
+  },
+  {
+    "lesson": "EIP-3.6-01",
+    "id": "index-profit",
+    "method": "product",
+    "inputs": [
+      80,
+      10,
+      2
+    ],
+    "expected": 1600
+  },
+  {
+    "lesson": "EIP-3.6-01",
+    "id": "index-loss",
+    "method": "product",
+    "inputs": [
+      -150,
+      10,
+      2
+    ],
+    "expected": -3000
+  },
+  {
+    "lesson": "EIP-3.6-01",
+    "id": "dollar-spot-cost",
+    "method": "ratio",
+    "inputs": [
+      110000,
+      1.25
+    ],
+    "expected": 88000
+  },
+  {
+    "lesson": "EIP-3.6-02",
+    "id": "day-one",
+    "method": "product",
+    "inputs": [
+      -20,
+      20
+    ],
+    "expected": -400
+  },
+  {
+    "lesson": "EIP-3.6-02",
+    "id": "top-up",
+    "method": "difference",
+    "inputs": [
+      3000,
+      2200
+    ],
+    "expected": 800
+  },
+  {
+    "lesson": "EIP-3.6-02",
+    "id": "ledger-profit",
+    "method": "net_revenue",
+    "inputs": [
+      3600,
+      3000,
+      800
+    ],
+    "expected": -200
+  },
+  {
+    "lesson": "EIP-3.6-02",
+    "id": "producer-variation",
+    "method": "product",
+    "inputs": [
+      -6,
+      1000
+    ],
+    "expected": -6000
+  },
+  {
+    "lesson": "EIP-3.6-02",
+    "id": "basis-sale",
+    "method": "sum",
+    "inputs": [
+      92000,
+      5000
+    ],
+    "expected": 97000
+  },
+  {
+    "lesson": "EIP-3.6-02",
+    "id": "basis",
+    "method": "difference",
+    "inputs": [
+      92,
+      95
+    ],
+    "expected": -3
+  },
+  {
+    "lesson": "EIP-3.6-02",
+    "id": "alternative-basis-price",
+    "method": "sum",
+    "inputs": [
+      100,
+      2
+    ],
+    "expected": 102
+  },
+  {
+    "lesson": "EIP-3.6-03",
+    "id": "call-premium",
+    "method": "product",
+    "inputs": [
+      3,
+      100
+    ],
+    "expected": 300
+  },
+  {
+    "lesson": "EIP-3.6-03",
+    "id": "call-profit",
+    "method": "net_revenue",
+    "inputs": [
+      800,
+      300
+    ],
+    "expected": 500
+  },
+  {
+    "lesson": "EIP-3.6-03",
+    "id": "put-loss",
+    "method": "net_revenue",
+    "inputs": [
+      100,
+      200
+    ],
+    "expected": -100
+  },
+  {
+    "lesson": "EIP-3.6-03",
+    "id": "put-breakeven",
+    "method": "difference",
+    "inputs": [
+      40,
+      2
+    ],
+    "expected": 38
+  },
+  {
+    "lesson": "EIP-3.6-03",
+    "id": "covered-outlay",
+    "method": "net_revenue",
+    "inputs": [
+      5000,
+      200
+    ],
+    "expected": 4800
+  },
+  {
+    "lesson": "EIP-3.6-03",
+    "id": "covered-upside",
+    "method": "difference",
+    "inputs": [
+      5500,
+      4800
+    ],
+    "expected": 700
+  },
+  {
+    "lesson": "EIP-3.6-03",
+    "id": "covered-downside",
+    "method": "difference",
+    "inputs": [
+      4000,
+      4800
+    ],
+    "expected": -800
+  },
+  {
+    "lesson": "EIP-3.6-04",
+    "id": "call-table",
+    "method": "option_table",
+    "inputs": [
+      "call",
+      50,
+      4,
+      [
+        30,
+        50,
+        52,
+        54,
+        70
+      ]
+    ],
+    "expected": [
+      -4,
+      -4,
+      -2,
+      0,
+      16
+    ]
+  },
+  {
+    "lesson": "EIP-3.6-04",
+    "id": "put-table",
+    "method": "option_table",
+    "inputs": [
+      "put",
+      50,
+      3,
+      [
+        0,
+        30,
+        47,
+        49,
+        50,
+        70
+      ]
+    ],
+    "expected": [
+      47,
+      17,
+      0,
+      -2,
+      -3,
+      -3
+    ]
+  },
+  {
+    "lesson": "EIP-3.6-04",
+    "id": "protective-table",
+    "method": "protective_put",
+    "inputs": [
+      50,
+      45,
+      2,
+      [
+        20,
+        45,
+        50,
+        70
+      ]
+    ],
+    "expected": [
+      -7,
+      -7,
+      -2,
+      18
+    ]
+  },
+  {
+    "lesson": "EIP-3.6-04",
+    "id": "protective-max-loss",
+    "method": "product",
+    "inputs": [
+      7,
+      100
+    ],
+    "expected": 700
+  },
+  {
+    "lesson": "EIP-3.6-05",
+    "id": "AUDIT-MATCHED-FORWARD",
+    "method": "ratio",
+    "inputs": [
+      70000,
+      1.1
+    ],
+    "expected": 63636.36363636363
+  },
+  {
+    "lesson": "EIP-3.6-05",
+    "id": "AUDIT-EXCESS-EFFECT",
+    "method": "difference",
+    "inputs": [
+      63636.36363636363,
+      60909.0909090909
+    ],
+    "expected": 2727.27272727272
+  },
+  {
+    "lesson": "EIP-3.6-05",
+    "id": "forward-euro-receipt",
+    "method": "ratio",
+    "inputs": [
+      100000,
+      1.1
+    ],
+    "expected": 90909.0909090909
+  },
+  {
+    "lesson": "EIP-3.6-05",
+    "id": "mismatched-net",
+    "method": "net_revenue",
+    "inputs": [
+      90909.0909090909,
+      30000
+    ],
+    "expected": 60909.0909090909
+  },
+  {
+    "lesson": "EIP-3.6-05",
+    "id": "put-downside-profit",
+    "method": "difference",
+    "inputs": [
+      5000,
+      5300
+    ],
+    "expected": -300
+  },
+  {
+    "lesson": "EIP-3.6-05",
+    "id": "put-upside-profit",
+    "method": "difference",
+    "inputs": [
+      6500,
+      5300
+    ],
+    "expected": 1200
+  },
+  {
+    "lesson": "EIP-3.6-05",
+    "id": "hedge-contracts",
+    "method": "ratio",
+    "inputs": [
+      160000,
+      40000
+    ],
+    "expected": 4
+  },
+  {
+    "lesson": "EIP-3.6-05",
+    "id": "residual-loss",
+    "method": "sum",
+    "inputs": [
+      -30000,
+      16000
+    ],
+    "expected": -14000
+  },
+  {
+    "lesson": "EIP-3.6-06",
+    "id": "margin-result",
+    "method": "net_revenue",
+    "inputs": [
+      3600,
+      3000,
+      800
+    ],
+    "expected": -200
+  },
+  {
+    "lesson": "EIP-3.6-06",
+    "id": "option-disposal",
+    "method": "net_revenue",
+    "inputs": [
+      900,
+      10,
+      600,
+      10
+    ],
+    "expected": 280
+  },
+  {
+    "lesson": "EIP-3.6-06",
+    "id": "annual-aggregate",
+    "method": "sum",
+    "inputs": [
+      280,
+      420
+    ],
+    "expected": 700
+  },
+  {
+    "lesson": "EIP-3.6-06",
+    "id": "assumed-ordinary-tax",
+    "method": "product",
+    "inputs": [
+      700,
+      0.3
+    ],
+    "expected": 210
+  },
+  {
+    "lesson": "EIP-3.6-06",
+    "id": "ordinary-net",
+    "method": "net_revenue",
+    "inputs": [
+      10800,
+      240
+    ],
+    "expected": 10560
+  },
+  {
+    "lesson": "EIP-3.6-06",
+    "id": "assumed-interest-net",
+    "method": "net_revenue",
+    "inputs": [
+      10800,
+      160
+    ],
+    "expected": 10640
+  },
+  {
+    "lesson": "EIP-3.7-01",
+    "id": "sell-euros",
+    "method": "product",
+    "inputs": [
+      10000,
+      1.099
+    ],
+    "expected": 10990
+  },
+  {
+    "lesson": "EIP-3.7-01",
+    "id": "buy-euros",
+    "method": "ratio",
+    "inputs": [
+      11010,
+      1.101
+    ],
+    "expected": 10000
+  },
+  {
+    "lesson": "EIP-3.7-01",
+    "id": "inverse-bid",
+    "method": "ratio",
+    "inputs": [
+      1,
+      1.101
+    ],
+    "expected": 0.9082652134423251
+  },
+  {
+    "lesson": "EIP-3.7-01",
+    "id": "inverse-ask",
+    "method": "ratio",
+    "inputs": [
+      1,
+      1.099
+    ],
+    "expected": 0.9099181073703367
+  },
+  {
+    "lesson": "EIP-3.7-01",
+    "id": "round-trip",
+    "method": "ratio",
+    "inputs": [
+      10990,
+      1.101
+    ],
+    "expected": 9981.834695731155
+  },
+  {
+    "lesson": "EIP-3.7-02",
+    "id": "midpoint-cross",
+    "method": "ratio",
+    "inputs": [
+      1.1,
+      0.88
+    ],
+    "expected": 1.25
+  },
+  {
+    "lesson": "EIP-3.7-02",
+    "id": "cross-bid",
+    "method": "ratio",
+    "inputs": [
+      1.099,
+      0.881
+    ],
+    "expected": 1.2474460839954598
+  },
+  {
+    "lesson": "EIP-3.7-02",
+    "id": "cross-ask",
+    "method": "ratio",
+    "inputs": [
+      1.101,
+      0.879
+    ],
+    "expected": 1.2525597269624573
+  },
+  {
+    "lesson": "EIP-3.7-02",
+    "id": "route-gross",
+    "method": "product",
+    "inputs": [
+      10000,
+      1.099,
+      149.8
+    ],
+    "expected": 1646302
+  },
+  {
+    "lesson": "EIP-3.7-02",
+    "id": "route-net",
+    "method": "net_revenue",
+    "inputs": [
+      1644804,
+      500
+    ],
+    "expected": 1644304
+  },
+  {
+    "lesson": "EIP-3.7-02",
+    "id": "route-benefit",
+    "method": "difference",
+    "inputs": [
+      1644304,
+      1644000
+    ],
+    "expected": 304
+  },
+  {
+    "lesson": "EIP-3.7-03",
+    "id": "gain-to-home-loss",
+    "method": "home_return",
+    "inputs": [
+      0.1,
+      1.1,
+      1.25
+    ],
+    "expected": -0.032
+  },
+  {
+    "lesson": "EIP-3.7-03",
+    "id": "currency-factor",
+    "method": "ratio",
+    "inputs": [
+      1.1,
+      1.25
+    ],
+    "expected": 0.88
+  },
+  {
+    "lesson": "EIP-3.7-03",
+    "id": "loss-to-home-gain",
+    "method": "home_return",
+    "inputs": [
+      -0.08,
+      1.2,
+      1.08
+    ],
+    "expected": 0.022222222222222223
+  },
+  {
+    "lesson": "EIP-3.7-03",
+    "id": "actual-final-cash",
+    "method": "fx_net",
+    "inputs": [
+      11400,
+      1.14,
+      20
+    ],
+    "expected": 9980
+  },
+  {
+    "lesson": "EIP-3.7-03",
+    "id": "reference-return",
+    "method": "home_return",
+    "inputs": [
+      0.05,
+      1.1,
+      1.13
+    ],
+    "expected": 0.022123893805309734
+  },
+  {
+    "lesson": "EIP-3.7-04",
+    "id": "known-forward",
+    "method": "ratio",
+    "inputs": [
+      110000,
+      1.1
+    ],
+    "expected": 100000
+  },
+  {
+    "lesson": "EIP-3.7-04",
+    "id": "principal-hedge-total",
+    "method": "sum",
+    "inputs": [
+      100000,
+      8800
+    ],
+    "expected": 108800
+  },
+  {
+    "lesson": "EIP-3.7-04",
+    "id": "partial-adverse",
+    "method": "net_revenue",
+    "inputs": [
+      94000,
+      200
+    ],
+    "expected": 93800
+  },
+  {
+    "lesson": "EIP-3.7-04",
+    "id": "partial-favourable",
+    "method": "net_revenue",
+    "inputs": [
+      105000,
+      200
+    ],
+    "expected": 104800
+  },
+  {
+    "lesson": "EIP-3.7-04",
+    "id": "partial-range",
+    "method": "difference",
+    "inputs": [
+      104800,
+      93800
+    ],
+    "expected": 11000
+  },
+  {
+    "lesson": "EIP-3.8-01",
+    "id": "nav",
+    "method": "ratio",
+    "inputs": [
+      10000000,
+      100000
+    ],
+    "expected": 100
+  },
+  {
+    "lesson": "EIP-3.8-01",
+    "id": "ownership",
+    "method": "ratio",
+    "inputs": [
+      200,
+      100000
+    ],
+    "expected": 0.002
+  },
+  {
+    "lesson": "EIP-3.8-01",
+    "id": "issuer-lookthrough",
+    "method": "product",
+    "inputs": [
+      2000000,
+      0.002
+    ],
+    "expected": 4000
+  },
+  {
+    "lesson": "EIP-3.8-01",
+    "id": "net-assets",
+    "method": "net_revenue",
+    "inputs": [
+      5200000,
+      50000
+    ],
+    "expected": 5150000
+  },
+  {
+    "lesson": "EIP-3.8-01",
+    "id": "ending-nav",
+    "method": "ratio",
+    "inputs": [
+      5150000,
+      50000
+    ],
+    "expected": 103
+  },
+  {
+    "lesson": "EIP-3.8-02",
+    "id": "assets-net",
+    "method": "net_revenue",
+    "inputs": [
+      8600000,
+      200000
+    ],
+    "expected": 8400000
+  },
+  {
+    "lesson": "EIP-3.8-02",
+    "id": "subscription-units",
+    "method": "ratio",
+    "inputs": [
+      10000,
+      100
+    ],
+    "expected": 100
+  },
+  {
+    "lesson": "EIP-3.8-02",
+    "id": "redemption-gross",
+    "method": "product",
+    "inputs": [
+      250,
+      104
+    ],
+    "expected": 26000
+  },
+  {
+    "lesson": "EIP-3.8-02",
+    "id": "redemption-cash",
+    "method": "net_revenue",
+    "inputs": [
+      26000,
+      130,
+      20
+    ],
+    "expected": 25850
+  },
+  {
+    "lesson": "EIP-3.8-02",
+    "id": "swing-nav",
+    "method": "product",
+    "inputs": [
+      100,
+      0.996
+    ],
+    "expected": 99.6
+  },
+  {
+    "lesson": "EIP-3.8-03",
+    "id": "bond-scenario",
+    "method": "growth_chain",
+    "inputs": [
+      20000,
+      -0.05
+    ],
+    "expected": 19000
+  },
+  {
+    "lesson": "EIP-3.8-03",
+    "id": "equity-scenario",
+    "method": "growth_chain",
+    "inputs": [
+      20000,
+      -0.25
+    ],
+    "expected": 15000
+  },
+  {
+    "lesson": "EIP-3.8-03",
+    "id": "aggregate-large",
+    "method": "sum",
+    "inputs": [
+      0.08,
+      0.08,
+      0.08,
+      0.08,
+      0.08
+    ],
+    "expected": 0.4
+  },
+  {
+    "lesson": "EIP-3.8-03",
+    "id": "aggregate-failed",
+    "method": "sum",
+    "inputs": [
+      0.08,
+      0.08,
+      0.08,
+      0.08,
+      0.08,
+      0.06
+    ],
+    "expected": 0.46
+  },
+  {
+    "lesson": "EIP-3.8-03",
+    "id": "tracking-gap",
+    "method": "difference",
+    "inputs": [
+      0.074,
+      0.08
+    ],
+    "expected": -0.006
+  },
+  {
+    "lesson": "EIP-3.8-03",
+    "id": "fund-ending",
+    "method": "growth_chain",
+    "inputs": [
+      10000,
+      0.074
+    ],
+    "expected": 10740
+  },
+  {
+    "lesson": "EIP-3.8-04",
+    "id": "low-cost-growth",
+    "method": "growth_chain",
+    "inputs": [
+      10000,
+      0.045,
+      0.045,
+      0.045,
+      0.045,
+      0.045,
+      0.045,
+      0.045,
+      0.045,
+      0.045,
+      0.045
+    ],
+    "expected": 15529.69421732897
+  },
+  {
+    "lesson": "EIP-3.8-04",
+    "id": "higher-cost-growth",
+    "method": "growth_chain",
+    "inputs": [
+      10000,
+      0.035,
+      0.035,
+      0.035,
+      0.035,
+      0.035,
+      0.035,
+      0.035,
+      0.035,
+      0.035,
+      0.035
+    ],
+    "expected": 14105.987606211225
+  },
+  {
+    "lesson": "EIP-3.8-04",
+    "id": "fee-added-investment",
+    "method": "ratio",
+    "inputs": [
+      10100,
+      1.01
+    ],
+    "expected": 10000
+  },
+  {
+    "lesson": "EIP-3.8-04",
+    "id": "actual-return",
+    "method": "ratio",
+    "inputs": [
+      300,
+      10100
+    ],
+    "expected": 0.0297029702970297
+  },
+  {
+    "lesson": "EIP-3.8-04",
+    "id": "gate-now",
+    "method": "product",
+    "inputs": [
+      1000,
+      0.4,
+      100
+    ],
+    "expected": 40000
+  },
+  {
+    "lesson": "EIP-3.8-04",
+    "id": "gate-later-loss",
+    "method": "sum",
+    "inputs": [
+      40000,
+      57000
+    ],
+    "expected": 97000
+  },
+  {
+    "lesson": "EIP-3.8-05",
+    "id": "equity-liability-value",
+    "method": "growth_chain",
+    "inputs": [
+      25000,
+      -0.2
+    ],
+    "expected": 20000
+  },
+  {
+    "lesson": "EIP-3.8-05",
+    "id": "bond-liability-value",
+    "method": "growth_chain",
+    "inputs": [
+      25000,
+      -0.04
+    ],
+    "expected": 24000
+  },
+  {
+    "lesson": "EIP-3.8-05",
+    "id": "thirty-percent-annualised",
+    "method": "terminal_rate",
+    "inputs": [
+      100,
+      130,
+      3
+    ],
+    "expected": 0.09139288306110593
+  },
+  {
+    "lesson": "EIP-3.8-05",
+    "id": "distribution-total",
+    "method": "sum",
+    "inputs": [
+      10800,
+      900
+    ],
+    "expected": 11700
+  },
+  {
+    "lesson": "EIP-3.8-05",
+    "id": "overlap",
+    "method": "sum",
+    "inputs": [
+      12000,
+      10000
+    ],
+    "expected": 22000
+  },
+  {
+    "lesson": "EIP-3.8-05",
+    "id": "concentration",
+    "method": "ratio",
+    "inputs": [
+      22000,
+      100000
+    ],
+    "expected": 0.22
+  },
+  {
+    "lesson": "EIP-3.8-05",
+    "id": "group-loss",
+    "method": "product",
+    "inputs": [
+      22000,
+      0.4
+    ],
+    "expected": 8800
+  },
+  {
+    "lesson": "EIP-3.8-06",
+    "id": "annual-vehicle-tax",
+    "method": "product",
+    "inputs": [
+      100000000,
+      0.0005
+    ],
+    "expected": 50000
+  },
+  {
+    "lesson": "EIP-3.8-06",
+    "id": "quarter-tax",
+    "method": "ratio",
+    "inputs": [
+      50000,
+      4
+    ],
+    "expected": 12500
+  },
+  {
+    "lesson": "EIP-3.8-06",
+    "id": "unit-tax-effect",
+    "method": "ratio",
+    "inputs": [
+      50000,
+      1000000
+    ],
+    "expected": 0.05
+  },
+  {
+    "lesson": "EIP-3.8-06",
+    "id": "personal-net",
+    "method": "net_revenue",
+    "inputs": [
+      1000,
+      300
+    ],
+    "expected": 700
+  },
+  {
+    "lesson": "EIP-3.8-06",
+    "id": "distribution-net-wealth",
+    "method": "net_revenue",
+    "inputs": [
+      10600,
+      180
+    ],
+    "expected": 10420
+  },
+  {
+    "lesson": "EIP-3.9-01",
+    "id": "lookthrough-exposure",
+    "method": "product",
+    "inputs": [
+      20000,
+      0.03
+    ],
+    "expected": 600
+  },
+  {
+    "lesson": "EIP-3.9-01",
+    "id": "initial-intensity",
+    "method": "weighted",
+    "inputs": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        100,
+        20
+      ]
+    ],
+    "expected": 60
+  },
+  {
+    "lesson": "EIP-3.9-01",
+    "id": "changed-intensity",
+    "method": "weighted",
+    "inputs": [
+      [
+        0.25,
+        0.75
+      ],
+      [
+        100,
+        20
+      ]
+    ],
+    "expected": 40
+  },
+  {
+    "lesson": "EIP-3.9-01",
+    "id": "metric-change",
+    "method": "price_return",
+    "inputs": [
+      60,
+      40
+    ],
+    "expected": -0.3333333333333333
+  },
+  {
+    "lesson": "EIP-3.9-01",
+    "id": "thematic-loss",
+    "method": "product",
+    "inputs": [
+      15000,
+      0.4
+    ],
+    "expected": 6000
+  },
+  {
+    "lesson": "EIP-3.9-02",
+    "id": "intensity-one",
+    "method": "ratio",
+    "inputs": [
+      100000,
+      100
+    ],
+    "expected": 1000
+  },
+  {
+    "lesson": "EIP-3.9-02",
+    "id": "intensity-two",
+    "method": "ratio",
+    "inputs": [
+      108000,
+      120
+    ],
+    "expected": 900
+  },
+  {
+    "lesson": "EIP-3.9-02",
+    "id": "absolute-change",
+    "method": "price_return",
+    "inputs": [
+      100000,
+      108000
+    ],
+    "expected": 0.08
+  },
+  {
+    "lesson": "EIP-3.9-02",
+    "id": "carbon-scenario",
+    "method": "product",
+    "inputs": [
+      108000,
+      50
+    ],
+    "expected": 5400000
+  },
+  {
+    "lesson": "EIP-3.9-02",
+    "id": "turnover-net",
+    "method": "net_revenue",
+    "inputs": [
+      400000,
+      300000
+    ],
+    "expected": 100000
+  },
+  {
+    "lesson": "EIP-3.9-02",
+    "id": "weak-turnover-net",
+    "method": "net_revenue",
+    "inputs": [
+      160000,
+      300000
+    ],
+    "expected": -140000
+  },
+  {
+    "lesson": "EIP-3.9-02",
+    "id": "minority-gap",
+    "method": "product",
+    "inputs": [
+      6000000,
+      0.005
+    ],
+    "expected": 30000
+  },
+  {
+    "lesson": "EIP-3.9-03",
+    "id": "physical-cash-need",
+    "method": "net_revenue",
+    "inputs": [
+      4500000,
+      2000000
+    ],
+    "expected": 2500000
+  },
+  {
+    "lesson": "EIP-3.9-03",
+    "id": "transition-cost",
+    "method": "product",
+    "inputs": [
+      200000,
+      40
+    ],
+    "expected": 8000000
+  },
+  {
+    "lesson": "EIP-3.9-03",
+    "id": "low-absorption",
+    "method": "product",
+    "inputs": [
+      8000000,
+      0.25
+    ],
+    "expected": 2000000
+  },
+  {
+    "lesson": "EIP-3.9-03",
+    "id": "five-year-value",
+    "method": "dated_pv",
+    "inputs": [
+      [
+        [
+          1000000,
+          1
+        ],
+        [
+          1000000,
+          2
+        ],
+        [
+          1000000,
+          3
+        ],
+        [
+          1000000,
+          4
+        ],
+        [
+          1000000,
+          5
+        ]
+      ],
+      0.08
+    ],
+    "expected": 3992710.0370780868
+  },
+  {
+    "lesson": "EIP-3.9-03",
+    "id": "three-year-value",
+    "method": "dated_pv",
+    "inputs": [
+      [
+        [
+          1000000,
+          1
+        ],
+        [
+          1000000,
+          2
+        ],
+        [
+          1000000,
+          3
+        ]
+      ],
+      0.08
+    ],
+    "expected": 2577096.9872478796
+  },
+  {
+    "lesson": "EIP-3.10-01",
+    "id": "capped-payments",
+    "method": "capped_note",
+    "inputs": [
+      10000,
+      0.8,
+      0.08,
+      [
+        -0.2,
+        0.05,
+        0.15
+      ]
+    ],
+    "expected": [
+      10000,
+      10400,
+      10800
+    ]
+  },
+  {
+    "lesson": "EIP-3.10-01",
+    "id": "barrier-payments",
+    "method": "barrier_note",
+    "inputs": [
+      10000,
+      600,
+      0.7,
+      [
+        0.8,
+        0.7,
+        0.69,
+        0.4
+      ]
+    ],
+    "expected": [
+      10600,
+      10600,
+      7500,
+      4600
+    ]
+  },
+  {
+    "lesson": "EIP-3.10-01",
+    "id": "barrier-loss",
+    "method": "price_return",
+    "inputs": [
+      10000,
+      7500
+    ],
+    "expected": -0.25
+  },
+  {
+    "lesson": "EIP-3.10-01",
+    "id": "boundary-change",
+    "method": "difference",
+    "inputs": [
+      10600,
+      7500
+    ],
+    "expected": 3100
+  },
+  {
+    "lesson": "EIP-3.10-01",
+    "id": "path-b-payment",
+    "method": "product",
+    "inputs": [
+      10000,
+      0.8
+    ],
+    "expected": 8000
+  },
+  {
+    "lesson": "EIP-3.10-02",
+    "id": "ordinary-coupon",
+    "method": "product",
+    "inputs": [
+      10000,
+      0.05
+    ],
+    "expected": 500
+  },
+  {
+    "lesson": "EIP-3.10-02",
+    "id": "exit-estimate-one",
+    "method": "net_revenue",
+    "inputs": [
+      20000,
+      900
+    ],
+    "expected": 19100
+  },
+  {
+    "lesson": "EIP-3.10-02",
+    "id": "exit-estimate-two",
+    "method": "net_revenue",
+    "inputs": [
+      20000,
+      1600
+    ],
+    "expected": 18400
+  },
+  {
+    "lesson": "EIP-3.10-02",
+    "id": "essential-shortfall",
+    "method": "difference",
+    "inputs": [
+      9500,
+      7500
+    ],
+    "expected": 2000
+  },
+  {
+    "lesson": "EIP-4.1-02",
+    "id": "uncommitted-liquid",
+    "method": "net_revenue",
+    "inputs": [
+      120000,
+      50000,
+      20000,
+      30000
+    ],
+    "expected": 20000
+  },
+  {
+    "lesson": "EIP-4.1-02",
+    "id": "structured-total",
+    "method": "sum",
+    "inputs": [
+      9000,
+      1050
+    ],
+    "expected": 10050
+  },
+  {
+    "lesson": "EIP-4.1-02",
+    "id": "structured-loss",
+    "method": "difference",
+    "inputs": [
+      15000,
+      10050
+    ],
+    "expected": 4950
+  },
+  {
+    "lesson": "EIP-4.1-02",
+    "id": "longer-goal-remainder",
+    "method": "difference",
+    "inputs": [
+      25000,
+      18000
+    ],
+    "expected": 7000
+  },
+  {
+    "lesson": "EIP-4.1-02",
+    "id": "decline-and-tuition",
+    "method": "net_revenue",
+    "inputs": [
+      20000,
+      18000
+    ],
+    "expected": 2000
+  },
+  {
+    "lesson": "EIP-4.1-03",
+    "id": "retirement-gap",
+    "method": "difference",
+    "inputs": [
+      3000,
+      2300
+    ],
+    "expected": 700
+  },
+  {
+    "lesson": "EIP-4.1-03",
+    "id": "annual-withdrawal",
+    "method": "product",
+    "inputs": [
+      700,
+      12
+    ],
+    "expected": 8400
+  },
+  {
+    "lesson": "EIP-4.1-03",
+    "id": "cashflow-change",
+    "method": "sum",
+    "inputs": [
+      12000,
+      8400
+    ],
+    "expected": 20400
+  },
+  {
+    "lesson": "EIP-4.1-03",
+    "id": "home-uncommitted",
+    "method": "net_revenue",
+    "inputs": [
+      90000,
+      55000,
+      15000
+    ],
+    "expected": 20000
+  },
+  {
+    "lesson": "EIP-4.1-03",
+    "id": "inheritance-loss-share",
+    "method": "ratio",
+    "inputs": [
+      20000,
+      340000
+    ],
+    "expected": 0.058823529411764705
+  },
+  {
+    "lesson": "EIP-4.1-04",
+    "id": "a-sustainable-gap",
+    "method": "difference",
+    "inputs": [
+      30,
+      25
+    ],
+    "expected": 5
+  },
+  {
+    "lesson": "EIP-4.1-04",
+    "id": "b-taxonomy-gap",
+    "method": "difference",
+    "inputs": [
+      10,
+      8
+    ],
+    "expected": 2
+  },
+  {
+    "lesson": "EIP-4.1-04",
+    "id": "minimum-shortfall",
+    "method": "difference",
+    "inputs": [
+      30,
+      20
+    ],
+    "expected": 10
+  },
+  {
+    "lesson": "EIP-4.1-04",
+    "id": "adaptation-gap",
+    "method": "difference",
+    "inputs": [
+      15,
+      10
+    ],
+    "expected": 5
+  },
+  {
+    "lesson": "EIP-5.1-01",
+    "id": "three-year-wealth",
+    "method": "growth_chain",
+    "inputs": [
+      10000,
+      0.1,
+      -0.05,
+      0.15
+    ],
+    "expected": 12017.5
+  },
+  {
+    "lesson": "EIP-5.1-01",
+    "id": "arithmetic-mean",
+    "method": "mean",
+    "inputs": [
+      0.1,
+      -0.05,
+      0.15
+    ],
+    "expected": 0.06666666666666667
+  },
+  {
+    "lesson": "EIP-5.1-01",
+    "id": "geometric-mean",
+    "method": "terminal_rate",
+    "inputs": [
+      10000,
+      12017.5,
+      3
+    ],
+    "expected": 0.06317488841317287
+  },
+  {
+    "lesson": "EIP-5.1-01",
+    "id": "volatile-two-year",
+    "method": "growth_chain",
+    "inputs": [
+      10000,
+      0.3,
+      -0.1
+    ],
+    "expected": 11700
+  },
+  {
+    "lesson": "EIP-5.1-01",
+    "id": "volatile-geometric",
+    "method": "terminal_rate",
+    "inputs": [
+      10000,
+      11700,
+      2
+    ],
+    "expected": 0.08166538263919688
+  },
+  {
+    "lesson": "EIP-5.1-01",
+    "id": "share-total",
+    "method": "ratio",
+    "inputs": [
+      4,
+      40
+    ],
+    "expected": 0.1
+  },
+  {
+    "lesson": "EIP-5.1-02",
+    "id": "sample-variance",
+    "method": "variance",
+    "inputs": [
+      [
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ],
+      1
+    ],
+    "expected": 0.016666666666666666
+  },
+  {
+    "lesson": "EIP-5.1-02",
+    "id": "population-variance",
+    "method": "variance",
+    "inputs": [
+      [
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ],
+      0
+    ],
+    "expected": 0.0125
+  },
+  {
+    "lesson": "EIP-5.1-02",
+    "id": "sample-volatility",
+    "method": "volatility",
+    "inputs": [
+      [
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ],
+      1
+    ],
+    "expected": 0.12909944487358055
+  },
+  {
+    "lesson": "EIP-5.1-02",
+    "id": "quiet-volatility",
+    "method": "volatility",
+    "inputs": [
+      [
+        0.04,
+        0.06,
+        0.04,
+        0.06
+      ],
+      1
+    ],
+    "expected": 0.011547005383792516
+  },
+  {
+    "lesson": "EIP-5.1-02",
+    "id": "annual-scale",
+    "method": "vol_scale",
+    "inputs": [
+      0.02,
+      12
+    ],
+    "expected": 0.06928203230275509
+  },
+  {
+    "lesson": "EIP-5.2-01",
+    "id": "positive-covariance",
+    "method": "covariance",
+    "inputs": [
+      [
+        -0.1,
+        0,
+        0.1
+      ],
+      [
+        0.02,
+        0.04,
+        0.06
+      ],
+      1
+    ],
+    "expected": 0.002
+  },
+  {
+    "lesson": "EIP-5.2-01",
+    "id": "positive-correlation",
+    "method": "correlation",
+    "inputs": [
+      [
+        -0.1,
+        0,
+        0.1
+      ],
+      [
+        0.02,
+        0.04,
+        0.06
+      ]
+    ],
+    "expected": 1
+  },
+  {
+    "lesson": "EIP-5.2-01",
+    "id": "negative-covariance",
+    "method": "covariance",
+    "inputs": [
+      [
+        -0.1,
+        0,
+        0.1
+      ],
+      [
+        0.06,
+        0.02,
+        0.04
+      ],
+      1
+    ],
+    "expected": -0.001
+  },
+  {
+    "lesson": "EIP-5.2-01",
+    "id": "negative-correlation",
+    "method": "correlation",
+    "inputs": [
+      [
+        -0.1,
+        0,
+        0.1
+      ],
+      [
+        0.06,
+        0.02,
+        0.04
+      ]
+    ],
+    "expected": -0.5
+  },
+  {
+    "lesson": "EIP-5.2-01",
+    "id": "nonlinear-zero",
+    "method": "correlation",
+    "inputs": [
+      [
+        -0.1,
+        0,
+        0.1
+      ],
+      [
+        0.1,
+        0,
+        0.1
+      ]
+    ],
+    "expected": 0
+  },
+  {
+    "lesson": "EIP-5.2-02",
+    "id": "expected-return",
+    "method": "weighted",
+    "inputs": [
+      [
+        0.6,
+        0.4
+      ],
+      [
+        0.08,
+        0.03
+      ]
+    ],
+    "expected": 0.06
+  },
+  {
+    "lesson": "EIP-5.2-02",
+    "id": "alternative-return",
+    "method": "weighted",
+    "inputs": [
+      [
+        0.3,
+        0.7
+      ],
+      [
+        0.08,
+        0.03
+      ]
+    ],
+    "expected": 0.045
+  },
+  {
+    "lesson": "EIP-5.2-02",
+    "id": "realised-return",
+    "method": "weighted",
+    "inputs": [
+      [
+        0.6,
+        0.4
+      ],
+      [
+        0.2,
+        -0.05
+      ]
+    ],
+    "expected": 0.1
+  },
+  {
+    "lesson": "EIP-5.2-02",
+    "id": "drift-weight",
+    "method": "ratio",
+    "inputs": [
+      72000,
+      110000
+    ],
+    "expected": 0.6545454545454545
+  },
+  {
+    "lesson": "EIP-5.2-02",
+    "id": "rebalance-sale",
+    "method": "difference",
+    "inputs": [
+      72000,
+      66000
+    ],
+    "expected": 6000
+  },
+  {
+    "lesson": "EIP-5.2-02",
+    "id": "leveraged-upside",
+    "method": "weighted",
+    "inputs": [
+      [
+        1.2,
+        -0.2
+      ],
+      [
+        0.08,
+        0.03
+      ]
+    ],
+    "expected": 0.09
+  },
+  {
+    "lesson": "EIP-5.2-02",
+    "id": "leveraged-downside",
+    "method": "weighted",
+    "inputs": [
+      [
+        1.2,
+        -0.2
+      ],
+      [
+        -0.2,
+        0.03
+      ]
+    ],
+    "expected": -0.246
+  },
+  {
+    "lesson": "EIP-5.2-03",
+    "id": "zero-correlation-risk",
+    "method": "portfolio_sigma",
+    "inputs": [
+      0.6,
+      0.2,
+      0.1,
+      0
+    ],
+    "expected": 0.1264911064067352
+  },
+  {
+    "lesson": "EIP-5.2-03",
+    "id": "half-correlation-risk",
+    "method": "portfolio_sigma",
+    "inputs": [
+      0.6,
+      0.2,
+      0.1,
+      0.5
+    ],
+    "expected": 0.1442220510185596
+  },
+  {
+    "lesson": "EIP-5.2-03",
+    "id": "perfect-positive",
+    "method": "portfolio_sigma",
+    "inputs": [
+      0.6,
+      0.2,
+      0.1,
+      1
+    ],
+    "expected": 0.16
+  },
+  {
+    "lesson": "EIP-5.2-03",
+    "id": "perfect-negative",
+    "method": "portfolio_sigma",
+    "inputs": [
+      0.6,
+      0.2,
+      0.1,
+      -1
+    ],
+    "expected": 0.08
+  },
+  {
+    "lesson": "EIP-5.2-03",
+    "id": "exact-offset",
+    "method": "portfolio_sigma",
+    "inputs": [
+      0.3333333333333333,
+      0.2,
+      0.1,
+      -1
+    ],
+    "expected": 0
+  },
+  {
+    "lesson": "EIP-5.2-03",
+    "id": "imperfect-offset",
+    "method": "portfolio_sigma",
+    "inputs": [
+      0.3333333333333333,
+      0.2,
+      0.1,
+      -0.8
+    ],
+    "expected": 0.04216370213557839
+  },
+  {
+    "lesson": "EIP-5.3-01",
+    "id": "target-weight",
+    "method": "ratio",
+    "inputs": [
+      0.03,
+      0.05
+    ],
+    "expected": 0.6
+  },
+  {
+    "lesson": "EIP-5.3-01",
+    "id": "min-variance-weight",
+    "method": "min_variance_weight",
+    "inputs": [
+      0.2,
+      0.1,
+      0.25
+    ],
+    "expected": 0.125
+  },
+  {
+    "lesson": "EIP-5.3-01",
+    "id": "minimum-volatility",
+    "method": "portfolio_sigma",
+    "inputs": [
+      0.125,
+      0.2,
+      0.1,
+      0.25
+    ],
+    "expected": 0.09682458365518543
+  },
+  {
+    "lesson": "EIP-5.3-01",
+    "id": "minimum-expected",
+    "method": "weighted",
+    "inputs": [
+      [
+        0.125,
+        0.875
+      ],
+      [
+        0.08,
+        0.03
+      ]
+    ],
+    "expected": 0.03625
+  },
+  {
+    "lesson": "EIP-5.3-01",
+    "id": "utility-p-high",
+    "method": "utility",
+    "inputs": [
+      0.06,
+      0.12,
+      3
+    ],
+    "expected": 0.0384
+  },
+  {
+    "lesson": "EIP-5.3-01",
+    "id": "utility-q-high",
+    "method": "utility",
+    "inputs": [
+      0.07,
+      0.18,
+      3
+    ],
+    "expected": 0.0214
+  },
+  {
+    "lesson": "EIP-5.3-01",
+    "id": "utility-q-low",
+    "method": "utility",
+    "inputs": [
+      0.07,
+      0.18,
+      0.5
+    ],
+    "expected": 0.0619
+  },
+  {
+    "lesson": "EIP-5.3-02",
+    "id": "new-equity-room",
+    "method": "difference",
+    "inputs": [
+      40000,
+      30000
+    ],
+    "expected": 10000
+  },
+  {
+    "lesson": "EIP-5.3-02",
+    "id": "available-liquid",
+    "method": "difference",
+    "inputs": [
+      70000,
+      25000
+    ],
+    "expected": 45000
+  },
+  {
+    "lesson": "EIP-5.3-02",
+    "id": "switch-annual-benefit",
+    "method": "product",
+    "inputs": [
+      100000,
+      0.003
+    ],
+    "expected": 300
+  },
+  {
+    "lesson": "EIP-5.3-02",
+    "id": "switch-simple-break-even",
+    "method": "ratio",
+    "inputs": [
+      1000,
+      300
+    ],
+    "expected": 3.3333333333333335
+  },
+  {
+    "lesson": "EIP-5.3-02",
+    "id": "base-correlation-risk",
+    "method": "portfolio_sigma",
+    "inputs": [
+      0.6,
+      0.2,
+      0.1,
+      0.2
+    ],
+    "expected": 0.1338656042454521
+  },
+  {
+    "lesson": "EIP-5.3-02",
+    "id": "stress-correlation-risk",
+    "method": "portfolio_sigma",
+    "inputs": [
+      0.6,
+      0.2,
+      0.1,
+      0.8
+    ],
+    "expected": 0.15388307249337077
+  },
+  {
+    "lesson": "EIP-5.4-01",
+    "id": "minimum-weight-zero-correlation",
+    "method": "min_variance_weight",
+    "inputs": [
+      0.2,
+      0.1,
+      0
+    ],
+    "expected": 0.2
+  },
+  {
+    "lesson": "EIP-5.4-01",
+    "id": "minimum-risk",
+    "method": "portfolio_sigma",
+    "inputs": [
+      0.2,
+      0.2,
+      0.1,
+      0
+    ],
+    "expected": 0.0894427190999916
+  },
+  {
+    "lesson": "EIP-5.4-01",
+    "id": "half-risk",
+    "method": "portfolio_sigma",
+    "inputs": [
+      0.5,
+      0.2,
+      0.1,
+      0
+    ],
+    "expected": 0.1118033988749895
+  },
+  {
+    "lesson": "EIP-5.4-01",
+    "id": "cash-risky-expected",
+    "method": "weighted",
+    "inputs": [
+      [
+        0.6,
+        0.4
+      ],
+      [
+        0.08,
+        0.02
+      ]
+    ],
+    "expected": 0.056
+  },
+  {
+    "lesson": "EIP-5.4-01",
+    "id": "cash-risky-volatility",
+    "method": "product",
+    "inputs": [
+      0.6,
+      0.15
+    ],
+    "expected": 0.09
+  },
+  {
+    "lesson": "EIP-5.4-01",
+    "id": "leveraged-model",
+    "method": "weighted",
+    "inputs": [
+      [
+        1.2,
+        -0.2
+      ],
+      [
+        0.08,
+        0.02
+      ]
+    ],
+    "expected": 0.092
+  },
+  {
+    "lesson": "EIP-5.4-01",
+    "id": "higher-borrowing",
+    "method": "weighted",
+    "inputs": [
+      [
+        1.2,
+        -0.2
+      ],
+      [
+        0.08,
+        0.04
+      ]
+    ],
+    "expected": 0.088
+  },
+  {
+    "lesson": "EIP-5.4-02",
+    "id": "long-term-capital",
+    "method": "net_revenue",
+    "inputs": [
+      180000,
+      50000,
+      20000
+    ],
+    "expected": 110000
+  },
+  {
+    "lesson": "EIP-5.4-02",
+    "id": "whole-equity-weight",
+    "method": "ratio",
+    "inputs": [
+      66000,
+      180000
+    ],
+    "expected": 0.36666666666666664
+  },
+  {
+    "lesson": "EIP-5.4-02",
+    "id": "scenario-loss",
+    "method": "sum",
+    "inputs": [
+      19800,
+      2200
+    ],
+    "expected": 22000
+  },
+  {
+    "lesson": "EIP-5.4-02",
+    "id": "whole-loss-return",
+    "method": "ratio",
+    "inputs": [
+      -22000,
+      180000
+    ],
+    "expected": -0.12222222222222222
+  },
+  {
+    "lesson": "EIP-5.4-02",
+    "id": "required-growth",
+    "method": "terminal_rate",
+    "inputs": [
+      110000,
+      200000,
+      10
+    ],
+    "expected": 0.06160689621814597
+  },
+  {
+    "lesson": "EIP-5.4-02",
+    "id": "six-percent-value",
+    "method": "growth_chain",
+    "inputs": [
+      110000,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06
+    ],
+    "expected": 196993.24661971402
+  },
+  {
+    "lesson": "EIP-5.5-01",
+    "id": "active-percentage-points",
+    "method": "difference",
+    "inputs": [
+      0.06,
+      0.05
+    ],
+    "expected": 0.01
+  },
+  {
+    "lesson": "EIP-5.5-01",
+    "id": "relative-wealth",
+    "method": "real_return",
+    "inputs": [
+      0.06,
+      0.05
+    ],
+    "expected": 0.009523809523809525
+  },
+  {
+    "lesson": "EIP-5.5-01",
+    "id": "policy-benchmark",
+    "method": "weighted",
+    "inputs": [
+      [
+        0.6,
+        0.4
+      ],
+      [
+        0.12,
+        0.02
+      ]
+    ],
+    "expected": 0.08
+  },
+  {
+    "lesson": "EIP-5.5-01",
+    "id": "alternative-policy",
+    "method": "weighted",
+    "inputs": [
+      [
+        0.4,
+        0.6
+      ],
+      [
+        0.12,
+        0.02
+      ]
+    ],
+    "expected": 0.06
+  },
+  {
+    "lesson": "EIP-5.5-01",
+    "id": "net-wealth",
+    "method": "net_revenue",
+    "inputs": [
+      108000,
+      1500
+    ],
+    "expected": 106500
+  },
+  {
+    "lesson": "EIP-5.5-01",
+    "id": "net-active",
+    "method": "difference",
+    "inputs": [
+      0.065,
+      0.07
+    ],
+    "expected": -0.005
+  },
+  {
+    "lesson": "EIP-5.5-02",
+    "id": "sharpe-a",
+    "method": "excess_ratio",
+    "inputs": [
+      0.07,
+      0.02,
+      0.1
+    ],
+    "expected": 0.5
+  },
+  {
+    "lesson": "EIP-5.5-02",
+    "id": "sharpe-b",
+    "method": "excess_ratio",
+    "inputs": [
+      0.09,
+      0.02,
+      0.2
+    ],
+    "expected": 0.35
+  },
+  {
+    "lesson": "EIP-5.5-02",
+    "id": "model-return",
+    "method": "capm",
+    "inputs": [
+      0.02,
+      1.2,
+      0.07
+    ],
+    "expected": 0.08
+  },
+  {
+    "lesson": "EIP-5.5-02",
+    "id": "model-alpha",
+    "method": "difference",
+    "inputs": [
+      0.09,
+      0.08
+    ],
+    "expected": 0.01
+  },
+  {
+    "lesson": "EIP-5.5-02",
+    "id": "treynor",
+    "method": "excess_ratio",
+    "inputs": [
+      0.09,
+      0.02,
+      1.2
+    ],
+    "expected": 0.058333333333333334
+  },
+  {
+    "lesson": "EIP-5.5-02",
+    "id": "flow-wealth",
+    "method": "product",
+    "inputs": [
+      220,
+      0.8
+    ],
+    "expected": 176
+  },
+  {
+    "lesson": "EIP-5.5-02",
+    "id": "time-weighted",
+    "method": "growth_chain",
+    "inputs": [
+      1,
+      0.2,
+      -0.2
+    ],
+    "expected": 0.96
+  },
+  {
+    "lesson": "EIP-5.5-02",
+    "id": "money-weighted",
+    "method": "irr_two_contributions",
+    "inputs": [
+      100,
+      100,
+      176
+    ],
+    "expected": -0.08225531212421744
+  },
+  {
+    "lesson": "EIP-5.5-02",
+    "id": "twr-annualised",
+    "method": "terminal_rate",
+    "inputs": [
+      100,
+      96,
+      2
+    ],
+    "expected": -0.020204102886728803
+  },
+  {
+    "lesson": "EIP-6.1-01",
+    "id": "allocated-premium",
+    "method": "net_revenue",
+    "inputs": [
+      20000,
+      400
+    ],
+    "expected": 19600
+  },
+  {
+    "lesson": "EIP-6.1-01",
+    "id": "units",
+    "method": "ratio",
+    "inputs": [
+      19600,
+      100
+    ],
+    "expected": 196
+  },
+  {
+    "lesson": "EIP-6.1-01",
+    "id": "policy-net-value",
+    "method": "net_revenue",
+    "inputs": [
+      17640,
+      176.4,
+      120
+    ],
+    "expected": 17343.6
+  },
+  {
+    "lesson": "EIP-6.1-01",
+    "id": "policy-loss",
+    "method": "difference",
+    "inputs": [
+      20000,
+      17343.6
+    ],
+    "expected": 2656.4
+  },
+  {
+    "lesson": "EIP-6.1-01",
+    "id": "index-payments",
+    "method": "capped_note",
+    "inputs": [
+      20000,
+      0.7,
+      0.1,
+      [
+        0.05,
+        0.2,
+        -0.2
+      ]
+    ],
+    "expected": [
+      20700,
+      22000,
+      20000
+    ]
+  },
+  {
+    "lesson": "EIP-6.1-01",
+    "id": "guaranteed-base-growth",
+    "method": "growth_chain",
+    "inputs": [
+      19600,
+      0.015
+    ],
+    "expected": 19894
+  },
+  {
+    "lesson": "EIP-6.1-02",
+    "id": "beneficiary-maria",
+    "method": "product",
+    "inputs": [
+      100000,
+      0.6
+    ],
+    "expected": 60000
+  },
+  {
+    "lesson": "EIP-6.1-02",
+    "id": "beneficiary-child",
+    "method": "product",
+    "inputs": [
+      100000,
+      0.4
+    ],
+    "expected": 40000
+  },
+  {
+    "lesson": "EIP-6.1-02",
+    "id": "higher-benefit-maria",
+    "method": "product",
+    "inputs": [
+      120000,
+      0.6
+    ],
+    "expected": 72000
+  },
+  {
+    "lesson": "EIP-6.1-02",
+    "id": "surrender-charge",
+    "method": "product",
+    "inputs": [
+      20000,
+      0.02
+    ],
+    "expected": 400
+  },
+  {
+    "lesson": "EIP-6.1-02",
+    "id": "surrender-cash",
+    "method": "net_revenue",
+    "inputs": [
+      20000,
+      400
+    ],
+    "expected": 19600
+  },
+  {
+    "lesson": "EIP-6.1-03",
+    "id": "zero-rate-ten-year",
+    "method": "ratio",
+    "inputs": [
+      100000,
+      10
+    ],
+    "expected": 10000
+  },
+  {
+    "lesson": "EIP-6.1-03",
+    "id": "fixed-period-payment",
+    "method": "annuity_payment",
+    "inputs": [
+      100000,
+      0.02,
+      10
+    ],
+    "expected": 11132.652786531635
+  },
+  {
+    "lesson": "EIP-6.1-03",
+    "id": "simple-life-recovery",
+    "method": "ratio",
+    "inputs": [
+      100000,
+      6000
+    ],
+    "expected": 16.666666666666668
+  },
+  {
+    "lesson": "EIP-6.1-03",
+    "id": "available-income-capital",
+    "method": "net_revenue",
+    "inputs": [
+      150000,
+      20000,
+      10000
+    ],
+    "expected": 120000
+  },
+  {
+    "lesson": "EIP-6.1-03",
+    "id": "real-fixed-payment",
+    "method": "discount",
+    "inputs": [
+      6000,
+      0.02,
+      20
+    ],
+    "expected": 4037.827998648351
+  },
+  {
+    "lesson": "EIP-6.1-04",
+    "id": "deduction-room",
+    "method": "difference",
+    "inputs": [
+      672,
+      300
+    ],
+    "expected": 372
+  },
+  {
+    "lesson": "EIP-6.1-04",
+    "id": "assumed-tax-saving",
+    "method": "product",
+    "inputs": [
+      372,
+      0.3
+    ],
+    "expected": 111.6
+  },
+  {
+    "lesson": "EIP-6.1-04",
+    "id": "ordinary-economic-gain",
+    "method": "difference",
+    "inputs": [
+      40000,
+      30000
+    ],
+    "expected": 10000
+  },
+  {
+    "lesson": "EIP-6.1-04",
+    "id": "affected-deductions",
+    "method": "product",
+    "inputs": [
+      672,
+      3
+    ],
+    "expected": 2016
+  },
+  {
+    "lesson": "EIP-6.1-04",
+    "id": "assumed-correction-tax",
+    "method": "product",
+    "inputs": [
+      2016,
+      0.3
+    ],
+    "expected": 604.8
+  },
+  {
+    "lesson": "EIP-6.2-01",
+    "id": "monthly-gap",
+    "method": "net_revenue",
+    "inputs": [
+      3200,
+      2400,
+      300
+    ],
+    "expected": 500
+  },
+  {
+    "lesson": "EIP-6.2-01",
+    "id": "annual-gap",
+    "method": "product",
+    "inputs": [
+      500,
+      12
+    ],
+    "expected": 6000
+  },
+  {
+    "lesson": "EIP-6.2-01",
+    "id": "dc-contributions",
+    "method": "product",
+    "inputs": [
+      3000,
+      10
+    ],
+    "expected": 30000
+  },
+  {
+    "lesson": "EIP-6.2-01",
+    "id": "db-formula",
+    "method": "product",
+    "inputs": [
+      0.01,
+      50000,
+      20
+    ],
+    "expected": 10000
+  },
+  {
+    "lesson": "EIP-6.2-01",
+    "id": "bridge-gap",
+    "method": "product",
+    "inputs": [
+      24000,
+      2
+    ],
+    "expected": 48000
+  },
+  {
+    "lesson": "EIP-6.2-01",
+    "id": "bridge-shortfall",
+    "method": "difference",
+    "inputs": [
+      48000,
+      40000
+    ],
+    "expected": 8000
+  },
+  {
+    "lesson": "EIP-6.2-02",
+    "id": "end-year-accumulation",
+    "method": "contribution_series",
+    "inputs": [
+      3000,
+      0.04,
+      20,
+      false
+    ],
+    "expected": 89334.23572750656
+  },
+  {
+    "lesson": "EIP-6.2-02",
+    "id": "begin-year-accumulation",
+    "method": "contribution_series",
+    "inputs": [
+      3000,
+      0.04,
+      20,
+      true
+    ],
+    "expected": 92907.60515660683
+  },
+  {
+    "lesson": "EIP-6.2-02",
+    "id": "inflated-gap",
+    "method": "growth_chain",
+    "inputs": [
+      14400,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02
+    ],
+    "expected": 21397.64250208831
+  },
+  {
+    "lesson": "EIP-6.2-02",
+    "id": "drawdown-path-a",
+    "method": "drawdown",
+    "inputs": [
+      100000,
+      [
+        0.2,
+        -0.2
+      ],
+      [
+        10000,
+        10000
+      ]
+    ],
+    "expected": 78000
+  },
+  {
+    "lesson": "EIP-6.2-02",
+    "id": "drawdown-path-b",
+    "method": "drawdown",
+    "inputs": [
+      100000,
+      [
+        -0.2,
+        0.2
+      ],
+      [
+        10000,
+        10000
+      ]
+    ],
+    "expected": 74000
+  },
+  {
+    "lesson": "EIP-6.2-02",
+    "id": "twenty-year-zero-real",
+    "method": "product",
+    "inputs": [
+      12000,
+      20
+    ],
+    "expected": 240000
+  },
+  {
+    "lesson": "EIP-6.2-02",
+    "id": "thirty-year-zero-real",
+    "method": "product",
+    "inputs": [
+      12000,
+      30
+    ],
+    "expected": 360000
+  },
+  {
+    "lesson": "EIP-6.2-03",
+    "id": "illustrative-entry-saving",
+    "method": "product",
+    "inputs": [
+      4500,
+      0.3
+    ],
+    "expected": 1350
+  },
+  {
+    "lesson": "EIP-6.2-03",
+    "id": "four-percent-twenty",
+    "method": "growth_chain",
+    "inputs": [
+      20000,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04
+    ],
+    "expected": 43822.4628606684
+  },
+  {
+    "lesson": "EIP-6.2-03",
+    "id": "three-percent-twenty",
+    "method": "growth_chain",
+    "inputs": [
+      20000,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03,
+      0.03
+    ],
+    "expected": 36122.2246933883
+  },
+  {
+    "lesson": "EIP-6.2-03",
+    "id": "survivor-payment",
+    "method": "product",
+    "inputs": [
+      7000,
+      0.7
+    ],
+    "expected": 4900
+  },
+  {
+    "lesson": "EIP-6.2-03",
+    "id": "survivor-gap",
+    "method": "net_revenue",
+    "inputs": [
+      18000,
+      13000,
+      4900
+    ],
+    "expected": 100
+  },
+  {
+    "lesson": "EIP-6.2-04",
+    "id": "proposed-excess",
+    "method": "net_revenue",
+    "inputs": [
+      5500,
+      4500
+    ],
+    "expected": 1000
+  },
+  {
+    "lesson": "EIP-6.2-04",
+    "id": "deduction-benefit",
+    "method": "product",
+    "inputs": [
+      4500,
+      0.3
+    ],
+    "expected": 1350
+  },
+  {
+    "lesson": "EIP-6.2-04",
+    "id": "part-year-ceiling",
+    "method": "product",
+    "inputs": [
+      4500,
+      0.75
+    ],
+    "expected": 3375
+  },
+  {
+    "lesson": "EIP-6.2-04",
+    "id": "capital-tax",
+    "method": "product",
+    "inputs": [
+      80000,
+      0.15
+    ],
+    "expected": 12000
+  },
+  {
+    "lesson": "EIP-6.2-04",
+    "id": "annuity-tax",
+    "method": "product",
+    "inputs": [
+      6000,
+      0.5,
+      0.3
+    ],
+    "expected": 900
+  },
+  {
+    "lesson": "EIP-6.2-04",
+    "id": "early-full-base-tax",
+    "method": "product",
+    "inputs": [
+      20000,
+      0.3
+    ],
+    "expected": 6000
+  },
+  {
+    "lesson": "EIP-6.2-04",
+    "id": "early-retained",
+    "method": "net_revenue",
+    "inputs": [
+      20000,
+      6000
+    ],
+    "expected": 14000
+  },
+  {
+    "lesson": "EIP-7.1-01",
+    "id": "order-consideration",
+    "method": "product",
+    "inputs": [
+      100,
+      50
+    ],
+    "expected": 5000
+  },
+  {
+    "lesson": "EIP-7.1-01",
+    "id": "order-total",
+    "method": "sum",
+    "inputs": [
+      5000,
+      10,
+      5
+    ],
+    "expected": 5015
+  },
+  {
+    "lesson": "EIP-7.1-01",
+    "id": "allocation-change",
+    "method": "difference",
+    "inputs": [
+      50000,
+      40000
+    ],
+    "expected": 10000
+  },
+  {
+    "lesson": "EIP-7.1-02",
+    "id": "adverse-note-loss",
+    "method": "difference",
+    "inputs": [
+      10000,
+      6700
+    ],
+    "expected": 3300
+  },
+  {
+    "lesson": "EIP-7.1-02",
+    "id": "entry-cost",
+    "method": "product",
+    "inputs": [
+      25000,
+      0.02
+    ],
+    "expected": 500
+  },
+  {
+    "lesson": "EIP-7.1-02",
+    "id": "after-charge-growth",
+    "method": "growth_chain",
+    "inputs": [
+      24500,
+      0.04
+    ],
+    "expected": 25480
+  },
+  {
+    "lesson": "EIP-7.1-02",
+    "id": "actual-net-return",
+    "method": "ratio",
+    "inputs": [
+      480,
+      25000
+    ],
+    "expected": 0.0192
+  },
+  {
+    "lesson": "EIP-7.1-02",
+    "id": "essential-goal-shortfall",
+    "method": "difference",
+    "inputs": [
+      28000,
+      24000
+    ],
+    "expected": 4000
+  },
+  {
+    "lesson": "EIP-7.1-03",
+    "id": "provider-commission-rate",
+    "method": "ratio",
+    "inputs": [
+      600,
+      50000
+    ],
+    "expected": 0.012
+  },
+  {
+    "lesson": "EIP-7.1-03",
+    "id": "annual-trail",
+    "method": "product",
+    "inputs": [
+      100000,
+      0.008
+    ],
+    "expected": 800
+  },
+  {
+    "lesson": "EIP-7.1-03",
+    "id": "annual-cost-difference",
+    "method": "product",
+    "inputs": [
+      60000,
+      0.005
+    ],
+    "expected": 300
+  },
+  {
+    "lesson": "EIP-7.1-03",
+    "id": "first-year-switch-disadvantage",
+    "method": "sum",
+    "inputs": [
+      300,
+      300
+    ],
+    "expected": 600
+  },
+  {
+    "lesson": "EIP-7.1-04",
+    "id": "first-year-net-wealth",
+    "method": "net_revenue",
+    "inputs": [
+      20988,
+      158.4,
+      99,
+      40
+    ],
+    "expected": 20690.6
+  },
+  {
+    "lesson": "EIP-7.1-04",
+    "id": "first-year-total-charges",
+    "method": "sum",
+    "inputs": [
+      200,
+      158.4,
+      99,
+      40
+    ],
+    "expected": 497.4
+  },
+  {
+    "lesson": "EIP-7.1-04",
+    "id": "first-year-net-return",
+    "method": "ratio",
+    "inputs": [
+      690.6,
+      20000
+    ],
+    "expected": 0.03453
+  },
+  {
+    "lesson": "EIP-7.1-04",
+    "id": "embedded-total",
+    "method": "sum",
+    "inputs": [
+      1000,
+      500
+    ],
+    "expected": 1500
+  },
+  {
+    "lesson": "EIP-7.1-04",
+    "id": "gross-five-year",
+    "method": "growth_chain",
+    "inputs": [
+      10000,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "expected": 12762.815625
+  },
+  {
+    "lesson": "EIP-7.1-04",
+    "id": "net-five-year",
+    "method": "growth_chain",
+    "inputs": [
+      10000,
+      0.035,
+      0.035,
+      0.035,
+      0.035,
+      0.035
+    ],
+    "expected": 11876.863056468745
+  },
+  {
+    "lesson": "EIP-7.1-04",
+    "id": "foreign-fee-euros",
+    "method": "ratio",
+    "inputs": [
+      30,
+      1.2
+    ],
+    "expected": 25
+  },
+  {
+    "lesson": "EIP-7.1-05",
+    "id": "market-loss",
+    "method": "product",
+    "inputs": [
+      50000,
+      0.15
+    ],
+    "expected": 7500
+  },
+  {
+    "lesson": "EIP-7.1-05",
+    "id": "actual-loss",
+    "method": "difference",
+    "inputs": [
+      40000,
+      34000
+    ],
+    "expected": 6000
+  },
+  {
+    "lesson": "EIP-7.1-05",
+    "id": "counterfactual-difference",
+    "method": "difference",
+    "inputs": [
+      38000,
+      34000
+    ],
+    "expected": 4000
+  },
+  {
+    "lesson": "EIP-7.1-06",
+    "id": "normal-coverage",
+    "method": "ratio",
+    "inputs": [
+      10000000,
+      4000000
+    ],
+    "expected": 2.5
+  },
+  {
+    "lesson": "EIP-7.1-06",
+    "id": "stress-coverage",
+    "method": "ratio",
+    "inputs": [
+      5000000,
+      4000000
+    ],
+    "expected": 1.25
+  },
+  {
+    "lesson": "EIP-7.1-06",
+    "id": "exposure-reallocation",
+    "method": "product",
+    "inputs": [
+      100000000,
+      0.1
+    ],
+    "expected": 10000000
+  },
+  {
+    "lesson": "EIP-7.1-06",
+    "id": "preference-shortfall",
+    "method": "difference",
+    "inputs": [
+      25,
+      15
+    ],
+    "expected": 10
+  },
+  {
+    "lesson": "EIP-7.2-01",
+    "id": "venue-a",
+    "method": "sum",
+    "inputs": [
+      10000,
+      18
+    ],
+    "expected": 10018
+  },
+  {
+    "lesson": "EIP-7.2-01",
+    "id": "venue-b",
+    "method": "sum",
+    "inputs": [
+      9992,
+      30
+    ],
+    "expected": 10022
+  },
+  {
+    "lesson": "EIP-7.2-01",
+    "id": "consideration-difference",
+    "method": "difference",
+    "inputs": [
+      10022,
+      10018
+    ],
+    "expected": 4
+  },
+  {
+    "lesson": "EIP-7.2-01",
+    "id": "illustrative-funding",
+    "method": "simple_interest",
+    "inputs": [
+      20000,
+      0.04,
+      0.005479452054794521
+    ],
+    "expected": 4.383561643835616
+  },
+  {
+    "lesson": "EIP-7.2-01",
+    "id": "settlement-gap",
+    "method": "difference",
+    "inputs": [
+      12500,
+      8000
+    ],
+    "expected": 4500
+  },
+  {
+    "lesson": "EIP-7.2-02",
+    "id": "displayed-turnover",
+    "method": "product",
+    "inputs": [
+      50000,
+      8
+    ],
+    "expected": 400000
+  },
+  {
+    "lesson": "EIP-7.2-03",
+    "id": "receipt-reconciliation",
+    "method": "sum",
+    "inputs": [
+      210000,
+      30000
+    ],
+    "expected": 240000
+  },
+  {
+    "lesson": "EIP-7.2-03",
+    "id": "supported-receipt-share",
+    "method": "ratio",
+    "inputs": [
+      210000,
+      240000
+    ],
+    "expected": 0.875
+  },
+  {
+    "lesson": "EIP-7.2-03",
+    "id": "unexplained-share",
+    "method": "ratio",
+    "inputs": [
+      30000,
+      240000
+    ],
+    "expected": 0.125
+  },
+  {
+    "lesson": "EIP-7.3-01",
+    "id": "departing-assets",
+    "method": "product",
+    "inputs": [
+      80000000,
+      0.08
+    ],
+    "expected": 6400000
+  },
+  {
+    "lesson": "EIP-7.3-01",
+    "id": "fee-exposure",
+    "method": "product",
+    "inputs": [
+      6400000,
+      0.006
+    ],
+    "expected": 38400
+  },
+  {
+    "lesson": "EIP-7.3-01",
+    "id": "remaining-fees",
+    "method": "product",
+    "inputs": [
+      73600000,
+      0.006
+    ],
+    "expected": 441600
+  },
+  {
+    "lesson": "EIP-7.3-01",
+    "id": "statement-overstatement",
+    "method": "ratio",
+    "inputs": [
+      7500,
+      150000
+    ],
+    "expected": 0.05
+  },
+  {
+    "lesson": "EIP-7.3-02",
+    "id": "annual-cost-gap",
+    "method": "product",
+    "inputs": [
+      100000,
+      0.006
+    ],
+    "expected": 600
+  },
+  {
+    "lesson": "EIP-M8-01",
+    "id": "allocation-sum",
+    "method": "sum",
+    "inputs": [
+      42000000,
+      28000000
+    ],
+    "expected": 70000000
+  },
+  {
+    "lesson": "EIP-M8-01",
+    "id": "allocation-share",
+    "method": "ratio",
+    "inputs": [
+      70000000,
+      100000000
+    ],
+    "expected": 0.7
+  },
+  {
+    "lesson": "EIP-M8-01",
+    "id": "original-coupon",
+    "method": "product",
+    "inputs": [
+      10000,
+      0.035
+    ],
+    "expected": 350
+  },
+  {
+    "lesson": "EIP-M8-01",
+    "id": "stepped-coupon",
+    "method": "product",
+    "inputs": [
+      10000,
+      0.0375
+    ],
+    "expected": 375
+  },
+  {
+    "lesson": "EIP-M8-01",
+    "id": "extra-two-coupons",
+    "method": "product",
+    "inputs": [
+      25,
+      2
+    ],
+    "expected": 50
+  },
+  {
+    "lesson": "EIP-M8-01",
+    "id": "duration-change",
+    "method": "product",
+    "inputs": [
+      -7,
+      0.01
+    ],
+    "expected": -0.07
+  },
+  {
+    "lesson": "EIP-M8-01",
+    "id": "green-price-loss",
+    "method": "product",
+    "inputs": [
+      20000,
+      0.07
+    ],
+    "expected": 1400
+  },
+  {
+    "lesson": "EIP-M8-01",
+    "id": "green-sale-value",
+    "method": "difference",
+    "inputs": [
+      20000,
+      1400
+    ],
+    "expected": 18600
+  },
+  {
+    "lesson": "EIP-M8-02",
+    "id": "eligible-revenue",
+    "method": "ratio",
+    "inputs": [
+      60000000,
+      100000000
+    ],
+    "expected": 0.6
+  },
+  {
+    "lesson": "EIP-M8-02",
+    "id": "aligned-revenue",
+    "method": "ratio",
+    "inputs": [
+      35000000,
+      100000000
+    ],
+    "expected": 0.35
+  },
+  {
+    "lesson": "EIP-M8-02",
+    "id": "aligned-within-eligible",
+    "method": "ratio",
+    "inputs": [
+      35000000,
+      60000000
+    ],
+    "expected": 0.5833333333333334
+  },
+  {
+    "lesson": "EIP-M8-02",
+    "id": "revenue-reconciliation",
+    "method": "sum",
+    "inputs": [
+      35000000,
+      25000000,
+      40000000
+    ],
+    "expected": 100000000
+  },
+  {
+    "lesson": "EIP-M8-02",
+    "id": "preference-headroom",
+    "method": "difference",
+    "inputs": [
+      0.22,
+      0.2
+    ],
+    "expected": 0.02
+  },
+  {
+    "lesson": "EIP-M8-02",
+    "id": "sustainable-share",
+    "method": "ratio",
+    "inputs": [
+      4000000,
+      10000000
+    ],
+    "expected": 0.4
+  },
+  {
+    "lesson": "EIP-M8-02",
+    "id": "aligned-share",
+    "method": "ratio",
+    "inputs": [
+      1500000,
+      10000000
+    ],
+    "expected": 0.15
+  },
+  {
+    "lesson": "EIP-M8-02",
+    "id": "sustainable-other",
+    "method": "difference",
+    "inputs": [
+      4000000,
+      1500000
+    ],
+    "expected": 2500000
+  },
+  {
+    "lesson": "EIP-M8-03",
+    "id": "weighted-intensity",
+    "method": "weighted",
+    "inputs": [
+      [
+        0.6,
+        0.4
+      ],
+      [
+        100,
+        20
+      ]
+    ],
+    "expected": 68
+  },
+  {
+    "lesson": "EIP-M8-03",
+    "id": "coverage",
+    "method": "sum",
+    "inputs": [
+      0.5,
+      0.3
+    ],
+    "expected": 0.8
+  },
+  {
+    "lesson": "EIP-M8-03",
+    "id": "known-contribution",
+    "method": "weighted",
+    "inputs": [
+      [
+        0.5,
+        0.3
+      ],
+      [
+        80,
+        20
+      ]
+    ],
+    "expected": 46
+  },
+  {
+    "lesson": "EIP-M8-03",
+    "id": "observed-average",
+    "method": "ratio",
+    "inputs": [
+      46,
+      0.8
+    ],
+    "expected": 57.5
+  },
+  {
+    "lesson": "EIP-M8-03",
+    "id": "conditional-upper",
+    "method": "sum",
+    "inputs": [
+      46,
+      40
+    ],
+    "expected": 86
+  },
+  {
+    "lesson": "EIP-M8-03",
+    "id": "first-intensity",
+    "method": "ratio",
+    "inputs": [
+      100000,
+      500
+    ],
+    "expected": 200
+  },
+  {
+    "lesson": "EIP-M8-03",
+    "id": "second-intensity",
+    "method": "ratio",
+    "inputs": [
+      105000,
+      600
+    ],
+    "expected": 175
+  },
+  {
+    "lesson": "EIP-M8-03",
+    "id": "intensity-change",
+    "method": "price_return",
+    "inputs": [
+      200,
+      175
+    ],
+    "expected": -0.125
+  },
+  {
+    "lesson": "EIP-M8-03",
+    "id": "absolute-change",
+    "method": "price_return",
+    "inputs": [
+      100000,
+      105000
+    ],
+    "expected": 0.05
+  },
+  {
+    "lesson": "EIP-M8-04",
+    "id": "advertised-decline",
+    "method": "price_return",
+    "inputs": [
+      100,
+      60
+    ],
+    "expected": -0.4
+  },
+  {
+    "lesson": "EIP-M8-04",
+    "id": "conditional-complete-intensity",
+    "method": "weighted",
+    "inputs": [
+      [
+        0.8,
+        0.2
+      ],
+      [
+        60,
+        200
+      ]
+    ],
+    "expected": 88
+  },
+  {
+    "lesson": "EIP-M8-04",
+    "id": "conditional-decline",
+    "method": "price_return",
+    "inputs": [
+      100,
+      88
+    ],
+    "expected": -0.12
+  }
+]

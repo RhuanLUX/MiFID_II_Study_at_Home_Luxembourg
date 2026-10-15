@@ -851,16 +851,16 @@ Locally authored mathematics and fictional examples.
 - Supports: Public pension is based on statutory eligibility and insurance history.
 - Limits: No early-retirement reform threshold or contribution-rate figure asserted; individual CNAP assessment needed.
 
-## ACD-PENSION26 — ACD 2026 deduction form
+## ACD-PENSION26 — ACD 2026 retirement-deduction provisions
 
-[Official publisher / source](https://impotsdirects.public.lu/dam-assets/fr/formulaires/fiches_d_impot/2026/164rd-26-101.pdf)
+[Official publisher / source](https://impotsdirects.public.lu/dam-assets/fr/legislation/LIR/texte-coordonn-en-vigueur-au-1er-janvier-2026-ver-08052026.pdf)
 
-- Version/date: 2026 form
+- Version/date: Effective 1 January 2026; coordinated 8 May 2026
 - Checked: 2026-10-15
 - Jurisdiction / role: Luxembourg
-- Consulted section: Special expenses F: Articles 111bis/111ter
+- Consulted section: Articles 111bis(7) and 111ter(7)
 - Supports: Confirms 2026 €4,500 combined individual annual ceiling.
-- Limits: Eligibility, part-year proration and contract conditions still apply. Older Guichet €3,200 figure is not reused.
+- Limits: Replaces the indexed 2026 form URL that returned HTTP 404 during the second audit. Eligibility, part-year proration and contract conditions still apply. Informational coordinated text; official Journal texts prevail. Older Guichet €3,200 figure is not reused.
 
 ## LU-EMPLOYER-PENSION-TAX — Tax treatment of employer supplementary pension
 

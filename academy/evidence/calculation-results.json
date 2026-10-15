@@ -1,8 +1,8 @@
 {
   "date": "2026-10-15",
-  "build_sha256": "077c51dcf4515eb4f74f0d3014d405674f6b6641647e2bdd0f3e5527870152e0",
+  "build_sha256": "e1fb1e2507c864271c8326b08876114be605843572c4ec32db37f0c2f8fb58a0",
   "lessons": 95,
-  "checks": 458,
+  "checks": 461,
   "rows": [
     {
       "lesson": "EIP-1.1-01",
@@ -1106,6 +1106,14 @@
     },
     {
       "lesson": "EIP-3.5-05",
+      "id": "AUDIT-DIVIDEND-EXPENSE",
+      "method": "product",
+      "actual": 50,
+      "expected": 50,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.5-05",
       "id": "dividend-withholding",
       "method": "product",
       "actual": 600,
@@ -1386,6 +1394,22 @@
       "method": "product",
       "actual": 700,
       "expected": 700,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "id": "AUDIT-MATCHED-FORWARD",
+      "method": "ratio",
+      "actual": 63636.36363636363,
+      "expected": 63636.36363636363,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "id": "AUDIT-EXCESS-EFFECT",
+      "method": "difference",
+      "actual": 2727.272727272735,
+      "expected": 2727.27272727272,
       "status": "PASS"
     },
     {

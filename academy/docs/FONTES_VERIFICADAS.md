@@ -784,3 +784,190 @@ Locally authored mathematics and fictional examples.
 - Consulted section: Initial margin, risk controls and settlement variation
 - Supports: Margin supports obligations and differs from purchasing the underlying.
 - Limits: No live margin threshold or guarantee of loss limitation; investor can owe more than deposit.
+
+## CAA-UNIT26 — CAA Circular 26/1: unit-linked investment rules
+
+[Official publisher / source](https://www.caa.lu/uploads/documents/files/LC26-1_FR.pdf)
+
+- Version/date: 1 February 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: Definitions; needs/target market; internal, dedicated and guaranteed funds; section 10
+- Supports: Current unit-linked and mixed-contract distinctions and investment-risk responsibility.
+- Limits: 30-page source retained and selected sections inspected. New-contract application from 1 February 2026; pre-existing contracts/funds have specified transition, so old rules are not declared universally repealed.
+
+## CAA-CONTRACT — Insurance-contract law — CAA coordinated text
+
+[Official publisher / source](https://www.caa.lu/uploads/documents/files/Loi_ContratAssurance_1997-07-27_coord_2025-11-25.pdf)
+
+- Version/date: Coordinated 25 November 2025; retrieved 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: Article 1 definitions; Articles 112–122 on policyholder and beneficiary rights
+- Supports: Separates policyholder, insured, beneficiary and rights affected by acceptance.
+- Limits: Informational consolidation; official texts prevail. Contract and applicable cross-border law must be checked for a particular policy.
+
+## CAA-RECOVERY — CAA FAQ on insurer liquidation
+
+[Official publisher / source](https://www.caa.lu/uploads/documents/files/FWU_FAQ_20250221.pdf)
+
+- Version/date: 21 February 2025; updated 18 June 2025
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: English version: liquidation, creditor privilege and recovery uncertainty
+- Supports: Creditor priority is not a promise of immediate or complete recovery.
+- Limits: Historical June 2025 FAQ used for the principle only; no current recovery amount or status claim about the named insurer.
+
+## CAA-PENSION26 — CAA Information Note 26/5: Article 111bis product review
+
+[Official publisher / source](https://www.caa.lu/uploads/documents/files/Note_info_26-5.pdf)
+
+- Version/date: 7 July 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: Target market; value for money; costs; fiscal information over the product lifetime
+- Supports: Tax benefit does not replace value-for-money and needs analysis; exit tax and cross-border facts matter.
+- Limits: 10 pages retained and read; source study statistics are not reused as current product forecasts.
+
+## LU-PILLARS — Complementary pension rights — Guichet
+
+[Official publisher / source](https://guichet.public.lu/fr/citoyens/travail/pension/pension-complementaire/droits-pension-complementaire.html)
+
+- Version/date: Updated 25 September 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: Occupational second pillar and distinction from personal third pillar
+- Supports: Occupational arrangements are voluntary and not universal; individual 111bis is separate.
+- Limits: No individual pension entitlement or projected amount inferred.
+
+## LU-PUBLIC-PENSION — Old-age pension at age 65 — Guichet
+
+[Official publisher / source](https://guichet.public.lu/fr/citoyens/travail/pension/assurance-pension/retraite-pension-vieillesse.html)
+
+- Version/date: Live official guide checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: Normal-age route, career and contributions
+- Supports: Public pension is based on statutory eligibility and insurance history.
+- Limits: No early-retirement reform threshold or contribution-rate figure asserted; individual CNAP assessment needed.
+
+## ACD-PENSION26 — ACD 2026 deduction form
+
+[Official publisher / source](https://impotsdirects.public.lu/dam-assets/fr/formulaires/fiches_d_impot/2026/164rd-26-101.pdf)
+
+- Version/date: 2026 form
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: Special expenses F: Articles 111bis/111ter
+- Supports: Confirms 2026 €4,500 combined individual annual ceiling.
+- Limits: Eligibility, part-year proration and contract conditions still apply. Older Guichet €3,200 figure is not reused.
+
+## LU-EMPLOYER-PENSION-TAX — Tax treatment of employer supplementary pension
+
+[Official publisher / source](https://guichet.public.lu/fr/citoyens/fiscalite/declaration-impot-decompte/pension/perception-pension/traitement-fiscal-pension-employeur.html)
+
+- Version/date: Official guide checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg
+- Consulted section: Employer financing and employee contribution distinction
+- Supports: Second-pillar tax route differs from personal retirement savings.
+- Limits: Read with 2026 LIR; residence/treaty and funding-history conditions can change benefit treatment.
+
+## MIFID-ANNEX — MiFID II Annex I
+
+[Official publisher / source](https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/annex-i)
+
+- Version/date: Official publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg / EU
+- Consulted section: Sections A, B and C
+- Supports: Investment services, ancillary services and financial-instrument lists.
+- Limits: Classification does not itself prove a particular firm is authorised for the service.
+
+## MIFID-24 — MiFID II Article 24
+
+[Official publisher / source](https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-24-general-principles-and)
+
+- Version/date: Official publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg / EU
+- Consulted section: Paragraphs 1–5a and 7–10
+- Supports: Client interests, fair/clear information, independence, inducements and costs.
+- Limits: Read together with delegated rules and service context. Future proposals are not treated as enacted reforms.
+
+## ESMA-INDUCEMENTS — ESMA Q&A 1121 on quality enhancement
+
+[Official publisher / source](https://www.esma.europa.eu/publications-data/questions-answers/1121)
+
+- Version/date: Official publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg / EU
+- Consulted section: Additional/higher service, relevant client and proportionality
+- Supports: Receipt alone and disclosure alone do not establish permitted inducements.
+- Limits: No fixed universal percentage or price cap inferred.
+
+## ESMA-COST-AGG — ESMA Q&A 1825 on aggregation of costs
+
+[Official publisher / source](https://www.esma.europa.eu/publications-data/questions-answers/1825)
+
+- Version/date: Official publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg / EU
+- Consulted section: Service and product costs and existing disclosure documents
+- Supports: Product disclosures do not replace the firm’s aggregated cost obligations.
+- Limits: Examples avoid double counting payments embedded within already disclosed costs.
+
+## ESMA-COST-TIMING — ESMA Q&A 1833 on annual ex-post information
+
+[Official publisher / source](https://www.esma.europa.eu/publications-data/questions-answers/1833)
+
+- Version/date: Official publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg / EU
+- Consulted section: Annual ongoing-relationship information timing
+- Supports: Applicable annual actual-cost information complements ex-ante estimates.
+- Limits: Service scope and regulatory conditions must be checked; no universal immediate reporting deadline invented.
+
+## ESMA-COST-FX — ESMA Q&A 2025 on foreign-currency costs
+
+[Official publisher / source](https://www.esma.europa.eu/publications-data/questions-answers/2025)
+
+- Version/date: Official publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg / EU
+- Consulted section: Conversion currency/rates/costs and aggregation
+- Supports: Foreign-currency costs need consistent conversion and inclusion.
+- Limits: All Academy conversion rates are fictional.
+
+## CSSF-COMPLAINTS — Customer complaints — CSSF
+
+[Official publisher / source](https://www.cssf.lu/en/customer-complaints/)
+
+- Version/date: Official publisher text checked 15 October 2026
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg / EU
+- Consulted section: Admissibility, initial firm complaint, procedure and non-binding conclusions
+- Supports: Explains the Luxembourg out-of-court route and its limits.
+- Limits: Not a court judgment, automatic compensation or replacement for applicable legal remedies/time limits.
+
+## CSSF-COMPETENCE-FULL — Circular CSSF 17/665 with ESMA guidelines
+
+[Official publisher / source](https://www.cssf.lu/wp-content/uploads/cssf17_665eng.pdf)
+
+- Version/date: 31 July 2017; current CSSF catalogue checked
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg / EU
+- Consulted section: Knowledge/competence, service scope and professional oversight
+- Supports: Staff knowledge and competence are professional obligations; advice requires higher intensity than information.
+- Limits: 23-page source retained and relevant sections inspected; reading this Academy does not establish firm verification, experience, qualification or recognition.
+
+## CSSF-TRAINING-FULL — Circular CSSF 17/670
+
+[Official publisher / source](https://www.cssf.lu/wp-content/uploads/cssf17_670eng.pdf)
+
+- Version/date: 13 October 2017; current CSSF catalogue checked
+- Checked: 2026-10-15
+- Jurisdiction / role: Luxembourg / EU
+- Consulted section: External programme content, criteria, registration and minimum duration
+- Supports: External-training registration and formalised internal assessment are distinct routes; external minimum duration is 60 hours.
+- Limits: Five pages read. The 45.7-hour editorial reading plan is not presented as a registered 60-hour programme or EFPA’s stated 80-hour training equivalence.

@@ -19,3 +19,5 @@ module.exports=[
 ].map(x=>({...x,verified_at:'2026-10-15'}));
 module.exports=module.exports.concat(require('./batch-sources.cjs'));
 module.exports=module.exports.concat(require('./production-sources.cjs'));
+module.exports=module.exports.concat(require('./insurance-sources.cjs'));
+module.exports=module.exports.concat(require('./regulatory-sources.cjs'));

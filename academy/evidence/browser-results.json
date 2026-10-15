@@ -1,14 +1,14 @@
 {
   "date": "2026-10-15",
-  "build_sha256": "a78cf92bc5f35fb1bb1b6c54ba99672a781d0083a6ccc23eee743b2f8cb4635a",
+  "build_sha256": "25c48d72b40a9273e42131b60ec2493664bae2ba0d3669bff0b5be1735732f1a",
   "browser": "msedge",
   "version": "155.0.4283.45",
   "url_scheme": "file:",
   "offline": true,
   "remote_requests": 0,
   "page_errors": 0,
-  "lessons": 72,
-  "responsive_render_checks": 144,
+  "lessons": 86,
+  "responsive_render_checks": 172,
   "checks": [
     "every authored reading page",
     "honest pending PT status",

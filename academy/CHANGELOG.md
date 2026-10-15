@@ -1,5 +1,9 @@
 # Changes
 
+## 0.7.0-production — 15 October 2026
+
+Batch 06 adds fourteen English units on life insurance, retirement and investment-service conduct. Delivery: 86/95 (90.5%); Insurance and Retirement complete. Verified CAA Circular 26/1 and its existing-contract scope, 2026 €4,500 personal-retirement ceiling, capital/annuity/early-payment tax distinctions, July CAA value-for-money review, MiFID service and inducement rules, cost aggregation and complaint boundaries. 416 numerical cases and all structural regressions pass. Full CSSF 17/665 and 17/670 sources retained; this reading course claims neither registered training status nor 60/80-hour equivalence.
+
 ## 0.6.0-production — 15 October 2026
 
 Batch 05 adds fourteen English reading units on reliable client information, material updates, sustainability matching, return statistics, covariance, allocation, frontier interpretation and performance. Delivery: 72/95 (75.8%); Client Assessment and Portfolio Construction modules complete. Added explicit sample/population calculations, correlation boundaries, allocation constraints, cost comparisons, risk-adjusted measures and dated cash-flow reasoning. Numerical validation now covers 344 cases; the original Golden Masters remain unchanged.

@@ -5,6 +5,8 @@ const variance=([a,sample])=>sum(a.map(x=>(x-mean(a))**2))/(a.length-(sample?1:0
 const covariance=([a,b,sample])=>sum(a.map((x,i)=>(x-mean(a))*(b[i]-mean(b))))/(a.length-(sample?1:0));
 const macaulay=a=>{const cf=cashflows(a);return sum(cf.map(x=>x.t*x.pv))/sum(cf.map(x=>x.pv));};
 const methods={
+drawdown:([p,rs,withdrawals])=>rs.reduce((v,r,i)=>v*(1+r)-withdrawals[i],p),
+annuity_payment:([pv,r,n])=>r===0?pv/n:pv*r/(1-(1+r)**-n),
 min_variance_weight:([a,b,rho])=>(b*b-rho*a*b)/(a*a+b*b-2*rho*a*b),
 utility:([mu,s,lambda])=>mu-lambda*s*s/2,excess_ratio:([r,rf,risk])=>(r-rf)/risk,
 capm:([rf,beta,market])=>rf+beta*(market-rf),

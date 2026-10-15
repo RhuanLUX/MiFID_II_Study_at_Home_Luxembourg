@@ -2195,7 +2195,7 @@
         "6.1.a"
       ],
       "prerequisites": "3.8;4.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-6.1-02",
@@ -2208,7 +2208,7 @@
         "6.1.b"
       ],
       "prerequisites": "3.8;4.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-6.1-03",
@@ -2221,7 +2221,7 @@
         "6.1.c"
       ],
       "prerequisites": "3.8;4.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-6.1-04",
@@ -2234,7 +2234,7 @@
         "6.1.d"
       ],
       "prerequisites": "3.8;4.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-6.2-01",
@@ -2247,7 +2247,7 @@
         "6.2.a"
       ],
       "prerequisites": "3.1;4.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-6.2-02",
@@ -2260,7 +2260,7 @@
         "6.2.b"
       ],
       "prerequisites": "3.1;4.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-6.2-03",
@@ -2273,7 +2273,7 @@
         "6.2.b"
       ],
       "prerequisites": "3.1;4.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-6.2-04",
@@ -2286,7 +2286,7 @@
         "6.2.c"
       ],
       "prerequisites": "3.1;4.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-7.1-01",
@@ -2299,7 +2299,7 @@
         "7.1.a"
       ],
       "prerequisites": "4.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-7.1-02",
@@ -2312,7 +2312,7 @@
         "7.1.b"
       ],
       "prerequisites": "4.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-7.1-03",
@@ -2325,7 +2325,7 @@
         "7.1.c"
       ],
       "prerequisites": "4.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-7.1-04",
@@ -2338,7 +2338,7 @@
         "7.1.d"
       ],
       "prerequisites": "4.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-7.1-05",
@@ -2351,7 +2351,7 @@
         "7.1.e"
       ],
       "prerequisites": "4.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-7.1-06",
@@ -2364,7 +2364,7 @@
         "7.1.f"
       ],
       "prerequisites": "4.1",
-      "status": "PLANNED_NOT_AUTHORED"
+      "status": "CONTENT_REVIEWED"
     },
     {
       "id": "EIP-7.2-01",

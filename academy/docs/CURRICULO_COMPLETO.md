@@ -8,7 +8,7 @@ All 78 lettered syllabus leaves are mapped, plus the separate Green Finance exam
 
 This estimate is not a declaration that the entire certification can be mastered in 45.7 hours. EFPA references 80 training hours or equivalent; rereading, taking notes, slower first encounters and the separately authorised future practice phase may add substantial time. Revise unit counts and durations when substantive writing and Owner UAT reveal a need to split or combine material. No equivalence or accreditation is claimed.
 
-72 of 95 reading units are authored. Lesson 16 is approved as the pedagogical reference. The other titles are curriculum plans, not empty lessons counted as completed work. MATRIZ_COBERTURA.csv distinguishes planned coverage from partial implemented evidence. The complete official scope is mapped, but substantive curriculum coverage is not complete.
+86 of 95 reading units are authored. Lesson 16 is approved as the pedagogical reference. The other titles are curriculum plans, not empty lessons counted as completed work. MATRIZ_COBERTURA.csv distinguishes planned coverage from partial implemented evidence. The complete official scope is mapped, but substantive curriculum coverage is not complete.
 
 ## Sequence
 
@@ -92,20 +92,20 @@ Example progression: percentages → EIP-3.1-A (dated values) → EIP-3.4-A (pri
 | 70 | EIP-5.4-02 | 5.4 | Selecting a portfolio for a specific client | 30 | 5.3 | CONTENT_REVIEWED |
 | 71 | EIP-5.5-01 | 5.5 | Measuring portfolio performance and choosing a benchmark | 30 | 5.4 | CONTENT_REVIEWED |
 | 72 | EIP-5.5-02 | 5.5 | Interpreting risk-adjusted results and cash-flow effects | 30 | 5.4 | CONTENT_REVIEWED |
-| 73 | EIP-6.1-01 | 6.1 | Index-linked, unit-linked and separately managed life insurance | 30 | 3.8;4.1 | PLANNED_NOT_AUTHORED |
-| 74 | EIP-6.1-02 | 6.1 | Policyholder, insured, beneficiary and insurer | 25 | 3.8;4.1 | PLANNED_NOT_AUTHORED |
-| 75 | EIP-6.1-03 | 6.1 | Settlement choices: amount, period and lifetime income | 30 | 3.8;4.1 | PLANNED_NOT_AUTHORED |
-| 76 | EIP-6.1-04 | 6.1 | Luxembourg life-insurance taxation and conditions | 30 | 3.8;4.1 | PLANNED_NOT_AUTHORED |
-| 77 | EIP-6.2-01 | 6.2 | The three pension pillars and their different roles | 30 | 3.1;4.1 | PLANNED_NOT_AUTHORED |
-| 78 | EIP-6.2-02 | 6.2 | Retirement accumulation, drawdown and longevity | 30 | 3.1;4.1 | PLANNED_NOT_AUTHORED |
-| 79 | EIP-6.2-03 | 6.2 | Comparing retirement products with client needs | 25 | 3.1;4.1 | PLANNED_NOT_AUTHORED |
-| 80 | EIP-6.2-04 | 6.2 | Luxembourg pension-product taxation and conditions | 30 | 3.1;4.1 | PLANNED_NOT_AUTHORED |
-| 81 | EIP-7.1-01 | 7.1 | Investment services and ancillary services | 30 | 4.1 | PLANNED_NOT_AUTHORED |
-| 82 | EIP-7.1-02 | 7.1 | Conduct standards and client information | 30 | 4.1 | PLANNED_NOT_AUTHORED |
-| 83 | EIP-7.1-03 | 7.1 | Independent advice, non-independent advice and inducements | 30 | 4.1 | PLANNED_NOT_AUTHORED |
-| 84 | EIP-7.1-04 | 7.1 | Costs, charges and reporting to clients | 30 | 4.1 | PLANNED_NOT_AUTHORED |
-| 85 | EIP-7.1-05 | 7.1 | Adviser responsibility and liability boundaries | 25 | 4.1 | PLANNED_NOT_AUTHORED |
-| 86 | EIP-7.1-06 | 7.1 | Sustainability-risk disclosures in advice and investment decisions | 30 | 4.1 | PLANNED_NOT_AUTHORED |
+| 73 | EIP-6.1-01 | 6.1 | Index-linked, unit-linked and separately managed life insurance | 30 | 3.8;4.1 | CONTENT_REVIEWED |
+| 74 | EIP-6.1-02 | 6.1 | Policyholder, insured, beneficiary and insurer | 25 | 3.8;4.1 | CONTENT_REVIEWED |
+| 75 | EIP-6.1-03 | 6.1 | Settlement choices: amount, period and lifetime income | 30 | 3.8;4.1 | CONTENT_REVIEWED |
+| 76 | EIP-6.1-04 | 6.1 | Luxembourg life-insurance taxation and conditions | 30 | 3.8;4.1 | CONTENT_REVIEWED |
+| 77 | EIP-6.2-01 | 6.2 | The three pension pillars and their different roles | 30 | 3.1;4.1 | CONTENT_REVIEWED |
+| 78 | EIP-6.2-02 | 6.2 | Retirement accumulation, drawdown and longevity | 30 | 3.1;4.1 | CONTENT_REVIEWED |
+| 79 | EIP-6.2-03 | 6.2 | Comparing retirement products with client needs | 25 | 3.1;4.1 | CONTENT_REVIEWED |
+| 80 | EIP-6.2-04 | 6.2 | Luxembourg pension-product taxation and conditions | 30 | 3.1;4.1 | CONTENT_REVIEWED |
+| 81 | EIP-7.1-01 | 7.1 | Investment services and ancillary services | 30 | 4.1 | CONTENT_REVIEWED |
+| 82 | EIP-7.1-02 | 7.1 | Conduct standards and client information | 30 | 4.1 | CONTENT_REVIEWED |
+| 83 | EIP-7.1-03 | 7.1 | Independent advice, non-independent advice and inducements | 30 | 4.1 | CONTENT_REVIEWED |
+| 84 | EIP-7.1-04 | 7.1 | Costs, charges and reporting to clients | 30 | 4.1 | CONTENT_REVIEWED |
+| 85 | EIP-7.1-05 | 7.1 | Adviser responsibility and liability boundaries | 25 | 4.1 | CONTENT_REVIEWED |
+| 86 | EIP-7.1-06 | 7.1 | Sustainability-risk disclosures in advice and investment decisions | 30 | 4.1 | CONTENT_REVIEWED |
 | 87 | EIP-7.2-01 | 7.2 | The regulatory structure of secondary markets | 30 | 2.3;7.1 | PLANNED_NOT_AUTHORED |
 | 88 | EIP-7.2-02 | 7.2 | Market abuse: inside information, disclosure and manipulation | 30 | 2.3;7.1 | PLANNED_NOT_AUTHORED |
 | 89 | EIP-7.2-03 | 7.2 | AML: customer information and escalation decisions | 30 | 2.3;7.1 | PLANNED_NOT_AUTHORED |

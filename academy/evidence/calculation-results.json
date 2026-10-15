@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "checks": 344,
+  "checks": 416,
   "rows": [
     {
       "lesson": "EIP-1.1-01",
@@ -2818,6 +2818,590 @@
       "method": "terminal_rate",
       "actual": -0.020204102886728803,
       "expected": -0.020204102886728803,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-01",
+      "id": "allocated-premium",
+      "method": "net_revenue",
+      "actual": 19600,
+      "expected": 19600,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-01",
+      "id": "units",
+      "method": "ratio",
+      "actual": 196,
+      "expected": 196,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-01",
+      "id": "policy-net-value",
+      "method": "net_revenue",
+      "actual": 17343.6,
+      "expected": 17343.6,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-01",
+      "id": "policy-loss",
+      "method": "difference",
+      "actual": 2656.4000000000015,
+      "expected": 2656.4,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-01",
+      "id": "index-payments",
+      "method": "capped_note",
+      "actual": [
+        20700,
+        22000,
+        20000
+      ],
+      "expected": [
+        20700,
+        22000,
+        20000
+      ],
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-01",
+      "id": "guaranteed-base-growth",
+      "method": "growth_chain",
+      "actual": 19894,
+      "expected": 19894,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-02",
+      "id": "beneficiary-maria",
+      "method": "product",
+      "actual": 60000,
+      "expected": 60000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-02",
+      "id": "beneficiary-child",
+      "method": "product",
+      "actual": 40000,
+      "expected": 40000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-02",
+      "id": "higher-benefit-maria",
+      "method": "product",
+      "actual": 72000,
+      "expected": 72000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-02",
+      "id": "surrender-charge",
+      "method": "product",
+      "actual": 400,
+      "expected": 400,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-02",
+      "id": "surrender-cash",
+      "method": "net_revenue",
+      "actual": 19600,
+      "expected": 19600,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-03",
+      "id": "zero-rate-ten-year",
+      "method": "ratio",
+      "actual": 10000,
+      "expected": 10000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-03",
+      "id": "fixed-period-payment",
+      "method": "annuity_payment",
+      "actual": 11132.652786531635,
+      "expected": 11132.652786531635,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-03",
+      "id": "simple-life-recovery",
+      "method": "ratio",
+      "actual": 16.666666666666668,
+      "expected": 16.666666666666668,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-03",
+      "id": "available-income-capital",
+      "method": "net_revenue",
+      "actual": 120000,
+      "expected": 120000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-03",
+      "id": "real-fixed-payment",
+      "method": "discount",
+      "actual": 4037.827998648345,
+      "expected": 4037.827998648351,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-04",
+      "id": "deduction-room",
+      "method": "difference",
+      "actual": 372,
+      "expected": 372,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-04",
+      "id": "assumed-tax-saving",
+      "method": "product",
+      "actual": 111.6,
+      "expected": 111.6,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-04",
+      "id": "ordinary-economic-gain",
+      "method": "difference",
+      "actual": 10000,
+      "expected": 10000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-04",
+      "id": "affected-deductions",
+      "method": "product",
+      "actual": 2016,
+      "expected": 2016,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.1-04",
+      "id": "assumed-correction-tax",
+      "method": "product",
+      "actual": 604.8,
+      "expected": 604.8,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-01",
+      "id": "monthly-gap",
+      "method": "net_revenue",
+      "actual": 500,
+      "expected": 500,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-01",
+      "id": "annual-gap",
+      "method": "product",
+      "actual": 6000,
+      "expected": 6000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-01",
+      "id": "dc-contributions",
+      "method": "product",
+      "actual": 30000,
+      "expected": 30000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-01",
+      "id": "db-formula",
+      "method": "product",
+      "actual": 10000,
+      "expected": 10000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-01",
+      "id": "bridge-gap",
+      "method": "product",
+      "actual": 48000,
+      "expected": 48000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-01",
+      "id": "bridge-shortfall",
+      "method": "difference",
+      "actual": 8000,
+      "expected": 8000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-02",
+      "id": "end-year-accumulation",
+      "method": "contribution_series",
+      "actual": 89334.23572750647,
+      "expected": 89334.23572750656,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-02",
+      "id": "begin-year-accumulation",
+      "method": "contribution_series",
+      "actual": 92907.60515660673,
+      "expected": 92907.60515660683,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-02",
+      "id": "inflated-gap",
+      "method": "growth_chain",
+      "actual": 21397.642502088307,
+      "expected": 21397.64250208831,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-02",
+      "id": "drawdown-path-a",
+      "method": "drawdown",
+      "actual": 78000,
+      "expected": 78000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-02",
+      "id": "drawdown-path-b",
+      "method": "drawdown",
+      "actual": 74000,
+      "expected": 74000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-02",
+      "id": "twenty-year-zero-real",
+      "method": "product",
+      "actual": 240000,
+      "expected": 240000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-02",
+      "id": "thirty-year-zero-real",
+      "method": "product",
+      "actual": 360000,
+      "expected": 360000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-03",
+      "id": "illustrative-entry-saving",
+      "method": "product",
+      "actual": 1350,
+      "expected": 1350,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-03",
+      "id": "four-percent-twenty",
+      "method": "growth_chain",
+      "actual": 43822.46286066837,
+      "expected": 43822.4628606684,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-03",
+      "id": "three-percent-twenty",
+      "method": "growth_chain",
+      "actual": 36122.22469338827,
+      "expected": 36122.2246933883,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-03",
+      "id": "survivor-payment",
+      "method": "product",
+      "actual": 4900,
+      "expected": 4900,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-03",
+      "id": "survivor-gap",
+      "method": "net_revenue",
+      "actual": 100,
+      "expected": 100,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-04",
+      "id": "proposed-excess",
+      "method": "net_revenue",
+      "actual": 1000,
+      "expected": 1000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-04",
+      "id": "deduction-benefit",
+      "method": "product",
+      "actual": 1350,
+      "expected": 1350,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-04",
+      "id": "part-year-ceiling",
+      "method": "product",
+      "actual": 3375,
+      "expected": 3375,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-04",
+      "id": "capital-tax",
+      "method": "product",
+      "actual": 12000,
+      "expected": 12000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-04",
+      "id": "annuity-tax",
+      "method": "product",
+      "actual": 900,
+      "expected": 900,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-04",
+      "id": "early-full-base-tax",
+      "method": "product",
+      "actual": 6000,
+      "expected": 6000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-6.2-04",
+      "id": "early-retained",
+      "method": "net_revenue",
+      "actual": 14000,
+      "expected": 14000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-01",
+      "id": "order-consideration",
+      "method": "product",
+      "actual": 5000,
+      "expected": 5000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-01",
+      "id": "order-total",
+      "method": "sum",
+      "actual": 5015,
+      "expected": 5015,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-01",
+      "id": "allocation-change",
+      "method": "difference",
+      "actual": 10000,
+      "expected": 10000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-02",
+      "id": "adverse-note-loss",
+      "method": "difference",
+      "actual": 3300,
+      "expected": 3300,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-02",
+      "id": "entry-cost",
+      "method": "product",
+      "actual": 500,
+      "expected": 500,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-02",
+      "id": "after-charge-growth",
+      "method": "growth_chain",
+      "actual": 25480,
+      "expected": 25480,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-02",
+      "id": "actual-net-return",
+      "method": "ratio",
+      "actual": 0.0192,
+      "expected": 0.0192,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-02",
+      "id": "essential-goal-shortfall",
+      "method": "difference",
+      "actual": 4000,
+      "expected": 4000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-03",
+      "id": "provider-commission-rate",
+      "method": "ratio",
+      "actual": 0.012,
+      "expected": 0.012,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-03",
+      "id": "annual-trail",
+      "method": "product",
+      "actual": 800,
+      "expected": 800,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-03",
+      "id": "annual-cost-difference",
+      "method": "product",
+      "actual": 300,
+      "expected": 300,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-03",
+      "id": "first-year-switch-disadvantage",
+      "method": "sum",
+      "actual": 600,
+      "expected": 600,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-04",
+      "id": "first-year-net-wealth",
+      "method": "net_revenue",
+      "actual": 20690.6,
+      "expected": 20690.6,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-04",
+      "id": "first-year-total-charges",
+      "method": "sum",
+      "actual": 497.4,
+      "expected": 497.4,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-04",
+      "id": "first-year-net-return",
+      "method": "ratio",
+      "actual": 0.03453,
+      "expected": 0.03453,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-04",
+      "id": "embedded-total",
+      "method": "sum",
+      "actual": 1500,
+      "expected": 1500,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-04",
+      "id": "gross-five-year",
+      "method": "growth_chain",
+      "actual": 12762.815625,
+      "expected": 12762.815625,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-04",
+      "id": "net-five-year",
+      "method": "growth_chain",
+      "actual": 11876.86305646875,
+      "expected": 11876.863056468745,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-04",
+      "id": "foreign-fee-euros",
+      "method": "ratio",
+      "actual": 25,
+      "expected": 25,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-05",
+      "id": "market-loss",
+      "method": "product",
+      "actual": 7500,
+      "expected": 7500,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-05",
+      "id": "actual-loss",
+      "method": "difference",
+      "actual": 6000,
+      "expected": 6000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-05",
+      "id": "counterfactual-difference",
+      "method": "difference",
+      "actual": 4000,
+      "expected": 4000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-06",
+      "id": "normal-coverage",
+      "method": "ratio",
+      "actual": 2.5,
+      "expected": 2.5,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-06",
+      "id": "stress-coverage",
+      "method": "ratio",
+      "actual": 1.25,
+      "expected": 1.25,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-06",
+      "id": "exposure-reallocation",
+      "method": "product",
+      "actual": 10000000,
+      "expected": 10000000,
+      "status": "PASS"
+    },
+    {
+      "lesson": "EIP-7.1-06",
+      "id": "preference-shortfall",
+      "method": "difference",
+      "actual": 10,
+      "expected": 10,
       "status": "PASS"
     }
   ]

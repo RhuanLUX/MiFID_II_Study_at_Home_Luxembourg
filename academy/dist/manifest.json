@@ -1,11 +1,11 @@
 {
-  "version": "1.1.0-translation-b03",
+  "version": "1.1.0-translation-b07",
   "scope": "Reading-only Phase 1",
   "owner_uat": "LESSON_16_REFERENCE_APPROVED_PRODUCTION_AUTHORISED",
   "date": "2026-10-15",
   "file": "EIP_Luxembourg_Academy.html",
-  "sha256": "b7cf5cd8c42c1d55c6a0189d7c74319ef47ec6bb04801dff8b76e5c967054fe4",
-  "bytes": 1674591,
+  "sha256": "0d836660d9622af7f757b0db3c1617ab9722391a079be8d9afea8c7f7ba57c45",
+  "bytes": 2224641,
   "lessons": [
     {
       "id": "EIP-3.1-A",
@@ -244,337 +244,337 @@
     {
       "id": "EIP-3.6-03",
       "en_words": 1250,
-      "pt_words": 0,
+      "pt_words": 1353,
       "examples": 3
     },
     {
       "id": "EIP-3.6-04",
       "en_words": 1282,
-      "pt_words": 0,
+      "pt_words": 1389,
       "examples": 3
     },
     {
       "id": "EIP-3.6-05",
       "en_words": 1272,
-      "pt_words": 0,
+      "pt_words": 1344,
       "examples": 3
     },
     {
       "id": "EIP-3.6-06",
       "en_words": 1174,
-      "pt_words": 0,
+      "pt_words": 1266,
       "examples": 3
     },
     {
       "id": "EIP-3.7-01",
       "en_words": 1104,
-      "pt_words": 0,
+      "pt_words": 1144,
       "examples": 3
     },
     {
       "id": "EIP-3.7-02",
       "en_words": 1131,
-      "pt_words": 0,
+      "pt_words": 1165,
       "examples": 3
     },
     {
       "id": "EIP-3.7-03",
       "en_words": 1119,
-      "pt_words": 0,
+      "pt_words": 1230,
       "examples": 3
     },
     {
       "id": "EIP-3.7-04",
       "en_words": 1012,
-      "pt_words": 0,
+      "pt_words": 1118,
       "examples": 3
     },
     {
       "id": "EIP-3.8-01",
       "en_words": 1129,
-      "pt_words": 0,
+      "pt_words": 1210,
       "examples": 3
     },
     {
       "id": "EIP-3.8-02",
       "en_words": 1076,
-      "pt_words": 0,
+      "pt_words": 1193,
       "examples": 3
     },
     {
       "id": "EIP-3.8-03",
       "en_words": 1192,
-      "pt_words": 0,
+      "pt_words": 1400,
       "examples": 3
     },
     {
       "id": "EIP-3.8-04",
       "en_words": 1189,
-      "pt_words": 0,
+      "pt_words": 1400,
       "examples": 3
     },
     {
       "id": "EIP-3.8-05",
       "en_words": 1171,
-      "pt_words": 0,
+      "pt_words": 1385,
       "examples": 3
     },
     {
       "id": "EIP-3.8-06",
       "en_words": 1131,
-      "pt_words": 0,
+      "pt_words": 1361,
       "examples": 3
     },
     {
       "id": "EIP-3.9-01",
       "en_words": 1160,
-      "pt_words": 0,
+      "pt_words": 1350,
       "examples": 3
     },
     {
       "id": "EIP-3.9-02",
       "en_words": 1153,
-      "pt_words": 0,
+      "pt_words": 1297,
       "examples": 3
     },
     {
       "id": "EIP-3.9-03",
       "en_words": 1032,
-      "pt_words": 0,
+      "pt_words": 1151,
       "examples": 3
     },
     {
       "id": "EIP-3.10-01",
       "en_words": 1158,
-      "pt_words": 0,
+      "pt_words": 1349,
       "examples": 3
     },
     {
       "id": "EIP-3.10-02",
       "en_words": 1191,
-      "pt_words": 0,
+      "pt_words": 1389,
       "examples": 3
     },
     {
       "id": "EIP-4.1-02",
       "en_words": 1309,
-      "pt_words": 0,
+      "pt_words": 1373,
       "examples": 3
     },
     {
       "id": "EIP-4.1-03",
       "en_words": 1014,
-      "pt_words": 0,
+      "pt_words": 1087,
       "examples": 3
     },
     {
       "id": "EIP-4.1-04",
       "en_words": 1207,
-      "pt_words": 0,
+      "pt_words": 1324,
       "examples": 3
     },
     {
       "id": "EIP-5.1-01",
       "en_words": 1159,
-      "pt_words": 0,
+      "pt_words": 1291,
       "examples": 3
     },
     {
       "id": "EIP-5.1-02",
       "en_words": 1122,
-      "pt_words": 0,
+      "pt_words": 1231,
       "examples": 3
     },
     {
       "id": "EIP-5.2-01",
       "en_words": 1126,
-      "pt_words": 0,
+      "pt_words": 1259,
       "examples": 3
     },
     {
       "id": "EIP-5.2-02",
       "en_words": 953,
-      "pt_words": 0,
+      "pt_words": 1094,
       "examples": 3
     },
     {
       "id": "EIP-5.2-03",
       "en_words": 1147,
-      "pt_words": 0,
+      "pt_words": 1297,
       "examples": 3
     },
     {
       "id": "EIP-5.3-01",
       "en_words": 1143,
-      "pt_words": 0,
+      "pt_words": 1305,
       "examples": 3
     },
     {
       "id": "EIP-5.3-02",
       "en_words": 1141,
-      "pt_words": 0,
+      "pt_words": 1256,
       "examples": 3
     },
     {
       "id": "EIP-5.4-01",
       "en_words": 1161,
-      "pt_words": 0,
+      "pt_words": 1320,
       "examples": 3
     },
     {
       "id": "EIP-5.4-02",
       "en_words": 1178,
-      "pt_words": 0,
+      "pt_words": 1290,
       "examples": 3
     },
     {
       "id": "EIP-5.5-01",
       "en_words": 1148,
-      "pt_words": 0,
+      "pt_words": 1321,
       "examples": 3
     },
     {
       "id": "EIP-5.5-02",
       "en_words": 1118,
-      "pt_words": 0,
+      "pt_words": 1262,
       "examples": 3
     },
     {
       "id": "EIP-6.1-01",
       "en_words": 1142,
-      "pt_words": 0,
+      "pt_words": 1339,
       "examples": 3
     },
     {
       "id": "EIP-6.1-02",
       "en_words": 1119,
-      "pt_words": 0,
+      "pt_words": 1234,
       "examples": 3
     },
     {
       "id": "EIP-6.1-03",
       "en_words": 1108,
-      "pt_words": 0,
+      "pt_words": 1253,
       "examples": 3
     },
     {
       "id": "EIP-6.1-04",
       "en_words": 1134,
-      "pt_words": 0,
+      "pt_words": 1294,
       "examples": 3
     },
     {
       "id": "EIP-6.2-01",
       "en_words": 1148,
-      "pt_words": 0,
+      "pt_words": 1263,
       "examples": 3
     },
     {
       "id": "EIP-6.2-02",
       "en_words": 1190,
-      "pt_words": 0,
+      "pt_words": 1332,
       "examples": 3
     },
     {
       "id": "EIP-6.2-03",
       "en_words": 1093,
-      "pt_words": 0,
+      "pt_words": 1226,
       "examples": 3
     },
     {
       "id": "EIP-6.2-04",
       "en_words": 1131,
-      "pt_words": 0,
+      "pt_words": 1287,
       "examples": 3
     },
     {
       "id": "EIP-7.1-01",
       "en_words": 1149,
-      "pt_words": 0,
+      "pt_words": 1245,
       "examples": 3
     },
     {
       "id": "EIP-7.1-02",
       "en_words": 1111,
-      "pt_words": 0,
+      "pt_words": 1159,
       "examples": 3
     },
     {
       "id": "EIP-7.1-03",
       "en_words": 1116,
-      "pt_words": 0,
+      "pt_words": 1213,
       "examples": 3
     },
     {
       "id": "EIP-7.1-04",
       "en_words": 1148,
-      "pt_words": 0,
+      "pt_words": 1272,
       "examples": 3
     },
     {
       "id": "EIP-7.1-05",
       "en_words": 1083,
-      "pt_words": 0,
+      "pt_words": 1145,
       "examples": 3
     },
     {
       "id": "EIP-7.1-06",
       "en_words": 1123,
-      "pt_words": 0,
+      "pt_words": 1266,
       "examples": 3
     },
     {
       "id": "EIP-7.2-01",
       "en_words": 1376,
-      "pt_words": 0,
+      "pt_words": 1494,
       "examples": 3
     },
     {
       "id": "EIP-7.2-02",
       "en_words": 1292,
-      "pt_words": 0,
+      "pt_words": 1374,
       "examples": 3
     },
     {
       "id": "EIP-7.2-03",
       "en_words": 1394,
-      "pt_words": 0,
+      "pt_words": 1474,
       "examples": 3
     },
     {
       "id": "EIP-7.3-01",
       "en_words": 1078,
-      "pt_words": 0,
+      "pt_words": 1144,
       "examples": 3
     },
     {
       "id": "EIP-7.3-02",
       "en_words": 1280,
-      "pt_words": 0,
+      "pt_words": 1332,
       "examples": 3
     },
     {
       "id": "EIP-M8-01",
       "en_words": 1272,
-      "pt_words": 0,
+      "pt_words": 1383,
       "examples": 3
     },
     {
       "id": "EIP-M8-02",
       "en_words": 1231,
-      "pt_words": 0,
+      "pt_words": 1386,
       "examples": 3
     },
     {
       "id": "EIP-M8-03",
       "en_words": 1372,
-      "pt_words": 0,
+      "pt_words": 1501,
       "examples": 3
     },
     {
       "id": "EIP-M8-04",
       "en_words": 1060,
-      "pt_words": 0,
+      "pt_words": 1126,
       "examples": 3
     }
   ]

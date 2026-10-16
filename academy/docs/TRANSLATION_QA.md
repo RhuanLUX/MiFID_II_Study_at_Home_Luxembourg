@@ -37,3 +37,27 @@ Thirteen additional complete translations integrated. Availability: 39/95 (41.05
 All 461 existing numerical cases, 15 structure/regression checks and full syllabus/objective coverage passed. All 190 offline Edge page/viewport checks passed, including exact translated block headings/body text after the existing eye control is activated, notes, completion, backups and storage handling. No remote requests or page errors. Approved English data, all references and application files remain unchanged. Build 1.1.0-translation-b03; SHA-256 b7cf5cd8c42c1d55c6a0189d7c74319ef47ec6bb04801dff8b76e5c967054fe4.
 
 This is a validated production checkpoint, not completion of Phase 1.1. The two full-course translation audits and final GitHub push remain pending.
+
+## Batch 04 — Lessons 39–51
+
+Thirteen additional full translations integrated: 52/95 available (54.74%); 43 pending. Options, swaps, hedging, FX, structured products and fund policy/operations/risk were translated with all scenario limitations, exposure bases and regulatory exceptions retained. All 1,097 new translated fields passed numerical-token/sign checks, covering 2,048 paragraph pairs. English, source and approved interface hashes remain unchanged.
+
+All 461 numerical cases, 15 structural checks, complete coverage and 190 offline Edge page/viewport checks passed, including available PT blocks, notes/completion/backups, zero remote requests and zero page errors. Build 1.1.0-translation-b04; SHA-256 506ad3065ec4dd30de799c52ec4126d43d920192f4ca2786f4e5c4047b3d4963. Global translation audits and final GitHub push remain pending.
+
+## Batch 05 — Lessons 52–65, excluding the preserved bilingual Lesson 58
+
+Thirteen additional full translations integrated: 65/95 available (68.42%); 30 pending. Fund taxation, ESG factors/scenarios, complex-product classification, client evidence/preferences and introductory portfolio statistics retain their complete reasoning, conditions and examples. All 1,390 new translated fields passed numerical-token/sign checks, with 2,598 corresponding paragraph pairs. No English, source catalogue or approved interface changes.
+
+All 461 numerical cases, 15 structural checks, complete coverage and 190 offline Edge page/viewport checks passed; no remote requests or page errors. Build 1.1.0-translation-b05, dated 16 October 2026; SHA-256 eb02ff13a87f8648eef1362c5fb7c34a67d1627d258b2ebdbbce4b992c8e815f. Historical source/English-audit dates remain unchanged. Both global translation audits and final push remain pending.
+
+## Batch 06 — Lessons 66–80
+
+Fifteen additional full translations integrated: 80/95 available (84.21%); 15 pending. Portfolio risk/efficiency/performance, policy roles/settlements and retirement/tax conditions retain every explanation, scenario and qualification. All 1,739 new translated fields passed numerical-token/sign checks, with 3,257 corresponding paragraph pairs. English, references, approved interface and Golden Master source hashes remain unchanged.
+
+All 461 numerical cases, 15 structural checks, complete coverage and 190 offline Edge page/viewport checks passed, zero external requests/page errors. Build 1.1.0-translation-b06; SHA-256 d4547544a52dcf1dc20dbabfe9b993d7fcf32f51cd5857673b7518a1b0980c05. Test/progress report dates now use the release date, 16 October 2026; historical source retrieval dates and test-fixture dates remain intact. Both global translation audits and final GitHub push remain pending.
+
+## Batch 07 — Lessons 81–95
+
+Fifteen additional complete translations integrated: 95/95 (100%), no pending translation. All 2,180 populated PT fields are present; the 92 newly authored translations comprise 2,102 fields with identical numerical tokens/mathematical signs and 3,850 corresponding paragraph pairs. Conduct, AML, market abuse, ethics, secondary-market operations and Green Finance preserve the current-law/proposal distinctions and all scenario limitations. Original English, sources, approved interface and Golden Master files remain unchanged.
+
+All 461 numerical cases, 15 structural checks, full coverage and 190 offline Edge checks passed, with zero external requests/page errors and complete PT block rendering. Build 1.1.0-translation-b07; SHA-256 0d836660d9622af7f757b0db3c1617ab9722391a079be8d9afea8c7f7ba57c45. Translation production is complete; the two global translation audits are still pending. No final-completion or GitHub-push claim is made.

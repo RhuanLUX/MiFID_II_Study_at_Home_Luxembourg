@@ -2,7 +2,7 @@
 
 Independent educational reading platform for the EFPA Luxembourg EIP syllabus. Official project repository: https://github.com/RhuanLUX/MiFID_II_Study_at_Home_Luxembourg.
 
-The approved English baseline is **1.0.1-reading**, commit `e0368a7`: 95 English lessons, 285 worked examples, two documented content-audit passes and offline regression validation. **Phase 1.1 PT-BR translation is in progress: 39/95 lessons available (41.05%), 56 pending after batch 03.** This includes the three preserved bilingual Golden Masters. Full bilingual completion and the final two translation audits are not yet claimed; remaining translations are being authored and checked against the preserved English baseline.
+The approved English baseline is **1.0.1-reading**, commit `e0368a7`: 95 English lessons, 285 worked examples, two documented content-audit passes and offline regression validation. **Phase 1.1 PT-BR translation is in progress: 95/95 lessons available (100%), 0 pending after batch 07; both global translation audits pending.** This includes the three preserved bilingual Golden Masters. Full bilingual completion and the final two translation audits are not yet claimed; remaining translations are being authored and checked against the preserved English baseline.
 
 Open [the standalone HTML](academy/dist/EIP_Luxembourg_Academy.html) directly in a browser. Study content, notes, completion and JSON backups work offline. Source links optionally require internet. The existing eye button reveals complete Portuguese where available; untranslated lessons remain explicitly pending.
 

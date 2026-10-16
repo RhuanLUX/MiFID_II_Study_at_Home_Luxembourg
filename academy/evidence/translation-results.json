@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "baseline_commit": "e0368a7",
-  "build_sha256": "b7cf5cd8c42c1d55c6a0189d7c74319ef47ec6bb04801dff8b76e5c967054fe4",
-  "content_sha256": "2657465f5ef7894c5df83d90a5121613f6ad7ead3c9998f03fb9126adb84a54c",
+  "build_sha256": "0d836660d9622af7f757b0db3c1617ab9722391a079be8d9afea8c7f7ba57c45",
+  "content_sha256": "f8288e323714abea023296e4b3867d27d3f93ef6f81fb42ee95b2f566013c978",
   "lessons": 95,
-  "complete": 39,
-  "pending": 56,
-  "completion_percentage": 41.05,
-  "fields": 886,
-  "paragraph_pairs": 1507,
-  "strict_number_fields": 808,
+  "complete": 95,
+  "pending": 0,
+  "completion_percentage": 100,
+  "fields": 2180,
+  "paragraph_pairs": 3850,
+  "strict_number_fields": 2102,
   "english_preserved": true,
   "interface_preserved": true,
   "sources_preserved": true,
@@ -211,227 +211,283 @@
     },
     {
       "id": "EIP-3.6-03",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-3.6-04",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-3.6-05",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-3.6-06",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 21
     },
     {
       "id": "EIP-3.7-01",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 21
     },
     {
       "id": "EIP-3.7-02",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-3.7-03",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-3.7-04",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 21
     },
     {
       "id": "EIP-3.8-01",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 21
     },
     {
       "id": "EIP-3.8-02",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 21
     },
     {
       "id": "EIP-3.8-03",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-3.8-04",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-3.8-05",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-3.8-06",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 21
     },
     {
       "id": "EIP-3.9-01",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-3.9-02",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-3.9-03",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 21
     },
     {
       "id": "EIP-3.10-01",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-3.10-02",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-4.1-02",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 25
     },
     {
       "id": "EIP-4.1-03",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 21
     },
     {
       "id": "EIP-4.1-04",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-5.1-01",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-5.1-02",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-5.2-01",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-5.2-02",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 21
     },
     {
       "id": "EIP-5.2-03",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-5.3-01",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-5.3-02",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-5.4-01",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-5.4-02",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 25
     },
     {
       "id": "EIP-5.5-01",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-5.5-02",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-6.1-01",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-6.1-02",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-6.1-03",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-6.1-04",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-6.2-01",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-6.2-02",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 25
     },
     {
       "id": "EIP-6.2-03",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-6.2-04",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-7.1-01",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-7.1-02",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-7.1-03",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-7.1-04",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-7.1-05",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-7.1-06",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-7.2-01",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 27
     },
     {
       "id": "EIP-7.2-02",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 25
     },
     {
       "id": "EIP-7.2-03",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 27
     },
     {
       "id": "EIP-7.3-01",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 23
     },
     {
       "id": "EIP-7.3-02",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 25
     },
     {
       "id": "EIP-M8-01",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 25
     },
     {
       "id": "EIP-M8-02",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 25
     },
     {
       "id": "EIP-M8-03",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 27
     },
     {
       "id": "EIP-M8-04",
-      "status": "PENDING"
+      "status": "TRANSLATED_FIELD_PARAGRAPH_NUMBER_CHECKS_PASSED",
+      "fields": 21
     }
   ],
   "limits": [

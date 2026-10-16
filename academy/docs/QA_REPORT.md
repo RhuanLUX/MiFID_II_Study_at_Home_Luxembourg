@@ -1,6 +1,6 @@
-# Bilingual platform QA — 1.1.0-translation-b03
+# Bilingual platform QA — 1.1.0-translation-b07
 
-English production: 95/95 complete. PT-BR availability: 39/95, 56 pending. The current bilingual production state is IN_PROGRESS.
+English production: 95/95 complete. PT-BR availability: 95/95, 0 pending. The current bilingual production state is IN_PROGRESS.
 
 ## English preservation
 
@@ -8,13 +8,13 @@ All 95 English lesson projections, including calculations, IDs and references, m
 
 ## Current translation checks
 
-886 populated PT fields; 1507 new translation paragraph pairs and 808 fields checked for identical numerical tokens and mathematical signs. Existing Golden Master formatting is preserved and will be reviewed contextually. Full-course translation fidelity audit: PENDING. Full-course technical-language audit: PENDING. Counts do not substitute for semantic review.
+2180 populated PT fields; 3850 new translation paragraph pairs and 2102 fields checked for identical numerical tokens and mathematical signs. Existing Golden Master formatting is preserved and will be reviewed contextually. Full-course translation fidelity audit: PENDING. Full-course technical-language audit: PENDING. Counts do not substitute for semantic review.
 
 ## Regression
 
 461 existing numerical cases and 15 structural/regression checks passed. Coverage remains 78 official lettered leaves plus Green Finance, 109 explicit objectives and 285 worked examples. Edge 155.0.4283.45 opened all 95 pages under file:// with networking disabled: 190 page/viewport checks at 390px/1200px, zero external requests and zero page errors. Available PT headings and body paragraphs were checked against their corresponding source translations. Notes, completion, navigation, backup/import, malformed imports, old progress and storage failures passed.
 
-Build SHA-256: b7cf5cd8c42c1d55c6a0189d7c74319ef47ec6bb04801dff8b76e5c967054fe4. Current evidence is bound to this build.
+Build SHA-256: 0d836660d9622af7f757b0db3c1617ab9722391a079be8d9afea8c7f7ba57c45. Current evidence is bound to this build.
 
 ## Limits and delivery
 

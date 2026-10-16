@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "build_sha256": "57c7b4a714adac0e8883b5de1117ebb9edfc92a956dffc641340424df7a1da65",
+  "build_sha256": "ffc67d3f473e4673a69afeeb9510cb0e4ab31844068ff4c59b6419d7419382bb",
   "exercise_file_sha256": {
     "EIP-1.1-01.json": "61d011db9d8695cce8ece9787c456bde1266d3e9c8aea69e398ec93dbe575e77",
     "EIP-1.1-02.json": "dc2b58f07e1234e32aec9ecaa7e09790f18374feb55c0d0d9a95c071dcdeb2b9",
@@ -102,6 +102,24 @@
   "metadata_examples": 146,
   "additional_direct_premise_checks": 41,
   "total_checks": 187,
+  "lesson79_rounding_verification": {
+    "lesson": "EIP-6.2-03",
+    "block": "EIP-6.2-03-B05",
+    "exercise": "EIP-6.2-03-R5",
+    "method": "Exact rational powers plus independent60-digit Decimal annual accumulation",
+    "a": "43822.4628606683870109615255532057678315520000",
+    "b": "36122.2246933882762351462661516345176368020000",
+    "difference": "7700.2381672801107758152594015712501947500000",
+    "rounded_a": "43822.46",
+    "rounded_b": "36122.22",
+    "nearest_cent_half_up": "7700.24",
+    "nearest_cent_half_even": "7700.24",
+    "rounded_endpoints_difference": "7700.24",
+    "truncation_not_nearest_cent": "7700.23",
+    "convention": "Constant net growth, no intermediate cent-rounding; round final presentation to nearest cent. Not a halfway case.",
+    "bilingual_reading_exercise_consistent": true,
+    "status": "PASS"
+  },
   "status": "PASS",
   "rows": [
     {

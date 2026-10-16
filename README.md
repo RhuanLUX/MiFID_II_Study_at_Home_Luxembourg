@@ -2,7 +2,7 @@
 
 Independent educational reading platform for the EFPA Luxembourg EIP syllabus. Official project repository: https://github.com/RhuanLUX/MiFID_II_Study_at_Home_Luxembourg.
 
-**Phase 2 production is complete:** 95/95 lessons each contain five optional bilingual exercises (475/475), with explanatory feedback and individual retry. See [reinforcement QA and known limitations](academy/docs/REINFORCEMENT_QA.md) and [progress](academy/docs/REINFORCEMENT_PROGRESS.md). Release: 2.0.0-reinforcement.
+**Phase 2 is FROZEN — ready for Owner UAT:** 95/95 lessons each contain five optional bilingual exercises (475/475), with explanatory feedback and individual retry. See [reinforcement QA and known limitations](academy/docs/REINFORCEMENT_QA.md) and [progress](academy/docs/REINFORCEMENT_PROGRESS.md). Release: 2.0.1-reinforcement. The Owner-authorised final cent correction aligns Lesson 79 in both languages with its exercise at €7,700.24; all other educational content and the interface are preserved.
 
 **The approved Release 1.1.0-bilingual baseline is complete:** 95 English lessons and 95 full PT-BR translations (100%; zero pending). Both translation audits are complete: a full bilingual fidelity reading and a distinct technical review across all 95 lessons, supported by 51 independent Decimal recalculations and final offline regression. Eight translation wording/terminology issues were corrected across production and audit. The approved English baseline remains commit `e0368a7`, with its two original content audits, 285 worked examples and all approved application files preserved. The three original bilingual Golden Masters are unchanged.
 

@@ -915,6 +915,20 @@
     "decimal_checks": 187,
     "status": "COMPLETE",
     "scope": "Fresh financial interpretation/distractor review of every tagged example; direct-premise recalculation of later numerical exercises; production bilingual answer-uniqueness/feedback review for all475. Same Codex author, not independent specialist approval.",
-    "remaining_baseline_discrepancy": "EIP-6.2-03-B05 states7700.23; actual compounded difference rounds7700.24. Exercise corrected; approved reading unchanged by owner restriction."
+    "remaining_baseline_discrepancy": null,
+    "resolved_baseline_discrepancy": {
+      "date": "2026-10-16",
+      "owner_authorization": "PHASE 2: FINAL CORRECTION AND RELEASE BASELINE",
+      "lesson": "EIP-6.2-03",
+      "block": "EIP-6.2-03-B05",
+      "old": "€7,700.23",
+      "corrected": "€7,700.24",
+      "languages": [
+        "en",
+        "pt-BR"
+      ],
+      "exercise": "EIP-6.2-03-R5 unchanged and consistent",
+      "method": "Exact rational powers and independent 60-digit Decimal annual accumulation; nearest-cent rounding, not truncation"
+    }
   }
 }

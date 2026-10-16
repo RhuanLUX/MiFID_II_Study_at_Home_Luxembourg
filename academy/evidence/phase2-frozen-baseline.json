@@ -1,0 +1,50 @@
+{
+  "version": "2.0.1-reinforcement",
+  "date": "2026-10-16",
+  "phase2_status": "FROZEN",
+  "owner_uat": "READY_FOR_OWNER_UAT",
+  "owner_uat_approval_claimed": false,
+  "previous_release_commit": "a655e27b74d08e1feb759ed4899b6b847433e611",
+  "historical_reading_baseline_commit": "e37a85dba742e16bc3e4ca7651d484ee27951966",
+  "authorized_correction": {
+    "lesson": "EIP-6.2-03",
+    "chronological_position": 79,
+    "block": "EIP-6.2-03-B05",
+    "languages": [
+      "en",
+      "pt-BR"
+    ],
+    "from": "€7,700.23",
+    "to": "€7,700.24",
+    "other_educational_content_preserved": true,
+    "exercise_content_unchanged": true,
+    "interface_unchanged": true
+  },
+  "html_sha256": "ffc67d3f473e4673a69afeeb9510cb0e4ab31844068ff4c59b6419d7419382bb",
+  "lesson_content_sha256": "62c3fbe72cd1ec12af24c6fcb04b7fe46a1117d4a70a1e1e3c757f9dba1cc437",
+  "reinforcement_content_sha256": "c16946a7a31871e31ba50880b034dcbe2d7b29c646cf4a2a888f1f630faa265a",
+  "sources_sha256": "34d5330d3eee82e99c490ce1bc201dbca18e98b8b112b88db82889f94f21072d",
+  "interface_sha256": {
+    "src/app.js": "2e2338ee55395f8a76162dc529675099d7bc6e1889e629a75cde96a9173f0a77",
+    "src/storage.js": "714060531800f2355b4bfc56d8b2c93aa559b28f350167387edcec64d2f58292",
+    "src/style.css": "eef6f4ceb5ea64aa033ec65a3f6ac181f37b40c063a7f47048631ef9dd1a86a8",
+    "src/reinforcement.js": "b834d37cd081a8e257b78599b622184f49890d767998ee9f350e9e4cf088734f"
+  },
+  "validation": {
+    "lessons": 95,
+    "exercises": 475,
+    "unit_checks": 16,
+    "reading_numerical_checks": 461,
+    "reinforcement_decimal_checks": 187,
+    "additional_lesson79_exact_rational_and_60_digit_rounding_check": "PASS",
+    "reading_responsive_checks": 190,
+    "exercise_responsive_checks": 190,
+    "offline_exercise_interactions": 475,
+    "remote_requests": 0,
+    "page_errors": 0
+  },
+  "limits": [
+    "Owner UAT is ready, not claimed performed or approved.",
+    "Historical specialist, regulatory and cross-browser limitations remain in REINFORCEMENT_QA.md."
+  ]
+}

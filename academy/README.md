@@ -1,6 +1,6 @@
 # EIP Luxembourg — offline learning textbook
 
-**Phase 2 release 2.0.0-reinforcement:** 95/95 lessons with 475 original optional bilingual exercises. See [reinforcement QA](docs/REINFORCEMENT_QA.md) for validation, corrections and the known one-cent approved-reading discrepancy.
+**Phase 2 release 2.0.1-reinforcement — FROZEN, ready for Owner UAT:** 95/95 lessons with 475 original optional bilingual exercises. See [reinforcement QA](docs/REINFORCEMENT_QA.md) for validation and corrections. The final Owner-authorised Lesson 79 cent correction is resolved in English and PT-BR; its existing exercise remains consistent.
 
 **Phase 1 English reading production complete: 95/95 lessons; both content-audit passes complete.** The owner's corrected scope and continuous-production approval are recorded in `docs/OWNER_SCOPE_CORRECTION.txt` and `docs/OWNER_UAT_APPROVAL.txt`. The audit uses two distinct verification methods by Codex; independent specialist approval is not implied.
 

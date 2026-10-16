@@ -1,6 +1,6 @@
 # Phase 2 QA — optional bilingual reinforcement
 
-Release 2.0.0-reinforcement, 16 October 2026. Scope: exactly five optional selection exercises for each of the 95 existing approved lessons. Final build SHA-256: `57c7b4a714adac0e8883b5de1117ebb9edfc92a956dffc641340424df7a1da65`. Delivery file: `academy/dist/EIP_Luxembourg_Academy.html` (3,033,509 bytes).
+Status: **FROZEN — ready for Owner UAT**. Release 2.0.1-reinforcement, 16 October 2026. Scope: exactly five optional selection exercises for each of the 95 existing approved lessons. Final build SHA-256: `ffc67d3f473e4673a69afeeb9510cb0e4ab31844068ff4c59b6419d7419382bb`. Delivery file: `academy/dist/EIP_Luxembourg_Academy.html` (3,033,509 bytes).
 
 ## Content and review
 
@@ -26,7 +26,7 @@ Targeted official-source rechecks covered Luxembourg residence/assimilation and 
 2. Basic-question distractors in 33 early lesson files were strengthened with neighbouring concepts and realistic base/sign/timing/legal confusions. Residence, fund-income and half-dividend wording was clarified.
 3. An inheritance question could admit competing conclusions. It was narrowed to the specific knowledge/understanding issue.
 4. One switching-cost distractor incorrectly scaled 0.3%; another cost distractor's label did not match its €1,100 calculation. Both EN/PT versions were corrected.
-5. The retirement-product cost comparison gives `20,000 × (1.04^20 − 1.03^20) = 7,700.238167...`, rounding to **€7,700.24**. Exercise EIP-6.2-03-R5 was corrected. The approved reading EIP-6.2-03-B05 (chronological Lesson 79) still states €7,700.23; that one-cent baseline discrepancy is retained because the owner prohibited rewriting approved lessons.
+5. The retirement-product cost comparison gives `20,000 × (1.04^20 − 1.03^20) = 7,700.238167...`, rounding to **€7,700.24**. Exercise EIP-6.2-03-R5 was corrected. Under the Owner’s subsequent explicit final-correction authorisation, the English and PT-BR reading EIP-6.2-03-B05 (chronological Lesson 79) now also states €7,700.24. Exactly that one amount changed in each source file; the already-correct exercise and its explanations were preserved.
 6. Two challenging prompts depended on numerical premises from the previous question. The order-book and risky-portfolio inputs are now repeated so each optional exercise is independently answerable.
 7. Full matching definitions are displayed above dropdowns because native selects clip long text on narrow screens. The list and explanatory feedback preserve the complete definitions.
 
@@ -34,7 +34,7 @@ Targeted official-source rechecks covered Luxembourg residence/assimilation and 
 
 | Check | Result |
 |---|---|
-| Existing unit/storage/build checks | 15 passed |
+| Unit/storage/build checks including Lesson 79 rounding regression | 16 passed |
 | Existing reading numerical cases | 461 passed |
 | Coverage | 95 units; 78 official leaves; 109 explicit objectives; 285 worked readings |
 | Existing translations | 95 complete; zero pending; 2,180 fields; 3,850 paragraph pairs; 2,102 strict numeric fields |
@@ -47,10 +47,16 @@ Targeted official-source rechecks covered Luxembourg residence/assimilation and 
 
 The final browser evidence must match the final build hash above. Evidence files: `unit-results.json`, `calculation-results.json`, `coverage-results.json`, `translation-results.json`, `browser-results.json`, `reinforcement-results.json`, `reinforcement-browser-results.json`, `reinforcement-decimal-results.json`, and the reinforcement desktop/mobile screenshots in `academy/evidence/`.
 
-Preservation checks compare entire English/PT lesson data, sources and reading storage to the approved baseline. Original app/style hashes are checked after removing only the authorised extension. Practice does not alter backup schemas or persist answers. The translation regression reports `interface_preserved: false` because the authorised new section changes the interface, alongside `authorized_reinforcement_extension: true`; this does not indicate a redesign or translation regression.
+Preservation checks compare entire English/PT lesson data to the historical baseline after restoring only the two explicitly authorised Lesson 79 amounts for comparison. Sources, exercise content and reading storage remain unchanged. Original app/style hashes are checked after removing only the authorised extension. Practice does not alter backup schemas or persist answers. The translation regression reports `interface_preserved: false` because the authorised new section changes the interface, alongside `authorized_reinforcement_extension: true`; this does not indicate a redesign or translation regression.
 
 ## Limits and delivery
 
-The single HTML is fully offline for reading and practice; source links require internet when deliberately opened. Edge was tested; a separate Chrome or independent screen-reader audit is not recorded. Reviews were performed by Codex using distinct methods, without independent specialist sign-off or official EFPA/CSSF accreditation. Legal/tax outcomes remain fact-, residence-, treaty- and date-dependent; the historical source-issues report remains applicable. Learner timing has not been empirically calibrated. The known one-cent approved-reading discrepancy above is the only newly identified unresolved content defect in this Phase 2 review; no known exercise defect remains after corrections and tests.
+The single HTML is fully offline for reading and practice; source links require internet when deliberately opened. Edge was tested; a separate Chrome or independent screen-reader audit is not recorded. Reviews were performed by Codex using distinct methods, without independent specialist sign-off or official EFPA/CSSF accreditation. Legal/tax outcomes remain fact-, residence-, treaty- and date-dependent; the historical source-issues report remains applicable. Learner timing has not been empirically calibrated. The one-cent reading discrepancy is resolved in both languages. No known content or exercise defect remains from this scoped final correction; the broader legal/specialist/browser limitations above remain.
 
 Git delivery uses the existing `main` branch and official origin, preserving history and remote content. The final commit SHA, push and clean local/remote synchronization are confirmed in the owner delivery message, avoiding a self-referential commit hash in tracked reports.
+
+## Final correction and freeze baseline
+
+The Owner authorised only the Lesson 79 cent correction and final release validation. Exact rational powers and independent 60-digit Decimal annual accumulation give A = €43,822.462860668387… and B = €36,122.224693388276…, with a difference of €7,700.238167280110…. Nearest-cent rounding gives €7,700.24 under both half-up and half-even rules; subtracting rounded endpoints gives the same value. €7,700.23 is truncation, which is not the example’s nearest-cent convention. There is no intermediate annual cent-rounding or halfway tie in this model. Reproducible evidence is in the existing Decimal audit’s lesson79_rounding_verification record.
+
+The release baseline and Owner UAT readiness are recorded in content/release.cjs, dist/manifest.json and evidence/phase2-frozen-baseline.json after all final tests passed against the same HTML hash. FROZEN means the validated Phase 2 deliverable is ready for Owner UAT; it does not assert that the Owner has performed or approved that UAT. No Phase 3 work or interface change is included.

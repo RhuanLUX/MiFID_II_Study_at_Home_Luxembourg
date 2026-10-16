@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "build_sha256": "57c7b4a714adac0e8883b5de1117ebb9edfc92a956dffc641340424df7a1da65",
+  "build_sha256": "ffc67d3f473e4673a69afeeb9510cb0e4ab31844068ff4c59b6419d7419382bb",
   "baseline_commit": "e37a85dba742e16bc3e4ca7651d484ee27951966",
   "lessons": 95,
   "exercises": 475,
@@ -15,7 +15,9 @@
     "scenario": 204,
     "matching": 12
   },
-  "approved_lesson_content_preserved": true,
+  "approved_lesson_content_preserved": false,
+  "other_approved_lesson_content_preserved": true,
+  "authorized_lesson79_cent_correction": true,
   "reading_storage_preserved": true,
   "rows": [
     {

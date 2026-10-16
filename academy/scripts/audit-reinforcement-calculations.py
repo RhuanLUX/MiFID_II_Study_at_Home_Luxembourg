@@ -1,6 +1,7 @@
 from pathlib import Path
+from fractions import Fraction
 import json, hashlib
-from decimal import Decimal as D, getcontext, ROUND_CEILING, ROUND_HALF_UP
+from decimal import Decimal as D, getcontext, localcontext, ROUND_CEILING, ROUND_HALF_UP, ROUND_HALF_EVEN, ROUND_DOWN
 getcontext().prec=45
 root=Path(__file__).resolve().parents[1]
 def dec(x):
@@ -224,6 +225,27 @@ extra=[
 for id,value,expected in extra:
     assert rounded(value)==D(expected),(id,str(value),expected)
     rows.append({'exercise':id,'method':'direct-premise Decimal derivation','result':str(value),'status':'PASS'})
-report={'date':'2026-10-16','build_sha256':json.loads((root/'dist/manifest.json').read_text())['sha256'],'exercise_file_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((root/'content/reinforcement').glob('*.json'))},'method':'Independent Python Decimal45-digit arithmetic; explicit formulas, no JavaScript execution','metadata_examples':len(rows)-len(extra),'additional_direct_premise_checks':len(extra),'total_checks':len(rows),'status':'PASS','rows':rows,'limitations':['Numerical verification is distinct from legal interpretation and independent specialist approval.','This script checks stated models; plausible wrong alternatives and answer meaning receive authoring/content review, not proof from arithmetic alone.']}
+# Owner-authorised Lesson79 correction: exact rational powers versus independent annual accumulation.
+with localcontext() as ctx:
+    ctx.prec=60
+    rational_a=Fraction(20000)*Fraction(104,100)**20
+    rational_b=Fraction(20000)*Fraction(103,100)**20
+    exact=lambda f:D(f.numerator)/D(f.denominator)
+    a=b=D(20000)
+    for year in range(20):a*=D('1.04');b*=D('1.03')
+    assert a==exact(rational_a) and b==exact(rational_b)
+    gap=a-b
+    assert gap==exact(rational_a-rational_b)
+    assert gap.quantize(D('.01'),rounding=ROUND_HALF_UP)==D('7700.24')
+    assert gap.quantize(D('.01'),rounding=ROUND_HALF_EVEN)==D('7700.24')
+    assert rounded(a)-rounded(b)==D('7700.24')
+    for source in ['content/units/79-retirement-comparison.cjs','content/pt-BR/EIP-6.2-03.cjs']:
+        text=(root/source).read_text(encoding='utf-8')
+        assert text.count('€7,700.24')==1 and '€7,700.23' not in text
+    exercise=json.loads((root/'content/reinforcement/EIP-6.2-03.json').read_text(encoding='utf-8'))[4]
+    for pair in [exercise['options'][exercise['answer']],exercise['explanation']]:
+        for text in pair:assert '€7,700.24' in text and '€7,700.23' not in text
+    correction={'lesson':'EIP-6.2-03','block':'EIP-6.2-03-B05','exercise':'EIP-6.2-03-R5','method':'Exact rational powers plus independent60-digit Decimal annual accumulation','a':str(a),'b':str(b),'difference':str(gap),'rounded_a':str(rounded(a)),'rounded_b':str(rounded(b)),'nearest_cent_half_up':str(gap.quantize(D('.01'),rounding=ROUND_HALF_UP)),'nearest_cent_half_even':str(gap.quantize(D('.01'),rounding=ROUND_HALF_EVEN)),'rounded_endpoints_difference':str(rounded(a)-rounded(b)),'truncation_not_nearest_cent':str(gap.quantize(D('.01'),rounding=ROUND_DOWN)),'convention':'Constant net growth, no intermediate cent-rounding; round final presentation to nearest cent. Not a halfway case.','bilingual_reading_exercise_consistent':True,'status':'PASS'}
+report={'date':'2026-10-16','build_sha256':json.loads((root/'dist/manifest.json').read_text())['sha256'],'exercise_file_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((root/'content/reinforcement').glob('*.json'))},'method':'Independent Python Decimal45-digit arithmetic; explicit formulas, no JavaScript execution','metadata_examples':len(rows)-len(extra),'additional_direct_premise_checks':len(extra),'total_checks':len(rows),'lesson79_rounding_verification':correction,'status':'PASS','rows':rows,'limitations':['Numerical verification is distinct from legal interpretation and independent specialist approval.','This script checks stated models; plausible wrong alternatives and answer meaning receive authoring/content review, not proof from arithmetic alone.']}
 (root/'evidence/reinforcement-decimal-results.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 print(json.dumps({k:v for k,v in report.items() if k not in ('rows','exercise_file_sha256')}))

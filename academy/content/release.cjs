@@ -1,1 +1,1 @@
-module.exports={version:'2.0.0-reinforcement',batch:'Phase 2 — 95 lessons / 475 optional bilingual exercises',date:'2026-10-16',phase2_qa:'COMPLETE'};
+module.exports={version:'2.0.1-reinforcement',batch:'Phase 2 final Lesson 79 cent correction — 95 lessons / 475 exercises',date:'2026-10-16',phase2_qa:'COMPLETE',phase2_status:'FROZEN',phase2_owner_uat:'READY_FOR_OWNER_UAT'};

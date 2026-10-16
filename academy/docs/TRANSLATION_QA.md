@@ -1,4 +1,4 @@
-# Phase 1.1 translation production — in progress
+# Phase 1.1 translation QA — complete
 
 Approved English baseline: 1.0.1-reading, commit e0368a7. All 95 English lessons, formulas, numerical assumptions/results, citations, IDs, curriculum sequence and approved application functions must remain unchanged. Owner authorisation is preserved in OWNER_TRANSLATION_AUTHORIZATION.txt.
 
@@ -6,7 +6,7 @@ The three original bilingual Golden Masters are retained. The other 92 translati
 
 Production uses batches of 10–15 lessons. Correspondence checks compare all meaningful lesson fields, paragraph counts, numerical tokens and preserved English content. Financial terminology follows professional PT-BR, retaining useful examination terms such as YTM, NAV and duration. Amounts, percentages, formulas and dates retain the original English numerical notation to support direct side-by-side comparison; they must not be silently interpreted as different values.
 
-Neither translation production nor the final two translation audits are complete at this stage. Automated counts and numerical-token matching support, but do not replace, semantic fidelity review. Current audited English reports remain historical evidence for the approved baseline rather than claiming validation of unfinished translations.
+Final status: all 95 translations and both full-course translation audits are complete. See TRANSLATION_AUDIT.md and the final section below. The batch entries that follow are historical checkpoints: their pending status describes that checkpoint, not the final release. Automated comparisons support the actual recorded semantic and technical reviews.
 
 ## Batch 01 — Lessons 1–10
 
@@ -61,3 +61,11 @@ All 461 numerical cases, 15 structural checks, complete coverage and 190 offline
 Fifteen additional complete translations integrated: 95/95 (100%), no pending translation. All 2,180 populated PT fields are present; the 92 newly authored translations comprise 2,102 fields with identical numerical tokens/mathematical signs and 3,850 corresponding paragraph pairs. Conduct, AML, market abuse, ethics, secondary-market operations and Green Finance preserve the current-law/proposal distinctions and all scenario limitations. Original English, sources, approved interface and Golden Master files remain unchanged.
 
 All 461 numerical cases, 15 structural checks, full coverage and 190 offline Edge checks passed, with zero external requests/page errors and complete PT block rendering. Build 1.1.0-translation-b07; SHA-256 0d836660d9622af7f757b0db3c1617ab9722391a079be8d9afea8c7f7ba57c45. Translation production is complete; the two global translation audits are still pending. No final-completion or GitHub-push claim is made.
+
+## Final release — 16 October 2026
+
+Production and both translation audits are complete:95/95 PT-BR, zero pending. Pass1 read all bilingual fields in full; pass2 separately challenged technical qualifiers across all95 lessons and independently recalculated51 sensitive examples with Decimal. T01–T08 are corrected, documented in TRANSLATION_AUDIT.md. A minor original English heading observation remains separately documented; English was not edited.
+
+Final15 structural,461 numerical and fullcoverage checks passed. All190 offline Edge page/viewport checks passed, including every PT block, notes/completion/navigation/backups and storage-error handling; zero remote requests/page errors. English, sources, approved application files and Golden Masters match their accepted hashes. FinalHTML SHA-256: 1758aa49107f2bc76086a28638eabb0da31c2bdaa5b42c670462c86abe1ae7cc.
+
+There is no open confirmed translation defect. Independent human/specialist approval and original source-consolidation limitations remain outside these two Codex verification methods. GitHub commit/push/synchronization is verified after generating the reports and reported in the delivery message.

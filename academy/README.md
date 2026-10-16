@@ -4,7 +4,7 @@
 
 Open **dist/EIP_Luxembourg_Academy.html** directly in a modern browser. No installation or internet is needed. Read a lesson, optionally reveal the full PT-BR translation and take notes, then mark it completed. Completed lessons have a green check. The next visit opens the next unfinished available lesson. Use **Backup** to export or restore reading progress and notes.
 
-All 95 English lessons are available, with 285 worked reading examples. Coverage includes all 78 official lettered syllabus items and the separately identified Green Finance examination area, explicitly treated as an author-developed expansion. All 109 supplied micro-objective IDs have explicit authored outcomes. The three bilingual Golden Masters remain unchanged. Phase 1.1 translation is in progress: 95/95 complete PT-BR readings are available after batch 07; both global translation audits remain pending. See docs/TRANSLATION_QA.md and docs/TRANSLATION_PROGRESS.json. The editorial reading plan totals 2,740 minutes (45.7 hours), with actual study duration pending learner calibration; this is not registered training or a claim of equivalence to EFPA's 80-hour reference.
+All 95 English lessons are available, with 285 worked reading examples. Coverage includes all 78 official lettered syllabus items and the separately identified Green Finance examination area, explicitly treated as an author-developed expansion. All 109 supplied micro-objective IDs have explicit authored outcomes. The three bilingual Golden Masters remain unchanged. Phase 1.1 is complete in release 1.1.0-bilingual: 95/95 full PT-BR readings, zero pending; both full-course translation audits completed with distinct methods. See docs/TRANSLATION_AUDIT.md for findings, methods and limits. See docs/TRANSLATION_QA.md and docs/TRANSLATION_PROGRESS.json. The editorial reading plan totals 2,740 minutes (45.7 hours), with actual study duration pending learner calibration; this is not registered training or a claim of equivalence to EFPA's 80-hour reference.
 
 ## Build and verification
 
@@ -15,6 +15,7 @@ node scripts/build.cjs
 node tests/check.cjs
 node tests/calculations.cjs
 node tests/coverage.cjs
+node tests/translation.cjs --final
 ```
 
 The build uses Node built-ins only and is deterministic for unchanged inputs. `dist/manifest.json` records its SHA-256 and content metrics. Browser QA additionally uses Playwright installed in the development environment:
@@ -42,4 +43,4 @@ On this workstation, the bundled Node package directory must be on `NODE_PATH`; 
 
 The platform is independent educational material, not an official/accredited EFPA course, legal advice, investment advice or a guarantee of passing. No quizzes, assessments, question banks, simulations or spaced-repetition engine are included.
 
-Audit arithmetic is reproducible with Python's standard library: run `python scripts/audit-calculations.py` against the retained input dataset. The separate reference-access script performs read-only network checks; its blocked/challenged/TLS outcomes are recorded rather than bypassed. Complete legal-consolidation review, case-specific tax/treaty determinations, independent specialist approval and measured learner timing remain limitations documented in the audit and source-issues reports.
+Translation audit arithmetic is reproducible with `python scripts/audit-translation-calculations.py` (51 sensitive examples recalculated directly from reading premises). Original English audit arithmetic is reproducible with Python's standard library: run `python scripts/audit-calculations.py` against the retained input dataset. The separate reference-access script performs read-only network checks; its blocked/challenged/TLS outcomes are recorded rather than bypassed. Complete legal-consolidation review, case-specific tax/treaty determinations, independent specialist approval and measured learner timing remain limitations documented in the audit and source-issues reports.

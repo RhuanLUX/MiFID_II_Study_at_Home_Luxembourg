@@ -1,0 +1,649 @@
+{
+  "date": "2026-10-16",
+  "status": "COMPLETE",
+  "method": "Complete post-production bilingual field-by-field semantic reading, supported by separate structural/numerical correspondence checks; contextual review of preserved Golden Masters.",
+  "content_sha256": "fcdbf471f5336c850228083e6b80c5bd8aa696c0c9cc6abc3c81063644e8fc79",
+  "reviewed_lessons": [
+    {
+      "position": 1,
+      "id": "EIP-1.1-01",
+      "status": "REVIEWED",
+      "note": "Resource constraint versus preference; recoverable value versus sunk cost; accessible alternative and expected-value caveats retain meaning."
+    },
+    {
+      "position": 2,
+      "id": "EIP-1.1-02",
+      "status": "REVIEWED",
+      "note": "Demand shifts versus curve movements, shortage quantity units, elasticity and price/quantity/profit effects preserve direction and interpretation."
+    },
+    {
+      "position": 3,
+      "id": "EIP-1.1-03",
+      "status": "REVIEWED",
+      "note": "Disinflation versus deflation; HICP versus personal basket; exact real return and nominal/real euro amounts; borrower and inflation-linked caveats preserve scope and meaning."
+    },
+    {
+      "position": 4,
+      "id": "EIP-1.2-01",
+      "status": "REVIEWED",
+      "note": "Fiscal/monetary/structural actors; GDP production versus transfers; cyclical deficit versus discretionary programme; opposing corporate cash-flow channels preserved."
+    },
+    {
+      "position": 5,
+      "id": "EIP-1.2-02",
+      "status": "REVIEWED",
+      "note": "Policy versus market expectations; relative percent/basis points; deposit/loan combined cash flows and repricing dates; nominal/real return caveats preserved."
+    },
+    {
+      "position": 6,
+      "id": "EIP-1.2-03",
+      "status": "REVIEWED",
+      "note": "Stocks versus flows; saving versus net borrowing; financial transaction/valuation distinctions and rest-of-world sign reversal faithfully retained with reduced-identity conditions."
+    },
+    {
+      "position": 7,
+      "id": "EIP-1.3-01",
+      "status": "REVIEWED",
+      "note": "Deficit/debt/issuance/maturity distinct; reserve scenarios correctly reconciled; debt-to-GDP percentage points and annualised gradual repricing preserve denominators and direction."
+    },
+    {
+      "position": 8,
+      "id": "EIP-1.3-02",
+      "status": "REVIEWED",
+      "note": "Real/nominal GDP and comparison periods; recovery-level gap; operational versus financial leverage; valuation surprises and discounting correctly distinguished."
+    },
+    {
+      "position": 9,
+      "id": "EIP-1.3-03",
+      "status": "REVIEWED",
+      "note": "Energy pass-through/profit bridge, fixed-coupon yield shock and USD-per-EUR inversion retain competing-channel and conditional-scenario meaning; double counting caveats intact."
+    },
+    {
+      "position": 10,
+      "id": "EIP-2.1-01",
+      "status": "REVIEWED",
+      "note": "Direct claim/counterparty versus sales channel; loan-created deposit balance-sheet mechanics; liquidity/solvency; NAV net charges and look-through denominator preserve meaning."
+    },
+    {
+      "position": 11,
+      "id": "EIP-2.2-01",
+      "status": "REVIEWED",
+      "note": "Original/remaining maturity; claim versus venue; bid/ask customer sides and midpoint denominator; EUR quotation versus unhedged currency exposure correctly preserved."
+    },
+    {
+      "position": 12,
+      "id": "EIP-2.3-01",
+      "status": "REVIEWED",
+      "note": "Primary/secondary proceeds; nominal/cash/coupon bases; allocation not loss; share-count dilution versus wealth and pre-emption scope remain faithful."
+    },
+    {
+      "position": 13,
+      "id": "EIP-2.3-02",
+      "status": "REVIEWED",
+      "note": "RM/MTF/OTF and OTC distinctions; whole-size net execution route; permitted netting/date limitations; statement valuation versus available cash retained."
+    },
+    {
+      "position": 14,
+      "id": "EIP-2.3-03",
+      "status": "REVIEWED",
+      "note": "Market/limit/stop instructions preserve buy/sell boundaries and non-execution/gap risks; weighted fills/all-in cost and Article27 sufficiently-steps scope remain faithful."
+    },
+    {
+      "position": 15,
+      "id": "EIP-2.3-04",
+      "status": "REVIEWED",
+      "note": "LuxSE market/platform/legal status; SOL without trading; fictional denomination not universal; NAV/charge/deadline and sustainability platform caveats intact."
+    },
+    {
+      "position": 16,
+      "id": "EIP-3.1-A",
+      "status": "REVIEWED",
+      "note": "Preserved Golden Master fully compared: localized separators/VP-VF aliases retain numerical meaning; simple/compound/nominal/effective/real distinctions, upward minimum rounding and dated gaps faithful. Symmetric warning against substituting360/365 retains instruction to consult contract."
+    },
+    {
+      "position": 17,
+      "id": "EIP-3.1-02",
+      "status": "REVIEWED",
+      "note": "Ordinary/annuity-due timing, individual dated PVs, exact effective-monthly conversion versus nominal division, viewpoint/sign and rounding cautions faithful."
+    },
+    {
+      "position": 18,
+      "id": "EIP-3.2-01",
+      "status": "REVIEWED",
+      "note": "Income/capital/disposal/unrealised events, withholding versus final liability and restricted credits, dates and net/real bases faithfully retained. Pre-existing example C heading discrepancy recorded separately as EN-T01."
+    },
+    {
+      "position": 19,
+      "id": "EIP-3.2-02",
+      "status": "REVIEWED",
+      "note": "Residence/issuer/paying-agent/ownership distinct; conditional assimilation not resident status; resident-only foreign-interest election, annual all-eligible-payment scope/form931/deadline preserved; credits and final levy correctly separated."
+    },
+    {
+      "position": 20,
+      "id": "EIP-3.2-03",
+      "status": "REVIEWED",
+      "note": "20% final interest eligibility,15% dividend advance versus50% base exemption,105(4)/107 actual/minimum expenses,annual allowance,no-more-than-six-month and strict>10%/five-year tests preserved."
+    },
+    {
+      "position": 21,
+      "id": "EIP-3.3-01",
+      "status": "REVIEWED",
+      "note": "Deposit rate/access horizon; FGDL per-person/per-legal-bank aggregation100000,exclusions/interest/temporary-high-balance scope and seven-working-day non-guarantee of continuous access preserved; real-return loss meaning intact."
+    },
+    {
+      "position": 22,
+      "id": "EIP-3.3-02",
+      "status": "REVIEWED",
+      "note": "Repo/reverse perspectives and transfer obligations; Actual/360, haircut inverse versus markup, recognised/raw collateral and margin liquidity/legal limitations accurately retained."
+    },
+    {
+      "position": 23,
+      "id": "EIP-3.3-03",
+      "status": "REVIEWED",
+      "note": "Discount face versus invested-price yields,180/90/60/30-day timing,360/365 simple versus effective annualisation and early-sale scenarios preserve cash-flow directions and caveats."
+    },
+    {
+      "position": 24,
+      "id": "EIP-3.3-04",
+      "status": "REVIEWED",
+      "note": "T01 revised economic-measure wording verified; policy/term/overnight references,EONIA cessation,date/tenor/day-weight reset,margin-floor order and fallback scope faithfully retained."
+    },
+    {
+      "position": 25,
+      "id": "EIP-3.4-A",
+      "status": "REVIEWED",
+      "note": "Preserved Golden Master fully compared with localized numeric formatting: coupon/current-yield/YTM and reinvestment scope,clean/dirty,modified/Macaulay/maturity distinction and small-shock approximation remain equivalent."
+    },
+    {
+      "position": 26,
+      "id": "EIP-3.4-02",
+      "status": "REVIEWED",
+      "note": "Clean/dirty/all-in scales,accrual timing and coupon-entitlement scope,near-coupon newly earned profit and common-settlement offer comparison correctly retained."
+    },
+    {
+      "position": 27,
+      "id": "EIP-3.4-03",
+      "status": "REVIEWED",
+      "note": "YTM inverse/bracket search direction,one-payment fee base,multiple promised payments,reinvestment terminal-wealth distinction and nominal/effective frequency scope retain meaning."
+    },
+    {
+      "position": 28,
+      "id": "EIP-3.4-04",
+      "status": "REVIEWED",
+      "note": "PV-weighted Macaulay and annual modified duration,decimal basis-point units,positive convexity correction for both directions,exact repricing and position DV01 scale preserve meaning and limitations."
+    },
+    {
+      "position": 29,
+      "id": "EIP-3.4-05",
+      "status": "REVIEWED",
+      "note": "Spread not default probability; expected principal loss plus missed coupon reconciliation; assumed priority waterfall not Luxembourg law; issuer/guarantor/security and rating limits faithful."
+    },
+    {
+      "position": 30,
+      "id": "EIP-3.4-06",
+      "status": "REVIEWED",
+      "note": "Full issuer performance versus earlier executable cash; settled/quoted value distinctions; reinvestment and spent-coupon accounting; goal-date sale scenarios and callable horizon mismatch retain caveats."
+    },
+    {
+      "position": 31,
+      "id": "EIP-3.4-07",
+      "status": "REVIEWED",
+      "note": "Coupon20% final levy limited to qualifying private resident facts; economic loss not automatic relief; Article97 redemption-premium classification,accrued-interest no automatic deduction and foreign scenarios faithfully preserved."
+    },
+    {
+      "position": 32,
+      "id": "EIP-3.5-01",
+      "status": "REVIEWED",
+      "note": "Residual ownership/classes,voting versus economic denominators,accounting/market equity,leverage symmetry and issue-price dilution versus wealth all faithful with hypothetical-law caveats."
+    },
+    {
+      "position": 33,
+      "id": "EIP-3.5-02",
+      "status": "REVIEWED",
+      "note": "Trailing/forward and normalized EPS versus diluted count; D1 not D0,r>g perpetual condition;sensitivity and terminal cash-flow no-double-counting retain conditional valuation conclusion."
+    },
+    {
+      "position": 34,
+      "id": "EIP-3.5-03",
+      "status": "REVIEWED",
+      "note": "T02 final/initial ratio wording verified; net fees/gross tax labels,ex-dividend wealth,reinvented cash not double counted,linked versus arithmetic and recovery-base asymmetry retained."
+    },
+    {
+      "position": 35,
+      "id": "EIP-3.5-04",
+      "status": "REVIEWED",
+      "note": "Employer-income/holding concentration and whole-household exposure; weights/common shocks;volatility/drawdown/permanent loss,tolerance/capacity,and changed dated goals retain nuance."
+    },
+    {
+      "position": 36,
+      "id": "EIP-3.5-05",
+      "status": "REVIEWED",
+      "note": "Dividend50% base exemption versus15% advance and omitted dependence contribution;strict>10%,family/lookback/six-month tests;105(4) expense allocation and107 minimum separate;conditional total-return tax branches faithfully retained."
+    },
+    {
+      "position": 37,
+      "id": "EIP-3.6-01",
+      "status": "REVIEWED",
+      "note": "Long/short obligations, economic payoff versus delivery, notional/margin denominators and USD-per-EUR inverse conversion preserved; cancellation/overhedge and financing qualifiers retained."
+    },
+    {
+      "position": 38,
+      "id": "EIP-3.6-02",
+      "status": "REVIEWED",
+      "note": "Margin ledger transfers versus losses, stipulated maintenance rule, funding before physical receipt, spot-minus-futures basis and short-hedge signs retain full meaning."
+    },
+    {
+      "position": 39,
+      "id": "EIP-3.6-03",
+      "status": "REVIEWED",
+      "note": "Holder rights/writer obligations, exercise styles and delivery funding, intrinsic versus premium/profit, long-option versus uncovered/covered writing risks preserved throughout."
+    },
+    {
+      "position": 40,
+      "id": "EIP-3.6-04",
+      "status": "REVIEWED",
+      "note": "All four payoff/profit formulas, complete scenario rows, premium break-even, nonnegative-underlying tail limits and protective-put deductible/expiry/quantity conditions preserved."
+    },
+    {
+      "position": 41,
+      "id": "EIP-3.6-05",
+      "status": "REVIEWED",
+      "note": "Overhedge corrected English distinction €9090.91 total versus €2727.27 incremental faithfully translated; combined hedge/put scenarios, conditional sensitivity coefficient and liquidity/suitability limits retained."
+    },
+    {
+      "position": 42,
+      "id": "EIP-3.6-06",
+      "status": "REVIEWED",
+      "note": "Conditional Article97/99bis/100 branches, short sales, annual €500 threshold, assumed30% versus qualifying20%, collateral/non-double-counting and unresolved product-specific tax boundaries retained; T03 clarified final taxation terminology."
+    },
+    {
+      "position": 43,
+      "id": "EIP-3.7-01",
+      "status": "REVIEWED",
+      "note": "Dealer bid/ask and inverse-side reversal, dimensional multiply/divide, USD10 correction, reciprocal percent denominator, executable/reference and spread/fee distinctions preserved."
+    },
+    {
+      "position": 44,
+      "id": "EIP-3.7-02",
+      "status": "REVIEWED",
+      "note": "Cross-unit cancellation, executable bid/ask routes, same-time/size assumptions and multi-currency fee timing retained; netJPY304 versus gross1302 distinction and historical-rate warning clear."
+    },
+    {
+      "position": 45,
+      "id": "EIP-3.7-03",
+      "status": "REVIEWED",
+      "note": "Initial/final FX factor direction, multiplicative interaction and percentage-point units; distributions/fees timing, class denomination versus underlying/hedge policy, liability-relative risk retained."
+    },
+    {
+      "position": 46,
+      "id": "EIP-3.7-04",
+      "status": "REVIEWED",
+      "note": "Receipt/payment forward direction, interest differential versus fee, uncertain terminal investment and overhedge, half-hedge sensitivity/netcharge and natural liability offsets fully retained."
+    },
+    {
+      "position": 47,
+      "id": "EIP-3.8-01",
+      "status": "REVIEWED",
+      "note": "Fund claim versus direct holdings/deposit, manager/administrator/depositary/distributor duties, FCP/SICAV/compartment/class distinctions, proportional exposures and embedded-cost/non-double-counting examples retained."
+    },
+    {
+      "position": 48,
+      "id": "EIP-3.8-02",
+      "status": "REVIEWED",
+      "note": "Net assets/matching units, subscription fee bases, redemption cash versus NAV, distribution/swing distinction and 2026/2027 guideline versus statutory LMT transition retained."
+    },
+    {
+      "position": 49,
+      "id": "EIP-3.8-03",
+      "status": "REVIEWED",
+      "note": "PartI scope, objective/policy/benchmark, ordinary5/10/40 whole-position aggregation and exceptions, tracking-difference denominators, replication/structure/passport versus suitability faithfully retained."
+    },
+    {
+      "position": 50,
+      "id": "EIP-3.8-04",
+      "status": "REVIEWED",
+      "note": "Embedded/external cost layers, stated additive fee drag versus multiplicative convention, retail eligibility/feebase, gates/deferral exposure and statutory/guideline transition distinctions retained."
+    },
+    {
+      "position": 51,
+      "id": "EIP-3.8-05",
+      "status": "REVIEWED",
+      "note": "Client liability/buffer versus return ranking, compatible total-return/class/cost evidence, SFDR label versus sustainability commitments, look-through overlap and7pp concentration increase preserved."
+    },
+    {
+      "position": 52,
+      "id": "EIP-3.8-06",
+      "status": "REVIEWED",
+      "note": "UCI173–176 scoped vehicle versus personal tax, quarter-end0.05% base, no-withholding versus liability, no automatic dividend/interest pass-through, conditional longheld nonsignificant corporate-share disposal and crossborder limits retained."
+    },
+    {
+      "position": 53,
+      "id": "EIP-3.9-01",
+      "status": "REVIEWED",
+      "note": "Integration/exclusion/stewardship versus impacts/values, SFDR contribution/DNSH/governance, weighted portfolio intensity versus real-world reduction and July2026 amendment versus October proposal retained."
+    },
+    {
+      "position": 54,
+      "id": "EIP-3.9-02",
+      "status": "REVIEWED",
+      "note": "Absolute versus intensity denominators, assumed carboncoverage and turnovercausality, controller/minority proportional exposure, missingdata versus zero and rating-method transparency fully retained."
+    },
+    {
+      "position": 55,
+      "id": "EIP-3.9-03",
+      "status": "REVIEWED",
+      "note": "Physical hazard/exposure/vulnerability and transition channels, net insurance/adaptation cash versus valuation loss, conditional pass-through and shortened-life PV, absence of invented probabilities/maxloss preserved."
+    },
+    {
+      "position": 56,
+      "id": "EIP-3.10-01",
+      "status": "REVIEWED",
+      "note": "Cap/participation, at-least70% boundary versus below, daily-close versus maturity barrier, nominal versus totalcost protection, issuer performance and exit/reinvestment contingencies preserved."
+    },
+    {
+      "position": 57,
+      "id": "EIP-3.10-02",
+      "status": "REVIEWED",
+      "note": "Article25 service scope, embedded/difficult debt and structured-deposit return/exit criteria, suitability versus appropriateness/execution-only, knowledge versus financialcapacity, platform nonrecognition wording retained."
+    },
+    {
+      "position": 58,
+      "id": "EIP-4.1-A",
+      "status": "REVIEWED",
+      "note": "Preserved Golden Master read in full. Localized thousands/decimal formats and stress/reserve arithmetic match; service paths, cumulative exemption, no-recommendation/missingdata, sustainability adaptation before advice and 2026 limits retain meaning. Source file unchanged."
+    },
+    {
+      "position": 59,
+      "id": "EIP-4.1-02",
+      "status": "REVIEWED",
+      "note": "Neutral questionnaire/supporting evidence versus signatures/scoring; available120k less commitments, principal/coupon loss,20% tuition stress; knowledge/experience/capacity/horizon dimensions and no-recommendation missingdata rule retained."
+    },
+    {
+      "position": 60,
+      "id": "EIP-4.1-03",
+      "status": "REVIEWED",
+      "note": "Dated profile/material change versus arbitrary universal interval, retirementexternalflows20400, newgoalreserve stress, inheritanceknowledgecapacity distinction, proportionate recent sustainability information retained."
+    },
+    {
+      "position": 61,
+      "id": "EIP-4.1-04",
+      "status": "REVIEWED",
+      "note": "Taxonomy/SFDR/PAI separate evidence, cumulative/alternative logic, overlap/nonaddition, minimumcommitment versus observedholdings, genuine recorded adaptation before recommendation and proposal/currentlaw distinction retained."
+    },
+    {
+      "position": 62,
+      "id": "EIP-5.1-01",
+      "status": "REVIEWED",
+      "note": "Arithmetic observation mean versus geometric noflow wealth, periodfrequency/annualisation, sequence with externalwithdrawal, cashheld versus reinvested dividends and sampleforecast limits retained."
+    },
+    {
+      "position": 63,
+      "id": "EIP-5.1-02",
+      "status": "REVIEWED",
+      "note": "Population/sample denominator and degreeoffreedom, variance versus percent standarddeviation, symmetric dispersion/no loss ceiling, sqrt-time assumptions and serialcovariance qualification preserved."
+    },
+    {
+      "position": 64,
+      "id": "EIP-5.2-01",
+      "status": "REVIEWED",
+      "note": "Aligned deviations/sample covariance, consistent units and zero-volatility undefined denominator, correlation versus rawsign/causation/independence, nonlinear zero-correlation counterexample and tail/stress limitations retained."
+    },
+    {
+      "position": 65,
+      "id": "EIP-5.2-02",
+      "status": "REVIEWED",
+      "note": "Startingweight linear return versus covariance risk, horizon/currency compatible expected inputs, drift and66000/44000 rebalance, negativefinancingweight and equitydenominator gains/losses retained."
+    },
+    {
+      "position": 66,
+      "id": "EIP-5.2-03",
+      "status": "REVIEWED",
+      "note": "Squaredweights/crosscovariance derivation, decimalvariance/root units, correlation-boundaries, directtwo-state cancellation, exact−1 weightcondition versus residual−0.8 and non-guarantee qualifications retained."
+    },
+    {
+      "position": 67,
+      "id": "EIP-5.3-01",
+      "status": "REVIEWED",
+      "note": "Inputs/constraints/objective separation, target6% and infeasible9% negativeweight, minimumvariance formula/covariance, utility coefficient versus client assessment and conditional model limitations retained."
+    },
+    {
+      "position": 68,
+      "id": "EIP-5.3-02",
+      "status": "REVIEWED",
+      "note": "Wholeportfolio versus tradableboundary, reserve/illiquid exposure and minimumeligibility hardlimits, expectedbenefit versus turnovercost breakeven, stressedcorrelation conditional volatility and futurecash prohibition retained."
+    },
+    {
+      "position": 69,
+      "id": "EIP-5.4-01",
+      "status": "REVIEWED",
+      "note": "Dominance/strict improvement and feasiblemodel scope, minimumvariance versus upperbranch, covariance in risky mixtures, idealriskfree horizon/currency and distinct borrowingcost leverage examples retained."
+    },
+    {
+      "position": 70,
+      "id": "EIP-5.4-02",
+      "status": "REVIEWED",
+      "note": "Longterm110k versus180k wholewealth allocation denominators, jointloss22000 and reserve assumption, requiredgeometricgrowth versus expectedreturn, no forcedrisk for infeasiblegoal and reviewtriggers retained."
+    },
+    {
+      "position": 71,
+      "id": "EIP-5.5-01",
+      "status": "REVIEWED",
+      "note": "Activepp versus relativewealth denominators, compounded cumulative difference versus summedperioddifferences, compatible blended benchmark and prospective mandatechange, grossnet costs/non-double-counting and personalgoal distinction retained."
+    },
+    {
+      "position": 72,
+      "id": "EIP-5.5-02",
+      "status": "REVIEWED",
+      "note": "Sharpe excessreturn dispersion/negativequotient caution, betaTreynor versus modelalpha/trackingerror, TWRsubperiods versus MWRdatedcapital, positivegrowthfactor root but negativeannualIRR and cumulative/annual distinction retained."
+    },
+    {
+      "position": 73,
+      "id": "EIP-6.1-01",
+      "status": "REVIEWED",
+      "note": "Policyrights versus underlyingownership, CAA26/1 new/preexistingcontractscope, unitlinked riskbearing, entry/support/policy/cover charge sequence, maturityversussurrender and guarantee-base/bonus distinctions retained."
+    },
+    {
+      "position": 74,
+      "id": "EIP-6.1-02",
+      "status": "REVIEWED",
+      "note": "Policyholder/insured/beneficiary/insurer roles and triggeringdeath, acceptedbenefit consentArticle114, maxfloor versus additive benefit, pledge/assignment and crossborder limits, partialsurrender costs/postcover caveats retained."
+    },
+    {
+      "position": 75,
+      "id": "EIP-6.1-03",
+      "status": "REVIEWED",
+      "note": "Fixedamount/period versus lifetime mortalitypooling, endperiod annuityfactor/zero branch, principalamortisation, undiscounted recovery omissions, reserve versus conversionrate/yield and realinflation purchasingpower retained."
+    },
+    {
+      "position": 76,
+      "id": "EIP-6.1-04",
+      "status": "REVIEWED",
+      "note": "Article111 premium10yr/cover qualification and combined672 versus115(17) payout exemption,111bis/ter exclusions, deductionbase versus credit, pastdeductioncorrection versus fullpayouttax and annuity/crossborder limits retained."
+    },
+    {
+      "position": 77,
+      "id": "EIP-6.2-01",
+      "status": "REVIEWED",
+      "note": "Statutory/voluntaryoccupational/personal pillars, verifiedindividualentitlement and normal65 conditions, DCcapital versus DBincomepromise,2026combined4500 not3200, crossborderbridgedates and netreal comparableincome preserved."
+    },
+    {
+      "position": 78,
+      "id": "EIP-6.2-02",
+      "status": "REVIEWED",
+      "note": "Endbeginningyear savingfactor and periodrates, nominalfuture versus realspending, withdrawalafterreturn sequence78000/74000, longerlife capital240k/360k and no universallysafe withdrawalrate retained."
+    },
+    {
+      "position": 79,
+      "id": "EIP-6.2-03",
+      "status": "REVIEWED",
+      "note": "CAA26/5 lifecyclevalue versus entrydeduction, homepurchase not ordinaryearlyexception, projectednetcost compounding and insurancebenefit comparability, singlelife versus survivor70% incomegap retained."
+    },
+    {
+      "position": 80,
+      "id": "EIP-6.2-04",
+      "status": "REVIEWED",
+      "note": "Current2026combined111bis(7)/ter(7)4500 with proration and60–75/10yr conditions, halfglobalrate versus halfannuitybase, premature99(5) wholepayment versus exceptional99(4), occupational1200/history scope preserved."
+    },
+    {
+      "position": 81,
+      "id": "EIP-7.1-01",
+      "status": "REVIEWED",
+      "note": "Actual advice/management/transmission/execution/principal service distinctions, underwritingfirmcommitment, ancillary FX/custody scope, chainfees and authoritybeforeprofit, CSSFcompetence versus platform nonregistration retained."
+    },
+    {
+      "position": 82,
+      "id": "EIP-7.1-02",
+      "status": "REVIEWED",
+      "note": "Fairclear nonmisleading conditions/prominence/timing, conditionalcoupon adversebranches, latecost disclosure/exception premise, categorisation formalprocess and disclosure cannot cure capacity/liquidity mismatch retained."
+    },
+    {
+      "position": 83,
+      "id": "EIP-7.1-03",
+      "status": "REVIEWED",
+      "note": "Independent range/retainedthirdparty restrictions versus nonindependent ongoingquality/clientbenefit/proportionality, embeddedcommission non-double-counting, conflictwithoutintent and switchcost clientrationale retained."
+    },
+    {
+      "position": 84,
+      "id": "EIP-7.1-04",
+      "status": "REVIEWED",
+      "note": "Costbase/timing/currency aggregation and forgonegrowth, firstyearcash497.40 versus wealth509.40, embeddedcommission1500 versus additional1900, exante/expost scope and current-source Q&A identifiers retained."
+    },
+    {
+      "position": 85,
+      "id": "EIP-7.1-05",
+      "status": "REVIEWED",
+      "note": "Contemporaneousduty/conduct versus marketloss, profitableunauthorisedtrade not cured, CSSFpriorcomplaint/onemonth/oneyear admissibility and nonbindingconclusions, counterfactualdifference not automaticdamages retained."
+    },
+    {
+      "position": 86,
+      "id": "EIP-7.1-06",
+      "status": "REVIEWED",
+      "note": "Entityriskpolicy/productcommitment/clientpreference evidence separate, risk-to-value versus outward impacts, creditcoverage2.5→1.25 scenario, ratingtransition not qualityapproval and currentlaw/proposal boundary retained."
+    },
+    {
+      "position": 87,
+      "id": "EIP-7.2-01",
+      "status": "REVIEWED",
+      "note": "MiFID/MiFIR/MAR/CSDR/EMIR distinctscope, venue/SOLstatus, retailtotalconsideration10018/10022, settlementfundingactual365 not penalty, EU T+1 future11Oct2027 and operations/custody responsibilities retained."
+    },
+    {
+      "position": 88,
+      "id": "EIP-7.2-02",
+      "status": "REVIEWED",
+      "note": "Insideinformation criteria versus dealing/disclosure/manipulation, June5 intermediate-step publication exemption not tradingpermission, confidentialityloss and consultationstage, suspiciousvolume not proof and controlledescalation retained; T04 clarified investigatedparty."
+    },
+    {
+      "position": 89,
+      "id": "EIP-7.2-03",
+      "status": "REVIEWED",
+      "note": "CDD identity/ownership/authority/purpose, sourcewealth versus funds, risk not guilt/percentage not threshold, attemptedtransactions regardlessamount, confidentialprompt escalation/tippingoff and PEPenhancedmeasures not automaticban retained; T05 objective clarified."
+    },
+    {
+      "position": 90,
+      "id": "EIP-7.3-01",
+      "status": "REVIEWED",
+      "note": "25min editorialtiming retained, reputationalchannels versus publicity, hypotheticalgrossrevenue38400 not profit/fine, reportingerror5% not return/damages, evidence/confidentiality/rootcause and unverifiedallegation balance preserved."
+    },
+    {
+      "position": 91,
+      "id": "EIP-7.3-02",
+      "status": "REVIEWED",
+      "note": "EFPAethicalprinciples and designationnotawardedbyAcademy, conflicts/costdifference600, favourablemarketoutcome not cure inaccurateyieldclaim, automatedreferences need verification and competence/escalation boundaries retained; T06 sourceauthority terminology clarified."
+    },
+    {
+      "position": 92,
+      "id": "EIP-M8-01",
+      "status": "REVIEWED",
+      "note": "GreenFinance separateexaminationarea not inventedofficialeighthsyllabusmodule, useproceeds versus sustainabilitylinked generalpurposes, voluntaryICMA/EuGB separate,70%allocation not completedimpact,25bp coupon50 and durationlocalapproximation retained."
+    },
+    {
+      "position": 93,
+      "id": "EIP-M8-02",
+      "status": "REVIEWED",
+      "note": "SFDRdefinition versus taxonomyactivity fourconditions/sixobjectives, eligible60/aligned35 denominators, minimumcommitment versus observation and nested40/15 unique40, reformproposal/currentJulyamendment/sourceaccess limits retained; T07 observation wording clarified."
+    },
+    {
+      "position": 94,
+      "id": "EIP-M8-03",
+      "status": "REVIEWED",
+      "note": "Simplifiedmetrics explicitly not legalRTSformula, intensityunits versus financedabsoluteemissions, coverage80% and observed57.5 versus known46, conditional46–86 not confidencebound, intensity−12.5% versus absolute+5 and ratingcomparability retained."
+    },
+    {
+      "position": 95,
+      "id": "EIP-M8-04",
+      "status": "REVIEWED",
+      "note": "25min timing, narrow>20% coal exclusion versus fossilfree claim, changedcoverage conditional88/−12 not verified40%improvement, ESMAOct12 observations not newrequirements, secondarypurchase not directfinance/additionality retained."
+    }
+  ],
+  "findings": [
+    {
+      "id": "EN-T01",
+      "lesson": "EIP-3.2-01",
+      "type": "PRESERVED_ENGLISH_EDITORIAL_OBSERVATION",
+      "severity": "minor",
+      "status": "DOCUMENTED_SEPARATELY",
+      "detail": "Example C heading says equal coupons; body correctly stipulates400 versus450. No numerical or substantive translation error."
+    },
+    {
+      "id": "T03",
+      "lesson": "EIP-3.6-06",
+      "severity": "minor",
+      "type": "TRANSLATION_TERMINOLOGY",
+      "status": "CORRECTED",
+      "detail": "Replaced regime de juros definitivos with regime de tributação definitiva dos juros: final qualifies tax treatment, not the interest itself. English, formulas and numbers unchanged."
+    },
+    {
+      "id": "T04",
+      "lesson": "EIP-7.2-02",
+      "severity": "minor",
+      "type": "TRANSLATION_CLARITY",
+      "status": "CORRECTED",
+      "detail": "Replaced alerte o objeto with alerte quem está sob suspeita: subject refers to the party under investigation, not an object. English, numbers and legal meaning preserved."
+    },
+    {
+      "id": "T05",
+      "lesson": "EIP-7.2-03",
+      "severity": "minor",
+      "type": "TRANSLATION_TERMINOLOGY",
+      "status": "CORRECTED",
+      "detail": "Objective now distinguishes unusual activity from a conclusion that an offence occurred, rather than infração concluída, which could suggest completed rather than attempted conduct. Body already correctly preserves suspicion/proof distinction."
+    },
+    {
+      "id": "T06",
+      "lesson": "EIP-7.3-02",
+      "severity": "minor",
+      "type": "TRANSLATION_TERMINOLOGY",
+      "status": "CORRECTED",
+      "detail": "Authoritative current sources now fontes atuais e reconhecidas como confiáveis, replacing autorizadas which could mean permission rather than source authority. English and all numbers unchanged."
+    },
+    {
+      "id": "T07",
+      "lesson": "EIP-M8-02",
+      "severity": "minor",
+      "type": "TRANSLATION_CLARITY",
+      "status": "CORRECTED",
+      "detail": "Latest reported periodic27% observation no longer says ocasionalmente: happens to be describes the observed figure, not a claim about frequency. Minimum10% versus client20% distinction preserved."
+    }
+  ],
+  "limits": [
+    "Two Codex methods do not constitute independent human linguistic or specialist approval."
+  ],
+  "completion": "All95 lessons read in full EN/PT after production, including objectives, prerequisites, timings, headings and body; preserved Golden Masters reviewed contextually. Five further minor wording corrections T03–T07 applied; T01/T02 production corrections confirmed.",
+  "post_review_corrections": [
+    {
+      "id": "T08",
+      "lesson": "EIP-3.6-04",
+      "status": "RECHECKED",
+      "detail": "Second-pass clarification profit equals negative premium paid rechecked against original minus premium; no number/formula/reference change."
+    }
+  ],
+  "final_regression": {
+    "build_sha256": "1758aa49107f2bc76086a28638eabb0da31c2bdaa5b42c670462c86abe1ae7cc",
+    "structure_checks": 15,
+    "numerical_cases": 461,
+    "offline_lesson_pages": 95,
+    "responsive_checks": 190,
+    "remote_requests": 0,
+    "page_errors": 0
+  }
+}

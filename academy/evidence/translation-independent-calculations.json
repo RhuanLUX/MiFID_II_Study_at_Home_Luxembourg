@@ -1,0 +1,421 @@
+{
+  "date": "2026-10-16",
+  "content_sha256": "fcdbf471f5336c850228083e6b80c5bd8aa696c0c9cc6abc3c81063644e8fc79",
+  "method": "60-digit Decimal, direct reading premises; no lesson registry or JavaScript functions imported",
+  "checks": 51,
+  "passed": 51,
+  "failed": 0,
+  "rows": [
+    {
+      "lesson": 1,
+      "case": "opportunity-cost",
+      "independent": "60",
+      "displayed": "60",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 3,
+      "case": "real-return-percent",
+      "independent": "-1.88679245283018867924528301886792452830188679245283018867920",
+      "displayed": "-1.88679245",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 7,
+      "case": "partial-refinancing-billions",
+      "independent": "0.40",
+      "displayed": ".4",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 10,
+      "case": "fund-look-through-loss",
+      "independent": "50.00",
+      "displayed": "50",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 11,
+      "case": "spread-round-trip-percent",
+      "independent": "0.600",
+      "displayed": ".6",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 15,
+      "case": "redemption-net",
+      "independent": "11741.000",
+      "displayed": "11741",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 16,
+      "case": "golden-master-compounding",
+      "independent": "13498.368000",
+      "displayed": "13498.368",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 17,
+      "case": "dated-liability-present-value",
+      "independent": "11260.3605475109519578083089371819310770210674761399690865148",
+      "displayed": "11260.360547",
+      "tolerance": ".000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 22,
+      "case": "haircut-market-value-top-up",
+      "independent": "26428.5714285714285714285714285714285714285714285714285714286",
+      "displayed": "26428.57",
+      "tolerance": ".005",
+      "status": "PASS"
+    },
+    {
+      "lesson": 24,
+      "case": "benchmark-margin-actual360",
+      "independent": "2000.00",
+      "displayed": "2000",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 25,
+      "case": "golden-master-dated-bond-price",
+      "independent": "981.405895691609977324263038548752834467120181405895691609977",
+      "displayed": "981.405896",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 26,
+      "case": "dirty-price-versus-coupon-gain",
+      "independent": "4.16666666666666666666666666666666666666666666666666666667",
+      "displayed": "4.166667",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 29,
+      "case": "default-weighted-expected-receipt",
+      "independent": "1046.80",
+      "displayed": "1046.80",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 34,
+      "case": "loss-recovery-percent",
+      "independent": "4.16666666666666666666666666666666666666666666666666666666667",
+      "displayed": "4.1667",
+      "tolerance": ".00005",
+      "status": "PASS"
+    },
+    {
+      "lesson": 38,
+      "case": "margin-ledger-net-not-top-up",
+      "independent": "-200",
+      "displayed": "-200",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 39,
+      "case": "call-payoff-less-premium",
+      "independent": "500",
+      "displayed": "500",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 40,
+      "case": "protective-put-costed-floor-loss",
+      "independent": "-700",
+      "displayed": "-700",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 41,
+      "case": "oversized-forward-net-euros",
+      "independent": "60909.0909090909090909090909090909090909090909090909090909091",
+      "displayed": "60909.09",
+      "tolerance": ".005",
+      "status": "PASS"
+    },
+    {
+      "lesson": 41,
+      "case": "incremental-overhedge-not-total-gap",
+      "independent": "2727.2727272727272727272727272727272727272727272727272727273",
+      "displayed": "2727.27",
+      "tolerance": ".005",
+      "status": "PASS"
+    },
+    {
+      "lesson": 43,
+      "case": "inverse-quote-round-trip",
+      "independent": "9981.83469573115349682107175295186194368755676657584014532243",
+      "displayed": "9981.8347",
+      "tolerance": ".00005",
+      "status": "PASS"
+    },
+    {
+      "lesson": 44,
+      "case": "net-indirect-yen-route",
+      "independent": "1644304.000000",
+      "displayed": "1644304",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 45,
+      "case": "home-currency-return-percent",
+      "independent": "-3.200",
+      "displayed": "-3.2",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 46,
+      "case": "partial-hedge-net-euros",
+      "independent": "93800",
+      "displayed": "93800",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 48,
+      "case": "redemption-net-return-percent",
+      "independent": "3.400",
+      "displayed": "3.4",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 49,
+      "case": "ordinary-issuer-whole-weight-aggregate",
+      "independent": "0.46",
+      "displayed": ".46",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 50,
+      "case": "fee-added-to-investment-return-percent",
+      "independent": "2.97029702970297029702970297029702970297029702970297029702970",
+      "displayed": "2.9703",
+      "tolerance": ".00005",
+      "status": "PASS"
+    },
+    {
+      "lesson": 52,
+      "case": "annual-standard-subscription-tax",
+      "independent": "50000.0000",
+      "displayed": "50000",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 54,
+      "case": "intensity-not-absolute",
+      "independent": "900",
+      "displayed": "900",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 55,
+      "case": "truncated-life-present-value-millions",
+      "independent": "2.57709698724787888025199410658944266626022455926433978560179",
+      "displayed": "2.5771",
+      "tolerance": ".00005",
+      "status": "PASS"
+    },
+    {
+      "lesson": 56,
+      "case": "barrier-at-boundary",
+      "independent": "10600",
+      "displayed": "10600",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 56,
+      "case": "barrier-just-below-boundary",
+      "independent": "7500.00",
+      "displayed": "7500",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 58,
+      "case": "golden-master-house-capacity",
+      "independent": "5000.00",
+      "displayed": "5000",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 62,
+      "case": "geometric-growth-percent",
+      "independent": "6.317488841317292755371559762843371594657357414753651314247",
+      "displayed": "6.3175",
+      "tolerance": ".00005",
+      "status": "PASS"
+    },
+    {
+      "lesson": 63,
+      "case": "sample-volatility-percent",
+      "independent": "12.9099444873580562839308846659413320361097390176386360886253",
+      "displayed": "12.9099",
+      "tolerance": ".00005",
+      "status": "PASS"
+    },
+    {
+      "lesson": 66,
+      "case": "portfolio-zero-correlation-percent",
+      "independent": "12.6491106406735173279955741777308741348782205573008673074300",
+      "displayed": "12.6491",
+      "tolerance": ".00005",
+      "status": "PASS"
+    },
+    {
+      "lesson": 67,
+      "case": "minimum-variance-weight",
+      "independent": "0.125",
+      "displayed": ".125",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 70,
+      "case": "required-growth-percent",
+      "independent": "6.160689621814597530814672364717772967236863702840835200295",
+      "displayed": "6.1607",
+      "tolerance": ".00005",
+      "status": "PASS"
+    },
+    {
+      "lesson": 72,
+      "case": "money-weighted-annual-percent",
+      "independent": "-8.22553121242174797044381457291422073887715475704074521816150",
+      "displayed": "-8.2255",
+      "tolerance": ".00005",
+      "status": "PASS"
+    },
+    {
+      "lesson": 73,
+      "case": "policy-net-value",
+      "independent": "17343.600000",
+      "displayed": "17343.60",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 75,
+      "case": "fixed-period-year-end-payment",
+      "independent": "11132.6527865316445465737734069950300478186906109662518659929",
+      "displayed": "11132.65",
+      "tolerance": ".005",
+      "status": "PASS"
+    },
+    {
+      "lesson": 76,
+      "case": "remaining-deduction-tax-benefit",
+      "independent": "111.60",
+      "displayed": "111.60",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 78,
+      "case": "saving-annuity-end-year",
+      "independent": "89334.23572750645129110572082452162936832000",
+      "displayed": "89334.24",
+      "tolerance": ".005",
+      "status": "PASS"
+    },
+    {
+      "lesson": 80,
+      "case": "combined-ceiling-nine-months",
+      "independent": "3375",
+      "displayed": "3375",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 80,
+      "case": "half-annuity-base-tax",
+      "independent": "900.000",
+      "displayed": "900",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 84,
+      "case": "all-first-year-cost-layers",
+      "independent": "20690.600",
+      "displayed": "20690.60",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 87,
+      "case": "settlement-financing-not-penalty",
+      "independent": "4.38356164383561643835616438356164383561643835616438356164384",
+      "displayed": "4.38",
+      "tolerance": ".005",
+      "status": "PASS"
+    },
+    {
+      "lesson": 90,
+      "case": "lost-recurring-revenue",
+      "independent": "38400.00000",
+      "displayed": "38400",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 92,
+      "case": "coupon-step-up-two-years",
+      "independent": "50.0000",
+      "displayed": "50",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 93,
+      "case": "taxonomy-eligible-denominator-percent",
+      "independent": "58.3333333333333333333333333333333333333333333333333333333333",
+      "displayed": "58.33",
+      "tolerance": ".005",
+      "status": "PASS"
+    },
+    {
+      "lesson": 94,
+      "case": "observed-portion-average",
+      "independent": "57.5",
+      "displayed": "57.5",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    },
+    {
+      "lesson": 95,
+      "case": "changed-coverage-conditional-intensity",
+      "independent": "88.0",
+      "displayed": "88",
+      "tolerance": "0.000001",
+      "status": "PASS"
+    }
+  ],
+  "limits": [
+    "Validates stipulated arithmetic, not legal eligibility or forecast reliability."
+  ]
+}

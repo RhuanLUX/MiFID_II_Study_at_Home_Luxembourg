@@ -1,0 +1,617 @@
+{
+  "date": "2026-10-16",
+  "status": "COMPLETE",
+  "method": "Distinct technical challenge pass across every lesson: re-examine a selected high-risk bilingual paragraph for qualifiers, direction, units and scope; verify immutable reference/calc mapping and separately recalculate sensitive examples from stated reading premises with Decimal. This is a separate method by the same Codex reviewer, not a second human reviewer.",
+  "content_sha256": "fcdbf471f5336c850228083e6b80c5bd8aa696c0c9cc6abc3c81063644e8fc79",
+  "reviewed_lessons": [
+    {
+      "position": 1,
+      "id": "EIP-1.1-01",
+      "status": "REVIEWED",
+      "note": "Opportunitycost realalternative210 versus150 net60; unpaidleisure qualifier."
+    },
+    {
+      "position": 2,
+      "id": "EIP-1.1-02",
+      "status": "REVIEWED",
+      "note": "Demandshift/movement and pairedcompletedtrade invariant."
+    },
+    {
+      "position": 3,
+      "id": "EIP-1.1-03",
+      "status": "REVIEWED",
+      "note": "Nominal4% versus basket6%,20k→20800; taxfee exclusions."
+    },
+    {
+      "position": 4,
+      "id": "EIP-1.2-01",
+      "status": "REVIEWED",
+      "note": "Automaticstabiliser versus discretionarydeficit causalclaim."
+    },
+    {
+      "position": 5,
+      "id": "EIP-1.2-02",
+      "status": "REVIEWED",
+      "note": "Repricing cashshortfall not insolvency conclusion."
+    },
+    {
+      "position": 6,
+      "id": "EIP-1.2-03",
+      "status": "REVIEWED",
+      "note": "Nationalaccounts investment not financialsecuritypurchase; netborrowingsign."
+    },
+    {
+      "position": 7,
+      "id": "EIP-1.3-01",
+      "status": "REVIEWED",
+      "note": "Refinance only20bn:2.4bn versus2bn,increment0.4."
+    },
+    {
+      "position": 8,
+      "id": "EIP-1.3-02",
+      "status": "REVIEWED",
+      "note": "Updatedexpectation9/1.06 versus8/1.08; pricegain14.62 conditional."
+    },
+    {
+      "position": 9,
+      "id": "EIP-1.3-03",
+      "status": "REVIEWED",
+      "note": "Energycomponent40% input versus24% profitloss."
+    },
+    {
+      "position": 10,
+      "id": "EIP-2.1-01",
+      "status": "REVIEWED",
+      "note": "Fundbond200k/20m=1%,5000 holdingloss50,not10%."
+    },
+    {
+      "position": 11,
+      "id": "EIP-2.2-01",
+      "status": "REVIEWED",
+      "note": "Bidask roundtrip120/20000=0.6% without marketmove."
+    },
+    {
+      "position": 12,
+      "id": "EIP-2.3-01",
+      "status": "REVIEWED",
+      "note": "Maintaining10% afterdilution requires25k×8=200k,not legalentitlement."
+    },
+    {
+      "position": 13,
+      "id": "EIP-2.3-02",
+      "status": "REVIEWED",
+      "note": "No netting unrelateddates;later80k doesnot fundearlier150k."
+    },
+    {
+      "position": 14,
+      "id": "EIP-2.3-03",
+      "status": "REVIEWED",
+      "note": "Stop-market price not guaranteed;stop-limit nonexecution possible."
+    },
+    {
+      "position": 15,
+      "id": "EIP-2.3-04",
+      "status": "REVIEWED",
+      "note": "NAV118×100 less0.5%=11741 gap259;timing separate."
+    },
+    {
+      "position": 16,
+      "id": "EIP-3.1-A",
+      "status": "REVIEWED",
+      "note": "GMpositive/zero/negative rate comparison qualifiers preserved."
+    },
+    {
+      "position": 17,
+      "id": "EIP-3.1-02",
+      "status": "REVIEWED",
+      "note": "Dated5000/1.03+7000/1.03³ periodfrequency preserved."
+    },
+    {
+      "position": 18,
+      "id": "EIP-3.2-01",
+      "status": "REVIEWED",
+      "note": "Taxbase/liability/withholding finalversuscreditableadvance retained."
+    },
+    {
+      "position": 19,
+      "id": "EIP-3.2-02",
+      "status": "REVIEWED",
+      "note": "Article2 residentworldwide versus specifiednonresident domestic,treatyexceptions."
+    },
+    {
+      "position": 20,
+      "id": "EIP-3.2-03",
+      "status": "REVIEWED",
+      "note": "105(4) actualexpenseexemptportion versus107 minimum not cumulative."
+    },
+    {
+      "position": 21,
+      "id": "EIP-3.3-01",
+      "status": "REVIEWED",
+      "note": "FGDL100k pereligibledepositorbank not peraccount;excessrecovery unguaranteed."
+    },
+    {
+      "position": 22,
+      "id": "EIP-3.3-02",
+      "status": "REVIEWED",
+      "note": "Haircut recognisedvalue975100 gap25900 collateralmarketvalue26428.57."
+    },
+    {
+      "position": 23,
+      "id": "EIP-3.3-03",
+      "status": "REVIEWED",
+      "note": "Faceversuspriceddenominator/daybasis360365/effectiveannualisation limits."
+    },
+    {
+      "position": 24,
+      "id": "EIP-3.3-04",
+      "status": "REVIEWED",
+      "note": "Benchmarkplusmargin percentagepoints4%,actual90/360 interest2000."
+    },
+    {
+      "position": 25,
+      "id": "EIP-3.4-A",
+      "status": "REVIEWED",
+      "note": "GM10k lot budget and100idle balance final10250 contextualformat."
+    },
+    {
+      "position": 26,
+      "id": "EIP-3.4-02",
+      "status": "REVIEWED",
+      "note": "Dirtyprice1045.833333 coupon50 net4.166667 not50."
+    },
+    {
+      "position": 27,
+      "id": "EIP-3.4-03",
+      "status": "REVIEWED",
+      "note": "Fullprice981.405896 versus parat4%,requiredyieldhigher."
+    },
+    {
+      "position": 28,
+      "id": "EIP-3.4-04",
+      "status": "REVIEWED",
+      "note": "DatedPV38.095238+943.310658 samefullprice and effective5%."
+    },
+    {
+      "position": 29,
+      "id": "EIP-3.4-05",
+      "status": "REVIEWED",
+      "note": "ExpectedPDweighted1046.80 return4.68 not promised6%."
+    },
+    {
+      "position": 30,
+      "id": "EIP-3.4-06",
+      "status": "REVIEWED",
+      "note": "Horizonmismatch centralfavourablecase not eliminatesadverseshortfall."
+    },
+    {
+      "position": 31,
+      "id": "EIP-3.4-07",
+      "status": "REVIEWED",
+      "note": "Capital loss not automatically refunded against qualifyingfinalcoupontax."
+    },
+    {
+      "position": 32,
+      "id": "EIP-3.5-01",
+      "status": "REVIEWED",
+      "note": "Equalper-share20k distribution not equal governanceinfluence."
+    },
+    {
+      "position": 33,
+      "id": "EIP-3.5-02",
+      "status": "REVIEWED",
+      "note": "Year2sale32+dividend1.60=33.60; annual10% dateddiscount."
+    },
+    {
+      "position": 34,
+      "id": "EIP-3.5-03",
+      "status": "REVIEWED",
+      "note": "Recovery400/9600=4.1667%;50% fall needs100% gain."
+    },
+    {
+      "position": 35,
+      "id": "EIP-3.5-04",
+      "status": "REVIEWED",
+      "note": "30k×0.75=22500 versus24k need1500 gap."
+    },
+    {
+      "position": 36,
+      "id": "EIP-3.5-05",
+      "status": "REVIEWED",
+      "note": "30% and240 taxcomparison explicitly assumptions not universalflatrate."
+    },
+    {
+      "position": 37,
+      "id": "EIP-3.6-01",
+      "status": "REVIEWED",
+      "note": "110k delivery less90k need=20k overhedge residualFX."
+    },
+    {
+      "position": 38,
+      "id": "EIP-3.6-02",
+      "status": "REVIEWED",
+      "note": "Margin400+400 leaves2200 below2400;800topup restores3000."
+    },
+    {
+      "position": 39,
+      "id": "EIP-3.6-03",
+      "status": "REVIEWED",
+      "note": "Callpayoff800 lesspremium300 profit500, distinct from payoff."
+    },
+    {
+      "position": 40,
+      "id": "EIP-3.6-04",
+      "status": "REVIEWED",
+      "note": "Belowstrike callprofit = negativepremium paid; T08 eliminates possible premiumsign ambiguity."
+    },
+    {
+      "position": 41,
+      "id": "EIP-3.6-05",
+      "status": "REVIEWED",
+      "note": "Overhedge100k obligation despite70k receipt; net60909.09 inversequote."
+    },
+    {
+      "position": 42,
+      "id": "EIP-3.6-06",
+      "status": "REVIEWED",
+      "note": "Conditionaltaxbranches not transferable identicalgross economics."
+    },
+    {
+      "position": 43,
+      "id": "EIP-3.7-01",
+      "status": "REVIEWED",
+      "note": "USDperEUR appreciation inversepercentage unequal due denominator."
+    },
+    {
+      "position": 44,
+      "id": "EIP-3.7-02",
+      "status": "REVIEWED",
+      "note": "Reciprocal precision, bidask sides and quoteunit100versus1."
+    },
+    {
+      "position": 45,
+      "id": "EIP-3.7-03",
+      "status": "REVIEWED",
+      "note": "Midpoint2.2124% not actualnetcash−0.2%, distinctbasis."
+    },
+    {
+      "position": 46,
+      "id": "EIP-3.7-04",
+      "status": "REVIEWED",
+      "note": "Riskyterminal99k versus110k hedge leaves11k shortfall."
+    },
+    {
+      "position": 47,
+      "id": "EIP-3.8-01",
+      "status": "REVIEWED",
+      "note": "Poolingdoesnotconvertbondfundtodeposit or guaranteerepayment."
+    },
+    {
+      "position": 48,
+      "id": "EIP-3.8-02",
+      "status": "REVIEWED",
+      "note": "Redemption26000−130−20=25850 profit850/25000=3.4%."
+    },
+    {
+      "position": 49,
+      "id": "EIP-3.8-03",
+      "status": "REVIEWED",
+      "note": "UCITSabove5 groupwholeweights not excess1%, scopedrule."
+    },
+    {
+      "position": 50,
+      "id": "EIP-3.8-04",
+      "status": "REVIEWED",
+      "note": "Feeaddedcapital10100/1.01 and return300/10100=2.9703%."
+    },
+    {
+      "position": 51,
+      "id": "EIP-3.8-05",
+      "status": "REVIEWED",
+      "note": "Fundscenario25k→20k/24k beforecosts;reachingliability not provesafety."
+    },
+    {
+      "position": 52,
+      "id": "EIP-3.8-06",
+      "status": "REVIEWED",
+      "note": "NoUCIwithholding not zero personaltax;assumed30%/allowanceexhausted."
+    },
+    {
+      "position": 53,
+      "id": "EIP-3.9-01",
+      "status": "REVIEWED",
+      "note": "Environmentalpurpose not prevents40% equityloss6k from15k."
+    },
+    {
+      "position": 54,
+      "id": "EIP-3.9-02",
+      "status": "REVIEWED",
+      "note": "Halfassetcoverage weightedscore not wholeportfolio representative."
+    },
+    {
+      "position": 55,
+      "id": "EIP-3.9-03",
+      "status": "REVIEWED",
+      "note": "Carbonpass-through assumedconstantvolumes and20%/60% profitdeclines."
+    },
+    {
+      "position": 56,
+      "id": "EIP-3.10-01",
+      "status": "REVIEWED",
+      "note": "Barrier exactinequalities and observationschedule preserved."
+    },
+    {
+      "position": 57,
+      "id": "EIP-3.10-02",
+      "status": "REVIEWED",
+      "note": "Article25 executiononly cumulativeconditions;warning not assessmentreplacement."
+    },
+    {
+      "position": 58,
+      "id": "EIP-4.1-A",
+      "status": "REVIEWED",
+      "note": "GM60k×25%=15k loss;45k−40k=5k,3600saving not prescribedreserve."
+    },
+    {
+      "position": 59,
+      "id": "EIP-4.1-02",
+      "status": "REVIEWED",
+      "note": "25k×0.8−18k=2k;largerdecline essentialtuitionrisk."
+    },
+    {
+      "position": 60,
+      "id": "EIP-4.1-03",
+      "status": "REVIEWED",
+      "note": "Retirementmonthlygap700×12=8400 beforetax/unforeseenexpenses."
+    },
+    {
+      "position": 61,
+      "id": "EIP-4.1-04",
+      "status": "REVIEWED",
+      "note": "May2026proportionate supervision not abandonment matching;neutralcollection."
+    },
+    {
+      "position": 62,
+      "id": "EIP-5.1-01",
+      "status": "REVIEWED",
+      "note": "2000withdrawal sequence9900 versus9100 terminal800difference."
+    },
+    {
+      "position": 63,
+      "id": "EIP-5.1-02",
+      "status": "REVIEWED",
+      "note": "12.9099% sampledispersion not guaranteedconfidence around5%."
+    },
+    {
+      "position": 64,
+      "id": "EIP-5.2-01",
+      "status": "REVIEWED",
+      "note": "Cov−0.001/(0.1×0.02)=−0.5 not perfectopposite."
+    },
+    {
+      "position": 65,
+      "id": "EIP-5.2-02",
+      "status": "REVIEWED",
+      "note": "Rebalance controls exposure not guaranteedprofit/reversal."
+    },
+    {
+      "position": 66,
+      "id": "EIP-5.2-03",
+      "status": "REVIEWED",
+      "note": "Directtwo-state returns±8% at60/40 versus zeroat1/3,2/3 exactrho−1."
+    },
+    {
+      "position": 67,
+      "id": "EIP-5.3-01",
+      "status": "REVIEWED",
+      "note": "Target9% gives1.2/−0.2 outside longonly,algebra not authority."
+    },
+    {
+      "position": 68,
+      "id": "EIP-5.3-02",
+      "status": "REVIEWED",
+      "note": "45k versus class50k cannot appropriateessentialreserve5k."
+    },
+    {
+      "position": 69,
+      "id": "EIP-5.4-01",
+      "status": "REVIEWED",
+      "note": "Efficientconditionalexpectedtradeoff not guaranteedrealisedresult."
+    },
+    {
+      "position": 70,
+      "id": "EIP-5.4-02",
+      "status": "REVIEWED",
+      "note": "Nominal200kfuture versus todaysreal purchasingpower;grossnet costtax."
+    },
+    {
+      "position": 71,
+      "id": "EIP-5.5-01",
+      "status": "REVIEWED",
+      "note": "Benchmark compatibleperiod/currency/totalreturn/flows not retrospectivelyselected."
+    },
+    {
+      "position": 72,
+      "id": "EIP-5.5-02",
+      "status": "REVIEWED",
+      "note": "Negativeexcess Sharpe lessnegative through higher risk not better ranking."
+    },
+    {
+      "position": 73,
+      "id": "EIP-6.1-01",
+      "status": "REVIEWED",
+      "note": "Insurance20k costs+supportloss2656.40/20000=13.282% fictitiousconventions."
+    },
+    {
+      "position": 74,
+      "id": "EIP-6.1-02",
+      "status": "REVIEWED",
+      "note": "Consentright not guaranteesurrenderamount/access;contracttaxliquidity separate."
+    },
+    {
+      "position": 75,
+      "id": "EIP-6.1-03",
+      "status": "REVIEWED",
+      "note": "Lifetime6000 undiscountedtotals60k/120k no guaranteeperiod/deathbenefit."
+    },
+    {
+      "position": 76,
+      "id": "EIP-6.1-04",
+      "status": "REVIEWED",
+      "note": "Ordinarylifecapital incometaxexemption not inheritance/gift/treatyuniversal."
+    },
+    {
+      "position": 77,
+      "id": "EIP-6.2-01",
+      "status": "REVIEWED",
+      "note": "Residenceatpayout not fixedby priorLux deduction;fulllifecycle."
+    },
+    {
+      "position": 78,
+      "id": "EIP-6.2-02",
+      "status": "REVIEWED",
+      "note": "Endyearafterreturn withdrawals100k→110k→78k sequence."
+    },
+    {
+      "position": 79,
+      "id": "EIP-6.2-03",
+      "status": "REVIEWED",
+      "note": "Payoutsurvivor protection not highestinitialannualamount alone."
+    },
+    {
+      "position": 80,
+      "id": "EIP-6.2-04",
+      "status": "REVIEWED",
+      "note": "Qualifyingannuity6000 halfbase3000×30%=900,net5100 not halfcapitalrate."
+    },
+    {
+      "position": 81,
+      "id": "EIP-7.1-01",
+      "status": "REVIEWED",
+      "note": "Principalinventory conflict versus transmission;executiononly not universalwaiver."
+    },
+    {
+      "position": 82,
+      "id": "EIP-7.1-02",
+      "status": "REVIEWED",
+      "note": "24500×1.04=25480;480/25000=1.92% not4%."
+    },
+    {
+      "position": 83,
+      "id": "EIP-7.1-03",
+      "status": "REVIEWED",
+      "note": "Independent sufficientlydiverse range not everyexistinginstrument;closelinksconditions."
+    },
+    {
+      "position": 84,
+      "id": "EIP-7.1-04",
+      "status": "REVIEWED",
+      "note": "Highercost needsclientbenefit;costalone not selectioncriterion."
+    },
+    {
+      "position": 85,
+      "id": "EIP-7.1-05",
+      "status": "REVIEWED",
+      "note": "Adviserduties not positiveinvestmentreturn guarantee."
+    },
+    {
+      "position": 86,
+      "id": "EIP-7.1-06",
+      "status": "REVIEWED",
+      "note": "LowfinancialESGrisk not lowoutwardimpact nor PAI proofpricing."
+    },
+    {
+      "position": 87,
+      "id": "EIP-7.2-01",
+      "status": "REVIEWED",
+      "note": "Listing/supervision/transparentquote/confirmation/clearing not universalguarantees."
+    },
+    {
+      "position": 88,
+      "id": "EIP-7.2-02",
+      "status": "REVIEWED",
+      "note": "Rumour/nonfinal/no profit/notpublic alone not legalclassification;unusualprice not proof."
+    },
+    {
+      "position": 89,
+      "id": "EIP-7.2-03",
+      "status": "REVIEWED",
+      "note": "Attemptedtransactions reportable;PEPnotautomaticban;suspicion not criminalproof."
+    },
+    {
+      "position": 90,
+      "id": "EIP-7.3-01",
+      "status": "REVIEWED",
+      "note": "80m×8%=6.4m×0.006=38400 revenueexposure;remaining441600."
+    },
+    {
+      "position": 91,
+      "id": "EIP-7.3-02",
+      "status": "REVIEWED",
+      "note": "ActualEFPAdesignation versus completion;authoritativesource wordingT06confirmed."
+    },
+    {
+      "position": 92,
+      "id": "EIP-M8-01",
+      "status": "REVIEWED",
+      "note": "Environmentalpurpose/externalreview not fixes maturityliabilitymismatch."
+    },
+    {
+      "position": 93,
+      "id": "EIP-M8-02",
+      "status": "REVIEWED",
+      "note": "Eligible not aligned;observation not futureminimum;article not strategy."
+    },
+    {
+      "position": 94,
+      "id": "EIP-M8-03",
+      "status": "REVIEWED",
+      "note": "Missingnotzero/intensitynotabsolute/portfolionotissuerimprovement;PAInotnoharm."
+    },
+    {
+      "position": 95,
+      "id": "EIP-M8-04",
+      "status": "REVIEWED",
+      "note": "Secondaryownership not directprojectfinance,transitiongoal not achieved,proposalnotlaw."
+    }
+  ],
+  "findings": [
+    {
+      "id": "T08",
+      "lesson": "EIP-3.6-04",
+      "severity": "minor",
+      "status": "CORRECTED",
+      "type": "TECHNICAL_CLARITY",
+      "detail": "Profit below callstrike now equals the negative value of premium paid; prêmio negativo could wrongly describe the premium itself as negative. Correct payoff/profit formulas elsewhere unchanged."
+    }
+  ],
+  "limits": [
+    "Not independent human linguistic/regulatory approval.",
+    "Approved English/source snapshot is preserved; no claim of renewed complete legal-source verification."
+  ],
+  "independent_calculations": {
+    "file": "translation-independent-calculations.json",
+    "checks": 51,
+    "passed": 51,
+    "failed": 0
+  },
+  "source_challenge": {
+    "method": "Re-examined cached official source excerpts used by approved English baseline, preserving their snapshot/provenance and consolidation limits.",
+    "checks": [
+      "ACD2026 LIR105(4):exempt-income expense restriction;107:annual25 minimum separate.",
+      "ACD2026 LIR111bis(7)/111ter(7):combined4500;prematurepaymentwholeamount and exceptional99(4) classification.",
+      "CSSF coordinatedAML:attemptedtransactions regardlessamount,predicateoffence identification not prerequisite,PEPenhancedcontrol and FIUinstructions.",
+      "All original sourceIDs/URLs/claim metadata and perlesson reference/calculation mappings are verified unchanged by translation preservation checks."
+    ]
+  },
+  "harness_note": "Initial independent-audit fixture for Lesson17 copied an incorrect comparison value; full reading text was inspected and the fixture corrected to displayed11260.360547. Decimal result11260.36054751095 confirmed the lesson; no lesson correction warranted.",
+  "final_regression": {
+    "build_sha256": "1758aa49107f2bc76086a28638eabb0da31c2bdaa5b42c670462c86abe1ae7cc",
+    "structure_checks": 15,
+    "numerical_cases": 461,
+    "offline_lesson_pages": 95,
+    "responsive_checks": 190,
+    "remote_requests": 0,
+    "page_errors": 0
+  }
+}

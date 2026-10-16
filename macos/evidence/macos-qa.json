@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-16",
+  "status": "DELIVERED",
+  "build": {
+    "host": "15.7.9",
+    "architectures": [
+      "arm64",
+      "x86_64"
+    ],
+    "minimum_macos": "12.3",
+    "identity": "lu.eip.academy.desktop",
+    "academy_sha256": "ffc67d3f473e4673a69afeeb9510cb0e4ab31844068ff4c59b6419d7419382bb",
+    "source_commit": "3818ea1e5bdbb56ff577eaf5558af13a7936d0fb",
+    "signing": "ad-hoc only; no Developer ID or notarization",
+    "zip": "EIP_Luxembourg_Academy_macOS.zip"
+  },
+  "workflow": {
+    "id": 38927600003,
+    "url": "https://github.com/RhuanLUX/MiFID_II_Study_at_Home_Luxembourg/actions/runs/38927600003",
+    "conclusion": "success"
+  },
+  "release": "https://github.com/RhuanLUX/MiFID_II_Study_at_Home_Luxembourg/releases/tag/macos-v2.0.1-1",
+  "zip": {
+    "filename": "EIP_Luxembourg_Academy_macOS.zip",
+    "bytes": 990034,
+    "sha256": "21b3f30f34e7ac05d15087f130a72e2a69a8020eb8cd44de46f297512546614e",
+    "url": "https://github.com/RhuanLUX/MiFID_II_Study_at_Home_Luxembourg/releases/download/macos-v2.0.1-1/EIP_Luxembourg_Academy_macOS.zip",
+    "public_download_verified": true,
+    "real_universal_Mach_O_verified": true,
+    "executable_mode_preserved": true,
+    "first_launch_guide_included": true
+  },
+  "arm64": {
+    "status": "PASS",
+    "architecture_tested": "arm64",
+    "shipped_executable_launch": "PASS",
+    "network_denied_core_tests": true,
+    "lessons": 95,
+    "translations": 95,
+    "exercises": 475,
+    "process_restart_persistence": "PASS",
+    "move_into_Applications_persistence": "PASS",
+    "bundle_update_persistence": "PASS",
+    "native_backup_export_import": "PASS",
+    "academy_sha256": "ffc67d3f473e4673a69afeeb9510cb0e4ab31844068ff4c59b6419d7419382bb",
+    "physical_Mac_reboot_tested": false,
+    "Gatekeeper_manual_launch_tested": false,
+    "instrumentation": "CI-only test compilation uses the same wrapper source and bundle identity; native panels are answered automatically."
+  },
+  "x86_64": {
+    "status": "PASS",
+    "architecture_tested": "x86_64",
+    "shipped_executable_launch": "PASS",
+    "network_denied_core_tests": true,
+    "lessons": 95,
+    "translations": 95,
+    "exercises": 475,
+    "process_restart_persistence": "PASS",
+    "move_into_Applications_persistence": "PASS",
+    "bundle_update_persistence": "PASS",
+    "native_backup_export_import": "PASS",
+    "academy_sha256": "ffc67d3f473e4673a69afeeb9510cb0e4ab31844068ff4c59b6419d7419382bb",
+    "physical_Mac_reboot_tested": false,
+    "Gatekeeper_manual_launch_tested": false,
+    "instrumentation": "CI-only test compilation uses the same wrapper source and bundle identity; native panels are answered automatically."
+  },
+  "stages": {
+    "arm64": {
+      "seed": {
+        "status": "PASS",
+        "macOS": "Version 15.7.9 (Build 24G830)",
+        "curriculum_interactions": {
+          "completion_seeded": true,
+          "exercises_wrong_retry_correct": 475,
+          "lessons": 95,
+          "notes_seeded": true,
+          "remote_core_resources": 0,
+          "translations": 95
+        },
+        "native_blob_download_export": "PASS",
+        "native_open_panel_calls": 0,
+        "native_confirm_calls": 0,
+        "external_navigation_requests": 0
+      },
+      "reopen": {
+        "status": "PASS",
+        "macOS": "Version 15.7.9 (Build 24G830)",
+        "persistent_state": {
+          "completion": true,
+          "current_lesson": true,
+          "notes": true,
+          "rendered": true
+        },
+        "native_open_panel_calls": 0,
+        "native_confirm_calls": 0,
+        "external_navigation_requests": 0
+      },
+      "moved": {
+        "status": "PASS",
+        "macOS": "Version 15.7.9 (Build 24G830)",
+        "persistent_state": {
+          "completion": true,
+          "current_lesson": true,
+          "notes": true,
+          "rendered": true
+        },
+        "native_open_panel_calls": 0,
+        "native_confirm_calls": 0,
+        "external_navigation_requests": 0
+      },
+      "updated": {
+        "status": "PASS",
+        "macOS": "Version 15.7.9 (Build 24G830)",
+        "persistent_state": {
+          "completion": true,
+          "current_lesson": true,
+          "notes": true,
+          "rendered": true
+        },
+        "restored_state": {
+          "completion": true,
+          "current_lesson": true,
+          "notes": true,
+          "rendered": true
+        },
+        "native_file_picker_backup_import": "PASS",
+        "native_open_panel_calls": 1,
+        "native_confirm_calls": 1,
+        "external_navigation_requests": 0
+      }
+    },
+    "x86_64": {
+      "seed": {
+        "status": "PASS",
+        "macOS": "Version 15.7.9 (Build 24G830)",
+        "curriculum_interactions": {
+          "completion_seeded": true,
+          "exercises_wrong_retry_correct": 475,
+          "lessons": 95,
+          "notes_seeded": true,
+          "remote_core_resources": 0,
+          "translations": 95
+        },
+        "native_blob_download_export": "PASS",
+        "native_open_panel_calls": 0,
+        "native_confirm_calls": 0,
+        "external_navigation_requests": 0
+      },
+      "reopen": {
+        "status": "PASS",
+        "macOS": "Version 15.7.9 (Build 24G830)",
+        "persistent_state": {
+          "completion": true,
+          "current_lesson": true,
+          "notes": true,
+          "rendered": true
+        },
+        "native_open_panel_calls": 0,
+        "native_confirm_calls": 0,
+        "external_navigation_requests": 0
+      },
+      "moved": {
+        "status": "PASS",
+        "macOS": "Version 15.7.9 (Build 24G830)",
+        "persistent_state": {
+          "completion": true,
+          "current_lesson": true,
+          "notes": true,
+          "rendered": true
+        },
+        "native_open_panel_calls": 0,
+        "native_confirm_calls": 0,
+        "external_navigation_requests": 0
+      },
+      "updated": {
+        "status": "PASS",
+        "macOS": "Version 15.7.9 (Build 24G830)",
+        "persistent_state": {
+          "completion": true,
+          "current_lesson": true,
+          "notes": true,
+          "rendered": true
+        },
+        "restored_state": {
+          "completion": true,
+          "current_lesson": true,
+          "notes": true,
+          "rendered": true
+        },
+        "native_file_picker_backup_import": "PASS",
+        "native_open_panel_calls": 1,
+        "native_confirm_calls": 1,
+        "external_navigation_requests": 0
+      }
+    }
+  },
+  "approved_html_and_educational_content_unchanged": true,
+  "phase3": "POSTPONED",
+  "limitations": [
+    "The Mac was not physically rebooted on CI.",
+    "Manual Gatekeeper and native-dialog user interaction remain Owner UAT; CI auto-answers panels in a separate instrumented compilation.",
+    "Minimum deployment target12.3; actual native tests ran on macOS15.7.9.",
+    "No Developer ID signing or notarization; Gatekeeper warning expected possible."
+  ],
+  "test_conditions": {
+    "actual_macos": "15.7.9",
+    "move_destination": "~/Applications in disposable CI account",
+    "panel_responses": "CI-only automated answers; manual interaction not claimed",
+    "physical_reboot_performed": false
+  }
+}

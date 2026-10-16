@@ -1,0 +1,305 @@
+OWNER AUTHORIZATION: PHASE 2 - KNOWLEDGE REINFORCEMENT
+
+PROJECT: EIP Luxembourg Academy
+REPOSITORY:
+https://github.com/RhuanLUX/MiFID_II_Study_at_Home_Luxembourg.git
+
+BASELINE:
+English and PT-BR learning platform completed.
+95 lessons approved.
+Commit: e37a85dba742e16bc3e4ca7651d484ee27951966
+
+OBJECTIVE
+
+Implement a simple knowledge-reinforcement section directly inside the existing learning platform.
+
+This phase is NOT an examination simulator.
+
+The objective is to help students remember and consolidate what they have just learned.
+
+Preserve the existing application, educational content, layout, navigation, translations, notes, completion tracking and backup functionality.
+
+1. PLACEMENT
+
+At the bottom of EACH lesson, immediately after the existing "Personal Notes" section, add a new section:
+
+"Knowledge Reinforcement"
+
+The existing Previous, Mark as Completed and Next navigation controls should remain below this new section.
+
+Keep the interface clean and visually consistent with the current application.
+
+Do not redesign the platform.
+
+2. NUMBER OF EXERCISES
+
+Create EXACTLY 5 original exercises for EACH of the 95 lessons.
+
+Total: 475 exercises.
+
+Every exercise must be directly related to the educational content of its corresponding lesson.
+
+Do not generate generic questions unrelated to the lesson.
+
+Do not ask about information that has not been taught.
+
+3. DIFFICULTY DISTRIBUTION
+
+Each lesson must contain:
+
+EXERCISE 1: EASY
+Basic definition, terminology or concept recognition.
+
+EXERCISE 2: EASY
+Simple conceptual understanding.
+
+EXERCISE 3: INTERMEDIATE
+Understanding relationships between concepts or identifying correct financial reasoning.
+
+EXERCISE 4: INTERMEDIATE
+Applying concepts to a straightforward financial or regulatory situation.
+
+EXERCISE 5: CHALLENGING
+A more demanding question involving interpretation, calculation, a practical decision or a realistic financial scenario.
+
+The challenging exercise must be more demanding than the others but remain fully solvable using the lesson content.
+
+Do not introduce external knowledge requirements.
+
+4. ALLOWED EXERCISE FORMATS
+
+Use ONLY simple selection-based interactions.
+
+A. MULTIPLE CHOICE
+
+Present one question with four alternatives (A, B, C, D).
+
+Exactly one answer must be correct.
+
+At least two incorrect alternatives should be reasonably plausible and conceptually close to the correct answer.
+
+Avoid absurd distractors that make the answer obvious.
+
+B. FILL IN THE BLANK
+
+Example:
+
+"Compound interest means interest calculated on ______."
+
+Provide four selectable alternatives.
+
+The student must SELECT the correct answer, never type it.
+
+C. MATCHING
+
+Present three or four concepts on the left and their corresponding definitions or explanations on the right.
+
+The student selects the correct associations.
+
+Use simple dropdowns or click-based matching.
+
+No dragging is required.
+
+D. PRACTICAL SCENARIO
+
+Present a short and realistic financial situation.
+
+Ask the student to select the most appropriate answer among four alternatives.
+
+For example, choosing the correct interpretation of a financial calculation, investment risk or regulatory requirement.
+
+No written response.
+
+IMPORTANT:
+
+Never require typing, free-text answers, essays, uploads or external applications.
+
+Use the exercise formats naturally.
+
+There is no requirement to use every format in every lesson.
+
+Avoid artificial repetition and ensure variety throughout the curriculum.
+
+5. FEEDBACK
+
+After the student selects an answer and clicks "Check Answer":
+
+If correct:
+- Display "Correct".
+- Highlight the correct answer.
+- Provide a concise explanation of why it is correct.
+
+If incorrect:
+- Display "Incorrect".
+- Clearly identify the correct answer.
+- Provide a complete educational explanation.
+
+The explanation must teach the underlying concept.
+
+Explain WHY the correct answer is correct.
+
+For intermediate and challenging questions, also clarify why the most plausible incorrect alternatives are not appropriate.
+
+For matching exercises, explain the correct associations.
+
+Explanations must be meaningful and educational.
+
+Do not use generic feedback such as:
+"Because this is the correct definition."
+
+A student who answers incorrectly should be able to understand the mistake without needing to search for another explanation.
+
+6. LANGUAGE
+
+English remains the primary language.
+
+Provide corresponding Brazilian Portuguese translations for questions, alternatives and explanations, accessible through the existing eye icon translation mechanism.
+
+Preserve financial terminology and Luxembourg regulatory meaning.
+
+Do not change the approved English or Portuguese lesson content.
+
+7. USER EXPERIENCE
+
+Keep everything extremely simple.
+
+Each exercise should display:
+
+- Exercise number and difficulty.
+- Question.
+- Available alternatives or matching options.
+- Check Answer button.
+- Feedback and explanation after submission.
+
+Provide a simple "Try Again" option when appropriate.
+
+The student should be able to answer the five exercises individually without leaving the lesson.
+
+Do not open separate pages or modules.
+
+Do not create complex animations or additional navigation.
+
+Exercises are OPTIONAL.
+
+A student must remain able to mark a lesson as completed even without answering the exercises.
+
+Do not change the existing lesson completion rules.
+
+No grades, performance dashboards, achievements, leaderboards or gamification.
+
+8. CONTENT QUALITY
+
+Read and understand the COMPLETE lesson before generating its exercises.
+
+Base questions and explanations on the actual verified lesson content.
+
+Create original questions, not copies of examination questions from external sources.
+
+For financial calculations:
+- Verify the correct result.
+- Verify the numerical distractors.
+- Show the calculation in the feedback when relevant.
+- Explain the financial meaning of the result.
+
+For Luxembourg regulation and taxation:
+- Follow the approved lesson content.
+- Do not invent regulatory requirements.
+- Do not introduce unsupported interpretations.
+
+Every exercise must have exactly one unambiguous correct solution, including a unique correct matching arrangement.
+
+Two distractors may be similar to the correct answer, but they must be demonstrably incorrect.
+
+9. IMPLEMENTATION STRATEGY
+
+First inspect the existing project architecture.
+
+Reuse existing code, visual components and content structures where appropriate.
+
+Do not rebuild the Academy.
+
+Implement the exercise component once and reuse it for all 95 lessons.
+
+Store exercise content in a structured, maintainable format associated with stable lesson identifiers.
+
+This association will also support the future examination simulator.
+
+Before producing all 475 exercises, implement five complete exercises for Lesson 16 as the functional and pedagogical reference.
+
+Validate the interaction, explanations, translation mechanism and visual integration.
+
+Then continue autonomously producing exercises for the remaining lessons in manageable batches.
+
+Do not request separate Owner approval after every batch.
+
+10. QUALITY ASSURANCE
+
+Verify:
+
+- Exactly 95 lessons have exercises.
+- Exactly five exercises exist per lesson.
+- Total exercise count is 475.
+- All exercises reference the correct lesson.
+- Every question has an unambiguous correct answer.
+- Matching exercises have valid, unique solutions.
+- All explanations correspond to the correct answers.
+- Financial calculations are correct.
+- English and PT-BR versions are consistent.
+- No exercise requires typing.
+- Exercises work offline.
+- Existing navigation, notes, completion and backup remain functional.
+- The original 95 lessons remain unchanged.
+
+Correct confirmed defects.
+
+Do not create excessive documentation or unnecessary tooling.
+
+11. STRICT SCOPE CONTROL
+
+DO NOT:
+
+- Rewrite the 95 lessons.
+- Create a separate application.
+- Create a complete examination simulator.
+- Build a question randomization engine.
+- Create difficulty-selection menus.
+- Add scores, rankings or analytics.
+- Add complex adaptive learning systems.
+- Implement AI or external APIs.
+- Modify the approved layout unnecessarily.
+- Introduce mandatory exercises.
+
+This phase consists ONLY of five reinforcement exercises per lesson.
+
+12. DELIVERY
+
+After completing the work:
+
+- Run the existing tests and relevant exercise tests.
+- Generate the updated offline HTML.
+- Update the project documentation.
+- Commit validated changes.
+- Push the project to the official GitHub repository.
+- Confirm local and remote synchronization.
+
+FINAL REPORT
+
+Provide:
+
+1. Lessons with completed exercises: X/95.
+2. Total exercises: X/475.
+3. Distribution by difficulty and exercise type.
+4. Accuracy and content validation results.
+5. Functional and offline test results.
+6. Remaining issues, if any.
+7. Git commit SHA.
+8. Final HTML location.
+9. GitHub synchronization status.
+
+SUCCESS CRITERION
+
+The student can read a complete lesson, take personal notes, optionally answer five simple reinforcement exercises, receive meaningful explanations, mark the lesson as completed and proceed to the next lesson.
+
+The platform must remain simple, lightweight, educational and fully offline.
+
+START PHASE 2 IMPLEMENTATION.

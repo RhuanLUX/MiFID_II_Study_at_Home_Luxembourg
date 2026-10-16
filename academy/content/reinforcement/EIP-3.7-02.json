@@ -1,0 +1,193 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A cross rate connects two currencies using ______.",
+      "Uma taxa cruzada conecta duas moedas usando ______."
+    ],
+    "options": [
+      [
+        "a shared currency with consistently arranged quote units",
+        "uma moeda comum com unidades de cotação organizadas consistentemente"
+      ],
+      [
+        "the sum of their quoted numbers regardless of units",
+        "a soma de seus números cotados independentemente das unidades"
+      ],
+      [
+        "the same bid side for every conversion direction",
+        "o mesmo lado de compra para toda direção de conversão"
+      ],
+      [
+        "an earlier midpoint as a guaranteed current transaction price",
+        "um ponto médio anterior como preço atual garantido de transação"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The common currency cancels when quotations are arranged correctly, leaving the desired currency pair. Multiplication or division depends on the directions of the supplied rates. A midpoint cross is a relationship calculation; actual dealing also needs correct sides, compatible timing, size and costs.",
+      "A moeda comum se cancela quando as cotações são organizadas corretamente, deixando o par desejado. Multiplicação ou divisão depende das direções das taxas fornecidas. Uma taxa cruzada de pontos médios é um cálculo de relação; negociar efetivamente também exige lados corretos, tempo, tamanho e custos compatíveis."
+    ],
+    "blocks": [
+      "EIP-3.7-02-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Dividing USD/EUR by GBP/EUR leaves ______.",
+      "Dividir USD/EUR por GBP/EUR deixa ______."
+    ],
+    "options": [
+      [
+        "GBP/USD",
+        "GBP/USD"
+      ],
+      [
+        "USD × GBP per EUR²",
+        "USD × GBP por EUR²"
+      ],
+      [
+        "USD/GBP",
+        "USD/GBP"
+      ],
+      [
+        "EUR/USD",
+        "EUR/USD"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The euro unit cancels: (USD/EUR)/(GBP/EUR) = USD/GBP. Multiplying the original quotations would not cancel euros and would leave incompatible units for the desired rate. The inverse, GBP/USD, requires reversing the ratio rather than relabelling the result.",
+      "A unidade euro se cancela: (USD/EUR)/(GBP/EUR) = USD/GBP. Multiplicar as cotações originais não cancelaria euros e deixaria unidades incompatíveis com a taxa desejada. A inversa, GBP/USD, exige inverter a razão, não apenas renomear o resultado."
+    ],
+    "blocks": [
+      "EIP-3.7-02-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A direct current executable quote differs from a synthetic cross using an earlier midpoint. What can be concluded immediately?",
+      "Uma cotação direta atual executável difere de uma taxa cruzada sintética que usa ponto médio anterior. O que se pode concluir imediatamente?"
+    ],
+    "options": [
+      [
+        "A risk-free executable arbitrage necessarily exists.",
+        "Existe necessariamente arbitragem executável sem risco."
+      ],
+      [
+        "The midpoint is automatically the customer’s available dealing price.",
+        "O ponto médio é automaticamente o preço disponível ao cliente."
+      ],
+      [
+        "The direct quote must be invalid because algebra gave another number.",
+        "A cotação direta deve ser inválida porque a álgebra deu outro número."
+      ],
+      [
+        "The inputs are not comparable executable alternatives; align time, sides, size and fees.",
+        "Os dados não são alternativas executáveis comparáveis; alinhe momento, lados, tamanho e tarifas."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Algebraic consistency is different from the ability to execute every leg at compatible prices. Earlier midpoint data omit timing and spread and may not be available for the quantity. A sound comparison needs live applicable dealing terms and all charges; a theoretical discrepancy alone does not establish arbitrage.",
+      "Consistência algébrica é diferente da capacidade de executar todas as pernas em preços compatíveis. Dados anteriores de ponto médio omitem momento e spread e podem não estar disponíveis para a quantidade. Uma comparação correta exige condições de negociação aplicáveis e todos os encargos; uma divergência teórica isolada não comprova arbitragem."
+    ],
+    "blocks": [
+      "EIP-3.7-02-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Quotes are EUR/USD 1.0990/1.1010 and EUR/GBP 0.8790/0.8810. A client sells GBP 8,000 for dollars through euros, with no extra fees. Which amount follows?",
+      "As cotações são EUR/USD 1.0990/1.1010 e EUR/GBP 0.8790/0.8810. Um cliente vende GBP 8,000 por dólares por meio de euros, sem tarifas extras. Qual valor decorre?"
+    ],
+    "options": [
+      [
+        "Approximately USD 10,020.48, using the synthetic ask",
+        "Aproximadamente USD 10,020.48, usando o preço sintético de venda"
+      ],
+      [
+        "Approximately USD 9,979.57, using 8,000 × 1.0990/0.8810",
+        "Aproximadamente USD 9,979.57, usando 8,000 × 1.0990/0.8810"
+      ],
+      [
+        "USD 10,000, using midpoint rates",
+        "USD 10,000, usando pontos médios"
+      ],
+      [
+        "Approximately USD 7,745.75, multiplying both quotes",
+        "Aproximadamente USD 7,745.75, multiplicando ambas as cotações"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Buy euros with pounds at the EUR/GBP ask 0.8810, then sell euros at the EUR/USD bid 1.0990. Thus dollars received are 8,000/0.8810 × 1.0990 ≈ USD 9,979.57. The ask route is for buying pounds, not selling them. Midpoints omit spreads; multiplying both original rates fails to cancel euro units.",
+      "Compre euros com libras ao preço de venda EUR/GBP de 0.8810, depois venda euros ao preço de compra EUR/USD de 1.0990. Assim, os dólares recebidos são 8,000/0.8810 × 1.0990 ≈ USD 9,979.57. A rota pelo preço de venda sintético é para comprar libras, não vendê-las. Pontos médios omitem spreads; multiplicar ambas as taxas originais não cancela unidades de euro."
+    ],
+    "blocks": [
+      "EIP-3.7-02-B05"
+    ],
+    "calculation": {
+      "method": "synthetic_sell",
+      "inputs": [
+        8000,
+        1.099,
+        0.881
+      ],
+      "expected": 9979.568671963678
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Convert €10,000 to yen. Direct executable rate 164.50 JPY/EUR has JPY 1,000 fee. The alternative uses 1.0990 USD/EUR, deducts USD 10, converts at 149.80 JPY/USD, then deducts JPY 500. Which net route wins on these assumptions?",
+      "Converta €10,000 em ienes. A taxa direta executável de 164.50 JPY/EUR tem tarifa de JPY 1,000. A alternativa usa 1.0990 USD/EUR, deduz USD 10, converte a 149.80 JPY/USD e depois deduz JPY 500. Qual rota líquida vence sob essas hipóteses?"
+    ],
+    "options": [
+      [
+        "Alternative by JPY 304: JPY 1,644,304 versus JPY 1,644,000",
+        "Alternativa por JPY 304: JPY 1,644,304 contra JPY 1,644,000"
+      ],
+      [
+        "Alternative by JPY 1,302, ignoring fees",
+        "Alternativa por JPY 1,302, ignorando tarifas"
+      ],
+      [
+        "Direct by JPY 304, reversing the result",
+        "Direta por JPY 304, invertendo o resultado"
+      ],
+      [
+        "Equal net proceeds because the rates share a common currency",
+        "Recebimentos líquidos iguais porque as taxas compartilham uma moeda comum"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Direct net is 10,000 × 164.50 − 1,000 = JPY 1,644,000. Alternative net is (10,000 × 1.0990 − 10) × 149.80 − 500 = JPY 1,644,304. The advantage is only JPY 304; JPY 1,302 is the gross comparison. Deduct the dollar fee before yen conversion and the yen fee afterwards. The conclusion requires the stated executable terms to remain available through both legs.",
+      "O líquido direto é 10,000 × 164.50 − 1,000 = JPY 1,644,000. O alternativo é (10,000 × 1.0990 − 10) × 149.80 − 500 = JPY 1,644,304. A vantagem é apenas JPY 304; JPY 1,302 é a comparação bruta. Deduza a tarifa em dólares antes da conversão em ienes e a tarifa em ienes depois. A conclusão exige que as condições executáveis informadas permaneçam disponíveis nas duas pernas."
+    ],
+    "blocks": [
+      "EIP-3.7-02-B07"
+    ],
+    "calculation": {
+      "method": "fx_route_compare",
+      "inputs": [
+        10000,
+        164.5,
+        1000,
+        1.099,
+        10,
+        149.8,
+        500
+      ],
+      "expected": [
+        1644000,
+        1644304,
+        304
+      ]
+    }
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "In EUR/USD 1.1000, using USD per EUR, which currency is the base?",
+      "Em EUR/USD 1.1000, usando USD por EUR, qual moeda é a base?"
+    ],
+    "options": [
+      [
+        "USD, because the numerical price is expressed in dollars",
+        "USD, pois o preço numérico é expresso em dólares"
+      ],
+      [
+        "Both currencies are simultaneously the base in the same quote",
+        "Ambas as moedas são simultaneamente a base na mesma cotação"
+      ],
+      [
+        "EUR, the one unit being priced",
+        "EUR, a unidade cujo preço é dado"
+      ],
+      [
+        "Whichever currency the client currently holds",
+        "Qualquer moeda que o cliente detenha atualmente"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The base is the unit priced: one euro costs 1.1000 dollars. USD is the quote currency. Client direction determines which side is used, not which currency is base in the stated pair. Writing USD/EUR as units prevents confusing the quotation with the client’s starting balance.",
+      "A base é a unidade precificada: um euro custa 1.1000 dólares. USD é a moeda de cotação. A direção do cliente determina qual lado é usado, não qual moeda é a base no par informado. Escrever USD/EUR como unidades evita confundir a cotação com o saldo inicial do cliente."
+    ],
+    "blocks": [
+      "EIP-3.7-01-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "At EUR/USD 1.0990/1.1010, a client selling euros uses the ______.",
+      "Em EUR/USD 1.0990/1.1010, um cliente que vende euros usa o ______."
+    ],
+    "options": [
+      [
+        "1.0990 bid",
+        "preço de compra de 1.0990"
+      ],
+      [
+        "1.1010 ask",
+        "preço de venda de 1.1010"
+      ],
+      [
+        "1.1000 midpoint",
+        "ponto médio de 1.1000"
+      ],
+      [
+        "inverse ask without changing units",
+        "preço inverso de venda sem mudar as unidades"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The dealer buys the client’s euros at the bid. The ask applies when the dealer sells euros to the client. Midpoint is a reference between them, not an automatically executable customer price. The conversion direction and rate side are separate decisions that must both match the transaction.",
+      "O intermediário compra os euros do cliente pelo preço de compra. O preço de venda se aplica quando vende euros ao cliente. O ponto médio é uma referência entre ambos, não um preço automaticamente executável para o cliente. A direção da conversão e o lado da taxa são decisões separadas que precisam corresponder à transação."
+    ],
+    "blocks": [
+      "EIP-3.7-01-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "For a USD-per-EUR bid b and ask a, which gives the inverse EUR-per-USD bid/ask?",
+      "Para preço de compra b e de venda a em USD por EUR, qual dá o par inverso de compra/venda em EUR por USD?"
+    ],
+    "options": [
+      [
+        "1/b then 1/a",
+        "1/b depois 1/a"
+      ],
+      [
+        "b then a, changing only the labels",
+        "b depois a, mudando apenas os rótulos"
+      ],
+      [
+        "1 divided by the midpoint on both sides",
+        "1 dividido pelo ponto médio nos dois lados"
+      ],
+      [
+        "1/a then 1/b",
+        "1/a depois 1/b"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Invert the ask for the inverse bid and the bid for the inverse ask. Reversing the sides preserves the dealer’s economics and maintains bid below ask. Keeping the original order after taking reciprocals would make inverse bid exceed ask. Using the midpoint removes the real spread from the transaction.",
+      "Inverta o preço de venda para obter o preço inverso de compra e o de compra para obter o inverso de venda. Trocar os lados preserva a economia do intermediário e mantém compra abaixo de venda. Manter a ordem original após calcular recíprocos faria o preço inverso de compra superar o de venda. Usar o ponto médio remove o spread real da transação."
+    ],
+    "blocks": [
+      "EIP-3.7-01-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A dealer quotes EUR/USD 1.0990/1.1010. A client has USD 11,010 and buys euros, with no fees. Which amount follows?",
+      "Um intermediário cota EUR/USD 1.0990/1.1010. Um cliente tem USD 11,010 e compra euros, sem tarifas. Qual valor decorre?"
+    ],
+    "options": [
+      [
+        "€10,018.20, dividing by the bid",
+        "€10,018.20, dividindo pelo preço de compra"
+      ],
+      [
+        "€10,000, dividing by the ask",
+        "€10,000, dividindo pelo preço de venda"
+      ],
+      [
+        "Approximately €10,009.09, using midpoint",
+        "Aproximadamente €10,009.09, usando o ponto médio"
+      ],
+      [
+        "€12,122.01, multiplying by the ask",
+        "€12,122.01, multiplicando pelo preço de venda"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The dealer sells euros at 1.1010 USD/EUR, so 11,010/1.1010 = €10,000. Division cancels dollars and leaves euros. The bid is for the opposite customer direction; midpoint is not the stated deal. Multiplying dollars by dollars per euro produces inconsistent units and the incorrect €12,122.01 amount.",
+      "O intermediário vende euros a 1.1010 USD/EUR, portanto 11,010/1.1010 = €10,000. A divisão cancela dólares e deixa euros. O preço de compra é para a direção oposta do cliente; o ponto médio não é a operação informada. Multiplicar dólares por dólares por euro produz unidades incompatíveis e o valor incorreto de €12,122.01."
+    ],
+    "blocks": [
+      "EIP-3.7-01-B03"
+    ],
+    "calculation": {
+      "method": "fx_divide",
+      "inputs": [
+        11010,
+        1.101
+      ],
+      "expected": 10000
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "€10,000 is sold at a 1.0990 USD/EUR bid, then USD 15 is deducted. Remaining dollars buy euros at the unchanged 1.1010 ask; a €5 final fee applies. What euros are recovered and lost?",
+      "€10,000 são vendidos ao preço de compra de 1.0990 USD/EUR, depois USD 15 são deduzidos. Os dólares restantes compram euros ao preço de venda inalterado de 1.1010; há tarifa final de €5. Quais euros são recuperados e perdidos?"
+    ],
+    "options": [
+      [
+        "€9,981.83 recovered; €18.17 lost",
+        "€9,981.83 recuperados; €18.17 perdidos"
+      ],
+      [
+        "€9,980.00 recovered; €20.00 lost",
+        "€9,980.00 recuperados; €20.00 perdidos"
+      ],
+      [
+        "€9,963.21 recovered; €36.79 lost",
+        "€9,963.21 recuperados; €36.79 perdidos"
+      ],
+      [
+        "€10,000 recovered; zero lost because quotes are unchanged",
+        "€10,000 recuperados; perda zero porque as cotações não mudam"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "First receive 10,000 × 1.0990 = USD 10,990; after the dollar fee, USD 10,975 remains. Divide by 1.1010 and subtract €5: about €9,963.21, a €36.79 loss. €9,981.83 omits explicit fees. Subtracting €20 from the initial euros treats USD 15 as euros and omits the spread. Unchanged quotes do not make a round trip free.",
+      "Primeiro receba 10,000 × 1.0990 = USD 10,990; após a tarifa em dólares, restam USD 10,975. Divida por 1.1010 e subtraia €5: cerca de €9,963.21, perda de €36.79. €9,981.83 omite tarifas explícitas. Subtrair €20 dos euros iniciais trata USD 15 como euros e omite o spread. Cotações inalteradas não tornam gratuita uma ida e volta."
+    ],
+    "blocks": [
+      "EIP-3.7-01-B07"
+    ],
+    "calculation": {
+      "method": "fx_roundtrip_fees",
+      "inputs": [
+        10000,
+        1.099,
+        1.101,
+        15,
+        5
+      ],
+      "expected": [
+        9963.210717529519,
+        36.78928247048134
+      ]
+    }
+  }
+]

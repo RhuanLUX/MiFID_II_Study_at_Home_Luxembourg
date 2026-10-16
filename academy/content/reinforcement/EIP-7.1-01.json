@@ -1,0 +1,167 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Discretionary decisions within an agreed individual mandate characterise ______.",
+      "Decisões discricionárias dentro de mandato individual acordado caracterizam ______."
+    ],
+    "options": [
+      [
+        "custody alone",
+        "apenas custódia"
+      ],
+      [
+        "reception and transmission alone",
+        "apenas recepção e transmissão"
+      ],
+      [
+        "advice that awaits each client decision",
+        "consultoria que aguarda cada decisão do cliente"
+      ],
+      [
+        "portfolio management",
+        "gestão de carteira"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Portfolio management gives the manager agreed discretion within the mandate. Advice recommends while normally leaving the transaction decision to the client. Custody safeguards and administers assets; transmission passes orders onward. Similar holdings can arise through different services with different responsibilities.",
+      "Gestão de carteira dá ao gestor discricionariedade acordada dentro do mandato. Consultoria recomenda, normalmente deixando a decisão ao cliente. Custódia guarda e administra ativos; transmissão encaminha ordens. Posições semelhantes podem resultar de serviços distintos com responsabilidades diferentes."
+    ],
+    "blocks": [
+      "EIP-7.1-01-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which activity primarily safeguards and administers instruments rather than selecting investments?",
+      "Qual atividade principalmente guarda e administra instrumentos, em vez de selecionar investimentos?"
+    ],
+    "options": [
+      [
+        "Custody under the relevant arrangement",
+        "Custódia conforme o regime pertinente"
+      ],
+      [
+        "A personal transaction recommendation",
+        "Uma recomendação pessoal de transação"
+      ],
+      [
+        "Discretionary portfolio management",
+        "Gestão discricionária de carteira"
+      ],
+      [
+        "Underwriting on a firm-commitment basis",
+        "Subscrição de emissão com compromisso firme"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Safekeeping and administration are ancillary functions within the stated framework. They do not by themselves promise selection, management or positive returns. Identify the actual provider and obligation instead of treating a group brand as proof that every function and guarantee belongs to the same entity.",
+      "Guarda e administração são funções auxiliares no regime apresentado. Não prometem, por si só, seleção, gestão nem retorno positivo. Identifique instituição e obrigação efetivas, em vez de tratar a marca de um grupo como prova de que toda função e garantia pertence à mesma entidade."
+    ],
+    "blocks": [
+      "EIP-7.1-01-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An employee assesses a client’s five-year goal and recommends buying a specific bond as suitable. The document is titled information. What classification principle applies?",
+      "Um empregado avalia o objetivo de cinco anos do cliente e recomenda comprar um título específico como adequado. O documento se intitula informação. Qual princípio de classificação se aplica?"
+    ],
+    "options": [
+      [
+        "The title prevents the interaction from being advice.",
+        "O título impede que a interação seja consultoria."
+      ],
+      [
+        "The actual personal recommendation has advice features; a later client signature does not erase it.",
+        "A recomendação pessoal efetiva tem características de consultoria; assinatura posterior do cliente não a apaga."
+      ],
+      [
+        "Every factual bond explanation is automatically discretionary management.",
+        "Toda explicação factual de título é automaticamente gestão discricionária."
+      ],
+      [
+        "The bond’s coupon alone determines which service was delivered.",
+        "Apenas o cupom do título determina o serviço prestado."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Service classification follows actual conduct and agreement. A recommendation presented as suitable to an identified person has the taught advice features, regardless of an information label. Execution following a client instruction is a separate step and does not rewrite the earlier interaction. Product identity alone cannot distinguish factual information, advice, execution or management.",
+      "A classificação segue a conduta e o acordo efetivos. Recomendação apresentada como adequada a uma pessoa identificada tem as características ensinadas de consultoria, independentemente do rótulo informação. Execução após instrução do cliente é etapa separada e não reescreve a interação anterior. O produto sozinho não distingue informação factual, consultoria, execução ou gestão."
+    ],
+    "blocks": [
+      "EIP-7.1-01-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A transmits an order for 100 shares; B executes at €50 each. Separate disclosed costs are €10 for A and €5 for B, with no overlap or other charge. What is initial cash outlay?",
+      "A transmite ordem de 100 ações; B executa a €50 cada. Custos separados divulgados são €10 para A e €5 para B, sem sobreposição nem outra cobrança. Qual é o desembolso inicial?"
+    ],
+    "options": [
+      [
+        "€5,000",
+        "€5,000"
+      ],
+      [
+        "€5,010",
+        "€5,010"
+      ],
+      [
+        "€5,015",
+        "€5,015"
+      ],
+      [
+        "€5,005",
+        "€5,005"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Consideration is 100 × 50 = €5,000. Both stipulated separate costs bring cash outlay to €5,015. The other figures omit one or both layers. In a real service chain, verify whether a fee already includes another before adding them; this example expressly rules out overlap rather than justifying double counting.",
+      "A contraprestação é 100 × 50 = €5,000. Ambos os custos separados estipulados elevam o desembolso a €5,015. Os demais valores omitem uma ou ambas as camadas. Na cadeia real, verifique se uma tarifa já inclui outra antes de somá-las; o exemplo exclui expressamente sobreposição, não justifica dupla contagem."
+    ],
+    "blocks": [
+      "EIP-7.1-01-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €100,000 mandate permits 40%–60% equity and excludes one instrument. The manager moves equity from €40,000 to €50,000 without a fresh instruction, but buys the excluded instrument. The trade profits. Which conclusion is sound?",
+      "Um mandato de €100,000 permite 40%–60% em ações e exclui um instrumento. O gestor passa de €40,000 para €50,000 em ações sem nova instrução, mas compra o instrumento excluído. A operação lucra. Qual conclusão é adequada?"
+    ],
+    "options": [
+      [
+        "The profit retrospectively authorises the excluded instrument.",
+        "O lucro autoriza retroativamente o instrumento excluído."
+      ],
+      [
+        "Remaining at 50% equity resolves every mandate condition.",
+        "Permanecer em 50% de ações resolve toda condição do mandato."
+      ],
+      [
+        "Lack of a fresh instruction necessarily makes every discretionary trade advice.",
+        "Ausência de nova instrução necessariamente torna toda operação discricionária consultoria."
+      ],
+      [
+        "The allocation is within its band, but the instrument exclusion is a separate breach to assess; profit does not create authority.",
+        "A alocação está na faixa, mas a exclusão do instrumento é violação separada a avaliar; lucro não cria autoridade."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The manager has discretion only within all relevant mandate limits. €50,000 / €100,000 = 50% meets the allocation band, yet an excluded instrument remains outside authority. No fresh instruction is needed for genuinely authorised discretionary decisions, but a favourable outcome cannot cure an unauthorised choice. Record service type, actual limits and conduct separately.",
+      "O gestor tem discricionariedade apenas dentro de todos os limites pertinentes. €50,000 / €100,000 = 50% atende à faixa, mas instrumento excluído permanece fora da autoridade. Nova instrução não é necessária para decisões discricionárias efetivamente autorizadas, porém resultado favorável não sana escolha não autorizada. Registre separadamente serviço, limites e conduta."
+    ],
+    "blocks": [
+      "EIP-7.1-01-B07"
+    ]
+  }
+]

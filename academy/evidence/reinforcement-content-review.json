@@ -1,0 +1,920 @@
+{
+  "baseline_commit": "e37a85dba742e16bc3e4ca7651d484ee27951966",
+  "method": "Complete lesson reading before authoring; original bilingual questions checked against cited teaching blocks; answer uniqueness, close distractors, progressive difficulty and explanatory feedback reviewed during authoring. Numerical checks and real-browser tests recorded separately.",
+  "reviewed": [
+    {
+      "lesson": "EIP-3.1-A",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "c2750aa5c18be8fc91151451ec7a1a4eddee54bf82371387be8fb4518697810b"
+    },
+    {
+      "lesson": "EIP-1.1-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "61d011db9d8695cce8ece9787c456bde1266d3e9c8aea69e398ec93dbe575e77"
+    },
+    {
+      "lesson": "EIP-1.1-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "dc2b58f07e1234e32aec9ecaa7e09790f18374feb55c0d0d9a95c071dcdeb2b9",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-1.1-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "757bd9eebfeb3c8f37c8bddb0319edda9f6f70fb8044ab3f66f18de6dc2a4474",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-1.2-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "fe8e2113f1edb959a552617c1498339fb8b7d4027e461200955b21e7996a9989"
+    },
+    {
+      "lesson": "EIP-1.2-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "1c7548e5c2b6dfe0be5a1d75c60fe70a28c09011101d8a8068dc4f4ea352349c"
+    },
+    {
+      "lesson": "EIP-1.2-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "7fd98f162f2f573ce12fea5a82744535014f90f90a6682ce17f2e4079952a2cb",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-1.3-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "da1b908510b99206cab1f75ed15d9071c4381b6179f5adc5853dadae14a20dc6",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-1.3-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "50778eab8a0f8952a0c159fec4197a905a8d612d3142927ee215e5411f1b784d",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-1.3-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "125d48ff56a6d4ae948144fe729e11c8ea07b741d14de8cbdf034adef3473800",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-2.1-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "8a414dc2cdb1dfce309169d890cf3ff905e2409baf929c78e093f07a4bd6c598",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-2.2-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "92a1bf07f1d6f5a4bed083fc875d81e56156672798b4dfc07da9f5dc972f982e",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-2.3-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "2f9cd758b0844c3e570c641bf57758bbc81c6ded2b21333fd5e63505c05ddcd6",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-2.3-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "9e1801dcab319527dd317a917e6f767f7ffaa501ce05256d9837a6a405804999",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-2.3-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "f67fa65cd4ea6e38d3306d2c078e413439c2a582e37ad916fdf8aa8a4dc9b833"
+    },
+    {
+      "lesson": "EIP-2.3-04",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "35e7bd5d96d5359a95adec41ce9c7efbb205c9549c164d5235da5b5367cdc5f6",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.1-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "0fbf7f3213392851d0031aa31a68840d8660e9a9222d23ccd7041ee22746d438",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.2-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "aee3c522d762409b071f00d3db7b15afe5158517e3aa726c47de083e9d7970f3",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.2-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "332712088dda78b3fea059167dd23a999dc87715bafbe5c54699cc0729fb0b33",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.2-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "b4a7acae28313c623d18c5f80d5013b1ee39e260675e00a3bce398ca542d99f9",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.3-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "982f7cd784f6ce506d70f4230f9ccc0b360e4fe0e5232dfdd025f4bd05a51f0a",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.3-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "69c5c065b50c99c59a165c3ab43b24576c607baeb97f50553ed4f7b518c4a19b",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.3-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "cc65e1f384e6386fc8d34b99068d75ac3fcd93c84130720bdcea12c70f73fb46",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.3-04",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "0a4d99dd852f4c51aeab8b629f08eb4b880e038e604793e5fdcc0b9e4cb6ef38",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.4-A",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "c7a169d50394b2a85e4491d1929941f9c310b916204b998dd2c23c4802a9264b",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.4-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "909218e583d3df978a27f956c649efb5bb67f17502729361f2830083b796e26b",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.4-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "746f8b2b118f17e89a842c31c91b17bce6849fa973a84459528d0bc53ca7bbb5",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.4-04",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "9b18256a6c18bf21071462ea40d730234a984a76d9749d62ce5de376022d1143",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.4-05",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "c155f7b33218019be64044af2ead521b8e9c1f5d86b91df4c4da8a4052e3ab11",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.4-06",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "a0ffaa79a91f01ff8184793c7ff8f64801955921cc8d133094f7c9bd57ca02de",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.4-07",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "c3933d9a99c12bfa40d6005ad0f8c5bd351400e2ae799ac4c1a0db819871d9e3",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.5-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "a44bc64b307683f2bb2a518f0877680f5696ff5a9b9ec2f46796041ae02ceff9",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.5-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "ca09cb53000fcfd193935c4865e2957f86ff6c303520a773032e73d16daf86e2",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.5-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "f9cbcf09ff5097f0ad69d4f0f7eb7880edcac78e58a16441cb550dda0a2e600f",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.5-04",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "55aee442001089c246f725ef24258cfbca823e9f402dcd040d740b3775397f36",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.5-05",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "b15558f1cb925620875cde11848580380cf077ba3d195bf1f9d354cfd371d5b1",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.6-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "fa33ec853350eb32d20aedc5dab4ee72faf4940ecf1ee1caa2a643dfde8d19d5"
+    },
+    {
+      "lesson": "EIP-3.6-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "288efab6526460da6e9230b97e71aa82b9ad227de9d22238760bcf63b6be56ea"
+    },
+    {
+      "lesson": "EIP-3.6-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "58c6c8888717b6837468376dbfa2228b6220060a2983965740d0597ca8176964",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.6-04",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "dfbc47258974b4f1cb01cccde0e1d2bd788a29bf4f2b1290962b3ea1d5fb8179",
+      "basic_distractors_reexamined": true
+    },
+    {
+      "lesson": "EIP-3.6-05",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "b6092d8fec00743793df94e289c64be7612dd7cb1bc76ac1609baf7c5143acad"
+    },
+    {
+      "lesson": "EIP-3.6-06",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "55e5d47f1f8ea0bea2cf1bdb094ead5542a4b58d152772493d83c901ac7d8065"
+    },
+    {
+      "lesson": "EIP-3.7-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "a93a8fd0df4722491f69976651212cde4ddbd2531af98ebadf6829f024f773a9"
+    },
+    {
+      "lesson": "EIP-3.7-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "b2ab2092fba0a75d9fe4172091da53f70e607ef650d458509e3f73f8b7d643ea"
+    },
+    {
+      "lesson": "EIP-3.7-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "2058fdb25df55bc28c6e7475d1dfee6f34897fdf330868b801c8011d53e4d689"
+    },
+    {
+      "lesson": "EIP-3.7-04",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "b10a9c71266fee1ae15ef98a7fe85895d669340710d7b9f9c580c2fa5aa9be8d"
+    },
+    {
+      "lesson": "EIP-3.8-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "6f09506f0ae6be5003dd22457573e7ab26d3a570d24d0ea9e291455697fc6e31"
+    },
+    {
+      "lesson": "EIP-3.8-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "b20a2d9786f1c6f3dd45c69fb93a1d980cb411393aebb51ac24235afe0600f05"
+    },
+    {
+      "lesson": "EIP-3.8-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "1d4ece66dde118801f8b041013dfa23b9288225ddd414b8c30a8409f9e24c842"
+    },
+    {
+      "lesson": "EIP-3.8-04",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "4853c14182a2bfd709f1618af7176bcdf260d1975d51afef910ac6227bdf516f"
+    },
+    {
+      "lesson": "EIP-3.8-05",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "45f8a9e8605a020fc0cb21ec87ad1ff1ad744119f3ac1717804babc9d4419741"
+    },
+    {
+      "lesson": "EIP-3.8-06",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "3317231b4b7d51111054fc8d4e76dc7532700d5813a872cb555bf1fa3fe2cf94"
+    },
+    {
+      "lesson": "EIP-3.9-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "7922ac60fba12343b83b8d81a8b7ddade0ee8a08d40e34824af89b9beca64bd7"
+    },
+    {
+      "lesson": "EIP-3.9-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "20aaf89f8e56caba0c7975be801b69629b7a9a734bc7fab3151b77ec6268c442"
+    },
+    {
+      "lesson": "EIP-3.9-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "db0955a124d63d85820603e565a9ccc25eb411ef3b39a905272f84c25adf7636"
+    },
+    {
+      "lesson": "EIP-3.10-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "a4fddf8e9603a39e557e6e0654bc448a58fc74e4e235f93024ee924603bd5de0"
+    },
+    {
+      "lesson": "EIP-3.10-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "bc862cc603bb38474d0fcbdfe16f34da5ddda5bb84e347170ff834445bf91dd4"
+    },
+    {
+      "lesson": "EIP-4.1-A",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "f698732d3e5e95f817ee7f428068860e52e585b8c9a4ddea24d400fc2661ec90"
+    },
+    {
+      "lesson": "EIP-4.1-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "4048e9f8bc7ebe72b692d41497fa79126c03620eaeb396ca1cc13ca9d5b3a95f"
+    },
+    {
+      "lesson": "EIP-4.1-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "07ba58795ac3b3e1a357e37006d94dcad09fa654cccdbe557fbfe107f5d41c5e"
+    },
+    {
+      "lesson": "EIP-4.1-04",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "a83c0f0259ff256fdcfe1ea68bc5fb2554803ec23c3fbbe14eb87d1cdaf75211"
+    },
+    {
+      "lesson": "EIP-5.1-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "895fa88ac430e10383fd33cd9ff4144618aa73a90a72d1ce35e5381cf1791f71"
+    },
+    {
+      "lesson": "EIP-5.1-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "15468e6d3f75984cb6aa00de85bd51c7d92ee546ff638e14d7a24e3fb68d1725"
+    },
+    {
+      "lesson": "EIP-5.2-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "da36d7d5eda547d0e065e81d26186385077b62fec68054f7ec62817d3db664a4"
+    },
+    {
+      "lesson": "EIP-5.2-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "b11bcf7c3cd7c18a53363c4becbbc1197031fea05e2df084b456244004dd7f10"
+    },
+    {
+      "lesson": "EIP-5.2-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "ab0a3135a0146e22e74aa2cd3d805b0ce9f21a6c09dacdc1ebfb00db69143ad2"
+    },
+    {
+      "lesson": "EIP-5.3-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "633e50e309dbfc9e74e7cbc97a7887f60edb962e8462dd6a844e2ffd07f29eef"
+    },
+    {
+      "lesson": "EIP-5.3-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "33dba38800a1f9846828718d9159ceaa77de330ad41997b6fedf1b0e219067a5"
+    },
+    {
+      "lesson": "EIP-5.4-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "58a9e47e46c0651a23215e00da85ab2f6003a0345064afe7e96f009d488a288e"
+    },
+    {
+      "lesson": "EIP-5.4-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "f903e4844c9c3ff3e24935e810d8e162076ef59ccfb8e6d3fc30bebb83f69b23"
+    },
+    {
+      "lesson": "EIP-5.5-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "587a9e244a664f59d8207a73a7c5167f8c882caf0246325bfeb58170839ae670"
+    },
+    {
+      "lesson": "EIP-5.5-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "474f937917d50bcf3ad4a99c6db8efcdb3c8f515114c4b2f7711261306c1e3dd"
+    },
+    {
+      "lesson": "EIP-6.1-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "6fa19b961d6d99675c028b9ceae4f88ee850ef9b1e61c541f60767027c214a2d"
+    },
+    {
+      "lesson": "EIP-6.1-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "81ac4e305426a7f3b2aca028f3089fdccf9ee2a321c3aa7caa248824e686bcdc"
+    },
+    {
+      "lesson": "EIP-6.1-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "9c6151f83c5f5755cab0e8f04eca3f40f50e81258db49918ed0d8e55877dde7b"
+    },
+    {
+      "lesson": "EIP-6.1-04",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "8ce3b40ce022dcce971b42d91dad46d29f02a985acfed48d99b7921d30a81f97"
+    },
+    {
+      "lesson": "EIP-6.2-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "9c43dbc53a4888a284cf3fd5090b52fc2c5110f9f18d6b70c3062e632cc4a27a"
+    },
+    {
+      "lesson": "EIP-6.2-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "f023c9d282f74613b0498e3062ffb1fa51022ab61ed529563c52dd17f5bb44fd"
+    },
+    {
+      "lesson": "EIP-6.2-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "2c8fea488d457ba5ef70bc7090d3462f32b1b81b97277d5f72e845d641cbca57"
+    },
+    {
+      "lesson": "EIP-6.2-04",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "710788f21f25373014e2d0fa77573bfd1a4cf1ae155b2ccb63250ee5b4c4c3d7"
+    },
+    {
+      "lesson": "EIP-7.1-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "8cadf4b6fc5a7df4645182ba9c73921a9cbd055f982fa70690540dcfcff25c84"
+    },
+    {
+      "lesson": "EIP-7.1-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "788107620e5a90d8fb4cec4bce05efa5f5b9f9fe5880b1f536955a2710f23ef8"
+    },
+    {
+      "lesson": "EIP-7.1-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "68944e2b366e35dbf738ba3499c8b5e11aba85e948b5e41b7297f72dd396356c"
+    },
+    {
+      "lesson": "EIP-7.1-04",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "b10c9c88e7dc951b9e28e8522e3bcc2a10da7aab3242baf9079a80c768d65bf2"
+    },
+    {
+      "lesson": "EIP-7.1-05",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "4d95086f5a05f6ee0fd1e38b2e06f9689c093e5bf21134a12c349265324acba0"
+    },
+    {
+      "lesson": "EIP-7.1-06",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "4542cce930459e59e929516374f4518a2db163a2aa1bd9f05b463707636027a6"
+    },
+    {
+      "lesson": "EIP-7.2-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "10a59ae2c4b1cb0dbb2819a7d37762a2e45dc9bd85b9cb9936dd55d43b28785d"
+    },
+    {
+      "lesson": "EIP-7.2-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "98db35e8b801f4fd408f76982bf26df253322ba7e78ac2590c5701d1314afe60"
+    },
+    {
+      "lesson": "EIP-7.2-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "7a153c15dc3310b15cba4e57ef5011e5e7d4df100bbc4d0cba02e94130468b1b"
+    },
+    {
+      "lesson": "EIP-7.3-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "10a3e6603c8e5dded80c2a443415dad5160d3822dabd822d795e546b66a627c2"
+    },
+    {
+      "lesson": "EIP-7.3-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "5bf4c5fba021298a120f784650e4432c3f529c4dbbb9dab886bcf4fb2a11f889"
+    },
+    {
+      "lesson": "EIP-M8-01",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "ad97395d9b660176119693c3e3a22090178b1c9f856634dfbffa9b05f2820654"
+    },
+    {
+      "lesson": "EIP-M8-02",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "36004045b3ab79187870d347cc9a46a979488b06f06056671603519529821837"
+    },
+    {
+      "lesson": "EIP-M8-03",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "abe440aafd50cc9bdde5dd387557235e0183b5b833d474abc37c8cbce5913465"
+    },
+    {
+      "lesson": "EIP-M8-04",
+      "complete_lesson_read": true,
+      "exercises": 5,
+      "content_review": "COMPLETE",
+      "exercise_file_sha256": "12a943af78b00aa7ca88dcd08c9ca2d2013d3eed4f346e8823933bffc31b93d5"
+    }
+  ],
+  "authoritative_rechecks": [
+    {
+      "date": "2026-10-16",
+      "lessons": [
+        "EIP-2.3-02",
+        "EIP-2.3-03",
+        "EIP-2.3-04"
+      ],
+      "sources": [
+        "https://www.luxse.com/market-overview/official-list",
+        "https://www.luxse.com/list-your-security",
+        "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-27-obligation-execute-orders"
+      ],
+      "finding": "Confirmed distinct trading markets versus SOL admission without trading; retail best execution considers total consideration, with relevant execution factors. No new regulatory requirements introduced."
+    },
+    {
+      "date": "2026-10-16",
+      "lessons": [
+        "EIP-3.2-02",
+        "EIP-3.2-03"
+      ],
+      "sources": [
+        "https://impotsdirects.public.lu/dam-assets/fr/legislation/LIR/texte-coordonn-en-vigueur-au-1er-janvier-2026-ver-08052026.pdf",
+        "https://guichet.public.lu/en/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/banque-luxembourgeoise.html",
+        "https://guichet.public.lu/en/entreprises/fiscalite/impots-benefices/benefices-patrimoine/imposition-benefices-distribues/distribution-dividendes.html",
+        "https://guichet.public.lu/en/citoyens/fiscalite/declaration-impot-decompte/activite-professionnelle/declaration-revenus/assimilation-resident.html"
+      ],
+      "finding": "Confirmed resident-only foreign-interest election excludes assimilated non-residents; annual election scope; dividend withholding is an advance; coordinated 2026 LIR Articles 99bis,100,115(15a) inspected for holding-period/participation/exemption boundaries. Conditional classroom rates retained; no personal liability conclusion."
+    },
+    {
+      "date": "2026-10-16",
+      "lessons": [
+        "EIP-3.3-01",
+        "EIP-3.3-02"
+      ],
+      "sources": [
+        "https://www.fgdl.lu/en/deposit-guarantee/",
+        "https://www.fgdl.lu/en/frequently-asked-questions/",
+        "https://www.ecb.europa.eu/mopo/coll/risk/riskcontrol/html/index.en.html"
+      ],
+      "finding": "Confirmed standard per-person/per-bank eligible-deposit aggregation and conditional repayment timing; haircut-adjusted valuation and margins are concepts, with fictional repo parameters explicitly stipulated. Sufficient-cent collateral rounded upward rather than using presentation-only rounded figures."
+    },
+    {
+      "date": "2026-10-16",
+      "lessons": [
+        "EIP-3.3-04"
+      ],
+      "sources": [
+        "https://www.ecb.europa.eu/press/economic-bulletin/articles/2022/html/ecb.ebart202204_03~782540dbd5.en.html",
+        "https://www.emmi-benchmarks.eu/benchmarks/eonia/",
+        "https://www.emmi-benchmarks.eu/faq/euribor/"
+      ],
+      "finding": "Confirmed EONIA cessation and separate overnight/term benchmark concepts. All question fixings are stipulated fictional rates; no live licensed data reproduced."
+    },
+    {
+      "date": "2026-10-16",
+      "lessons": [
+        "EIP-3.8-01",
+        "EIP-3.8-02"
+      ],
+      "sources": [
+        "https://www.esma.europa.eu/sites/default/files/library/opinion_on_ucits_share_classes.pdf",
+        "https://www.cssf.lu/en/2026/03/communication-to-the-investment-fund-industry/"
+      ],
+      "finding": "Confirmed share classes/common pool versus compartments and current liquidity-management framework. Exercises teach documented dealing mechanics and stipulated swing values; no universal immediate-redemption guarantee or operational deadline invented."
+    },
+    {
+      "date": "2026-10-16",
+      "lessons": [
+        "EIP-3.8-03"
+      ],
+      "sources": [
+        "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/ucits/article-52"
+      ],
+      "finding": "Confirmed ordinary issuer branch aggregates full holdings above 5% with stated 40% limit and scoped exceptions. Question explicitly excludes unrelated regulatory branches and does not claim full compliance."
+    },
+    {
+      "date": "2026-10-16",
+      "lessons": [
+        "EIP-3.8-06"
+      ],
+      "sources": [
+        "https://www.cssf.lu/wp-content/uploads/L_171210_UCI.pdf"
+      ],
+      "finding": "Inspected Articles 173,174,176: vehicle distribution/no-withholding scope, standard 0.05% annual subscription tax, reductions/exemptions and quarter-end net-asset basis. Exercises distinguish resident personal assessment and underlying tax layers; informational-consolidation limitation retained."
+    },
+    {
+      "date": "2026-10-16",
+      "lessons": [
+        "EIP-3.9-01",
+        "EIP-3.9-02"
+      ],
+      "sources": [
+        "https://www.esma.europa.eu/document/concepts-sustainable-investments-and-environmentally-sustainable-activities-eu-sustainable",
+        "https://www.cssf.lu/en/2026/07/communication-to-market-participants-on-the-application-of-the-esg-ratings-regulation-and-the-new-disclosure-requirements-under-the-sfdr/"
+      ],
+      "finding": "Confirmed ESG/SFDR distinction and current rating-disclosure communication. Questions distinguish integration, exclusions, financial risk, portfolio metrics and evidenced impact; no forthcoming SFDR proposal treated as enacted."
+    },
+    {
+      "date": "2026-10-16",
+      "lessons": [
+        "EIP-3.10-02",
+        "EIP-4.1-A"
+      ],
+      "sources": [
+        "https://www.esma.europa.eu/sites/default/files/library/2015-1787_-_guidelines_on_complex_debt_instruments_and_structured_deposits.pdf",
+        "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-25-assessment-suitability-and",
+        "https://www.esma.europa.eu/sites/default/files/2026-05/ESMA35-915049491-6291_Statement_on_the_CSA_on_MiFID_II_sustainability_aspects.pdf"
+      ],
+      "finding": "Checked complexity paragraphs 12–15, Article 25 service distinctions and the 2026 statement on close alternatives/adaptation before recommendation. Knowledge and loss capacity kept separate; no client-specific product recommendation or numerical legal reserve invented."
+    },
+    {
+      "date": "2026-10-16",
+      "lessons": [
+        "EIP-6.1-01",
+        "EIP-6.1-02"
+      ],
+      "sources": [
+        "https://www.caa.lu/uploads/documents/files/LC26-1_FR.pdf",
+        "https://www.caa.lu/uploads/documents/files/Loi_ContratAssurance_1997-07-27_coord_2025-11-25.pdf"
+      ],
+      "finding": "Inspected fund-linked/mixed definitions, section 10 existing/new-contract scope and accepted-beneficiary surrender-consent provision. Investment value, death benefit, maturity guarantee and surrender kept separate; no universal state guarantee asserted."
+    },
+    {
+      "date": "2026-10-16",
+      "url": "https://impotsdirects.public.lu/fr/az/i/inter_debit.html",
+      "finding": "ACD confirms combined insurance/personal debit interest ceiling EUR672; exercise uses full-year single resident and stipulated eligibility."
+    },
+    {
+      "date": "2026-10-16",
+      "url": "https://impotsdirects.public.lu/dam-assets/fr/legislation/LIR/texte-coordonn-en-vigueur-au-1er-janvier-2026-ver-08052026.pdf",
+      "finding": "Rechecked Article111bis/ter combined4500 and10years/60–75; ordinary premature entire repayment99(5), exceptional99(4)."
+    },
+    {
+      "date": "2026-10-16",
+      "url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-24-general-principles-and",
+      "finding": "Fair clear nonmisleading and timely cost/service information; signatures do not replace suitability."
+    },
+    {
+      "date": "2026-10-16",
+      "url": "https://www.cssf.lu/en/customer-complaints/",
+      "finding": "Checked nonbinding conclusions and prior complaint conditions."
+    },
+    {
+      "date": "2026-10-16",
+      "url": "https://www.esma.europa.eu/publications-data/questions-answers/1121",
+      "finding": "Checked enhancement proportional to inducements."
+    },
+    {
+      "date": "2026-10-16",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02014R0596-20260605",
+      "finding": "Checked2026intermediate-step disclosure distinction; inside-information and confidentiality restrictions remain."
+    },
+    {
+      "date": "2026-10-16",
+      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-register-external-reviewers-under-eugb-regulation",
+      "finding": "Current EuGB registered reviewer framework; no repayment guarantee from review; use-of-proceeds and linked-coupon structures kept distinct."
+    },
+    {
+      "date": "2026-10-16",
+      "url": "https://www.cssf.lu/wp-content/uploads/L_121104_AML.pdf",
+      "finding": "Article5: attempted suspicious transactions regardless of amount or identification of predicate offence; confidential controlled reporting and tipping-off restrictions with defined exceptions."
+    },
+    {
+      "date": "2026-10-16",
+      "url": "https://efpa-eu.org/wp-content/uploads/2023/04/EFPA-Europe-Code-of-Ethics-revised-31-01-2023.pdf",
+      "finding": "Competence limits, honesty, integrity, fairness and continuing knowledge; Academy completion not an awarded designation."
+    }
+  ],
+  "corrections": [
+    {
+      "question": "EIP-3.1-02-R5",
+      "issue": "Manually entered present-value expected result differed at sub-cent precision.",
+      "correction": "Recalculated with Python Decimal at 40 digits; expected 11260.36054751095; feedback rounds to 11260.360548 at six decimals, 11260.36 at cents. Approved lesson untouched."
+    },
+    {
+      "scope": "First 40 lessons: basic selection questions",
+      "issue": "Several basic questions contained distractors too remote from the concept, and some prompts signalled the answer through implausible alternatives.",
+      "correction": "Replaced weak alternatives with neighbouring taught concepts, common sign/base/timing confusions or incorrect legal generalisations. Reframed residence, fund-income and half-dividend questions positively. Correct answers unchanged except residence wording retained its existing answer index. EN/PT counterparts and review hashes updated."
+    },
+    {
+      "question": "EIP-4.1-03-R2",
+      "issue": "Fill-blank wording could admit more than one conclusion about changes after inheritance.",
+      "correction": "Reframed as a single focused selection about understanding; retained correct index and explanatory meaning, updated both languages and review hash."
+    },
+    {
+      "question": "EIP-5.3-02-R5",
+      "issue": "One incorrect alternative’s stated calculation used inconsistent decimal scaling.",
+      "correction": "Corrected the distractor to −997 and 333.3333 years when 0.3% is wrongly applied to the 1000 fee; correct answer unchanged. EN/PT updated."
+    },
+    {
+      "exercise": "EIP-7.1-04-R3",
+      "issue": "Distractor label omitted advice while its1100 amount included it.",
+      "correction": "Clarified wrong calculation1000-400+500; correct aggregate1500 unchanged."
+    },
+    {
+      "exercise": "EIP-6.2-03-R5",
+      "issue": "Independent Decimal verification found a one-cent model difference error inherited from reading example; actual difference7700.238167... rounds7700.24, not7700.23.",
+      "correction": "Corrected exercise EN/PT answer and explanation. Approved lesson left unchanged as instructed; baseline reading one-cent discrepancy explicitly documented as remaining limitation."
+    },
+    {
+      "scope": "EIP-2.3-03-R5 and EIP-5.4-01-R5",
+      "issue": "Prompts relied on the previous exercise for numerical premises.",
+      "correction": "Repeated the required order-book and risk/return inputs in each bilingual prompt so optional exercises remain individually solvable."
+    }
+  ],
+  "final_numerical_critical_review": {
+    "date": "2026-10-16",
+    "tagged_examples_read_with_all_options_and_feedback": 146,
+    "additional_later_lesson_direct_premise_checks": 41,
+    "decimal_precision": 45,
+    "decimal_checks": 187,
+    "status": "COMPLETE",
+    "scope": "Fresh financial interpretation/distractor review of every tagged example; direct-premise recalculation of later numerical exercises; production bilingual answer-uniqueness/feedback review for all475. Same Codex author, not independent specialist approval.",
+    "remaining_baseline_discrepancy": "EIP-6.2-03-B05 states7700.23; actual compounded difference rounds7700.24. Exercise corrected; approved reading unchanged by owner restriction."
+  }
+}

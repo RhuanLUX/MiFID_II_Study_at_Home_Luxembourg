@@ -1,0 +1,195 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "For a fully invested long-only portfolio, starting weights including cash sum to ______.",
+      "Em uma carteira integralmente alocada sem posições vendidas, pesos iniciais incluindo caixa somam ______."
+    ],
+    "options": [
+      [
+        "the number of securities",
+        "a quantidade de títulos"
+      ],
+      [
+        "one, or 100%",
+        "um, ou 100%"
+      ],
+      [
+        "the expected return",
+        "o retorno esperado"
+      ],
+      [
+        "the sum of individual volatilities",
+        "a soma das volatilidades individuais"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A weight is each included asset’s proportion of the same portfolio value. Cash belongs in that boundary. Weights of the fully invested long-only set sum to one; leveraged positions require financing weights and a clearly stated equity denominator instead of casually discarding the borrowing leg.",
+      "Um peso é a proporção de cada ativo incluído no mesmo valor da carteira. O caixa pertence a esse limite. Os pesos de um conjunto integralmente alocado e sem posições vendidas somam um; posições alavancadas exigem pesos de financiamento e denominador de capital próprio claro, em vez de descartar a dívida."
+    ],
+    "blocks": [
+      "EIP-5.2-02-B01"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Expected single-period portfolio return is calculated using ______.",
+      "O retorno esperado da carteira em um período é calculado usando ______."
+    ],
+    "options": [
+      [
+        "the product of all expected constituent returns",
+        "o produto de todos os retornos esperados dos componentes"
+      ],
+      [
+        "the sum of volatilities without weights",
+        "a soma das volatilidades sem pesos"
+      ],
+      [
+        "ending weights chosen after observing winners",
+        "pesos finais escolhidos após observar vencedores"
+      ],
+      [
+        "starting weights times compatible expected constituent returns, summed",
+        "a soma dos pesos iniciais vezes retornos esperados compatíveis dos componentes"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Expected portfolio return is a linear weighted expectation for the specified period and currency. Covariance enters risk rather than this expectation formula. Using ending weights to measure a completed single period makes gains themselves alter the historical weighting and can overstate the earned return.",
+      "O retorno esperado da carteira é uma expectativa linear ponderada para período e moeda especificados. A covariância entra no risco, não nessa fórmula de expectativa. Usar pesos finais para medir um período concluído faz os próprios ganhos alterarem a ponderação histórica e pode superestimar o retorno obtido."
+    ],
+    "blocks": [
+      "EIP-5.2-02-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Weights and constituent expected returns stay fixed, but correlation falls. What follows under this framework?",
+      "Pesos e retornos esperados dos componentes ficam fixos, mas a correlação cai. O que decorre sob esse regime?"
+    ],
+    "options": [
+      [
+        "Expected return stays fixed; model variance can change through covariance.",
+        "O retorno esperado fica fixo; a variância do modelo pode mudar pela covariância."
+      ],
+      [
+        "Expected return necessarily rises by the same amount as correlation falls.",
+        "O retorno esperado necessariamente sobe pelo mesmo valor da queda de correlação."
+      ],
+      [
+        "Constituent expected returns must be multiplied by correlation.",
+        "Os retornos esperados dos componentes devem ser multiplicados pela correlação."
+      ],
+      [
+        "Cash can be excluded because covariance applies only to risky holdings.",
+        "O caixa pode ser excluído porque a covariância se aplica apenas a posições arriscadas."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The expectation remains the same weighted sum. Correlation affects the variance cross terms, so diversification can change dispersion without changing expected return. This does not guarantee realised gains or establish suitability; estimated expectations and covariance both remain assumptions requiring scrutiny.",
+      "A expectativa permanece a mesma soma ponderada. A correlação afeta termos cruzados da variância, portanto a diversificação pode mudar dispersão sem mudar retorno esperado. Isso não garante ganhos realizados nem estabelece adequação; expectativas e covariância estimadas continuam sendo hipóteses que exigem análise."
+    ],
+    "blocks": [
+      "EIP-5.2-02-B02"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A starts at €60,000 and gains 20%; B starts at €40,000 and loses 5%. No costs or flows. What past portfolio return and trade restore a 60/40 target at the ending value?",
+      "A começa com €60,000 e ganha 20%; B começa com €40,000 e perde 5%. Sem custos ou fluxos. Qual retorno passado da carteira e operação restaura a meta 60/40 no valor final?"
+    ],
+    "options": [
+      [
+        "Approximately 11.36%; sell no A because ending weights measure past return",
+        "Aproximadamente 11.36%; não vender A porque os pesos finais medem o retorno passado"
+      ],
+      [
+        "10%; sell €12,000 of A and buy B",
+        "10%; vender €12,000 de A e comprar B"
+      ],
+      [
+        "10%; sell €6,000 of A and buy €6,000 of B",
+        "10%; vender €6,000 de A e comprar €6,000 de B"
+      ],
+      [
+        "15%; sell €6,000 of B and buy A",
+        "15%; vender €6,000 de B e comprar A"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Ending holdings are €72,000 and €38,000, total €110,000, a 10% return from starting weights. At that total, targets are €66,000 and €44,000; transfer €6,000 from A to B. Ending weights cannot be used to recalculate the past return. Rebalancing changes current exposure rather than changing the return already earned.",
+      "As posições finais são €72,000 e €38,000, total de €110,000, retorno de 10% pelos pesos iniciais. Nesse total, as metas são €66,000 e €44,000; transfira €6,000 de A para B. Pesos finais não podem ser usados para recalcular o retorno passado. Rebalancear muda a exposição atual, não o retorno já obtido."
+    ],
+    "blocks": [
+      "EIP-5.2-02-B05"
+    ],
+    "calculation": {
+      "method": "rebalance_two",
+      "inputs": [
+        60000,
+        40000,
+        0.2,
+        -0.05,
+        0.6
+      ],
+      "expected": [
+        110000,
+        0.1,
+        6000
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A client has €100,000 equity and borrows €20,000 at 3% for one year to hold €120,000 of A. A loses 20%; no other costs or margin effects are included. What equity return follows?",
+      "Um cliente tem €100,000 de capital próprio e toma €20,000 a 3% por um ano para deter €120,000 de A. A perde 20%; nenhum outro custo ou efeito de margem é incluído. Qual retorno sobre o capital próprio decorre?"
+    ],
+    "options": [
+      [
+        "−20%, ignoring borrowing and interest",
+        "−20%, ignorando dívida e juros"
+      ],
+      [
+        "−24.6%, from €24,000 asset loss plus €600 interest",
+        "−24.6%, de perda do ativo de €24,000 mais juros de €600"
+      ],
+      [
+        "−23.4%, adding the borrowing interest as income",
+        "−23.4%, somando juros da dívida como renda"
+      ],
+      [
+        "−20.5%, dividing the €24,600 loss by asset exposure rather than equity",
+        "−20.5%, dividindo a perda de €24,600 pela exposição do ativo em vez do capital próprio"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Asset loss is 120,000 × 0.20 = €24,000; borrowing costs 20,000 × 0.03 = €600. The €24,600 loss relative to €100,000 equity is −24.6%. The debt obligation remains despite adverse asset performance. The −20.5% figure uses €120,000 as denominator and is not the client’s equity return. Omitted collateral and funding demands could add practical risk.",
+      "A perda do ativo é 120,000 × 0.20 = €24,000; a dívida custa 20,000 × 0.03 = €600. A perda de €24,600 relativa ao capital próprio de €100,000 é −24.6%. A obrigação de dívida permanece apesar do desempenho adverso. A taxa de −20.5% usa €120,000 como denominador e não é o retorno do capital próprio do cliente. Exigências omitidas de garantia e financiamento poderiam acrescentar risco prático."
+    ],
+    "blocks": [
+      "EIP-5.2-02-B07"
+    ],
+    "calculation": {
+      "method": "leveraged_return",
+      "inputs": [
+        100000,
+        20000,
+        0.03,
+        -0.2
+      ],
+      "expected": [
+        -24600,
+        -0.246
+      ]
+    }
+  }
+]

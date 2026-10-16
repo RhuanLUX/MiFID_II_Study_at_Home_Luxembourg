@@ -1,0 +1,194 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which benchmark approach is defensible?",
+      "Qual abordagem de referência é defensável?"
+    ],
+    "options": [
+      [
+        "Choose the lowest-return index after observing the outcome.",
+        "Escolha o índice de menor retorno após observar o resultado."
+      ],
+      [
+        "Compare any price index with a reinvested total return without adjustment.",
+        "Compare qualquer índice de preços com retorno total reinvestido sem ajuste."
+      ],
+      [
+        "Specify a relevant mandate/currency/return-basis comparison and avoid retrospective selection.",
+        "Especifique comparação relevante de mandato/moeda/base de retorno e evite seleção retrospectiva."
+      ],
+      [
+        "Change the agreed benchmark solely to erase underperformance.",
+        "Mude a referência acordada apenas para apagar desempenho inferior."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "A benchmark should illuminate the strategy or policy on compatible conventions. Period, currency, distributions, fees and rebalancing matter. Retrospective selection can misrepresent relative performance. A genuine mandate change can justify a documented prospective change, but benchmark success still differs from meeting a personal liability.",
+      "Uma referência deve esclarecer a estratégia ou política em convenções compatíveis. Período, moeda, distribuições, tarifas e rebalanceamento importam. Seleção retrospectiva pode distorcer o desempenho relativo. Uma mudança genuína de mandato pode justificar alteração prospectiva documentada, mas sucesso perante o índice ainda difere de atender obrigação pessoal."
+    ],
+    "blocks": [
+      "EIP-5.5-01-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Simple active return is portfolio return ______ benchmark return.",
+      "O retorno ativo simples é o retorno da carteira ______ o retorno da referência."
+    ],
+    "options": [
+      [
+        "minus",
+        "menos"
+      ],
+      [
+        "divided by without subtracting one",
+        "dividido por, sem subtrair um"
+      ],
+      [
+        "multiplied by",
+        "multiplicado por"
+      ],
+      [
+        "plus",
+        "mais"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Subtract compatible period returns to get the active difference in percentage points. Relative wealth growth instead divides their growth factors and subtracts one. A 6% versus 5% result is +1 percentage point active return but approximately +0.9524% relative wealth, so the label and denominator matter.",
+      "Subtraia retornos compatíveis do período para obter diferença ativa em pontos percentuais. Crescimento relativo de riqueza divide os fatores de crescimento e subtrai um. Um resultado de 6% contra 5% é +1 ponto percentual ativo, mas cerca de +0.9524% de riqueza relativa; rótulo e denominador importam."
+    ],
+    "blocks": [
+      "EIP-5.5-01-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A multi-asset portfolio beats a conservative benchmark during an equity rally. Why is the return difference not automatically proof of alpha or skill?",
+      "Uma carteira de vários ativos supera referência conservadora durante alta das ações. Por que a diferença não prova automaticamente alfa ou habilidade?"
+    ],
+    "options": [
+      [
+        "More equity exposure can explain outperformance; model-relative alpha requires an appropriate exposure comparison.",
+        "Exposição maior a ações pode explicar o resultado; alfa relativo a modelo exige comparação apropriada de exposição."
+      ],
+      [
+        "Every positive active return is alpha by definition under every model.",
+        "Todo retorno ativo positivo é alfa por definição em qualquer modelo."
+      ],
+      [
+        "Costs and benchmark conventions are irrelevant after a gain.",
+        "Custos e convenções de referência são irrelevantes após ganho."
+      ],
+      [
+        "A higher raw return proves the client’s bill was funded on time.",
+        "Retorno bruto maior prova que a conta do cliente foi financiada a tempo."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Allocation, currency, selection and costs can all create a return gap. Alpha has a specified model meaning after accounting for relevant exposures; raw active return alone does not isolate it. A fair review needs compatible bases and mandate context, while goal funding remains a separate question.",
+      "Alocação, moeda, seleção e custos podem criar diferença de retorno. Alfa tem significado de modelo especificado após considerar exposições relevantes; retorno ativo bruto isolado não o identifica. Uma revisão justa exige bases compatíveis e contexto de mandato, enquanto financiar a meta permanece outra questão."
+    ],
+    "blocks": [
+      "EIP-5.5-01-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "€100,000 earns €8,000 before a €1,500 total charge, no flows or tax. Comparable benchmark return is 7%. What net return and active gap follow?",
+      "€100,000 ganham €8,000 antes de cobrança total de €1,500, sem fluxos ou impostos. O retorno comparável da referência é 7%. Quais retorno líquido e diferença ativa decorrem?"
+    ],
+    "options": [
+      [
+        "8%; +1 percentage point",
+        "8%; +1 ponto percentual"
+      ],
+      [
+        "5%; −2 percentage points, deducting the fee twice",
+        "5%; −2 pontos percentuais, deduzindo a tarifa duas vezes"
+      ],
+      [
+        "6.5%; +0.5 percentage point, reversing the gap",
+        "6.5%; +0.5 ponto percentual, invertendo a diferença"
+      ],
+      [
+        "6.5%; −0.5 percentage point",
+        "6.5%; −0.5 ponto percentual"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Net profit is 8,000 − 1,500 = €6,500, return 6.5%. Subtract 7% benchmark for −0.5 percentage point, a €500 wealth shortfall. The gross +1-point advantage omitted charges; deducting costs again from the already net result double counts. Explain the exact cost bridge instead of choosing whichever presentation looks better.",
+      "O lucro líquido é 8,000 − 1,500 = €6,500, retorno de 6.5%. Subtraia a referência de 7% para −0.5 ponto percentual, insuficiência patrimonial de €500. A vantagem bruta de +1 ponto omitiu encargos; deduzir custos novamente do resultado já líquido duplica a contagem. Explique a conciliação exata, em vez de escolher a apresentação mais favorável."
+    ],
+    "blocks": [
+      "EIP-5.5-01-B07"
+    ],
+    "calculation": {
+      "method": "net_active",
+      "inputs": [
+        100000,
+        8000,
+        1500,
+        0.07
+      ],
+      "expected": [
+        0.065,
+        -0.005,
+        -500
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "No-flow portfolio returns are +10% then −10%; benchmark returns +5% then 0%, all compatible. What cumulative active difference and linked relative wealth return follow over the two years?",
+      "Os retornos sem fluxos da carteira são +10% depois −10%; os da referência +5% depois 0%, todos compatíveis. Quais diferença ativa acumulada e retorno relativo encadeado de riqueza decorrem nos dois anos?"
+    ],
+    "options": [
+      [
+        "−5 percentage points; approximately −4.7619%, adding period active differences",
+        "−5 pontos percentuais; aproximadamente −4.7619%, somando diferenças ativas dos períodos"
+      ],
+      [
+        "−6 percentage points; approximately −5.7143%, comparing compounded growth factors",
+        "−6 pontos percentuais; aproximadamente −5.7143%, comparando fatores compostos"
+      ],
+      [
+        "−6 percentage points; exactly −6%, treating subtraction and relative wealth as identical",
+        "−6 pontos percentuais; exatamente −6%, tratando subtração e riqueza relativa como idênticas"
+      ],
+      [
+        "+6 percentage points; approximately +6.0606%, reversing which portfolio is evaluated",
+        "+6 pontos percentuais; aproximadamente +6.0606%, invertendo a carteira avaliada"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Portfolio factor is 1.10 × 0.90 = 0.99, a −1% cumulative return. Benchmark factor is 1.05, a +5% return. Difference is −6 percentage points; relative wealth is 0.99/1.05 − 1 ≈ −5.7143%. Adding +5 and −10 period points gives −5, the wrong cumulative measure. The inverse comparison answers a different question.",
+      "O fator da carteira é 1.10 × 0.90 = 0.99, retorno acumulado de −1%. O fator da referência é 1.05, retorno de +5%. A diferença é −6 pontos percentuais; a riqueza relativa é 0.99/1.05 − 1 ≈ −5.7143%. Somar +5 e −10 pontos dos períodos dá −5, a medida acumulada errada. A comparação inversa responde a outra pergunta."
+    ],
+    "blocks": [
+      "EIP-5.5-01-B04"
+    ],
+    "calculation": {
+      "method": "cumulative_active",
+      "inputs": [
+        0.1,
+        -0.1,
+        0.05,
+        0
+      ],
+      "expected": [
+        -0.06,
+        -0.05714285714285716
+      ]
+    }
+  }
+]

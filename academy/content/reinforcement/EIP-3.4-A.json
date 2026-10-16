@@ -1,0 +1,208 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A conventional bondholder is principally a ______ of the issuer.",
+      "O detentor de um título de dívida convencional é principalmente um ______ do emissor."
+    ],
+    "options": [
+      [
+        "shareholder",
+        "acionista"
+      ],
+      [
+        "residual owner",
+        "proprietário residual"
+      ],
+      [
+        "equity partner",
+        "sócio de capital"
+      ],
+      [
+        "creditor",
+        "credor"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The bond creates contractual debt obligations from issuer to holder. Holding it does not by itself confer shareholder ownership. Its maturity, ranking and security depend on the terms; collateral can support a claim but does not guarantee recovery.",
+      "O título cria obrigações contratuais de dívida do emissor perante o detentor. Possuí-lo não confere, por si só, propriedade de acionista. Vencimento, prioridade e garantias dependem das condições; a garantia pode respaldar o direito, mas não garante recuperação."
+    ],
+    "blocks": [
+      "BOND-T4"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A €1,000 nominal bond has a fixed 4% annual coupon. Buying it for €960 leaves the annual contractual coupon at ______.",
+      "Um título com nominal de €1,000 tem cupom anual fixo de 4%. Comprá-lo por €960 mantém o cupom contratual anual em ______."
+    ],
+    "options": [
+      [
+        "€38.40",
+        "€38.40"
+      ],
+      [
+        "€40",
+        "€40"
+      ],
+      [
+        "€400",
+        "€400"
+      ],
+      [
+        "€41.67",
+        "€41.67"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The contract applies 4% to €1,000 nominal, producing €40. Secondary price changes do not change that base. Applying 4% to €960 calculates €38.40 on the wrong amount; the investor’s yield must instead account for the actual purchase price and complete cash-flow timeline.",
+      "O contrato aplica 4% ao nominal de €1,000, produzindo €40. Mudanças de preço secundário não mudam essa base. Aplicar 4% a €960 calcula €38.40 sobre o valor errado; o rendimento do investidor deve considerar o preço efetivo e toda a linha temporal de fluxos."
+    ],
+    "blocks": [
+      "BOND-T1"
+    ]
+  },
+  {
+    "type": "matching",
+    "prompt": [
+      "Match the yield measure to the question it answers.",
+      "Associe a medida de rendimento à pergunta que ela responde."
+    ],
+    "concepts": [
+      [
+        "Coupon rate",
+        "Taxa de cupom"
+      ],
+      [
+        "Current yield",
+        "Rendimento corrente"
+      ],
+      [
+        "Yield to maturity",
+        "Rendimento até o vencimento"
+      ]
+    ],
+    "definitions": [
+      [
+        "Which discount rate equates full price with promised dated payments?",
+        "Qual taxa de desconto iguala o preço integral aos pagamentos prometidos e datados?"
+      ],
+      [
+        "What annual coupon is paid relative to nominal?",
+        "Qual cupom anual é pago em relação ao nominal?"
+      ],
+      [
+        "What annual coupon is paid relative to today’s price?",
+        "Qual cupom anual é pago em relação ao preço de hoje?"
+      ]
+    ],
+    "answer": [
+      1,
+      2,
+      0
+    ],
+    "explanation": [
+      "Coupon rate uses nominal; current yield uses price but omits redemption gain/loss and payment timing; YTM discounts the complete promised timeline to full price. YTM can be computed without guaranteeing that payments occur. Its terminal-wealth interpretation also requires the stated reinvestment assumptions for interim coupons.",
+      "A taxa de cupom usa o nominal; o rendimento corrente usa o preço, mas omite ganho ou perda no resgate e o tempo dos pagamentos; o rendimento até o vencimento desconta toda a linha prometida ao preço integral. Ele pode ser calculado sem garantir que os pagamentos ocorram. Sua interpretação como riqueza terminal também exige as hipóteses de reinvestimento dos cupons intermediários."
+    ],
+    "blocks": [
+      "BOND-T2"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €1,000 bond pays €40 after one year and €1,040 after two. At 5% effective annual yield, no accrual, fees, tax or default, what price is consistent?",
+      "Um título de €1,000 paga €40 após um ano e €1,040 após dois. A uma taxa efetiva anual de 5%, sem juros acumulados, tarifas, impostos ou inadimplência, qual preço é consistente?"
+    ],
+    "options": [
+      [
+        "Approximately €981.41, below par",
+        "Aproximadamente €981.41, abaixo do par"
+      ],
+      [
+        "€1,000, because all fixed coupons imply par",
+        "€1,000, pois todo cupom fixo implica par"
+      ],
+      [
+        "Approximately €945.12, omitting the final coupon",
+        "Aproximadamente €945.12, omitindo o cupom final"
+      ],
+      [
+        "€1,080, adding receipts without discounting",
+        "€1,080, somando recebimentos sem desconto"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Price is 40/1.05 + 1,040/1.05² = €981.405896, or €981.41. Required yield exceeds the coupon rate, so price is below par. The final coupon belongs with redemption; omitting it gives about €945.12. €1,080 is the nominal total at different dates. A fixed coupon alone does not imply a par market price.",
+      "O preço é 40/1.05 + 1,040/1.05² = €981.405896, ou €981.41. A taxa exigida supera a taxa de cupom, portanto o preço fica abaixo do par. O cupom final acompanha o resgate; omiti-lo dá cerca de €945.12. €1,080 é o total nominal em datas diferentes. Um cupom fixo isolado não implica preço de mercado ao par."
+    ],
+    "blocks": [
+      "BOND-E1"
+    ],
+    "calculation": {
+      "method": "two_present_values",
+      "inputs": [
+        40,
+        1,
+        1040,
+        2,
+        0.05
+      ],
+      "expected": 981.4058956916099
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A two-year zero-coupon bond initially yields 5%. Yield rises to 5.5%. Using modified duration, what is the approximate percentage price change, and how should it be interpreted?",
+      "Um título de cupom zero de dois anos rende inicialmente 5%. A taxa sobe para 5.5%. Usando duration modificada, qual é a variação percentual aproximada de preço e como deve ser interpretada?"
+    ],
+    "options": [
+      [
+        "−1%, exact because maturity is two years",
+        "−1%, exata porque o vencimento é de dois anos"
+      ],
+      [
+        "−95.2381%, because the yield change is 0.5",
+        "−95.2381%, pois a variação da taxa é 0.5"
+      ],
+      [
+        "About −0.952381%, a local estimate; exact repricing differs slightly",
+        "Cerca de −0.952381%, uma estimativa local; a reavaliação exata difere um pouco"
+      ],
+      [
+        "+0.952381%, because a higher yield adds value to fixed payments",
+        "+0.952381%, pois uma taxa maior acrescenta valor aos pagamentos fixos"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Macaulay duration is 2, modified duration 2/1.05 = 1.904762. A 50-basis-point change is 0.005, so −1.904762 × 0.005 ≈ −0.952381%. Using 0.5 creates a hundredfold error. The exact price changes from €907.029478 to €898.452416; curvature explains the small difference from the duration estimate. This sensitivity says nothing about default probability or available liquidity.",
+      "A duration de Macaulay é 2; a modificada é 2/1.05 = 1.904762. Uma mudança de 50 pontos-base é 0.005, portanto −1.904762 × 0.005 ≈ −0.952381%. Usar 0.5 cria um erro de cem vezes. O preço exato passa de €907.029478 para €898.452416; a curvatura explica a pequena diferença em relação à estimativa. Essa sensibilidade não informa a probabilidade de inadimplência ou a liquidez disponível."
+    ],
+    "blocks": [
+      "BOND-E2",
+      "BOND-T3"
+    ],
+    "calculation": {
+      "method": "zero_duration",
+      "inputs": [
+        1000,
+        2,
+        0.05,
+        0.055
+      ],
+      "expected": [
+        1.9047619047619047,
+        -0.009523809523809523,
+        907.0294784580499,
+        898.4524157139329
+      ]
+    }
+  }
+]

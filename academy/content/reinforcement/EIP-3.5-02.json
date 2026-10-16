@@ -1,0 +1,191 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "The price/earnings ratio divides price per share by ______.",
+      "A relação preço/lucro divide o preço por ação por ______."
+    ],
+    "options": [
+      [
+        "total earnings without scaling by the share count",
+        "lucro total sem ajustar pela quantidade de ações"
+      ],
+      [
+        "the latest dividend alone",
+        "apenas o dividendo mais recente"
+      ],
+      [
+        "earnings per share",
+        "lucro por ação"
+      ],
+      [
+        "accounting equity per share",
+        "patrimônio contábil por ação"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "P/E uses price per share and compatible earnings per share. Earnings period, quality and share-count assumptions matter. A ratio based on trailing reported earnings cannot be compared uncritically with one using adjusted forward earnings. The multiple summarises inputs rather than proving an investment is cheap.",
+      "P/L usa preço por ação e lucro por ação compatível. Período do lucro, qualidade e hipóteses de quantidade de ações importam. Uma relação baseada em lucro reportado passado não pode ser comparada sem crítica com outra que usa lucro futuro ajustado. O múltiplo resume dados, em vez de provar que o investimento é barato."
+    ],
+    "blocks": [
+      "EIP-3.5-02-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "In the constant-growth dividend model D1/(r − g), what is D1?",
+      "No modelo de dividendos de crescimento constante D1/(r − g), o que é D1?"
+    ],
+    "options": [
+      [
+        "The next expected dividend",
+        "O próximo dividendo esperado"
+      ],
+      [
+        "Always the dividend just paid without adjustment",
+        "Sempre o dividendo recém-pago sem ajuste"
+      ],
+      [
+        "The terminal sale price alone",
+        "Apenas o preço terminal de venda"
+      ],
+      [
+        "The last dividend multiplied by the required return instead of the growth factor",
+        "O último dividendo multiplicado pelo retorno exigido em vez do fator de crescimento"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "D1 is the next-period expected distribution. If the last dividend is D0 and immediate growth g is assumed, D1 = D0 × (1+g). The formula also requires r > g and coherent perpetual-growth assumptions. Required return is compensation demanded for risk, not a promised credited rate.",
+      "D1 é a distribuição esperada no próximo período. Se o último dividendo é D0 e se supõe crescimento imediato g, D1 = D0 × (1+g). A fórmula também exige r > g e hipóteses coerentes de crescimento perpétuo. O retorno exigido é compensação demandada pelo risco, não uma taxa creditada prometida."
+    ],
+    "blocks": [
+      "EIP-3.5-02-B04"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A €42 base valuation faces a plausible €35 sensitivity estimate while market price is €40. Which conclusion is justified?",
+      "Uma avaliação-base de €42 enfrenta estimativa plausível de sensibilidade de €35, enquanto o preço de mercado é €40. Qual conclusão é justificada?"
+    ],
+    "options": [
+      [
+        "The €42 estimate guarantees a profitable sale.",
+        "A estimativa de €42 garante uma venda lucrativa."
+      ],
+      [
+        "The company has no value because estimates differ.",
+        "A empresa não tem valor porque as estimativas divergem."
+      ],
+      [
+        "The average of inconsistent models is automatically reliable.",
+        "A média de modelos inconsistentes é automaticamente confiável."
+      ],
+      [
+        "The apparent €2 margin depends on assumptions and does not prove a safe bargain.",
+        "A aparente margem de €2 depende das hipóteses e não prova uma pechincha segura."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "A small gap between price and a conditional base estimate can disappear under a plausible input change. The €35 case is below market price, so sensitivity belongs in the conclusion. Neither the base estimate nor an arbitrary average creates certainty. Business quality, valuation and suitability remain separate assessments.",
+      "Uma pequena diferença entre o preço e uma estimativa-base condicional pode desaparecer com uma mudança plausível de dado. O caso de €35 fica abaixo do mercado, portanto a sensibilidade deve constar da conclusão. Nem a estimativa-base nem uma média arbitrária cria certeza. Qualidade do negócio, avaliação e adequação continuam sendo análises separadas."
+    ],
+    "blocks": [
+      "EIP-3.5-02-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "The next dividend is €2.10, perpetual growth 3% and required return initially 8%, then 9%. What conditional values result?",
+      "O próximo dividendo é €2.10, o crescimento perpétuo 3% e o retorno exigido inicialmente 8%, depois 9%. Quais valores condicionais resultam?"
+    ],
+    "options": [
+      [
+        "€26.25 then €23.33",
+        "€26.25 depois €23.33"
+      ],
+      [
+        "€42 then €35",
+        "€42 depois €35"
+      ],
+      [
+        "€42 then €52.50",
+        "€42 depois €52.50"
+      ],
+      [
+        "€70 then €70",
+        "€70 depois €70"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Use the rate difference in decimals: 2.10/(0.08 − 0.03) = €42, then 2.10/(0.09 − 0.03) = €35. Dividing by the required return alone ignores growth; €52.50 instead corresponds to higher growth of 4% at 8%. The fall is a model sensitivity, not a guaranteed future market move.",
+      "Use a diferença de taxas em decimais: 2.10/(0.08 − 0.03) = €42, depois 2.10/(0.09 − 0.03) = €35. Dividir apenas pelo retorno exigido ignora o crescimento; €52.50 corresponde a crescimento maior de 4% a 8%. A queda é sensibilidade do modelo, não uma mudança futura de mercado garantida."
+    ],
+    "blocks": [
+      "EIP-3.5-02-B05"
+    ],
+    "calculation": {
+      "method": "gordon_pair",
+      "inputs": [
+        2.1,
+        0.08,
+        0.09,
+        0.03
+      ],
+      "expected": [
+        42,
+        35
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Reported earnings €12 million include a non-recurring €4 million gain. Base shares are 4 million, with another 0.4 million assumed for the diluted forecast. Using adjusted forecast EPS and a stipulated comparable multiple of 15, what indication results?",
+      "Lucro reportado de €12 milhões inclui ganho não recorrente de €4 milhões. Há 4 milhões de ações-base, mais 0.4 milhão suposto na previsão diluída. Usando lucro por ação ajustado previsto e múltiplo comparável estipulado de 15, qual indicação resulta?"
+    ],
+    "options": [
+      [
+        "€45, using reported EPS",
+        "€45, usando lucro por ação reportado"
+      ],
+      [
+        "€30, adjusting earnings but ignoring dilution",
+        "€30, ajustando o lucro, mas ignorando a diluição"
+      ],
+      [
+        "Approximately €27.27, with comparability and adjustments still needing verification",
+        "Aproximadamente €27.27, com comparabilidade e ajustes ainda sujeitos a verificação"
+      ],
+      [
+        "Approximately €40.91, diluting reported earnings without adjustment",
+        "Aproximadamente €40.91, diluindo o lucro reportado sem ajuste"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Adjusted earnings are 12 − 4 = €8 million; diluted shares 4 + 0.4 = 4.4 million. EPS is 8/4.4 ≈ €1.8182 and the indicated value 15 × 8/4.4 ≈ €27.27. €45 ignores both issues; €30 ignores dilution; €40.91 retains the one-off gain. This is conditional multiple arithmetic, not proof that the peer or adjustment is valid or that the value is guaranteed.",
+      "O lucro ajustado é 12 − 4 = €8 milhões; as ações diluídas são 4 + 0.4 = 4.4 milhões. O lucro por ação é 8/4.4 ≈ €1.8182 e o valor indicado 15 × 8/4.4 ≈ €27.27. €45 ignora ambos os pontos; €30 ignora a diluição; €40.91 mantém o ganho não recorrente. Esta é aritmética condicional de múltiplos, não prova de validade do comparável ou ajuste nem garantia do valor."
+    ],
+    "blocks": [
+      "EIP-3.5-02-B03"
+    ],
+    "calculation": {
+      "method": "adjusted_multiple",
+      "inputs": [
+        12,
+        4,
+        4,
+        0.4,
+        15
+      ],
+      "expected": 27.272727272727273
+    }
+  }
+]

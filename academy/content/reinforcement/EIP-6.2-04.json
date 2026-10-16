@@ -1,0 +1,167 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "For one full-year eligible person in 2026, the €4,500 retirement deduction ceiling is ______.",
+      "Para uma pessoa elegível durante todo o ano em 2026, o teto de dedução previdenciária de €4,500 é ______."
+    ],
+    "options": [
+      [
+        "a separate allowance at every provider",
+        "uma franquia separada em cada instituição"
+      ],
+      [
+        "the limit for ordinary insurance and debit interest combined",
+        "o limite conjunto de seguros comuns e juros devedores"
+      ],
+      [
+        "combined across the relevant Article 111bis/111ter contracts",
+        "conjunto para os contratos pertinentes dos artigos 111bis/111ter"
+      ],
+      [
+        "an automatic refundable tax credit",
+        "um crédito tributário reembolsável automático"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The current-law ceiling is combined per eligible person across the relevant individual retirement arrangements. Provider count does not multiply it. Ordinary insurance and specified debit interest have a different framework. This is a deduction from the tax base, and actual relief depends on eligibility and assessment.",
+      "O teto legal vigente é conjunto por pessoa elegível para os regimes individuais pertinentes. A quantidade de instituições não o multiplica. Seguros comuns e certos juros devedores têm regime diferente. É uma dedução da base, com benefício efetivo dependente da elegibilidade e apuração."
+    ],
+    "blocks": [
+      "EIP-6.2-04-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Ordinary access under the taught Article 111bis framework requires ______.",
+      "O acesso normal no regime ensinado do artigo 111bis exige ______."
+    ],
+    "options": [
+      [
+        "only a certificate showing a prior deduction",
+        "apenas certificado de dedução anterior"
+      ],
+      [
+        "any personal need for cash after contributions begin",
+        "qualquer necessidade pessoal de caixa após começarem contribuições"
+      ],
+      [
+        "the provider’s agreement regardless of age and duration",
+        "concordância da instituição independentemente de idade e prazo"
+      ],
+      [
+        "at least ten years and the applicable retirement-age conditions",
+        "pelo menos dez anos e as condições de idade previdenciária aplicáveis"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Ordinary repayment combines a minimum duration with age conditions; limited exceptional branches need their own evidence and tax analysis. A home purchase or preference for liquidity is not automatically an exception. A provider processing a request does not by itself establish the expected tax treatment.",
+      "O pagamento normal combina prazo mínimo com condições de idade; exceções limitadas exigem provas e análise tributária próprias. Compra de imóvel ou preferência por liquidez não é exceção automática. Processar um pedido não estabelece, por si só, o tratamento tributário esperado."
+    ],
+    "blocks": [
+      "EIP-6.2-04-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which statement distinguishes the two retirement payout mechanisms taught?",
+      "Qual afirmação distingue os dois mecanismos ensinados de pagamento previdenciário?"
+    ],
+    "options": [
+      [
+        "Eligible capital may use a half-global-rate branch; qualifying monthly life annuity has a specific half-base exemption.",
+        "Capital elegível pode usar o regime de metade da taxa global; renda vitalícia mensal elegível tem isenção específica de metade da base."
+      ],
+      [
+        "Both mechanisms establish a universal flat 15% tax for every pension.",
+        "Ambos estabelecem imposto fixo universal de 15% para toda pensão."
+      ],
+      [
+        "The ordinary insurance capital exemption applies to every retirement payment.",
+        "A isenção de capital de seguro comum aplica-se a todo pagamento previdenciário."
+      ],
+      [
+        "Half the annuity is exempt, so the entire capital payout is necessarily exempt.",
+        "Metade da renda é isenta, portanto todo capital pago necessariamente é isento."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "A rate reduction on a capital base and an exemption of part of an annuity base are legally different. Actual capital global-rate treatment depends on classification and assessment. Retirement arrangements are excluded from the ordinary life-policy capital exemption. Similar arithmetic under stipulated rates does not make the legal routes interchangeable or establish a universal tax percentage.",
+      "Redução de taxa sobre base de capital e isenção de parte da base de renda são juridicamente distintas. O tratamento pela taxa global depende da classificação e apuração. Regimes previdenciários estão excluídos da isenção de capital de seguro comum. Aritmética semelhante com taxas estipuladas não torna os regimes intercambiáveis nem estabelece percentual tributário universal."
+    ],
+    "blocks": [
+      "EIP-6.2-04-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An eligible resident proposes €3,000 under Article 111bis and €2,500 under Article 111ter in 2026. With a fully usable €4,500 combined ceiling and an assumed 30% marginal rate, which result follows?",
+      "Um residente elegível propõe €3,000 no artigo 111bis e €2,500 no artigo 111ter em 2026. Com teto conjunto plenamente utilizável de €4,500 e alíquota marginal hipotética de 30%, qual resultado decorre?"
+    ],
+    "options": [
+      [
+        "€5,500 deductible and €1,650 tax saving",
+        "€5,500 dedutíveis e €1,650 de economia"
+      ],
+      [
+        "€4,500 deductible and €1,350 simplified tax saving; verify admissibility of the €1,000 excess.",
+        "€4,500 dedutíveis e €1,350 de economia simplificada; verificar admissibilidade dos €1,000 excedentes."
+      ],
+      [
+        "€9,000 deductible because there are two articles",
+        "€9,000 dedutíveis porque existem dois artigos"
+      ],
+      [
+        "€4,500 refunded regardless of taxable income",
+        "€4,500 reembolsados independentemente da renda tributável"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Proposed payments total €5,500, exceeding the combined €4,500 ceiling by €1,000. Simplified tax relief is 4,500 × 30% = €1,350, not a €4,500 refund. Two contracts do not create two ceilings. The restricted product contribution rules must be checked before assuming the excess can remain as ordinary non-deductible saving within the same arrangement.",
+      "Os pagamentos propostos somam €5,500, excedendo o teto conjunto de €4,500 em €1,000. O benefício simplificado é 4,500 × 30% = €1,350, não reembolso de €4,500. Dois contratos não criam dois tetos. As regras restritas de contribuição precisam ser verificadas antes de presumir que o excesso pode ficar como poupança comum não dedutível no mesmo regime."
+    ],
+    "blocks": [
+      "EIP-6.2-04-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An ordinary premature repayment is classified under the taught Article 99(5) branch: €18,000 contributions, €20,000 repayment, whole repayment taxable. At a stipulated 30% attributable rate, what tax and cash before other charges follow?",
+      "Um pagamento antecipado comum é classificado no regime ensinado do artigo 99(5): contribuições de €18,000, pagamento de €20,000 e todo o pagamento tributável. À taxa atribuível estipulada de 30%, quais imposto e caixa antes de outros encargos decorrem?"
+    ],
+    "options": [
+      [
+        "€600 tax and €19,400 cash, taxing only the gain",
+        "€600 de imposto e €19,400 de caixa, tributando apenas o ganho"
+      ],
+      [
+        "€3,000 tax and €17,000 cash, using half the stated rate",
+        "€3,000 de imposto e €17,000 de caixa, usando metade da taxa"
+      ],
+      [
+        "€6,000 tax and €14,000 cash, with legal availability and exceptions assessed separately",
+        "€6,000 de imposto e €14,000 de caixa, com disponibilidade jurídica e exceções avaliadas separadamente"
+      ],
+      [
+        "No income tax because the insurer pays capital",
+        "Sem imposto de renda porque a seguradora paga capital"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Under the stipulated classification, 20,000 × 30% = €6,000, leaving €14,000. Taxing only the €2,000 gain gives €600 and understates this example’s tax by €5,400. The half-global-rate branch cannot be imported without its conditions, and ordinary capital exemption does not cover this retirement arrangement. Serious illness or disability can change classification, but is not assumed here and is not automatically tax-free.",
+      "Na classificação estipulada, 20,000 × 30% = €6,000, restando €14,000. Tributar apenas o ganho de €2,000 dá €600 e subestima o imposto deste exemplo em €5,400. O regime de metade da taxa global não pode ser importado sem suas condições, e a isenção comum de capital não cobre este regime previdenciário. Doença grave ou invalidez pode mudar a classificação, mas não foi presumida aqui nem é automaticamente isenta."
+    ],
+    "blocks": [
+      "EIP-6.2-04-B07"
+    ]
+  }
+]

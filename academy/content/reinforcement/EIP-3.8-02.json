@@ -1,0 +1,207 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "NAV per unit equals the relevant ______ divided by matching units outstanding.",
+      "O valor patrimonial por cota equivale ao ______ relevante dividido pelas cotas correspondentes em circulação."
+    ],
+    "options": [
+      [
+        "gross assets before accrued liabilities",
+        "ativo bruto antes dos passivos acumulados"
+      ],
+      [
+        "portfolio market gain alone",
+        "ganho de mercado da carteira apenas"
+      ],
+      [
+        "net assets after liabilities",
+        "patrimônio líquido após passivos"
+      ],
+      [
+        "investor subscriptions without existing assets",
+        "valor das subscrições sem os ativos existentes"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Net assets deduct liabilities, including accrued expenses, before division by the consistent unit count and valuation point. Ignoring an unpaid accrued fee still overstates NAV. A high denomination per unit does not itself make one fund more richly valued than another.",
+      "O patrimônio líquido deduz passivos, incluindo despesas acumuladas, antes de dividir pela quantidade consistente de cotas na mesma avaliação. Ignorar uma tarifa acumulada ainda não paga também superestima a cota. Uma denominação alta por cota não torna, por si só, um fundo mais caro em termos de avaliação que outro."
+    ],
+    "blocks": [
+      "EIP-3.8-02-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Under a stated forward-pricing arrangement, which price generally applies to a valid order before its cut-off?",
+      "Sob um arranjo informado de precificação futura, qual preço geralmente se aplica a uma ordem válida antes do horário-limite?"
+    ],
+    "options": [
+      [
+        "Yesterday’s published NAV, guaranteed at order entry",
+        "A cota publicada ontem, garantida na entrada da ordem"
+      ],
+      [
+        "A later calculated dealing price under the fund’s terms",
+        "Um preço de negociação calculado depois conforme as condições do fundo"
+      ],
+      [
+        "The price chosen by the investor after the next NAV is known",
+        "O preço escolhido pelo investidor depois de conhecida a próxima cota"
+      ],
+      [
+        "A fixed midpoint between the previous and next NAV",
+        "Um ponto médio fixo entre a cota anterior e a próxima"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Forward pricing uses the specified later pricing point, so submitting an order is not a guarantee of yesterday’s NAV. Cut-off, valuation and settlement are different stages. Daily dealing does not automatically mean the price is known in advance or cash arrives immediately.",
+      "A precificação futura usa o ponto posterior especificado, portanto enviar uma ordem não garante a cota de ontem. Horário-limite, avaliação e liquidação são etapas diferentes. Negociação diária não significa automaticamente preço conhecido antecipadamente ou dinheiro recebido imediatamente."
+    ],
+    "blocks": [
+      "EIP-3.8-02-B02"
+    ]
+  },
+  {
+    "type": "matching",
+    "prompt": [
+      "Match each dealing mechanism to its distinct action.",
+      "Associe cada mecanismo de negociação à sua ação distinta."
+    ],
+    "concepts": [
+      [
+        "Subscription",
+        "Subscrição"
+      ],
+      [
+        "Redemption",
+        "Resgate"
+      ],
+      [
+        "Swing pricing",
+        "Swing pricing"
+      ]
+    ],
+    "definitions": [
+      [
+        "Adjusts the dealing NAV under the policy to address dealing effects",
+        "Ajusta a cota de negociação conforme a política para lidar com efeitos das transações"
+      ],
+      [
+        "Creates units in exchange for capital",
+        "Cria cotas em troca de capital"
+      ],
+      [
+        "Cancels units in exchange for payment under the terms",
+        "Cancela cotas em troca de pagamento conforme as condições"
+      ]
+    ],
+    "answer": [
+      1,
+      2,
+      0
+    ],
+    "explanation": [
+      "Subscriptions add capital and create units; redemptions pay and cancel units. Swing pricing changes the dealing NAV under stated circumstances to address transaction effects. It is distinct from a distribution and does not guarantee immediate liquidity. Order, pricing and payment dates remain governed by the fund’s terms.",
+      "Subscrições acrescentam capital e criam cotas; resgates pagam e cancelam cotas. O swing pricing muda a cota de negociação em circunstâncias definidas para lidar com efeitos transacionais. É distinto de uma distribuição e não garante liquidez imediata. Datas da ordem, precificação e pagamento continuam regidas pelas condições do fundo."
+    ],
+    "blocks": [
+      "EIP-3.8-02-B01",
+      "EIP-3.8-02-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "250 units redeem at €104 NAV. An exit charge is 0.5% of gross value plus a separate €20 platform charge. Initial investment was €25,000 including acquisition costs; no distributions or tax. What cash and holding-period return result?",
+      "250 cotas são resgatadas a valor patrimonial de €104. A cobrança de saída é 0.5% do bruto mais tarifa separada de plataforma de €20. O investimento inicial foi €25,000 incluindo aquisição; sem distribuições ou impostos. Quais caixa e retorno do período resultam?"
+    ],
+    "options": [
+      [
+        "€25,850; 3.4%",
+        "€25,850; 3.4%"
+      ],
+      [
+        "€26,000; 4%",
+        "€26,000; 4%"
+      ],
+      [
+        "€25,870; 3.48%",
+        "€25,870; 3.48%"
+      ],
+      [
+        "€25,980; 3.92%",
+        "€25,980; 3.92%"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Gross redemption is 250 × 104 = €26,000. Exit charge is €130, then another €20 leaves €25,850. Profit €850 divided by €25,000 gives 3.4%. €25,870 omits the platform charge; €25,980 omits the exit charge; 4% is the NAV gain without investor charges. Payment timing still needs to meet the client’s deadline.",
+      "O resgate bruto é 250 × 104 = €26,000. A saída custa €130; outros €20 deixam €25,850. O lucro de €850 dividido por €25,000 dá 3.4%. €25,870 omite a plataforma; €25,980 omite a cobrança de saída; 4% é o ganho da cota sem encargos do investidor. O prazo de pagamento ainda precisa atender à data necessária ao cliente."
+    ],
+    "blocks": [
+      "EIP-3.8-02-B05"
+    ],
+    "calculation": {
+      "method": "fund_redemption_return",
+      "inputs": [
+        250,
+        104,
+        0.005,
+        20,
+        25000
+      ],
+      "expected": [
+        25850,
+        0.034
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "100 units initially worth €100 each distribute €2 per unit in cash. With no other movement, post-distribution unadjusted NAV is €98. Redemption then applies a stipulated 0.4% downward swing to that €98 and a separate €20 fee. Cash distributions are retained. What combined cash remains?",
+      "100 cotas inicialmente de €100 cada distribuem €2 por cota em dinheiro. Sem outro movimento, a cota não ajustada após a distribuição é €98. O resgate aplica então swing para baixo estipulado de 0.4% sobre esses €98 e tarifa separada de €20. As distribuições são guardadas. Qual caixa combinado resta?"
+    ],
+    "options": [
+      [
+        "€10,140.00, adding the distribution without reducing NAV",
+        "€10,140.00, somando a distribuição sem reduzir a cota"
+      ],
+      [
+        "€9,940.00, applying the swing to the old €100 base",
+        "€9,940.00, aplicando o swing à base anterior de €100"
+      ],
+      [
+        "€9,740.80, omitting the separate distribution",
+        "€9,740.80, omitindo a distribuição separada"
+      ],
+      [
+        "€9,940.80, reconciling distribution, swing and fee separately",
+        "€9,940.80, conciliando distribuição, swing e tarifa separadamente"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Adjusted dealing NAV is 98 × 0.996 = €97.608. Redemption cash is 100 × 97.608 − 20 = €9,740.80; add the €200 distribution for €9,940.80. The distribution transfers value rather than adding free return. A 0.4% swing applies to the specified post-distribution base, costing €39.20 rather than €40; the fee is another €20. These stipulated adjustments have distinct purposes.",
+      "A cota de negociação ajustada é 98 × 0.996 = €97.608. O caixa de resgate é 100 × 97.608 − 20 = €9,740.80; some a distribuição de €200 para €9,940.80. A distribuição transfere valor, em vez de acrescentar retorno grátis. O swing de 0.4% incide sobre a base pós-distribuição especificada, custando €39.20 em vez de €40; a tarifa é de outros €20. Esses ajustes estipulados têm finalidades distintas."
+    ],
+    "blocks": [
+      "EIP-3.8-02-B07"
+    ],
+    "calculation": {
+      "method": "distributed_swing",
+      "inputs": [
+        100,
+        100,
+        2,
+        0.004,
+        20
+      ],
+      "expected": 9940.8
+    }
+  }
+]

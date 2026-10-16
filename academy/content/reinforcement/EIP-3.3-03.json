@@ -1,0 +1,194 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "How does the simple discount bill in this lesson generate its price return?",
+      "Como o título de curto prazo com desconto simples desta aula gera seu retorno de preço?"
+    ],
+    "options": [
+      [
+        "Through an intermediate coupon, with purchase and redemption necessarily equal",
+        "Por um cupom intermediário, com compra e resgate necessariamente iguais"
+      ],
+      [
+        "By selling above purchase price before maturity, which is required for any bill return",
+        "Pela venda acima do preço de compra antes do vencimento, exigida para qualquer retorno do título"
+      ],
+      [
+        "By redeeming at face above the purchase price, if the issuer performs",
+        "Pelo resgate ao nominal acima do preço de compra, se o emissor cumprir"
+      ],
+      [
+        "By returning the purchase price without any difference",
+        "Pela devolução do preço de compra sem nenhuma diferença"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The model pays no intermediate coupon. Its gain is redemption face value minus purchase price. That difference can be positive or negative depending on price, and payment still depends on the issuer. Zero coupon describes cash-flow structure, not zero risk or a guaranteed positive return.",
+      "O modelo não paga cupom intermediário. Seu ganho é o valor nominal de resgate menos o preço de compra. A diferença pode ser positiva ou negativa conforme o preço, e o pagamento ainda depende do emissor. Cupom zero descreve a estrutura de fluxos, não risco zero ou retorno positivo garantido."
+    ],
+    "blocks": [
+      "EIP-3.3-03-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A bill’s holding-period investment return uses ______ as its denominator.",
+      "O retorno de investimento de um título no período de manutenção usa ______ como denominador."
+    ],
+    "options": [
+      [
+        "the price actually invested",
+        "o preço efetivamente investido"
+      ],
+      [
+        "face value regardless of price",
+        "o valor nominal independentemente do preço"
+      ],
+      [
+        "only the discount amount",
+        "apenas o valor do desconto"
+      ],
+      [
+        "the number of days alone",
+        "apenas o número de dias"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Investment return measures gain relative to the amount committed. A face-based discount quotation instead uses face value and is a different convention. Identical euro cash flows can therefore have different correctly labelled quoted rates, without any difference in the actual euro gain.",
+      "O retorno de investimento mede o ganho em relação ao valor comprometido. Uma cotação de desconto baseada no nominal usa o valor nominal e é outra convenção. Fluxos idênticos em euros podem, portanto, ter taxas cotadas diferentes e corretamente identificadas, sem diferença no ganho efetivo em euros."
+    ],
+    "blocks": [
+      "EIP-3.3-03-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "What does effectively annualising a 90-day bill’s growth factor assume for the equivalence calculation?",
+      "O que a anualização efetiva do fator de crescimento de um título de 90 dias supõe para o cálculo de equivalência?"
+    ],
+    "options": [
+      [
+        "The original issuer pays four redemptions on one bill.",
+        "O emissor original paga quatro resgates de um título."
+      ],
+      [
+        "Future reinvestment at the same rate is contractually guaranteed.",
+        "O reinvestimento futuro à mesma taxa é contratualmente garantido."
+      ],
+      [
+        "All dates can use either 360 or 365 without changing the reported rate.",
+        "Todas as datas podem usar 360 ou 365 sem mudar a taxa reportada."
+      ],
+      [
+        "The same period growth factor is repeated; that is a convention, not a guaranteed reinvestment strategy.",
+        "O mesmo fator do período é repetido; é uma convenção, não uma estratégia de reinvestimento garantida."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "An effective annual equivalent raises the period growth factor to the specified annualisation exponent. It compares growth conventions, but the original bill only promises its own redemption. Future prices and reinvestment rates may differ. A day-count change also changes the reported annual equivalent even when the original euro gain is unchanged.",
+      "Um equivalente anual efetivo eleva o fator do período ao expoente de anualização especificado. Ele compara convenções de crescimento, mas o título original promete apenas seu próprio resgate. Preços futuros e taxas de reinvestimento podem diferir. Mudar a base de dias também altera o equivalente anual reportado, mesmo com o ganho original em euros inalterado."
+    ],
+    "blocks": [
+      "EIP-3.3-03-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A bill costs €98,500 and redeems €100,000 in 180 days. No costs or tax. Which pair is the holding-period return and simple 360-day investment yield?",
+      "Um título custa €98,500 e resgata €100,000 em 180 dias. Sem custos ou impostos. Qual par corresponde ao retorno do período e à taxa simples de investimento na base 360?"
+    ],
+    "options": [
+      [
+        "1.5% and 3%",
+        "1.5% e 3%"
+      ],
+      [
+        "Approximately 1.522843% and 3.045685%",
+        "Aproximadamente 1.522843% e 3.045685%"
+      ],
+      [
+        "3.045685% and 1.522843%",
+        "3.045685% e 1.522843%"
+      ],
+      [
+        "Approximately 1.522843% and 3.087986%",
+        "Aproximadamente 1.522843% e 3.087986%"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The gain is €1,500. Divide by €98,500 for 1.522843%, then multiply by 360/180 for 3.045685%. Using face value gives discount-rate figures of 1.5% and 3%, not the requested investment yields. The 3.087986% alternative uses 365 days. Reversing the pair confuses period and annual rates.",
+      "O ganho é €1,500. Divida por €98,500 para obter 1.522843%, depois multiplique por 360/180 para 3.045685%. Usar o nominal dá taxas de desconto de 1.5% e 3%, não as taxas de investimento pedidas. A alternativa 3.087986% usa 365 dias. Inverter o par confunde taxas do período e anuais."
+    ],
+    "blocks": [
+      "EIP-3.3-03-B04"
+    ],
+    "calculation": {
+      "method": "bill_yield",
+      "inputs": [
+        100000,
+        98500,
+        180,
+        360
+      ],
+      "expected": [
+        0.015228426395939087,
+        0.030456852791878174
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A 90-day bill with €50,000 face is quoted at 4% face-based simple discount on 360 days. Purchase costs are €25. What initial outflow and net holding-period return follow?",
+      "Um título de 90 dias com nominal de €50,000 é cotado com desconto simples de 4% sobre o nominal na base 360. Os custos de compra são €25. Quais são o desembolso inicial e o retorno líquido do período?"
+    ],
+    "options": [
+      [
+        "€49,500; approximately 1.010101%",
+        "€49,500; aproximadamente 1.010101%"
+      ],
+      [
+        "€49,525; 1%",
+        "€49,525; 1%"
+      ],
+      [
+        "€49,525; approximately 0.959112%",
+        "€49,525; aproximadamente 0.959112%"
+      ],
+      [
+        "€50,025; approximately 4%",
+        "€50,025; aproximadamente 4%"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Discount is 50,000 × 0.04 × 90/360 = €500, so price is €49,500 and total outflow €49,525. Net gain is €475; return is 475/49,525 ≈ 0.959112%. The first alternative ignores costs; 1% uses the €500 gross discount on face. The annual discount quote is neither the period return nor the net investment return.",
+      "O desconto é 50,000 × 0.04 × 90/360 = €500, portanto o preço é €49,500 e o desembolso total €49,525. O ganho líquido é €475; o retorno é 475/49,525 ≈ 0.959112%. A primeira alternativa ignora custos; 1% usa o desconto bruto de €500 sobre o nominal. A cotação anual de desconto não é o retorno do período nem o retorno líquido do investimento."
+    ],
+    "blocks": [
+      "EIP-3.3-03-B05"
+    ],
+    "calculation": {
+      "method": "discount_bill_cost",
+      "inputs": [
+        50000,
+        0.04,
+        90,
+        360,
+        25
+      ],
+      "expected": [
+        49525,
+        0.009591115598182737
+      ]
+    }
+  }
+]

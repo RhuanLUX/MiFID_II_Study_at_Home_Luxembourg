@@ -1,0 +1,189 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which yield measure equates full price to the present value of the complete promised payment timeline?",
+      "Qual medida de rendimento iguala o preço integral ao valor presente de toda a linha temporal de pagamentos prometidos?"
+    ],
+    "options": [
+      [
+        "Coupon rate",
+        "Taxa de cupom"
+      ],
+      [
+        "Yield to maturity",
+        "Rendimento até o vencimento"
+      ],
+      [
+        "Current yield",
+        "Rendimento corrente"
+      ],
+      [
+        "Realised return using an unknown future sale price",
+        "Retorno realizado usando um preço futuro de venda desconhecido"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "YTM is the promised-cash-flow internal rate of return under the specified convention. Coupon rate and current yield use only coupon relative to nominal or price. Realised return depends on what actually occurs, including sales, costs and any missed payments.",
+      "O rendimento até o vencimento é a taxa interna de retorno dos fluxos prometidos sob a convenção especificada. Taxa de cupom e rendimento corrente usam apenas o cupom relativo ao nominal ou preço. O retorno realizado depende do que efetivamente ocorre, incluindo vendas, custos e pagamentos não efetuados."
+    ],
+    "blocks": [
+      "EIP-3.4-03-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "For a conventional positive-cash-flow bond, if a trial yield gives a model price above the observed price, try a ______ yield.",
+      "Para um título convencional de fluxos positivos, se uma taxa de tentativa dá preço de modelo acima do observado, tente uma taxa ______."
+    ],
+    "options": [
+      [
+        "lower",
+        "menor"
+      ],
+      [
+        "unchanged trial, adjusting only the quoted price",
+        "de tentativa inalterada, ajustando apenas o preço cotado"
+      ],
+      [
+        "higher",
+        "maior"
+      ],
+      [
+        "coupon rate regardless of the gap",
+        "igual ao cupom independentemente da diferença"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Raising the discount rate reduces present value of fixed positive payments. A model price that is too high therefore requires a higher trial yield. The search can bracket the answer and narrow it, then verify by substituting the candidate into the complete cash-flow equation.",
+      "Elevar a taxa de desconto reduz o valor presente de pagamentos positivos fixos. Um preço de modelo alto demais exige, portanto, uma taxa de tentativa maior. A busca pode delimitar e estreitar o intervalo, depois verificar substituindo a candidata na equação completa de fluxos."
+    ],
+    "blocks": [
+      "EIP-3.4-03-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A bond’s observed full price lies strictly between its model prices at 5% and 6%. What follows for its YTM under the stated conventional model?",
+      "O preço integral observado de um título fica estritamente entre os preços de modelo a 5% e 6%. O que decorre para seu rendimento até o vencimento no modelo convencional informado?"
+    ],
+    "options": [
+      [
+        "It equals the coupon regardless of price.",
+        "É igual ao cupom independentemente do preço."
+      ],
+      [
+        "It is exactly the linear midpoint without further calculation.",
+        "É exatamente o ponto médio linear sem cálculo adicional."
+      ],
+      [
+        "It must be below 5% because prices fall with yields.",
+        "Deve ser inferior a 5% porque os preços caem com as taxas."
+      ],
+      [
+        "It lies between 5% and 6%; verify a candidate in the full pricing equation.",
+        "Fica entre 5% e 6%; verifique uma candidata na equação completa de preço."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Monotonic decreasing price in yield places the root between the trial yields. Curvature means linear interpolation is only an approximation and the midpoint is not automatically exact. A yield below 5% would give a price above the 5% model value, contrary to the stated bracket. The coupon is not the solution merely because it is known.",
+      "O preço decrescente na taxa coloca a raiz entre as taxas de tentativa. A curvatura significa que a interpolação linear é apenas aproximada e o ponto médio não é automaticamente exato. Uma taxa abaixo de 5% daria preço acima do valor de modelo a 5%, contrariando o intervalo informado. O cupom não é a solução apenas por ser conhecido."
+    ],
+    "blocks": [
+      "EIP-3.4-03-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A one-year bond costs €970, plus a €10 purchase fee, and pays €1,040 once. No other costs, tax or default. What is the investor’s net-of-that-fee one-year return?",
+      "Um título de um ano custa €970, mais tarifa de compra de €10, e paga €1,040 uma vez. Sem outros custos, impostos ou inadimplência. Qual é o retorno anual do investidor líquido dessa tarifa?"
+    ],
+    "options": [
+      [
+        "Approximately 6.122449%",
+        "Aproximadamente 6.122449%"
+      ],
+      [
+        "Approximately 7.216495%",
+        "Aproximadamente 7.216495%"
+      ],
+      [
+        "Approximately 4.123711%",
+        "Aproximadamente 4.123711%"
+      ],
+      [
+        "Approximately 6.185567%",
+        "Aproximadamente 6.185567%"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Actual outflow is €980 and gain €60, so return is 60/980 ≈ 6.122449%. The 7.216495% figure excludes the fee; 4.123711% is current yield on the €40 coupon at the market price. Dividing the net €60 gain by €970 still omits the fee from capital invested. Identify the investor’s actual cash flows before naming the return.",
+      "O desembolso efetivo é €980 e o ganho €60, portanto o retorno é 60/980 ≈ 6.122449%. A taxa de 7.216495% exclui a tarifa; 4.123711% é o rendimento corrente do cupom de €40 sobre o preço de mercado. Dividir o ganho líquido de €60 por €970 ainda omite a tarifa do capital investido. Identifique os fluxos efetivos antes de nomear o retorno."
+    ],
+    "blocks": [
+      "EIP-3.4-03-B03"
+    ],
+    "calculation": {
+      "method": "one_payment_net",
+      "inputs": [
+        970,
+        10,
+        1040
+      ],
+      "expected": 0.061224489795918366
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A two-year bond bought at the exact 5% YTM price pays €40 in year 1 and €1,040 in year 2. The first coupon earns zero afterwards. What terminal wealth and annualised wealth rate result?",
+      "Um título de dois anos comprado pelo preço exato de rendimento até o vencimento de 5% paga €40 no ano 1 e €1,040 no ano 2. O primeiro cupom não rende depois. Quais são a riqueza terminal e sua taxa anualizada?"
+    ],
+    "options": [
+      [
+        "€1,082; 5%, because reinvestment is guaranteed",
+        "€1,082; 5%, pois o reinvestimento é garantido"
+      ],
+      [
+        "€1,080; 5%, because purchase YTM fixes every realised outcome",
+        "€1,080; 5%, pois o rendimento de compra fixa todo resultado realizado"
+      ],
+      [
+        "€1,080; approximately 4.9029%, while purchase YTM remains 5%",
+        "€1,080; aproximadamente 4.9029%, enquanto o rendimento de compra permanece 5%"
+      ],
+      [
+        "€1,040; approximately 2.94%, because the first coupon is ignored",
+        "€1,040; aproximadamente 2.94%, pois o primeiro cupom é ignorado"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The exact initial price is 40/1.05 + 1,040/1.05² ≈ €981.405896. Terminal cash is 40 + 1,040 = €1,080; annualised wealth growth is (1,080/P)^(1/2) − 1 ≈ 4.9029%. €1,082 assumes the first coupon earns 5%, contrary to the facts. YTM describes the promised dated payments; it does not guarantee reinvestment or every terminal-wealth outcome. Ignoring the first coupon also understates wealth.",
+      "O preço inicial exato é 40/1.05 + 1,040/1.05² ≈ €981.405896. O caixa terminal é 40 + 1,040 = €1,080; o crescimento anualizado é (1,080/P)^(1/2) − 1 ≈ 4.9029%. €1,082 supõe que o primeiro cupom rende 5%, contrariando os fatos. O rendimento até o vencimento descreve os pagamentos prometidos e datados; não garante reinvestimento nem todo resultado de riqueza terminal. Ignorar o primeiro cupom também subestima a riqueza."
+    ],
+    "blocks": [
+      "EIP-3.4-03-B06"
+    ],
+    "calculation": {
+      "method": "coupon_terminal",
+      "inputs": [
+        1000,
+        40,
+        0.05,
+        0
+      ],
+      "expected": [
+        1080,
+        0.04902912600598097
+      ]
+    }
+  }
+]

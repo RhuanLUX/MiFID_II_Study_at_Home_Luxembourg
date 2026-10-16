@@ -1,0 +1,194 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "GDP measures ______.",
+      "O PIB mede ______."
+    ],
+    "options": [
+      [
+        "the total wealth owned at one date",
+        "a riqueza total possuída em uma data"
+      ],
+      [
+        "production over a period",
+        "a produção durante um período"
+      ],
+      [
+        "only financial securities bought during a period",
+        "somente os valores mobiliários comprados durante um período"
+      ],
+      [
+        "the government’s outstanding debt at one date",
+        "a dívida pública em circulação em uma data"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "GDP is a period production measure. Wealth and outstanding debt are stocks measured at a date. Buying an existing share transfers a financial claim and is not automatically new productive investment in the GDP equation.",
+      "O PIB é uma medida de produção durante um período. Riqueza e dívida em circulação são estoques medidos em uma data. Comprar uma ação existente transfere um direito financeiro e não é automaticamente investimento produtivo novo na equação do PIB."
+    ],
+    "blocks": [
+      "EIP-1.2-01-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which pairing correctly identifies a policy tool and actor?",
+      "Qual par identifica corretamente ferramenta e agente de política?"
+    ],
+    "options": [
+      [
+        "A national government independently sets an ECB rate for its residents",
+        "Um governo nacional define independentemente uma taxa do BCE para seus residentes"
+      ],
+      [
+        "A government tax change is a central-bank monetary operation",
+        "Uma mudança governamental de impostos é uma operação monetária do banco central"
+      ],
+      [
+        "The ECB directly fixes every company’s bond yield",
+        "O BCE fixa diretamente o rendimento de títulos de toda empresa"
+      ],
+      [
+        "Government spending and taxes are fiscal tools; ECB policy rates are monetary tools",
+        "Gastos públicos e impostos são ferramentas fiscais; taxas de política do BCE são ferramentas monetárias"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Fiscal decisions act through spending, taxes and transfers. Monetary policy influences financing conditions for the currency union. It does not directly set every bank rate or security yield, and national governments cannot choose a separate ECB policy rate for their own residents.",
+      "Decisões fiscais atuam por gastos, impostos e transferências. Política monetária influencia condições de financiamento da união monetária. Não define diretamente toda taxa bancária ou rendimento de valor mobiliário, e governos nacionais não podem escolher uma taxa de política separada do BCE para seus residentes."
+    ],
+    "blocks": [
+      "EIP-1.2-01-B03",
+      "EIP-1.2-01-B04"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A government transfers €100 million to households, which subsequently spend part of it. Why should the transfer not simply be counted as G and the same spending again as C?",
+      "Um governo transfere €100 milhões às famílias, que depois gastam parte. Por que a transferência não deve simplesmente ser contada como G e o mesmo gasto novamente como C?"
+    ],
+    "options": [
+      [
+        "The transfer redistributes resources rather than itself buying new output; counting both as purchases would double count",
+        "A transferência redistribui recursos em vez de comprar por si só produção nova; contar ambos como compras geraria dupla contagem"
+      ],
+      [
+        "Household purchases can never contribute to production",
+        "Compras das famílias nunca podem contribuir para produção"
+      ],
+      [
+        "All transferred money must immediately be spent on domestic goods",
+        "Todo dinheiro transferido precisa ser imediatamente gasto em bens domésticos"
+      ],
+      [
+        "Government transfers are identical to purchases of new infrastructure",
+        "Transferências públicas são idênticas a compras de infraestrutura nova"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The transfer and the recipient’s purchase are different events. The former reallocates resources; the latter may purchase final output. Saving, imports and later responses also matter. The initial domestic spending channel is not a complete fiscal multiplier or final GDP forecast.",
+      "A transferência e a compra do destinatário são eventos diferentes. A primeira realoca recursos; a segunda pode comprar produção final. Poupança, importações e respostas posteriores também importam. O canal inicial de gasto doméstico não é multiplicador fiscal completo nem previsão final do PIB."
+    ],
+    "blocks": [
+      "EIP-1.2-01-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Revenue and spending initially are €90bn and €94bn. A downturn changes them to €86bn and €96bn under existing rules; a new €3bn programme then adds spending. Which decomposition of the deficit deterioration is correct?",
+      "Receita e despesa inicialmente são €90 bilhões e €94 bilhões. Uma desaceleração as muda para €86 bilhões e €96 bilhões sob regras existentes; um novo programa de €3 bilhões acrescenta despesa. Qual decomposição da piora do déficit está correta?"
+    ],
+    "options": [
+      [
+        "€13bn deterioration, all from the new programme",
+        "Piora de €13 bilhões, toda do novo programa"
+      ],
+      [
+        "€6bn deterioration in total, including the new programme",
+        "Piora total de €6 bilhões, incluindo o novo programa"
+      ],
+      [
+        "€9bn deterioration: €6bn from the downturn/rules response and €3bn from the new programme",
+        "Piora de €9 bilhões: €6 bilhões da resposta à desaceleração/regras e €3 bilhões do novo programa"
+      ],
+      [
+        "€9bn deterioration, all newly enacted discretionary spending",
+        "Piora de €9 bilhões, toda despesa discricionária recém-aprovada"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The original deficit is 94 − 90 = €4bn. Before the new programme it becomes 96 − 86 = €10bn, a €6bn deterioration. The programme raises it to €13bn, another €3bn. The total change is €9bn, not the final €13bn level, and existing stabilisers are not a newly enacted package.",
+      "O déficit original é 94 − 90 = €4 bilhões. Antes do novo programa passa a 96 − 86 = €10 bilhões, piora de €6 bilhões. O programa o eleva a €13 bilhões, mais €3 bilhões. A mudança total é €9 bilhões, não o nível final de €13 bilhões, e estabilizadores existentes não são pacote recém-aprovado."
+    ],
+    "blocks": [
+      "EIP-1.2-01-B06"
+    ],
+    "calculation": {
+      "method": "deficit_decomposition",
+      "inputs": [
+        90,
+        94,
+        86,
+        96,
+        3
+      ],
+      "expected": [
+        13,
+        9,
+        6,
+        3
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A manufacturer’s pretax profit is €600,000. New infrastructure orders add €500,000 revenue and €300,000 production costs. Separately, tighter financing adds €100,000 interest. With other items unchanged, what is the combined result?",
+      "O lucro antes de impostos de um fabricante é €600,000. Novas encomendas de infraestrutura acrescentam €500,000 de receita e €300,000 de custos de produção. Separadamente, financiamento mais restritivo acrescenta €100,000 de juros. Com demais itens inalterados, qual é o resultado combinado?"
+    ],
+    "options": [
+      [
+        "€800,000 profit; higher revenue fully offsets financing without an interest deduction",
+        "Lucro de €800,000; receita maior compensa integralmente financiamento sem deduzir juros"
+      ],
+      [
+        "€700,000 profit; a €100,000 net improvement",
+        "Lucro de €700,000; melhoria líquida de €100,000"
+      ],
+      [
+        "€1,000,000 profit; add orders and subtract only interest",
+        "Lucro de €1,000,000; somar encomendas e subtrair apenas juros"
+      ],
+      [
+        "€500,000 profit; only the financing effect is relevant",
+        "Lucro de €500,000; apenas o efeito de financiamento é relevante"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Orders add €500,000 − €300,000 = €200,000 operating profit. Additional interest removes €100,000, leaving a €100,000 improvement and €700,000 pretax profit. €800,000 omits the interest increase; €1,000,000 omits production costs; €500,000 ignores the orders. Competing policy channels must be combined before interpreting the outcome, which still does not determine the share’s investment value.",
+      "Encomendas acrescentam €500,000 − €300,000 = €200,000 de lucro operacional. Juros adicionais retiram €100,000, restando melhoria de €100,000 e lucro antes de impostos de €700,000. €800,000 omite o aumento de juros; €1,000,000 omite custos de produção; €500,000 ignora encomendas. Canais concorrentes de política precisam ser combinados antes de interpretar o resultado, que ainda não determina o valor de investimento da ação."
+    ],
+    "blocks": [
+      "EIP-1.2-01-B07"
+    ],
+    "calculation": {
+      "method": "combined_profit",
+      "inputs": [
+        600000,
+        500000,
+        300000,
+        100000
+      ],
+      "expected": 700000
+    }
+  }
+]

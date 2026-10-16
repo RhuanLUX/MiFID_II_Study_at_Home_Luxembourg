@@ -1,0 +1,203 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "What does a primary fiscal balance exclude?",
+      "O que o saldo primário exclui?"
+    ],
+    "options": [
+      [
+        "Only non-interest expenditure from the fiscal balance",
+        "Apenas despesas sem juros do saldo fiscal"
+      ],
+      [
+        "All debt-service cash including principal, rather than interest alone",
+        "Todo o caixa de serviço da dívida, incluindo principal, em vez de apenas juros"
+      ],
+      [
+        "Interest expense from the fiscal balance",
+        "A despesa de juros do saldo fiscal"
+      ],
+      [
+        "All non-interest expenditure",
+        "Toda despesa não financeira"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The primary balance separates the non-interest revenue/expenditure position from interest expense. A primary surplus can coexist with an overall deficit when interest exceeds that surplus. It therefore does not establish that the debt stock must immediately decline.",
+      "O saldo primário separa a posição de receitas e despesas sem juros da despesa de juros. Um superávit primário pode coexistir com déficit total quando os juros superam esse superávit. Portanto, ele não demonstra que o estoque da dívida necessariamente cairá de imediato."
+    ],
+    "blocks": [
+      "EIP-1.3-01-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Replacing maturing bonds exposes an issuer to ______ risk.",
+      "Substituir títulos que vencem expõe o emissor ao risco de ______."
+    ],
+    "options": [
+      [
+        "refinancing",
+        "refinanciamento"
+      ],
+      [
+        "reinvestment",
+        "reinvestimento"
+      ],
+      [
+        "valuation",
+        "avaliação"
+      ],
+      [
+        "inflation",
+        "inflação"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Refinancing risk is the risk of replacing maturing obligations on acceptable terms. A large repayment can create liquidity pressure even when long-run revenue prospects appear plausible. The timing and terms of funding matter alongside the total debt stock.",
+      "O risco de refinanciamento é o risco de substituir obrigações que vencem em condições aceitáveis. Um grande pagamento pode pressionar a liquidez mesmo quando as perspectivas de receita de longo prazo parecem plausíveis. O momento e as condições do financiamento importam junto com o estoque total da dívida."
+    ],
+    "blocks": [
+      "EIP-1.3-01-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Debt rises from 100 to 103 while nominal GDP rises from 200 to 210. Which statement is correct?",
+      "A dívida sobe de 100 para 103 enquanto o PIB nominal passa de 200 para 210. Qual afirmação está correta?"
+    ],
+    "options": [
+      [
+        "Debt repayment equals the fall in the ratio.",
+        "O pagamento de principal é igual à queda do indicador."
+      ],
+      [
+        "The ratio rises because debt increased.",
+        "O indicador sobe porque a dívida aumentou."
+      ],
+      [
+        "The ratio stays at 50% because both increased.",
+        "O indicador permanece em 50% porque ambos cresceram."
+      ],
+      [
+        "The debt ratio falls to about 49.05% although debt increases.",
+        "O indicador de dívida cai para cerca de 49.05%, embora a dívida aumente."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The initial ratio is 100/200 = 50%; the final ratio is 103/210 ≈ 49.05%. Nominal GDP grew faster than debt. A ratio falling about 0.95 percentage point is not a repayment of that many currency units, nor proof that refinancing is easy. The numerator increased by 3.",
+      "O indicador inicial é 100/200 = 50%; o final é 103/210 ≈ 49.05%. O PIB nominal cresceu mais que a dívida. A queda de cerca de 0.95 ponto percentual não é um pagamento dessa quantidade de unidades monetárias nem prova de refinanciamento fácil. O numerador aumentou em 3."
+    ],
+    "blocks": [
+      "EIP-1.3-01-B06"
+    ],
+    "calculation": {
+      "method": "debt_ratio",
+      "inputs": [
+        100,
+        200,
+        103,
+        210
+      ],
+      "expected": [
+        0.5,
+        0.49047619047619045
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Fixed-rate debt totals €100 billion at 2%. Only €20 billion refinances at 4%; ignore intra-year timing. What is the new annualised interest cost?",
+      "A dívida de taxa fixa soma €100 bilhões a 2%. Apenas €20 bilhões são refinanciados a 4%; desconsidere o momento dentro do ano. Qual é o novo custo anualizado de juros?"
+    ],
+    "options": [
+      [
+        "€4 billion",
+        "€4 bilhões"
+      ],
+      [
+        "€2.4 billion",
+        "€2.4 bilhões"
+      ],
+      [
+        "€2 billion",
+        "€2 bilhões"
+      ],
+      [
+        "€0.4 billion",
+        "€0.4 bilhão"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The unchanged €80 billion costs €1.6 billion and the refinanced €20 billion costs €0.8 billion: total €2.4 billion. €4 billion reprices all debt incorrectly; €2 billion ignores refinancing. €0.4 billion is the increase over the old cost, not the new total. Existing fixed coupons do not all reset with market yields.",
+      "Os €80 bilhões inalterados custam €1.6 bilhão e os €20 bilhões refinanciados custam €0.8 bilhão: total de €2.4 bilhões. €4 bilhões reajustam incorretamente toda a dívida; €2 bilhões ignoram o refinanciamento. €0.4 bilhão é o aumento sobre o custo anterior, não o novo total. Cupons fixos existentes não são todos reajustados com as taxas de mercado."
+    ],
+    "blocks": [
+      "EIP-1.3-01-B07"
+    ],
+    "calculation": {
+      "method": "refinancing_interest",
+      "inputs": [
+        100,
+        20,
+        0.02,
+        0.04
+      ],
+      "expected": 2.4
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Opening debt is €120 billion; €18 billion matures. The overall deficit including interest is €4 billion. The issuer uses €1 billion of existing cash rather than building reserves. All issuance is at par; no other adjustments. What are new issuance and closing debt?",
+      "A dívida inicial é €120 bilhões; €18 bilhões vencem. O déficit total, incluindo juros, é €4 bilhões. O emissor usa €1 bilhão do caixa existente em vez de acumular reservas. Toda emissão ocorre ao par; sem outros ajustes. Quais são a nova emissão e a dívida final?"
+    ],
+    "options": [
+      [
+        "Issuance 23; closing debt 125",
+        "Emissão 23; dívida final 125"
+      ],
+      [
+        "Issuance 22; closing debt 124",
+        "Emissão 22; dívida final 124"
+      ],
+      [
+        "Issuance 21; closing debt 123",
+        "Emissão 21; dívida final 123"
+      ],
+      [
+        "Issuance 3; closing debt 105",
+        "Emissão 3; dívida final 105"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Funding required is 18 + 4 − 1 = 21 billion. Closing debt is 120 − 18 + 21 = 123 billion. Issuance of 23 would build cash by 1, the opposite instruction; 22 ignores using cash. Issuance of 3 covers only the net current gap and omits refinancing. Interest is already in the overall deficit, so adding it again would double count.",
+      "O financiamento necessário é 18 + 4 − 1 = 21 bilhões. A dívida final é 120 − 18 + 21 = 123 bilhões. Emitir 23 acumularia caixa de 1, o oposto da instrução; 22 ignora o uso do caixa. A emissão de 3 cobre apenas a lacuna corrente líquida e omite o refinanciamento. Os juros já estão no déficit total; adicioná-los novamente seria dupla contagem."
+    ],
+    "blocks": [
+      "EIP-1.3-01-B04"
+    ],
+    "calculation": {
+      "method": "debt_issuance",
+      "inputs": [
+        120,
+        18,
+        4,
+        -1
+      ],
+      "expected": [
+        21,
+        123
+      ]
+    }
+  }
+]

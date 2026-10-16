@@ -1,0 +1,188 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Macaulay duration is ______.",
+      "A duration de Macaulay é ______."
+    ],
+    "options": [
+      [
+        "the unweighted average of scheduled payment dates",
+        "a média não ponderada das datas programadas de pagamento"
+      ],
+      [
+        "the percentage price response itself before a yield convention is applied",
+        "a própria resposta percentual do preço antes de aplicar uma convenção de taxa"
+      ],
+      [
+        "always the final payment date for every bond",
+        "sempre a data do pagamento final de todo título"
+      ],
+      [
+        "the payment times’ present-value-weighted average",
+        "a média dos tempos de pagamento ponderada pelos valores presentes"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Each cash flow contributes a weight equal to its present value divided by full price. Macaulay duration averages its time using those weights. A zero-coupon bond has all weight at maturity, but earlier coupons normally pull the average below maturity. Credit and trading liquidity are separate risks.",
+      "Cada fluxo contribui com peso igual a seu valor presente dividido pelo preço integral. A duration de Macaulay calcula a média de seus tempos usando esses pesos. Um título de cupom zero concentra todo o peso no vencimento, mas cupons anteriores normalmente reduzem a média. Crédito e liquidez de negociação são riscos separados."
+    ],
+    "blocks": [
+      "EIP-3.4-04-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "For annual effective yield y, modified duration equals Macaulay duration divided by ______.",
+      "Para uma taxa efetiva anual y, a duration modificada equivale à de Macaulay dividida por ______."
+    ],
+    "options": [
+      [
+        "1 + y",
+        "1 + y"
+      ],
+      [
+        "y alone",
+        "apenas y"
+      ],
+      [
+        "maturity alone",
+        "apenas o prazo até o vencimento"
+      ],
+      [
+        "1 − y",
+        "1 − y"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Under this annual convention, Dmod = Dmac/(1+y). It translates payment timing into local sensitivity to a decimal change in yield. The relationship depends on the quotation and compounding convention and should not be transplanted unchanged into a different payment-frequency model.",
+      "Sob essa convenção anual, Dmod = Dmac/(1+y). Ela transforma os tempos de pagamento em sensibilidade local a uma variação decimal da taxa. A relação depende da convenção de cotação e capitalização e não deve ser transplantada sem ajustes para um modelo de frequência diferente."
+    ],
+    "blocks": [
+      "EIP-3.4-04-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "For a conventional fixed positive-cash-flow bond with positive convexity, what does the second-order term do?",
+      "Para um título convencional de fluxos fixos positivos e convexidade positiva, o que faz o termo de segunda ordem?"
+    ],
+    "options": [
+      [
+        "It makes the duration estimate exact for every yield change.",
+        "Torna a estimativa de duration exata para qualquer mudança da taxa."
+      ],
+      [
+        "It increases the estimated loss for both rise and fall in yield.",
+        "Aumenta a perda estimada tanto na alta quanto na queda da taxa."
+      ],
+      [
+        "It adds a positive correction for either direction because the yield change is squared.",
+        "Acrescenta correção positiva em ambas as direções porque a mudança da taxa é elevada ao quadrado."
+      ],
+      [
+        "It guarantees the same convexity for callable instruments.",
+        "Garante a mesma convexidade para instrumentos resgatáveis pelo emissor."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The correction is 0.5 × convexity × (yield change)². With positive convexity it raises the estimate relative to the tangent in either direction, cushioning estimated falls and enlarging estimated gains. It remains approximate. Option-dependent cash flows can behave differently, so the conventional result is not a blanket rule for callable instruments.",
+      "A correção é 0.5 × convexidade × (mudança da taxa)². Com convexidade positiva, ela eleva a estimativa em relação à tangente nas duas direções, amortecendo quedas estimadas e ampliando ganhos estimados. Continua aproximada. Fluxos dependentes de opções podem se comportar de outro modo; o resultado convencional não é regra geral para instrumentos resgatáveis pelo emissor."
+    ],
+    "blocks": [
+      "EIP-3.4-04-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A position’s market value is €50,000 and modified duration 4. Yield rises 20 basis points. Holding other influences fixed, what is the first-order euro price change?",
+      "O valor de mercado de uma posição é €50,000 e sua duration modificada 4. A taxa sobe 20 pontos-base. Mantendo as demais influências, qual é a variação de preço em euros de primeira ordem?"
+    ],
+    "options": [
+      [
+        "−€40",
+        "−€40"
+      ],
+      [
+        "−€400",
+        "−€400"
+      ],
+      [
+        "−€4,000",
+        "−€4,000"
+      ],
+      [
+        "+€400",
+        "+€400"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "20 basis points = 0.002 in decimal yield units. Proportional change is −4 × 0.002 = −0.008, or −0.8%; multiply by €50,000 for −€400. The alternatives mix basis-point scaling or reverse the price-yield direction. This is a local estimate on market value, not a default-loss forecast or a calculation on nominal unless nominal happens to equal value.",
+      "20 pontos-base = 0.002 em unidades decimais de taxa. A mudança proporcional é −4 × 0.002 = −0.008, ou −0.8%; multiplique por €50,000 para −€400. As alternativas confundem a escala de pontos-base ou invertem a relação preço-taxa. Esta é uma estimativa local sobre o valor de mercado, não uma previsão de perda por inadimplência nem um cálculo sobre nominal, salvo se coincidir com o valor."
+    ],
+    "blocks": [
+      "EIP-3.4-04-B03"
+    ],
+    "calculation": {
+      "method": "duration_change",
+      "inputs": [
+        50000,
+        4,
+        0.002
+      ],
+      "expected": -400
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A conventional bond has modified duration 4 and convexity 20 under the lesson’s annual convention. Apply the second-order formula to yield moves of +2 and −2 percentage points. Which approximate pair of price changes is correct?",
+      "Um título convencional tem duration modificada 4 e convexidade 20 sob a convenção anual da aula. Aplique a fórmula de segunda ordem às mudanças de +2 e −2 pontos percentuais na taxa. Qual par aproximado de variações de preço está correto?"
+    ],
+    "options": [
+      [
+        "−8% and +8%, including all curvature",
+        "−8% e +8%, incluindo toda a curvatura"
+      ],
+      [
+        "−8.4% and +7.6%",
+        "−8.4% e +7.6%"
+      ],
+      [
+        "−7.6% and +7.6%, because movements must be symmetric",
+        "−7.6% e +7.6%, pois os movimentos devem ser simétricos"
+      ],
+      [
+        "−7.6% and +8.4%, still approximate",
+        "−7.6% e +8.4%, ainda aproximados"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Use Δy = ±0.02. The duration terms are −0.08 and +0.08; the convexity correction in both cases is 0.5 × 20 × 0.02² = 0.004. Results are −0.076 and +0.084. Symmetric duration-only changes omit curvature; subtracting the correction reverses its sign. Exact repricing remains the benchmark, and the fixed-cash-flow assumption must hold.",
+      "Use Δy = ±0.02. Os termos de duration são −0.08 e +0.08; a correção de convexidade em ambos os casos é 0.5 × 20 × 0.02² = 0.004. Os resultados são −0.076 e +0.084. Mudanças simétricas apenas de duration omitem a curvatura; subtrair a correção inverte seu sinal. A reavaliação exata continua sendo a referência, e a hipótese de fluxos fixos precisa valer."
+    ],
+    "blocks": [
+      "EIP-3.4-04-B05"
+    ],
+    "calculation": {
+      "method": "convexity_pair",
+      "inputs": [
+        4,
+        20,
+        0.02
+      ],
+      "expected": [
+        -0.076,
+        0.084
+      ]
+    }
+  }
+]

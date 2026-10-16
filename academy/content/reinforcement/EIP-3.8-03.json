@@ -1,0 +1,207 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "UCITS principally identifies ______.",
+      "UCITS identifica principalmente ______."
+    ],
+    "options": [
+      [
+        "a regulatory collective-investment framework",
+        "um regime regulatório de investimento coletivo"
+      ],
+      [
+        "a particular equity index strategy",
+        "uma estratégia específica de índice de ações"
+      ],
+      [
+        "one legal share class rather than a fund regime",
+        "uma classe jurídica de cotas em vez de um regime de fundos"
+      ],
+      [
+        "a corporate legal form that excludes common funds",
+        "uma forma jurídica societária que exclui fundos contratuais"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "UCITS supplies a regulatory framework while legal form, compartment and strategy describe other layers. Bond, equity and index funds can present different risks within that framework. Authorisation does not guarantee principal or establish suitability for every client.",
+      "UCITS fornece um regime regulatório, enquanto forma jurídica, compartimento e estratégia descrevem outras camadas. Fundos de títulos, ações e índices podem apresentar riscos diferentes dentro do regime. A autorização não garante principal nem estabelece adequação para todo cliente."
+    ],
+    "blocks": [
+      "EIP-3.8-03-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A fund policy saying it may invest up to a limit describes ______ rather than proof of its current allocation.",
+      "Uma política dizendo que o fundo pode investir até um limite descreve ______, não uma prova de sua alocação atual."
+    ],
+    "options": [
+      [
+        "a guaranteed future return",
+        "um retorno futuro garantido"
+      ],
+      [
+        "an exact present holding",
+        "uma posição presente exata"
+      ],
+      [
+        "a permitted constraint or range",
+        "uma restrição ou faixa permitida"
+      ],
+      [
+        "the investor’s ownership percentage",
+        "a porcentagem de participação do investidor"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The prospectus defines permitted methods and constraints; holdings show implementation at a particular point. A maximum is not a statement that the full limit is used now. Current holdings can change within policy, so both documents contribute different evidence to product understanding.",
+      "O prospecto define métodos e restrições permitidos; as posições mostram a implementação em um momento. Um máximo não afirma que todo o limite é usado agora. As posições atuais podem mudar dentro da política, portanto ambos os documentos fornecem evidências diferentes para compreender o produto."
+    ],
+    "blocks": [
+      "EIP-3.8-03-B02"
+    ]
+  },
+  {
+    "type": "matching",
+    "prompt": [
+      "Associate each evidence layer with the question it answers.",
+      "Associe cada camada de evidência à pergunta que ela responde."
+    ],
+    "concepts": [
+      [
+        "Objective",
+        "Objetivo"
+      ],
+      [
+        "Policy",
+        "Política"
+      ],
+      [
+        "Current holdings",
+        "Posições atuais"
+      ]
+    ],
+    "definitions": [
+      [
+        "What assets are actually held at the reported point?",
+        "Quais ativos são efetivamente detidos no momento reportado?"
+      ],
+      [
+        "What does the fund seek to achieve?",
+        "O que o fundo busca alcançar?"
+      ],
+      [
+        "Which methods and constraints are permitted?",
+        "Quais métodos e restrições são permitidos?"
+      ]
+    ],
+    "answer": [
+      1,
+      2,
+      0
+    ],
+    "explanation": [
+      "Objective states the intended result; policy specifies permitted means and constraints; holdings document implementation at a date. A common income label does not make bond and equity funds equivalent. None of these layers by itself guarantees a client’s dated principal requirement, so connect policy and actual exposure to the financial goal.",
+      "O objetivo declara o resultado buscado; a política especifica meios e restrições permitidos; as posições documentam a implementação em uma data. Um rótulo comum de renda não torna equivalentes fundos de títulos e ações. Nenhuma camada, sozinha, garante o principal exigido pelo cliente em determinada data; conecte política e exposição efetiva à meta financeira."
+    ],
+    "blocks": [
+      "EIP-3.8-03-B02",
+      "EIP-3.8-03-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An index gains 8% on a compatible total-return basis and a tracking fund gains 7.4% after embedded expenses. What is the gap and ending fund value on €10,000 before investor-level charges?",
+      "Um índice ganha 8% em base de retorno total compatível e um fundo que o acompanha ganha 7.4% após despesas embutidas. Quais são a diferença e o valor final do fundo sobre €10,000 antes de encargos do investidor?"
+    ],
+    "options": [
+      [
+        "−0.6 percentage point; €10,740",
+        "−0.6 ponto percentual; €10,740"
+      ],
+      [
+        "−0.6%; €10,680 after deducting the same gap again",
+        "−0.6%; €10,680 após deduzir novamente a mesma diferença"
+      ],
+      [
+        "+0.6 percentage point; €10,800",
+        "+0.6 ponto percentual; €10,800"
+      ],
+      [
+        "Zero gap because the fund’s objective names the index",
+        "Diferença zero porque o objetivo do fundo menciona o índice"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The difference is 7.4% − 8% = −0.6 percentage point. Fund wealth is 10,000 × 1.074 = €10,740; the shortfall against index-equivalent wealth is €60. Deducting another €60 double counts an already observed gap. Comparable period, currency, distributions and index version are necessary before interpreting tracking results.",
+      "A diferença é 7.4% − 8% = −0.6 ponto percentual. A riqueza no fundo é 10,000 × 1.074 = €10,740; a insuficiência perante o equivalente do índice é €60. Deduzir outros €60 duplica uma diferença já observada. Período, moeda, distribuições e versão do índice comparáveis são necessários para interpretar o acompanhamento."
+    ],
+    "blocks": [
+      "EIP-3.8-03-B07"
+    ],
+    "calculation": {
+      "method": "tracking_gap",
+      "inputs": [
+        10000,
+        0.074,
+        0.08
+      ],
+      "expected": [
+        -0.006,
+        10740,
+        60
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Assume only the ordinary UCITS 10% individual/40% aggregate branch, unrelated ordinary corporate issuers and no exceptions. Five issuers are 8% each; all others at most 5%. A sixth rises from 4% to 6%, funded from smaller holdings. Which conclusion follows?",
+      "Suponha apenas a rota ordinária UCITS de 10% individual/40% agregado, emissores corporativos comuns sem relação e nenhuma exceção. Cinco emissores têm 8% cada; todos os outros no máximo 5%. Um sexto sobe de 4% para 6%, financiado por posições menores. Qual conclusão decorre?"
+    ],
+    "options": [
+      [
+        "The aggregate stays 40% because only the original five count.",
+        "O agregado permanece 40% porque apenas os cinco originais contam."
+      ],
+      [
+        "The aggregate is 16%, counting only the excess above 5%.",
+        "O agregado é 16%, contando apenas o excedente sobre 5%."
+      ],
+      [
+        "The branch is satisfied because every issuer remains below 10%.",
+        "A rota é atendida porque cada emissor continua abaixo de 10%."
+      ],
+      [
+        "The above-5% group becomes 46%, failing that aggregate condition despite individual compliance.",
+        "O grupo acima de 5% torna-se 46%, falhando essa condição agregada apesar da conformidade individual."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The first five contribute their full 5 × 8% = 40%. The sixth now exceeds 5%, so its entire 6% enters, making 46%. Counting only excesses gives 16% incorrectly; testing only individual ceilings omits aggregation. This scoped calculation does not assess sovereign, covered-bond, index, group or other categories and is not a complete compliance opinion.",
+      "Os cinco primeiros contribuem com seus pesos inteiros: 5 × 8% = 40%. O sexto agora supera 5%, portanto seus 6% inteiros entram, somando 46%. Contar apenas excessos dá incorretamente 16%; testar apenas limites individuais omite a agregação. Esse cálculo delimitado não avalia categorias soberanas, de títulos cobertos, índices, grupos ou outras e não é parecer completo de conformidade."
+    ],
+    "blocks": [
+      "EIP-3.8-03-B05"
+    ],
+    "calculation": {
+      "method": "concentration_aggregate",
+      "inputs": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        6
+      ],
+      "expected": 46
+    }
+  }
+]

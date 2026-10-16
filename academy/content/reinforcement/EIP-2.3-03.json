@@ -1,0 +1,183 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A buy limit specifies the ______ purchase price.",
+      "Uma ordem limitada de compra especifica o preço ______ de compra."
+    ],
+    "options": [
+      [
+        "guaranteed average",
+        "médio garantido"
+      ],
+      [
+        "maximum acceptable",
+        "máximo aceitável"
+      ],
+      [
+        "minimum acceptable",
+        "mínimo aceitável"
+      ],
+      [
+        "last reported",
+        "último divulgado"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A buy limit is a price ceiling; a sell limit is a floor. Execution can occur at the limit or better if liquidity and other conditions permit. A price boundary does not guarantee that the entire requested quantity will trade.",
+      "Uma ordem limitada de compra estabelece um teto; uma ordem limitada de venda estabelece um piso. A execução pode ocorrer no limite ou em preço melhor se liquidez e outras condições permitirem. Um limite de preço não garante negociação de toda a quantidade solicitada."
+    ],
+    "blocks": [
+      "EIP-2.3-03-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A buying customer normally trades against which side of a book?",
+      "Um cliente comprador normalmente negocia contra qual lado do livro?"
+    ],
+    "options": [
+      [
+        "Bids from other buyers",
+        "Ofertas de compra de outros compradores"
+      ],
+      [
+        "The midpoint at every quantity",
+        "O ponto médio em qualquer quantidade"
+      ],
+      [
+        "The previous closing price",
+        "O preço de fechamento anterior"
+      ],
+      [
+        "Offers or asks from sellers",
+        "Ofertas de venda de vendedores"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "A buying customer accepts available selling offers or asks; a selling customer accepts bids. The best ask may cover only part of the order, requiring worse price levels for further units. The midpoint and previous close are not promises of executable prices.",
+      "Um cliente comprador aceita ofertas de venda disponíveis; um cliente vendedor aceita ofertas de compra. O melhor preço de venda pode cobrir apenas parte da ordem, exigindo níveis de preço piores para outras unidades. O ponto médio e o fechamento anterior não são promessas de preços executáveis."
+    ],
+    "blocks": [
+      "EIP-2.3-03-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which statement correctly distinguishes a stop-market instruction from a stop-limit instruction?",
+      "Qual afirmação distingue corretamente uma ordem stop a mercado de uma stop limitada?"
+    ],
+    "options": [
+      [
+        "Both guarantee execution at the trigger.",
+        "Ambas garantem execução no preço de disparo."
+      ],
+      [
+        "The stop-limit guarantees immediate exit below its sale limit.",
+        "A stop limitada garante saída imediata abaixo de seu limite de venda."
+      ],
+      [
+        "A triggered stop-market can execute past the trigger; a stop-limit can remain unfilled.",
+        "Uma stop a mercado ativada pode executar além do disparo; uma stop limitada pode ficar sem execução."
+      ],
+      [
+        "Neither needs its trigger rules verified.",
+        "Nenhuma exige verificar as regras de disparo."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The trigger activates the instruction; it is not necessarily an execution price. A market order may transact at worse available quotes after a gap. A limit retains its boundary but can prevent execution when prices move beyond it. Therefore neither ordinary instruction guarantees both a chosen price and immediate exit.",
+      "O disparo ativa a instrução; não é necessariamente um preço de execução. Uma ordem a mercado pode negociar em cotações disponíveis piores após um salto. Uma ordem limitada preserva o limite, mas pode impedir a execução quando os preços o ultrapassam. Portanto, nenhuma instrução comum garante simultaneamente um preço escolhido e saída imediata."
+    ],
+    "blocks": [
+      "EIP-2.3-03-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Offers are 100 units at €20.00, 200 at €20.10 and 300 at €20.25. A buy limit requests 400 units at €20.10. Quotes remain available, with no other restrictions or fees. What fills immediately?",
+      "As ofertas são 100 unidades a €20.00, 200 a €20.10 e 300 a €20.25. Uma compra limitada pede 400 unidades a €20.10. As ofertas permanecem disponíveis, sem outras restrições ou tarifas. O que é executado imediatamente?"
+    ],
+    "options": [
+      [
+        "300 units for €6,020; 100 remain unfilled.",
+        "300 unidades por €6,020; 100 ficam sem execução."
+      ],
+      [
+        "400 units for €8,040 at the limit.",
+        "400 unidades por €8,040 no limite."
+      ],
+      [
+        "400 units for €8,045 across all levels.",
+        "400 unidades por €8,045 nos três níveis."
+      ],
+      [
+        "300 units for €6,030, all at the limit.",
+        "300 unidades por €6,030, todas no limite."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Only offers at or below €20.10 qualify: 100 × 20 + 200 × 20.10 = €6,020 for 300 units. The €20.25 level breaches the ceiling. A limit can receive better prices, so charging all filled units €20.10 overstates cost. The remaining quantity’s treatment depends on validity and service rules; it is not already acquired.",
+      "Apenas ofertas até €20.10 se qualificam: 100 × 20 + 200 × 20.10 = €6,020 para 300 unidades. O nível de €20.25 supera o teto. Uma ordem limitada pode receber preços melhores; cobrar €20.10 por todas as unidades executadas exagera o custo. O tratamento do restante depende da validade e das regras do serviço; ele ainda não foi adquirido."
+    ],
+    "blocks": [
+      "EIP-2.3-03-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Offers are 100 units at €20.00, 200 at €20.10 and 300 at €20.25. A market buy requests 400 units and pays a €12 fee. Quotes remain available, with no other restrictions. What are the weighted average execution price and all-in cost per acquired unit?",
+      "As ofertas são 100 unidades a €20.00, 200 a €20.10 e 300 a €20.25. Uma compra a mercado pede 400 unidades e paga tarifa de €12. As ofertas permanecem disponíveis, sem outras restrições. Quais são o preço médio ponderado de execução e o custo total por unidade adquirida?"
+    ],
+    "options": [
+      [
+        "€20.25 and €20.28",
+        "€20.25 e €20.28"
+      ],
+      [
+        "€20.1125 and €20.1425",
+        "€20.1125 e €20.1425"
+      ],
+      [
+        "€20.00 and €20.03",
+        "€20.00 e €20.03"
+      ],
+      [
+        "€20.1167 and €20.1467",
+        "€20.1167 e €20.1467"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Execution uses 100 at €20.00, 200 at €20.10 and 100 at €20.25: total €8,045. Divide by 400 for €20.1125; add the €12 fee before division for €20.1425. €20.25 is the last fill, not the average. €20.00 wrongly assumes unlimited best-price depth. The simple mean of the three levels is also wrong because filled quantities differ.",
+      "A execução usa 100 a €20.00, 200 a €20.10 e 100 a €20.25: total €8,045. Divida por 400 para €20.1125; acrescente a tarifa de €12 antes de dividir para €20.1425. €20.25 é a última execução, não a média. €20.00 presume incorretamente profundidade ilimitada no melhor preço. A média simples dos três níveis também é incorreta porque as quantidades executadas diferem."
+    ],
+    "blocks": [
+      "EIP-2.3-03-B04"
+    ],
+    "calculation": {
+      "method": "weighted_execution",
+      "inputs": [
+        100,
+        20,
+        200,
+        20.1,
+        100,
+        20.25,
+        12
+      ],
+      "expected": [
+        20.1125,
+        20.1425
+      ]
+    }
+  }
+]

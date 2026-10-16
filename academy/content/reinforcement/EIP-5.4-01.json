@@ -1,0 +1,193 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A feasible portfolio is mean–variance dominated if another offers ______ with a strict improvement in at least one dimension.",
+      "Uma carteira viável é dominada em média–variância se outra oferece ______ com melhoria estrita em pelo menos uma dimensão."
+    ],
+    "options": [
+      [
+        "at least as much expected return and no more variance",
+        "pelo menos tanto retorno esperado e não mais variância"
+      ],
+      [
+        "higher return at any increase in risk",
+        "retorno maior com qualquer aumento de risco"
+      ],
+      [
+        "lower risk regardless of the return sacrificed",
+        "risco menor independentemente do retorno sacrificado"
+      ],
+      [
+        "better realised return in one future state only",
+        "retorno realizado melhor apenas em um estado futuro"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Dominance compares both expected return and variance within the feasible set. A higher-return/higher-risk pair is a trade-off rather than automatic dominance. Efficiency is conditional on estimates and constraints and does not promise a favourable realised outcome or assess every liquidity and tail risk.",
+      "A dominância compara retorno esperado e variância dentro do conjunto viável. Um par de maior retorno/maior risco é uma troca, não dominância automática. A eficiência depende de estimativas e restrições e não promete resultado realizado favorável nem avalia todo risco de liquidez ou cauda."
+    ],
+    "blocks": [
+      "EIP-5.4-01-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "An efficient high-risk portfolio ______.",
+      "Uma carteira eficiente de alto risco ______."
+    ],
+    "options": [
+      [
+        "is suitable for every client because no model alternative dominates it",
+        "é adequada a todo cliente porque nenhuma alternativa do modelo a domina"
+      ],
+      [
+        "guarantees principal if held long enough",
+        "garante o principal se mantida por tempo suficiente"
+      ],
+      [
+        "can still be unsuitable for a client with limited loss capacity or a dated need",
+        "ainda pode ser inadequada para cliente com capacidade de perda limitada ou necessidade datada"
+      ],
+      [
+        "must be the global minimum-variance point",
+        "deve ser o ponto de variância mínima global"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Efficiency is a relative expected trade-off in a defined opportunity set. Client capacity, liquidity, knowledge and objectives select or exclude possibilities. The frontier can include high-risk choices, while its minimum-variance point solves a distinct objective. Neither label guarantees principal or suitability.",
+      "A eficiência é uma troca esperada relativa em um conjunto definido de oportunidades. Capacidade, liquidez, conhecimento e objetivos selecionam ou excluem possibilidades. A fronteira pode incluir escolhas de alto risco, enquanto o ponto de variância mínima resolve outro objetivo. Nenhum rótulo garante principal ou adequação."
+    ],
+    "blocks": [
+      "EIP-5.4-01-B01"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Feasible P is 4% expected return/8% volatility; Q 4%/10%; R 6%/12%; S 5%/14%, same basis. Which dominance conclusion is correct?",
+      "P viável tem retorno esperado de 4%/volatilidade de 8%; Q, 4%/10%; R, 6%/12%; S, 5%/14%, mesma base. Qual conclusão de dominância é correta?"
+    ],
+    "options": [
+      [
+        "R dominates P because return alone is higher.",
+        "R domina P porque apenas o retorno é maior."
+      ],
+      [
+        "P dominates Q and R dominates S; P versus R remains a trade-off.",
+        "P domina Q e R domina S; P versus R continua sendo uma troca."
+      ],
+      [
+        "S dominates R because higher volatility means a better opportunity.",
+        "S domina R porque volatilidade maior significa oportunidade melhor."
+      ],
+      [
+        "Q dominates P because their expected returns are equal.",
+        "Q domina P porque os retornos esperados são iguais."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "P keeps Q’s expected return with less volatility; R has both more return and less volatility than S. Between P and R, higher return comes with higher volatility, so neither dominates from those two moments alone. The four observations do not prove a complete frontier, and client constraints remain relevant.",
+      "P mantém o retorno esperado de Q com menos volatilidade; R tem mais retorno e menos volatilidade que S. Entre P e R, retorno maior vem com volatilidade maior, portanto nenhum domina apenas por esses momentos. As quatro observações não provam uma fronteira completa, e restrições do cliente continuam relevantes."
+    ],
+    "blocks": [
+      "EIP-5.4-01-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Assume an ideal horizon/currency-matched risk-free return of 2%. A risky portfolio has expected return 8% and volatility 15%. What does 60% risky/40% risk-free produce in the model?",
+      "Suponha retorno ideal sem risco de 2%, correspondente ao horizonte/moeda. Uma carteira arriscada tem retorno esperado de 8% e volatilidade de 15%. O que 60% arriscado/40% sem risco produz no modelo?"
+    ],
+    "options": [
+      [
+        "6%; 15% volatility",
+        "6%; volatilidade de 15%"
+      ],
+      [
+        "5.6%; 15% volatility",
+        "5.6%; volatilidade de 15%"
+      ],
+      [
+        "8%; 9% volatility",
+        "8%; volatilidade de 9%"
+      ],
+      [
+        "5.6% expected return; 9% volatility",
+        "Retorno esperado de 5.6%; volatilidade de 9%"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Expected return is 0.6 × 8% + 0.4 × 2% = 5.6%. With the ideal zero-variance asset, volatility is 0.6 × 15% = 9%. Applying the risky return to all capital or keeping full risky volatility ignores weights. The risk-free premise is stipulated for horizon and currency, not inferred from a government or bank product label.",
+      "O retorno esperado é 0.6 × 8% + 0.4 × 2% = 5.6%. Com o ativo ideal de variância zero, a volatilidade é 0.6 × 15% = 9%. Aplicar o retorno arriscado a todo o capital ou manter volatilidade integral ignora pesos. A premissa sem risco é estipulada para horizonte e moeda, não inferida de rótulo bancário ou público."
+    ],
+    "blocks": [
+      "EIP-5.4-01-B07"
+    ],
+    "calculation": {
+      "method": "riskfree_mix",
+      "inputs": [
+        0.6,
+        0.08,
+        0.02,
+        0.15
+      ],
+      "expected": [
+        0.056,
+        0.09
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A risky portfolio has expected return 8% and volatility 15%. It is held at 120% of equity with 20% borrowing costing 4%, rather than an ideal 2% financing assumption. Ignoring other funding risks, which expected return/volatility pair follows?",
+      "Uma carteira de risco tem retorno esperado de 8% e volatilidade de 15%. É mantida a 120% do patrimônio com empréstimo de 20% custando 4%, em vez de hipótese ideal de financiamento de 2%. Ignorando outros riscos financeiros, qual par de retorno esperado/volatilidade decorre?"
+    ],
+    "options": [
+      [
+        "8.8%; 18%, with leverage and borrowing cost explicit",
+        "8.8%; 18%, com alavancagem e custo da dívida explícitos"
+      ],
+      [
+        "9.2%; 18%, retaining the old borrowing assumption",
+        "9.2%; 18%, mantendo a hipótese anterior da dívida"
+      ],
+      [
+        "8.8%; 15%, ignoring volatility scaling",
+        "8.8%; 15%, ignorando a escala da volatilidade"
+      ],
+      [
+        "9.6%; 18%, omitting financing cost",
+        "9.6%; 18%, omitindo o custo de financiamento"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Expectation is 1.2 × 8% − 0.2 × 4% = 8.8%; market-volatility scale is 1.2 × 15% = 18%. At 2% borrowing the expectation would be 9.2%, so financing assumptions change the line. Ignoring the debt cost gives 9.6%. Real collateral, liquidity and loss-capacity constraints can add risks omitted from this idealised comparison.",
+      "A expectativa é 1.2 × 8% − 0.2 × 4% = 8.8%; a escala de volatilidade de mercado é 1.2 × 15% = 18%. Com dívida a 2%, a expectativa seria 9.2%, portanto hipóteses de financiamento mudam a linha. Ignorar o custo da dívida dá 9.6%. Restrições reais de garantia, liquidez e capacidade podem acrescentar riscos omitidos nessa comparação idealizada."
+    ],
+    "blocks": [
+      "EIP-5.4-01-B07"
+    ],
+    "calculation": {
+      "method": "riskfree_mix",
+      "inputs": [
+        1.2,
+        0.08,
+        0.04,
+        0.15
+      ],
+      "expected": [
+        0.088,
+        0.18
+      ]
+    }
+  }
+]

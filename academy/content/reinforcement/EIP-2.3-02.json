@@ -1,0 +1,184 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "In the lesson, OTC trading commonly means ______.",
+      "Na aula, negociação OTC geralmente significa ______."
+    ],
+    "options": [
+      [
+        "bilateral negotiation outside a multilateral trading venue",
+        "negociação bilateral fora de uma plataforma multilateral"
+      ],
+      [
+        "trading with no applicable financial rules",
+        "negociação sem regras financeiras aplicáveis"
+      ],
+      [
+        "non-discretionary multilateral matching on an MTF",
+        "encontro multilateral não discricionário em um MTF"
+      ],
+      [
+        "admission to listing without an actual trade",
+        "admissão à listagem sem uma negociação efetiva"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "OTC commonly describes a negotiated route outside a multilateral trading venue, often with a dealer. It does not mean illegal or unregulated. Instrument-specific trading obligations and other applicable service or reporting rules still need to be checked.",
+      "OTC geralmente descreve uma rota negociada fora de uma plataforma multilateral, frequentemente com um intermediário atuando por conta própria. Isso não significa ilegal ou sem regulação. Obrigações de negociação específicas do instrumento e outras regras aplicáveis de serviços ou reporte ainda precisam ser verificadas."
+    ],
+    "blocks": [
+      "EIP-2.3-02-B03"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "An MTF brings together multiple third-party buying and selling interests under ______ rules.",
+      "Um MTF reúne múltiplos interesses de compra e venda de terceiros sob regras ______."
+    ],
+    "options": [
+      [
+        "bilateral dealer negotiation rather than multilateral matching",
+        "negociação bilateral com intermediário por conta própria, em vez de encontro multilateral"
+      ],
+      [
+        "discretionary multilateral operation of the kind distinguished for an OTF",
+        "operação multilateral discricionária do tipo distinguido para um OTF"
+      ],
+      [
+        "non-discretionary",
+        "não discricionárias"
+      ],
+      [
+        "rules eliminating investor choice",
+        "que eliminam a escolha do investidor"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Non-discretionary describes the system’s matching rules, not absence of investor choice. An MTF has an applicable framework but differs from the regulated-market category. Neither classification guarantees investment quality or the issuer’s repayment.",
+      "Não discricionárias descreve as regras de encontro de interesses do sistema, não ausência de escolha do investidor. Um MTF possui um regime aplicável, mas difere da categoria de mercado regulamentado. Nenhuma classificação garante qualidade do investimento ou pagamento pelo emissor."
+    ],
+    "blocks": [
+      "EIP-2.3-02-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which comparison provides useful evidence for a sale now?",
+      "Qual comparação fornece evidência útil para uma venda agora?"
+    ],
+    "options": [
+      [
+        "A last-traded price versus a model value, without checking current size",
+        "O último preço negociado versus um valor de modelo, sem verificar o tamanho atual"
+      ],
+      [
+        "Current executable quotes for the required quantity, with costs and timing",
+        "Cotações atuais executáveis para a quantidade necessária, com custos e prazo"
+      ],
+      [
+        "Listing status alone, regardless of available counterparties",
+        "Apenas a listagem, independentemente das contrapartes disponíveis"
+      ],
+      [
+        "The highest historical price versus today’s best bid for one unit",
+        "O maior preço histórico versus o melhor preço de compra de hoje para uma unidade"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "An executable quote specifies what can actually be traded for the relevant size and time. Past trades and model values can inform valuation but do not promise current proceeds. Listing alone does not establish depth. Comparing full-size net outcomes also avoids treating a small top-of-book quote as available for the entire holding.",
+      "Uma cotação executável especifica o que pode efetivamente ser negociado para o tamanho e momento relevantes. Negócios passados e valores de modelo podem informar a avaliação, mas não prometem recebimentos atuais. A listagem isolada não comprova profundidade. Comparar resultados líquidos para o tamanho inteiro evita tratar uma pequena cotação como disponível para toda a posição."
+    ],
+    "blocks": [
+      "EIP-2.3-02-B07"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "In a system permitting same-date, same-currency netting, cash payable is €120,000 plus €30,000 and receivable is €80,000. What changes if the receipt arrives a day later?",
+      "Em um sistema que permite compensação na mesma data e moeda, há €120,000 mais €30,000 a pagar e €80,000 a receber. O que muda se o recebimento ocorrer um dia depois?"
+    ],
+    "options": [
+      [
+        "Only €70,000 is needed on the earlier date in both cases.",
+        "Apenas €70,000 são necessários na data anterior em ambos os casos."
+      ],
+      [
+        "No cash is needed because securities obligations cancel.",
+        "Nenhum dinheiro é necessário porque as obrigações de títulos se cancelam."
+      ],
+      [
+        "€230,000 is needed on the earlier date.",
+        "€230,000 são necessários na data anterior."
+      ],
+      [
+        "Same-date net cash is €70,000; with a later receipt, earlier outgoing cash is €150,000 without bridge funding.",
+        "O caixa líquido na mesma data é €70,000; com recebimento posterior, a saída anterior é €150,000 sem financiamento-ponte."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Permitted same-date netting gives 120,000 + 30,000 − 80,000 = €70,000. A next-day receipt cannot directly fund today’s €150,000 obligations. €230,000 adds incoming cash to outgoing needs incorrectly. Netting depends on the authorised obligation set and does not erase separate securities deliveries.",
+      "A compensação permitida na mesma data resulta em 120,000 + 30,000 − 80,000 = €70,000. Um recebimento no dia seguinte não financia diretamente as obrigações de €150,000 de hoje. €230,000 soma incorretamente entradas às necessidades de saída. A compensação depende do conjunto autorizado de obrigações e não elimina entregas separadas de títulos."
+    ],
+    "blocks": [
+      "EIP-2.3-02-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A sale of 10 bond units can execute 6 at €982 and 4 at €980, with €12 costs. A permitted dealer offers €981 for all 10, with €5 costs. Assuming identical relevant execution and settlement likelihood, which route gives higher net proceeds?",
+      "A venda de 10 unidades pode executar 6 a €982 e 4 a €980, com custos de €12. Um intermediário permitido oferece €981 pelas 10, com custos de €5. Com igual probabilidade relevante de execução e liquidação, qual rota dá maior recebimento líquido?"
+    ],
+    "options": [
+      [
+        "Dealer: €9,805, which is €5 more than the venue route.",
+        "Intermediário: €9,805, €5 acima da rota da plataforma."
+      ],
+      [
+        "Venue: €9,808, using €982 for every unit.",
+        "Plataforma: €9,808, usando €982 para cada unidade."
+      ],
+      [
+        "Venue: €9,812, because costs do not affect the comparison.",
+        "Plataforma: €9,812, pois os custos não afetam a comparação."
+      ],
+      [
+        "Dealer: €9,810 net, €2 less than the venue.",
+        "Intermediário: €9,810 líquidos, €2 abaixo da plataforma."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Venue gross proceeds are 6 × 982 + 4 × 980 = €9,812; net €9,800. Dealer gross proceeds are 10 × 981 = €9,810; net €9,805. The venue’s €2 gross advantage becomes a €5 net disadvantage. Applying the best quote to every unit ignores depth, while using gross amounts ignores costs. The conclusion depends on the stated equal non-price conditions and permitted routes.",
+      "Os recebimentos brutos da plataforma são 6 × 982 + 4 × 980 = €9,812; líquidos €9,800. Os recebimentos brutos do intermediário são 10 × 981 = €9,810; líquidos €9,805. A vantagem bruta de €2 da plataforma torna-se desvantagem líquida de €5. Aplicar a melhor cotação a todas as unidades ignora profundidade; usar valores brutos ignora custos. A conclusão depende das condições não relacionadas a preço iguais e das rotas permitidas informadas."
+    ],
+    "blocks": [
+      "EIP-2.3-02-B04"
+    ],
+    "calculation": {
+      "method": "route_proceeds",
+      "inputs": [
+        6,
+        982,
+        4,
+        980,
+        12,
+        10,
+        981,
+        5
+      ],
+      "expected": [
+        9800,
+        9805
+      ]
+    }
+  }
+]

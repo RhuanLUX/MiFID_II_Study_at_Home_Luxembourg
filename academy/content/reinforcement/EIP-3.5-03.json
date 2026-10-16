@@ -1,0 +1,192 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Without other flows, total equity return combines ______.",
+      "Sem outros fluxos, o retorno total de ações combina ______."
+    ],
+    "options": [
+      [
+        "only the dividend yield",
+        "apenas o rendimento de dividendos"
+      ],
+      [
+        "only price appreciation",
+        "apenas a valorização do preço"
+      ],
+      [
+        "only the highest price during the period",
+        "apenas o maior preço durante o período"
+      ],
+      [
+        "price change and distributions on a consistent invested base",
+        "mudança de preço e distribuições sobre uma base investida consistente"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Total return reconciles ending asset value and cash distributions with the initial investment. Dividend yield alone can be positive while the investor loses wealth through price declines. Costs, tax, currency and reinvestment conventions must be stated when comparing results.",
+      "O retorno total concilia o valor final do ativo e as distribuições em dinheiro com o investimento inicial. O rendimento de dividendos pode ser positivo enquanto o investidor perde riqueza pela queda de preço. Custos, impostos, moeda e convenções de reinvestimento devem ser declarados nas comparações."
+    ],
+    "blocks": [
+      "EIP-3.5-03-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Consecutive period returns combine through ______ growth factors.",
+      "Retornos de períodos consecutivos se combinam por fatores de crescimento ______."
+    ],
+    "options": [
+      [
+        "adding",
+        "somados"
+      ],
+      [
+        "multiplying",
+        "multiplicados"
+      ],
+      [
+        "averaging",
+        "calculados por média"
+      ],
+      [
+        "dividing",
+        "divididos"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Each period applies to the wealth left by the previous one, so factors multiply. A 20% gain followed by a 20% loss gives 1.2 × 0.8 = 0.96, not the unchanged wealth implied by adding percentages. Arithmetic average return and compounded wealth answer different questions.",
+      "Cada período incide sobre a riqueza deixada pelo anterior, portanto os fatores se multiplicam. Um ganho de 20% seguido de perda de 20% resulta em 1.2 × 0.8 = 0.96, não na riqueza inalterada sugerida pela soma das porcentagens. Retorno médio aritmético e riqueza composta respondem a perguntas diferentes."
+    ],
+    "blocks": [
+      "EIP-3.5-03-B06"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "In an isolated no-news model, a €1 distribution lowers a €20 share to €19. For 100 shares with the cash retained, what happens immediately to wealth?",
+      "Em um modelo isolado sem notícias, uma distribuição de €1 reduz uma ação de €20 para €19. Para 100 ações com o dinheiro mantido, o que ocorre imediatamente com a riqueza?"
+    ],
+    "options": [
+      [
+        "It remains €2,000: €1,900 shares plus €100 cash.",
+        "Permanece €2,000: €1,900 em ações mais €100 em caixa."
+      ],
+      [
+        "It rises to €2,100 because distributions create free wealth.",
+        "Sobe para €2,100 porque distribuições criam riqueza grátis."
+      ],
+      [
+        "It falls to €1,900 because the cash should be ignored.",
+        "Cai para €1,900 porque o caixa deve ser ignorado."
+      ],
+      [
+        "It doubles if the dividend is reinvested immediately.",
+        "Dobra se o dividendo é reinvestido imediatamente."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The cash payment transfers value from the company to the holder under this model. Immediately afterwards, 100 × 19 + 100 = €2,000. Ignoring either the ex-distribution adjustment or the cash misstates wealth. Reinvesting changes composition and later exposure, not immediate value. Real prices can also move with other news.",
+      "O pagamento transfere valor da empresa ao detentor sob esse modelo. Logo depois, 100 × 19 + 100 = €2,000. Ignorar o ajuste após a distribuição ou o dinheiro distorce a riqueza. Reinvestir muda a composição e a exposição futura, não o valor imediato. Preços reais também podem mudar com outras notícias."
+    ],
+    "blocks": [
+      "EIP-3.5-03-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "100 shares cost €50 each plus €20 fees. Dividends total €200; sale at €47 per share costs €20. Ignore tax. What is the net-of-stated-fees holding-period return?",
+      "100 ações custam €50 cada mais €20 de tarifas. Dividendos somam €200; a venda a €47 por ação custa €20. Ignore impostos. Qual é o retorno do período líquido das tarifas informadas?"
+    ],
+    "options": [
+      [
+        "+4%, using dividends alone",
+        "+4%, usando apenas dividendos"
+      ],
+      [
+        "−2%, ignoring fees",
+        "−2%, ignorando tarifas"
+      ],
+      [
+        "Approximately −2.7888%, using a €140 loss on €5,020",
+        "Aproximadamente −2.7888%, usando perda de €140 sobre €5,020"
+      ],
+      [
+        "−6%, using the price change alone",
+        "−6%, usando apenas a mudança de preço"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Initial cash is 100 × 50 + 20 = €5,020. Net sale cash is 100 × 47 − 20 = €4,680; add €200 dividends for €4,880. The €140 loss divided by €5,020 is about −2.7888%. −2% omits both fees, while dividend-only and price-only measures omit the other return component.",
+      "O caixa inicial é 100 × 50 + 20 = €5,020. A venda líquida é 100 × 47 − 20 = €4,680; some €200 de dividendos para €4,880. A perda de €140 dividida por €5,020 é cerca de −2.7888%. −2% omite ambas as tarifas, enquanto medidas apenas de dividendos ou preço omitem o outro componente."
+    ],
+    "blocks": [
+      "EIP-3.5-03-B03"
+    ],
+    "calculation": {
+      "method": "investment_return",
+      "inputs": [
+        100,
+        50,
+        20,
+        47,
+        20,
+        200
+      ],
+      "expected": -0.027888446215139442
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "€10,000 earns +20% then −20% over two years, with no external flows and distributions included. Which ending wealth, annualised rate and gain needed to regain €10,000 are consistent?",
+      "€10,000 rendem +20% e depois −20% em dois anos, sem fluxos externos e com distribuições incluídas. Quais riqueza final, taxa anualizada e ganho necessário para recuperar €10,000 são consistentes?"
+    ],
+    "options": [
+      [
+        "€10,000; 0%; no recovery needed",
+        "€10,000; 0%; sem recuperação necessária"
+      ],
+      [
+        "€9,600; approximately −2.0204%; approximately +4.1667% recovery",
+        "€9,600; aproximadamente −2.0204%; recuperação de aproximadamente +4.1667%"
+      ],
+      [
+        "€9,600; −4% annually; +4% recovery",
+        "€9,600; −4% ao ano; recuperação de +4%"
+      ],
+      [
+        "€9,600; 0% annually because the arithmetic average is zero; +4% recovery",
+        "€9,600; 0% ao ano porque a média aritmética é zero; recuperação de +4%"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Ending wealth is 10,000 × 1.2 × 0.8 = €9,600. Annualised geometric rate is √0.96 − 1 ≈ −2.0204%. Recovery requires 400/9,600 ≈ 4.1667%, since the new base is smaller. −4% is the whole two-year return, not its annual equivalent; the zero arithmetic mean is not compound growth. The terminal calculation does not describe the risk of the intervening path.",
+      "A riqueza final é 10,000 × 1.2 × 0.8 = €9,600. A taxa geométrica anualizada é √0.96 − 1 ≈ −2.0204%. A recuperação exige 400/9,600 ≈ 4.1667%, pois a nova base é menor. −4% é o retorno inteiro de dois anos, não seu equivalente anual; a média aritmética zero não é crescimento composto. O cálculo terminal não descreve o risco da trajetória intermediária."
+    ],
+    "blocks": [
+      "EIP-3.5-03-B07"
+    ],
+    "calculation": {
+      "method": "two_return_recovery",
+      "inputs": [
+        10000,
+        0.2,
+        -0.2
+      ],
+      "expected": [
+        9600,
+        -0.020204102886728803,
+        0.04166666666666674
+      ]
+    }
+  }
+]

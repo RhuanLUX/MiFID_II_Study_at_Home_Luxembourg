@@ -1,0 +1,195 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A put holder has the specified right to ______.",
+      "O titular de uma opção de venda tem o direito especificado de ______."
+    ],
+    "options": [
+      [
+        "buy the underlying at the strike",
+        "comprar o subjacente pelo preço de exercício"
+      ],
+      [
+        "accept an obligation to buy the underlying if assigned",
+        "aceitar uma obrigação de comprar o subjacente se houver atribuição"
+      ],
+      [
+        "sell the underlying at the strike",
+        "vender o subjacente pelo preço de exercício"
+      ],
+      [
+        "receive premium for accepting a selling obligation",
+        "receber prêmio por aceitar uma obrigação de venda"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "A put gives a selling right under its terms; a call gives a buying right. The holder pays premium while the writer accepts the corresponding obligation. Settlement and the operational ability to deliver or obtain the underlying still need to be understood.",
+      "Uma opção de venda dá o direito de vender conforme suas condições; uma opção de compra dá o de comprar. O titular paga prêmio, enquanto o lançador assume a obrigação correspondente. A liquidação e a capacidade operacional de entregar ou obter o subjacente ainda precisam ser compreendidas."
+    ],
+    "blocks": [
+      "EIP-3.6-03-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "European-style identifies ______, rather than the contract’s geographical trading location.",
+      "O estilo europeu identifica ______, em vez do local geográfico de negociação do contrato."
+    ],
+    "options": [
+      [
+        "exercise at the specified expiry",
+        "exercício no vencimento especificado"
+      ],
+      [
+        "exercise within the permitted period before expiry, as in American style",
+        "exercício dentro do período permitido antes do vencimento, como no estilo americano"
+      ],
+      [
+        "cash settlement rather than physical settlement",
+        "liquidação financeira em vez de física"
+      ],
+      [
+        "automatic physical delivery of every option",
+        "entrega física automática de toda opção"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "European and American styles describe permitted exercise timing. They do not specify where the exchange is or eliminate the need to check cash versus physical settlement. An American-style right permits exercise within its allowed period; actual contract procedures still govern.",
+      "Os estilos europeu e americano descrevem o momento permitido de exercício. Não especificam onde fica a bolsa nem eliminam a necessidade de verificar liquidação financeira ou física. O direito de estilo americano permite exercício dentro do período autorizado; os procedimentos efetivos do contrato ainda governam."
+    ],
+    "blocks": [
+      "EIP-3.6-03-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A put with strike €40 and premium €2 finishes at underlying €39. Why is it in the money but loss-making?",
+      "Uma opção de venda com exercício de €40 e prêmio de €2 termina com subjacente a €39. Por que está dentro do dinheiro, mas gera perda?"
+    ],
+    "options": [
+      [
+        "Its payoff is zero whenever there is a loss.",
+        "Seu resultado de exercício é zero sempre que há perda."
+      ],
+      [
+        "The €1 intrinsic value is less than the €2 premium already paid.",
+        "O valor intrínseco de €1 é menor que o prêmio de €2 já pago."
+      ],
+      [
+        "Being in the money guarantees the original trade’s profit.",
+        "Estar dentro do dinheiro garante lucro da operação original."
+      ],
+      [
+        "The strike is deducted twice from the share price.",
+        "O preço de exercício é deduzido duas vezes do preço da ação."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The selling right has payoff max(40 − 39, 0) = €1 per unit. Subtracting the €2 premium gives −€1 profit per unit. Exercise value and profitability answer different questions; declining an adverse exercise does not recover the premium. The plain expiry break-even is €38 before omitted costs.",
+      "O direito de venda tem resultado max(40 − 39, 0) = €1 por unidade. Subtrair o prêmio de €2 dá lucro de −€1 por unidade. Valor de exercício e lucratividade respondem a perguntas diferentes; não exercer em situação adversa não recupera o prêmio. O equilíbrio simples no vencimento é €38 antes dos custos omitidos."
+    ],
+    "blocks": [
+      "EIP-3.6-03-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A physical call covers 100 shares, strike €50 and premium €3 each. At expiry shares are €58. Ignoring all other costs, what are the strike funding requirement and net profit?",
+      "Uma opção de compra física cobre 100 ações, exercício de €50 e prêmio de €3 cada. No vencimento, as ações valem €58. Ignorando outros custos, quais são o financiamento do exercício e o lucro líquido?"
+    ],
+    "options": [
+      [
+        "€300 funding; €800 profit",
+        "Financiamento de €300; lucro de €800"
+      ],
+      [
+        "€5,800 funding; €500 profit",
+        "Financiamento de €5,800; lucro de €500"
+      ],
+      [
+        "€5,000 funding; €800 profit",
+        "Financiamento de €5,000; lucro de €800"
+      ],
+      [
+        "€5,000 funding; €500 profit",
+        "Financiamento de €5,000; lucro de €500"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Physical exercise requires 100 × 50 = €5,000 to buy the shares. The exercise advantage is 100 × (58 − 50) = €800; subtract €300 premium for €500 profit. The premium budget alone does not fund physical exercise. €5,800 is market value of delivered shares, not strike cash; €800 is payoff before premium.",
+      "O exercício físico exige 100 × 50 = €5,000 para comprar as ações. A vantagem de exercício é 100 × (58 − 50) = €800; subtraia o prêmio de €300 para lucro de €500. O orçamento do prêmio, sozinho, não financia o exercício físico. €5,800 é o valor de mercado das ações entregues, não o dinheiro de exercício; €800 é o resultado antes do prêmio."
+    ],
+    "blocks": [
+      "EIP-3.6-03-B03"
+    ],
+    "calculation": {
+      "method": "physical_call",
+      "inputs": [
+        100,
+        50,
+        3,
+        58
+      ],
+      "expected": [
+        5000,
+        500
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "100 shares are bought at €50 and a covered call at strike €55 is written for €2 premium each. No dividends, costs or tax. Compare expiry prices €60 and €40. What combined profits result?",
+      "100 ações são compradas a €50 e uma opção de compra coberta com exercício de €55 é lançada por prêmio de €2 cada. Sem dividendos, custos ou impostos. Compare preços finais de €60 e €40. Quais lucros combinados resultam?"
+    ],
+    "options": [
+      [
+        "+€700 at €60; −€800 at €40",
+        "+€700 a €60; −€800 a €40"
+      ],
+      [
+        "+€1,200 at €60; −€800 at €40",
+        "+€1,200 a €60; −€800 a €40"
+      ],
+      [
+        "+€700 at €60; no loss at €40 because it is covered",
+        "+€700 a €60; sem perda a €40 porque é coberta"
+      ],
+      [
+        "+€500 at €60; −€1,000 at €40",
+        "+€500 a €60; −€1,000 a €40"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Net initial outlay is 5,000 − 200 = €4,800. At €60, call delivery brings €5,500, yielding €700; upside above €55 is surrendered. At €40 the call expires and shares are worth €4,000, yielding −€800. €1,200 ignores the written call payoff; the final pair omits premium. Covered means shares can be delivered, not that capital is protected.",
+      "O desembolso inicial líquido é 5,000 − 200 = €4,800. A €60, a entrega pelo exercício traz €5,500, gerando €700; a alta acima de €55 é cedida. A €40 a opção expira e as ações valem €4,000, gerando −€800. €1,200 ignora o resultado da opção lançada; o último par omite o prêmio. Coberta significa que as ações podem ser entregues, não que o capital esteja protegido."
+    ],
+    "blocks": [
+      "EIP-3.6-03-B07"
+    ],
+    "calculation": {
+      "method": "covered_call_pair",
+      "inputs": [
+        100,
+        50,
+        55,
+        2,
+        60,
+        40
+      ],
+      "expected": [
+        700,
+        -800
+      ]
+    }
+  }
+]

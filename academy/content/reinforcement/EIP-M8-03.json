@@ -1,0 +1,167 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "An emissions-intensity measure differs from absolute emissions because it ______.",
+      "Uma medida de intensidade de emissões difere de emissões absolutas porque ______."
+    ],
+    "options": [
+      [
+        "always proves the investor caused a reduction",
+        "sempre prova redução causada pelo investidor"
+      ],
+      [
+        "omits every denominator",
+        "omite todo denominador"
+      ],
+      [
+        "is necessarily identical to financed emissions",
+        "é necessariamente idêntica a emissões financiadas"
+      ],
+      [
+        "relates emissions to a stated revenue or output base",
+        "relaciona emissões a uma base declarada de receita ou produção"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Absolute emissions measure an amount; intensity relates that amount to a denominator. Financed emissions use a separate attribution method. Intensity can decline while absolute emissions rise, so preserve the metric’s unit, boundary and purpose before interpreting a favourable number.",
+      "Emissões absolutas medem quantidade; intensidade relaciona a quantidade a denominador. Emissões financiadas usam método de atribuição separado. Intensidade pode cair enquanto emissões absolutas sobem; preserve unidade, limite e finalidade antes de interpretar valor favorável."
+    ],
+    "blocks": [
+      "EIP-M8-03-B03"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A missing emissions observation should be treated as ______.",
+      "Uma observação ausente de emissões deve ser tratada como ______."
+    ],
+    "options": [
+      [
+        "missing information, with coverage and assumptions explained",
+        "informação ausente, com cobertura e hipóteses explicadas"
+      ],
+      [
+        "a verified zero",
+        "zero verificado"
+      ],
+      [
+        "proof that the issuer has no adverse impact",
+        "prova de que o emissor não tem impacto adverso"
+      ],
+      [
+        "a complete observation merely because the report has decimals",
+        "observação completa apenas porque o relatório tem decimais"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Missing data is not zero. Excluding missing holdings and rescaling produces an average for the observed part, not a full-portfolio observation. State coverage by the relevant basis and distinguish estimates or sensitivity assumptions from measured facts. Extra decimal places do not remove uncertainty.",
+      "Dados ausentes não são zero. Excluir posições sem dados e reescalonar produz média da parte observada, não observação da carteira inteira. Declare cobertura na base pertinente e distinga estimativas ou hipóteses de sensibilidade de fatos medidos. Mais decimais não removem incerteza."
+    ],
+    "blocks": [
+      "EIP-M8-03-B05"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which evidence is needed before comparing two portfolio carbon figures?",
+      "Qual prova é necessária antes de comparar dois valores de carbono de carteiras?"
+    ],
+    "options": [
+      [
+        "Only that both reports were published this year",
+        "Apenas que ambos os relatórios foram publicados neste ano"
+      ],
+      [
+        "Compatible units, emissions boundaries, periods, denominators, coverage and methods",
+        "Unidades, limites de emissões, períodos, denominadores, cobertura e métodos compatíveis"
+      ],
+      [
+        "Only the lower of the two numbers",
+        "Apenas o menor dos dois números"
+      ],
+      [
+        "An ESG rating assumed to make all underlying metrics equivalent",
+        "Nota ESG presumida para tornar equivalentes todas as métricas"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A publication date can conceal older underlying data. Different currencies, scopes or missing-data treatment make raw figures incomparable. Understand the actual question and reconcile methods before judging improvement. A composite ESG rating can answer a different question from direct environmental impact and cannot supply the missing comparability evidence.",
+      "Data de publicação pode ocultar dados antigos. Moedas, escopos ou tratamento de ausências diferentes tornam valores brutos incomparáveis. Entenda a pergunta e concilie métodos antes de avaliar melhora. Nota ESG composta pode responder questão distinta de impacto ambiental direto e não supre provas de comparabilidade ausentes."
+    ],
+    "blocks": [
+      "EIP-M8-03-B10"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A portfolio has 60% of issuer A at intensity 100 and 40% of B at 20, in fully comparable units of tonnes CO2e per €1 million revenue. What weighted intensity follows?",
+      "Uma carteira tem 60% do emissor A com intensidade 100 e 40% de B com 20, em unidades plenamente comparáveis de toneladas CO2e por €1 milhão de receita. Qual intensidade ponderada decorre?"
+    ],
+    "options": [
+      [
+        "120 tonnes per €1 million revenue",
+        "120 toneladas por €1 milhão de receita"
+      ],
+      [
+        "60 tonnes per €1 million revenue",
+        "60 toneladas por €1 milhão de receita"
+      ],
+      [
+        "68 tonnes per €1 million revenue",
+        "68 toneladas por €1 milhão de receita"
+      ],
+      [
+        "68 tonnes of direct portfolio emissions, with no denominator",
+        "68 toneladas de emissões diretas da carteira, sem denominador"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "0.60 × 100 + 0.40 × 20 = 60 + 8 = 68 in the same intensity units. Adding issuer intensities without weights gives 120; 60 omits B’s contribution. This describes weighted issuer intensity, not tonnes directly emitted or caused by the investor. Common scopes, periods and currency bases are essential to the stated comparison.",
+      "0.60 × 100 + 0.40 × 20 = 60 + 8 = 68 nas mesmas unidades de intensidade. Somar intensidades sem pesos dá 120; 60 omite B. Isso descreve intensidade ponderada dos emissores, não toneladas diretamente emitidas ou causadas pelo investidor. Escopos, períodos e moedas comuns são essenciais à comparação estipulada."
+    ],
+    "blocks": [
+      "EIP-M8-03-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Holdings are 50% at intensity 80, 30% at 20 and 20% missing. Known weighted contribution is 46. Which report distinguishes observation from sensitivity?",
+      "As posições são 50% com intensidade 80, 30% com 20 e 20% sem dados. A contribuição ponderada conhecida é 46. Qual relatório distingue observação de sensibilidade?"
+    ],
+    "options": [
+      [
+        "Full-portfolio actual intensity is certainly 46.",
+        "A intensidade efetiva de toda a carteira é certamente 46."
+      ],
+      [
+        "Coverage is 100% because weights including missing holdings sum to one.",
+        "A cobertura é 100% porque pesos incluindo posições sem dados somam um."
+      ],
+      [
+        "Observed average is 46; a 46–86 interval is a verified confidence interval.",
+        "A média observada é 46; intervalo de 46–86 é intervalo de confiança verificado."
+      ],
+      [
+        "Coverage is 80%, observed-part average is 57.5; assuming missing intensity between 0 and 200 gives conditional full values of 46–86, not a verified bound.",
+        "A cobertura é 80%, a média da parte observada é 57.5; supor intensidade ausente entre 0 e 200 dá valores condicionais totais de 46–86, não limite verificado."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Known contribution is 0.50 × 80 + 0.30 × 20 = 46; observed coverage is 0.80, giving 46 / 0.80 = 57.5. The full metric adds 0.20 times the unknown intensity. An assumed range of 0 to 200 gives 46 to 86, but that range is invented sensitivity, not evidence or probability. Calling 46 complete would silently set the missing observation to zero.",
+      "A contribuição conhecida é 0.50 × 80 + 0.30 × 20 = 46; cobertura observada é 0.80, dando 46 / 0.80 = 57.5. A métrica completa soma 0.20 vezes a intensidade desconhecida. Uma faixa hipotética de 0 a 200 dá 46 a 86, mas é sensibilidade inventada, não prova nem probabilidade. Chamar 46 de completo atribuiria silenciosamente zero à observação ausente."
+    ],
+    "blocks": [
+      "EIP-M8-03-B06"
+    ]
+  }
+]

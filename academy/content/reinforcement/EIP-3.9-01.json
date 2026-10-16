@@ -1,0 +1,203 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "ESG integration principally means ______.",
+      "Integração ESG significa principalmente ______."
+    ],
+    "options": [
+      [
+        "excluding every issuer with any controversial revenue",
+        "excluir todo emissor com qualquer receita controversa"
+      ],
+      [
+        "buying only one environmental theme",
+        "comprar apenas um tema ambiental"
+      ],
+      [
+        "incorporating relevant environmental, social and governance information into investment analysis",
+        "incorporar informações ambientais, sociais e de governança relevantes à análise de investimento"
+      ],
+      [
+        "using ownership dialogue as the only investment-selection rule",
+        "usar diálogo societário como única regra de seleção"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Integration uses relevant ESG information in financial analysis; it need not exclude every controversial issuer. Exclusions, thematic allocation and stewardship are distinct approaches with their own mechanisms. The actual binding policy must be read before assuming a product meets a particular client preference.",
+      "A integração usa informações ESG relevantes na análise financeira; não precisa excluir todo emissor controverso. Exclusões, alocação temática e engajamento são abordagens distintas com mecanismos próprios. A política vinculante efetiva deve ser lida antes de presumir que um produto atende à preferência específica do cliente."
+    ],
+    "blocks": [
+      "EIP-3.9-01-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Financial materiality asks how an ESG issue affects ______.",
+      "A materialidade financeira pergunta como uma questão ESG afeta ______."
+    ],
+    "options": [
+      [
+        "investment cash flows, financing, value or required return",
+        "fluxos, financiamento, valor ou retorno exigido do investimento"
+      ],
+      [
+        "only the activity’s impact on people or the environment",
+        "apenas o impacto da atividade sobre pessoas ou ambiente"
+      ],
+      [
+        "only the client’s ethical exclusion list",
+        "apenas a lista de exclusões éticas do cliente"
+      ],
+      [
+        "a guaranteed improvement in every sustainability metric",
+        "uma melhoria garantida em toda métrica de sustentabilidade"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Financial materiality concerns effects on the investment; impact analysis concerns effects of activities on people or the environment. Both can matter, but evidence of one does not establish the other. An environmentally useful activity can still be a financially risky purchase at its price.",
+      "A materialidade financeira diz respeito aos efeitos sobre o investimento; a análise de impacto diz respeito aos efeitos das atividades sobre pessoas ou ambiente. Ambas podem importar, mas evidência de uma não estabelece a outra. Uma atividade ambientalmente útil ainda pode ser compra financeiramente arriscada ao preço oferecido."
+    ],
+    "blocks": [
+      "EIP-3.9-01-B02"
+    ]
+  },
+  {
+    "type": "matching",
+    "prompt": [
+      "Match each approach to its mechanism.",
+      "Associe cada abordagem ao seu mecanismo."
+    ],
+    "concepts": [
+      [
+        "Exclusion",
+        "Exclusão"
+      ],
+      [
+        "Best-in-class",
+        "Melhor da classe"
+      ],
+      [
+        "Engagement",
+        "Engajamento"
+      ]
+    ],
+    "definitions": [
+      [
+        "Dialogue, voting or stewardship actions seeking change",
+        "Diálogo, voto ou ações de engajamento buscando mudança"
+      ],
+      [
+        "Removal of specified exposures from the investable universe",
+        "Remoção de exposições especificadas do universo investível"
+      ],
+      [
+        "Comparison of issuers under a methodology, often within sectors",
+        "Comparação de emissores sob uma metodologia, frequentemente dentro de setores"
+      ]
+    ],
+    "answer": [
+      1,
+      2,
+      0
+    ],
+    "explanation": [
+      "Exclusion removes defined exposures; best-in-class ranks or selects under a comparative method; engagement uses ownership processes to seek change. A favourable relative rank can still include an issuer prohibited by a client’s exclusion. Meetings alone do not prove engagement outcomes, and none of the methods guarantees higher return or real-world additional impact.",
+      "A exclusão remove exposições definidas; a seleção de melhores da classe classifica ou seleciona sob método comparativo; o engajamento usa processos societários para buscar mudança. Uma posição relativa favorável ainda pode incluir emissor proibido pela exclusão do cliente. Reuniões isoladas não provam resultados, e nenhum método garante retorno maior ou impacto adicional no mundo real."
+    ],
+    "blocks": [
+      "EIP-3.9-01-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A fund integrating ESG holds 3% in an issuer with fossil-fuel revenue. A client invests €20,000 and requires zero exposure to any such revenue. What follows under simple look-through assumptions?",
+      "Um fundo que integra ESG tem 3% em emissor com receita de combustíveis fósseis. Um cliente investe €20,000 e exige exposição zero a qualquer receita desse tipo. O que decorre sob hipóteses simples de análise indireta?"
+    ],
+    "options": [
+      [
+        "No exposure because ESG integration means exclusion.",
+        "Nenhuma exposição porque integração ESG significa exclusão."
+      ],
+      [
+        "€600 exposure; a strong relative ESG rating does not satisfy the stated zero-tolerance requirement.",
+        "Exposição de €600; uma classificação ESG relativa forte não atende à exigência informada de tolerância zero."
+      ],
+      [
+        "€600 exposure, which necessarily meets every preference because it is small.",
+        "Exposição de €600, que necessariamente atende a toda preferência porque é pequena."
+      ],
+      [
+        "€6,000 exposure because the 3% weight is applied ten times.",
+        "Exposição de €6,000 porque o peso de 3% é aplicado dez vezes."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Exposure is 20,000 × 0.03 = €600. Integration evaluates information but does not necessarily exclude the issuer. A zero-tolerance preference is not satisfied merely by a small holding or a good relative score. Verify the exact exclusion policy and otherwise suitable alternatives rather than silently redefining the client’s wish as lower financial risk.",
+      "A exposição é 20,000 × 0.03 = €600. A integração avalia informações, mas não exclui necessariamente o emissor. Uma preferência de tolerância zero não é atendida apenas por uma posição pequena ou nota relativa boa. Verifique a política exata de exclusão e alternativas de outro modo adequadas, sem redefinir silenciosamente o desejo como menor risco financeiro."
+    ],
+    "blocks": [
+      "EIP-3.9-01-B03"
+    ],
+    "calculation": {
+      "method": "weighted_amount",
+      "inputs": [
+        20000,
+        0.03
+      ],
+      "expected": 600
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Issuer intensities remain 100 and 20 on the same scope. Portfolio weights change from 50/50 to 25/75. Which statement correctly distinguishes the metric and impact?",
+      "As intensidades dos emissores permanecem 100 e 20 no mesmo escopo. Os pesos da carteira mudam de 50/50 para 25/75. Qual afirmação distingue corretamente a métrica e o impacto?"
+    ],
+    "options": [
+      [
+        "Issuer emissions necessarily fell one third because the portfolio metric fell.",
+        "As emissões dos emissores necessariamente caíram um terço porque a métrica da carteira caiu."
+      ],
+      [
+        "Portfolio intensity falls 20%, from 60 to 40.",
+        "A intensidade da carteira cai 20%, de 60 para 40."
+      ],
+      [
+        "The weighted metric remains 60 because issuer intensities are unchanged.",
+        "A métrica ponderada permanece 60 porque as intensidades dos emissores não mudam."
+      ],
+      [
+        "Weighted intensity falls from 60 to 40, one third, without proving a real-world emissions reduction.",
+        "A intensidade ponderada cai de 60 para 40, um terço, sem provar redução de emissões no mundo real."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Initial metric is 0.5 × 100 + 0.5 × 20 = 60. New metric is 0.25 × 100 + 0.75 × 20 = 40; the decline is 20/60 = one third. Twenty is the absolute metric change, not a 20% decline. The transaction changes portfolio allocation while issuer metrics remain fixed, so claiming additional avoided emissions would exceed the evidence.",
+      "A métrica inicial é 0.5 × 100 + 0.5 × 20 = 60. A nova é 0.25 × 100 + 0.75 × 20 = 40; a queda é 20/60 = um terço. Vinte é a mudança absoluta da métrica, não queda de 20%. A transação muda a alocação enquanto as métricas dos emissores ficam fixas, portanto alegar emissões adicionais evitadas excederia a evidência."
+    ],
+    "blocks": [
+      "EIP-3.9-01-B05"
+    ],
+    "calculation": {
+      "method": "intensity_weights",
+      "inputs": [
+        100,
+        20,
+        0.5,
+        0.25
+      ],
+      "expected": [
+        60,
+        40,
+        0.3333333333333333
+      ]
+    }
+  }
+]

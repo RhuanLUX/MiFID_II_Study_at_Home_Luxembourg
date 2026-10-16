@@ -1,0 +1,193 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "An essential cash reserve is best treated in the allocation model as ______.",
+      "Uma reserva essencial de caixa é melhor tratada no modelo de alocação como ______."
+    ],
+    "options": [
+      [
+        "a soft preference cancelled by higher expected return elsewhere",
+        "uma preferência flexível anulada por retorno esperado maior em outro lugar"
+      ],
+      [
+        "a hard boundary reflecting the actual need",
+        "um limite firme que reflete a necessidade efetiva"
+      ],
+      [
+        "an asset to exclude from every portfolio denominator",
+        "um ativo a excluir de todo denominador de carteira"
+      ],
+      [
+        "an assumed future contribution available before receipt",
+        "um aporte futuro suposto disponível antes do recebimento"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A required reserve expresses a real access or spending constraint. Expected return elsewhere does not supply the necessary cash on time. Define the whole portfolio and the tradable remainder explicitly rather than treating constraints as obstacles to remove for a more attractive optimiser result.",
+      "Uma reserva exigida expressa restrição real de acesso ou gasto. Retorno esperado em outro lugar não fornece o dinheiro necessário a tempo. Defina expressamente a carteira inteira e o restante negociável, em vez de tratar restrições como obstáculos a remover para melhorar o resultado do otimizador."
+    ],
+    "blocks": [
+      "EIP-5.3-02-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A precise optimised weight such as 17.382% ______ that expected returns and covariances are known precisely.",
+      "Um peso otimizado preciso como 17.382% ______ que retornos esperados e covariâncias sejam conhecidos precisamente."
+    ],
+    "options": [
+      [
+        "does not demonstrate",
+        "não demonstra"
+      ],
+      [
+        "proves",
+        "prova"
+      ],
+      [
+        "makes sensitivity testing unnecessary, proving",
+        "torna desnecessário testar sensibilidade, provando"
+      ],
+      [
+        "removes sample uncertainty, demonstrating",
+        "remove a incerteza amostral, demonstrando"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Numerical precision follows the algorithm and supplied inputs; economic uncertainty remains. Small input changes can create large weight changes. Test plausible estimates and implementation costs and prefer a defensible feasible plan over a fragile optimum that depends on one favourable sample or forecast.",
+      "A precisão numérica segue o algoritmo e os dados fornecidos; a incerteza econômica permanece. Pequenas mudanças podem criar grandes alterações de pesos. Teste estimativas plausíveis e custos de implementação e prefira um plano viável defensável a um ótimo frágil dependente de uma única amostra ou previsão favorável."
+    ],
+    "blocks": [
+      "EIP-5.3-02-B04"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "After essential reserves, €45,000 is available. A class requires €50,000 and no alternative eligibility applies. What follows?",
+      "Após reservas essenciais, há €45,000 disponíveis. Uma classe exige €50,000 e nenhuma elegibilidade alternativa se aplica. O que decorre?"
+    ],
+    "options": [
+      [
+        "Use €5,000 of the essential reserve as a harmless rounding adjustment.",
+        "Use €5,000 da reserva essencial como ajuste inofensivo de arredondamento."
+      ],
+      [
+        "Report the ideal weight even if the class cannot actually be bought.",
+        "Reporte o peso ideal mesmo se a classe não puder ser comprada."
+      ],
+      [
+        "Treat the expected first-year return as cash already available for subscription.",
+        "Trate o retorno esperado do primeiro ano como caixa já disponível para subscrição."
+      ],
+      [
+        "The class is infeasible on these facts; assess an eligible alternative or allocation.",
+        "A classe é inviável nesses fatos; avalie alternativa elegível ou outra alocação."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "A €5,000 eligibility gap cannot be filled by silently violating the essential reserve. Feasibility concerns amounts actually available before purchase, not an optimiser’s ideal percentages or future hoped-for return. Different eligible classes or instruments require their own costs, risks and suitability comparison.",
+      "Uma lacuna de elegibilidade de €5,000 não pode ser preenchida violando silenciosamente a reserva essencial. Viabilidade diz respeito aos valores efetivamente disponíveis antes da compra, não aos percentuais ideais ou retorno futuro esperado. Classes ou instrumentos elegíveis diferentes exigem comparação própria de custos, riscos e adequação."
+    ],
+    "blocks": [
+      "EIP-5.3-02-B02"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "€100,000 total includes €30,000 illiquid equity and €70,000 liquid assets. Reserve must be €25,000 and total equity at most 40%, including the illiquid holding. What new-equity headroom and unreserved liquid capital remain?",
+      "O total de €100,000 inclui €30,000 em ações ilíquidas e €70,000 líquidos. A reserva deve ser €25,000 e as ações totais no máximo 40%, incluindo a posição ilíquida. Quais folga para novas ações e capital líquido sem reserva restam?"
+    ],
+    "options": [
+      [
+        "€28,000 and €70,000, applying 40% only to the liquid account",
+        "€28,000 e €70,000, aplicando 40% apenas à conta líquida"
+      ],
+      [
+        "€40,000 and €45,000, ignoring existing equity",
+        "€40,000 e €45,000, ignorando as ações existentes"
+      ],
+      [
+        "€10,000 and €45,000",
+        "€10,000 e €45,000"
+      ],
+      [
+        "€10,000 and €70,000, ignoring the reserve",
+        "€10,000 e €70,000, ignorando a reserva"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Whole-portfolio equity ceiling is 100,000 × 0.40 = €40,000. Existing equity uses €30,000, leaving €10,000 headroom. Liquid capital beyond reserve is 70,000 − 25,000 = €45,000. Applying a new 40% allocation to the liquid account ignores the existing exposure and would breach the overall limit. These amounts define feasibility, not a final product recommendation.",
+      "O limite de ações da carteira inteira é 100,000 × 0.40 = €40,000. As ações existentes usam €30,000, restando folga de €10,000. O capital líquido além da reserva é 70,000 − 25,000 = €45,000. Aplicar nova alocação de 40% à conta líquida ignora a exposição existente e violaria o limite global. Esses valores definem viabilidade, não recomendação final de produto."
+    ],
+    "blocks": [
+      "EIP-5.3-02-B03"
+    ],
+    "calculation": {
+      "method": "allocation_headroom",
+      "inputs": [
+        100000,
+        0.4,
+        30000,
+        70000,
+        25000
+      ],
+      "expected": [
+        10000,
+        45000
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Switching a €100,000 portfolio is modelled to add 0.3 percentage point annually but costs €1,000 immediately. For the lesson’s simplified constant-euro, no-discounting/no-compounding comparison, what first-year net effect and break-even period follow?",
+      "Trocar uma carteira de €100,000 é modelado para acrescentar 0.3 ponto percentual anual, mas custa €1,000 imediatamente. Na comparação simplificada da aula com euros constantes, sem desconto nem capitalização, quais efeito líquido do primeiro ano e prazo de equilíbrio decorrem?"
+    ],
+    "options": [
+      [
+        "+€300; one year, ignoring switching cost",
+        "+€300; um ano, ignorando o custo de troca"
+      ],
+      [
+        "−€700; approximately 3.3333 years to recover the cost under the assumptions",
+        "−€700; aproximadamente 3.3333 anos para recuperar o custo sob as hipóteses"
+      ],
+      [
+        "−€1,000; no benefit is included in the model",
+        "−€1,000; nenhum benefício é incluído no modelo"
+      ],
+      [
+        "−€997; about 333.3333 years, applying 0.3% to the fee instead of portfolio",
+        "−€997; cerca de 333.3333 anos, aplicando 0.3% à tarifa em vez da carteira"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Annual model advantage is 100,000 × 0.003 = €300. One-year net effect is 300 − 1,000 = −€700; simple recovery time is 1,000/300 ≈ 3.3333 years. A one-year client horizon would not recover the charge under this model. The estimated advantage can be uncertain; a complete assessment needs actual costs, tax, risk, discounting and timing rather than a promise of eventual savings.",
+      "A vantagem anual do modelo é 100,000 × 0.003 = €300. O efeito líquido em um ano é 300 − 1,000 = −€700; o prazo simples é 1,000/300 ≈ 3.3333 anos. Um horizonte do cliente de um ano não recuperaria a cobrança nesse modelo. A vantagem estimada pode ser incerta; a avaliação completa exige custos, imposto, risco, desconto e prazo efetivos, não promessa de economia futura."
+    ],
+    "blocks": [
+      "EIP-5.3-02-B05"
+    ],
+    "calculation": {
+      "method": "switch_break_even",
+      "inputs": [
+        100000,
+        0.003,
+        1000
+      ],
+      "expected": [
+        -700,
+        3.3333333333333335
+      ]
+    }
+  }
+]

@@ -1,0 +1,193 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Reinvestment risk concerns ______.",
+      "O risco de reinvestimento diz respeito a ______."
+    ],
+    "options": [
+      [
+        "only whether the original issuer defaults",
+        "apenas se o emissor original entra em inadimplência"
+      ],
+      [
+        "only the market price at purchase",
+        "apenas o preço de mercado na compra"
+      ],
+      [
+        "what interim receipts can earn before the final spending date",
+        "quanto recebimentos intermediários podem render antes da data final de gasto"
+      ],
+      [
+        "the legal ranking of a bond alone",
+        "apenas a prioridade jurídica de um título"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Coupons received before a final goal may need to be reinvested. Their future available rates can differ from purchase YTM. Full payment by the original issuer therefore does not guarantee the terminal wealth obtained by assuming all coupons earn that YTM.",
+      "Cupons recebidos antes de uma meta final podem precisar ser reinvestidos. As taxas futuras disponíveis podem diferir do rendimento até o vencimento na compra. O pagamento integral pelo emissor original, portanto, não garante a riqueza terminal obtida supondo que todos os cupons rendam essa taxa."
+    ],
+    "blocks": [
+      "EIP-3.4-06-B04"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A bond maturing before the client’s spending goal creates a potential ______ need until that goal.",
+      "Um título que vence antes da meta de gasto do cliente cria uma possível necessidade de ______ até essa meta."
+    ],
+    "options": [
+      [
+        "sale of the still-unmatured bond at the later goal date",
+        "venda do título ainda não vencido na data posterior da meta"
+      ],
+      [
+        "reinvestment or cash holding",
+        "reinvestimento ou manutenção em caixa"
+      ],
+      [
+        "borrowing until maturity, even though principal has already been received",
+        "tomada de empréstimo até o vencimento, embora o principal já tenha sido recebido"
+      ],
+      [
+        "extension of the old contractual yield automatically until the goal",
+        "extensão automática do rendimento contratual anterior até a meta"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Earlier maturity leaves an interval between receipt and spending. The investor must hold cash or reinvest under then-available terms. Maturity after the goal instead creates a possible sale or financing need. Neither mismatch is resolved merely by selecting the largest quoted yield.",
+      "Um vencimento anterior deixa um intervalo entre recebimento e gasto. O investidor precisa manter caixa ou reinvestir nas condições então disponíveis. Um vencimento posterior cria possível necessidade de venda ou financiamento. Nenhum descasamento é resolvido simplesmente escolhendo a maior taxa cotada."
+    ],
+    "blocks": [
+      "EIP-3.4-06-B06"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Market yields fall after purchase of a fully performing fixed-coupon bond. Which two effects can coexist?",
+      "As taxas de mercado caem após a compra de um título de cupom fixo pago integralmente. Quais dois efeitos podem coexistir?"
+    ],
+    "options": [
+      [
+        "A higher market price and lower future coupon-reinvestment income",
+        "Um preço de mercado maior e menor renda futura de reinvestimento dos cupons"
+      ],
+      [
+        "A lower market price and guaranteed higher reinvestment income",
+        "Um preço de mercado menor e renda maior de reinvestimento garantida"
+      ],
+      [
+        "An unchanged price and an automatic coupon increase",
+        "Um preço inalterado e um aumento automático do cupom"
+      ],
+      [
+        "No investment effect because no default occurred",
+        "Nenhum efeito de investimento porque não houve inadimplência"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Lower required yields can raise the present price of fixed payments while lowering the rates available on coupons received later. The channels can work in opposite directions. Contractual coupons need not change, and absence of default does not eliminate price, reinvestment or liquidity issues. The client’s spending or accumulation objective determines which cash flows matter.",
+      "Taxas exigidas menores podem elevar o preço presente de pagamentos fixos enquanto reduzem as taxas disponíveis para cupons recebidos depois. Os canais podem agir em direções opostas. Cupons contratuais não precisam mudar, e ausência de inadimplência não elimina questões de preço, reinvestimento ou liquidez. O objetivo de gasto ou acumulação do cliente determina quais fluxos importam."
+    ],
+    "blocks": [
+      "EIP-3.4-06-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A holding of €100,000 nominal can be sold at an executable 94% bid for its full size. Costs are €80, accrued interest zero and settlement timely. A bill requires €95,000. What is the funding shortfall?",
+      "Uma posição de €100,000 nominais pode ser vendida a preço de compra executável de 94% para todo o tamanho. Custos de €80, juros acumulados zero e liquidação no prazo. Uma conta exige €95,000. Qual é a insuficiência de financiamento?"
+    ],
+    "options": [
+      [
+        "Zero, because nominal exceeds the bill",
+        "Zero, pois o nominal supera a conta"
+      ],
+      [
+        "€1,000, ignoring fees",
+        "€1,000, ignorando tarifas"
+      ],
+      [
+        "€4,080, the difference from a 98% statement value",
+        "€4,080, a diferença em relação à avaliação de extrato de 98%"
+      ],
+      [
+        "€1,080",
+        "€1,080"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Net cash is 100,000 × 0.94 − 80 = €93,920. Relative to €95,000 required, the gap is €1,080. Nominal principal is not early-sale proceeds. €4,080 compares with a different reference, the €98,000 statement value, rather than the bill. The full-size executable quote and timely settlement are necessary assumptions.",
+      "O caixa líquido é 100,000 × 0.94 − 80 = €93,920. Em relação aos €95,000 necessários, a lacuna é €1,080. O principal nominal não é o recebimento de venda antecipada. €4,080 compara com outra referência, o valor de extrato de €98,000, em vez da conta. A cotação executável para todo o tamanho e a liquidação no prazo são hipóteses necessárias."
+    ],
+    "blocks": [
+      "EIP-3.4-06-B03"
+    ],
+    "calculation": {
+      "method": "sale_shortfall",
+      "inputs": [
+        100000,
+        0.94,
+        80,
+        95000
+      ],
+      "expected": [
+        93920,
+        1080
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A client invests €25,000 in a five-year position but needs €25,000 after two years. Annual coupons of €900 are kept in zero-interest cash. Immediately after the second coupon, sale value is €22,000. Ignore fees and tax. What resources and shortfall exist at the goal?",
+      "Um cliente investe €25,000 em uma posição de cinco anos, mas precisa de €25,000 após dois anos. Cupons anuais de €900 ficam em caixa sem juros. Logo após o segundo cupom, o valor de venda é €22,000. Ignore tarifas e impostos. Quais recursos e insuficiência existem na meta?"
+    ],
+    "options": [
+      [
+        "Resources €25,000; no shortfall because maturity principal is promised",
+        "Recursos €25,000; sem insuficiência porque o principal no vencimento é prometido"
+      ],
+      [
+        "Resources €23,800; shortfall €1,200 despite full coupon payment",
+        "Recursos €23,800; insuficiência €1,200 apesar do pagamento integral dos cupons"
+      ],
+      [
+        "Resources €22,900; shortfall €2,100",
+        "Recursos €22,900; insuficiência €2,100"
+      ],
+      [
+        "Resources €26,800; surplus €1,800",
+        "Recursos €26,800; excedente €1,800"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "At the goal, resources are 22,000 + 900 + 900 = €23,800, leaving 25,000 − 23,800 = €1,200. €22,900 omits one saved coupon; €26,800 assumes maturity principal is available at year 2. Full issuer performance does not remove the horizon mismatch. A favourable alternative sale scenario would not eliminate this adverse scenario, so a dated funding plan must test the required sale value.",
+      "Na meta, os recursos são 22,000 + 900 + 900 = €23,800, restando 25,000 − 23,800 = €1,200. €22,900 omite um cupom guardado; €26,800 supõe que o principal do vencimento esteja disponível no ano 2. O cumprimento integral do emissor não elimina o descasamento de prazo. Um cenário alternativo favorável de venda não eliminaria esse cenário adverso, portanto um plano datado deve testar o valor de venda necessário."
+    ],
+    "blocks": [
+      "EIP-3.4-06-B07"
+    ],
+    "calculation": {
+      "method": "goal_sale",
+      "inputs": [
+        25000,
+        22000,
+        900,
+        2
+      ],
+      "expected": [
+        23800,
+        1200
+      ]
+    }
+  }
+]

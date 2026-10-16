@@ -1,0 +1,198 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "What should come first in a fund selection?",
+      "O que deve vir primeiro na seleção de um fundo?"
+    ],
+    "options": [
+      [
+        "The fund with the best recent return rank",
+        "O fundo com a melhor classificação de retorno recente"
+      ],
+      [
+        "The cheapest class shown in a database, regardless of eligibility",
+        "A classe mais barata exibida em uma base, independentemente da elegibilidade"
+      ],
+      [
+        "The client’s objective, horizon, loss capacity and constraints",
+        "O objetivo, horizonte, capacidade de suportar perdas e restrições do cliente"
+      ],
+      [
+        "The fund name’s similarity to the desired income",
+        "A semelhança do nome do fundo com a renda desejada"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Client needs define which product features matter. High past return or low cost does not repair a strategy or liquidity mismatch. Identify the exact accessible class and compare policy, risk, currency and cost evidence against the client’s actual purpose before interpreting performance ranks.",
+      "As necessidades do cliente definem quais características importam. Retorno passado alto ou custo baixo não corrige incompatibilidade de estratégia ou liquidez. Identifique a classe exata acessível e compare política, risco, moeda e custos com a finalidade efetiva antes de interpretar classificações de desempenho."
+    ],
+    "blocks": [
+      "EIP-3.8-05-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "The principal document for a fund’s permitted assets, policy and dealing rules is its ______.",
+      "O documento principal para ativos permitidos, política e regras de negociação de um fundo é seu ______."
+    ],
+    "options": [
+      [
+        "prospectus",
+        "prospecto"
+      ],
+      [
+        "recent performance ranking",
+        "ranking de desempenho recente"
+      ],
+      [
+        "past NAV chart alone",
+        "gráfico passado da cota apenas"
+      ],
+      [
+        "umbrella’s promotional name",
+        "nome promocional da estrutura guarda-chuva"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The prospectus defines policy, dealing and principal risks; periodic reports show actual implementation and class data describe its prices and distributions. Marketing and concise disclosures should be consistent with those documents. Record dates and identifiers because a fact sheet may refer to another class or lag a change.",
+      "O prospecto define política, negociação e principais riscos; relatórios periódicos mostram implementação efetiva, e dados de classe descrevem preços e distribuições. Marketing e divulgações resumidas devem ser consistentes com esses documentos. Registre datas e identificadores porque uma ficha pode referir-se a outra classe ou estar defasada."
+    ],
+    "blocks": [
+      "EIP-3.8-05-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Fund B’s lower NAV rise is compared with accumulating Fund A’s total return. B also distributed cash. What is needed first?",
+      "A menor alta da cota de B é comparada ao retorno total de A, que acumula. B também distribuiu dinheiro. O que é necessário primeiro?"
+    ],
+    "options": [
+      [
+        "Treat the NAV rises as comparable returns and ignore cash.",
+        "Tratar as altas das cotas como retornos comparáveis e ignorar o dinheiro."
+      ],
+      [
+        "Add the same distribution to A even if already reinvested in its return.",
+        "Somar a mesma distribuição a A mesmo se já reinvestida em seu retorno."
+      ],
+      [
+        "Conclude the larger headline return proves superior management skill.",
+        "Concluir que o maior retorno anunciado prova gestão superior."
+      ],
+      [
+        "Reconstruct comparable investor outcomes including distributions and align class, costs, currency and timing.",
+        "Reconstruir resultados comparáveis incluindo distribuições e alinhar classe, custos, moeda e momento."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "A distributing NAV chart omits cash transferred out, while accumulating total return retains it under its convention. Reconcile those flows before assessing a gap. Adding distributions already included in A double counts. A small corrected difference still does not establish skill or suitability without comparable risk and accessible class terms.",
+      "Um gráfico da cota de distribuição omite dinheiro transferido para fora, enquanto o retorno total acumulado o mantém sob sua convenção. Concilie esses fluxos antes de avaliar a diferença. Somar distribuições já incluídas em A duplica a contagem. Uma pequena diferença corrigida ainda não estabelece habilidade ou adequação sem risco comparável e condições de classe acessível."
+    ],
+    "blocks": [
+      "EIP-3.8-05-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "With €10,000 initial cash and no entry charges, A’s total return is 18%. B’s NAV rises 8% and pays €900 distributions held as cash. What ending wealth difference follows before other alignment questions?",
+      "Com caixa inicial de €10,000 e sem entrada, o retorno total de A é 18%. A cota de B sobe 8% e paga €900 de distribuições guardadas em caixa. Qual diferença de riqueza final decorre antes de outras questões de comparabilidade?"
+    ],
+    "options": [
+      [
+        "A leads by €1,000, comparing 18% with 8% only.",
+        "A supera em €1,000, comparando apenas 18% com 8%."
+      ],
+      [
+        "A leads by €100: €11,800 versus €11,700.",
+        "A supera em €100: €11,800 contra €11,700."
+      ],
+      [
+        "B leads by €900 because A pays no cash.",
+        "B supera em €900 porque A não paga dinheiro."
+      ],
+      [
+        "The two necessarily have identical wealth because both are funds.",
+        "Os dois necessariamente têm riqueza idêntica porque ambos são fundos."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A ends at €11,800. B has €10,800 units plus €900 cash = €11,700, leaving only €100 difference. Comparing 18% with an 8% NAV rise omits B’s distributions. A’s accumulating result can include retained income without a separate cash payment. This arithmetic does not settle risk, currency, timing or class-cost comparability.",
+      "A termina em €11,800. B tem €10,800 em cotas mais €900 em caixa = €11,700, restando apenas €100 de diferença. Comparar 18% com alta de cota de 8% omite as distribuições de B. O resultado acumulado de A pode incluir renda retida sem pagamento separado. A aritmética não resolve comparabilidade de risco, moeda, prazo ou custos de classe."
+    ],
+    "blocks": [
+      "EIP-3.8-05-B05"
+    ],
+    "calculation": {
+      "method": "fund_distribution_compare",
+      "inputs": [
+        10000,
+        0.18,
+        0.08,
+        900
+      ],
+      "expected": [
+        11800,
+        11700,
+        100
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An €80,000 portfolio contains €30,000 in X, which has 40% exposure to a technology group. New cash adds €20,000 of Y, which has 50% in the same group. If that group alone loses 40%, what new weight and isolated euro loss follow?",
+      "Uma carteira de €80,000 contém €30,000 em X, que tem 40% de exposição a um grupo tecnológico. Caixa novo acrescenta €20,000 de Y, que tem 50% no mesmo grupo. Se apenas esse grupo perde 40%, quais novo peso e perda isolada em euros decorrem?"
+    ],
+    "options": [
+      [
+        "27.5%; €8,800, ignoring the new cash in the denominator",
+        "27.5%; €8,800, ignorando o caixa novo no denominador"
+      ],
+      [
+        "15%; €4,800, ignoring the new fund’s overlap",
+        "15%; €4,800, ignorando a sobreposição do novo fundo"
+      ],
+      [
+        "22%; €8,800, which is 8.8% of the new portfolio",
+        "22%; €8,800, equivalentes a 8.8% da nova carteira"
+      ],
+      [
+        "10%; €4,000, counting Y alone",
+        "10%; €4,000, contando apenas Y"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Existing exposure is 30,000 × 0.40 = €12,000; Y adds €10,000, totalling €22,000. Total investments rise to €100,000, so weight is 22%. The isolated loss is 22,000 × 0.40 = €8,800. Fund count rose while common concentration increased from 15% to 22%. Other correlated exposures could add losses, so this channel is not a worst-case bound.",
+      "A exposição existente é 30,000 × 0.40 = €12,000; Y acrescenta €10,000, somando €22,000. Os investimentos totais sobem para €100,000, portanto o peso é 22%. A perda isolada é 22,000 × 0.40 = €8,800. O número de fundos cresceu enquanto a concentração comum aumentou de 15% para 22%. Outras exposições correlacionadas poderiam acrescentar perdas, portanto esse canal não é um limite de pior caso."
+    ],
+    "blocks": [
+      "EIP-3.8-05-B07"
+    ],
+    "calculation": {
+      "method": "fund_overlap",
+      "inputs": [
+        80000,
+        30000,
+        0.4,
+        20000,
+        0.5,
+        0.4
+      ],
+      "expected": [
+        22000,
+        0.22,
+        8800,
+        0.088
+      ]
+    }
+  }
+]

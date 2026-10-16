@@ -1,0 +1,195 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A 60/40 allocation has a meaningful financial interpretation only when ______.",
+      "Uma alocação 60/40 tem interpretação financeira significativa apenas quando ______."
+    ],
+    "options": [
+      [
+        "the client’s age alone determines it",
+        "apenas a idade do cliente a determina"
+      ],
+      [
+        "the capital pool and excluded commitments/reserves are defined",
+        "o conjunto de capital e compromissos/reservas excluídos são definidos"
+      ],
+      [
+        "the whole household and every sub-account use the same denominator",
+        "a família inteira e toda subconta usam o mesmo denominador"
+      ],
+      [
+        "the highest expected-return frontier point is chosen first",
+        "o ponto de maior retorno esperado da fronteira é escolhido primeiro"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Weights apply to a specified pool. Long-term investable capital can differ from total liquid wealth because liabilities and reserves have other purposes. Naming the denominator prevents a 60% long-term equity weight being misrepresented as 60% of the entire financial position. Product selection still needs access, credit and suitability checks.",
+      "Pesos aplicam-se a um conjunto especificado. O capital de longo prazo pode diferir da riqueza líquida total porque obrigações e reservas têm outras finalidades. Nomear o denominador evita apresentar peso de 60% em ações de longo prazo como 60% da posição financeira inteira. Selecionar produtos ainda exige acesso, crédito e adequação."
+    ],
+    "blocks": [
+      "EIP-5.4-02-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A required deterministic growth rate for a goal is ______ an allocation’s guaranteed achievable return.",
+      "Uma taxa determinística de crescimento exigida por uma meta ______ o retorno garantido alcançável por uma alocação."
+    ],
+    "options": [
+      [
+        "not the same as",
+        "não é o mesmo que"
+      ],
+      [
+        "always identical to",
+        "é sempre idêntica a"
+      ],
+      [
+        "made certain by choosing a slightly higher expected return than",
+        "é tornada certa ao escolher retorno esperado ligeiramente maior que"
+      ],
+      [
+        "a reason to ignore capacity in pursuit of",
+        "é razão para ignorar capacidade em busca de"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The required rate exposes what a no-flow constant-growth plan would need. Actual returns vary and can create shortfalls even with a higher expectation. If the risk is unacceptable, consider contributions, horizon or target changes instead of manufacturing a return assumption or increasing leverage to force the equation.",
+      "A taxa exigida revela o que um plano de crescimento constante sem fluxos precisaria. Retornos efetivos variam e podem criar insuficiências mesmo com expectativa maior. Se o risco for inaceitável, considere aportes, horizonte ou mudança de meta, em vez de fabricar hipótese de retorno ou elevar alavancagem para forçar a equação."
+    ],
+    "blocks": [
+      "EIP-5.4-02-B06"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A portfolio outperforms its benchmark but cannot fund the client’s bill on time. Which interpretation is correct?",
+      "Uma carteira supera seu índice de referência, mas não financia a conta do cliente a tempo. Qual interpretação está correta?"
+    ],
+    "options": [
+      [
+        "Benchmark outperformance proves the financial goal was met.",
+        "Superar o índice prova que a meta financeira foi atendida."
+      ],
+      [
+        "The client’s payment date should be redefined after observing performance.",
+        "A data de pagamento deve ser redefinida após observar o desempenho."
+      ],
+      [
+        "Relative investment performance and funding a personal dated liability are different assessments.",
+        "Desempenho relativo e financiamento de obrigação pessoal datada são avaliações diferentes."
+      ],
+      [
+        "An efficient label guarantees the missing cash despite actual timing.",
+        "Um rótulo de eficiente garante o caixa faltante apesar do prazo efetivo."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "A benchmark evaluates a chosen comparison, while the personal goal requires a particular amount and access date. Strong relative returns can coexist with a shortfall or late settlement. The plan must connect allocations and product access to the client’s liability, then review material changes rather than using outperformance as a substitute for goal fulfilment.",
+      "Um índice avalia uma comparação escolhida, enquanto a meta pessoal exige valor e data de acesso específicos. Retornos relativos fortes podem coexistir com insuficiência ou liquidação atrasada. O plano deve conectar alocações e acesso à obrigação do cliente, revisando mudanças materiais, sem substituir o cumprimento da meta por desempenho superior."
+    ],
+    "blocks": [
+      "EIP-5.4-02-B09"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Liquid assets are €180,000; a €50,000 one-year payment and €20,000 reserve are set aside. The remaining pool has 60% equity. What equity amount and whole-wealth percentage follow?",
+      "Os ativos líquidos são €180,000; pagamento de um ano de €50,000 e reserva de €20,000 são separados. O conjunto restante tem 60% em ações. Quais valor em ações e percentual da riqueza inteira decorrem?"
+    ],
+    "options": [
+      [
+        "€108,000; 60%, applying the allocation to the wrong pool",
+        "€108,000; 60%, aplicando a alocação ao conjunto errado"
+      ],
+      [
+        "€66,000; 60%, retaining the long-term denominator for the whole-wealth label",
+        "€66,000; 60%, mantendo o denominador de longo prazo no rótulo de riqueza inteira"
+      ],
+      [
+        "€44,000; approximately 24.4444%, using the bond amount",
+        "€44,000; aproximadamente 24.4444%, usando o valor dos títulos de dívida"
+      ],
+      [
+        "€66,000; approximately 36.6667% of total assets",
+        "€66,000; aproximadamente 36.6667% dos ativos totais"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Long-term pool is 180,000 − 50,000 − 20,000 = €110,000. Equity is 0.60 × 110,000 = €66,000, or 66,000/180,000 ≈ 36.6667% of total. The 60% label belongs only to the long-term pool. Separating cash needs is a planning structure; the actual reserve instruments still need access, counterparty and timing verification.",
+      "O conjunto de longo prazo é 180,000 − 50,000 − 20,000 = €110,000. As ações são 0.60 × 110,000 = €66,000, ou 66,000/180,000 ≈ 36.6667% do total. O rótulo de 60% pertence apenas ao conjunto de longo prazo. Separar necessidades de caixa é estrutura de planejamento; instrumentos reais de reserva ainda exigem verificar acesso, contraparte e prazo."
+    ],
+    "blocks": [
+      "EIP-5.4-02-B03"
+    ],
+    "calculation": {
+      "method": "client_pool_equity",
+      "inputs": [
+        180000,
+        50000,
+        20000,
+        0.6
+      ],
+      "expected": [
+        110000,
+        66000,
+        0.36666666666666664
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €110,000 pool must reach €200,000 in ten years, no contributions. Compare the required constant rate with a stipulated constant 6% net return. Which result is correct, without assuming market certainty?",
+      "Um conjunto de €110,000 deve chegar a €200,000 em dez anos, sem aportes. Compare a taxa constante exigida com retorno líquido constante estipulado de 6%. Qual resultado é correto, sem presumir certeza de mercado?"
+    ],
+    "options": [
+      [
+        "Required approximately 6.1607%; at 6%, about €196,993.25, leaving about €3,006.75 gap",
+        "Exigida de aproximadamente 6.1607%; a 6%, cerca de €196,993.25, com lacuna de cerca de €3,006.75"
+      ],
+      [
+        "Required 8.1818%, dividing the total gain percentage by ten",
+        "Exigida de 8.1818%, dividindo o ganho percentual total por dez"
+      ],
+      [
+        "Required 6%; €200,000 is guaranteed because 6% is close to the target rate",
+        "Exigida de 6%; €200,000 são garantidos porque 6% está perto da taxa-alvo"
+      ],
+      [
+        "Required approximately 6.1607%; any portfolio with that expectation must meet the goal",
+        "Exigida de aproximadamente 6.1607%; toda carteira com essa expectativa deve atender à meta"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Solve (200,000/110,000)^(1/10) − 1 ≈ 6.1607%. At constant 6%, wealth is 110,000 × 1.06^10 ≈ €196,993.25. Simple division of cumulative gain ignores compounding, and an expected return is not a fixed achieved path. The small deterministic gap can be dwarfed by market uncertainty. Review contributions, horizon, target and loss capacity rather than automatically adding risk.",
+      "Resolva (200,000/110,000)^(1/10) − 1 ≈ 6.1607%. A 6% constantes, a riqueza é 110,000 × 1.06^10 ≈ €196,993.25. Dividir simplesmente o ganho acumulado ignora capitalização, e retorno esperado não é trajetória fixa alcançada. A pequena lacuna determinística pode ser superada pela incerteza de mercado. Revise aportes, horizonte, meta e capacidade, sem adicionar risco automaticamente."
+    ],
+    "blocks": [
+      "EIP-5.4-02-B07"
+    ],
+    "calculation": {
+      "method": "required_goal_growth",
+      "inputs": [
+        110000,
+        200000,
+        10,
+        0.06
+      ],
+      "expected": [
+        0.06160689621814597,
+        196993.24661971402,
+        3006.7533802859834
+      ]
+    }
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Repo and reverse repo generally describe ______.",
+      "Repo e reverse repo geralmente descrevem ______."
+    ],
+    "options": [
+      [
+        "two perspectives on the same cash-and-securities arrangement",
+        "duas perspectivas do mesmo arranjo de caixa e títulos"
+      ],
+      [
+        "a securities purchase without a closing repurchase obligation",
+        "uma compra de títulos sem obrigação de recompra no fechamento"
+      ],
+      [
+        "two distinct transactions that both make the same participant the cash borrower",
+        "duas transações distintas que tornam o mesmo participante tomador de dinheiro em ambas"
+      ],
+      [
+        "an outright security sale followed by an unrelated optional repurchase",
+        "uma venda definitiva de título seguida de recompra opcional sem relação"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The cash borrower calls the arrangement a repo; the provider can call its side a reverse repo. Securities and cash exchange at opening, with agreed repurchase at closing. The agreement determines legal rights, while collateral and short maturity do not eliminate all risk.",
+      "O tomador de dinheiro chama o arranjo de repo; o provedor pode chamar seu lado de reverse repo. Títulos e dinheiro são trocados na abertura, com recompra acordada no fechamento. O contrato determina os direitos jurídicos, enquanto garantia e prazo curto não eliminam todos os riscos."
+    ],
+    "blocks": [
+      "EIP-3.3-02-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Under this lesson’s convention, a haircut is a reduction applied to ______.",
+      "Sob a convenção desta aula, haircut é uma redução aplicada a ______."
+    ],
+    "options": [
+      [
+        "the borrower’s default probability",
+        "probabilidade de inadimplência do tomador"
+      ],
+      [
+        "the agreed annual interest rate",
+        "taxa anual de juros acordada"
+      ],
+      [
+        "collateral market value to determine recognised value",
+        "valor de mercado da garantia para determinar o valor reconhecido"
+      ],
+      [
+        "the repurchase obligation regardless of collateral",
+        "obrigação de recompra independentemente da garantia"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Recognised collateral value equals market value × (1 − haircut). The haircut is a valuation buffer, not an interest payment or a measured default probability. The repo rate separately determines financing cost under the stated term and day-count convention.",
+      "O valor reconhecido da garantia é o valor de mercado × (1 − haircut). O haircut é uma margem de avaliação, não um pagamento de juros nem uma probabilidade medida de inadimplência. A taxa repo determina separadamente o custo de financiamento conforme o prazo e a convenção de contagem de dias."
+    ],
+    "blocks": [
+      "EIP-3.3-02-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Why can a margin call create liquidity stress before final default?",
+      "Por que uma chamada de margem pode criar pressão de liquidez antes da inadimplência final?"
+    ],
+    "options": [
+      [
+        "It automatically cancels the borrower’s other assets.",
+        "Ela cancela automaticamente os demais ativos do tomador."
+      ],
+      [
+        "The borrower may need eligible cash or securities promptly even while owning valuable long-term assets.",
+        "O tomador pode precisar prontamente de dinheiro ou títulos elegíveis, mesmo possuindo ativos valiosos de longo prazo."
+      ],
+      [
+        "It always equals the full repo interest.",
+        "Ela sempre equivale a todos os juros repo."
+      ],
+      [
+        "Haircuts make collateral prices constant.",
+        "Haircuts tornam constantes os preços das garantias."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Margining maintains the agreed coverage as collateral values and exposures change. Meeting a call can require usable cash or eligible securities immediately; long-run asset value is not the same as current liquidity. A haircut does not freeze prices and is separate from financing interest. Exact call terms depend on the agreement.",
+      "A margem mantém a cobertura acordada conforme valores da garantia e exposições mudam. Atender uma chamada pode exigir dinheiro utilizável ou títulos elegíveis imediatamente; valor de longo prazo não equivale a liquidez atual. Um haircut não congela preços e é separado dos juros de financiamento. Os termos exatos da chamada dependem do contrato."
+    ],
+    "blocks": [
+      "EIP-3.3-02-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Cash financing required is €1,000,000 with a 2% haircut on collateral market value. Which raw collateral value is sufficient in the exact model, rounded up to cents?",
+      "O financiamento necessário é €1,000,000, com haircut de 2% sobre o valor de mercado da garantia. Qual valor bruto da garantia é suficiente no modelo exato, arredondado para cima em centavos?"
+    ],
+    "options": [
+      [
+        "€1,020,000.00",
+        "€1,020,000.00"
+      ],
+      [
+        "€980,000.00",
+        "€980,000.00"
+      ],
+      [
+        "€1,000,000.00",
+        "€1,000,000.00"
+      ],
+      [
+        "€1,020,408.17",
+        "€1,020,408.17"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Required raw value is 1,000,000/0.98 = €1,020,408.163265…, so the sufficient cent amount is €1,020,408.17. Simply adding 2% gives €1,020,000, recognised as only €999,600, a €400 gap. €980,000 applies the haircut in the wrong direction. Contractual denominations and rounding rules can require different actual delivery amounts.",
+      "O valor bruto necessário é 1,000,000/0.98 = €1,020,408.163265…, portanto o valor suficiente em centavos é €1,020,408.17. Somar apenas 2% dá €1,020,000, reconhecidos como somente €999,600, uma lacuna de €400. €980,000 aplica o haircut na direção errada. Denominações e regras contratuais de arredondamento podem exigir valores de entrega efetivos diferentes."
+    ],
+    "blocks": [
+      "EIP-3.3-02-B05"
+    ],
+    "calculation": {
+      "method": "collateral_ceiling",
+      "inputs": [
+        1000000,
+        0.02
+      ],
+      "expected": 1020408.17
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Repo exposure including accrued interest is €1,001,000. Existing collateral is now worth €995,000 with a 2% haircut. Only additional collateral at that same haircut is permitted. What is the recognised-value shortfall and sufficient additional raw value, rounded up to cents?",
+      "A exposição repo, incluindo juros acumulados, é €1,001,000. A garantia existente agora vale €995,000, com haircut de 2%. Apenas garantia adicional com o mesmo haircut é permitida. Quais são a insuficiência de valor reconhecido e o valor bruto adicional suficiente, arredondado para cima em centavos?"
+    ],
+    "options": [
+      [
+        "Shortfall €6,000; additional €6,122.45",
+        "Insuficiência €6,000; adicional €6,122.45"
+      ],
+      [
+        "Shortfall €25,900; additional €25,900.00",
+        "Insuficiência €25,900; adicional €25,900.00"
+      ],
+      [
+        "Shortfall €25,900; additional €26,428.58",
+        "Insuficiência €25,900; adicional €26,428.58"
+      ],
+      [
+        "Shortfall €24,900; additional €25,408.17",
+        "Insuficiência €24,900; adicional €25,408.17"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Recognised value is 995,000 × 0.98 = €975,100. The gap is 1,001,000 − 975,100 = €25,900; divide by 0.98 for €26,428.571428… raw collateral, rounded up to €26,428.58. €6,000 ignores the haircut; delivering €25,900 raw leaves a gap; €24,900 omits accrued interest. This is the stipulated margin model, without thresholds or minimum transfer amounts.",
+      "O valor reconhecido é 995,000 × 0.98 = €975,100. A lacuna é 1,001,000 − 975,100 = €25,900; divida por 0.98 para obter €26,428.571428… de garantia bruta, arredondados para cima a €26,428.58. €6,000 ignora o haircut; entregar €25,900 brutos deixa uma lacuna; €24,900 omite juros acumulados. Este é o modelo de margem estipulado, sem limites ou valores mínimos de transferência."
+    ],
+    "blocks": [
+      "EIP-3.3-02-B07"
+    ],
+    "calculation": {
+      "method": "collateral_margin",
+      "inputs": [
+        1001000,
+        995000,
+        0.02
+      ],
+      "expected": [
+        25900,
+        26428.58
+      ]
+    }
+  }
+]

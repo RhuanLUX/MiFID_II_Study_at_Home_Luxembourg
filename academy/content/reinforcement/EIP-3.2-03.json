@@ -1,0 +1,195 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "For a stipulated qualifying resident private bond coupon, the 20% final levy is ______.",
+      "Para um cupom de título privado de residente estipulado como qualificável, a cobrança definitiva de 20% é ______."
+    ],
+    "options": [
+      [
+        "a creditable advance deducted from ordinary income tax",
+        "um adiantamento creditável deduzido do imposto de renda ordinário"
+      ],
+      [
+        "a final regime rather than an ordinary creditable advance",
+        "um regime definitivo, em vez de um adiantamento ordinário creditável"
+      ],
+      [
+        "refunded automatically by the ordinary movable-income allowance",
+        "restituída automaticamente pela franquia ordinária de rendimentos de capitais mobiliários"
+      ],
+      [
+        "available to every company and fund payment",
+        "disponível para toda empresa e pagamento de fundo"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The qualifying interest levy is final, unlike the ordinary advance withholding described for dividends. It is not refunded by applying the ordinary movable-income allowance. The recipient and payment conditions are essential: changing the owner to a company or the payment to fund income can invalidate eligibility.",
+      "A cobrança de juros qualificáveis é definitiva, diferentemente da retenção como adiantamento ordinário descrita para dividendos. Ela não é restituída aplicando a franquia ordinária de rendimentos de capitais mobiliários. As condições do beneficiário e do pagamento são essenciais: mudar o titular para uma empresa ou o pagamento para renda de fundo pode invalidar a elegibilidade."
+    ],
+    "blocks": [
+      "EIP-3.2-03-B04"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "What does the conditional 50% dividend exemption change?",
+      "O que a isenção condicional de 50% dos dividendos altera?"
+    ],
+    "options": [
+      [
+        "The gross-income amount on which source withholding is calculated in every case",
+        "O valor de renda bruta sobre o qual se calcula a retenção na origem em todos os casos"
+      ],
+      [
+        "Every dividend’s withholding rate automatically",
+        "Automaticamente a taxa de retenção de todo dividendo"
+      ],
+      [
+        "The applicable taxable income base when statutory conditions are met",
+        "A base de renda tributável aplicável quando as condições legais são atendidas"
+      ],
+      [
+        "The classification of all fund distributions as exempt dividends",
+        "A classificação de todas as distribuições de fundos como dividendos isentos"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The half-dividend exemption concerns the income base and depends on qualifying distributions and issuers. It does not automatically halve gross withholding or apply to every fund distribution. Source withholding and final liability must be reconciled under their separate rules.",
+      "A isenção de metade dos dividendos diz respeito à base de renda e depende de distribuições e emissores qualificáveis. Ela não reduz automaticamente pela metade a retenção sobre o bruto nem se aplica a toda distribuição de fundo. A retenção na origem e a obrigação final precisam ser conciliadas segundo suas regras separadas."
+    ],
+    "blocks": [
+      "EIP-3.2-03-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A private shareholder sells after eight months, currently owns 1%, but held 12% directly two years earlier. Which reasoning follows the lesson?",
+      "Um acionista privado vende após oito meses, possui atualmente 1%, mas detinha 12% diretamente dois anos antes. Qual raciocínio segue a aula?"
+    ],
+    "options": [
+      [
+        "The five-year participation history prevents assuming the ordinary non-significant exemption.",
+        "O histórico de participação de cinco anos impede presumir a isenção ordinária de participação não significativa."
+      ],
+      [
+        "Eight months automatically exempts all private gains.",
+        "Oito meses isentam automaticamente todos os ganhos privados."
+      ],
+      [
+        "Only the 1% held on the sale date matters.",
+        "Apenas o 1% detido na data de venda importa."
+      ],
+      [
+        "The half-dividend exemption automatically exempts half this disposal gain.",
+        "A isenção de metade dos dividendos isenta automaticamente metade desse ganho de alienação."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Article 100’s significant-participation analysis includes a five-year lookback and a strict more-than-10% test, with the taught aggregation conditions. The prior 12% holding matters even though today’s holding is 1%. Holding longer than six months resolves one branch only. A disposal gain and a dividend follow different regimes; no tax amount can be assigned without the remaining Article 100 facts.",
+      "A análise de participação significativa do artigo 100 inclui histórico de cinco anos e teste estrito de mais de 10%, com as condições de agregação ensinadas. A participação anterior de 12% importa mesmo que a atual seja 1%. Manter por mais de seis meses resolve apenas uma condição. Ganho de alienação e dividendo seguem regimes distintos; não se pode atribuir imposto sem os demais fatos do artigo 100."
+    ],
+    "blocks": [
+      "EIP-3.2-03-B07"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A qualifying private resident coupon is €400 on €10,000 nominal. The final levy is 20%, and purchase price was €9,800. Which net-income yield on purchase cost is correct?",
+      "Um cupom privado de residente qualificável é €400 sobre nominal de €10,000. A cobrança definitiva é de 20%, e o preço de compra foi €9,800. Qual rendimento líquido de renda sobre o custo de compra está correto?"
+    ],
+    "options": [
+      [
+        "4%, because the gross coupon uses nominal",
+        "4%, pois o cupom bruto usa o nominal"
+      ],
+      [
+        "3.2%, using nominal as the purchase cost",
+        "3.2%, usando o nominal como custo de compra"
+      ],
+      [
+        "4.0816%, ignoring tax",
+        "4.0816%, ignorando o imposto"
+      ],
+      [
+        "Approximately 3.2653%, using €320/€9,800",
+        "Aproximadamente 3.2653%, usando €320/€9,800"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Tax is 400 × 20% = €80 and retained income €320. On the stated purchase amount, 320/9,800 ≈ 3.2653%; 3.2% uses nominal instead. The gross ratio ignores tax. None is a complete holding-period return because a later disposal or redemption is absent. The final levy cannot be refunded by inserting the ordinary allowance.",
+      "O imposto é 400 × 20% = €80 e a renda retida €320. Sobre o valor de compra informado, 320/9,800 ≈ 3.2653%; 3.2% usa o nominal. A razão bruta ignora o imposto. Nenhum é um retorno completo do período de manutenção, pois falta a alienação ou resgate posterior. A cobrança definitiva não pode ser restituída inserindo a franquia ordinária."
+    ],
+    "blocks": [
+      "EIP-3.2-03-B04"
+    ],
+    "calculation": {
+      "method": "net_income_yield",
+      "inputs": [
+        400,
+        0.2,
+        9800
+      ],
+      "expected": [
+        320,
+        0.0326530612244898
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A single resident’s qualifying gross dividend is €6,000, with €900 withholding. Assume the 50% exemption, €25 minimum expenses, a fully available €1,500 annual allowance and a stipulated 30% attributable rate; exclude separate contributions and wider assessment effects. What are the illustrated income tax and withholding excess?",
+      "O dividendo bruto qualificável de um residente solteiro é €6,000, com retenção de €900. Suponha isenção de 50%, despesas mínimas de €25, franquia anual de €1,500 integralmente disponível e taxa atribuível estipulada de 30%; exclua contribuições separadas e efeitos mais amplos da avaliação. Quais são o imposto ilustrado e o excesso de retenção?"
+    ],
+    "options": [
+      [
+        "Tax €900; no excess because withholding is final",
+        "Imposto €900; sem excesso porque a retenção é definitiva"
+      ],
+      [
+        "Tax €442.50; excess €457.50, subject to the whole assessment",
+        "Imposto €442.50; excesso €457.50, sujeito à avaliação completa"
+      ],
+      [
+        "Tax €892.50; excess €7.50, even with the allowance available",
+        "Imposto €892.50; excesso €7.50, mesmo com a franquia disponível"
+      ],
+      [
+        "Tax €1,342.50; withholding must be deducted again",
+        "Imposto €1,342.50; a retenção deve ser deduzida novamente"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The base is 6,000 × 0.5 − 25 − 1,500 = €1,475. At the assumed 30%, tax is €442.50; withholding exceeds this by 900 − 442.50 = €457.50. €892.50 would assume the allowance was exhausted. Adding €900 again double counts an advance. Whether the excess creates an actual refund depends on the whole assessment; the annual allowance cannot be reused per account.",
+      "A base é 6,000 × 0.5 − 25 − 1,500 = €1,475. Aos 30% supostos, o imposto é €442.50; a retenção supera isso em 900 − 442.50 = €457.50. €892.50 suporia a franquia esgotada. Somar €900 novamente duplica um adiantamento. Se o excesso gera restituição efetiva depende da avaliação completa; a franquia anual não pode ser reutilizada por conta."
+    ],
+    "blocks": [
+      "EIP-3.2-03-B06"
+    ],
+    "calculation": {
+      "method": "dividend_assessment",
+      "inputs": [
+        6000,
+        0.5,
+        25,
+        1500,
+        0.3,
+        900
+      ],
+      "expected": [
+        1475,
+        442.5,
+        457.5
+      ]
+    }
+  }
+]

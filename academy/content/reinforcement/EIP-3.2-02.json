@@ -1,0 +1,189 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which basis should establish a natural person’s tax-residence analysis?",
+      "Qual base deve estabelecer a análise de residência fiscal de uma pessoa física?"
+    ],
+    "options": [
+      [
+        "Citizenship alone, even when the person lives elsewhere",
+        "Apenas a cidadania, mesmo quando a pessoa mora em outro local"
+      ],
+      [
+        "The employer’s location alone",
+        "Apenas a localização do empregador"
+      ],
+      [
+        "Domicile or habitual abode, relevant dates and any applicable treaty determination",
+        "Domicílio ou residência habitual, datas relevantes e eventual determinação de tratado aplicável"
+      ],
+      [
+        "The account-holding bank’s location alone",
+        "Apenas a localização do banco que mantém a conta"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The intermediary’s location is separate from the owner’s tax residence. The same person may live in one country, own securities issued in another and use a Luxembourg bank. Start with the person’s domicile, habitual abode, dates and any relevant treaty analysis rather than infer residence from the account.",
+      "A localização do intermediário é separada da residência fiscal do titular. A mesma pessoa pode morar em um país, possuir títulos emitidos em outro e usar um banco luxemburguês. Comece pelo domicílio, residência habitual, datas e eventual análise de tratado, em vez de inferir residência pela conta."
+    ],
+    "blocks": [
+      "EIP-3.2-02-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "An assimilated non-resident’s actual residence ______ simply because the assessment election is accepted.",
+      "A residência efetiva de um não residente equiparado ______ simplesmente porque a opção de avaliação é aceita."
+    ],
+    "options": [
+      [
+        "automatically becomes Luxembourg",
+        "torna-se automaticamente Luxemburgo"
+      ],
+      [
+        "changes for all investment-income elections even if it stays unchanged for employment",
+        "muda para todas as opções sobre renda de investimentos, mesmo se continuar igual para o emprego"
+      ],
+      [
+        "becomes the same as the paying agent’s residence",
+        "torna-se igual à residência do agente pagador"
+      ],
+      [
+        "does not change",
+        "não muda"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Assimilation can provide specified resident-equivalent assessment consequences when conditions are met. It does not mean the person has moved or that every resident-only option becomes available. Residence and the consequences of a particular election remain separate determinations.",
+      "A equiparação pode proporcionar consequências específicas de avaliação equivalentes às de residentes quando as condições são atendidas. Isso não significa que a pessoa se mudou nem que toda opção exclusiva de residentes se torna disponível. Residência e consequências de uma opção específica continuam sendo determinações separadas."
+    ],
+    "blocks": [
+      "EIP-3.2-02-B05"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A validly assimilated non-resident receives qualifying-looking foreign interest. Can assimilation alone permit the resident-only 20% election described in the lesson?",
+      "Um não residente validamente equiparado recebe juros estrangeiros aparentemente qualificáveis. A equiparação, sozinha, permite a opção de 20% exclusiva de residentes descrita na aula?"
+    ],
+    "options": [
+      [
+        "No; that election separately excludes assimilated non-residents.",
+        "Não; essa opção exclui separadamente os não residentes equiparados."
+      ],
+      [
+        "Yes; assimilation grants every resident-only election.",
+        "Sim; a equiparação concede toda opção exclusiva de residentes."
+      ],
+      [
+        "Yes, whenever a Luxembourg bank receives the cash.",
+        "Sim, sempre que um banco luxemburguês recebe o dinheiro."
+      ],
+      [
+        "Only the gross interest amount determines access.",
+        "Apenas o valor bruto dos juros determina o acesso."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The official interest guide expressly excludes assimilated non-residents from this resident-only election. Passing an assimilation test does not override a separate income-category rule. Bank location or amount alone cannot change the recipient’s eligibility; the declaration route must be built independently for each category.",
+      "O guia oficial de juros exclui expressamente não residentes equiparados dessa opção exclusiva de residentes. Passar por um teste de equiparação não supera uma regra separada da categoria de renda. A localização do banco ou o valor, isoladamente, não muda a elegibilidade do beneficiário; a rota declaratória deve ser construída separadamente para cada categoria."
+    ],
+    "blocks": [
+      "EIP-3.2-02-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "For a deliberately simplified denominator, Luxembourg income is €72,000 and foreign income €8,000. What does the resulting percentage establish?",
+      "Em um denominador deliberadamente simplificado, a renda luxemburguesa é €72,000 e a estrangeira €8,000. O que o percentual resultante demonstra?"
+    ],
+    "options": [
+      [
+        "100%, guaranteeing all resident-only tax options",
+        "100%, garantindo todas as opções exclusivas de residentes"
+      ],
+      [
+        "90%, reaching the arithmetic threshold but not itself proving legal eligibility",
+        "90%, atingindo o limite aritmético, mas sem provar por si só a elegibilidade legal"
+      ],
+      [
+        "88.89%, necessarily excluding every possible route",
+        "88.89%, necessariamente excluindo todas as rotas possíveis"
+      ],
+      [
+        "10%, because only the foreign share counts",
+        "10%, pois apenas a parcela estrangeira conta"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "72,000/(72,000 + 8,000) = 90%. This meets the simplified numerical threshold. Actual income definitions, household circumstances, adjustments, evidence and alternative routes still require checking. The foreign share is 10%, not the Luxembourg share. Even valid assimilation does not confer every resident-only option.",
+      "72,000/(72,000 + 8,000) = 90%. Isso atende ao limite numérico simplificado. Definições efetivas de renda, circunstâncias familiares, ajustes, documentação e rotas alternativas ainda precisam ser verificadas. A parcela estrangeira é 10%, não a luxemburguesa. Mesmo uma equiparação válida não concede toda opção exclusiva de residentes."
+    ],
+    "blocks": [
+      "EIP-3.2-02-B06"
+    ],
+    "calculation": {
+      "method": "income_share",
+      "inputs": [
+        72000,
+        8000
+      ],
+      "expected": 0.9
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A resident receives €2,000 gross foreign dividends through a Luxembourg bank, with €300 source withholding. Stipulated Luxembourg liability is €420, but only €200 of withholding is creditable and no reclaim is assumed. What are further payment and final cash retained?",
+      "Uma residente recebe €2,000 brutos de dividendos estrangeiros por um banco luxemburguês, com retenção na origem de €300. A obrigação luxemburguesa estipulada é €420, mas apenas €200 da retenção são creditáveis e não se supõe recuperação. Quais são o pagamento adicional e o caixa final retido?"
+    ],
+    "options": [
+      [
+        "Further €120; retained €1,580",
+        "Adicional de €120; retidos €1,580"
+      ],
+      [
+        "Further zero; retained €1,700",
+        "Adicional zero; retidos €1,700"
+      ],
+      [
+        "Further €420; retained €1,280",
+        "Adicional de €420; retidos €1,280"
+      ],
+      [
+        "Further €220; retained €1,480",
+        "Adicional de €220; retidos €1,480"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The further payment is 420 − 200 = €220. Initial cash is 2,000 − 300 = €1,700; final retained cash is 1,700 − 220 = €1,480. €1,580 assumes full credit; €1,700 omits reconciliation; €1,280 omits the allowed credit. The Luxembourg bank does not change the foreign issuer’s source or the stipulated credit limit.",
+      "O pagamento adicional é 420 − 200 = €220. O caixa inicial é 2,000 − 300 = €1,700; o caixa final retido é 1,700 − 220 = €1,480. €1,580 supõe crédito integral; €1,700 omite a conciliação; €1,280 omite o crédito permitido. O banco luxemburguês não altera a origem do emissor estrangeiro nem o limite de crédito estipulado."
+    ],
+    "blocks": [
+      "EIP-3.2-02-B04"
+    ],
+    "calculation": {
+      "method": "tax_credit_cash",
+      "inputs": [
+        2000,
+        300,
+        420,
+        200
+      ],
+      "expected": [
+        220,
+        520,
+        1480
+      ]
+    }
+  }
+]

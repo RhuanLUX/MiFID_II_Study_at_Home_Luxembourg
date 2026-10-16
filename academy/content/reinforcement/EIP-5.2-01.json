@@ -1,0 +1,220 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Covariance averages products of ______.",
+      "A covariância calcula a média dos produtos de ______."
+    ],
+    "options": [
+      [
+        "paired deviations from each series’ own mean",
+        "desvios emparelhados em relação à média própria de cada série"
+      ],
+      [
+        "raw price levels regardless of dates",
+        "níveis brutos de preço independentemente das datas"
+      ],
+      [
+        "the two arithmetic means alone",
+        "apenas as duas médias aritméticas"
+      ],
+      [
+        "unpaired returns after sorting each series separately",
+        "retornos não emparelhados após ordenar cada série separadamente"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The relevant product pairs each date’s deviation in one series with the same date’s deviation in the other. Positive and negative products describe movement around means, not merely whether raw returns are positive. Sorting independently or mismatching dates changes the relationship being measured.",
+      "O produto relevante emparelha o desvio de cada data em uma série com o desvio da mesma data na outra. Produtos positivos e negativos descrevem movimento em torno das médias, não apenas se retornos brutos são positivos. Ordenar independentemente ou desencontrar datas muda a relação medida."
+    ],
+    "blocks": [
+      "EIP-5.2-01-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "If either series has zero standard deviation, the usual correlation is ______.",
+      "Se qualquer série tem desvio-padrão zero, a correlação usual é ______."
+    ],
+    "options": [
+      [
+        "necessarily zero",
+        "necessariamente zero"
+      ],
+      [
+        "necessarily +1",
+        "necessariamente +1"
+      ],
+      [
+        "necessarily −1",
+        "necessariamente −1"
+      ],
+      [
+        "undefined because its denominator is zero",
+        "indefinida porque seu denominador é zero"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Correlation divides covariance by both standard deviations. A zero factor makes that ratio undefined; assigning zero would claim evidence of no linear covariance where the standardisation is unavailable. Nonzero volatilities and consistent sample conventions are needed for the usual coefficient.",
+      "A correlação divide covariância pelos dois desvios-padrão. Um fator zero torna a razão indefinida; atribuir zero afirmaria ausência de covariância linear onde a padronização está indisponível. Volatilidades não nulas e convenções amostrais consistentes são necessárias ao coeficiente usual."
+    ],
+    "blocks": [
+      "EIP-5.2-01-B02"
+    ]
+  },
+  {
+    "type": "matching",
+    "prompt": [
+      "Match correlation values with their linear interpretation, assuming both standard deviations are nonzero.",
+      "Associe valores de correlação à interpretação linear, supondo ambos os desvios-padrão não nulos."
+    ],
+    "concepts": [
+      [
+        "+1",
+        "+1"
+      ],
+      [
+        "−1",
+        "−1"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "definitions": [
+      [
+        "No linear covariance; nonlinear dependence can remain",
+        "Sem covariância linear; dependência não linear pode permanecer"
+      ],
+      [
+        "Perfect opposite linear deviation pattern",
+        "Padrão linear perfeitamente oposto de desvios"
+      ],
+      [
+        "Perfect same-direction linear deviation pattern",
+        "Padrão linear perfeito de desvios na mesma direção"
+      ]
+    ],
+    "answer": [
+      2,
+      1,
+      0
+    ],
+    "explanation": [
+      "+1 and −1 identify perfect positive and negative linear relationships of deviations under the measured sample/model. Zero identifies no linear covariance, not independence. All interpretations require aligned observations and compatible units; historical coefficients do not guarantee future co-movement or protection in extreme scenarios.",
+      "+1 e −1 identificam relações lineares perfeitas positiva e negativa dos desvios sob a amostra/modelo medido. Zero identifica ausência de covariância linear, não independência. Todas as interpretações exigem observações alinhadas e unidades compatíveis; coeficientes históricos não garantem movimentos conjuntos futuros nem proteção em cenários extremos."
+    ],
+    "blocks": [
+      "EIP-5.2-01-B03",
+      "EIP-5.2-01-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Paired returns A are −10%, 0%, +10%; B are 6%, 2%, 4%. Means are 0% and 4%, with sample volatilities 10% and 2%. Paired deviation products sum to −0.002. What sample covariance and correlation follow?",
+      "Retornos emparelhados de A são −10%, 0%, +10%; de B são 6%, 2%, 4%. As médias são 0% e 4%, com volatilidades amostrais de 10% e 2%. Os produtos dos desvios somam −0.002. Quais covariância amostral e correlação decorrem?"
+    ],
+    "options": [
+      [
+        "−0.001; −0.5",
+        "−0.001; −0.5"
+      ],
+      [
+        "−0.002; −1",
+        "−0.002; −1"
+      ],
+      [
+        "−0.001; −0.001",
+        "−0.001; −0.001"
+      ],
+      [
+        "+0.001; +0.5",
+        "+0.001; +0.5"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Sample covariance divides by 3 − 1: −0.002/2 = −0.001. Correlation is −0.001/(0.10 × 0.02) = −0.5. Omitting the covariance denominator gives −1 incorrectly; treating covariance as correlation ignores standardisation. The negative sample relationship does not guarantee that B rises whenever A falls in a future period.",
+      "A covariância amostral divide por 3 − 1: −0.002/2 = −0.001. A correlação é −0.001/(0.10 × 0.02) = −0.5. Omitir o denominador da covariância dá incorretamente −1; tratar covariância como correlação ignora a padronização. A relação negativa amostral não garante que B suba sempre que A cair em período futuro."
+    ],
+    "blocks": [
+      "EIP-5.2-01-B05"
+    ],
+    "calculation": {
+      "method": "paired_stats",
+      "inputs": [
+        [
+          -0.1,
+          0,
+          0.1
+        ],
+        [
+          0.06,
+          0.02,
+          0.04
+        ]
+      ],
+      "expected": [
+        -0.001,
+        -0.5
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A returns are −10%, 0%, +10%. B returns are 10%, 0%, 10%, constructed to be high at either large absolute A movement. Both standard deviations are nonzero. Which calculation and interpretation are correct?",
+      "Os retornos de A são −10%, 0%, +10%. Os de B são 10%, 0%, 10%, construídos para ser altos em qualquer grande movimento absoluto de A. Ambos os desvios-padrão são não nulos. Qual cálculo e interpretação são corretos?"
+    ],
+    "options": [
+      [
+        "Correlation +1 because B is positive at both extremes",
+        "Correlação +1 porque B é positivo nos dois extremos"
+      ],
+      [
+        "Correlation zero, proving independence",
+        "Correlação zero, provando independência"
+      ],
+      [
+        "Correlation undefined because two B observations repeat",
+        "Correlação indefinida porque duas observações de B se repetem"
+      ],
+      [
+        "Covariance and correlation zero, despite the constructed nonlinear relationship",
+        "Covariância e correlação zero, apesar da relação não linear construída"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "A’s mean is zero; B’s mean is 6.6667%. The two nonzero paired products are equal and opposite, so covariance is zero and correlation is zero with nonzero volatilities. B nevertheless follows the magnitude of A in this construction. Repeated values do not make B constant. Zero linear correlation is therefore not evidence of independence or a guarantee of tail diversification.",
+      "A média de A é zero; a de B é 6.6667%. Os dois produtos emparelhados não nulos são iguais e opostos, portanto a covariância é zero e a correlação é zero com volatilidades não nulas. B ainda acompanha a magnitude de A nessa construção. Valores repetidos não tornam B constante. Correlação linear zero, portanto, não evidencia independência nem garante diversificação nas caudas."
+    ],
+    "blocks": [
+      "EIP-5.2-01-B07"
+    ],
+    "calculation": {
+      "method": "paired_stats",
+      "inputs": [
+        [
+          -0.1,
+          0,
+          0.1
+        ],
+        [
+          0.1,
+          0,
+          0.1
+        ]
+      ],
+      "expected": [
+        0,
+        0
+      ]
+    }
+  }
+]

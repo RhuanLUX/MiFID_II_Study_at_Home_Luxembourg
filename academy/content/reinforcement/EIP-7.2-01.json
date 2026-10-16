@@ -1,0 +1,167 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which stage effects the transfer of securities and cash?",
+      "Qual etapa efetiva a transferência de títulos e dinheiro?"
+    ],
+    "options": [
+      [
+        "Investment recommendation",
+        "Recomendação de investimento"
+      ],
+      [
+        "Order reception alone",
+        "Apenas recepção da ordem"
+      ],
+      [
+        "Clearing of obligations alone",
+        "Apenas compensação de obrigações"
+      ],
+      [
+        "Settlement",
+        "Liquidação"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Settlement completes the relevant securities and cash transfers. Trading establishes the economic commitment; clearing determines and manages obligations where applicable. Custody continues afterwards. A confirmation or favourable execution price does not by itself establish completed delivery into the intended account.",
+      "A liquidação completa as transferências pertinentes de títulos e caixa. Negociação estabelece compromisso econômico; compensação determina e gerencia obrigações quando aplicável. A custódia continua depois. Confirmação ou preço favorável não estabelece, por si só, entrega concluída na conta pretendida."
+    ],
+    "blocks": [
+      "EIP-7.2-01-B07"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Registration on Luxembourg’s Securities Official List ______ admission to trading.",
+      "Registro na Securities Official List de Luxemburgo ______ admissão à negociação."
+    ],
+    "options": [
+      [
+        "does not itself establish",
+        "não estabelece por si só"
+      ],
+      [
+        "is always identical to",
+        "é sempre idêntico a"
+      ],
+      [
+        "automatically guarantees",
+        "garante automaticamente"
+      ],
+      [
+        "is a form of central clearing equivalent to",
+        "é forma de compensação central equivalente a"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Official listing status and trading admission are distinct. Identify the actual market and instrument status: the Bourse de Luxembourg, Euro MTF and the Securities Official List are not interchangeable descriptions. Neither listing nor supervision guarantees issuer repayment or liquidity for the client’s quantity.",
+      "Registro oficial e admissão à negociação são distintos. Identifique mercado e situação efetivos: Bourse de Luxembourg, Euro MTF e Securities Official List não são descrições intercambiáveis. Nem listagem nem supervisão garante pagamento do emissor ou liquidez para a quantidade do cliente."
+    ],
+    "blocks": [
+      "EIP-7.2-01-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "What does delivery against payment principally address?",
+      "O que a entrega contra pagamento trata principalmente?"
+    ],
+    "options": [
+      [
+        "It eliminates issuer credit and market risk.",
+        "Elimina risco de crédito do emissor e de mercado."
+      ],
+      [
+        "It links securities and cash legs to reduce principal risk, while other risks can remain.",
+        "Vincula títulos e caixa para reduzir risco de principal, enquanto outros riscos podem permanecer."
+      ],
+      [
+        "It guarantees every order’s best hindsight price.",
+        "Garante o melhor preço retrospectivo de toda ordem."
+      ],
+      [
+        "It proves every trade passes through a central counterparty.",
+        "Prova que toda operação passa por contraparte central."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Linking delivery and payment reduces the risk of paying without receiving the corresponding securities, or delivering without receiving cash. Operational and liquidity problems can remain, and infrastructure does not guarantee investment value. Central clearing, settlement and custody are different functions; none should be inferred solely from a delivery-against-payment term.",
+      "Vincular entrega e pagamento reduz o risco de pagar sem receber títulos correspondentes, ou entregar sem receber caixa. Problemas operacionais e de liquidez podem permanecer, e infraestrutura não garante valor do investimento. Compensação central, liquidação e custódia são funções distintas; nenhuma deve ser inferida apenas da condição de entrega contra pagamento."
+    ],
+    "blocks": [
+      "EIP-7.2-01-B07"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "For 400 shares with identical execution and settlement reliability, A offers €25.00 plus €18 direct costs; B offers €24.98 plus €30. Which total-consideration comparison is correct?",
+      "Para 400 ações com confiabilidade idêntica de execução e liquidação, A oferece €25.00 mais €18 de custos diretos; B, €24.98 mais €30. Qual comparação de contraprestação total é correta?"
+    ],
+    "options": [
+      [
+        "B is €8 cheaper after all costs.",
+        "B é €8 mais barato após todos os custos."
+      ],
+      [
+        "Both total €10,000 because the quantity is the same.",
+        "Ambos totalizam €10,000 porque a quantidade é igual."
+      ],
+      [
+        "A totals €10,018 and B €10,022; A is €4 cheaper under these assumptions.",
+        "A totaliza €10,018 e B €10,022; A é €4 mais barato nessas hipóteses."
+      ],
+      [
+        "A totals €10,030 and B €10,010 by exchanging the fee bases.",
+        "A totaliza €10,030 e B €10,010 ao trocar as bases de tarifas."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "A costs 400 × 25 + 18 = €10,018. B costs 400 × 24.98 + 30 = €10,022. The €8 price saving at B is outweighed by €12 extra costs. This isolates comparable executable quantities and reliability; a real policy also considers relevant execution factors and instructions. The lower displayed price alone is not the complete retail comparison.",
+      "A custa 400 × 25 + 18 = €10,018. B custa 400 × 24.98 + 30 = €10,022. A economia de preço de €8 em B é superada por €12 de custos adicionais. O caso isola quantidades executáveis e confiabilidade comparáveis; política real considera outros fatores e instruções pertinentes. Menor preço exibido sozinho não é comparação completa para varejo."
+    ],
+    "blocks": [
+      "EIP-7.2-01-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A purchase requires €12,500 on Tuesday; only €8,000 is available then. Sale proceeds arrive Wednesday. Which operational conclusion follows?",
+      "Uma compra exige €12,500 na terça; apenas €8,000 estão disponíveis nesse dia. Receitas de venda chegam na quarta. Qual conclusão operacional decorre?"
+    ],
+    "options": [
+      [
+        "There is no gap because both transactions occur in the same week.",
+        "Não há lacuna porque ambas ocorrem na mesma semana."
+      ],
+      [
+        "A trade confirmation proves Wednesday proceeds are Tuesday cash.",
+        "Confirmação prova que receitas de quarta são caixa de terça."
+      ],
+      [
+        "The scheduled future T+1 transition removes the need to verify actual contractual dates.",
+        "A futura transição prevista para T+1 elimina verificar datas contratuais efetivas."
+      ],
+      [
+        "Tuesday has a €4,500 funding gap; establish a permitted funding or timing solution before relying on the later receipt.",
+        "Terça tem lacuna financeira de €4,500; estabeleça solução permitida de financiamento ou prazo antes de contar com receita posterior."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "12,500 − 8,000 = €4,500 is due before the sale proceeds arrive. Economic attractiveness does not align cash dates. Verify actual contractual dates, calendars, currency and permitted funding rather than assume future regulatory changes already apply. Shorter settlement would compress operational time, not eliminate reconciliation or the need to fund obligations.",
+      "12,500 − 8,000 = €4,500 são necessários antes de chegar a receita da venda. Atratividade econômica não alinha datas de caixa. Verifique contratos, calendários, moeda e financiamento permitido, sem presumir aplicação antecipada de mudanças regulatórias futuras. Liquidação mais curta comprime tempo operacional, não elimina conciliação nem financiamento de obrigações."
+    ],
+    "blocks": [
+      "EIP-7.2-01-B08"
+    ]
+  }
+]

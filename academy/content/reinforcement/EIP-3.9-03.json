@@ -1,0 +1,193 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which is principally a physical-risk channel?",
+      "Qual é principalmente um canal de risco físico?"
+    ],
+    "options": [
+      [
+        "A carbon-policy cost increase",
+        "Um aumento de custo por política de carbono"
+      ],
+      [
+        "A technology displacing an incumbent product",
+        "Uma tecnologia que substitui um produto existente"
+      ],
+      [
+        "Flood damage and interruption at an exposed facility",
+        "Dano e interrupção por inundação em uma instalação exposta"
+      ],
+      [
+        "Customer demand moving to lower-emission alternatives",
+        "Demanda de clientes mudando para alternativas de menor emissão"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Physical risk concerns severe events or longer-run environmental changes interacting with exposed and vulnerable assets. Policy, technology and demand adjustment are transition channels. Both can affect the same issuer and transmit into cash flow, credit and valuation; they are not mutually exclusive portfolio categories.",
+      "O risco físico diz respeito a eventos severos ou mudanças ambientais duradouras interagindo com ativos expostos e vulneráveis. Ajustes de política, tecnologia e demanda são canais de transição. Ambos podem afetar o mesmo emissor e transmitir-se a fluxo, crédito e avaliação; não são categorias mutuamente exclusivas de carteira."
+    ],
+    "blocks": [
+      "EIP-3.9-03-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A climate scenario is a coherent set of assumptions used to examine consequences; it is ______.",
+      "Um cenário climático é um conjunto coerente de hipóteses usado para examinar consequências; ele ______."
+    ],
+    "options": [
+      [
+        "not automatically a forecast or a maximum-loss bound",
+        "não é automaticamente previsão nem limite de perda máxima"
+      ],
+      [
+        "necessarily the most probable future",
+        "é necessariamente o futuro mais provável"
+      ],
+      [
+        "a measured probability merely because its output is precise",
+        "é uma probabilidade medida apenas porque seu resultado é preciso"
+      ],
+      [
+        "a guarantee that adaptation will eliminate all financial loss",
+        "é uma garantia de que adaptação eliminará toda perda financeira"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Scenarios reveal vulnerabilities under specified conditions. Neither numerical precision nor severity supplies a probability. Additional costs, different paths or missing exposures can produce worse outcomes. Record model and data gaps and connect the financial result to the particular claim instead of presenting conditional arithmetic as certainty.",
+      "Cenários revelam vulnerabilidades sob condições especificadas. Nem precisão numérica nem severidade fornece uma probabilidade. Custos adicionais, trajetórias diferentes ou exposições omitidas podem produzir resultados piores. Registre lacunas de modelo e dados e conecte o resultado ao direito específico, sem apresentar aritmética condicional como certeza."
+    ],
+    "blocks": [
+      "EIP-3.9-03-B06"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A valuation already reduces cash flows for a specified expected transition cost. What should be avoided?",
+      "Uma avaliação já reduz os fluxos por um custo de transição esperado especificado. O que deve ser evitado?"
+    ],
+    "options": [
+      [
+        "Explaining the cost’s assumed coverage and timing",
+        "Explicar cobertura e prazo supostos do custo"
+      ],
+      [
+        "Adding a separate arbitrary discount-rate penalty for the identical cost without a rationale",
+        "Adicionar penalidade arbitrária separada na taxa de desconto pelo custo idêntico sem justificativa"
+      ],
+      [
+        "Testing a different pass-through assumption",
+        "Testar outra hipótese de repasse"
+      ],
+      [
+        "Considering other independently supported risks",
+        "Considerar outros riscos sustentados independentemente"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Counting the identical consequence once in cash flows and again as an unexplained rate penalty can overstate loss. A distinct risk-premium adjustment needs its own rationale. Stating coverage, varying pass-through and analysing genuinely separate risks are useful checks; they are not automatically duplication.",
+      "Contar a consequência idêntica uma vez nos fluxos e novamente como penalidade de taxa sem explicação pode exagerar a perda. Um ajuste distinto de prêmio de risco exige justificativa própria. Informar cobertura, variar repasse e analisar riscos realmente separados são verificações úteis, não duplicações automáticas."
+    ],
+    "blocks": [
+      "EIP-3.9-03-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An issuer emits 200,000 tonnes. A fictional incremental cost of €40 per tonne applies to all emissions. It passes 75% of that cost to customers with volumes unchanged; initial operating profit €10m. What revised profit follows?",
+      "Um emissor emite 200,000 toneladas. Um custo incremental fictício de €40 por tonelada incide sobre todas. Ele repassa 75% aos clientes com volume inalterado; lucro operacional inicial de €10m. Qual lucro revisado decorre?"
+    ],
+    "options": [
+      [
+        "€2m, confusing absorbed cost with remaining profit",
+        "€2m, confundindo custo absorvido com lucro restante"
+      ],
+      [
+        "€4m, using only 25% pass-through",
+        "€4m, usando repasse de apenas 25%"
+      ],
+      [
+        "€10m, treating any pass-through as complete recovery",
+        "€10m, tratando qualquer repasse como recuperação completa"
+      ],
+      [
+        "€8m, after absorbing €2m of the €8m cost",
+        "€8m, após absorver €2m do custo de €8m"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Gross cost is 200,000 × 40 = €8m. Recovering 75% gives €6m, leaving €2m absorbed and profit €8m, a 20% decline. €4m belongs to 25% pass-through instead; €2m is the absorbed cost. The scenario assumes coverage and constant volume, not a current legal liability or a complete profit forecast after demand responses.",
+      "O custo bruto é 200,000 × 40 = €8m. Recuperar 75% dá €6m, deixando €2m absorvidos e lucro de €8m, queda de 20%. €4m pertence ao repasse de 25%; €2m é o custo absorvido. O cenário supõe cobertura e volume constante, não uma obrigação jurídica atual nem previsão completa após respostas de demanda."
+    ],
+    "blocks": [
+      "EIP-3.9-03-B05"
+    ],
+    "calculation": {
+      "method": "transition_profit",
+      "inputs": [
+        200000,
+        40,
+        0.75,
+        10000000
+      ],
+      "expected": [
+        8000000,
+        2000000,
+        8000000
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A flood causes €3m repairs and three months of lost annual operating cash flow of €4m, assumed proportional. Insurance pays €2m in the same model period and adaptation costs €0.5m. What net immediate model cash need results?",
+      "Uma inundação causa €3m de reparos e perda de três meses de fluxo operacional anual de €4m, suposta proporcional. O seguro paga €2m no mesmo período do modelo e a adaptação custa €0.5m. Qual necessidade imediata líquida do modelo resulta?"
+    ],
+    "options": [
+      [
+        "€4m, the gross damage and interruption before insurance/adaptation",
+        "€4m, o dano bruto e a interrupção antes de seguro/adaptação"
+      ],
+      [
+        "€2m, omitting adaptation",
+        "€2m, omitindo adaptação"
+      ],
+      [
+        "€2.5m, with timing and omitted valuation effects still explicit",
+        "€2.5m, mantendo explícitos o prazo e os efeitos de avaliação omitidos"
+      ],
+      [
+        "€5.5m, counting the entire year of cash-flow loss",
+        "€5.5m, contando a perda do ano inteiro de fluxo"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Lost cash flow is 4m × 3/12 = €1m. Net need is 3m + 1m − 2m + 0.5m = €2.5m. Omitting adaptation gives €2m; using a full year of lost cash gives €5.5m incorrectly. This is a bounded cash bridge, not a full valuation loss or event probability. Delayed insurance, financing, tax and future adaptation benefits would need separate analysis.",
+      "O fluxo perdido é 4m × 3/12 = €1m. A necessidade líquida é 3m + 1m − 2m + 0.5m = €2.5m. Omitir adaptação dá €2m; usar um ano inteiro de fluxo perdido dá incorretamente €5.5m. Esta é uma conciliação delimitada de caixa, não uma perda completa de avaliação ou probabilidade do evento. Seguro atrasado, financiamento, imposto e benefícios futuros da adaptação exigiriam análise separada."
+    ],
+    "blocks": [
+      "EIP-3.9-03-B03"
+    ],
+    "calculation": {
+      "method": "physical_cash_need",
+      "inputs": [
+        3000000,
+        4000000,
+        3,
+        12,
+        2000000,
+        500000
+      ],
+      "expected": 2500000
+    }
+  }
+]

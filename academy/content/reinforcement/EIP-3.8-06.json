@@ -1,0 +1,195 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "The UCI taxe d’abonnement discussed in the lesson is principally a tax at ______.",
+      "A taxe d’abonnement de UCI discutida na aula é principalmente um imposto no nível ______."
+    ],
+    "options": [
+      [
+        "the individual investor’s new subscription cash in every case",
+        "do caixa de nova subscrição do investidor individual em todos os casos"
+      ],
+      [
+        "the investor’s personal disposal gain",
+        "do ganho pessoal de alienação do investidor"
+      ],
+      [
+        "each underlying issuer’s corporate earnings",
+        "do lucro societário de cada emissor subjacente"
+      ],
+      [
+        "the fund vehicle, using its applicable taxable net assets",
+        "do veículo de fundo, usando seu patrimônio líquido tributável aplicável"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The subscription tax is a vehicle-level regime, distinct from investor assessment and underlying source withholding. Its NAV effect can be borne economically by unit holders without a separate personal tax bill. Applicable reductions or exemptions and quarter-end bases must be established before calculating it.",
+      "O imposto de subscrição é um regime do veículo, distinto da avaliação do investidor e da retenção subjacente na origem. Seu efeito na cota pode ser suportado economicamente pelos cotistas sem um imposto pessoal separado. Reduções ou isenções aplicáveis e bases de fim de trimestre precisam ser estabelecidas antes do cálculo."
+    ],
+    "blocks": [
+      "EIP-3.8-06-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "No Luxembourg withholding on a stipulated UCI distribution ______ that a resident investor owes no final tax.",
+      "A ausência de retenção luxemburguesa em uma distribuição estipulada de UCI ______ que um investidor residente não deva imposto final."
+    ],
+    "options": [
+      [
+        "proves",
+        "prova"
+      ],
+      [
+        "does not establish",
+        "não demonstra"
+      ],
+      [
+        "automatically implies a half-dividend exemption, proving",
+        "implica automaticamente isenção de metade dos dividendos, provando"
+      ],
+      [
+        "makes every residence-country rule irrelevant, proving",
+        "torna irrelevante toda regra do país de residência, provando"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Collection at distribution and the recipient’s final assessment are separate. A qualifying no-withholding vehicle rule does not decide the resident’s income category or exemption conditions. For non-residents, Luxembourg treatment also does not erase residence-country obligations. Identify the investor and legal receipt before applying a rate.",
+      "Arrecadação na distribuição e avaliação final do beneficiário são separadas. Uma regra qualificável de veículo sem retenção não decide a categoria de renda ou as condições de isenção do residente. Para não residentes, o tratamento luxemburguês também não elimina obrigações do país de residência. Identifique o investidor e o recebimento jurídico antes de aplicar uma taxa."
+    ],
+    "blocks": [
+      "EIP-3.8-06-B05"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Foreign withholding already reduces a fund’s underlying income. What should not be assumed for the unit holder?",
+      "Uma retenção estrangeira já reduz a renda subjacente de um fundo. O que não deve ser presumido para o cotista?"
+    ],
+    "options": [
+      [
+        "That the deduction automatically becomes a personal credit available to every unit holder",
+        "Que a dedução se torne automaticamente crédito pessoal disponível a todo cotista"
+      ],
+      [
+        "That underlying and investor-level taxes require separate classification",
+        "Que impostos subjacentes e do investidor exijam classificação separada"
+      ],
+      [
+        "That fund and source rules affect recovery possibilities",
+        "Que regras do fundo e da origem afetem possibilidades de recuperação"
+      ],
+      [
+        "That reduced fund assets can affect NAV",
+        "Que ativos reduzidos do fundo possam afetar a cota"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The fund receives the underlying income, while the investor owns units under a separate legal claim. Any treaty relief or recovery depends on the actual fund and source framework; it is not automatically passed through as a personal credit. Distinguishing underlying, vehicle and investor layers avoids promising relief without legal evidence.",
+      "O fundo recebe a renda subjacente, enquanto o investidor detém cotas sob direito jurídico separado. Qualquer benefício de tratado ou recuperação depende do fundo efetivo e do regime de origem; não é automaticamente repassado como crédito pessoal. Distinguir camadas subjacente, do veículo e do investidor evita prometer benefício sem evidência jurídica."
+    ],
+    "blocks": [
+      "EIP-3.8-06-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A resident private holder receives a €1,000 corporate-UCI distribution. Assume verified fully assessed income, no half exemption, exhausted allowances/deductions, 30% attributable income tax and no separate contribution. No Luxembourg withholding occurred. What remains after that tax?",
+      "Um cotista privado residente recebe distribuição de €1,000 de UCI societário. Suponha renda verificada integralmente avaliada, sem isenção de metade, franquias/deduções esgotadas, imposto atribuível de 30% e nenhuma contribuição separada. Não houve retenção luxemburguesa. Quanto resta após esse imposto?"
+    ],
+    "options": [
+      [
+        "€1,000, because no withholding means exemption",
+        "€1,000, pois ausência de retenção significa isenção"
+      ],
+      [
+        "€850, using a half-exempt base contrary to the facts",
+        "€850, usando base metade isenta contra os fatos"
+      ],
+      [
+        "€700, under the stipulated personal assessment",
+        "€700, sob a avaliação pessoal estipulada"
+      ],
+      [
+        "€800, transferring the direct-bond final levy automatically",
+        "€800, transferindo automaticamente a cobrança definitiva dos títulos diretos"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The stipulated taxable income is €1,000, so tax is €300 and retained cash €700. The initial full bank credit is not a final exemption. The half-dividend and final-interest regimes cannot be imported merely because the fund owns shares or bonds. This scoped calculation omits separate contributions and wider annual assessment effects.",
+      "A renda tributável estipulada é €1,000, portanto o imposto é €300 e o caixa retido €700. O crédito inicial integral no banco não é isenção final. Regimes de metade de dividendos e juros definitivos não podem ser importados apenas porque o fundo possui ações ou títulos. O cálculo delimitado omite contribuições separadas e efeitos mais amplos da avaliação anual."
+    ],
+    "blocks": [
+      "EIP-3.8-06-B05"
+    ],
+    "calculation": {
+      "method": "net_income_yield",
+      "inputs": [
+        1000,
+        0.3,
+        1000
+      ],
+      "expected": [
+        700,
+        0.7
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Taxable UCI net assets at four quarter-ends are €80m, €100m, €120m and €140m. Assume the standard 0.05% annual rate throughout, equal quarter weighting and no reductions or exemptions. One million units remain outstanding. What annual tax and proportional effect for 1,000 units follow?",
+      "O patrimônio líquido tributável de UCI nos quatro fins de trimestre é €80m, €100m, €120m e €140m. Suponha taxa anual padrão de 0.05% durante todo o período, pesos trimestrais iguais e nenhuma redução ou isenção. Um milhão de cotas permanece em circulação. Quais imposto anual e efeito proporcional para 1,000 cotas decorrem?"
+    ],
+    "options": [
+      [
+        "€40,000 vehicle tax; €40 proportional effect, using only the first base",
+        "Imposto do veículo de €40,000; efeito proporcional de €40, usando apenas a primeira base"
+      ],
+      [
+        "€70,000 vehicle tax; €70 proportional effect, using only the last base",
+        "Imposto do veículo de €70,000; efeito proporcional de €70, usando apenas a última base"
+      ],
+      [
+        "€220,000 vehicle tax; €220 proportional effect, applying an annual rate four times",
+        "Imposto do veículo de €220,000; efeito proporcional de €220, aplicando quatro vezes a taxa anual"
+      ],
+      [
+        "€55,000 vehicle tax; €55 proportional NAV effect, not an extra personal assessment",
+        "Imposto do veículo de €55,000; efeito proporcional na cota de €55, não avaliação pessoal adicional"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Sum the quarter bases: €440m. Multiply by 0.0005/4 for €55,000 annual vehicle tax. Per unit this is €0.055; 1,000 units bear a €55 proportional NAV effect under the assumptions. First or last base alone ignores changes; applying the full annual rate each quarter gives €220,000 incorrectly. If tax is already accrued in NAV, do not subtract it again as a separate investor tax.",
+      "Some as bases trimestrais: €440m. Multiplique por 0.0005/4 para imposto anual do veículo de €55,000. Por cota isso é €0.055; 1,000 cotas suportam efeito proporcional de €55 na cota sob as hipóteses. Usar só a primeira ou última base ignora mudanças; aplicar a taxa anual inteira em cada trimestre dá incorretamente €220,000. Se o imposto já está acumulado na cota, não o subtraia novamente como imposto separado do investidor."
+    ],
+    "blocks": [
+      "EIP-3.8-06-B03"
+    ],
+    "calculation": {
+      "method": "subscription_tax",
+      "inputs": [
+        80000000,
+        100000000,
+        120000000,
+        140000000,
+        0.0005,
+        1000000,
+        1000
+      ],
+      "expected": [
+        55000,
+        55
+      ]
+    }
+  }
+]

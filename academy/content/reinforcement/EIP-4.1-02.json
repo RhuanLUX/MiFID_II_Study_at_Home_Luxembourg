@@ -1,0 +1,185 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A client questionnaire’s primary purpose in suitability is to ______.",
+      "O objetivo principal de um questionário de cliente na adequação é ______."
+    ],
+    "options": [
+      [
+        "produce a score that overrides contradictory facts",
+        "produzir pontuação que supere fatos contraditórios"
+      ],
+      [
+        "collect reliable evidence needed for a defensible recommendation",
+        "reunir evidências confiáveis necessárias a uma recomendação defensável"
+      ],
+      [
+        "transfer the firm’s duty through a signature",
+        "transferir o dever da instituição por uma assinatura"
+      ],
+      [
+        "confirm identity alone in place of investment assessment",
+        "confirmar apenas identidade em lugar da avaliação de investimento"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The questionnaire supports understanding of the client’s relevant circumstances. It is an evidence-collection method, not a device for transferring responsibility or approving a preferred product. Clarifications and supporting documents can complement answers, while the firm remains responsible for the applicable assessment.",
+      "O questionário sustenta a compreensão das circunstâncias relevantes do cliente. É um método de coleta de evidências, não um dispositivo para transferir responsabilidade ou aprovar um produto preferido. Esclarecimentos e documentos podem complementar respostas, enquanto a instituição continua responsável pela avaliação aplicável."
+    ],
+    "blocks": [
+      "EIP-4.1-02-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "When “available savings” is ambiguous, clarify ______ rather than treating the whole figure as uncommitted risk capital.",
+      "Quando “poupança disponível” é ambígua, esclareça ______ em vez de tratar todo o número como capital de risco livre."
+    ],
+    "options": [
+      [
+        "only whether the client signs the original total",
+        "apenas se o cliente assina o total original"
+      ],
+      [
+        "only the client’s confidence in market recovery",
+        "apenas a confiança do cliente na recuperação do mercado"
+      ],
+      [
+        "only the longest horizon selected anywhere in the form",
+        "apenas o horizonte mais longo selecionado em qualquer parte do formulário"
+      ],
+      [
+        "ownership, access, purposes and relevant dates",
+        "titularidade, acesso, finalidades e datas relevantes"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The same total can include committed payments, emergency resources and illiquid assets. Clarifying those categories identifies what can actually be used and when. A signature does not resolve an ambiguous definition, and willingness or a general horizon does not make every asset liquid and uncommitted.",
+      "O mesmo total pode incluir pagamentos comprometidos, recursos de emergência e ativos ilíquidos. Esclarecer essas categorias identifica o que pode efetivamente ser usado e quando. Uma assinatura não resolve definição ambígua, e disposição ou horizonte geral não torna todo ativo líquido e livre."
+    ],
+    "blocks": [
+      "EIP-4.1-02-B04"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A frequent share trader believes a structured note’s conditional coupon prevents any principal loss. What is the appropriate evidence-based response?",
+      "Um negociador frequente de ações acredita que o cupom condicional de uma nota impede qualquer perda de principal. Qual é a resposta baseada em evidências apropriada?"
+    ],
+    "options": [
+      [
+        "Explain the actual principal-loss conditions and reassess relevant understanding separately from trading history.",
+        "Explique as condições efetivas de perda de principal e reavalie compreensão relevante separadamente do histórico de negociação."
+      ],
+      [
+        "Accept ordinary share frequency as conclusive understanding of every barrier.",
+        "Aceite a frequência em ações ordinárias como compreensão conclusiva de toda barreira."
+      ],
+      [
+        "Ask the client to repeat a preferred phrase and mark the gap resolved without assessment.",
+        "Peça que o cliente repita uma frase preferida e marque a lacuna resolvida sem avaliação."
+      ],
+      [
+        "Treat willingness to accept the coupon as proof of financial capacity.",
+        "Trate a disposição de aceitar o cupom como prova de capacidade financeira."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Experience must relate to the proposed product’s actual risks. The stated belief is inconsistent with the note’s principal conditions. Explanation should support a genuine reassessment, not coaching to an approved label. Even demonstrated understanding leaves financial capacity, objectives, credit and exit constraints to assess.",
+      "A experiência deve relacionar-se aos riscos efetivos do produto proposto. A crença declarada é incompatível com as condições de principal da nota. A explicação deve sustentar reavaliação genuína, não treinamento para obter um rótulo aprovado. Mesmo compreensão demonstrada deixa capacidade financeira, objetivos, crédito e restrições de saída a avaliar."
+    ],
+    "blocks": [
+      "EIP-4.1-02-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Reported savings are €120,000, including €50,000 for a nine-month home payment, €20,000 emergency reserve and €30,000 illiquid assets. Under these stipulated categories, what is uncommitted liquid remainder?",
+      "A poupança declarada é €120,000, incluindo €50,000 para pagamento imobiliário em nove meses, reserva de emergência de €20,000 e ativos ilíquidos de €30,000. Sob essas categorias estipuladas, qual é o restante líquido livre?"
+    ],
+    "options": [
+      [
+        "€50,000, ignoring the illiquid holding",
+        "€50,000, ignorando a posição ilíquida"
+      ],
+      [
+        "€40,000, ignoring the emergency reserve",
+        "€40,000, ignorando a reserva de emergência"
+      ],
+      [
+        "€20,000, still requiring further suitability assessment",
+        "€20,000, ainda exigindo avaliação adicional de adequação"
+      ],
+      [
+        "€120,000, because the original answer was signed",
+        "€120,000, porque a resposta original foi assinada"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Subtract each stated constraint once: 120,000 − 50,000 − 20,000 − 30,000 = €20,000. A total savings figure does not establish liquid risk capital. Omitting the illiquid asset gives €50,000; omitting the reserve gives €40,000. The remainder is an evidence result, not an automatic recommendation to invest it all.",
+      "Subtraia cada restrição informada uma vez: 120,000 − 50,000 − 20,000 − 30,000 = €20,000. Um total de poupança não demonstra capital de risco líquido. Omitir o ativo ilíquido dá €50,000; omitir a reserva dá €40,000. O restante é resultado da evidência, não recomendação automática de investir tudo."
+    ],
+    "blocks": [
+      "EIP-4.1-02-B04"
+    ],
+    "calculation": {
+      "method": "uncommitted",
+      "inputs": [
+        120000,
+        50000,
+        20000,
+        30000
+      ],
+      "expected": 20000
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "€25,000 is proposed for investment, but €18,000 is needed for tuition with no separate reserve. Ignoring costs and all other needs, what loss on the whole amount would leave exactly the tuition amount, and what does that boundary mean?",
+      "Propõem-se €25,000 para investimento, mas €18,000 são necessários para educação sem reserva separada. Ignorando custos e todas as outras necessidades, qual perda sobre o valor inteiro deixaria exatamente a quantia da educação, e o que esse limite significa?"
+    ],
+    "options": [
+      [
+        "20%; it is the maximum loss because it appeared in the example",
+        "20%; é a perda máxima porque apareceu no exemplo"
+      ],
+      [
+        "28%; it is a conditional cash boundary, not an acceptable-risk approval or legal limit",
+        "28%; é um limite condicional de caixa, não aprovação de risco aceitável nem limite legal"
+      ],
+      [
+        "Approximately 38.89%; divide the €7,000 buffer by the tuition bill",
+        "Aproximadamente 38.89%; divida a folga de €7,000 pela conta de educação"
+      ],
+      [
+        "72%; the bill’s share is also the loss capacity",
+        "72%; a parcela da conta também é a capacidade de perda"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The available buffer is 25,000 − 18,000 = €7,000; divide by the invested €25,000 for 28%. At that loss, every remaining euro is needed for tuition. The 20% example leaves €2,000 after tuition; 38.89% uses the wrong denominator and 72% is the liability share. Clarify the conflicting horizons and other needs instead of treating the mathematical boundary as suitability.",
+      "A folga disponível é 25,000 − 18,000 = €7,000; divida pelos €25,000 investidos para 28%. Nessa perda, cada euro restante é necessário para educação. O exemplo de 20% deixa €2,000 após a educação; 38.89% usa denominador errado, e 72% é a parcela da obrigação. Esclareça horizontes conflitantes e outras necessidades, em vez de tratar o limite matemático como adequação."
+    ],
+    "blocks": [
+      "EIP-4.1-02-B08"
+    ],
+    "calculation": {
+      "method": "loss_boundary",
+      "inputs": [
+        25000,
+        18000
+      ],
+      "expected": 0.28
+    }
+  }
+]

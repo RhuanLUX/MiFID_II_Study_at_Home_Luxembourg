@@ -1,0 +1,196 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "What does a demand schedule describe?",
+      "O que uma tabela de demanda descreve?"
+    ],
+    "options": [
+      [
+        "The quantity already traded at one historical price only",
+        "Somente a quantidade já negociada a um preço histórico"
+      ],
+      [
+        "The output producers can supply at every price",
+        "A produção que fornecedores podem oferecer a cada preço"
+      ],
+      [
+        "Buyers’ willingness and ability to purchase at different prices, other conditions held constant",
+        "Disposição e capacidade dos compradores de comprar a preços diferentes, mantidas as demais condições"
+      ],
+      [
+        "Desired purchases regardless of buyers’ resources",
+        "Compras desejadas independentemente dos recursos dos compradores"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Demand is the relationship between price and quantities buyers are willing and able to buy in a defined period. Wanting without purchasing ability is not effective demand, and the sellers’ relationship is supply.",
+      "Demanda é a relação entre preço e quantidades que compradores estão dispostos e aptos a comprar em um período definido. Desejo sem capacidade de compra não é demanda efetiva, e a relação dos vendedores é oferta."
+    ],
+    "blocks": [
+      "EIP-1.1-02-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A fall in a product’s own price, with income and preferences unchanged, causes ______.",
+      "Uma queda do preço do próprio produto, com renda e preferências inalteradas, causa ______."
+    ],
+    "options": [
+      [
+        "a movement along the existing demand curve",
+        "um movimento ao longo da curva de demanda existente"
+      ],
+      [
+        "an outward shift of the entire demand curve",
+        "um deslocamento para fora de toda a curva de demanda"
+      ],
+      [
+        "a movement along the curve caused by higher income",
+        "um movimento ao longo da curva causado por renda maior"
+      ],
+      [
+        "an inward shift of the demand curve",
+        "um deslocamento para dentro da curva de demanda"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The own-price change moves quantity along the given relationship. A change in income, preferences or a substitute’s price can shift demand at every price. A movement and a shift are different explanations.",
+      "A mudança do preço próprio move a quantidade ao longo da relação dada. Mudança de renda, preferências ou preço de substituto pode deslocar a demanda a cada preço. Movimento e deslocamento são explicações diferentes."
+    ],
+    "blocks": [
+      "EIP-1.1-02-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Higher input costs shift supply inward while demand is unchanged. The model produces a higher price and lower quantity. What can be concluded about the producer’s profit from these facts alone?",
+      "Custos maiores de insumos deslocam a oferta para dentro, com demanda inalterada. O modelo produz preço maior e quantidade menor. O que se pode concluir sobre o lucro do produtor apenas com esses fatos?"
+    ],
+    "options": [
+      [
+        "Profit must rise because the selling price rose",
+        "O lucro precisa subir porque o preço de venda subiu"
+      ],
+      [
+        "Profit must fall by the same percentage as quantity",
+        "O lucro precisa cair na mesma proporção da quantidade"
+      ],
+      [
+        "Profit is unchanged whenever revenue rises",
+        "O lucro é inalterado sempre que a receita sobe"
+      ],
+      [
+        "Profit still requires cost and margin information; a higher price alone is insufficient",
+        "O lucro ainda exige informações de custos e margens; preço maior sozinho é insuficiente"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The price increase follows a cost shock and accompanies fewer sales. Revenue equals price times quantity, while profit also deducts costs. Neither the price change nor the quantity percentage alone determines the profit change.",
+      "O aumento de preço decorre de um choque de custos e acompanha menos vendas. Receita é preço vezes quantidade, enquanto lucro também deduz custos. Nem a mudança do preço nem o percentual da quantidade determina sozinho a mudança do lucro."
+    ],
+    "blocks": [
+      "EIP-1.1-02-B05",
+      "EIP-1.1-02-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "For Qd = 1,200 − 20P and Qs = 200 + 30P, with P in euros per item and quantities per day, what is the equilibrium?",
+      "Para Qd = 1,200 − 20P e Qs = 200 + 30P, com P em euros por item e quantidades por dia, qual é o equilíbrio?"
+    ],
+    "options": [
+      [
+        "€18 and 840 items per day",
+        "€18 e 840 itens por dia"
+      ],
+      [
+        "€20 and 800 items per day",
+        "€20 e 800 itens por dia"
+      ],
+      [
+        "€22 and 860 items per day",
+        "€22 e 860 itens por dia"
+      ],
+      [
+        "€20 and 1,200 items per day",
+        "€20 e 1,200 itens por dia"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Equate planned demand and supply: 1,200 − 20P = 200 + 30P, so P = 1,000/50 = €20. Both schedules then give 800 items per day. At €18 or €22 the schedules disagree; 1,200 is the demand intercept, not the equilibrium quantity.",
+      "Iguale demanda e oferta planejadas: 1,200 − 20P = 200 + 30P, logo P = 1,000/50 = €20. Ambas as relações dão então 800 itens por dia. A €18 ou €22 as relações divergem; 1,200 é o intercepto da demanda, não a quantidade de equilíbrio."
+    ],
+    "blocks": [
+      "EIP-1.1-02-B04"
+    ],
+    "calculation": {
+      "method": "equilibrium",
+      "inputs": [
+        1200,
+        20,
+        200,
+        30
+      ],
+      "expected": [
+        20,
+        800
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A service initially sells 1,000 subscriptions at €30, with €10 variable cost each and €12,000 fixed monthly cost. Price rises to €33 and subscriptions fall to 800; costs per subscriber and fixed costs stay unchanged. What is the new operating profit and its percentage change?",
+      "Um serviço vende inicialmente 1,000 assinaturas a €30, com custo variável de €10 cada e custo fixo mensal de €12,000. O preço sobe a €33 e as assinaturas caem para 800; custo por assinante e custos fixos ficam inalterados. Qual é o novo lucro operacional e sua variação percentual?"
+    ],
+    "options": [
+      [
+        "€6,400; down 12%",
+        "€6,400; queda de 12%"
+      ],
+      [
+        "€8,000; unchanged",
+        "€8,000; inalterado"
+      ],
+      [
+        "€6,400; down 20%",
+        "€6,400; queda de 20%"
+      ],
+      [
+        "€26,400; down 12%",
+        "€26,400; queda de 12%"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Initial profit is (30 − 10) × 1,000 − 12,000 = €8,000. New profit is (33 − 10) × 800 − 12,000 = €6,400: a €1,600/€8,000 = 20% decline. €26,400 is revenue, whose 12% fall is a different measure. Lower variable costs partly offset the revenue loss, but the higher price does not preserve profit.",
+      "Lucro inicial é (30 − 10) × 1,000 − 12,000 = €8,000. Novo lucro é (33 − 10) × 800 − 12,000 = €6,400: queda de €1,600/€8,000 = 20%. €26,400 é receita, cuja queda de 12% é outra medida. Custos variáveis menores compensam parcialmente a perda de receita, mas o preço maior não preserva o lucro."
+    ],
+    "blocks": [
+      "EIP-1.1-02-B08"
+    ],
+    "calculation": {
+      "method": "profit_change",
+      "inputs": [
+        30,
+        1000,
+        33,
+        800,
+        10,
+        12000
+      ],
+      "expected": [
+        6400,
+        -0.2
+      ]
+    }
+  }
+]

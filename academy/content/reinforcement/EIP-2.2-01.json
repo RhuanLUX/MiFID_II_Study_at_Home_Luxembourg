@@ -1,0 +1,192 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "What does an ordinary share principally represent?",
+      "O que uma ação ordinária representa principalmente?"
+    ],
+    "options": [
+      [
+        "A fixed maturity debt payment",
+        "Um pagamento de dívida em vencimento fixo"
+      ],
+      [
+        "A short-term bank deposit",
+        "Um depósito bancário de curto prazo"
+      ],
+      [
+        "An ownership interest with a residual claim",
+        "Uma participação societária com direito residual"
+      ],
+      [
+        "A promise of a fixed annual distribution",
+        "Uma promessa de distribuição anual fixa"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "An ordinary share is ownership with a residual claim and uncertain distributions. A conventional bond is a contractual debt claim with specified terms. Classifying both as capital-market instruments does not make their rights or payment obligations identical.",
+      "Uma ação ordinária é uma participação societária com direito residual e distribuições incertas. Um título de dívida convencional é um direito contratual com condições específicas. Classificar ambos como instrumentos do mercado de capitais não torna seus direitos ou obrigações de pagamento idênticos."
+    ],
+    "blocks": [
+      "EIP-2.2-01-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Available quantities at different quoted prices describe market ______.",
+      "As quantidades disponíveis em diferentes preços cotados descrevem a ______ do mercado."
+    ],
+    "options": [
+      [
+        "bid–ask spread alone",
+        "apenas o spread entre compra e venda"
+      ],
+      [
+        "depth",
+        "profundidade"
+      ],
+      [
+        "funding liquidity alone",
+        "apenas a liquidez de financiamento"
+      ],
+      [
+        "last-traded price",
+        "último preço negociado"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Market depth concerns how much can be traded at different prices. A tight spread for a small trade does not establish adequate depth for a larger trade. Maturity and coupon describe the instrument’s cash flows, rather than the quantities available in the market now.",
+      "A profundidade de mercado diz respeito a quanto pode ser negociado em diferentes preços. Um spread estreito para uma operação pequena não demonstra profundidade suficiente para uma operação maior. Prazo e cupom descrevem os fluxos do instrumento, não as quantidades disponíveis no mercado agora."
+    ],
+    "blocks": [
+      "EIP-2.2-01-B05"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A fund unit is quoted in euros and holds unhedged dollar securities. Which conclusion follows?",
+      "Uma cota de fundo é cotada em euros e detém títulos em dólares sem hedge. Qual conclusão decorre disso?"
+    ],
+    "options": [
+      [
+        "A euro quotation alone does not remove underlying currency exposure.",
+        "A cotação em euros, por si só, não elimina a exposição cambial subjacente."
+      ],
+      [
+        "The euro quotation proves the portfolio is currency hedged.",
+        "A cotação em euros prova que a carteira tem hedge cambial."
+      ],
+      [
+        "All underlying securities must also be denominated in euros.",
+        "Todos os títulos subjacentes também devem ser denominados em euros."
+      ],
+      [
+        "The dollar asset return equals the euro investor’s return in all cases.",
+        "O retorno do ativo em dólares é sempre igual ao retorno do investidor em euros."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Quote currency and underlying exposure are separate dimensions. An unhedged dollar portfolio can gain in dollars but lose after euro translation. A euro class name is not evidence of a hedge; the actual policy and costs must be checked. Assuming equal currency returns ignores the conversion factor.",
+      "Moeda de cotação e exposição subjacente são dimensões separadas. Uma carteira em dólares sem hedge pode ganhar em dólares e perder após conversão para euros. O nome de uma classe em euros não comprova hedge; a política efetiva e os custos precisam ser verificados. Presumir retornos iguais nas moedas ignora o fator de conversão."
+    ],
+    "blocks": [
+      "EIP-2.2-01-B07"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A security has bid €99.40 and ask €100.00, with enough depth for 200 units. Ignoring fees, what does buying and immediately selling 200 at unchanged quotes cost?",
+      "Um título tem preço de compra do mercado de €99.40 e de venda de €100.00, com profundidade suficiente para 200 unidades. Sem tarifas, quanto custa comprar e vender imediatamente 200 unidades nessas cotações inalteradas?"
+    ],
+    "options": [
+      [
+        "Zero, since quotes do not change",
+        "Zero, pois as cotações não mudam"
+      ],
+      [
+        "€60, using half the spread",
+        "€60, usando metade do spread"
+      ],
+      [
+        "€19,880, the sale proceeds",
+        "€19,880, os recebimentos da venda"
+      ],
+      [
+        "€120, or 0.6% of purchase cost",
+        "€120, ou 0.6% do custo de compra"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "A buying customer pays the ask: 200 × 100 = €20,000. Selling receives the bid: 200 × 99.40 = €19,880. The loss is €120, or 120/20,000 = 0.6%. Half the spread does not capture both sides of the round trip. This assumes sufficient quoted quantity and excludes fees.",
+      "O cliente comprador paga o preço de venda do mercado: 200 × 100 = €20,000. A venda recebe o preço de compra: 200 × 99.40 = €19,880. A perda é €120, ou 120/20,000 = 0.6%. Metade do spread não captura os dois lados da operação completa. Isso pressupõe quantidade cotada suficiente e exclui tarifas."
+    ],
+    "blocks": [
+      "EIP-2.2-01-B06"
+    ],
+    "calculation": {
+      "method": "spread_cost",
+      "inputs": [
+        200,
+        99.4,
+        100
+      ],
+      "expected": [
+        120,
+        0.006
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A euro investor converts €10,000 at USD 1.10 per EUR. The dollar asset gains 5%; the exit quote is USD 1.20 per EUR. No flows, costs, tax or hedge apply. What is the euro result?",
+      "Um investidor converte €10,000 a USD 1.10 por EUR. O ativo em dólares ganha 5%; a cotação final é USD 1.20 por EUR. Sem fluxos, custos, impostos ou hedge. Qual é o resultado em euros?"
+    ],
+    "options": [
+      [
+        "€10,500; +5%",
+        "€10,500; +5%"
+      ],
+      [
+        "€9,625; −3.75%",
+        "€9,625; −3.75%"
+      ],
+      [
+        "€13,860; +38.6%",
+        "€13,860; +38.6%"
+      ],
+      [
+        "€9,590.91; approximately −4.09%",
+        "€9,590.91; aproximadamente −4.09%"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Initial dollars are 10,000 × 1.10 = 11,000; after growth, 11,550. Divide by 1.20 to obtain €9,625, a −3.75% return. Multiplying the final dollars by 1.20 produces €13,860 with incorrect units. Simply subtracting the 9.09% change in the quoted rate from 5% gives about −4.09%, not the exact compounded translation.",
+      "Os dólares iniciais são 10,000 × 1.10 = 11,000; após o crescimento, 11,550. Divida por 1.20 para obter €9,625, retorno de −3.75%. Multiplicar os dólares finais por 1.20 produz €13,860 com unidades incorretas. Subtrair simplesmente a mudança de 9.09% na cotação dos 5% resulta em cerca de −4.09%, não na conversão composta exata."
+    ],
+    "blocks": [
+      "EIP-2.2-01-B08"
+    ],
+    "calculation": {
+      "method": "foreign_return",
+      "inputs": [
+        10000,
+        1.1,
+        0.05,
+        1.2
+      ],
+      "expected": [
+        9625,
+        -0.0375
+      ]
+    }
+  }
+]

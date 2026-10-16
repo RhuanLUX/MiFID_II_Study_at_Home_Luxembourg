@@ -1,0 +1,167 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Taxonomy eligibility means an activity is ______.",
+      "Elegibilidade à taxonomia significa que uma atividade é ______."
+    ],
+    "options": [
+      [
+        "already verified as meeting every alignment condition",
+        "já verificada como cumpridora de toda condição de alinhamento"
+      ],
+      [
+        "an investment with guaranteed principal",
+        "investimento com principal garantido"
+      ],
+      [
+        "covered by the relevant activity definitions, without necessarily being aligned",
+        "coberta pelas definições pertinentes de atividade, sem ser necessariamente alinhada"
+      ],
+      [
+        "automatically a complete match to every client preference",
+        "automaticamente compatível com toda preferência de cliente"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Eligibility and alignment are different. Alignment requires the applicable contribution, no-significant-harm, minimum-safeguard and screening conditions. A covered activity or green-sounding sector name cannot establish all those conditions for a whole company or portfolio.",
+      "Elegibilidade e alinhamento são distintos. Alinhamento exige condições aplicáveis de contribuição, ausência de dano significativo, salvaguardas mínimas e critérios técnicos. Atividade coberta ou nome de setor aparentemente verde não estabelece todas as condições para empresa ou carteira inteira."
+    ],
+    "blocks": [
+      "EIP-M8-02-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "An SFDR Article 8 reference primarily identifies ______.",
+      "Uma referência ao artigo 8 do SFDR identifica principalmente ______."
+    ],
+    "options": [
+      [
+        "an official guarantee of capital",
+        "garantia oficial de capital"
+      ],
+      [
+        "automatic superiority for every client over Article 9",
+        "superioridade automática para todo cliente em relação ao artigo 9"
+      ],
+      [
+        "the investor’s direct ownership of each green project",
+        "propriedade direta de cada projeto verde pelo investidor"
+      ],
+      [
+        "a disclosure framework for promoted characteristics under its conditions",
+        "um regime de divulgação de características promovidas sob suas condições"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The article label is neither official quality certification nor a universal sustainability ranking. Read the binding strategy, commitments, methods and reporting. Financial suitability and matching the client’s actual preferences require further evidence; an entity policy or marketing headline cannot substitute for product-specific facts.",
+      "O rótulo não é certificação oficial de qualidade nem classificação universal de sustentabilidade. Leia estratégia vinculante, compromissos, métodos e relatórios. Adequação financeira e correspondência às preferências reais exigem mais provas; política institucional ou título publicitário não substitui fatos específicos do produto."
+    ],
+    "blocks": [
+      "EIP-M8-02-B02"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Total revenue is €100 million: €60 million eligible, including €35 million aligned. What aligned share uses total revenue as denominator?",
+      "A receita total é €100 milhões: €60 milhões elegíveis, incluindo €35 milhões alinhados. Qual parcela alinhada usa a receita total como denominador?"
+    ],
+    "options": [
+      [
+        "35%, with 58.33% describing aligned revenue only within the eligible portion",
+        "35%, com 58.33% descrevendo receita alinhada apenas dentro da parcela elegível"
+      ],
+      [
+        "60%, because all eligible activities are aligned",
+        "60%, porque toda atividade elegível é alinhada"
+      ],
+      [
+        "58.33% of total revenue",
+        "58.33% da receita total"
+      ],
+      [
+        "95%, from adding eligible and aligned shares",
+        "95%, somando parcelas elegíveis e alinhadas"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "35 / 100 = 35% of total revenue. Dividing 35 by 60 answers a different question: alignment within eligible revenue. The €35 million is already part of €60 million, so addition double counts. The mutually exclusive total is 35 aligned + 25 eligible-not-aligned + 40 non-eligible = €100 million. This stipulated revenue illustration is not a complete legal reporting methodology.",
+      "35 / 100 = 35% da receita total. Dividir 35 por 60 responde outra questão: alinhamento dentro da receita elegível. Os €35 milhões já integram €60 milhões; somar conta duas vezes. O total mutuamente exclusivo é 35 alinhados + 25 elegíveis não alinhados + 40 não elegíveis = €100 milhões. A ilustração de receita estipulada não é metodologia jurídica completa de relatório."
+    ],
+    "blocks": [
+      "EIP-M8-02-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A client requires a 20% taxonomy-aligned minimum. Otherwise suitable A commits to 10% but recently reports 27%; B commits to 22%, on comparable bases. What is supported?",
+      "Um cliente exige mínimo de 20% alinhado. A, adequado nos demais aspectos, compromete 10% mas reporta 27% recentes; B compromete 22%, em bases comparáveis. O que é sustentado?"
+    ],
+    "options": [
+      [
+        "A’s latest observation automatically replaces its 10% floor.",
+        "A observação recente de A substitui automaticamente seu piso de 10%."
+      ],
+      [
+        "B’s floor meets this minimum by 2 percentage points; A’s observation alone does not establish the requested commitment.",
+        "O piso de B atende ao mínimo por 2 pontos percentuais; a observação de A sozinha não estabelece o compromisso pedido."
+      ],
+      [
+        "Both fail because any commitment must equal exactly 20%.",
+        "Ambos falham porque todo compromisso deve ser exatamente 20%."
+      ],
+      [
+        "The adviser may silently lower the preference to 10%.",
+        "O consultor pode baixar silenciosamente a preferência para 10%."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A current observed proportion and a binding minimum have different meanings. B’s 22% exceeds the requested 20% floor by 2 percentage points, while A only promises 10%. Check other preferences and ordinary suitability too. If no matching suitable product exists, a genuine informed adaptation belongs before recommendation, with a neutral explanation and record rather than a silent change.",
+      "Proporção observada e mínimo vinculante têm significados distintos. Os 22% de B excedem o piso pedido de 20% em 2 pontos percentuais; A promete apenas 10%. Verifique outras preferências e adequação normal. Se não houver produto adequado correspondente, adaptação informada genuína deve anteceder recomendação, com explicação neutra e registro, não mudança silenciosa."
+    ],
+    "blocks": [
+      "EIP-M8-02-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €10 million portfolio has €4 million sustainable under its stated methodology, including €1.5 million taxonomy-aligned. No other holding qualifies. What unique share meets at least one classification?",
+      "Uma carteira de €10 milhões tem €4 milhões sustentáveis pelo método declarado, incluindo €1.5 milhão alinhado à taxonomia. Nenhuma outra posição se qualifica. Qual parcela única atende a pelo menos uma classificação?"
+    ],
+    "options": [
+      [
+        "55%, adding 40% and 15%",
+        "55%, somando 40% e 15%"
+      ],
+      [
+        "25%, excluding all taxonomy-aligned investments",
+        "25%, excluindo todos os investimentos alinhados"
+      ],
+      [
+        "40%, because the 15% taxonomy portion is already within the 40% sustainable amount",
+        "40%, porque a parcela alinhada de 15% já está dentro dos 40% sustentáveis"
+      ],
+      [
+        "15%, because only the overlap can meet either classification",
+        "15%, porque apenas a interseção atende a qualquer classificação"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The stipulated sets are nested: €1.5 million is inside €4 million. Their union remains €4 million / €10 million = 40%. Adding 40% + 15% counts the overlap twice; 25% is only sustainable-but-not-taxonomy-aligned. This conclusion follows the explicit methodology and common denominator, not an assumption that every legal disclosure always has the same nesting. Verify definitions, dates and overlap before combining percentages.",
+      "Os conjuntos estipulados são contidos: €1.5 milhão está dentro de €4 milhões. A união permanece €4 milhões / €10 milhões = 40%. Somar 40% + 15% conta a interseção duas vezes; 25% é apenas sustentável não alinhado. A conclusão decorre do método e denominador explícitos, não de supor igual inclusão em toda divulgação jurídica. Verifique definições, datas e sobreposição antes de combinar percentuais."
+    ],
+    "blocks": [
+      "EIP-M8-02-B07"
+    ]
+  }
+]

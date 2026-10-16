@@ -1,0 +1,167 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which combination best reflects the taught professional ethics?",
+      "Qual combinação melhor reflete a ética profissional ensinada?"
+    ],
+    "options": [
+      [
+        "Good intentions without technical verification",
+        "Boas intenções sem verificação técnica"
+      ],
+      [
+        "Technical skill with concealed conflicts",
+        "Habilidade técnica com conflitos ocultos"
+      ],
+      [
+        "Competence, truthful communication and a defensible client-focused basis",
+        "Competência, comunicação verdadeira e fundamento defensável voltado ao cliente"
+      ],
+      [
+        "Sales success as proof of prudent advice",
+        "Sucesso comercial como prova de consultoria prudente"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Integrity and competence reinforce each other. Sincerity cannot substitute for understanding, and expertise cannot excuse concealment. Establish relevant facts, duties, alternatives and limits, then explain why the action serves the client. A professional code supports decisions but does not replace applicable law.",
+      "Integridade e competência se reforçam. Sinceridade não substitui entendimento, e conhecimento não justifica ocultação. Estabeleça fatos, deveres, alternativas e limites, explicando por que a ação atende ao cliente. Código profissional apoia decisões, mas não substitui lei aplicável."
+    ],
+    "blocks": [
+      "EIP-7.3-02-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Completing this independent Academy ______ an awarded EFPA designation.",
+      "Concluir esta Academy independente ______ uma designação EFPA concedida."
+    ],
+    "options": [
+      [
+        "automatically confers",
+        "confere automaticamente"
+      ],
+      [
+        "renews in every case",
+        "renova em todo caso"
+      ],
+      [
+        "is identical to holding",
+        "equivale a possuir"
+      ],
+      [
+        "does not by itself establish",
+        "não estabelece por si só"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Describe qualifications according to actual awarded and valid status. Following a syllabus or completing reading is not certification or regulatory authorisation. The same accuracy principle governs claims about experience, endorsement and specialist competence; do not imply a professional status that has not been established.",
+      "Descreva qualificações conforme situação efetivamente concedida e válida. Seguir programa ou concluir leitura não é certificação nem autorização regulatória. O mesmo princípio de exatidão rege experiência, endosso e competência especializada; não sugira condição profissional não estabelecida."
+    ],
+    "blocks": [
+      "EIP-7.3-02-B07"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An adviser incorrectly promised a guaranteed early-sale bond yield. The holding later gains. What does ethics require?",
+      "Um consultor prometeu incorretamente rendimento garantido na venda antecipada de título. A posição depois lucra. O que a ética exige?"
+    ],
+    "options": [
+      [
+        "Preserve and escalate the inaccurate statement, correct through authorised channels and assess affected decisions despite the gain.",
+        "Preservar e encaminhar a afirmação incorreta, corrigir pelos canais autorizados e avaliar decisões afetadas apesar do ganho."
+      ],
+      [
+        "Treat the gain as proof the original guarantee was accurate.",
+        "Tratar o ganho como prova de que a garantia original era correta."
+      ],
+      [
+        "Wait until a loss occurs before correcting the misconception.",
+        "Esperar perda antes de corrigir a concepção errada."
+      ],
+      [
+        "Independently promise a fixed compensation amount without assessment.",
+        "Prometer independentemente indenização fixa sem avaliação."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Outcome and accuracy are separate. The client may still misunderstand a future sale or make another decision using the false promise. Preserve the original record and use error-remediation procedures to correct the basis and examine consequences. A favourable market move does not make the statement true, while responsible correction does not authorise an unsupported compensation promise.",
+      "Resultado e exatidão são separados. O cliente ainda pode entender mal venda futura ou decidir novamente usando a promessa falsa. Preserve o registro e use procedimentos de correção para ajustar a base e examinar consequências. Movimento favorável não torna a afirmação verdadeira, e correção responsável não autoriza promessa indenizatória sem suporte."
+    ],
+    "blocks": [
+      "EIP-7.3-02-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "On €100,000, Fund A costs 0.60% and B 1.20% annually. B benefits the firm more, but no client-relevant advantage is established. What is the ethical analysis?",
+      "Sobre €100,000, o fundo A custa 0.60% e B 1.20% ao ano. B beneficia mais a instituição, mas não se estabeleceu vantagem ao cliente. Qual é a análise ética?"
+    ],
+    "options": [
+      [
+        "The extra cost is €60 and sales targets justify it.",
+        "O custo extra é €60 e metas comerciais o justificam."
+      ],
+      [
+        "The simple annual difference is €600; establish a genuine client-relevant benefit and assess the incentive rather than inventing a rationale.",
+        "A diferença anual simples é €600; estabeleça benefício real ao cliente e avalie o incentivo, em vez de inventar justificativa."
+      ],
+      [
+        "The €1,200 total cost of B is entirely its increment over A.",
+        "O custo total de B de €1,200 é integralmente seu incremento sobre A."
+      ],
+      [
+        "The cheapest option is always suitable without examining risk or needs.",
+        "A opção mais barata é sempre adequada sem examinar risco ou necessidades."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "100,000 × (1.20% − 0.60%) = €600. A higher cost can be justified only with a specific relevant feature and proper service assessment, not sales pressure or an unsupported better-supported claim. The cheapest option is not automatically best either: compare actual risks, services and client needs. Disclosure alone does not establish suitability or inducement permissibility.",
+      "100,000 × (1.20% − 0.60%) = €600. Custo maior exige característica específica pertinente e avaliação correta do serviço, não pressão comercial nem alegação sem base de suporte superior. A opção mais barata tampouco é automaticamente melhor: compare riscos, serviços e necessidades efetivos. Divulgação sozinha não estabelece adequação nem permissibilidade do incentivo."
+    ],
+    "blocks": [
+      "EIP-7.3-02-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A trainee’s automated draft says all gains will be tax-free after a possible move abroad and includes impressive references. What should happen before a client recommendation?",
+      "Uma minuta automatizada de aprendiz diz que todos os ganhos serão isentos após possível mudança ao exterior e inclui referências impressionantes. O que deve ocorrer antes de recomendar ao cliente?"
+    ],
+    "options": [
+      [
+        "Send immediately because fluent text demonstrates competence.",
+        "Enviar imediatamente porque texto fluente demonstra competência."
+      ],
+      [
+        "Treat the reference list as proof without checking what it supports.",
+        "Tratar a lista de referências como prova sem verificar o que sustenta."
+      ],
+      [
+        "Verify the claim against facts and current primary sources, seek qualified review of unresolved cross-border issues and describe actual credentials honestly.",
+        "Verificar a afirmação com fatos e fontes primárias atuais, buscar revisão qualificada das questões internacionais pendentes e descrever credenciais reais honestamente."
+      ],
+      [
+        "Use an EFPA-certified signature because reading followed the syllabus.",
+        "Assinar como certificado EFPA porque a leitura seguiu o programa."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "A tool can assist but does not assume professional responsibility or establish source support. Identify residence, payment and legal facts still unresolved, verify applicable current sources and obtain appropriate review. Do not send a settled tax conclusion where its basis is unverified. Reading completion does not confer a designation, and uncertainty should lead to a specific next step rather than either careless assurance or indefinite refusal.",
+      "Ferramenta pode ajudar, mas não assume responsabilidade profissional nem estabelece suporte das fontes. Identifique fatos de residência, pagamento e direito pendentes, verifique fontes atuais e obtenha revisão apropriada. Não envie conclusão fiscal definitiva sem base verificada. Concluir leitura não concede designação, e incerteza deve levar a próximo passo específico, não garantia descuidada nem recusa indefinida."
+    ],
+    "blocks": [
+      "EIP-7.3-02-B08"
+    ]
+  }
+]

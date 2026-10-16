@@ -1,0 +1,167 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A market loss alone establishes which fact?",
+      "Uma perda de mercado sozinha estabelece qual fato?"
+    ],
+    "options": [
+      [
+        "A legally fixed compensation amount",
+        "Um valor juridicamente fixo de indenização"
+      ],
+      [
+        "A proven suitability breach",
+        "Uma violação comprovada de adequação"
+      ],
+      [
+        "An unconditional principal promise",
+        "Uma promessa incondicional de principal"
+      ],
+      [
+        "A financial loss, with conduct and liability requiring separate evidence",
+        "Uma perda financeira, com conduta e responsabilidade exigindo provas separadas"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Loss is an outcome. Whether a duty was breached depends on the service, contemporaneous client facts, recommendation, disclosures and applicable framework. Equally, a generic warning is not a universal defence against inaccurate assurances or an unauthorised action. Investigate evidence rather than infer liability solely from the sign of return.",
+      "Perda é um resultado. Violação de dever depende de serviço, fatos contemporâneos, recomendação, divulgação e regime aplicável. Tampouco alerta genérico é defesa universal contra garantias incorretas ou ato não autorizado. Investigue provas, em vez de inferir responsabilidade apenas pelo sinal do retorno."
+    ],
+    "blocks": [
+      "EIP-7.1-05-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "CSSF out-of-court reasoned conclusions are ______.",
+      "Conclusões fundamentadas da resolução extrajudicial da CSSF são ______."
+    ],
+    "options": [
+      [
+        "non-binding, within a procedure with admissibility conditions",
+        "não vinculantes, em procedimento com condições de admissibilidade"
+      ],
+      [
+        "binding court judgments in every private claim",
+        "sentenças judiciais vinculantes em toda demanda privada"
+      ],
+      [
+        "automatic awards of every claimed market loss",
+        "indenizações automáticas de toda perda alegada"
+      ],
+      [
+        "a replacement for the initial written complaint to the firm",
+        "substitutas da reclamação escrita inicial à instituição"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The route has defined conditions, including a prior complaint to the firm, and does not issue binding court judgments. Parties can consider the conclusions and applicable further remedies. Explain the process accurately without promising compensation or discouraging a legitimate complaint.",
+      "A via tem condições definidas, incluindo reclamação prévia à instituição, e não emite sentenças judiciais vinculantes. As partes podem considerar as conclusões e medidas posteriores aplicáveis. Explique corretamente o processo, sem prometer indenização nem desestimular reclamação legítima."
+    ],
+    "blocks": [
+      "EIP-7.1-05-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A leveraged instrument was excluded by a mandate, but its unauthorised purchase earns €2,000. What should the firm conclude?",
+      "Um instrumento alavancado estava excluído do mandato, mas sua compra não autorizada lucra €2,000. O que a instituição deve concluir?"
+    ],
+    "options": [
+      [
+        "Profit retrospectively expands the mandate.",
+        "O lucro amplia retroativamente o mandato."
+      ],
+      [
+        "Authority and compliance still require investigation; profit does not authorise the original action or settle damages.",
+        "Autoridade e conformidade ainda exigem investigação; lucro não autoriza o ato original nem resolve indenização."
+      ],
+      [
+        "A profitable action necessarily proves that a specific compensation amount is owed.",
+        "Ato lucrativo necessariamente prova que se deve indenização específica."
+      ],
+      [
+        "No records are needed because there is no investment loss.",
+        "Não são necessários registros porque não houve perda no investimento."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A mandate defines authority at the time of decision. A later gain cannot cure an excluded instrument or justify hiding the breach. Compliance, authority and legally established damages remain distinct questions. Preserve instructions, exposure calculations and communications, then follow the firm’s investigation and remediation process without inventing a compensation conclusion.",
+      "O mandato define autoridade no momento da decisão. Ganho posterior não sana instrumento excluído nem justifica ocultar a violação. Conformidade, autoridade e danos juridicamente estabelecidos permanecem questões distintas. Preserve instruções, cálculos de exposição e comunicações, seguindo investigação e correção sem inventar conclusão indenizatória."
+    ],
+    "blocks": [
+      "EIP-7.1-05-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €50,000 equity portfolio falls 15%. An adviser previously wrote that principal could not fall. Which interpretation is sound?",
+      "Uma carteira de ações de €50,000 cai 15%. O consultor escreveu antes que o principal não poderia cair. Qual interpretação é adequada?"
+    ],
+    "options": [
+      [
+        "The remaining value is €42,500, so no information issue can exist.",
+        "O valor restante é €42,500, portanto não pode existir problema informacional."
+      ],
+      [
+        "A generic warning automatically cancels the written assurance.",
+        "Um alerta genérico automaticamente cancela a garantia escrita."
+      ],
+      [
+        "The €7,500 loss is an outcome, while the contradictory assurance is a separate information issue to investigate.",
+        "A perda de €7,500 é resultado, enquanto a garantia contraditória é problema informacional separado a investigar."
+      ],
+      [
+        "Every 15% market decline proves the same legal damages formula.",
+        "Toda queda de 15% prova a mesma fórmula jurídica de indenização."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "50,000 × 15% = €7,500, leaving €42,500. In an accurately explained suitable investment, loss alone would not prove breach. The added written principal assurance changes the information facts and requires investigation against the actual product and communications. Neither arithmetic nor a generic warning determines the legal outcome without evidence.",
+      "50,000 × 15% = €7,500, restando €42,500. Num investimento adequado corretamente explicado, perda sozinha não provaria violação. A garantia escrita adicional muda os fatos informacionais e exige investigação do produto e comunicações. Nem aritmética nem alerta genérico determina o resultado jurídico sem provas."
+    ],
+    "blocks": [
+      "EIP-7.1-05-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €40,000 investment ends at €34,000. The client alleges a suitable alternative would have ended at €38,000. What does the €4,000 comparison establish?",
+      "Um investimento de €40,000 termina em €34,000. O cliente alega que alternativa adequada terminaria em €38,000. O que a comparação de €4,000 estabelece?"
+    ],
+    "options": [
+      [
+        "Automatic damages equal to the whole €6,000 original loss",
+        "Indenização automática igual à perda original de €6,000"
+      ],
+      [
+        "That any hypothetical comparison must be rejected without review",
+        "Que toda comparação hipotética deve ser rejeitada sem análise"
+      ],
+      [
+        "A binding CSSF award before the complaint is assessed",
+        "Uma indenização vinculante da CSSF antes da análise"
+      ],
+      [
+        "An arithmetic counterfactual gap requiring evidence of the alternative, duties, causation and applicable law before any damages conclusion",
+        "Uma lacuna contrafactual aritmética que exige provas da alternativa, deveres, causalidade e lei antes de concluir sobre indenização"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Actual loss is 40,000 − 34,000 = €6,000; the alleged counterfactual difference is 38,000 − 34,000 = €4,000. These are distinct comparisons. A valid damages assessment needs a defensible alternative and causal evidence rather than a best performer selected with hindsight. Preserve contemporaneous records and investigate through the appropriate complaint or legal process; arithmetic alone does not award compensation.",
+      "A perda efetiva é 40,000 − 34,000 = €6,000; a diferença contrafactual alegada é 38,000 − 34,000 = €4,000. São comparações distintas. Avaliação válida de danos exige alternativa defensável e prova causal, não o melhor desempenho escolhido retrospectivamente. Preserve registros contemporâneos e investigue pela via apropriada; aritmética sozinha não concede indenização."
+    ],
+    "blocks": [
+      "EIP-7.1-05-B07"
+    ]
+  }
+]

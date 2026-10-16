@@ -1,0 +1,205 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "The basic Sharpe ratio divides compatible average excess return by ______.",
+      "O índice de Sharpe básico divide retorno excedente médio compatível por ______."
+    ],
+    "options": [
+      [
+        "beta",
+        "beta"
+      ],
+      [
+        "total excess-return standard deviation",
+        "desvio-padrão total dos retornos excedentes"
+      ],
+      [
+        "tracking error against any chosen equity index",
+        "erro de acompanhamento perante qualquer índice de ações"
+      ],
+      [
+        "initial contributions alone",
+        "apenas aportes iniciais"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Sharpe uses total excess-return dispersion. With a constant reference, its standard deviation matches the portfolio-return series. Beta and tracking error belong to other measures. Frequency, currency and gross/net conventions must align; a quotient cannot repair inconsistent input series.",
+      "Sharpe usa a dispersão total dos retornos excedentes. Com referência constante, seu desvio coincide com o da série de retornos da carteira. Beta e erro de acompanhamento pertencem a outras medidas. Frequência, moeda e convenções brutas/líquidas devem alinhar-se; um quociente não corrige séries inconsistentes."
+    ],
+    "blocks": [
+      "EIP-5.5-02-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Time-weighted return principally aims to ______.",
+      "O retorno ponderado pelo tempo procura principalmente ______."
+    ],
+    "options": [
+      [
+        "reflect the amount and timing of every investor contribution as an annual IRR",
+        "refletir valor e momento de cada aporte como TIR anual"
+      ],
+      [
+        "adjust automatically for all market and liquidity risk",
+        "ajustar automaticamente todo risco de mercado e liquidez"
+      ],
+      [
+        "count contributions as strategy gains",
+        "contar aportes como ganhos da estratégia"
+      ],
+      [
+        "link subperiod strategy returns while reducing the influence of external contribution timing",
+        "encadear retornos da estratégia por subperíodo, reduzindo a influência do momento dos aportes externos"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Split at external flows, measure subperiod returns and link growth factors. Money-weighted return instead solves a dated capital IRR and reflects the investor’s exposed amounts. Neither cash-flow method automatically adjusts for market risk. Reliable valuations and correct flow dates are necessary for both.",
+      "Divida nos fluxos externos, meça retornos por subperíodo e encadeie fatores de crescimento. O retorno ponderado pelo dinheiro resolve a TIR do capital datado e reflete os montantes expostos. Nenhum método de fluxos ajusta automaticamente risco de mercado. Avaliações confiáveis e datas corretas são necessárias aos dois."
+    ],
+    "blocks": [
+      "EIP-5.5-02-B06"
+    ]
+  },
+  {
+    "type": "matching",
+    "prompt": [
+      "Associate each risk-adjusted measure with its denominator.",
+      "Associe cada medida ajustada ao risco ao seu denominador."
+    ],
+    "concepts": [
+      [
+        "Sharpe",
+        "Sharpe"
+      ],
+      [
+        "Treynor",
+        "Treynor"
+      ],
+      [
+        "Information ratio",
+        "Índice de informação"
+      ]
+    ],
+    "definitions": [
+      [
+        "Beta to a specified market factor",
+        "Beta perante fator de mercado especificado"
+      ],
+      [
+        "Tracking error: dispersion of active returns",
+        "Erro de acompanhamento: dispersão dos retornos ativos"
+      ],
+      [
+        "Total excess-return standard deviation",
+        "Desvio-padrão total dos retornos excedentes"
+      ]
+    ],
+    "answer": [
+      2,
+      0,
+      1
+    ],
+    "explanation": [
+      "Sharpe standardises excess return by total dispersion; Treynor uses model beta; the information ratio uses tracking error against its benchmark. These risk definitions are not interchangeable. Model validity, diversification, nonlinear payoffs and consistent period/currency/cost bases determine what each comparison can support.",
+      "Sharpe padroniza retorno excedente pela dispersão total; Treynor usa beta do modelo; o índice de informação usa erro de acompanhamento perante sua referência. Essas definições de risco não são intercambiáveis. Validade do modelo, diversificação, resultados não lineares e bases consistentes de período/moeda/custo determinam o que a comparação sustenta."
+    ],
+    "blocks": [
+      "EIP-5.5-02-B02",
+      "EIP-5.5-02-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Comparable annual A has return 7%, volatility 10%; B return 9%, volatility 20%. Both use constant risk-free reference 2%. Which Sharpe comparison follows?",
+      "A anual comparável tem retorno de 7%, volatilidade de 10%; B retorno de 9%, volatilidade de 20%. Ambos usam referência constante sem risco de 2%. Qual comparação de Sharpe decorre?"
+    ],
+    "options": [
+      [
+        "A 0.50; B 0.35, despite B’s higher raw return",
+        "A 0.50; B 0.35, apesar do retorno bruto maior de B"
+      ],
+      [
+        "A 0.70; B 0.45, ignoring the reference",
+        "A 0.70; B 0.45, ignorando a referência"
+      ],
+      [
+        "A 0.05; B 0.07, reporting excess returns without standardisation",
+        "A 0.05; B 0.07, reportando retornos excedentes sem padronização"
+      ],
+      [
+        "A 0.35; B 0.50, reversing the computed ratios",
+        "A 0.35; B 0.50, invertendo os índices calculados"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "A is (0.07 − 0.02)/0.10 = 0.50; B is (0.09 − 0.02)/0.20 = 0.35. Ignoring the reference overstates both measures. B’s extra raw return comes with greater total dispersion in these inputs. A higher estimated ratio does not guarantee future superiority or suitability and can miss tail, liquidity and sampling risks.",
+      "A é (0.07 − 0.02)/0.10 = 0.50; B é (0.09 − 0.02)/0.20 = 0.35. Ignorar a referência superestima as duas medidas. O retorno bruto adicional de B vem com dispersão total maior nesses dados. Um índice estimado maior não garante superioridade futura nem adequação e pode omitir riscos de cauda, liquidez e amostragem."
+    ],
+    "blocks": [
+      "EIP-5.5-02-B03"
+    ],
+    "calculation": {
+      "method": "sharpe_pair",
+      "inputs": [
+        0.07,
+        0.1,
+        0.09,
+        0.2,
+        0.02
+      ],
+      "expected": [
+        0.5,
+        0.35
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Contribute €100 at time zero; after +20% in year one, add €100. Year two returns −20%, then withdraw all €176. No fees. Which time-weighted cumulative return and annual money-weighted IRR follow?",
+      "Aporte €100 no instante zero; após +20% no ano um, acrescente €100. O ano dois retorna −20%, depois retire todos os €176. Sem tarifas. Quais retorno acumulado ponderado pelo tempo e TIR anual ponderada pelo dinheiro decorrem?"
+    ],
+    "options": [
+      [
+        "−4%; −12%, calling the loss on total contributions an annual IRR",
+        "−4%; −12%, chamando a perda sobre aportes totais de TIR anual"
+      ],
+      [
+        "−4%; approximately −2.0204%, using the annual time-weighted equivalent as money-weighted",
+        "−4%; aproximadamente −2.0204%, usando o equivalente anual por tempo como ponderado pelo dinheiro"
+      ],
+      [
+        "−4%; approximately −8.2255%, reflecting more capital exposed to the second-year loss",
+        "−4%; aproximadamente −8.2255%, refletindo mais capital exposto à perda do segundo ano"
+      ],
+      [
+        "−8.2255%; −4%, interchanging measures and periods",
+        "−8.2255%; −4%, trocando medidas e períodos"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Time-weighted factor is 1.20 × 0.80 = 0.96, a −4% two-year return. Money-weighted x = 1+r solves 100x² + 100x = 176: the positive root is (−100 + √80,400)/200 ≈ 0.9177447, so r ≈ −8.2255% annually. The €24 loss divided by €200 is not an annual IRR. The approximately −2.0204% rate annualises the time-weighted result; it does not account for the extra capital timing.",
+      "O fator por tempo é 1.20 × 0.80 = 0.96, retorno de −4% em dois anos. No ponderado pelo dinheiro, x = 1+r resolve 100x² + 100x = 176: a raiz positiva é (−100 + √80,400)/200 ≈ 0.9177447, portanto r ≈ −8.2255% anuais. A perda de €24 dividida por €200 não é TIR anual. A taxa aproximada de −2.0204% anualiza o resultado por tempo; não considera o momento do capital adicional."
+    ],
+    "blocks": [
+      "EIP-5.5-02-B07"
+    ],
+    "calculation": {
+      "method": "two_contribution_irr",
+      "inputs": [
+        100,
+        100,
+        176
+      ],
+      "expected": -0.08225531212421744
+    }
+  }
+]

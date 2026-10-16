@@ -1,0 +1,176 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which settlement promises payments for a stated number of years rather than for survival?",
+      "Qual liquidação promete pagamentos por um número determinado de anos, em vez de enquanto houver sobrevivência?"
+    ],
+    "options": [
+      [
+        "A fixed-period settlement",
+        "Uma liquidação por prazo fixo"
+      ],
+      [
+        "A lifetime annuity without a guaranteed period",
+        "Uma renda vitalícia sem período garantido"
+      ],
+      [
+        "A lump sum held as cash",
+        "Um pagamento único mantido em caixa"
+      ],
+      [
+        "A survivor annuity whose term follows the survivor’s life",
+        "Uma renda de reversão cujo prazo acompanha a vida do sobrevivente"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "A fixed period defines a payment horizon. A lifetime annuity follows the covered life, while survivor provisions can extend payments to another life. A lump sum gives capital now and leaves the recipient to manage investment and longevity risk. The payment form determines which risks remain with the client.",
+      "Um prazo fixo define um horizonte de pagamentos. Uma renda vitalícia acompanha a vida coberta, enquanto cláusulas de reversão podem estender pagamentos a outra vida. Um pagamento único entrega capital agora e deixa investimento e longevidade ao destinatário. A forma determina quais riscos permanecem com o cliente."
+    ],
+    "blocks": [
+      "EIP-6.1-03-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A guaranteed fixed nominal annual payment protects ______.",
+      "Um pagamento anual nominal fixo garantido protege ______."
+    ],
+    "options": [
+      [
+        "the same purchasing power at every future date",
+        "o mesmo poder de compra em toda data futura"
+      ],
+      [
+        "the stated nominal amount, subject to the guarantee terms",
+        "o valor nominal declarado, conforme as condições da garantia"
+      ],
+      [
+        "the amount indexed to the client’s personal expenses",
+        "o valor indexado às despesas pessoais do cliente"
+      ],
+      [
+        "the resale value of the annuity contract",
+        "o valor de revenda do contrato de renda"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A nominal guarantee concerns currency amounts and its contractual conditions. Inflation can reduce what that amount buys. An escalation clause requires separate checking and need not match the client’s personal inflation. A promise about income also does not establish unrestricted access to the original capital.",
+      "Uma garantia nominal trata de valores monetários e suas condições contratuais. A inflação pode reduzir o que esse valor compra. Uma cláusula de reajuste exige verificação separada e pode não acompanhar a inflação pessoal. Uma promessa de renda também não estabelece acesso irrestrito ao capital original."
+    ],
+    "blocks": [
+      "EIP-6.1-03-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A fictional €100,000 premium buys €6,000 annually for life, without escalation or a guaranteed period. What does 100,000 / 6,000 establish?",
+      "Um prêmio fictício de €100,000 compra €6,000 anuais vitalícios, sem reajuste nem período garantido. O que 100,000 / 6,000 demonstra?"
+    ],
+    "options": [
+      [
+        "The actuarially fair expected lifetime",
+        "A vida esperada atuarialmente justa"
+      ],
+      [
+        "A guaranteed maturity after that many years",
+        "Um vencimento garantido após esse número de anos"
+      ],
+      [
+        "Simple undiscounted recovery in about 16.67 payments, without a valuation conclusion",
+        "Recuperação simples sem desconto em cerca de 16.67 pagamentos, sem conclusão de avaliação"
+      ],
+      [
+        "The annual investment yield earned on an accessible €100,000 account",
+        "O rendimento anual de investimento sobre uma conta acessível de €100,000"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The division counts nominal payments needed to equal the premium. It ignores survival probabilities, discounting, expenses and the value of longevity protection. It is neither a guaranteed term nor proof that the annuity is fairly priced. The premium has bought contractual income rights; it is not necessarily an accessible investment balance earning a coupon.",
+      "A divisão conta pagamentos nominais necessários para igualar o prêmio. Ignora probabilidades de sobrevivência, desconto, despesas e o valor da proteção de longevidade. Não é prazo garantido nem prova de preço justo. O prêmio comprou direitos contratuais de renda; não é necessariamente um saldo acessível rendendo cupom."
+    ],
+    "blocks": [
+      "EIP-6.1-03-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €100,000 balance funds 10 end-of-year payments at a guaranteed 2% annual rate. The annuity formula gives €11,132.65 per year. What balance remains just after the first payment, rounded to cents?",
+      "Um saldo de €100,000 financia 10 pagamentos ao fim de cada ano à taxa anual garantida de 2%. A fórmula de anuidade fornece €11,132.65 ao ano. Qual saldo resta após o primeiro pagamento, arredondado aos centavos?"
+    ],
+    "options": [
+      [
+        "€88,867.35",
+        "€88,867.35"
+      ],
+      [
+        "€92,000.00",
+        "€92,000.00"
+      ],
+      [
+        "€100,000.00",
+        "€100,000.00"
+      ],
+      [
+        "€90,867.35",
+        "€90,867.35"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The first year earns €2,000 on the opening balance: 100,000 × 1.02 − 11,132.65 = €90,867.35. Subtracting the payment without interest gives €88,867.35. A €12,000 payment would leave €90,000, but incorrectly adds a constant €2,000 coupon to a €10,000 principal instalment; interest declines with the balance. The stipulated guarantee matters: a projected return would not promise the same outcome.",
+      "O primeiro ano rende €2,000 sobre o saldo inicial: 100,000 × 1.02 − 11,132.65 = €90,867.35. Subtrair o pagamento sem juros dá €88,867.35. Um pagamento de €12,000 deixaria €90,000, mas somaria incorretamente um cupom constante de €2,000 a uma prestação de principal de €10,000; os juros diminuem com o saldo. A garantia estipulada importa: retorno projetado não promete o mesmo resultado."
+    ],
+    "blocks": [
+      "EIP-6.1-03-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "From €150,000, a client reserves €20,000 for home adaptation and €10,000 for emergencies. A fictional life-annuity quote pays 5% of committed capital annually, fixed nominally. At 2% inflation for 20 years, which interpretation is sound?",
+      "De €150,000, um cliente reserva €20,000 para adaptar a casa e €10,000 para emergências. Uma cotação fictícia de renda vitalícia paga anualmente 5% do capital comprometido, nominalmente fixo. Com inflação de 2% por 20 anos, qual interpretação é adequada?"
+    ],
+    "options": [
+      [
+        "Commit €120,000 for €6,000 annual income, worth about €4,037.83 in today’s purchasing power after 20 years; the quote is not an investment yield.",
+        "Comprometer €120,000 por €6,000 anuais, valendo cerca de €4,037.83 no poder de compra atual após 20 anos; a cotação não é rendimento de investimento."
+      ],
+      [
+        "Commit €150,000 for €7,500 and count the reserved €30,000 as still accessible under the same contract.",
+        "Comprometer €150,000 por €7,500 e contar os €30,000 reservados como ainda acessíveis no mesmo contrato."
+      ],
+      [
+        "Commit €120,000 for €6,000 with purchasing power fixed at €6,000 because nominal income is guaranteed.",
+        "Comprometer €120,000 por €6,000 com poder de compra fixo em €6,000 porque a renda nominal é garantida."
+      ],
+      [
+        "Commit €120,000 for €6,000 and infer a liquid capital account guaranteed to earn 5% annually.",
+        "Comprometer €120,000 por €6,000 e inferir uma conta de capital líquido com rendimento anual garantido de 5%."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Available capital is 150,000 − 20,000 − 10,000 = €120,000; the quote produces 120,000 × 5% = €6,000. Deflate that income: 6,000 / 1.02^20 ≈ €4,037.83. Reserving liquidity sacrifices €1,500 of quoted annual income relative to committing everything, but retains €30,000 for stated needs. Neither a nominal promise nor a conversion percentage establishes inflation protection or access to the premium.",
+      "O capital disponível é 150,000 − 20,000 − 10,000 = €120,000; a cotação gera 120,000 × 5% = €6,000. Deflacione a renda: 6,000 / 1.02^20 ≈ €4,037.83. Reservar liquidez sacrifica €1,500 de renda anual cotada em relação a comprometer tudo, mas retém €30,000 para as necessidades declaradas. Nem promessa nominal nem percentual de conversão estabelece proteção inflacionária ou acesso ao prêmio."
+    ],
+    "blocks": [
+      "EIP-6.1-03-B07"
+    ],
+    "calculation": {
+      "method": "growth",
+      "inputs": [
+        6000,
+        -0.019607843137254943,
+        20
+      ],
+      "expected": 4037.8279986483444
+    }
+  }
+]

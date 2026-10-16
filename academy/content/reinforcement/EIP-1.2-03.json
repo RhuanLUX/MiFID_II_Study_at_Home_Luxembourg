@@ -1,0 +1,195 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which observation is a stock rather than a period flow?",
+      "Qual observação é um estoque, em vez de um fluxo do período?"
+    ],
+    "options": [
+      [
+        "Annual disposable income",
+        "Renda disponível anual"
+      ],
+      [
+        "Debt outstanding on 31 December",
+        "Dívida em aberto em 31 de dezembro"
+      ],
+      [
+        "Interest paid during the year",
+        "Juros pagos durante o ano"
+      ],
+      [
+        "Borrowing during the year",
+        "Empréstimos tomados durante o ano"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Debt outstanding is measured at a specified date and is a stock. Income, interest paid and new borrowing are measured over a period and are flows. A meaningful comparison must state both the date of the stock and the time interval of the flow.",
+      "A dívida em aberto é medida em uma data específica e constitui um estoque. Renda, juros pagos e novos empréstimos são medidos durante um período e constituem fluxos. Uma comparação significativa deve informar a data do estoque e o intervalo temporal do fluxo."
+    ],
+    "blocks": [
+      "EIP-1.2-03-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "In the reduced account with no capital transfers or other non-financial items, net lending equals ______.",
+      "Na conta simplificada, sem transferências de capital ou outros itens não financeiros, a capacidade líquida de financiamento é igual a ______."
+    ],
+    "options": [
+      [
+        "investment minus saving",
+        "investimento menos poupança"
+      ],
+      [
+        "income minus consumption before capital formation",
+        "renda menos consumo antes da formação de capital"
+      ],
+      [
+        "income minus outstanding debt",
+        "renda menos dívida em aberto"
+      ],
+      [
+        "saving minus capital formation",
+        "poupança menos formação de capital"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Saving finances consumption-free uses of current income, but capital formation uses those resources. Subtracting investment from saving gives the reduced net lending balance. This deliberately restricted equation omits entries required in full official accounts; it is not a universal shortcut.",
+      "A poupança corresponde à parcela da renda corrente não consumida, mas a formação de capital usa esses recursos. Subtrair o investimento da poupança resulta no saldo simplificado de financiamento. Essa equação deliberadamente restrita omite lançamentos necessários nas contas oficiais completas; não é um atalho universal."
+    ],
+    "blocks": [
+      "EIP-1.2-03-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A shareholding rises from €10,000 to €12,000 without purchases. Which interpretation is justified?",
+      "Uma posição em ações sobe de €10,000 para €12,000 sem compras. Qual interpretação é justificada?"
+    ],
+    "options": [
+      [
+        "A €2,000 holding gain, distinct from saving unspent income",
+        "Um ganho de detenção de €2,000, distinto da poupança de renda não consumida"
+      ],
+      [
+        "€2,000 of newly saved cash",
+        "€2,000 de caixa recém-poupado"
+      ],
+      [
+        "A €2,000 acquisition financed by new borrowing",
+        "Uma aquisição de €2,000 financiada por novo empréstimo"
+      ],
+      [
+        "€2,000 of additional consumption",
+        "€2,000 de consumo adicional"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The stated change comes from valuation, not a purchase or retained income. Wealth can increase through holding gains without a saving transaction. Calling the gain newly saved cash confuses changes in market value with income flows. No borrowing or consumption transaction is given.",
+      "A mudança informada decorre da avaliação, não de uma compra ou retenção de renda. A riqueza pode aumentar por ganhos de detenção sem uma transação de poupança. Chamar o ganho de caixa recém-poupado confunde mudanças de valor de mercado com fluxos de renda. Não foi informada nenhuma transação de empréstimo ou consumo."
+    ],
+    "blocks": [
+      "EIP-1.2-03-B02"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Income is €50,000, consumption €38,000 and new capital formation €30,000. No other non-financial items apply. Financial assets rise €7,000. How much new borrowing reconciles the account?",
+      "A renda é €50,000, o consumo €38,000 e a nova formação de capital €30,000. Não há outros itens não financeiros. Os ativos financeiros aumentam €7,000. Qual novo empréstimo concilia a conta?"
+    ],
+    "options": [
+      [
+        "€18,000",
+        "€18,000"
+      ],
+      [
+        "€12,000",
+        "€12,000"
+      ],
+      [
+        "€25,000",
+        "€25,000"
+      ],
+      [
+        "€37,000",
+        "€37,000"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Saving is €50,000 − €38,000 = €12,000. Net lending is €12,000 − €30,000 = −€18,000. Financial assets acquired minus new liabilities must equal that balance: €7,000 − L = −€18,000, so L = €25,000. €18,000 is net borrowing, not gross new liabilities when assets also increase. €12,000 is saving.",
+      "A poupança é €50,000 − €38,000 = €12,000. O saldo de financiamento é €12,000 − €30,000 = −€18,000. Ativos financeiros adquiridos menos novas obrigações devem igualar esse saldo: €7,000 − L = −€18,000, portanto L = €25,000. €18,000 é a necessidade líquida, não as novas obrigações brutas quando os ativos também crescem. €12,000 é a poupança."
+    ],
+    "blocks": [
+      "EIP-1.2-03-B04"
+    ],
+    "calculation": {
+      "method": "net_lending",
+      "inputs": [
+        50000,
+        38000,
+        30000,
+        7000
+      ],
+      "expected": [
+        12000,
+        -18000,
+        25000
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "In the lesson’s reduced external-balance model, private saving is 30, investment 22, net government receipts 18 and purchases 23 (billions). Investment then rises to 27, all other values fixed. What happens to the domestic external balance?",
+      "No modelo simplificado de saldo externo da aula, a poupança privada é 30, o investimento 22, as receitas líquidas do governo 18 e as compras 23 (bilhões). O investimento sobe para 27, mantendo os demais valores. O que ocorre com o saldo externo doméstico?"
+    ],
+    "options": [
+      [
+        "It remains +3 because only government borrowing matters.",
+        "Permanece +3 porque apenas o financiamento do governo importa."
+      ],
+      [
+        "It moves from +3 to −2; the rest-of-world counterpart becomes +2.",
+        "Passa de +3 para −2; a contrapartida do resto do mundo torna-se +2."
+      ],
+      [
+        "It moves from −3 to +2; the counterpart becomes −2.",
+        "Passa de −3 para +2; a contrapartida torna-se −2."
+      ],
+      [
+        "It becomes −5, equal to the government balance alone.",
+        "Torna-se −5, igual apenas ao saldo do governo."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Initially (30 − 22) + (18 − 23) = +3. Afterwards (30 − 27) − 5 = −2, with an opposite +2 rest-of-world balance. A government deficit alone does not determine the national external position. Reversing signs confuses the resident and foreign perspectives. Holding other values fixed is a scenario assumption, not a prediction about actual income or trade.",
+      "Inicialmente, (30 − 22) + (18 − 23) = +3. Depois, (30 − 27) − 5 = −2, com saldo oposto de +2 para o resto do mundo. O déficit público isolado não determina a posição externa nacional. Inverter os sinais confunde as perspectivas dos residentes e do exterior. Manter os demais valores é uma hipótese do cenário, não uma previsão sobre renda ou comércio reais."
+    ],
+    "blocks": [
+      "EIP-1.2-03-B07"
+    ],
+    "calculation": {
+      "method": "sector_balance",
+      "inputs": [
+        30,
+        22,
+        18,
+        23,
+        27
+      ],
+      "expected": [
+        3,
+        -2
+      ]
+    }
+  }
+]

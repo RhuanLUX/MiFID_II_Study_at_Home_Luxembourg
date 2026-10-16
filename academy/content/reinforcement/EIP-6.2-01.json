@@ -1,0 +1,167 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "The occupational supplementary pension is commonly described as the ______ pillar.",
+      "A previdência complementar profissional é geralmente descrita como o ______ pilar."
+    ],
+    "options": [
+      [
+        "first, based on statutory social-security rights",
+        "primeiro, baseado em direitos legais de seguridade social"
+      ],
+      [
+        "second, based on the professional scheme and its rules",
+        "segundo, baseado no regime profissional e suas regras"
+      ],
+      [
+        "third, based on personal retirement contracts",
+        "terceiro, baseado em contratos pessoais de previdência"
+      ],
+      [
+        "first, based on any private account intended for retirement",
+        "primeiro, baseado em qualquer conta privada destinada à aposentadoria"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The second pillar concerns occupational arrangements, while statutory provision is the first and individual provision the third. These labels identify different sources of rights, not universal membership or identical guarantees. Working for an employer does not by itself prove that the worker belongs to a supplementary scheme.",
+      "O segundo pilar trata de regimes profissionais, enquanto a previdência legal é o primeiro e a individual, o terceiro. Os nomes identificam fontes distintas de direitos, não filiação universal nem garantias iguais. Trabalhar para um empregador não prova, por si só, participação em regime complementar."
+    ],
+    "blocks": [
+      "EIP-6.2-01-B01"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which document describes an accrued occupational right most directly?",
+      "Qual documento descreve mais diretamente um direito profissional acumulado?"
+    ],
+    "options": [
+      [
+        "A generic three-pillar diagram",
+        "Um diagrama genérico dos três pilares"
+      ],
+      [
+        "The employee’s current salary alone",
+        "Apenas o salário atual do empregado"
+      ],
+      [
+        "The actual plan statement and applicable scheme rules",
+        "O extrato efetivo do plano e suas regras aplicáveis"
+      ],
+      [
+        "An individual savings account labelled retirement",
+        "Uma conta individual de poupança rotulada aposentadoria"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Actual statements and rules identify membership, accrued benefits, vesting and departure conditions. Salary alone does not establish those rights; a personal account belongs to a different source of provision. Preserve evidence from former employers too, because accrued rights can remain after current contributions stop.",
+      "Extratos e regras efetivos identificam filiação, benefícios acumulados, aquisição de direitos e condições de saída. Salário isolado não estabelece esses direitos; uma conta pessoal pertence a outra fonte de previdência. Preserve também documentos de antigos empregadores, pois direitos podem permanecer após cessarem contribuições."
+    ],
+    "blocks": [
+      "EIP-6.2-01-B04"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Why should a €30,000 defined-contribution balance not be compared directly with a €10,000 annual defined-benefit pension?",
+      "Por que um saldo de contribuição definida de €30,000 não deve ser comparado diretamente a uma pensão anual de benefício definido de €10,000?"
+    ],
+    "options": [
+      [
+        "The larger capital figure necessarily provides the larger lifetime benefit.",
+        "O maior valor de capital necessariamente fornece o maior benefício vitalício."
+      ],
+      [
+        "The annual pension can be treated as immediately accessible capital.",
+        "A pensão anual pode ser tratada como capital imediatamente acessível."
+      ],
+      [
+        "Both labels guarantee identical income irrespective of plan terms.",
+        "Ambas as categorias garantem renda idêntica independentemente das regras."
+      ],
+      [
+        "One is capital and the other a conditional income formula; payout, survival and security must be aligned.",
+        "Um é capital e o outro uma fórmula condicional de renda; pagamento, sobrevivência e segurança precisam ser alinhados."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Capital and an annual stream have different units and rights. Conversion requires payout timing, survival, indexation and security assumptions. Defined contribution fixes contributions rather than a universal future pension; defined benefit specifies a formula within its legal and funding framework. Comparing the two headline numbers alone cannot establish which arrangement meets a client’s needs.",
+      "Capital e fluxo anual possuem unidades e direitos diferentes. A conversão exige hipóteses de prazo, sobrevivência, reajuste e segurança. Contribuição definida fixa contribuições, não uma pensão futura universal; benefício definido especifica uma fórmula em seu regime jurídico e financeiro. Comparar apenas os números não estabelece qual atende ao cliente."
+    ],
+    "blocks": [
+      "EIP-6.2-01-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Comparable net monthly figures are spending €3,200, statutory pension €2,400 and occupational pension €300. What planning gap remains?",
+      "Valores mensais líquidos comparáveis são despesas de €3,200, pensão legal de €2,400 e profissional de €300. Qual lacuna de planejamento resta?"
+    ],
+    "options": [
+      [
+        "€500 monthly, or €6,000 annually",
+        "€500 mensais, ou €6,000 anuais"
+      ],
+      [
+        "€800 monthly, or €9,600 annually",
+        "€800 mensais, ou €9,600 anuais"
+      ],
+      [
+        "€2,700 monthly, or €32,400 annually",
+        "€2,700 mensais, ou €32,400 anuais"
+      ],
+      [
+        "€200 monthly, or €2,400 annually",
+        "€200 mensais, ou €2,400 anuais"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Income is 2,400 + 300 = €2,700, so the gap is 3,200 − 2,700 = €500 monthly and €6,000 annually. €800 ignores the occupational pension; €2,700 is income rather than the gap. The calculation is valid only because dates, net basis and inflation conventions are stipulated comparable; it is not a public pension entitlement formula.",
+      "A renda é 2,400 + 300 = €2,700, portanto a lacuna é 3,200 − 2,700 = €500 mensais e €6,000 anuais. €800 ignora a pensão profissional; €2,700 é renda, não lacuna. O cálculo vale porque datas, base líquida e convenções de inflação foram estipuladas comparáveis; não é fórmula de direito à pensão pública."
+    ],
+    "blocks": [
+      "EIP-6.2-01-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A client stops work at 63. Stipulated statutory income starts at 65. During the bridge, annual spending is €30,000 and an occupational benefit pays €6,000. Accessible savings are €40,000. Ignoring growth, inflation and tax changes, what is the position?",
+      "Um cliente deixa o trabalho aos 63. A renda legal estipulada começa aos 65. Na transição, despesas anuais são €30,000 e o benefício profissional paga €6,000. A poupança acessível é €40,000. Ignorando crescimento, inflação e mudanças tributárias, qual é a situação?"
+    ],
+    "options": [
+      [
+        "The €40,000 savings cover the full bridge because both pillars start at 63.",
+        "Os €40,000 cobrem toda a transição porque ambos os pilares começam aos 63."
+      ],
+      [
+        "The bridge needs €48,000, leaving an €8,000 shortfall; check actual access before counting retirement contracts.",
+        "A transição exige €48,000, deixando déficit de €8,000; verifique acesso efetivo antes de contar contratos de previdência."
+      ],
+      [
+        "The bridge needs €60,000, leaving €20,000 shortfall after ignoring occupational income.",
+        "A transição exige €60,000, deixando déficit de €20,000 após ignorar a renda profissional."
+      ],
+      [
+        "The €24,000 annual gap is the total for both years, leaving €16,000 spare.",
+        "A lacuna anual de €24,000 é o total dos dois anos, restando €16,000."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Each bridge year needs 30,000 − 6,000 = €24,000; two years need €48,000, exceeding €40,000 by €8,000. Ignoring the occupational benefit overstates the need, while using only one annual gap understates it. Supplied start dates govern this case, not a universal right to retire at that age. A tax-advantaged contract cannot be assumed accessible merely because the client wants to stop work.",
+      "Cada ano exige 30,000 − 6,000 = €24,000; dois anos exigem €48,000, excedendo €40,000 em €8,000. Ignorar o benefício profissional exagera a necessidade, enquanto usar apenas uma lacuna anual a subestima. As datas fornecidas regem o caso, não um direito universal de aposentadoria nessa idade. Não se presume acesso a contrato incentivado apenas porque o cliente deseja parar de trabalhar."
+    ],
+    "blocks": [
+      "EIP-6.2-01-B07"
+    ]
+  }
+]

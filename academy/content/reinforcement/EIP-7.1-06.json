@@ -1,0 +1,167 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Sustainability risk concerns ESG events that may materially affect ______.",
+      "Risco de sustentabilidade trata de eventos ESG que podem afetar materialmente ______."
+    ],
+    "options": [
+      [
+        "only the investor’s moral preferences",
+        "apenas as preferências morais do investidor"
+      ],
+      [
+        "only the portfolio’s effects on the environment",
+        "apenas os efeitos da carteira no ambiente"
+      ],
+      [
+        "investment value",
+        "o valor do investimento"
+      ],
+      [
+        "only the product’s marketing classification",
+        "apenas a classificação publicitária do produto"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Risk integration examines how sustainability factors affect investment value. Adverse-impact analysis examines the other direction: effects of investment decisions on sustainability factors. Preferences and product commitments are further distinct questions. One favourable label cannot answer all of them.",
+      "Integração de risco examina como fatores de sustentabilidade afetam o valor investido. Análise de impactos adversos examina o sentido inverso: efeitos das decisões sobre fatores de sustentabilidade. Preferências e compromissos do produto são outras questões distintas. Um rótulo favorável não responde a todas."
+    ],
+    "blocks": [
+      "EIP-7.1-06-B04"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "What does a firm-wide ESG policy establish by itself?",
+      "O que uma política ESG geral da instituição estabelece por si só?"
+    ],
+    "options": [
+      [
+        "Every product has the same minimum sustainable-investment commitment.",
+        "Todo produto tem o mesmo compromisso mínimo de investimento sustentável."
+      ],
+      [
+        "Every client preference is met.",
+        "Toda preferência de cliente é atendida."
+      ],
+      [
+        "All financial sustainability risk is eliminated.",
+        "Todo risco financeiro de sustentabilidade é eliminado."
+      ],
+      [
+        "A stated entity process, whose actual use and product-specific implications still need evidence",
+        "Um processo institucional declarado, cuja utilização e implicações por produto ainda exigem provas"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Entity process, product disclosure and client matching have different purposes. A website policy does not prove implementation, a product commitment or an individual match. Check actual analysis, monitoring and dated product information, and explain material data or methodological limitations rather than assume missing data means no risk.",
+      "Processo institucional, divulgação do produto e correspondência ao cliente têm funções diferentes. Política num site não prova execução, compromisso do produto nem correspondência individual. Verifique análise, monitoramento e informações datadas, explicando limitações materiais de dados ou método sem presumir que dados ausentes significam risco inexistente."
+    ],
+    "blocks": [
+      "EIP-7.1-06-B02"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €100 million portfolio reduces a high-emission sector from 20% to 10%. Which claim is supported by those figures alone?",
+      "Uma carteira de €100 milhões reduz setor de alta emissão de 20% para 10%. Qual afirmação é sustentada apenas por esses valores?"
+    ],
+    "options": [
+      [
+        "Exposure falls by €10 million; no conclusion follows that real-world emissions halved or new clean projects received that capital.",
+        "A exposição cai €10 milhões; não decorre que emissões reais caíram pela metade ou novos projetos limpos receberam esse capital."
+      ],
+      [
+        "The sector’s global emissions necessarily halve.",
+        "As emissões globais do setor necessariamente caem pela metade."
+      ],
+      [
+        "The remaining sector exposure is zero.",
+        "A exposição restante ao setor é zero."
+      ],
+      [
+        "All €10 million necessarily finances new issuer projects.",
+        "Todos os €10 milhões necessariamente financiam novos projetos de emissores."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Exposure moves from €20 million to €10 million. That is an allocation result, not evidence of corporate emissions change or primary financing. Secondary-market ownership transfers and real-world operating outcomes differ. A strict exclusion preference also remains unmet if it requires no exposure; impact claims require an appropriate method and evidence.",
+      "A exposição passa de €20 milhões para €10 milhões. É resultado de alocação, não prova de mudança nas emissões corporativas nem financiamento primário. Transferências no mercado secundário diferem de resultados operacionais reais. Preferência de exclusão estrita também permanece não atendida se exige exposição zero; alegações de impacto exigem método e provas adequados."
+    ],
+    "blocks": [
+      "EIP-7.1-06-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An issuer’s annual cash flow falls from €10 million to €5 million, while debt service stays €4 million. What happens to simplified coverage?",
+      "O fluxo anual de caixa de um emissor cai de €10 milhões para €5 milhões, enquanto serviço da dívida permanece €4 milhões. O que ocorre à cobertura simplificada?"
+    ],
+    "options": [
+      [
+        "It remains 2.5 times because debt service did not change.",
+        "Permanece 2.5 vezes porque o serviço da dívida não mudou."
+      ],
+      [
+        "It falls from 2.5 times to 1.25 times, illustrating a credit-risk channel rather than a certain default.",
+        "Cai de 2.5 vezes para 1.25 vezes, ilustrando canal de risco de crédito, não inadimplência certa."
+      ],
+      [
+        "It falls to 0.8 times from dividing debt service by cash flow.",
+        "Cai para 0.8 vezes dividindo serviço da dívida pelo caixa."
+      ],
+      [
+        "It proves sustainability risk is immaterial because coverage is positive.",
+        "Prova que o risco é imaterial porque a cobertura é positiva."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Coverage is cash flow divided by debt service: 10 / 4 = 2.5 and 5 / 4 = 1.25. The reduced buffer shows how water interruption or another ESG event can affect repayment capacity. The reciprocal 0.8 uses the wrong ratio. A positive ratio does not eliminate risk, and this scenario alone cannot establish a default prediction.",
+      "Cobertura é caixa dividido pelo serviço da dívida: 10 / 4 = 2.5 e 5 / 4 = 1.25. A menor margem mostra como interrupção de água ou outro evento ESG afeta capacidade de pagamento. O recíproco 0.8 usa a razão errada. Razão positiva não elimina risco, e o cenário isolado não estabelece previsão de inadimplência."
+    ],
+    "blocks": [
+      "EIP-7.1-06-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A client requires 25% sustainable investments and a specified adverse-impact approach. An otherwise suitable Article 8 product commits to 15% and does not address that selected impact criterion, despite a high ESG rating. What follows?",
+      "Um cliente exige 25% de investimentos sustentáveis e abordagem definida de impactos adversos. Um produto artigo 8 adequado nos demais aspectos compromete 15% e não trata do critério escolhido, apesar de nota ESG elevada. O que decorre?"
+    ],
+    "options": [
+      [
+        "The rating automatically supplies the missing commitment.",
+        "A nota supre automaticamente o compromisso ausente."
+      ],
+      [
+        "Article 8 automatically implies the requested impact approach.",
+        "Artigo 8 implica automaticamente a abordagem de impacto pedida."
+      ],
+      [
+        "The original preference is unmet; explain the 10-percentage-point shortfall and criterion mismatch, considering only genuine informed adaptation under the proper process.",
+        "A preferência original não é atendida; explique a falta de 10 pontos percentuais e a divergência de critério, considerando apenas adaptação informada genuína pelo processo adequado."
+      ],
+      [
+        "Risk integration lets the adviser silently replace the client’s preferences.",
+        "Integração de risco permite substituir silenciosamente preferências do cliente."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "25% − 15% = 10 percentage points, and the selected impact criterion is also not covered. A rating, entity policy or Article 8 label cannot supply either missing product fact. If suitable matching alternatives are unavailable, explain the mismatch neutrally and document any genuine informed adaptation before recommendation. The adviser cannot redefine the client’s requirement as a wish for a high composite score.",
+      "25% − 15% = 10 pontos percentuais, e o critério de impacto escolhido também não é coberto. Nota, política institucional ou rótulo artigo 8 não supre nenhum fato ausente. Se alternativas adequadas correspondentes não estiverem disponíveis, explique a divergência de modo neutro e documente eventual adaptação informada genuína antes de recomendar. O consultor não pode redefinir a exigência como desejo de nota composta elevada."
+    ],
+    "blocks": [
+      "EIP-7.1-06-B07"
+    ]
+  }
+]

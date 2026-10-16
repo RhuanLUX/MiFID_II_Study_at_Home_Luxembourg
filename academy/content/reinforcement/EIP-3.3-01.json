@@ -1,0 +1,200 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A bank depositor generally owns what?",
+      "O que um depositante bancário geralmente possui?"
+    ],
+    "options": [
+      [
+        "A direct share of each bank loan",
+        "Uma participação direta em cada empréstimo do banco"
+      ],
+      [
+        "A claim on the bank under the deposit terms",
+        "Um direito contra o banco conforme as condições do depósito"
+      ],
+      [
+        "Ownership of bank equity",
+        "Propriedade do capital do banco"
+      ],
+      [
+        "Fund units in the bank’s investment portfolio",
+        "Cotas de fundo na carteira de investimentos do banco"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A deposit is generally the bank’s obligation to the customer. The bank’s own assets support its balance sheet but are not separately owned by the depositor. Eligibility for a guarantee scheme is another legal question and must be checked rather than inferred from the sales channel.",
+      "Um depósito é geralmente uma obrigação do banco perante o cliente. Os ativos próprios do banco sustentam seu balanço, mas não são detidos separadamente pelo depositante. A elegibilidade a um sistema de garantia é outra questão jurídica e deve ser verificada, não inferida do canal de venda."
+    ],
+    "blocks": [
+      "EIP-3.3-01-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A term deposit maturing after a client’s bill requires checking ______ before choosing it for that bill.",
+      "Um depósito a prazo que vence depois da conta do cliente exige verificar ______ antes de escolhê-lo para essa conta."
+    ],
+    "options": [
+      [
+        "the nominal yield alone, assuming maturity proceeds can fund an earlier bill",
+        "apenas o rendimento nominal, supondo que o vencimento financie uma conta anterior"
+      ],
+      [
+        "deposit protection alone, treating it as a promise of immediate early withdrawal",
+        "apenas a proteção de depósitos, tratando-a como promessa de retirada antecipada imediata"
+      ],
+      [
+        "access and early-exit conditions",
+        "o acesso e as condições de saída antecipada"
+      ],
+      [
+        "whether interest is fixed, treating a fixed rate as a guarantee of early access",
+        "se os juros são fixos, tratando a taxa fixa como garantia de acesso antecipado"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Maturity proceeds are useful for a dated need only if cash is accessible on time. Early withdrawal may be restricted, penalised or prohibited. A higher promised rate does not replace the need to verify the payment date and usable balance.",
+      "Os recursos do vencimento são úteis para uma necessidade datada apenas se o dinheiro estiver acessível a tempo. A retirada antecipada pode ser restrita, penalizada ou proibida. Uma taxa prometida maior não substitui a verificação da data de pagamento e do saldo utilizável."
+    ],
+    "blocks": [
+      "EIP-3.3-01-B02"
+    ]
+  },
+  {
+    "type": "matching",
+    "prompt": [
+      "Associate each deposit risk with the event it concerns.",
+      "Associe cada risco do depósito ao evento correspondente."
+    ],
+    "concepts": [
+      [
+        "Counterparty risk",
+        "Risco de contraparte"
+      ],
+      [
+        "Liquidity risk",
+        "Risco de liquidez"
+      ],
+      [
+        "Inflation risk",
+        "Risco de inflação"
+      ]
+    ],
+    "definitions": [
+      [
+        "Proceeds lose purchasing power as relevant prices rise",
+        "Os recursos perdem poder de compra com a alta dos preços relevantes"
+      ],
+      [
+        "The bank fails to meet its obligation",
+        "O banco deixa de cumprir sua obrigação"
+      ],
+      [
+        "Cash is unavailable at the required time",
+        "O dinheiro está indisponível no momento necessário"
+      ]
+    ],
+    "answer": [
+      1,
+      2,
+      0
+    ],
+    "explanation": [
+      "Counterparty risk concerns the bank’s performance, liquidity risk the timing of accessible cash, and inflation risk purchasing power. Protection within an eligible scheme does not guarantee uninterrupted access or a real return. A deposit can be paid in full and still fail to preserve purchasing power or meet an earlier bill.",
+      "O risco de contraparte diz respeito ao cumprimento pelo banco, o de liquidez ao momento do caixa acessível e o de inflação ao poder de compra. A proteção em um sistema elegível não garante acesso ininterrupto nem retorno real. Um depósito pode ser pago integralmente e ainda não preservar poder de compra ou atender uma conta anterior."
+    ],
+    "blocks": [
+      "EIP-3.3-01-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "One ordinary eligible depositor holds €70,000 and €45,000 in separate accounts at the same FGDL member bank. No special high-balance entitlement or other complications apply. Before accrued interest, what exceeds standard coverage?",
+      "Um depositante comum elegível tem €70,000 e €45,000 em contas separadas no mesmo banco membro do FGDL. Sem direito especial a saldo elevado ou outras complicações. Antes dos juros acumulados, quanto excede a cobertura padrão?"
+    ],
+    "options": [
+      [
+        "€15,000",
+        "€15,000"
+      ],
+      [
+        "Zero, because each account is below €100,000",
+        "Zero, pois cada conta fica abaixo de €100,000"
+      ],
+      [
+        "€45,000",
+        "€45,000"
+      ],
+      [
+        "€115,000",
+        "€115,000"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The same-bank aggregate is €115,000. The standard limit is €100,000 per person per bank, so €15,000 exceeds it. Separate accounts or brands do not create separate ceilings at the same legal bank. This does not determine recovery on the excess claim or address special situations excluded from the facts.",
+      "O agregado no mesmo banco é €115,000. O limite padrão é €100,000 por pessoa e por banco, portanto €15,000 o excedem. Contas ou marcas separadas não criam limites separados no mesmo banco jurídico. Isso não determina a recuperação do direito excedente nem aborda situações especiais excluídas dos fatos."
+    ],
+    "blocks": [
+      "EIP-3.3-01-B06"
+    ],
+    "calculation": {
+      "method": "coverage_excess",
+      "inputs": [
+        70000,
+        45000,
+        100000
+      ],
+      "expected": 15000
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A client has €40,000 but must reserve €10,000 in zero-interest accessible cash. The other €30,000 earns 3.6% simple annual interest for six months, months/12 basis. No costs or tax. Compared with locking all €40,000, what interest is sacrificed?",
+      "Um cliente tem €40,000, mas precisa reservar €10,000 em caixa acessível sem juros. Os outros €30,000 rendem 3.6% de juros simples anuais por seis meses, base meses/12. Sem custos ou impostos. Em comparação com bloquear todos os €40,000, quais juros são sacrificados?"
+    ],
+    "options": [
+      [
+        "€360, because the reserve loses a full year’s interest",
+        "€360, pois a reserva perde um ano inteiro de juros"
+      ],
+      [
+        "€720, the interest on the full balance",
+        "€720, os juros sobre o saldo inteiro"
+      ],
+      [
+        "€540, the interest on the committed balance",
+        "€540, os juros sobre o saldo comprometido"
+      ],
+      [
+        "€180, in exchange for keeping the required reserve accessible",
+        "€180, em troca de manter a reserva necessária acessível"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Full commitment would earn 40,000 × 0.036 × 0.5 = €720; committing €30,000 earns €540. The difference is €180, also 10,000 × 0.036 × 0.5. €360 uses a full year incorrectly; €720 and €540 are totals, not the sacrifice. The extra full-balance interest does not justify assuming needed cash can be locked without access.",
+      "Comprometer tudo renderia 40,000 × 0.036 × 0.5 = €720; comprometer €30,000 rende €540. A diferença é €180, também 10,000 × 0.036 × 0.5. €360 usa incorretamente um ano inteiro; €720 e €540 são totais, não o sacrifício. O juro adicional sobre o saldo inteiro não justifica presumir que o dinheiro necessário possa ser bloqueado sem acesso."
+    ],
+    "blocks": [
+      "EIP-3.3-01-B04"
+    ],
+    "calculation": {
+      "method": "simple_interest",
+      "inputs": [
+        10000,
+        0.036,
+        6,
+        12
+      ],
+      "expected": 180
+    }
+  }
+]

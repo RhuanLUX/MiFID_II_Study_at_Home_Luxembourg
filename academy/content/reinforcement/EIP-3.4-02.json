@@ -1,0 +1,192 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Dirty price equals clean price plus ______, in consistent units.",
+      "O preço sujo equivale ao preço limpo mais ______, em unidades consistentes."
+    ],
+    "options": [
+      [
+        "the whole next coupon regardless of elapsed time",
+        "todo o próximo cupom independentemente do tempo decorrido"
+      ],
+      [
+        "accrued interest",
+        "juros acumulados"
+      ],
+      [
+        "only the brokerage fee",
+        "apenas a corretagem"
+      ],
+      [
+        "the remaining unaccrued portion of the coupon",
+        "a parcela restante não acumulada do cupom"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Clean price excludes accrued coupon interest; dirty or full price includes it. Customer all-in cost can then include separate transaction fees. The distinction prevents treating accrued interest as an unexplained fee or adding future coupons twice.",
+      "O preço limpo exclui os juros de cupom acumulados; o preço sujo ou integral os inclui. O custo total do cliente pode então incluir tarifas de transação separadas. A distinção evita tratar juros acumulados como uma tarifa inexplicada ou somar cupons futuros duas vezes."
+    ],
+    "blocks": [
+      "EIP-3.4-02-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which information is essential before calculating coupon accrual?",
+      "Qual informação é essencial antes de calcular juros de cupom acumulados?"
+    ],
+    "options": [
+      [
+        "Clean price and yield alone, without coupon dates",
+        "Apenas preço limpo e rendimento, sem datas de cupom"
+      ],
+      [
+        "Coupon rate and trade-discussion date, treating every convention as Actual/365",
+        "Taxa de cupom e data da conversa sobre a operação, tratando toda convenção como Actual/365"
+      ],
+      [
+        "Remaining maturity and nominal alone, ignoring the last coupon date",
+        "Apenas prazo restante e nominal, ignorando a última data de cupom"
+      ],
+      [
+        "Coupon frequency, relevant dates and day-count convention",
+        "Frequência do cupom, datas relevantes e convenção de contagem de dias"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Accrual allocates the relevant coupon according to contractual timing and convention. Annual and semiannual periods need consistent treatment, and Actual/Actual, Actual/360 and 30/360 are not interchangeable. Entitlement and settlement conditions can also matter near special coupon dates.",
+      "O acúmulo aloca o cupom relevante conforme o tempo e a convenção contratuais. Períodos anuais e semestrais exigem tratamento consistente, e Actual/Actual, Actual/360 e 30/360 não são intercambiáveis. Condições de titularidade e liquidação também podem importar perto de datas especiais de cupom."
+    ],
+    "blocks": [
+      "EIP-3.4-02-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Immediately after an ordinary coupon payment, full bond price drops in the simplified unchanged-clean-value model. What explains this?",
+      "Logo após um pagamento ordinário de cupom, o preço integral cai no modelo simplificado de valor limpo inalterado. O que explica isso?"
+    ],
+    "options": [
+      [
+        "Cash leaves the bond and reaches the holder; price alone omits that receipt.",
+        "O dinheiro sai do título e chega ao detentor; o preço isolado omite esse recebimento."
+      ],
+      [
+        "The holder necessarily suffers an equal total-wealth loss.",
+        "O detentor necessariamente sofre perda igual de riqueza total."
+      ],
+      [
+        "The coupon payment proves the issuer defaulted.",
+        "O pagamento de cupom prova que o emissor entrou em inadimplência."
+      ],
+      [
+        "Clean prices must fall by the whole coupon in every real market.",
+        "Os preços limpos devem cair pelo cupom inteiro em todo mercado real."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Accrued interest resets in the simplified ordinary-coupon model as the holder receives cash. The lower full price does not by itself imply an equal loss of combined price-plus-cash wealth. Real clean prices can move with new information, so the isolated model cannot guarantee a real market’s price path.",
+      "Os juros acumulados são reiniciados no modelo simplificado de cupom ordinário quando o detentor recebe dinheiro. O preço integral menor, por si só, não implica perda igual da riqueza combinada de preço mais caixa. Preços limpos reais podem variar com novas informações; o modelo isolado não garante a trajetória real de mercado."
+    ],
+    "blocks": [
+      "EIP-3.4-02-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "€10,000 nominal pays a 4% annual coupon. Clean quote is 97.50 per 100, accrual 75/360 and fees €12. Ordinary entitlement applies. What is rounded all-in cash required?",
+      "Um nominal de €10,000 paga cupom anual de 4%. A cotação limpa é 97.50 por 100, o acúmulo 75/360 e as tarifas €12. Aplica-se titularidade ordinária. Qual é o caixa total necessário arredondado?"
+    ],
+    "options": [
+      [
+        "€9,750.00",
+        "€9,750.00"
+      ],
+      [
+        "€9,833.33",
+        "€9,833.33"
+      ],
+      [
+        "€9,845.33",
+        "€9,845.33"
+      ],
+      [
+        "€10,162.00",
+        "€10,162.00"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Clean cash is 10,000 × 0.975 = €9,750. Accrual is 400 × 75/360 = €83.333333; add €12 fees for €9,845.33. €9,750 omits accrual and fees; €9,833.33 omits fees. €10,162 adds an entire annual coupon rather than the stated elapsed fraction. Use the given convention rather than substituting 365.",
+      "O valor limpo é 10,000 × 0.975 = €9,750. O acúmulo é 400 × 75/360 = €83.333333; acrescente €12 de tarifas para obter €9,845.33. €9,750 omite juros acumulados e tarifas; €9,833.33 omite tarifas. €10,162 acrescenta um cupom anual inteiro em vez da fração decorrida informada. Use a convenção dada, sem substituir por 365."
+    ],
+    "blocks": [
+      "EIP-3.4-02-B04"
+    ],
+    "calculation": {
+      "method": "dirty_cash",
+      "inputs": [
+        10000,
+        0.975,
+        0.04,
+        75,
+        360,
+        12
+      ],
+      "expected": 9845.333333333334
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A buyer pays clean €1,000 plus accrual on a €50 annual coupon at 330/360. Thirty days later they receive €50 and sell at unchanged clean €1,000, with no fees or tax. What is their economic gain and holding-period return?",
+      "Um comprador paga €1,000 limpos mais juros acumulados de um cupom anual de €50 em 330/360. Trinta dias depois recebe €50 e vende a €1,000 limpos inalterados, sem tarifas ou impostos. Quais são o ganho econômico e o retorno do período?"
+    ],
+    "options": [
+      [
+        "€50; 5%",
+        "€50; 5%"
+      ],
+      [
+        "Approximately €4.166667; 0.398406%",
+        "Aproximadamente €4.166667; 0.398406%"
+      ],
+      [
+        "Approximately €4.166667; 0.416667%",
+        "Aproximadamente €4.166667; 0.416667%"
+      ],
+      [
+        "Approximately €45.833333; 4.583333%",
+        "Aproximadamente €45.833333; 4.583333%"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Accrual paid is 50 × 330/360 = €45.833333, so initial cash is €1,045.833333. Receipts total €1,050; gain is €4.166667 and return 4.166667/1,045.833333 ≈ 0.398406%. The full coupon mostly reimburses accrual already paid. The 0.416667% alternative uses clean value alone as denominator; €45.833333 is accrual, not the buyer’s gain.",
+      "Os juros acumulados pagos são 50 × 330/360 = €45.833333, portanto o caixa inicial é €1,045.833333. Os recebimentos somam €1,050; o ganho é €4.166667 e o retorno 4.166667/1,045.833333 ≈ 0.398406%. A maior parte do cupom reembolsa juros acumulados já pagos. A alternativa 0.416667% usa apenas o valor limpo como denominador; €45.833333 é o acúmulo, não o ganho do comprador."
+    ],
+    "blocks": [
+      "EIP-3.4-02-B05"
+    ],
+    "calculation": {
+      "method": "coupon_holding",
+      "inputs": [
+        1000,
+        50,
+        330,
+        360
+      ],
+      "expected": [
+        4.166666666666667,
+        0.003984063745019921
+      ]
+    }
+  }
+]

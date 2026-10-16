@@ -1,0 +1,187 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Product-complexity classification in this lesson helps determine ______.",
+      "A classificação de complexidade do produto nesta aula ajuda a determinar ______."
+    ],
+    "options": [
+      [
+        "the issuer’s exact default probability",
+        "a probabilidade exata de inadimplência do emissor"
+      ],
+      [
+        "whether an instrument can enter the conditional execution-only category",
+        "se um instrumento pode entrar na categoria condicional de somente execução"
+      ],
+      [
+        "whether every client should buy the product",
+        "se todo cliente deve comprar o produto"
+      ],
+      [
+        "a universal ranking of investment quality",
+        "uma classificação universal da qualidade do investimento"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Complexity has a service-rule role, including whether an instrument can qualify for the conditional exemption. It is not a default probability, suitability conclusion or quality grade. The actual terms and the remaining service conditions must still be assessed.",
+      "A complexidade tem papel nas regras de serviço, incluindo se um instrumento pode qualificar para a isenção condicional. Não é probabilidade de inadimplência, conclusão de adequação ou nota de qualidade. As condições efetivas e os demais requisitos do serviço ainda precisam ser avaliados."
+    ],
+    "blocks": [
+      "EIP-3.10-02-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "For relevant non-advised services, appropriateness principally examines relevant ______.",
+      "Para serviços pertinentes sem aconselhamento, a avaliação de caráter apropriado examina principalmente ______ relevantes."
+    ],
+    "options": [
+      [
+        "income and commitments only",
+        "apenas renda e compromissos"
+      ],
+      [
+        "objectives and willingness only",
+        "apenas objetivos e disposição"
+      ],
+      [
+        "wealth as a substitute for understanding",
+        "riqueza como substituto da compreensão"
+      ],
+      [
+        "knowledge and experience",
+        "conhecimento e experiência"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Appropriateness asks whether the client understands the relevant product or service risks through knowledge and experience. Advice or portfolio management requires broader suitability evidence including finances and objectives. A warning under one pathway cannot replace the broader assessment when advice is actually provided.",
+      "A avaliação de caráter apropriado pergunta se o cliente compreende riscos pertinentes pelo conhecimento e experiência. Aconselhamento ou gestão de carteira exige evidências mais amplas de adequação, incluindo finanças e objetivos. Um alerta em uma rota não substitui a avaliação mais ampla quando há efetivamente aconselhamento."
+    ],
+    "blocks": [
+      "EIP-3.10-02-B06"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A subordinated perpetual bond permits issuer cancellation of coupons. Which classification reasoning is sound?",
+      "Um título perpétuo subordinado permite ao emissor cancelar cupons. Qual raciocínio de classificação é correto?"
+    ],
+    "options": [
+      [
+        "The terms contain several ESMA-identified difficult features; a familiar bond name does not establish simplicity.",
+        "As condições contêm várias características difíceis identificadas pela ESMA; o nome familiar de título de dívida não comprova simplicidade."
+      ],
+      [
+        "A fixed advertised coupon makes all other features irrelevant.",
+        "Um cupom fixo anunciado torna irrelevantes todas as outras características."
+      ],
+      [
+        "Client experience removes the product’s subordination and perpetual features.",
+        "A experiência do cliente remove a subordinação e o caráter perpétuo do produto."
+      ],
+      [
+        "Complexity automatically means every transaction is prohibited.",
+        "Complexidade significa automaticamente que toda transação é proibida."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Subordination, absence of specified maturity and issuer cash-flow discretion are identified difficult structures. The actual instrument and applicable service process require assessment. Experienced clients do not change contractual features; a headline coupon does not erase them. Complexity is not a blanket prohibition, but neither can it be ignored through a label.",
+      "Subordinação, ausência de vencimento especificado e discricionariedade do emissor sobre fluxos são estruturas difíceis identificadas. O instrumento efetivo e o processo de serviço aplicável exigem avaliação. Clientes experientes não mudam condições contratuais; um cupom anunciado não as elimina. Complexidade não é proibição geral, mas tampouco pode ser ignorada por um rótulo."
+    ],
+    "blocks": [
+      "EIP-3.10-02-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €20,000 structured deposit has a market-dependent exit charge estimated first at €900 and later at €1,600. Assume either estimate becomes its actual charge and no other items. Which exit cash comparison is valid?",
+      "Um depósito estruturado de €20,000 tem cobrança de saída dependente do mercado estimada primeiro em €900 e depois em €1,600. Suponha que cada estimativa se torne a cobrança efetiva e não haja outros itens. Qual comparação de caixa na saída é válida?"
+    ],
+    "options": [
+      [
+        "€20,000 in both cases because maturity principal fixes early exit",
+        "€20,000 nos dois casos porque o principal no vencimento fixa a saída antecipada"
+      ],
+      [
+        "€19,100 in both cases because the first estimate is a contractual cap",
+        "€19,100 nos dois casos porque a primeira estimativa é teto contratual"
+      ],
+      [
+        "€19,100 or €18,400; an estimate does not establish a fixed maximum exit charge",
+        "€19,100 ou €18,400; uma estimativa não estabelece cobrança máxima fixa de saída"
+      ],
+      [
+        "€18,400 or €19,100, reversing which charge applies",
+        "€18,400 ou €19,100, invertendo a cobrança aplicável"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Subtract the actual charge: 20,000 − 900 = €19,100 or 20,000 − 1,600 = €18,400. A market-dependent estimate is not a fixed sum promised for every exit. A maturity principal term does not answer early access. The classification examines exit-cost mechanics separately from the maturity return formula.",
+      "Subtraia a cobrança efetiva: 20,000 − 900 = €19,100 ou 20,000 − 1,600 = €18,400. Uma estimativa dependente do mercado não é quantia fixa prometida para toda saída. Uma condição de principal no vencimento não responde ao acesso antecipado. A classificação examina a mecânica da saída separadamente da fórmula de retorno no vencimento."
+    ],
+    "blocks": [
+      "EIP-3.10-02-B05"
+    ],
+    "calculation": {
+      "method": "exit_cash_pair",
+      "inputs": [
+        20000,
+        900,
+        1600
+      ],
+      "expected": [
+        19100,
+        18400
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "During advice, a client correctly explains a barrier note’s adverse €7,500 repayment on €10,000. They need €9,500 in six months for essentials with no other liquid reserve. Which conclusion follows?",
+      "Durante aconselhamento, um cliente explica corretamente o pagamento adverso de €7,500 de uma nota com barreira sobre €10,000. Precisa de €9,500 em seis meses para necessidades essenciais, sem outra reserva líquida. Qual conclusão decorre?"
+    ],
+    "options": [
+      [
+        "Understanding alone makes the note suitable despite the €2,000 gap.",
+        "A compreensão, sozinha, torna a nota adequada apesar da lacuna de €2,000."
+      ],
+      [
+        "The €2,000 potential gap constrains capacity; understanding cannot substitute for the broader suitability assessment.",
+        "A lacuna potencial de €2,000 restringe a capacidade; compreender não substitui a avaliação mais ampla de adequação."
+      ],
+      [
+        "A non-complex label would remove the same essential spending constraint.",
+        "Um rótulo de não complexo removeria a mesma restrição de gasto essencial."
+      ],
+      [
+        "A signed warning alone replaces suitability because the client understands the formula.",
+        "Um alerta assinado, sozinho, substitui a adequação porque o cliente entende a fórmula."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The required payment exceeds adverse proceeds by 9,500 − 7,500 = €2,000. The client’s knowledge does not supply that money. Advice must address finances, objectives, horizon and relevant understanding together. Neither a label nor a warning cures the mismatch. This scenario identifies a client-specific constraint rather than inventing a universal permitted-loss threshold.",
+      "O pagamento necessário supera os recursos adversos em 9,500 − 7,500 = €2,000. O conhecimento do cliente não fornece esse dinheiro. O aconselhamento deve tratar conjuntamente de finanças, objetivos, horizonte e compreensão relevante. Nem rótulo nem alerta corrige a incompatibilidade. O cenário identifica uma restrição específica do cliente, sem inventar limite universal permitido de perda."
+    ],
+    "blocks": [
+      "EIP-3.10-02-B07"
+    ],
+    "calculation": {
+      "method": "difference",
+      "inputs": [
+        9500,
+        7500
+      ],
+      "expected": 2000
+    }
+  }
+]

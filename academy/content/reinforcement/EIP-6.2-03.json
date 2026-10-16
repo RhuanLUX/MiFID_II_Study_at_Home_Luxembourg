@@ -1,0 +1,167 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A tax deduction should be assessed alongside ______ when comparing retirement products.",
+      "Uma dedução tributária deve ser avaliada junto com ______ ao comparar produtos de previdência."
+    ],
+    "options": [
+      [
+        "only the initial annual payout quote",
+        "apenas a cotação inicial de pagamento anual"
+      ],
+      [
+        "only the amount advertised as deductible",
+        "apenas o valor anunciado como dedutível"
+      ],
+      [
+        "the largest projected return without its assumptions",
+        "o maior retorno projetado sem suas hipóteses"
+      ],
+      [
+        "access, costs, guarantees and benefits over the full product life",
+        "acesso, custos, garantias e benefícios durante toda a vida do produto"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Entry relief is only one part of product value. Accumulation costs, access restrictions, insurance benefits and payout terms affect whether a product meets the client’s needs. A projected return is not interchangeable with a guarantee, and a deduction cannot compensate automatically for an unsuitable horizon.",
+      "O benefício inicial é apenas parte do valor do produto. Custos de acumulação, restrições de acesso, benefícios de seguro e condições de pagamento afetam sua adequação. Retorno projetado não é intercambiável com garantia, e dedução não compensa automaticamente um horizonte inadequado."
+    ],
+    "blocks": [
+      "EIP-6.2-03-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which comparison puts guarantees and projections on a sound basis?",
+      "Qual comparação trata garantias e projeções de maneira adequada?"
+    ],
+    "options": [
+      [
+        "Identify the debtor and scope of each guarantee and label assumed market returns separately.",
+        "Identificar devedor e alcance de cada garantia e separar retornos de mercado hipotéticos."
+      ],
+      [
+        "Treat every projected value as an insurer’s unconditional promise.",
+        "Tratar todo valor projetado como promessa incondicional da seguradora."
+      ],
+      [
+        "Assume the higher nominal annuity always has stronger survivor rights.",
+        "Presumir que a maior renda nominal sempre tem direitos de reversão superiores."
+      ],
+      [
+        "Ignore access whenever a product has a tax certificate.",
+        "Ignorar acesso sempre que o produto possuir certificado tributário."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "A contractual guarantee defines a specific obligation; a market projection illustrates an uncertain outcome. Survivor terms, access and tax eligibility remain separate dimensions. Higher quoted income can reflect giving up rights, so compare equivalent features before concluding that one product offers more value.",
+      "Uma garantia contratual define obrigação específica; uma projeção de mercado ilustra resultado incerto. Reversão, acesso e elegibilidade tributária permanecem dimensões separadas. Renda cotada maior pode refletir renúncia de direitos; compare características equivalentes antes de concluir que um produto oferece mais valor."
+    ],
+    "blocks": [
+      "EIP-6.2-03-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A 35-year-old has €12,000 saved and needs €10,000 for a home in four years. Why is committing all savings to an ordinarily locked retirement contract problematic even with tax relief?",
+      "Uma pessoa de 35 anos poupou €12,000 e precisa de €10,000 para uma casa em quatro anos. Por que comprometer tudo num contrato de previdência normalmente bloqueado é problemático mesmo com benefício tributário?"
+    ],
+    "options": [
+      [
+        "The deduction automatically permits withdrawal for any property purchase.",
+        "A dedução permite automaticamente retirada para qualquer compra de imóvel."
+      ],
+      [
+        "The dated liquidity need conflicts with ordinary access conditions; the deduction does not fund access to locked capital.",
+        "A necessidade de liquidez datada conflita com condições normais de acesso; a dedução não dá acesso ao capital bloqueado."
+      ],
+      [
+        "A retirement objective means emergency reserves are unnecessary.",
+        "Um objetivo de aposentadoria torna reservas de emergência desnecessárias."
+      ],
+      [
+        "The entry tax reduction removes investment and surrender costs.",
+        "A redução tributária inicial elimina custos de investimento e resgate."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Preserve accessible resources for the home goal and assess retirement saving separately. The taught ordinary minimum duration and age conditions cannot be waived merely because a property payment matters to the client. An entry deduction changes tax under eligibility rules; it does not convert an illiquid contract into a four-year savings account or erase charges.",
+      "Preserve recursos acessíveis para o imóvel e avalie previdência separadamente. As condições ensinadas de prazo mínimo e idade não são dispensadas apenas porque o pagamento do imóvel importa. Uma dedução inicial muda o imposto conforme elegibilidade; não transforma contrato ilíquido em poupança de quatro anos nem apaga encargos."
+    ],
+    "blocks": [
+      "EIP-6.2-03-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A survivor option pays 70% of €7,000 annually after the first spouse dies. The survivor has €13,000 other income and €18,000 essential spending. What annual gap remains?",
+      "Uma opção de reversão paga 70% de €7,000 anuais após morrer o primeiro cônjuge. O sobrevivente tem outra renda de €13,000 e despesas essenciais de €18,000. Qual lacuna anual resta?"
+    ],
+    "options": [
+      [
+        "€5,000",
+        "€5,000"
+      ],
+      [
+        "€2,100",
+        "€2,100"
+      ],
+      [
+        "€100",
+        "€100"
+      ],
+      [
+        "No gap and €2,000 surplus",
+        "Sem lacuna e sobra de €2,000"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The survivor receives 7,000 × 70% = €4,900. Total income is €17,900, leaving €100. €5,000 ignores the survivor benefit, while €2,100 is the reduction from the original quote rather than the spending gap. Counting the whole original €7,000 would ignore the reversion percentage. The lower initial income can therefore address a specific household need.",
+      "O sobrevivente recebe 7,000 × 70% = €4,900. A renda total é €17,900, restando €100. €5,000 ignora a reversão, enquanto €2,100 é a redução da cotação original, não a lacuna de despesas. Contar os €7,000 integrais ignoraria o percentual de reversão. A renda inicial menor pode, portanto, atender a uma necessidade familiar específica."
+    ],
+    "blocks": [
+      "EIP-6.2-03-B07"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "€20,000 grows for 20 years at stipulated net rates of 4% in A and 3% in B, isolating costs from an identical gross opportunity. A ends near €43,822.46 and B near €36,122.22. What conclusion is justified?",
+      "€20,000 crescem por 20 anos a taxas líquidas estipuladas de 4% em A e 3% em B, isolando custos de uma oportunidade bruta idêntica. A termina perto de €43,822.46 e B de €36,122.22. Qual conclusão é justificada?"
+    ],
+    "options": [
+      [
+        "A is universally suitable because every higher terminal value proves better protection.",
+        "A é universalmente adequado porque todo valor final maior prova proteção superior."
+      ],
+      [
+        "The cost difference is only €4,000 because 1% of €20,000 for 20 years ignores compounding.",
+        "A diferença de custo é apenas €4,000 porque 1% de €20,000 por 20 anos ignora capitalização."
+      ],
+      [
+        "B’s entry deduction guarantees compensation for the entire future difference.",
+        "A dedução inicial de B garante compensação por toda a diferença futura."
+      ],
+      [
+        "The model difference is about €7,700.24; assess any insurance benefits and confirm comparable risk and access before recommending.",
+        "A diferença do modelo é cerca de €7,700.24; avalie benefícios de seguro e confirme risco e acesso comparáveis antes de recomendar."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Using unrounded values, 20,000 × (1.04^20 − 1.03^20) ≈ €7,700.24 to cents. Compounded growth forgone explains why a simple annual fee sum understates this model effect. It does not settle suitability: additional insurance rights, liquidity and actual risk need comparison. A hypothetical tax advantage is not a guaranteed offset for weak product value.",
+      "Usando valores não arredondados, 20,000 × (1.04^20 − 1.03^20) ≈ €7,700.24 aos centavos. O crescimento composto perdido explica por que uma soma simples de tarifas anuais subestima esse efeito. Isso não resolve adequação: direitos de seguro, liquidez e risco efetivo exigem comparação. Uma vantagem tributária hipotética não compensa garantidamente baixo valor do produto."
+    ],
+    "blocks": [
+      "EIP-6.2-03-B05"
+    ]
+  }
+]

@@ -1,0 +1,207 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Under the fund-linked contract definition used here, who bears the investment risk without an insurer return guarantee?",
+      "Na definição de contrato ligado a fundos usada aqui, quem suporta o risco de investimento sem garantia de retorno da seguradora?"
+    ],
+    "options": [
+      [
+        "The insurer guarantees every underlying market loss.",
+        "A seguradora garante toda perda de mercado subjacente."
+      ],
+      [
+        "The distributor guarantees the original premium.",
+        "O distribuidor garante o prêmio original."
+      ],
+      [
+        "The policyholder",
+        "O tomador do seguro"
+      ],
+      [
+        "The underlying fund administrator absorbs price fluctuations.",
+        "O administrador do fundo subjacente absorve oscilações de preço."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The defined fund-linked contract places investment risk on the policyholder. Mixed contracts can contain a separate insurer-guaranteed component. Life cover, administration or access to a managed support does not automatically guarantee recovery of the original premium or remove surrender and insurer-credit risks.",
+      "O contrato definido ligado a fundos coloca o risco de investimento no tomador. Contratos mistos podem conter componente separado garantido pela seguradora. Cobertura de vida, administração ou acesso a suporte gerido não garante automaticamente recuperação do prêmio original nem elimina riscos de resgate e crédito da seguradora."
+    ],
+    "blocks": [
+      "EIP-6.1-01-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "The client’s direct claim under life insurance is ______, rather than automatic direct ownership of each underlying security.",
+      "O direito direto do cliente no seguro de vida é ______, em vez de propriedade direta automática de cada título subjacente."
+    ],
+    "options": [
+      [
+        "policy rights against the insurer under the contract",
+        "direitos da apólice contra a seguradora conforme o contrato"
+      ],
+      [
+        "an ordinary personal brokerage position in every security",
+        "uma posição pessoal de corretagem em cada título"
+      ],
+      [
+        "equity ownership of the insurer itself",
+        "propriedade do capital da própria seguradora"
+      ],
+      [
+        "a bank deposit because a bank distributes the policy",
+        "um depósito bancário porque um banco distribui a apólice"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Insurance benefits and investment-linked values follow policy terms and the insurer’s obligations. The support can be external or internal, but its assets are not thereby the client’s separately owned brokerage holdings. Identify the legal debtor, insured benefit, investment value and surrender terms independently.",
+      "Benefícios de seguro e valores ligados a investimentos seguem as condições da apólice e obrigações da seguradora. O suporte pode ser externo ou interno, mas seus ativos não são assim posições de corretagem separadamente detidas pelo cliente. Identifique devedor jurídico, benefício segurado, valor de investimento e resgate independentemente."
+    ],
+    "blocks": [
+      "EIP-6.1-01-B01"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A guaranteed component applies 1.5% to €19,600 allocated after charges from a €20,000 premium. A possible €300 bonus is discretionary. Which description is sound?",
+      "Um componente garantido aplica 1.5% a €19,600 alocados após encargos de um prêmio de €20,000. Um bônus possível de €300 é discricionário. Qual descrição é correta?"
+    ],
+    "options": [
+      [
+        "The original premium has a guaranteed 1.5% net return.",
+        "O prêmio original tem retorno líquido garantido de 1.5%."
+      ],
+      [
+        "The allocated-base amount is €19,894 under the terms; €20,194 includes a non-guaranteed bonus.",
+        "O valor sobre a base alocada é €19,894 conforme as condições; €20,194 inclui bônus não garantido."
+      ],
+      [
+        "The bonus must be included when describing the contractual minimum.",
+        "O bônus deve ser incluído ao descrever o mínimo contratual."
+      ],
+      [
+        "Positive crediting eliminates any loss relative to premium.",
+        "A remuneração positiva elimina qualquer perda relativa ao prêmio."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "19,600 × 1.015 = €19,894, still €106 below the €20,000 premium because of initial charges. Adding €300 gives €20,194 only if the bonus is declared. The guarantee’s base and insurer-performance conditions matter. A positive rate on allocated money is not a guaranteed positive return on every euro paid.",
+      "19,600 × 1.015 = €19,894, ainda €106 abaixo do prêmio de €20,000 por causa dos encargos iniciais. Acrescentar €300 dá €20,194 apenas se o bônus for declarado. Importam a base da garantia e as condições de cumprimento da seguradora. Uma taxa positiva sobre dinheiro alocado não é retorno positivo garantido sobre todo euro pago."
+    ],
+    "blocks": [
+      "EIP-6.1-01-B07"
+    ],
+    "calculation": {
+      "method": "guarantee_bonus",
+      "inputs": [
+        19600,
+        0.015,
+        300,
+        20000
+      ],
+      "expected": [
+        19894,
+        20194,
+        -106
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A fictional €20,000 maturity component adds 70% of a positive index return, capped at 10% of principal. The index gains 20%; issuer performs, no fees. What payment follows?",
+      "Um componente fictício de vencimento de €20,000 acrescenta 70% de um retorno positivo do índice, limitado a 10% do principal. O índice ganha 20%; o emissor cumpre, sem tarifas. Qual pagamento decorre?"
+    ],
+    "options": [
+      [
+        "€24,000, using direct-index return",
+        "€24,000, usando retorno direto do índice"
+      ],
+      [
+        "€22,800, ignoring the cap after participation",
+        "€22,800, ignorando o teto após a participação"
+      ],
+      [
+        "€21,400, applying participation to the cap again",
+        "€21,400, aplicando participação ao teto novamente"
+      ],
+      [
+        "€22,000, using the 10% cap on 14% raw participation",
+        "€22,000, usando teto de 10% sobre participação bruta de 14%"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Raw addition would be 0.70 × 20% = 14%, but the stated component cap is 10%, so payment is €22,000. Direct index performance or uncapped participation overstates this formula; scaling the cap again understates it. The maturity formula does not guarantee the same early-surrender amount or include dividends absent from the specified reference.",
+      "O acréscimo bruto seria 0.70 × 20% = 14%, mas o teto informado é 10%, portanto o pagamento é €22,000. Desempenho direto do índice ou participação sem teto superestima a fórmula; ajustar o teto novamente a subestima. A fórmula no vencimento não garante o mesmo resgate antecipado nem inclui dividendos ausentes da referência especificada."
+    ],
+    "blocks": [
+      "EIP-6.1-01-B05"
+    ],
+    "calculation": {
+      "method": "capped_note",
+      "inputs": [
+        20000,
+        0.7,
+        0.2,
+        0.1
+      ],
+      "expected": 22000
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €20,000 policy deducts 2% entry charge, invests the remainder at €100 per unit, then units fall to €90. A 1% policy charge applies to that resulting value, followed by €120 risk-cover charge. What investment value and loss on premium follow?",
+      "Uma apólice de €20,000 deduz 2% de entrada, investe o restante a €100 por unidade, depois as unidades caem para €90. Uma cobrança de apólice de 1% incide sobre o valor resultante, seguida de €120 por cobertura de risco. Quais valor de investimento e perda sobre o prêmio decorrem?"
+    ],
+    "options": [
+      [
+        "€17,640; 11.8%, omitting later charges",
+        "€17,640; 11.8%, omitindo encargos posteriores"
+      ],
+      [
+        "€18,000; 10%, using support movement alone",
+        "€18,000; 10%, usando apenas o movimento do suporte"
+      ],
+      [
+        "€17,343.60; 13.282%, with all specified layers",
+        "€17,343.60; 13.282%, com todas as camadas especificadas"
+      ],
+      [
+        "€17,320; 13.4%, charging 1% of original premium instead",
+        "€17,320; 13.4%, cobrando 1% do prêmio original em vez disso"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "After entry, €19,600 buys 196 units. At €90 they are €17,640; deduct 1% = €176.40 and €120 for €17,343.60. Loss is €2,656.40/€20,000 = 13.282%. The support’s 10% fall omits fee layers, and charging 1% to premium uses the wrong stipulated base. This investment value is not automatically the death benefit or the actual surrender value under other contract conditions.",
+      "Após a entrada, €19,600 compram 196 unidades. A €90 elas valem €17,640; deduza 1% = €176.40 e €120 para €17,343.60. A perda é €2,656.40/€20,000 = 13.282%. A queda de 10% do suporte omite camadas de tarifas, e cobrar 1% do prêmio usa a base estipulada errada. Esse valor de investimento não é automaticamente o benefício por morte ou o resgate efetivo sob outras condições contratuais."
+    ],
+    "blocks": [
+      "EIP-6.1-01-B03"
+    ],
+    "calculation": {
+      "method": "unit_policy_value",
+      "inputs": [
+        20000,
+        0.02,
+        100,
+        90,
+        0.01,
+        120
+      ],
+      "expected": [
+        196,
+        17343.6,
+        0.13282
+      ]
+    }
+  }
+]

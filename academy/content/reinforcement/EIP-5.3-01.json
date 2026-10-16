@@ -1,0 +1,193 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "In mean–variance analysis, constraints define ______.",
+      "Na análise média–variância, as restrições definem ______."
+    ],
+    "options": [
+      [
+        "the permitted allocations and required boundaries",
+        "as alocações permitidas e os limites exigidos"
+      ],
+      [
+        "the guaranteed realised return",
+        "o retorno realizado garantido"
+      ],
+      [
+        "the statistical estimate of each mean alone",
+        "apenas a estimativa estatística de cada média"
+      ],
+      [
+        "the chosen objective, with no separate feasible set",
+        "o objetivo escolhido, sem conjunto viável separado"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Inputs describe expected outcomes and dispersion; constraints state what may be held; the objective states what is being optimised. Non-negative weights or a required reserve can materially change the feasible set. A numerically attractive solution outside those limits is not a usable allocation under the stated model.",
+      "Dados descrevem resultados esperados e dispersão; restrições dizem o que pode ser detido; o objetivo diz o que se otimiza. Pesos não negativos ou reserva exigida podem mudar materialmente o conjunto viável. Uma solução numericamente atraente fora dos limites não é uma alocação utilizável no modelo informado."
+    ],
+    "blocks": [
+      "EIP-5.3-01-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A model target of 6% expected return ______ a guaranteed 6% payment.",
+      "Uma meta de modelo de retorno esperado de 6% ______ pagamento garantido de 6%."
+    ],
+    "options": [
+      [
+        "always supplies",
+        "sempre fornece"
+      ],
+      [
+        "does not establish",
+        "não estabelece"
+      ],
+      [
+        "is the same as",
+        "é o mesmo que"
+      ],
+      [
+        "becomes a promise once an optimiser finds weights for",
+        "torna-se promessa quando um otimizador encontra pesos para"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Expected return is a model average of uncertain outcomes. Feasible weights can achieve that expectation without guaranteeing the realised result or the cash needed on a date. Risk, liquidity and client capacity remain separate analyses even when the target-return equation is solved exactly.",
+      "Retorno esperado é uma média de modelo de resultados incertos. Pesos viáveis podem atingir essa expectativa sem garantir resultado realizado ou dinheiro necessário em uma data. Risco, liquidez e capacidade do cliente continuam sendo análises separadas mesmo quando a equação de meta é resolvida exatamente."
+    ],
+    "blocks": [
+      "EIP-5.3-01-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A and B have expected returns 8% and 3%, with non-negative weights summing to one. A 9% target gives algebraic weights 1.2 and −0.2. What follows?",
+      "A e B têm retornos esperados de 8% e 3%, com pesos não negativos somando um. Uma meta de 9% dá pesos algébricos de 1.2 e −0.2. O que decorre?"
+    ],
+    "options": [
+      [
+        "The negative weight can be ignored while retaining the 9% target.",
+        "O peso negativo pode ser ignorado mantendo a meta de 9%."
+      ],
+      [
+        "The algebra authorises borrowing without further analysis.",
+        "A álgebra autoriza tomar empréstimo sem análise adicional."
+      ],
+      [
+        "Rounding 1.2 to 1 keeps the target unchanged.",
+        "Arredondar 1.2 para 1 mantém a meta inalterada."
+      ],
+      [
+        "The target is outside this long-only feasible set; constraints or the objective must be reconsidered explicitly.",
+        "A meta está fora desse conjunto viável sem posições vendidas; restrições ou objetivo devem ser reconsiderados expressamente."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "A weighted average of 3% and 8% with non-negative weights cannot exceed 8%. Solving (9 − 3)/(8 − 3) gives 1.2 A and −0.2 B, violating the premise. A permitted short or financing structure would be a different implementation with costs and obligations. The equation identifies infeasibility, not trade authorisation.",
+      "Uma média de 3% e 8% com pesos não negativos não pode superar 8%. Resolver (9 − 3)/(8 − 3) dá 1.2 em A e −0.2 em B, violando a premissa. Uma posição vendida ou financiamento permitido seria outra implementação com custos e obrigações. A equação identifica inviabilidade, não autorização de operação."
+    ],
+    "blocks": [
+      "EIP-5.3-01-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Volatilities are 20% and 10%, correlation 0.25, so covariance 0.005. Under the taught unconstrained minimum-variance formula, what A weight follows?",
+      "As volatilidades são 20% e 10%, correlação 0.25, portanto covariância de 0.005. Pela fórmula ensinada de variância mínima sem restrições, qual peso de A decorre?"
+    ],
+    "options": [
+      [
+        "60%, solving a different target-return objective",
+        "60%, resolvendo outro objetivo de retorno-alvo"
+      ],
+      [
+        "20%, ignoring the stated positive covariance",
+        "20%, ignorando a covariância positiva informada"
+      ],
+      [
+        "12.5%, from (0.01 − 0.005)/(0.04 + 0.01 − 0.01)",
+        "12.5%, de (0.01 − 0.005)/(0.04 + 0.01 − 0.01)"
+      ],
+      [
+        "87.5%, confusing A with the remaining B weight",
+        "87.5%, confundindo A com o peso restante de B"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The numerator is B variance minus covariance: 0.01 − 0.005 = 0.005. Denominator is 0.04 + 0.01 − 2 × 0.005 = 0.04. Their ratio is 0.125, leaving B at 0.875. A target-return allocation answers another objective. Minimum model variance still does not establish low liquidity, credit or goal-shortfall risk or suitability.",
+      "O numerador é variância de B menos covariância: 0.01 − 0.005 = 0.005. O denominador é 0.04 + 0.01 − 2 × 0.005 = 0.04. A razão é 0.125, restando B a 0.875. Uma alocação de retorno-alvo responde a outro objetivo. Variância mínima do modelo ainda não estabelece baixo risco de liquidez, crédito ou insuficiência da meta nem adequação."
+    ],
+    "blocks": [
+      "EIP-5.3-01-B05"
+    ],
+    "calculation": {
+      "method": "minimum_variance",
+      "inputs": [
+        0.2,
+        0.1,
+        0.25
+      ],
+      "expected": 0.125
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "P has expected return 6% and volatility 12%; Q 7% and 18%. Use U = mean − lambda × variance/2. Which model choice follows first at lambda 3, then at 0.5?",
+      "P tem retorno esperado de 6% e volatilidade de 12%; Q, 7% e 18%. Use U = média − lambda × variância/2. Qual escolha do modelo decorre primeiro com lambda 3 e depois com 0.5?"
+    ],
+    "options": [
+      [
+        "P then Q; the variance penalty’s weight changes, without proving client suitability",
+        "P depois Q; o peso da penalidade de variância muda, sem provar adequação ao cliente"
+      ],
+      [
+        "Q then Q, selecting the larger mean regardless of the penalty",
+        "Q depois Q, selecionando a maior média independentemente da penalidade"
+      ],
+      [
+        "P then P, assuming the lower-variance choice wins for every preference",
+        "P depois P, supondo que a menor variância vence para toda preferência"
+      ],
+      [
+        "Q then P, reversing the effect of a lower penalty",
+        "Q depois P, invertendo o efeito de uma penalidade menor"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "At lambda 3, utilities are 0.06 − 1.5 × 0.12² = 0.0384 and 0.07 − 1.5 × 0.18² = 0.0214, favouring P. At 0.5 they are 0.0564 and 0.0619, favouring Q. Use variance, not volatility, in the penalty. These are model preference outputs, not promised returns or regulatory risk scores; actual constraints can make neither appropriate.",
+      "Com lambda 3, as utilidades são 0.06 − 1.5 × 0.12² = 0.0384 e 0.07 − 1.5 × 0.18² = 0.0214, favorecendo P. A 0.5 são 0.0564 e 0.0619, favorecendo Q. Use variância, não volatilidade, na penalidade. São resultados de preferência do modelo, não retornos prometidos ou escores regulatórios; restrições efetivas podem tornar ambos inadequados."
+    ],
+    "blocks": [
+      "EIP-5.3-01-B07"
+    ],
+    "calculation": {
+      "method": "utility_comparison",
+      "inputs": [
+        0.06,
+        0.12,
+        0.07,
+        0.18,
+        3,
+        0.5
+      ],
+      "expected": [
+        0.0384,
+        0.0214,
+        0.0564,
+        0.0619
+      ]
+    }
+  }
+]

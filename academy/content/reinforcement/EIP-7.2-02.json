@@ -1,0 +1,167 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Core inside-information analysis concerns information that is precise, non-public, issuer/instrument-related and ______.",
+      "A análise central de informação privilegiada trata de informação precisa, não pública, ligada ao emissor/instrumento e ______."
+    ],
+    "options": [
+      [
+        "likely to affect price significantly if made public",
+        "provavelmente capaz de afetar significativamente o preço se publicada"
+      ],
+      [
+        "guaranteed to produce a particular price change",
+        "garantida para produzir mudança específica de preço"
+      ],
+      [
+        "already known to every investor",
+        "já conhecida por todo investidor"
+      ],
+      [
+        "always a completed transaction with no uncertainty",
+        "sempre uma transação concluída sem incerteza"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Precision does not require certainty or an exact price forecast. Assess actual content, reliability, context and decision relevance to a reasonable investor. A sufficiently concrete intermediate event can qualify. Later price performance does not retrospectively replace the facts available when the information was received.",
+      "Precisão não exige certeza nem previsão exata de preço. Avalie conteúdo, confiabilidade, contexto e relevância decisória para investidor razoável. Evento intermediário suficientemente concreto pode se qualificar. Desempenho posterior não substitui retrospectivamente os fatos disponíveis ao receber a informação."
+    ],
+    "blocks": [
+      "EIP-7.2-02-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which statement about unlawful disclosure is correct?",
+      "Qual afirmação sobre divulgação ilícita é correta?"
+    ],
+    "options": [
+      [
+        "It requires the employee to place a personal trade.",
+        "Exige que o empregado faça operação pessoal."
+      ],
+      [
+        "Passing inside information outside permitted duties can be a concern even without a personal trade.",
+        "Transmitir informação privilegiada fora das funções permitidas pode ser problema mesmo sem operação pessoal."
+      ],
+      [
+        "Communication to any bank colleague is automatically permitted.",
+        "Comunicação a qualquer colega bancário é automaticamente permitida."
+      ],
+      [
+        "A small transaction makes the information public.",
+        "Uma operação pequena torna a informação pública."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Trading, recommending and disclosure are distinct behaviours. An employee can create a disclosure issue by telling a friend or an unnecessary recipient without ever trading. Follow confidentiality controls and designated compliance channels. Personal fairness beliefs, small size or lack of profit do not establish an applicable legal exception.",
+      "Negociar, recomendar e divulgar são condutas distintas. Um empregado pode criar problema de divulgação ao contar a amigo ou destinatário desnecessário sem negociar. Siga confidencialidade e canais designados. Crença pessoal de justiça, tamanho pequeno ou ausência de lucro não estabelece exceção jurídica aplicável."
+    ],
+    "blocks": [
+      "EIP-7.2-02-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A confidential intermediate merger step meets inside-information criteria but qualifies for the amended issuer-disclosure treatment. What distinction matters?",
+      "Uma etapa intermediária confidencial de fusão atende aos critérios de informação privilegiada, mas se qualifica ao tratamento alterado de divulgação pelo emissor. Qual distinção importa?"
+    ],
+    "options": [
+      [
+        "No immediate publication means the information cannot be inside information.",
+        "Ausência de publicação imediata significa que não pode ser informação privilegiada."
+      ],
+      [
+        "The employee may selectively brief clients before publication.",
+        "O empregado pode informar clientes selecionados antes da publicação."
+      ],
+      [
+        "Publication timing and information classification differ; confidentiality and trading restrictions still apply.",
+        "Prazo de publicação e classificação da informação diferem; confidencialidade e restrições de negociação continuam aplicáveis."
+      ],
+      [
+        "The intermediate step is exempt from every MAR rule.",
+        "A etapa intermediária é isenta de toda regra MAR."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The June 2026 disclosure change does not erase the inside-information definition or restrictions on use and disclosure. A qualifying intermediate step can remain inside information despite not requiring immediate publication under that branch. Maintain controls and escalate any loss of confidentiality; an employee cannot replace the issuer’s lawful process with selective private disclosure.",
+      "A alteração de junho de 2026 não elimina a definição de informação privilegiada nem restrições de uso e divulgação. Etapa intermediária elegível pode continuar privilegiada sem exigir publicação imediata nesse regime. Mantenha controles e encaminhe perda de confidencialidade; empregado não substitui processo legal do emissor por divulgação privada seletiva."
+    ],
+    "blocks": [
+      "EIP-7.2-02-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Recorded volume is 50,000 shares at an average €8. What does the €400,000 multiplication establish?",
+      "O volume registrado é de 50,000 ações a €8 em média. O que a multiplicação de €400,000 estabelece?"
+    ],
+    "options": [
+      [
+        "Exactly 50,000 independent investors",
+        "Exatamente 50,000 investidores independentes"
+      ],
+      [
+        "€400,000 of new financing automatically received by the issuer",
+        "€400,000 de financiamento novo automaticamente recebido pelo emissor"
+      ],
+      [
+        "A legally proven manipulation offence",
+        "Uma infração de manipulação juridicamente comprovada"
+      ],
+      [
+        "Recorded nominal turnover, without proof of independent demand or new issuer financing",
+        "Giro nominal registrado, sem prova de demanda independente nem novo financiamento do emissor"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "50,000 × 8 = €400,000 describes recorded turnover. Accounts may not represent distinct beneficial interests, and secondary trading generally transfers value between investors. Suspicious patterns merit controlled escalation and fact-specific investigation, not public accusation. Arithmetic volume alone cannot prove genuine demand, capital raising or a legal offence.",
+      "50,000 × 8 = €400,000 descreve giro registrado. Contas podem não representar interesses beneficiários distintos, e negociação secundária geralmente transfere valor entre investidores. Padrões suspeitos merecem encaminhamento controlado e investigação factual, não acusação pública. Volume aritmético sozinho não prova demanda genuína, captação nem infração jurídica."
+    ],
+    "blocks": [
+      "EIP-7.2-02-B07"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A manager receives a confidential detailed rescue-financing paper with expected material dilution. A cousin holding the shares asks whether to sell. What is the appropriate response?",
+      "Um gerente recebe documento confidencial detalhado de financiamento de resgate com diluição material esperada. Um primo acionista pergunta se deve vender. Qual é a resposta adequada?"
+    ],
+    "options": [
+      [
+        "Preserve confidentiality, document the source and escalate through the inside-information procedure before any potentially prohibited action.",
+        "Preservar confidencialidade, documentar a origem e encaminhar pelo procedimento de informação privilegiada antes de qualquer ação potencialmente proibida."
+      ],
+      [
+        "Recommend selling without explaining why; withholding the reason removes the concern.",
+        "Recomendar venda sem explicar o motivo; omiti-lo elimina o problema."
+      ],
+      [
+        "Forward the document to unrelated colleagues because bank employment permits all sharing.",
+        "Encaminhar a colegas sem relação porque trabalhar no banco permite todo compartilhamento."
+      ],
+      [
+        "Treat the paper as harmless because the final financing is not complete.",
+        "Tratar o documento como inofensivo porque o financiamento final não está concluído."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Concrete confidential terms with potentially significant decision relevance require assessment under the designated controls. A recommendation can convey an informational advantage even without its explanation. An unfinished event can still provide precise inside information, and employment alone does not authorise sharing outside necessary duties. The manager should not improvise an issuer announcement or privately warn selected investors.",
+      "Condições concretas confidenciais com relevância decisória potencialmente significativa exigem avaliação pelos controles designados. Recomendação pode transmitir vantagem informacional mesmo sem explicação. Evento não concluído ainda pode oferecer informação privilegiada precisa, e emprego sozinho não autoriza compartilhamento fora das funções necessárias. O gerente não deve improvisar anúncio do emissor nem alertar privadamente investidores selecionados."
+    ],
+    "blocks": [
+      "EIP-7.2-02-B04"
+    ]
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Path dependence means a payoff can depend on ______.",
+      "Dependência da trajetória significa que um resultado pode depender de ______."
+    ],
+    "options": [
+      [
+        "only the final reference level",
+        "apenas o nível final de referência"
+      ],
+      [
+        "observations during the contract as well as its ending level",
+        "observações durante o contrato além de seu nível final"
+      ],
+      [
+        "the holder’s desired profit rather than written conditions",
+        "o lucro desejado do titular em vez das condições escritas"
+      ],
+      [
+        "only the initial issue price, not reference events",
+        "apenas o preço inicial de emissão, não os eventos de referência"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A barrier observed on specified intermediate dates can change repayment even if the reference later recovers. Identical ending levels need not imply identical payments. The observation schedule and exact inequalities therefore belong in the explanation; a terminal-only chart cannot reconstruct every path-dependent product.",
+      "Uma barreira observada em datas intermediárias específicas pode mudar o pagamento mesmo se a referência se recuperar. Níveis finais idênticos não precisam implicar pagamentos idênticos. Calendário de observação e desigualdades exatas integram, portanto, a explicação; um gráfico apenas terminal não reconstrói todo produto dependente da trajetória."
+    ],
+    "blocks": [
+      "EIP-3.10-01-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A promise to repay nominal at maturity, subject to issuer performance, ______.",
+      "Uma promessa de devolver o nominal no vencimento, sujeita ao cumprimento do emissor, ______."
+    ],
+    "options": [
+      [
+        "also guarantees the full original cost when bought above nominal",
+        "também garante o custo original inteiro quando comprado acima do nominal"
+      ],
+      [
+        "also fixes every early-sale price",
+        "também fixa todo preço de venda antecipada"
+      ],
+      [
+        "removes issuer risk because the payoff says protected",
+        "remove o risco do emissor porque o resultado diz protegido"
+      ],
+      [
+        "does not automatically recover fees or a premium paid above nominal",
+        "não recupera automaticamente tarifas ou prêmio pago acima do nominal"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Principal repayment and recovery of total investor cost are different. If the client pays €10,200 including fees and receives €10,000, the economic loss is €200 even with the nominal promise honoured. Early sale value and issuer failure are separate risks; maturity terms do not guarantee either away.",
+      "Pagamento de principal e recuperação do custo total do investidor são diferentes. Se o cliente paga €10,200 incluindo tarifas e recebe €10,000, a perda econômica é €200 mesmo com a promessa nominal cumprida. Valor de venda antecipada e falha do emissor são riscos separados; condições de vencimento não os eliminam por garantia."
+    ],
+    "blocks": [
+      "EIP-3.10-01-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Why does a high structured-note coupon not sufficiently explain the investment?",
+      "Por que um cupom alto de nota estruturada não explica suficientemente o investimento?"
+    ],
+    "options": [
+      [
+        "Repayment can also depend on barriers, paths, caps and issuer performance, creating large principal losses.",
+        "O pagamento também pode depender de barreiras, trajetórias, tetos e cumprimento do emissor, criando grandes perdas de principal."
+      ],
+      [
+        "The coupon necessarily compensates every possible principal loss.",
+        "O cupom necessariamente compensa toda perda possível do principal."
+      ],
+      [
+        "A larger coupon makes the note legally identical to a deposit.",
+        "Um cupom maior torna a nota juridicamente idêntica a um depósito."
+      ],
+      [
+        "Only favourable endpoint cases matter once the coupon is known.",
+        "Apenas casos finais favoráveis importam quando o cupom é conhecido."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The dominant downside may come from repayment conditions rather than coupon size. Translate adverse, boundary and favourable cases into money and identify the debtor and exit terms. Complexity and risk are distinct, so a plain asset can also be risky; the conclusion should follow actual loss mechanisms, not a headline percentage.",
+      "A principal perda pode vir de condições de pagamento, não do tamanho do cupom. Converta casos adversos, de limite e favoráveis em dinheiro e identifique devedor e condições de saída. Complexidade e risco são distintos; um ativo simples também pode ser arriscado. A conclusão deve seguir mecanismos efetivos de perda, não um percentual anunciado."
+    ],
+    "blocks": [
+      "EIP-3.10-01-B08"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €10,000 note repays nominal plus 80% of a positive index return, with additional note return capped at 8%. Issuer performs; index gains 15%; no fees or tax. What payment follows?",
+      "Uma nota de €10,000 devolve nominal mais 80% do retorno positivo de um índice, com retorno adicional da nota limitado a 8%. O emissor cumpre; o índice ganha 15%; sem tarifas ou impostos. Qual pagamento decorre?"
+    ],
+    "options": [
+      [
+        "€11,500, taking the index return directly",
+        "€11,500, tomando diretamente o retorno do índice"
+      ],
+      [
+        "€11,200, ignoring the cap",
+        "€11,200, ignorando o teto"
+      ],
+      [
+        "€10,800, applying the cap after 12% raw participation",
+        "€10,800, aplicando o teto após participação bruta de 12%"
+      ],
+      [
+        "€10,640, incorrectly multiplying the 8% cap by participation again",
+        "€10,640, multiplicando incorretamente o teto de 8% novamente pela participação"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Raw participation is 0.80 × 15% = 12%, but the note’s 8% return cap applies, giving €800 plus €10,000 principal. €11,200 omits the cap; €11,500 treats the product as direct index ownership; €10,640 scales the cap twice. The calculation assumes issuer performance and the specified index-return definition, without importing dividends not included in the reference.",
+      "A participação bruta é 0.80 × 15% = 12%, mas o teto de retorno da nota de 8% se aplica, gerando €800 mais €10,000 de principal. €11,200 omite o teto; €11,500 trata o produto como propriedade direta do índice; €10,640 ajusta o teto duas vezes. O cálculo supõe cumprimento do emissor e a definição de retorno do índice especificada, sem importar dividendos não incluídos na referência."
+    ],
+    "blocks": [
+      "EIP-3.10-01-B03"
+    ],
+    "calculation": {
+      "method": "capped_note",
+      "inputs": [
+        10000,
+        0.8,
+        0.15,
+        0.08
+      ],
+      "expected": 10800
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €10,000 note pays €600 coupon at maturity. Principal is full if final/initial is at least 0.70; below 0.70 principal equals nominal times that ratio. Issuer performs. Compare ratios exactly 0.70 and 0.69. What total payments follow?",
+      "Uma nota de €10,000 paga cupom de €600 no vencimento. O principal é integral se final/inicial for pelo menos 0.70; abaixo de 0.70 equivale ao nominal vezes essa razão. O emissor cumpre. Compare razões exatamente 0.70 e 0.69. Quais pagamentos totais decorrem?"
+    ],
+    "options": [
+      [
+        "€7,600 and €7,500, treating equality as a breach",
+        "€7,600 e €7,500, tratando igualdade como rompimento"
+      ],
+      [
+        "€10,600 and €7,500, a €3,100 discontinuity and 25% loss at 0.69",
+        "€10,600 e €7,500, descontinuidade de €3,100 e perda de 25% a 0.69"
+      ],
+      [
+        "€10,000 and €6,900, omitting the coupon",
+        "€10,000 e €6,900, omitindo o cupom"
+      ],
+      [
+        "€10,600 and €10,500, charging only the one-point move below the boundary",
+        "€10,600 e €10,500, cobrando apenas o movimento de um ponto abaixo do limite"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Equality qualifies for full principal: €10,000 + €600 = €10,600. At 0.69, principal is €6,900 and total €7,500, a €2,500 loss on cost. The contract applies the entire final ratio after breach, not only the distance below the barrier. Omitting coupon misstates total cash, while treating 0.70 as below the threshold reverses the explicit inequality. This barrier is maturity-only.",
+      "A igualdade qualifica para principal integral: €10,000 + €600 = €10,600. A 0.69, o principal é €6,900 e o total €7,500, perda de €2,500 sobre o custo. O contrato aplica a razão final inteira após o rompimento, não apenas a distância abaixo da barreira. Omitir cupom distorce o caixa total; tratar 0.70 como abaixo inverte a desigualdade explícita. Essa barreira é observada apenas no vencimento."
+    ],
+    "blocks": [
+      "EIP-3.10-01-B05"
+    ],
+    "calculation": {
+      "method": "barrier_pair",
+      "inputs": [
+        10000,
+        600,
+        0.7,
+        0.7,
+        0.69
+      ],
+      "expected": [
+        10600,
+        7500
+      ]
+    }
+  }
+]

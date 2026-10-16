@@ -1,0 +1,191 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "How should EONIA be described in the current curriculum?",
+      "Como a EONIA deve ser descrita no currículo atual?"
+    ],
+    "options": [
+      [
+        "A historical benchmark discontinued on 3 January 2022",
+        "Uma taxa de referência histórica descontinuada em 3 de janeiro de 2022"
+      ],
+      [
+        "An active overnight series interchangeable with current €STR without checking transition terms",
+        "Uma série overnight ativa intercambiável com a €STR atual sem verificar termos de transição"
+      ],
+      [
+        "A synonym for twelve-month EURIBOR",
+        "Um sinônimo de EURIBOR de doze meses"
+      ],
+      [
+        "The current term benchmark fixed for a three-month EURIBOR period",
+        "A referência atual de prazo fixada para um período de EURIBOR de três meses"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "EONIA remains in the historical syllabus reference but ceased on 3 January 2022. The lesson explains the €STR context rather than presenting EONIA as a live fixing. An old contractual reference still requires its actual transition or fallback treatment; changing the label alone is insufficient.",
+      "A EONIA permanece na referência histórica do programa, mas cessou em 3 de janeiro de 2022. A aula explica o contexto da €STR em vez de apresentar a EONIA como fixação vigente. Uma referência contratual antiga ainda exige seu tratamento efetivo de transição ou fallback; mudar apenas o rótulo é insuficiente."
+    ],
+    "blocks": [
+      "EIP-3.3-04-B03"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "€STR measures relevant wholesale unsecured euro borrowing costs over an ______ horizon.",
+      "A €STR mede custos relevantes de captação de euros sem garantia no mercado de atacado em um horizonte ______."
+    ],
+    "options": [
+      [
+        "three-month term",
+        "de prazo de três meses"
+      ],
+      [
+        "one-week term",
+        "de prazo de uma semana"
+      ],
+      [
+        "overnight",
+        "overnight"
+      ],
+      [
+        "twelve-month term",
+        "de prazo de doze meses"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The ECB’s €STR concerns overnight borrowing costs of banks located in the euro area. Term EURIBOR tenors measure a different reference interest. Neither benchmark is itself every customer’s offered rate: contractual margins, observations and compounding terms still matter.",
+      "A €STR do BCE diz respeito a custos de captação overnight de bancos localizados na área do euro. Os prazos da EURIBOR medem outra referência. Nenhuma taxa é, por si só, a taxa oferecida a todo cliente: margens contratuais, observações e condições de capitalização ainda importam."
+    ],
+    "blocks": [
+      "EIP-3.3-04-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A loan locks a three-month term fixing at the period’s start. The benchmark rises the next day. Which interpretation is supported?",
+      "Um empréstimo fixa uma referência de três meses no início do período. A referência sobe no dia seguinte. Qual interpretação é sustentada?"
+    ],
+    "options": [
+      [
+        "All of that period’s interest necessarily resets daily.",
+        "Todos os juros desse período necessariamente são reajustados diariamente."
+      ],
+      [
+        "The total rate equals the benchmark with no margin.",
+        "A taxa total equivale à referência sem margem."
+      ],
+      [
+        "The next fixing is guaranteed to equal the current one.",
+        "A próxima fixação é garantidamente igual à atual."
+      ],
+      [
+        "That period need not reprice; the contractual observation and reset clauses govern.",
+        "Esse período não precisa ser reajustado; as cláusulas contratuais de observação e reajuste governam."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "A fixed term observation can determine one period’s payment even as published benchmark levels change afterwards. The contract sets when the next fixing applies. Daily compounding of observed overnight rates is a different method. Neither daily reset nor an unchanged future fixing can be assumed from the word floating alone.",
+      "Uma observação fixada para o prazo pode determinar o pagamento de um período mesmo quando as referências publicadas mudam depois. O contrato define quando a próxima fixação se aplica. A capitalização diária de taxas overnight observadas é outro método. Nem reajuste diário nem fixação futura inalterada podem ser presumidos apenas pela palavra flutuante."
+    ],
+    "blocks": [
+      "EIP-3.3-04-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An interest-only €200,000 loan uses a stipulated 2.8% fixing plus a 1.2 percentage-point margin for 90 days on Actual/360. No floor or cap. What interest is due?",
+      "Um empréstimo de €200,000 com pagamento somente de juros usa fixação estipulada de 2.8% mais margem de 1.2 ponto percentual por 90 dias na base Actual/360. Sem piso ou teto. Quais juros são devidos?"
+    ],
+    "options": [
+      [
+        "€1,400",
+        "€1,400"
+      ],
+      [
+        "€2,000",
+        "€2,000"
+      ],
+      [
+        "€8,000",
+        "€8,000"
+      ],
+      [
+        "€1,416.80",
+        "€1,416.80"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Add the margin in percentage points: 2.8% + 1.2% = 4%. Interest is 200,000 × 0.04 × 90/360 = €2,000. €1,400 omits the margin; €8,000 gives a full year; €1,416.80 treats the margin as a 1.2% proportional increase of the benchmark. The stipulated fixing is fictional, not current market data.",
+      "Some a margem em pontos percentuais: 2.8% + 1.2% = 4%. Os juros são 200,000 × 0.04 × 90/360 = €2,000. €1,400 omite a margem; €8,000 usa um ano inteiro; €1,416.80 trata a margem como aumento proporcional de 1.2% da referência. A fixação estipulada é fictícia, não um dado atual de mercado."
+    ],
+    "blocks": [
+      "EIP-3.3-04-B04"
+    ],
+    "calculation": {
+      "method": "simple_interest",
+      "inputs": [
+        200000,
+        0.04,
+        90,
+        360
+      ],
+      "expected": 2000
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A contract charges max(benchmark, 0) + 1% margin. Benchmark is −0.4%, principal €50,000, term 180/360. What interest and difference from an otherwise identical no-floor contract result?",
+      "Um contrato cobra max(referência, 0) + margem de 1%. A referência é −0.4%, o principal €50,000 e o prazo 180/360. Quais juros e diferença em relação a um contrato idêntico sem piso resultam?"
+    ],
+    "options": [
+      [
+        "€150 interest; no difference",
+        "Juros de €150; sem diferença"
+      ],
+      [
+        "Zero interest; €150 less",
+        "Juros zero; €150 a menos"
+      ],
+      [
+        "€250 interest; €100 more",
+        "Juros de €250; €100 a mais"
+      ],
+      [
+        "€500 interest; €350 more",
+        "Juros de €500; €350 a mais"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Floor the benchmark first to 0%, then add 1%: 50,000 × 0.01 × 0.5 = €250. Without that floor the total is 0.6%, giving €150, a €100 difference. Flooring the total rate instead would give a different result. €500 ignores the half-year term; zero ignores the margin. This is the specified contract, not a universal treatment of negative rates.",
+      "Aplique primeiro o piso de 0% à referência, depois some 1%: 50,000 × 0.01 × 0.5 = €250. Sem esse piso, o total é 0.6%, dando €150, diferença de €100. Aplicar o piso à taxa total daria outro resultado. €500 ignora o prazo de meio ano; zero ignora a margem. Este é o contrato especificado, não um tratamento universal das taxas negativas."
+    ],
+    "blocks": [
+      "EIP-3.3-04-B06"
+    ],
+    "calculation": {
+      "method": "benchmark_floor",
+      "inputs": [
+        50000,
+        -0.004,
+        0.01,
+        180,
+        360
+      ],
+      "expected": [
+        250,
+        100
+      ]
+    }
+  }
+]

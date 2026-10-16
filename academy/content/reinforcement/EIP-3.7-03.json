@@ -1,0 +1,195 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Holding a fixed dollar amount, what does a stronger euro generally do to its euro translation, other things equal?",
+      "Mantendo um valor fixo em dólares, o que um euro mais forte geralmente faz com sua conversão em euros, mantendo o restante igual?"
+    ],
+    "options": [
+      [
+        "Raises the euro value because more dollars buy each euro",
+        "Eleva o valor em euros porque mais dólares compram cada euro"
+      ],
+      [
+        "Leaves the euro value unchanged because dollar nominal is fixed",
+        "Deixa o valor em euros inalterado porque o nominal em dólares é fixo"
+      ],
+      [
+        "Reduces the euro value because each dollar buys fewer euros",
+        "Reduz o valor em euros porque cada dólar compra menos euros"
+      ],
+      [
+        "Changes only the asset’s dividend, without a translation effect",
+        "Muda apenas o dividendo do ativo, sem efeito de conversão"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "With dollars per euro as the quote, a stronger euro means a higher divisor when converting fixed dollars back to euros. The euro value falls even though the dollar amount is unchanged. This translation channel is separate from the issuer’s business exposures and the asset’s local return.",
+      "Com dólares por euro como cotação, um euro mais forte significa divisor maior ao converter dólares fixos de volta para euros. O valor em euros cai mesmo com o montante em dólares inalterado. Esse canal de conversão é separado das exposições empresariais do emissor e do retorno local do ativo."
+    ],
+    "blocks": [
+      "EIP-3.7-03-B03"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "If q is foreign currency per home unit, home growth factor is (1 + local return) multiplied by ______.",
+      "Se q é moeda estrangeira por unidade doméstica, o fator de crescimento doméstico é (1 + retorno local) multiplicado por ______."
+    ],
+    "options": [
+      [
+        "final q / initial q",
+        "q final / q inicial"
+      ],
+      [
+        "initial q / final q",
+        "q inicial / q final"
+      ],
+      [
+        "final q minus initial q",
+        "q final menos q inicial"
+      ],
+      [
+        "initial q plus final q",
+        "q inicial mais q final"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Starting home money is multiplied by the initial quote to obtain foreign currency, then by local growth, and divided by the final quote to return home. Thus the currency factor is q0/q1. Reversing it uses the wrong quote direction; adding quotes or their difference does not reproduce the wealth identity.",
+      "O dinheiro doméstico inicial é multiplicado pela cotação inicial para obter moeda estrangeira, depois pelo crescimento local e dividido pela cotação final para voltar à moeda doméstica. Assim, o fator cambial é q0/q1. Invertê-lo usa a direção errada; somar cotações ou sua diferença não reproduz a identidade de riqueza."
+    ],
+    "blocks": [
+      "EIP-3.7-03-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A local total-return figure already includes reinvested dividends. What should the home-currency calculation avoid?",
+      "Um retorno total local já inclui dividendos reinvestidos. O que o cálculo em moeda doméstica deve evitar?"
+    ],
+    "options": [
+      [
+        "Adding the same dividends again after translating the total value",
+        "Somar novamente os mesmos dividendos após converter o valor total"
+      ],
+      [
+        "Using the investor’s spending currency as the measurement basis",
+        "Usar a moeda de gasto do investidor como base de medição"
+      ],
+      [
+        "Applying the initial and final rates in their stated directions",
+        "Aplicar as taxas inicial e final em suas direções informadas"
+      ],
+      [
+        "Separating actual costs from a gross benchmark return",
+        "Separar custos efetivos de um retorno de referência bruto"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Reinvested distributions already contribute to the ending local value, so adding them again double counts. If distributions were instead converted when paid, their own dates and rates would be needed. Consistent measurement currency, quote directions and a cost reconciliation improve the calculation rather than create duplication.",
+      "Distribuições reinvestidas já contribuem para o valor local final, portanto somá-las novamente duplica a contagem. Se as distribuições fossem convertidas quando pagas, seriam necessárias suas próprias datas e taxas. Moeda de medição consistente, direções de cotação e conciliação de custos melhoram o cálculo, em vez de criar duplicação."
+    ],
+    "blocks": [
+      "EIP-3.7-03-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "€10,000 converts at USD 1.10 per EUR. The dollar asset earns 10% total return. Final quote is USD 1.25 per EUR; no costs or other flows. What is the euro return?",
+      "€10,000 são convertidos a USD 1.10 por EUR. O ativo em dólares rende 10% de retorno total. A cotação final é USD 1.25 por EUR; sem custos ou outros fluxos. Qual é o retorno em euros?"
+    ],
+    "options": [
+      [
+        "+10%, ignoring currency",
+        "+10%, ignorando o câmbio"
+      ],
+      [
+        "−2%, adding +10% and −12%",
+        "−2%, somando +10% e −12%"
+      ],
+      [
+        "+25%, reversing the currency factor",
+        "+25%, invertendo o fator cambial"
+      ],
+      [
+        "−3.2%, multiplying 1.10 × 1.10/1.25",
+        "−3.2%, multiplicando 1.10 × 1.10/1.25"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Initial foreign wealth is USD 11,000, growing to USD 12,100. Divide by 1.25 for €9,680, a −3.2% return. The currency-only factor is 1.10/1.25 = 0.88. Adding returns omits the −1.2 percentage-point interaction; reversing the ratio instead produces the wrong +25% result. Positive local performance does not establish positive home-currency performance.",
+      "A riqueza estrangeira inicial é USD 11,000, crescendo para USD 12,100. Divida por 1.25 para €9,680, retorno de −3.2%. O fator apenas cambial é 1.10/1.25 = 0.88. Somar retornos omite a interação de −1.2 ponto percentual; inverter a razão produz o resultado incorreto de +25%. Desempenho local positivo não estabelece desempenho positivo na moeda doméstica."
+    ],
+    "blocks": [
+      "EIP-3.7-03-B03"
+    ],
+    "calculation": {
+      "method": "foreign_return",
+      "inputs": [
+        10000,
+        1.1,
+        0.1,
+        1.25
+      ],
+      "expected": [
+        9680,
+        -0.032
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "€10,000 converts at executable USD 1.09 per EUR. Local gross return is 5%; USD 45 exit charge is then deducted. Remaining dollars convert at USD 1.14 per EUR, followed by a €20 charge. What net home outcome follows?",
+      "€10,000 são convertidos à taxa executável de USD 1.09 por EUR. O retorno bruto local é 5%; depois deduz-se cobrança de saída de USD 45. Os dólares restantes são convertidos a USD 1.14 por EUR, seguidos de cobrança de €20. Qual resultado doméstico líquido decorre?"
+    ],
+    "options": [
+      [
+        "€10,221.24; approximately +2.2124%, using midpoint references instead",
+        "€10,221.24; aproximadamente +2.2124%, usando referências de ponto médio"
+      ],
+      [
+        "€10,000; zero return, omitting the euro charge",
+        "€10,000; retorno zero, omitindo a cobrança em euros"
+      ],
+      [
+        "€9,980; −0.2%",
+        "€9,980; −0.2%"
+      ],
+      [
+        "€10,019.47; approximately +0.1947%, omitting the dollar charge",
+        "€10,019.47; aproximadamente +0.1947%, omitindo a cobrança em dólares"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Convert and grow: 10,000 × 1.09 × 1.05 = USD 11,445. After USD 45, USD 11,400 remains; divide by 1.14 for €10,000, then subtract €20 for €9,980. The net return is −0.2%. Midpoint reference performance is a different gross comparison. Deduct each charge in its currency at its correct stage to reconcile the investor’s actual result.",
+      "Converta e capitalize: 10,000 × 1.09 × 1.05 = USD 11,445. Após USD 45, restam USD 11,400; divida por 1.14 para €10,000, depois subtraia €20 para €9,980. O retorno líquido é −0.2%. O desempenho por referência de ponto médio é outra comparação bruta. Deduza cada cobrança em sua moeda na etapa correta para conciliar o resultado efetivo do investidor."
+    ],
+    "blocks": [
+      "EIP-3.7-03-B07"
+    ],
+    "calculation": {
+      "method": "foreign_net",
+      "inputs": [
+        10000,
+        1.09,
+        0.05,
+        45,
+        1.14,
+        20
+      ],
+      "expected": [
+        9980,
+        -0.002
+      ]
+    }
+  }
+]

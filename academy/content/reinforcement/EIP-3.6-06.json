@@ -1,0 +1,197 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Returned derivative collateral is initially distinguished from profit because it can be ______.",
+      "A garantia devolvida de um derivativo é inicialmente distinguida do lucro porque pode ser ______."
+    ],
+    "options": [
+      [
+        "a new coupon from the reference asset",
+        "um novo cupom do ativo de referência"
+      ],
+      [
+        "recovery of the investor’s own contributed capital",
+        "recuperação do capital aportado pelo próprio investidor"
+      ],
+      [
+        "a dividend from the clearing entity",
+        "um dividendo da entidade de compensação"
+      ],
+      [
+        "the same amount as gross contract payoff in every case",
+        "o mesmo valor que o resultado bruto do contrato em todos os casos"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Collateral contributions and returns are external transfers in the economic ledger. Reconcile them with variation or closing gains and losses before classifying taxable events. A final account credit is not all profit merely because it is positive cash; the relevant recognition and offset rules still need verification.",
+      "Aportes e devoluções de garantia são transferências externas no registro econômico. Concilie-os com ganhos e perdas de ajuste ou fechamento antes de classificar eventos tributáveis. Um crédito final na conta não é todo lucro apenas por ser caixa positivo; regras de reconhecimento e compensação ainda precisam de verificação."
+    ],
+    "blocks": [
+      "EIP-3.6-06-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "For a structured note referencing shares, the investor’s tax-classification starting point is ______.",
+      "Para uma nota estruturada referenciada em ações, o ponto inicial da classificação fiscal do investidor é ______."
+    ],
+    "options": [
+      [
+        "the tax treatment of directly owning those shares in every case",
+        "o tratamento de possuir diretamente essas ações em todos os casos"
+      ],
+      [
+        "the derivative used by the issuer to hedge itself alone",
+        "apenas o derivativo usado pelo emissor para se proteger"
+      ],
+      [
+        "the name of the reference index alone",
+        "apenas o nome do índice de referência"
+      ],
+      [
+        "the note’s actual legal claim, taxpayer and payment event",
+        "o direito jurídico efetivo da nota, o contribuinte e o evento de pagamento"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Economic reference exposure is not legal ownership of the underlying shares or options. The note remains a claim under its own terms. Recipient, remuneration character and paying-agent conditions determine whether a particular branch applies; a similar payoff alone cannot establish the same tax treatment.",
+      "A exposição econômica de referência não é propriedade jurídica das ações ou opções subjacentes. A nota permanece um direito conforme suas próprias condições. Beneficiário, caráter da remuneração e condições do agente pagador determinam se uma rota se aplica; um resultado semelhante, sozinho, não estabelece o mesmo tratamento fiscal."
+    ],
+    "blocks": [
+      "EIP-3.6-06-B06"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Why is “all derivatives held more than six months are exempt” unsupported by the lesson?",
+      "Por que “todos os derivativos mantidos por mais de seis meses são isentos” não é sustentado pela aula?"
+    ],
+    "options": [
+      [
+        "Writing, short transactions, exercise, business capacity and payment character can lead to different classification branches.",
+        "Lançamento, transações vendidas, exercício, capacidade empresarial e caráter do pagamento podem levar a rotas de classificação diferentes."
+      ],
+      [
+        "Every derivative receipt instead automatically pays the final 20% interest levy.",
+        "Todo recebimento de derivativo, em vez disso, paga automaticamente a cobrança definitiva de 20% de juros."
+      ],
+      [
+        "Only the contract’s trading venue determines tax category.",
+        "Apenas a plataforma de negociação determina a categoria fiscal."
+      ],
+      [
+        "A written option is always the same acquired private asset as a purchased option.",
+        "Uma opção lançada é sempre o mesmo ativo privado adquirido que uma opção comprada."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The legal event and taxpayer matter before a private holding-period branch can be applied. The lesson specifically distinguishes purchased disposals from writing, exercise and short transactions, and does not provide a ruling for every settlement type. Neither a blanket exemption nor a blanket interest levy follows from derivative exposure. Product-specific uncertainty must remain explicit.",
+      "O evento jurídico e o contribuinte importam antes de aplicar uma rota privada de prazo de manutenção. A aula distingue expressamente alienações de ativos comprados de lançamento, exercício e transações vendidas, e não fornece decisão para todo tipo de liquidação. Nem isenção geral nem cobrança geral de juros decorrem da exposição derivativa. A incerteza específica do produto deve permanecer explícita."
+    ],
+    "blocks": [
+      "EIP-3.6-06-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Two stipulated legal branches each produce €800 gross remuneration on €10,000. A has 30% attributable ordinary income tax, B qualifies for a final 20% levy; no allowances, costs or separate contributions. What terminal cash difference follows?",
+      "Duas rotas jurídicas estipuladas produzem €800 de remuneração bruta sobre €10,000. A tem imposto ordinário atribuível de 30%, B qualifica-se para cobrança definitiva de 20%; sem franquias, custos ou contribuições separadas. Qual diferença de caixa terminal decorre?"
+    ],
+    "options": [
+      [
+        "No difference because gross payoffs match",
+        "Nenhuma diferença porque os resultados brutos são iguais"
+      ],
+      [
+        "A retains €80 more than B",
+        "A retém €80 a mais que B"
+      ],
+      [
+        "B retains €80 more: €10,640 versus €10,560",
+        "B retém €80 a mais: €10,640 contra €10,560"
+      ],
+      [
+        "B retains €1,000 more by applying the rate difference to principal",
+        "B retém €1,000 a mais aplicando a diferença de taxas ao principal"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "A’s tax is 800 × 0.30 = €240, leaving €10,560; B’s is 800 × 0.20 = €160, leaving €10,640. Difference is €80, computed on remuneration rather than returned capital. These are assumed classifications, not proof that all contracts or notes qualify for the more favourable branch. Legal evidence must precede this comparison.",
+      "O imposto de A é 800 × 0.30 = €240, restando €10,560; o de B é 800 × 0.20 = €160, restando €10,640. A diferença é €80, calculada sobre a remuneração, não sobre o capital devolvido. São classificações supostas, não prova de que todo contrato ou nota qualifique para a rota mais favorável. A evidência jurídica deve preceder essa comparação."
+    ],
+    "blocks": [
+      "EIP-3.6-06-B07"
+    ],
+    "calculation": {
+      "method": "tax_branch_difference",
+      "inputs": [
+        10000,
+        800,
+        0.3,
+        0.2
+      ],
+      "expected": [
+        10560,
+        10640,
+        80
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A purchased private option is sold after two months for €900, with acquisition €600 and €10 costs on each side. Assume competent classification establishes the taught Article 99bis branch and relevant annual category. Another profit in that category is €420. At a stipulated 30% tax on the resulting €700 taxable base, no other adjustments, what remains after that income tax?",
+      "Uma opção privada comprada é vendida após dois meses por €900, com aquisição de €600 e custos de €10 em cada lado. Suponha que classificação competente estabeleça a rota ensinada do artigo 99bis e a categoria anual relevante. Outro lucro nessa categoria é €420. Com imposto estipulado de 30% sobre a base tributável resultante de €700, sem outros ajustes, quanto resta após esse imposto de renda?"
+    ],
+    "options": [
+      [
+        "€700, because each individual profit is below €500",
+        "€700, pois cada lucro individual fica abaixo de €500"
+      ],
+      [
+        "€490, because the €280 and €420 belong to the stipulated annual aggregate",
+        "€490, pois €280 e €420 pertencem ao agregado anual estipulado"
+      ],
+      [
+        "€196, taxing only the first €280 and ignoring the other profit",
+        "€196, tributando apenas os primeiros €280 e ignorando o outro lucro"
+      ],
+      [
+        "€560, applying a final interest levy to derivative profits without classification",
+        "€560, aplicando cobrança definitiva de juros a lucros de derivativos sem classificação"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The first gain is 900 − 10 − 600 − 10 = €280; add €420 for €700. The taught small-profit condition concerns the relevant calendar-year aggregate, not a new threshold per trade. Under the stipulated taxable-base assumption, tax is €210 and retained profit €490. The 30% is illustrative and excludes separate contributions; other derivative events cannot be aggregated without establishing their category.",
+      "O primeiro ganho é 900 − 10 − 600 − 10 = €280; some €420 para €700. A condição ensinada de pequeno lucro diz respeito ao agregado relevante do ano civil, não a um novo limite por operação. Sob a hipótese estipulada de base tributável, o imposto é €210 e o lucro retido €490. Os 30% são ilustrativos e excluem contribuições separadas; outros eventos derivativos não podem ser agregados sem estabelecer sua categoria."
+    ],
+    "blocks": [
+      "EIP-3.6-06-B05"
+    ],
+    "calculation": {
+      "method": "annual_option_profit",
+      "inputs": [
+        900,
+        10,
+        600,
+        10,
+        420,
+        0.3
+      ],
+      "expected": [
+        280,
+        700,
+        490
+      ]
+    }
+  }
+]

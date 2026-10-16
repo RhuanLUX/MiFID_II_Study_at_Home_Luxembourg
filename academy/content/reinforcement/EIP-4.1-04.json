@@ -1,0 +1,168 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Detailed sustainability matching is performed ______.",
+      "A correspondência detalhada de sustentabilidade é feita ______."
+    ],
+    "options": [
+      [
+        "instead of assessing financial capacity",
+        "em vez de avaliar capacidade financeira"
+      ],
+      [
+        "before considering whether the client can access money on time",
+        "antes de considerar se o cliente acessa o dinheiro a tempo"
+      ],
+      [
+        "within the set already suitable on the ordinary client dimensions",
+        "dentro do conjunto já adequado nas dimensões ordinárias do cliente"
+      ],
+      [
+        "using only the product’s ESG marketing name",
+        "usando apenas o nome comercial ESG do produto"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Financial situation, knowledge, objectives and other ordinary suitability dimensions constrain the product set first. Sustainability then adds the specified matching requirements. A high sustainable percentage cannot repair unaffordable loss or an incompatible liquidity horizon. A label alone does not establish the detailed product commitments.",
+      "Situação financeira, conhecimento, objetivos e outras dimensões ordinárias delimitam primeiro o conjunto. A sustentabilidade acrescenta então os requisitos específicos de correspondência. Um percentual sustentável alto não corrige perda financeiramente insuportável ou liquidez incompatível. Um rótulo sozinho não demonstra compromissos detalhados do produto."
+    ],
+    "blocks": [
+      "EIP-4.1-04-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A current observed proportion above a client’s threshold is ______ a binding minimum commitment to maintain that threshold.",
+      "Uma proporção observada atual acima do limite do cliente ______ um compromisso mínimo vinculante de manter esse limite."
+    ],
+    "options": [
+      [
+        "not necessarily the same as",
+        "não é necessariamente o mesmo que"
+      ],
+      [
+        "always equivalent to",
+        "é sempre equivalente a"
+      ],
+      [
+        "a substitute for checking",
+        "substitui a verificação de"
+      ],
+      [
+        "a reason to remove",
+        "é razão para remover"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "An observation describes holdings at a date; a minimum is the product’s relevant commitment. A product currently at 38% but committed only to 20% does not establish a required 30% minimum under that comparison. Read methodology, denominator and dated disclosures before claiming a match.",
+      "Uma observação descreve posições em uma data; um mínimo é o compromisso relevante do produto. Um produto atualmente a 38%, mas comprometido apenas com 20%, não demonstra mínimo exigido de 30% nessa comparação. Leia metodologia, denominador e divulgações datadas antes de afirmar correspondência."
+    ],
+    "blocks": [
+      "EIP-4.1-04-B05"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A product commits to 12% taxonomy alignment and 35% SFDR sustainable investment. Why should those percentages not simply be added to claim 47% unique sustainable exposure?",
+      "Um produto compromete-se com 12% de alinhamento à taxonomia e 35% de investimento sustentável SFDR. Por que esses percentuais não devem ser simplesmente somados para afirmar 47% de exposição sustentável única?"
+    ],
+    "options": [
+      [
+        "All taxonomy investments are necessarily excluded from SFDR measures.",
+        "Todos os investimentos da taxonomia são necessariamente excluídos das medidas SFDR."
+      ],
+      [
+        "The amounts can overlap; the disclosed definitions and methodology determine the relationship.",
+        "Os valores podem se sobrepor; definições e metodologia divulgadas determinam a relação."
+      ],
+      [
+        "The lower percentage alone replaces both client criteria.",
+        "O menor percentual sozinho substitui ambos os critérios do cliente."
+      ],
+      [
+        "An Article 8 or 9 label establishes that the sum is non-overlapping.",
+        "Um rótulo de artigo 8 ou 9 estabelece que a soma não tem sobreposição."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Taxonomy-aligned investments can be part of the broader sustainable-investment measure. Adding overlapping sets overstates unique exposure. Assess each required minimum on its own comparable basis and use the product’s definitions rather than inventing separation from a disclosure article or choosing one number to replace cumulative preferences.",
+      "Investimentos alinhados à taxonomia podem integrar a medida mais ampla de investimentos sustentáveis. Somar conjuntos sobrepostos superestima a exposição única. Avalie cada mínimo exigido em sua base comparável e use as definições do produto, sem inventar separação por artigo de divulgação nem escolher um número para substituir preferências cumulativas."
+    ],
+    "blocks": [
+      "EIP-4.1-04-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "The client requires at least 10% taxonomy and 30% SFDR sustainable, cumulatively. All products are otherwise suitable and data comparable. A commits 12%/25%, B 8%/40%, C 12%/35%. Which matches both minima?",
+      "O cliente exige pelo menos 10% de taxonomia e 30% de sustentável SFDR, cumulativamente. Todos os produtos são de outro modo adequados e os dados comparáveis. A compromete 12%/25%, B 8%/40%, C 12%/35%. Qual atende aos dois mínimos?"
+    ],
+    "options": [
+      [
+        "A only, because taxonomy passes",
+        "A apenas, porque passa na taxonomia"
+      ],
+      [
+        "B only, because its sustainable proportion is highest",
+        "B apenas, porque sua proporção sustentável é a maior"
+      ],
+      [
+        "A and B, treating cumulative requirements as alternatives",
+        "A e B, tratando requisitos cumulativos como alternativas"
+      ],
+      [
+        "C only",
+        "C apenas"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "A misses the sustainable minimum by 5 percentage points; B misses taxonomy by 2 points. C exceeds both thresholds, with 12% ≥ 10% and 35% ≥ 30%. Cumulative means both must hold. The adviser cannot switch to alternative logic to favour another product, and a larger number in one category does not cancel a shortfall in another.",
+      "A falha no mínimo sustentável por 5 pontos percentuais; B falha na taxonomia por 2 pontos. C supera ambos: 12% ≥ 10% e 35% ≥ 30%. Cumulativo significa que ambos devem valer. O consultor não pode trocar por lógica alternativa para favorecer outro produto, e um número maior em uma categoria não anula falta na outra."
+    ],
+    "blocks": [
+      "EIP-4.1-04-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "The same cumulative 10%/30% preference applies. A commits 12%/25% and is financially suitable. B commits 12%/35% but its locked liquidity conflicts with an essential client deadline. The client retains the original preferences after explanation. Which conclusion is sound?",
+      "Aplica-se a mesma preferência cumulativa de 10%/30%. A compromete 12%/25% e é financeiramente adequado. B compromete 12%/35%, mas sua liquidez bloqueada conflita com prazo essencial do cliente. O cliente mantém as preferências originais após explicação. Qual conclusão é correta?"
+    ],
+    "options": [
+      [
+        "Neither is presently a matching suitable recommendation: A misses 5 points, B fails ordinary suitability.",
+        "Nenhum é atualmente recomendação adequada e correspondente: A falha por 5 pontos, B falha na adequação ordinária."
+      ],
+      [
+        "Recommend B because higher sustainability overrides the deadline.",
+        "Recomende B porque maior sustentabilidade supera o prazo."
+      ],
+      [
+        "Recommend A as matching after a warning, without an adaptation.",
+        "Recomende A como correspondente após alerta, sem adaptação."
+      ],
+      [
+        "Average the products’ attributes to declare either one acceptable.",
+        "Faça média dos atributos dos produtos para declarar qualquer um aceitável."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "A’s 25% sustainable minimum is below 30%; B’s sustainability match cannot repair its financial liquidity conflict. With no genuine adaptation, do not describe A as meeting the original preference. Explain the absence of a match and seek evidence or suitable alternatives. Any later informed adaptation must precede recommendation and be recorded, while ordinary suitability remains necessary.",
+      "O mínimo sustentável de A de 25% fica abaixo de 30%; a correspondência sustentável de B não corrige seu conflito financeiro de liquidez. Sem adaptação genuína, não descreva A como atendendo à preferência original. Explique a ausência de correspondência e busque evidências ou alternativas adequadas. Eventual adaptação informada deve preceder a recomendação e ser registrada, enquanto adequação ordinária continua necessária."
+    ],
+    "blocks": [
+      "EIP-4.1-04-B05",
+      "EIP-4.1-04-B06"
+    ]
+  }
+]

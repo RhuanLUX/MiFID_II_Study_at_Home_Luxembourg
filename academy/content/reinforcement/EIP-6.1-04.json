@@ -1,0 +1,183 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A qualifying premium deduction generally reduces ______.",
+      "Uma dedução de prêmio elegível geralmente reduz ______."
+    ],
+    "options": [
+      [
+        "the insurer’s contractual charges by the full premium",
+        "os encargos contratuais da seguradora pelo prêmio integral"
+      ],
+      [
+        "the tax base, with tax savings depending on the applicable tax calculation",
+        "a base tributária, com economia dependente do cálculo fiscal aplicável"
+      ],
+      [
+        "tax payable by the full deducted amount as a refundable credit",
+        "o imposto a pagar pelo valor integral deduzido como crédito reembolsável"
+      ],
+      [
+        "every subsequent benefit by an equal tax withholding",
+        "todo benefício posterior por igual retenção tributária"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A deduction and a tax credit are different. Deduction reduces the relevant taxable base; its cash value depends on the taxpayer’s actual assessment. It neither refunds the premium nor waives insurance charges, and it does not itself determine the taxation of a later benefit.",
+      "Dedução e crédito tributário são diferentes. A dedução reduz a base tributável pertinente; seu valor financeiro depende da apuração efetiva. Não reembolsa o prêmio nem dispensa encargos de seguro e, por si só, não determina a tributação de um benefício futuro."
+    ],
+    "blocks": [
+      "EIP-6.1-04-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which distinction is essential before applying the ordinary individual life-insurance capital exemption taught in this lesson?",
+      "Qual distinção é essencial antes de aplicar a isenção ensinada para capital de seguro de vida individual comum?"
+    ],
+    "options": [
+      [
+        "Every insurance payment is taxed under the premium deduction rules alone.",
+        "Todo pagamento de seguro é tributado apenas pelas regras de dedução de prêmio."
+      ],
+      [
+        "A minimum premium duration automatically determines all payout taxation.",
+        "Um prazo mínimo de prêmio determina automaticamente toda tributação de pagamentos."
+      ],
+      [
+        "Ordinary capital benefits and retirement contracts under Articles 111bis/111ter require distinct classification.",
+        "Benefícios de capital comuns e contratos de previdência dos artigos 111bis/111ter exigem classificação distinta."
+      ],
+      [
+        "The insurer’s Luxembourg address settles taxation in every country.",
+        "O endereço luxemburguês da seguradora resolve a tributação em todo país."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Premium eligibility and benefit taxation have separate legal tests. The ordinary capital exemption’s scope excludes the specified retirement arrangements. Residence, payment form and the actual contract therefore matter. Do not turn a premium-duration condition into a universal waiting period for every benefit or import another country’s tax regime.",
+      "Elegibilidade do prêmio e tributação do benefício possuem testes jurídicos separados. O alcance da isenção de capital comum exclui os regimes de previdência especificados. Residência, forma de pagamento e contrato efetivo importam. Não transforme condição de duração do prêmio em carência universal para todo benefício nem importe o regime de outro país."
+    ],
+    "blocks": [
+      "EIP-6.1-04-B04"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "An ordinary surrender receipt meets the taught capital exemption, but an early change removes eligibility for premiums previously deducted. What follows?",
+      "Um recebimento de resgate comum atende à isenção de capital ensinada, mas uma alteração antecipada remove a elegibilidade de prêmios antes deduzidos. O que decorre?"
+    ],
+    "options": [
+      [
+        "The exempt receipt necessarily makes earlier deductions irreversible.",
+        "O recebimento isento necessariamente torna irreversíveis deduções anteriores."
+      ],
+      [
+        "The full surrender becomes taxable solely because a deduction once existed.",
+        "Todo o resgate torna-se tributável apenas porque existiu uma dedução."
+      ],
+      [
+        "The insurer’s charge replaces any income-tax correction.",
+        "O encargo da seguradora substitui qualquer correção de imposto de renda."
+      ],
+      [
+        "A correction of prior relief can still be required under its own conditions.",
+        "Uma correção do benefício anterior ainda pode ser exigida sob suas próprias condições."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Receipt classification and corrective assessment address different matters. Article 111 conditions can require correction when the relevant act removes premium eligibility, subject to the applicable rules and exceptions. An exempt capital payment does not erase that separate inquiry. Equally, correction of actual past deductions is not automatically tax on the whole surrender amount.",
+      "Classificação do recebimento e apuração corretiva tratam de questões distintas. As condições do artigo 111 podem exigir correção quando o ato relevante remove a elegibilidade do prêmio, conforme regras e exceções aplicáveis. Um capital isento não elimina essa análise separada. Tampouco corrigir deduções passadas efetivas é automaticamente tributar todo o resgate."
+    ],
+    "blocks": [
+      "EIP-6.1-04-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Assume a full-year single resident has a €672 combined ceiling, €300 eligible debit interest already using it, and €1,200 otherwise qualifying premiums. At an assumed 30% marginal rate, what incremental deduction and simplified tax saving follow?",
+      "Suponha residente solteiro durante todo o ano com teto conjunto de €672, €300 de juros devedores elegíveis já o utilizando e €1,200 de prêmios elegíveis nos demais aspectos. A uma alíquota marginal hipotética de 30%, quais dedução incremental e economia simplificada decorrem?"
+    ],
+    "options": [
+      [
+        "€372 deduction and €111.60 saving",
+        "€372 de dedução e €111.60 de economia"
+      ],
+      [
+        "€672 deduction and €201.60 saving",
+        "€672 de dedução e €201.60 de economia"
+      ],
+      [
+        "€1,200 deduction and €360 saving",
+        "€1,200 de dedução e €360 de economia"
+      ],
+      [
+        "€372 deduction and €372 refundable credit",
+        "€372 de dedução e €372 de crédito reembolsável"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The shared room is 672 − 300 = €372, below the €1,200 premium. The simplified marginal saving is 372 × 30% = €111.60. Taking €672 again ignores the debit interest already counted; taking €1,200 ignores the cap. The €372 is a base deduction, not a refundable credit. Actual assessment and eligibility must still be checked.",
+      "O espaço compartilhado é 672 − 300 = €372, inferior ao prêmio de €1,200. A economia marginal simplificada é 372 × 30% = €111.60. Usar €672 novamente ignora os juros já contados; usar €1,200 ignora o teto. Os €372 são dedução de base, não crédito reembolsável. Apuração e elegibilidade efetivas ainda precisam ser verificadas."
+    ],
+    "blocks": [
+      "EIP-6.1-04-B03"
+    ],
+    "calculation": {
+      "method": "weighted_amount",
+      "inputs": [
+        372,
+        0.3
+      ],
+      "expected": 111.6
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Assume a legally required correction affects €672 actually deducted in each of 3 prior years, with a simplified 30% tax effect. An ordinary €12,000 surrender receipt independently qualifies for its capital exemption. Which treatment is consistent?",
+      "Suponha correção juridicamente exigida sobre €672 efetivamente deduzidos em cada um de 3 anos anteriores, com efeito tributário simplificado de 30%. Um resgate comum de €12,000 atende independentemente à sua isenção de capital. Qual tratamento é coerente?"
+    ],
+    "options": [
+      [
+        "Tax the whole €12,000 at 30%, producing €3,600.",
+        "Tributar todos os €12,000 a 30%, gerando €3,600."
+      ],
+      [
+        "Correct €2,016 of past deductions, implying €604.80 under the assumption; assess receipt exemption separately.",
+        "Corrigir €2,016 de deduções anteriores, implicando €604.80 sob a hipótese; avaliar a isenção do recebimento separadamente."
+      ],
+      [
+        "Allow no correction because the €12,000 receipt is exempt.",
+        "Não permitir correção porque o recebimento de €12,000 é isento."
+      ],
+      [
+        "Recover €2,016 as tax because every deduction is an equal tax credit.",
+        "Recuperar €2,016 de imposto porque toda dedução é crédito de igual valor."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Affected deductions are 3 × 672 = €2,016, and the stipulated marginal tax effect is 2,016 × 30% = €604.80. This illustration does not impose a universal surrender tax: the legal correction and actual past deductions must be established first. If only €200 had actually been deducted annually, the affected base would be €600. Neither the receipt’s exemption nor its gross amount substitutes for that historical assessment.",
+      "As deduções afetadas são 3 × 672 = €2,016, e o efeito marginal estipulado é 2,016 × 30% = €604.80. A ilustração não impõe imposto universal de resgate: é preciso primeiro estabelecer a correção jurídica e as deduções passadas efetivas. Se apenas €200 tivessem sido deduzidos anualmente, a base afetada seria €600. Nem a isenção nem o valor bruto do recebimento substitui essa apuração histórica."
+    ],
+    "blocks": [
+      "EIP-6.1-04-B07"
+    ],
+    "calculation": {
+      "method": "weighted_amount",
+      "inputs": [
+        2016,
+        0.3
+      ],
+      "expected": 604.8
+    }
+  }
+]

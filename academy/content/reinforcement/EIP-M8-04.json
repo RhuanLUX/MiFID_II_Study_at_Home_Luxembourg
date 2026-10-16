@@ -1,0 +1,167 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A sustainability ambition should be presented as ______.",
+      "Uma ambição de sustentabilidade deve ser apresentada como ______."
+    ],
+    "options": [
+      [
+        "a forward-looking objective with actions, assumptions and limitations",
+        "objetivo futuro com ações, hipóteses e limitações"
+      ],
+      [
+        "an already realised outcome merely because a target year exists",
+        "resultado já realizado apenas porque existe ano-meta"
+      ],
+      [
+        "a repayment guarantee from the external reviewer",
+        "garantia de pagamento do revisor externo"
+      ],
+      [
+        "a substitute for every binding product term",
+        "substituta de toda condição vinculante do produto"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "A transition ambition depends on future actions and conditions. Explain its mechanism and evidence, not merely a distant date or appealing image. An objective, a process and an observed outcome require different support; none should be presented as the others without justification.",
+      "Ambição de transição depende de ações e condições futuras. Explique mecanismo e provas, não apenas data distante ou imagem atraente. Objetivo, processo e resultado observado exigem suporte distinto; nenhum deve ser apresentado como outro sem justificativa."
+    ],
+    "blocks": [
+      "EIP-M8-04-B05"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "What should an adviser do when marketing materially conflicts with binding product documents?",
+      "O que fazer quando marketing conflita materialmente com documentos vinculantes do produto?"
+    ],
+    "options": [
+      [
+        "Select the most attractive statement without a record.",
+        "Escolher a afirmação mais atraente sem registro."
+      ],
+      [
+        "Preserve the discrepancy and seek authorised clarification before repeating or relying on the unsupported claim.",
+        "Preservar a divergência e buscar esclarecimento autorizado antes de repetir ou usar a alegação sem suporte."
+      ],
+      [
+        "Invent a personal interpretation to reconcile the conflict.",
+        "Inventar interpretação pessoal para conciliar o conflito."
+      ],
+      [
+        "Assume a rating validates every marketing sentence.",
+        "Presumir que uma nota valida toda frase publicitária."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Identify the exact claim, product/class, version and strongest relevant evidence. A material unresolved mismatch can require a verified alternative or a properly explained pause in that recommendation. A rating or article reference does not validate unrelated promises. Financial suitability and sustainability matching still need their own assessment.",
+      "Identifique alegação, produto/classe, versão e prova pertinente mais forte. Divergência material não resolvida pode exigir alternativa verificada ou pausa explicada naquela recomendação. Nota ou referência a artigo não valida promessas alheias. Adequação financeira e correspondência sustentável ainda exigem avaliações próprias."
+    ],
+    "blocks": [
+      "EIP-M8-04-B07"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A fossil-free headline accompanies a rule excluding only companies with more than 20% thermal-coal extraction revenue. A holding has 15%. Which conclusion is supported?",
+      "Um título livre de combustíveis fósseis acompanha regra que exclui apenas empresas com mais de 20% de receita de extração de carvão térmico. Uma posição tem 15%. Qual conclusão é sustentada?"
+    ],
+    "options": [
+      [
+        "Passing the threshold proves no fossil exposure.",
+        "Passar no limite prova ausência de exposição fóssil."
+      ],
+      [
+        "The rule necessarily excludes all oil and gas activity.",
+        "A regra necessariamente exclui toda atividade de petróleo e gás."
+      ],
+      [
+        "The holding can pass the narrow rule while retaining coal exposure; the broad headline needs correction or supported qualification.",
+        "A posição pode passar na regra estreita e manter exposição ao carvão; o título amplo exige correção ou qualificação sustentada."
+      ],
+      [
+        "Every partial exclusion strategy is automatically unlawful.",
+        "Toda estratégia de exclusão parcial é automaticamente ilegal."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "15% does not exceed the fictional 20% threshold, but is not zero. The rule says nothing equivalent about oil, gas or other fossil activities. The issue is the gap between a narrow binding policy and a broad impression, not proof that every partial strategy is improper. Clarify the client’s exclusion preference and verify the product rather than repeat the headline.",
+      "15% não excede o limite fictício de 20%, mas não é zero. A regra não diz o mesmo sobre petróleo, gás ou outras atividades fósseis. O problema é a distância entre política estreita e impressão ampla, não prova de que toda estratégia parcial é imprópria. Esclareça a preferência de exclusão e verifique o produto em vez de repetir o título."
+    ],
+    "blocks": [
+      "EIP-M8-04-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A client buys €25,000 of existing renewable-company shares from another investor. No new issue or project-financing link exists. Which claim is defensible?",
+      "Um cliente compra €25,000 de ações existentes de empresa renovável de outro investidor. Não há emissão nova nem vínculo de financiamento de projeto. Qual afirmação é defensável?"
+    ],
+    "options": [
+      [
+        "The client directly financed €25,000 of new turbines.",
+        "O cliente financiou diretamente €25,000 de novas turbinas."
+      ],
+      [
+        "The transaction proves additional environmental outcomes that otherwise could not occur.",
+        "A operação prova resultados ambientais adicionais que não ocorreriam de outro modo."
+      ],
+      [
+        "Renewable business activity alone proves the buyer’s causal impact.",
+        "Atividade renovável sozinha prova impacto causal do comprador."
+      ],
+      [
+        "The purchase provides investment exposure; its cash went to the selling shareholder and stronger impact claims need evidence.",
+        "A compra fornece exposição de investimento; o caixa foi ao acionista vendedor e alegações de impacto mais fortes exigem provas."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Trace the cash and mechanism. Secondary ownership can relate to liquidity, valuation or engagement, but it is not automatic direct financing of construction. Investor additionality is a stronger counterfactual claim requiring evidence that outcomes differ because of the investor’s involvement. Accurately describe exposure and documented strategy without attributing an unsupported physical outcome to this purchase.",
+      "Rastreie caixa e mecanismo. Propriedade secundária pode relacionar-se a liquidez, avaliação ou engajamento, mas não é financiamento direto automático de construção. Adicionalidade do investidor é alegação contrafactual mais forte, exigindo prova de resultados diferentes por sua participação. Descreva exposição e estratégia documentada sem atribuir resultado físico sem suporte à compra."
+    ],
+    "blocks": [
+      "EIP-M8-04-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Intensity was 100 with full coverage. A new observed average of 60 covers 80% of the portfolio; the missing 20% is assumed at 200 solely for sensitivity. What comparison is justified?",
+      "A intensidade era 100 com cobertura total. Nova média observada de 60 cobre 80% da carteira; os 20% ausentes são supostos em 200 apenas para sensibilidade. Qual comparação é justificada?"
+    ],
+    "options": [
+      [
+        "The observed −40% is not like-for-like; sensitivity gives 88 and −12%, but the missing value remains unverified.",
+        "Os −40% observados não são comparáveis; a sensibilidade dá 88 e −12%, mas o valor ausente segue não verificado."
+      ],
+      [
+        "A verified 40% full-portfolio reduction occurred.",
+        "Ocorreu redução verificada de 40% na carteira inteira."
+      ],
+      [
+        "The sensitivity proves actual intensity is exactly 88.",
+        "A sensibilidade prova intensidade efetiva exatamente de 88."
+      ],
+      [
+        "The missing 20% can be assigned zero without disclosure.",
+        "Os 20% ausentes podem receber zero sem divulgação."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Observed change is (60 − 100) / 100 = −40%, but coverage changed. Under the stated sensitivity only, 0.80 × 60 + 0.20 × 200 = 88 and (88 − 100) / 100 = −12%. Neither calculation verifies the missing observation or an investee emissions reduction. Disclose coverage and uncertainty, obtain evidence and reconcile the comparison before repeating a like-for-like improvement claim.",
+      "A mudança observada é (60 − 100) / 100 = −40%, mas a cobertura mudou. Apenas na sensibilidade declarada, 0.80 × 60 + 0.20 × 200 = 88 e (88 − 100) / 100 = −12%. Nenhum cálculo verifica a observação ausente nem redução de emissões dos emissores. Divulgue cobertura e incerteza, obtenha provas e concilie a comparação antes de repetir melhora comparável."
+    ],
+    "blocks": [
+      "EIP-M8-04-B04"
+    ]
+  }
+]

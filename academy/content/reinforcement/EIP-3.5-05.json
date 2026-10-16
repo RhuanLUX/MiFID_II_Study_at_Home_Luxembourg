@@ -1,0 +1,194 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Ordinary 15% Luxembourg dividend withholding for the resident beneficiary is described as ______.",
+      "A retenção ordinária luxemburguesa de 15% sobre dividendos para o beneficiário residente é descrita como ______."
+    ],
+    "options": [
+      [
+        "an advance on income tax, subject to the applicable assessment",
+        "um adiantamento do imposto de renda, sujeito à avaliação aplicável"
+      ],
+      [
+        "always the complete final tax",
+        "sempre o imposto final completo"
+      ],
+      [
+        "the same final regime as qualifying bond interest",
+        "o mesmo regime definitivo dos juros qualificáveis de títulos"
+      ],
+      [
+        "a capital-gain exemption",
+        "uma isenção de ganho de capital"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The ordinary dividend withholding collects an advance, while the half-dividend exemption concerns a conditional income base. Final liability depends on the taxpayer’s applicable assessment and other factors. Do not treat 15% as a universal final rate or apply the separate final-interest regime to dividends.",
+      "A retenção ordinária de dividendos arrecada um adiantamento, enquanto a isenção de metade dos dividendos diz respeito a uma base de renda condicional. A obrigação final depende da avaliação aplicável do contribuinte e de outros fatores. Não trate 15% como taxa final universal nem aplique o regime separado de juros definitivos aos dividendos."
+    ],
+    "blocks": [
+      "EIP-3.5-05-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Which statement correctly describes the conditional 50% dividend exemption?",
+      "Qual afirmação descreve corretamente a isenção condicional de 50% dos dividendos?"
+    ],
+    "options": [
+      [
+        "It halves the withholding rate on gross income in every case.",
+        "Ela reduz pela metade a taxa de retenção sobre a renda bruta em todos os casos."
+      ],
+      [
+        "It applies automatically to all fund distributions with equity exposure.",
+        "Ela se aplica automaticamente a todas as distribuições de fundos com exposição a ações."
+      ],
+      [
+        "It refunds half the withheld tax without an ordinary assessment.",
+        "Ela restitui metade do imposto retido sem avaliação ordinária."
+      ],
+      [
+        "It changes the eligible ordinary income base, without establishing a universal 7.5% final tax.",
+        "Ela muda a base ordinária de renda elegível, sem estabelecer imposto definitivo universal de 7.5%."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The exemption removes part of eligible income from the ordinary base; withholding still has its own gross-income rule and credit treatment. Final rates, allowances and separate contributions must be analysed independently. Halving 15% confuses a collection percentage with an exemption of the base.",
+      "A isenção remove parte da renda elegível da base ordinária; a retenção ainda tem sua regra de renda bruta e tratamento de crédito. Taxas finais, franquias e contribuições separadas devem ser analisadas independentemente. Dividir 15% pela metade confunde uma porcentagem de arrecadação com uma isenção da base."
+    ],
+    "blocks": [
+      "EIP-3.5-05-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A sale occurs after nine months. The investor now holds 4%, but two years earlier held 8% while their spouse held 4% in the same company. What should be done?",
+      "Uma venda ocorre após nove meses. O investidor agora possui 4%, mas dois anos antes possuía 8% enquanto seu cônjuge tinha 4% na mesma empresa. O que deve ser feito?"
+    ],
+    "options": [
+      [
+        "Assume exemption because today’s stake is only 4%.",
+        "Presumir isenção porque a participação atual é apenas 4%."
+      ],
+      [
+        "Assess the significant-participation route because the relevant prior combined 12% exceeds 10%.",
+        "Avaliar a rota de participação significativa porque os 12% combinados anteriores relevantes superam 10%."
+      ],
+      [
+        "Use the half-dividend exemption on the sale gain.",
+        "Usar a isenção de metade dos dividendos no ganho de venda."
+      ],
+      [
+        "Apply a universal 30% disposal tax without further facts.",
+        "Aplicar imposto universal de 30% à alienação sem outros fatos."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Article 100’s taught test includes relevant family aggregation and the preceding five years. The combined 12% matters even with a current 4% stake. More than six months does not settle participation history. The applicable rate and allowance history remain to be established, so a flat 30% or a dividend exemption cannot be substituted for that assessment.",
+      "O teste ensinado do artigo 100 inclui agregação familiar relevante e os cinco anos anteriores. Os 12% combinados importam mesmo com participação atual de 4%. Mais de seis meses não resolve o histórico de participação. A taxa aplicável e o histórico de franquias ainda devem ser estabelecidos; não se pode substituir a avaliação por 30% fixos ou por isenção de dividendos."
+    ],
+    "blocks": [
+      "EIP-3.5-05-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €4,000 dividend is 50% exempt. An otherwise deductible €100 actual expense relates entirely to that dividend. Assume no minimum-expense addition or available annual allowance, and a stipulated 30% attributable rate. What ordinary base and income tax result?",
+      "Um dividendo de €4,000 é 50% isento. Uma despesa efetiva de €100, de outro modo dedutível, refere-se integralmente a esse dividendo. Suponha ausência de adição de despesa mínima ou franquia anual disponível e taxa atribuível estipulada de 30%. Quais base ordinária e imposto resultam?"
+    ],
+    "options": [
+      [
+        "Base €1,900; tax €570",
+        "Base €1,900; imposto €570"
+      ],
+      [
+        "Base €1,925; tax €577.50",
+        "Base €1,925; imposto €577.50"
+      ],
+      [
+        "Base €1,950; tax €585",
+        "Base €1,950; imposto €585"
+      ],
+      [
+        "Base €3,900; tax €1,170",
+        "Base €3,900; imposto €1,170"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The taxable dividend portion is €2,000. Only €50 of the expense relates to that taxable half, leaving €1,950 and tax €585. Deducting all €100 gives the incorrect €1,900 base; adding the separate €25 minimum on top of actual expenses gives €1,925 incorrectly. This isolates the stipulated income-tax calculation and omits separate contributions and whole-return effects.",
+      "A parcela tributável do dividendo é €2,000. Apenas €50 da despesa corresponde à metade tributável, restando €1,950 e imposto de €585. Deduzir todos os €100 gera base incorreta de €1,900; acrescentar o mínimo separado de €25 às despesas efetivas gera incorretamente €1,925. Isso isola o cálculo estipulado de imposto de renda e omite contribuições separadas e efeitos da declaração completa."
+    ],
+    "blocks": [
+      "EIP-3.5-05-B06"
+    ],
+    "calculation": {
+      "method": "dividend_actual_expense",
+      "inputs": [
+        4000,
+        0.5,
+        100,
+        0.3
+      ],
+      "expected": [
+        1950,
+        585
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "€10,000 is invested; sale cash is €10,800 and dividends €300. Assume a resident private eight-month disposal is exempt with no significant participation; the dividend is half-exempt. Allowances and deductions are exhausted, assumed income-tax rate 30%, no fees or separate contributions. What profit remains, and how would a clearly four-month taxable disposal at the same assumed rate change it?",
+      "São investidos €10,000; a venda gera €10,800 e os dividendos €300. Suponha alienação privada de residente após oito meses isenta, sem participação significativa; o dividendo é metade isento. Franquias e deduções estão esgotadas, taxa suposta de imposto de renda de 30%, sem tarifas ou contribuições separadas. Qual lucro resta e como uma alienação claramente tributável após quatro meses à mesma taxa suposta o mudaria?"
+    ],
+    "options": [
+      [
+        "€1,055 initially; €815 with the stipulated short-term gain tax",
+        "€1,055 inicialmente; €815 com o imposto estipulado sobre ganho de curto prazo"
+      ],
+      [
+        "€1,100 in both cases because dividends and disposals are all exempt",
+        "€1,100 nos dois casos porque dividendos e alienações são todos isentos"
+      ],
+      [
+        "€770 in both cases by taxing all profit at 30%",
+        "€770 nos dois casos tributando todo lucro a 30%"
+      ],
+      [
+        "€1,010 initially by deducting the €45 advance twice",
+        "€1,010 inicialmente deduzindo duas vezes o adiantamento de €45"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Gross profit is 800 + 300 = €1,100. Dividend tax is 300 × 0.5 × 0.30 = €45, leaving €1,055. In the stipulated short-term case add 800 × 0.30 = €240 gain tax, leaving €815. A fully creditable €45 dividend advance is not another final charge. The 30% rate and omitted contributions are assumptions, not a universal personal tax outcome.",
+      "O lucro bruto é 800 + 300 = €1,100. O imposto sobre o dividendo é 300 × 0.5 × 0.30 = €45, restando €1,055. No caso de curto prazo estipulado, acrescente 800 × 0.30 = €240 sobre o ganho, restando €815. Um adiantamento creditável integral de €45 sobre o dividendo não é outra cobrança final. A taxa de 30% e as contribuições omitidas são hipóteses, não um resultado tributário pessoal universal."
+    ],
+    "blocks": [
+      "EIP-3.5-05-B07"
+    ],
+    "calculation": {
+      "method": "equity_tax_timeline",
+      "inputs": [
+        10000,
+        10800,
+        300,
+        0.5,
+        0.3
+      ],
+      "expected": [
+        1055,
+        815
+      ]
+    }
+  }
+]

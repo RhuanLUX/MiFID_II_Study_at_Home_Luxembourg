@@ -1,0 +1,167 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which feature defines the use-of-proceeds mechanism?",
+      "Qual característica define o mecanismo de uso dos recursos?"
+    ],
+    "options": [
+      [
+        "The coupon always rises when an ESG target is missed.",
+        "O cupom sempre sobe quando meta ESG não é atingida."
+      ],
+      [
+        "An amount linked to proceeds is allocated to eligible purposes under a stated framework.",
+        "Um valor ligado aos recursos é destinado a finalidades elegíveis sob regime declarado."
+      ],
+      [
+        "Bondholders directly own the physical projects in every structure.",
+        "Titulares possuem diretamente os projetos físicos em toda estrutura."
+      ],
+      [
+        "An external review guarantees repayment.",
+        "Revisão externa garante pagamento."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A use-of-proceeds framework concerns eligible allocation, selection, management and reporting. A sustainability-linked coupon concerns performance conditions and can use general-purpose proceeds. Neither mechanism alone defines security, recourse or repayment protection: read the actual debt terms and review scope.",
+      "Um regime de uso dos recursos trata de alocação elegível, seleção, gestão e relatórios. Cupom ligado à sustentabilidade trata de condições de desempenho e pode usar recursos para fins gerais. Nenhum mecanismo sozinho define garantia, recurso ou proteção de pagamento: leia a dívida e o alcance da revisão."
+    ],
+    "blocks": [
+      "EIP-M8-01-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "For a standard unsecured corporate green bond, repayment ordinarily remains a claim on ______.",
+      "Para título verde corporativo comum sem garantia real, o pagamento normalmente permanece um direito contra ______."
+    ],
+    "options": [
+      [
+        "the project’s equipment as direct property of each holder",
+        "os equipamentos do projeto como propriedade direta de cada titular"
+      ],
+      [
+        "the external reviewer as guarantor",
+        "o revisor externo como garantidor"
+      ],
+      [
+        "the issuer under the bond terms",
+        "o emissor conforme as condições do título"
+      ],
+      [
+        "the regulator as investment insurer",
+        "o regulador como segurador do investimento"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Environmental allocation and the legal debt obligation are distinct. A project description does not establish direct ownership, security or a public repayment guarantee. Other structures can differ, so identify issuer, seniority, recourse and actual guarantees before describing the investor’s rights.",
+      "Alocação ambiental e obrigação jurídica de dívida são distintas. Descrição de projeto não estabelece propriedade direta, garantia real nem garantia pública de pagamento. Outras estruturas podem diferir; identifique emissor, prioridade, recurso e garantias efetivas antes de descrever direitos."
+    ],
+    "blocks": [
+      "EIP-M8-01-B02"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Of €100 million net proceeds, €42 million is allocated to retrofits and €28 million to water projects; €30 million is unallocated. What claim is supported?",
+      "De €100 milhões líquidos, €42 milhões foram destinados a reformas e €28 milhões a água; €30 milhões não foram alocados. Qual afirmação é sustentada?"
+    ],
+    "options": [
+      [
+        "100% is already in completed projects.",
+        "100% já está em projetos concluídos."
+      ],
+      [
+        "70% allocation proves a 70% realised environmental improvement.",
+        "Alocação de 70% prova melhoria ambiental realizada de 70%."
+      ],
+      [
+        "The unallocated share makes allocated projects legally ineligible without further facts.",
+        "A parcela não alocada torna projetos alocados juridicamente inelegíveis sem outros fatos."
+      ],
+      [
+        "70% has been allocated under the assumed report; completion and realised impact require different evidence.",
+        "70% foi alocado segundo o relatório hipotético; conclusão e impacto realizado exigem provas distintas."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "42 + 28 = €70 million, or 70% of the same €100 million net-proceeds base. Allocation plus €30 million unallocated reconciles the total. It is not a construction or impact measure. Check timing, temporary holdings, refinancing, eligibility and review coverage before making stronger claims about outcomes or full deployment.",
+      "42 + 28 = €70 milhões, ou 70% da mesma base líquida de €100 milhões. Alocação mais €30 milhões não alocados concilia o total. Não é medida de construção nem impacto. Verifique prazo, ativos temporários, refinanciamento, elegibilidade e revisão antes de alegações mais fortes de resultados ou uso integral."
+    ],
+    "blocks": [
+      "EIP-M8-01-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €10,000 nominal bond’s coupon steps from 3.50% to 3.75% for two final full years after a missed target. Assume all promised payments occur. What extra cash results before discounting and tax?",
+      "O cupom de título nominal de €10,000 passa de 3.50% para 3.75% por dois anos finais completos após meta não atingida. Suponha todos os pagamentos prometidos. Qual caixa extra resulta antes de desconto e imposto?"
+    ],
+    "options": [
+      [
+        "€25 per year, €50 total",
+        "€25 por ano, €50 no total"
+      ],
+      [
+        "€250 per year, €500 total",
+        "€250 por ano, €500 no total"
+      ],
+      [
+        "€375 extra per year, €750 total",
+        "€375 extras por ano, €750 no total"
+      ],
+      [
+        "€2,500 principal increase",
+        "Aumento de principal de €2,500"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The increase is 0.25 percentage points, or 25 basis points: 10,000 × 0.0025 = €25 annually, €50 over two years. €375 is the full stepped coupon, not the increase. Missing the target does not automatically trigger default or principal repayment; terms govern the consequence, and the extra coupon is not proof of an environmental offset.",
+      "O aumento é de 0.25 ponto percentual, ou 25 pontos-base: 10,000 × 0.0025 = €25 anuais, €50 em dois anos. €375 é o cupom reajustado integral, não o aumento. Não atingir a meta não aciona automaticamente inadimplência nem pagamento de principal; condições regem a consequência, e cupom extra não prova compensação ambiental."
+    ],
+    "blocks": [
+      "EIP-M8-01-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A client invests €20,000 in a ten-year green bond but needs €18,000 in two years. Modified duration is 7 and yields rise 1 percentage point near sale. Which assessment fits the lesson’s local approximation?",
+      "Um cliente investe €20,000 em título verde de dez anos, mas precisa de €18,000 em dois anos. A duração modificada é 7 e as taxas sobem 1 ponto percentual perto da venda. Qual avaliação corresponde à aproximação local ensinada?"
+    ],
+    "options": [
+      [
+        "Green allocation guarantees at least €20,000 available at any sale date.",
+        "Alocação verde garante pelo menos €20,000 disponíveis em qualquer venda."
+      ],
+      [
+        "Approximate price value is €18,600 before coupons and costs; the €600 margin over the need is not a worst-case guarantee and access still needs assessment.",
+        "O valor aproximado é €18,600 antes de cupons e custos; a margem de €600 não é garantia de pior caso, e acesso ainda exige análise."
+      ],
+      [
+        "The yield increase raises the approximate price to €21,400.",
+        "O aumento da taxa eleva o preço aproximado para €21,400."
+      ],
+      [
+        "External review eliminates duration and credit effects.",
+        "Revisão externa elimina efeitos de duração e crédito."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The approximation is −7 × 0.01 = −7%, a €1,400 price loss leaving €18,600. This is a local model, not a bound on losses: spread changes, nonlinearity, liquidity, tax and selling costs can matter. Environmental preference and review do not solve the maturity mismatch. Assess accessible cash, loss capacity and suitable maturities before relying on a projected sale.",
+      "A aproximação é −7 × 0.01 = −7%, perda de preço de €1,400, restando €18,600. É modelo local, não limite de perdas: spreads, não linearidade, liquidez, imposto e custos de venda podem importar. Preferência ambiental e revisão não resolvem incompatibilidade de vencimento. Avalie caixa acessível, capacidade de perda e prazos adequados antes de contar com venda projetada."
+    ],
+    "blocks": [
+      "EIP-M8-01-B08"
+    ]
+  }
+]

@@ -1,0 +1,196 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "An ordinary share generally gives an interest in ______.",
+      "Uma ação ordinária geralmente dá participação em ______."
+    ],
+    "options": [
+      [
+        "a fixed bond-style maturity payment",
+        "um pagamento fixo no vencimento como um título de dívida"
+      ],
+      [
+        "the company’s residual value under its rights and terms",
+        "o valor residual da empresa conforme seus direitos e condições"
+      ],
+      [
+        "a guaranteed annual dividend",
+        "um dividendo anual garantido"
+      ],
+      [
+        "a claim to redemption at the original subscription price",
+        "um direito ao resgate pelo preço original de subscrição"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Shareholders participate in residual value after obligations and prior claims under the applicable structure. An ordinary share does not promise a bond-style coupon and maturity repayment. Rights depend on the issuer and class, so a share label is not enough to infer identical entitlements.",
+      "Acionistas participam do valor residual após obrigações e créditos prioritários conforme a estrutura aplicável. Uma ação ordinária não promete cupom e pagamento no vencimento como um título de dívida. Os direitos dependem do emissor e da classe; o rótulo ação não basta para inferir direitos idênticos."
+    ],
+    "blocks": [
+      "EIP-3.5-01-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A past ordinary dividend is ______ of the same future dividend.",
+      "Um dividendo ordinário passado ______ do mesmo dividendo futuro."
+    ],
+    "options": [
+      [
+        "a contractual guarantee",
+        "é uma garantia contratual"
+      ],
+      [
+        "proof of a debt obligation",
+        "é prova de uma obrigação de dívida"
+      ],
+      [
+        "a fixed maturity promise",
+        "é uma promessa fixa no vencimento"
+      ],
+      [
+        "not by itself a promise",
+        "não é, por si só, uma promessa"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Dividends depend on the applicable legal process and the company’s decision and resources. Past distributions can inform analysis but do not create a conventional fixed-coupon promise for ordinary shares. Particular preference-share terms must be read separately rather than assumed for all classes.",
+      "Dividendos dependem do processo jurídico aplicável e da decisão e recursos da empresa. Distribuições passadas podem informar a análise, mas não criam uma promessa convencional de cupom fixo para ações ordinárias. Condições específicas de ações preferenciais devem ser lidas separadamente, não presumidas para todas as classes."
+    ],
+    "blocks": [
+      "EIP-3.5-01-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Assets fall 10% from €120 million to €108 million, with fixed obligations €80 million and no other claims. Why does model equity fall 30%?",
+      "Os ativos caem 10%, de €120 milhões para €108 milhões, com obrigações fixas de €80 milhões e nenhum outro crédito. Por que o patrimônio do modelo cai 30%?"
+    ],
+    "options": [
+      [
+        "The €12 million loss is absorbed by equity initially worth €40 million.",
+        "A perda de €12 milhões é absorvida pelo patrimônio inicialmente de €40 milhões."
+      ],
+      [
+        "The company’s debt also falls by 10%.",
+        "A dívida da empresa também cai 10%."
+      ],
+      [
+        "Every asset decline mechanically causes three times that share-price decline in all companies.",
+        "Toda queda de ativos provoca mecanicamente três vezes essa queda de ação em qualquer empresa."
+      ],
+      [
+        "Market capitalisation is always identical to accounting equity.",
+        "A capitalização de mercado é sempre idêntica ao patrimônio contábil."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Initial residual is 120 − 80 = 40; revised residual is 108 − 80 = 28. The loss of 12 is 12/40 = 30%, illustrating leverage with fixed obligations. Debt was held constant. The multiplier depends on capital structure and assumptions; it is not a universal stock-price forecast or a claim that market and accounting values coincide.",
+      "O residual inicial é 120 − 80 = 40; o revisado é 108 − 80 = 28. A perda de 12 é 12/40 = 30%, ilustrando alavancagem com obrigações fixas. A dívida foi mantida constante. O multiplicador depende da estrutura de capital e das hipóteses; não é previsão universal de preço de ação nem afirmação de coincidência entre valores contábeis e de mercado."
+    ],
+    "blocks": [
+      "EIP-3.5-01-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A company has 900,000 one-vote A shares and 100,000 ten-vote B shares, with equal economic rights per share. A holder owns 10,000 B shares. Which economic and voting fractions apply?",
+      "Uma empresa tem 900,000 ações A com um voto e 100,000 ações B com dez votos, com direitos econômicos iguais por ação. Um detentor possui 10,000 ações B. Quais frações econômica e de votos se aplicam?"
+    ],
+    "options": [
+      [
+        "1% economic and 1% voting",
+        "1% econômica e 1% de votos"
+      ],
+      [
+        "10% economic and 10% voting",
+        "10% econômica e 10% de votos"
+      ],
+      [
+        "1% economic and approximately 5.2632% voting",
+        "1% econômica e aproximadamente 5.2632% de votos"
+      ],
+      [
+        "1% economic and approximately 0.5263% voting",
+        "1% econômica e aproximadamente 0.5263% de votos"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "There are 1,000,000 shares, so economic fraction is 10,000/1,000,000 = 1%. Total votes are 900,000 + 100,000 × 10 = 1,900,000; the holder has 100,000 votes, about 5.2632%. The 0.5263% figure would fit 10,000 A shares. Economic shares and votes need different denominators under these stipulated class terms.",
+      "Existem 1,000,000 de ações, portanto a fração econômica é 10,000/1,000,000 = 1%. Os votos totais são 900,000 + 100,000 × 10 = 1,900,000; o detentor tem 100,000 votos, cerca de 5.2632%. A taxa de 0.5263% corresponderia a 10,000 ações A. Participação econômica e votos exigem denominadores diferentes sob essas condições de classe estipuladas."
+    ],
+    "blocks": [
+      "EIP-3.5-01-B03"
+    ],
+    "calculation": {
+      "method": "class_votes",
+      "inputs": [
+        900000,
+        100000,
+        1,
+        10,
+        10000
+      ],
+      "expected": [
+        0.01,
+        0.05263157894736842
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "One million shares are worth €20 each; a holder owns 10,000. The company issues 250,000 at €16, with no fees, subscription rights, compensation or other value change. What is the holder’s model value after issue?",
+      "Um milhão de ações vale €20 cada; um detentor possui 10,000. A empresa emite 250,000 a €16, sem tarifas, direitos de subscrição, compensação ou outra mudança de valor. Qual é o valor do detentor no modelo após a emissão?"
+    ],
+    "options": [
+      [
+        "€160,000, matching the 20% relative ownership dilution",
+        "€160,000, igualando a diluição relativa de participação de 20%"
+      ],
+      [
+        "€192,000, a €8,000 decrease; ownership is 0.8%",
+        "€192,000, queda de €8,000; participação de 0.8%"
+      ],
+      [
+        "€200,000, because every issue always preserves per-share value",
+        "€200,000, pois toda emissão sempre preserva o valor por ação"
+      ],
+      [
+        "€240,000, because all new cash belongs to the old holder",
+        "€240,000, pois todo o caixa novo pertence ao detentor antigo"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Initial equity is €20 million; new cash is 250,000 × 16 = €4 million. Divide €24 million by 1.25 million shares for €19.20 each, making 10,000 shares worth €192,000. Ownership falls to 0.8%, but wealth falls 4%, not 20%. An issue at €20 would preserve model per-share value; this stipulated discount without compensation transfers value under the simplified assumptions.",
+      "O patrimônio inicial é €20 milhões; o caixa novo é 250,000 × 16 = €4 milhões. Divida €24 milhões por 1.25 milhão de ações para €19.20 cada, fazendo 10,000 ações valerem €192,000. A participação cai para 0.8%, mas a riqueza cai 4%, não 20%. Uma emissão a €20 preservaria o valor por ação do modelo; esse desconto estipulado sem compensação transfere valor sob as hipóteses simplificadas."
+    ],
+    "blocks": [
+      "EIP-3.5-01-B07"
+    ],
+    "calculation": {
+      "method": "equity_issue",
+      "inputs": [
+        1000000,
+        20,
+        250000,
+        16,
+        10000
+      ],
+      "expected": [
+        19.2,
+        192000,
+        0.008
+      ]
+    }
+  }
+]

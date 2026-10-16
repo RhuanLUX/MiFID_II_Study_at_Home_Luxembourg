@@ -1,0 +1,194 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "The arithmetic mean of a return sample describes ______.",
+      "A média aritmética de uma amostra de retornos descreve ______."
+    ],
+    "options": [
+      [
+        "the guaranteed future compound growth rate",
+        "a taxa futura garantida de crescimento composto"
+      ],
+      [
+        "the average observation, distinct from realised compounded growth",
+        "a observação média, distinta do crescimento composto realizado"
+      ],
+      [
+        "the worst observed loss alone",
+        "apenas a pior perda observada"
+      ],
+      [
+        "the annualised rate regardless of the sample’s frequency",
+        "a taxa anualizada independentemente da frequência da amostra"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Add equally weighted observations and divide by their count to obtain the arithmetic mean. Geometric growth instead reproduces the no-flow starting/ending wealth ratio. A sample mean can inform a one-period expectation only under additional assumptions and does not guarantee steady future growth.",
+      "Some observações igualmente ponderadas e divida por sua quantidade para obter a média aritmética. O crescimento geométrico reproduz a razão entre riqueza inicial e final sem fluxos. Uma média amostral pode informar expectativa de um período apenas sob hipóteses adicionais e não garante crescimento futuro constante."
+    ],
+    "blocks": [
+      "EIP-5.1-01-B04"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Before comparing two return series, align ______.",
+      "Antes de comparar duas séries de retornos, alinhe ______."
+    ],
+    "options": [
+      [
+        "only the largest historical gain",
+        "apenas o maior ganho histórico"
+      ],
+      [
+        "only the fund names",
+        "apenas os nomes dos fundos"
+      ],
+      [
+        "the number of displayed decimal places alone",
+        "apenas a quantidade de casas decimais exibidas"
+      ],
+      [
+        "frequency, currency, distributions, costs and flow conventions",
+        "frequência, moeda, distribuições, custos e convenções de fluxos"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "A monthly gross local-price series and an annual net euro total-return series describe different objects. Better arithmetic cannot repair incompatible inputs. Splits, missing observations and external money also require consistent handling before a mean or growth figure can be interpreted.",
+      "Uma série mensal bruta de preços locais e uma série anual líquida de retorno total em euros descrevem objetos diferentes. Aritmética melhor não corrige dados incompatíveis. Desdobramentos, observações ausentes e dinheiro externo também exigem tratamento consistente antes de interpretar uma média ou crescimento."
+    ],
+    "blocks": [
+      "EIP-5.1-01-B01"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Reversing the order of the same returns leaves no-flow terminal wealth unchanged. Why can withdrawals change that result?",
+      "Inverter a ordem dos mesmos retornos deixa inalterada a riqueza terminal sem fluxos. Por que retiradas podem mudar esse resultado?"
+    ],
+    "options": [
+      [
+        "A withdrawal changes the capital to which subsequent returns apply, so its timing interacts with the path.",
+        "Uma retirada muda o capital sobre o qual incidem retornos posteriores, portanto seu momento interage com a trajetória."
+      ],
+      [
+        "The arithmetic mean itself changes when the observations are reordered.",
+        "A própria média aritmética muda quando as observações são reordenadas."
+      ],
+      [
+        "Multiplication stops being valid for investment returns.",
+        "A multiplicação deixa de ser válida para retornos de investimento."
+      ],
+      [
+        "A withdrawal is an investment loss equal to the amount removed.",
+        "Uma retirada é perda de investimento igual ao valor removido."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "With no external flows, growth factors multiply and their order does not affect the product. A withdrawal between periods changes the invested base before the next factor. The return observations and arithmetic mean can remain identical while the investor’s terminal wealth differs. External cash is not itself a trading gain or loss.",
+      "Sem fluxos externos, fatores se multiplicam e sua ordem não afeta o produto. Uma retirada entre períodos muda a base investida antes do próximo fator. As observações e a média aritmética podem continuar idênticas enquanto a riqueza terminal difere. Caixa externo, por si só, não é ganho ou perda de negociação."
+    ],
+    "blocks": [
+      "EIP-5.1-01-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "€10,000 earns +10%, −5% and +15% in three years, no external flows. Which cumulative return and arithmetic annual mean are correct?",
+      "€10,000 rendem +10%, −5% e +15% em três anos, sem fluxos externos. Quais retorno acumulado e média anual aritmética estão corretos?"
+    ],
+    "options": [
+      [
+        "20%; 6.6667%, adding returns for cumulative growth",
+        "20%; 6.6667%, somando retornos para o crescimento acumulado"
+      ],
+      [
+        "20.175%; 6.3175%, calling the geometric rate arithmetic",
+        "20.175%; 6.3175%, chamando a taxa geométrica de aritmética"
+      ],
+      [
+        "20.175%; approximately 6.6667%",
+        "20.175%; aproximadamente 6.6667%"
+      ],
+      [
+        "6.6667%; 20.175%, reversing the measures",
+        "6.6667%; 20.175%, invertendo as medidas"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Wealth is 10,000 × 1.10 × 0.95 × 1.15 = €12,017.50, cumulative 20.175%. Arithmetic mean is (10 − 5 + 15)/3 ≈ 6.6667%. The approximately 6.3175% geometric rate is the constant growth equivalent, a different measure. Adding returns does not give the exact compounded outcome.",
+      "A riqueza é 10,000 × 1.10 × 0.95 × 1.15 = €12,017.50, acumulado de 20.175%. A média aritmética é (10 − 5 + 15)/3 ≈ 6.6667%. A taxa geométrica de aproximadamente 6.3175% é o equivalente constante de crescimento, outra medida. Somar retornos não dá o resultado composto exato."
+    ],
+    "blocks": [
+      "EIP-5.1-01-B03"
+    ],
+    "calculation": {
+      "method": "return_series",
+      "inputs": [
+        10000,
+        0.1,
+        -0.05,
+        0.15
+      ],
+      "expected": [
+        12017.5,
+        0.20175,
+        0.06666666666666667
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Start with €10,000 and withdraw €2,000 after year one. Compare returns +30% then −10% with the same returns in reverse order. What terminal values follow?",
+      "Comece com €10,000 e retire €2,000 após o primeiro ano. Compare retornos de +30% depois −10% com os mesmos retornos na ordem inversa. Quais valores terminais decorrem?"
+    ],
+    "options": [
+      [
+        "€11,700 in both, ignoring the withdrawal",
+        "€11,700 em ambos, ignorando a retirada"
+      ],
+      [
+        "€9,900 versus €9,100, showing an €800 sequencing difference",
+        "€9,900 contra €9,100, mostrando diferença de sequência de €800"
+      ],
+      [
+        "€9,700 in both, subtracting the withdrawal only after both returns",
+        "€9,700 em ambos, subtraindo a retirada apenas após ambos os retornos"
+      ],
+      [
+        "€9,100 versus €9,900, reversing the timing effect",
+        "€9,100 contra €9,900, invertendo o efeito temporal"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "First order: (10,000 × 1.30 − 2,000) × 0.90 = €9,900. Reverse: (10,000 × 0.90 − 2,000) × 1.30 = €9,100. The withdrawal changes the base before the second return. A no-flow product or subtracting €2,000 only at the end models different timing. Identical arithmetic means do not reproduce investor cash-flow experience.",
+      "Primeira ordem: (10,000 × 1.30 − 2,000) × 0.90 = €9,900. Inversa: (10,000 × 0.90 − 2,000) × 1.30 = €9,100. A retirada muda a base antes do segundo retorno. Um produto sem fluxos ou subtrair €2,000 apenas no final modela outro momento. Médias aritméticas idênticas não reproduzem a experiência de fluxos do investidor."
+    ],
+    "blocks": [
+      "EIP-5.1-01-B05"
+    ],
+    "calculation": {
+      "method": "withdrawal_sequence",
+      "inputs": [
+        10000,
+        2000,
+        0.3,
+        -0.1
+      ],
+      "expected": [
+        9900,
+        9100
+      ]
+    }
+  }
+]

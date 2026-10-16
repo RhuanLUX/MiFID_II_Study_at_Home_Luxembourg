@@ -1,0 +1,198 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A mutual fund investor’s direct holding is normally ______.",
+      "A posição direta de um investidor em fundo é normalmente ______."
+    ],
+    "options": [
+      [
+        "units or shares in the defined fund structure",
+        "cotas ou ações na estrutura definida do fundo"
+      ],
+      [
+        "a separately registered slice of every underlying issuer’s security",
+        "uma fração registrada separadamente de cada título dos emissores subjacentes"
+      ],
+      [
+        "a bank deposit solely because a bank distributed the fund",
+        "um depósito bancário apenas porque um banco distribuiu o fundo"
+      ],
+      [
+        "equity in the management company rather than the fund",
+        "capital da sociedade gestora em vez do fundo"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The investor’s claim is under the fund structure and its policy, with economic exposure through net assets. The investor does not thereby own a direct separately registered holding in each security, a deposit at the distributor or shares in the manager. Pooling changes access and management, but does not eliminate investment loss.",
+      "O direito do investidor decorre da estrutura e política do fundo, com exposição econômica pelo patrimônio líquido. Ele não adquire assim uma posição direta registrada separadamente em cada título, um depósito no distribuidor ou ações da gestora. O agrupamento muda acesso e gestão, mas não elimina perdas de investimento."
+    ],
+    "blocks": [
+      "EIP-3.8-01-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Different share classes of the same compartment generally participate in ______, with disclosed class features.",
+      "Classes diferentes do mesmo compartimento geralmente participam de ______, com características de classe divulgadas."
+    ],
+    "options": [
+      [
+        "unrelated portfolios, like separate compartments in every case",
+        "carteiras sem relação, como compartimentos separados em todos os casos"
+      ],
+      [
+        "a common pool",
+        "um patrimônio comum"
+      ],
+      [
+        "the management company’s own capital",
+        "capital próprio da sociedade gestora"
+      ],
+      [
+        "all umbrella compartments in proportion to their size",
+        "todos os compartimentos da estrutura guarda-chuva proporcionalmente ao tamanho"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A compartment defines a pool and investment objective; share classes can vary fees, distribution, currency or hedging features within that pool. A class is not another compartment and does not automatically allocate across the entire umbrella. The exact class identifier and disclosed terms determine the investor’s actual cash-flow and cost features.",
+      "Um compartimento define um patrimônio e objetivo de investimento; classes podem variar tarifas, distribuição, moeda ou hedge dentro desse patrimônio. Uma classe não é outro compartimento e não aloca automaticamente por toda a estrutura guarda-chuva. O identificador exato e as condições divulgadas determinam os fluxos e custos efetivos do investidor."
+    ],
+    "blocks": [
+      "EIP-3.8-01-B04"
+    ]
+  },
+  {
+    "type": "matching",
+    "prompt": [
+      "Match the fund role to its described responsibility.",
+      "Associe o papel no fundo à responsabilidade descrita."
+    ],
+    "concepts": [
+      [
+        "Manager",
+        "Gestor"
+      ],
+      [
+        "Depositary",
+        "Depositário"
+      ],
+      [
+        "Distributor or adviser",
+        "Distribuidor ou consultor"
+      ]
+    ],
+    "definitions": [
+      [
+        "Connects the investment with the client under its service/conduct responsibilities",
+        "Conecta o investimento ao cliente sob suas responsabilidades de serviço e conduta"
+      ],
+      [
+        "Safekeeping, cash-flow monitoring and oversight duties",
+        "Deveres de guarda, monitoramento de fluxos de caixa e supervisão"
+      ],
+      [
+        "Investment management within the undertaking’s framework",
+        "Gestão de investimentos dentro do regime do organismo"
+      ]
+    ],
+    "answer": [
+      2,
+      1,
+      0
+    ],
+    "explanation": [
+      "The manager is responsible for investment management under the framework; the depositary safeguards and monitors under its duties; the distributor or adviser provides the client-facing service with its own conduct obligations. Delegation or common group ownership does not merge these duties. None of these roles promises reimbursement for every ordinary market loss.",
+      "O gestor responde pela gestão sob o regime; o depositário guarda e monitora conforme seus deveres; o distribuidor ou consultor presta o serviço ao cliente com obrigações próprias de conduta. Delegação ou controle pelo mesmo grupo não une esses deveres. Nenhum desses papéis promete reembolso de toda perda ordinária de mercado."
+    ],
+    "blocks": [
+      "EIP-3.8-01-B02"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An umbrella contains an 80-million equity compartment and a 20-million bond compartment. A client invests €10,000 solely in a bond class holding 60% government and 40% corporate bonds. Which look-through exposure follows before class adjustments?",
+      "Uma estrutura guarda-chuva contém compartimento de ações de 80 milhões e de títulos de dívida de 20 milhões. Um cliente investe €10,000 apenas em uma classe de títulos com 60% de dívida pública e 40% corporativa. Qual exposição indireta decorre antes dos ajustes de classe?"
+    ],
+    "options": [
+      [
+        "€8,000 equities and €2,000 bonds",
+        "€8,000 em ações e €2,000 em títulos de dívida"
+      ],
+      [
+        "€6,000 equities and €4,000 corporate bonds",
+        "€6,000 em ações e €4,000 em títulos corporativos"
+      ],
+      [
+        "€2,000 government and €8,000 corporate bonds",
+        "€2,000 em dívida pública e €8,000 em dívida corporativa"
+      ],
+      [
+        "€6,000 government and €4,000 corporate bonds",
+        "€6,000 em dívida pública e €4,000 em dívida corporativa"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The investor selected the bond compartment, so use that pool’s 60/40 allocation: €6,000 government and €4,000 corporate. The umbrella’s 80/20 size split does not allocate this holding into its equity compartment. The class can change costs or distributions, but its label does not automatically replace the common bond policy.",
+      "O investidor selecionou o compartimento de títulos, portanto use a alocação 60/40 desse patrimônio: €6,000 em dívida pública e €4,000 em corporativa. A divisão de tamanho 80/20 da estrutura não aloca essa posição ao compartimento de ações. A classe pode mudar custos ou distribuições, mas seu rótulo não substitui automaticamente a política comum de títulos."
+    ],
+    "blocks": [
+      "EIP-3.8-01-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A single-class fund starts with €5 million and 50,000 units, gains €200,000 before expenses and accrues €50,000 expenses. No flows or distributions. A holder of 100 units also pays a separate €20 platform charge at period-end. What final net wealth and return on initial €10,000 follow?",
+      "Um fundo de classe única começa com €5 milhões e 50,000 cotas, ganha €200,000 antes de despesas e acumula despesas de €50,000. Sem fluxos ou distribuições. Um detentor de 100 cotas também paga tarifa separada de plataforma de €20 no fim do período. Quais riqueza líquida final e retorno sobre €10,000 iniciais decorrem?"
+    ],
+    "options": [
+      [
+        "€10,400; 4%, ignoring all costs",
+        "€10,400; 4%, ignorando todos os custos"
+      ],
+      [
+        "€10,300; 3%, ignoring the platform charge",
+        "€10,300; 3%, ignorando a tarifa de plataforma"
+      ],
+      [
+        "€10,280; 2.8%, with fund expenses deducted only once",
+        "€10,280; 2.8%, com despesas do fundo deduzidas uma vez"
+      ],
+      [
+        "€10,180; 1.8%, deducting embedded fund expenses again",
+        "€10,180; 1.8%, deduzindo novamente despesas embutidas do fundo"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Net assets are 5,000,000 + 200,000 − 50,000 = €5,150,000; NAV is €103. The holding is €10,300 before its additional €20 charge, leaving €10,280 and 2.8%. Gross 4% omits expenses; 3% omits the separate charge. Deducting the same €100 proportional fund expense again would double count because it already reduced NAV.",
+      "O patrimônio líquido é 5,000,000 + 200,000 − 50,000 = €5,150,000; a cota vale €103. A posição é €10,300 antes da cobrança adicional de €20, restando €10,280 e 2.8%. Os 4% brutos omitem despesas; 3% omite a cobrança separada. Deduzir novamente os mesmos €100 de despesa proporcional do fundo duplicaria a contagem porque já reduziram a cota."
+    ],
+    "blocks": [
+      "EIP-3.8-01-B07"
+    ],
+    "calculation": {
+      "method": "fund_net_holder",
+      "inputs": [
+        5000000,
+        200000,
+        50000,
+        50000,
+        100,
+        20,
+        10000
+      ],
+      "expected": [
+        103,
+        10280,
+        0.028
+      ]
+    }
+  }
+]

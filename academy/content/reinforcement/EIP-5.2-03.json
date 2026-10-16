@@ -1,0 +1,203 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "The two-asset variance cross term is twice the weights’ product times ______.",
+      "O termo cruzado da variância de dois ativos é duas vezes o produto dos pesos vezes ______."
+    ],
+    "options": [
+      [
+        "covariance",
+        "covariância"
+      ],
+      [
+        "the sum of expected returns",
+        "a soma dos retornos esperados"
+      ],
+      [
+        "the weighted average volatility alone",
+        "apenas a volatilidade média ponderada"
+      ],
+      [
+        "the arithmetic mean of the weights",
+        "a média aritmética dos pesos"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Squaring the weighted sum of deviations produces individual squared-weight terms and 2 × wA × wB × covariance. Omitting the cross term assumes zero covariance, not merely simpler arithmetic. After adding variance terms, take the square root to express portfolio volatility in return units.",
+      "Elevar ao quadrado a soma ponderada dos desvios produz termos individuais com pesos ao quadrado e 2 × wA × wB × covariância. Omitir o termo cruzado supõe covariância zero, não apenas aritmética mais simples. Após somar variâncias, tome a raiz para expressar a volatilidade da carteira em unidades de retorno."
+    ],
+    "blocks": [
+      "EIP-5.2-03-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "For positive long-only weights, increasing correlation with other inputs fixed generally ______.",
+      "Para pesos positivos sem posições vendidas, aumentar a correlação mantendo os demais dados geralmente ______."
+    ],
+    "options": [
+      [
+        "raises expected return automatically",
+        "eleva automaticamente o retorno esperado"
+      ],
+      [
+        "reduces variance through a larger positive cross term",
+        "reduz a variância por um termo cruzado positivo maior"
+      ],
+      [
+        "raises variance without changing the weighted expected return",
+        "eleva a variância sem mudar o retorno esperado ponderado"
+      ],
+      [
+        "changes individual volatilities by definition",
+        "muda as volatilidades individuais por definição"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The covariance term rises with correlation, increasing long-only portfolio variance when weights and volatilities are fixed. Constituent expected returns and their weighted sum do not change from that input alone. A higher or lower model risk remains conditional on the validity and stability of the inputs.",
+      "O termo de covariância sobe com a correlação, aumentando a variância da carteira sem posições vendidas quando pesos e volatilidades ficam fixos. Retornos esperados dos componentes e sua soma ponderada não mudam apenas por esse dado. Risco de modelo maior ou menor permanece condicionado à validade e estabilidade dos dados."
+    ],
+    "blocks": [
+      "EIP-5.2-03-B04"
+    ]
+  },
+  {
+    "type": "matching",
+    "prompt": [
+      "Match each correlation boundary to the two-asset long-only volatility expression, with compatible inputs.",
+      "Associe cada limite de correlação à expressão de volatilidade de dois ativos sem posições vendidas, com dados compatíveis."
+    ],
+    "concepts": [
+      [
+        "Correlation +1",
+        "Correlação +1"
+      ],
+      [
+        "Correlation 0",
+        "Correlação 0"
+      ],
+      [
+        "Correlation −1",
+        "Correlação −1"
+      ]
+    ],
+    "definitions": [
+      [
+        "Square root of the sum of the two squared weighted-volatility contributions",
+        "Raiz da soma das duas contribuições ponderadas de volatilidade ao quadrado"
+      ],
+      [
+        "Absolute difference of the two weighted-volatility contributions",
+        "Diferença absoluta das duas contribuições ponderadas de volatilidade"
+      ],
+      [
+        "Sum of the two weighted-volatility contributions",
+        "Soma das duas contribuições ponderadas de volatilidade"
+      ]
+    ],
+    "answer": [
+      2,
+      0,
+      1
+    ],
+    "explanation": [
+      "At +1 the terms reinforce into the weighted sum; at zero the cross term vanishes and squared contributions add; at −1 their difference determines volatility. Perfect negative correlation is not alone enough for zero variance: the weighted magnitudes must also match. These are mathematical model cases, not guarantees that real relationships persist.",
+      "A +1 os termos se reforçam na soma ponderada; a zero o termo cruzado desaparece e contribuições ao quadrado se somam; a −1 a diferença determina a volatilidade. Correlação perfeitamente negativa, sozinha, não basta para variância zero: as magnitudes ponderadas também devem coincidir. São casos matemáticos do modelo, não garantias de persistência real."
+    ],
+    "blocks": [
+      "EIP-5.2-03-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Weights are 60%/40%, annual volatilities 20%/10%, correlation zero. What portfolio volatility follows?",
+      "Os pesos são 60%/40%, volatilidades anuais 20%/10% e correlação zero. Qual volatilidade da carteira decorre?"
+    ],
+    "options": [
+      [
+        "16%, the weighted average of individual volatilities",
+        "16%, a média ponderada das volatilidades individuais"
+      ],
+      [
+        "Approximately 12.6491%, from variance 0.016",
+        "Aproximadamente 12.6491%, de variância 0.016"
+      ],
+      [
+        "Approximately 14.4222%, using correlation +0.5",
+        "Aproximadamente 14.4222%, usando correlação +0.5"
+      ],
+      [
+        "8%, using correlation −1",
+        "8%, usando correlação −1"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Variance is 0.6² × 0.2² + 0.4² × 0.1² = 0.0144 + 0.0016 = 0.016. Its square root is about 12.6491%. The 16% weighted sum applies at +1 correlation; the other alternatives change the correlation premise. Zero correlation reduces model dispersion but does not guarantee losses cannot occur together or establish a maximum loss.",
+      "A variância é 0.6² × 0.2² + 0.4² × 0.1² = 0.0144 + 0.0016 = 0.016. Sua raiz é cerca de 12.6491%. A soma ponderada de 16% aplica-se com correlação +1; as outras alternativas mudam a premissa de correlação. Correlação zero reduz dispersão do modelo, mas não garante que perdas não ocorram juntas nem estabelece perda máxima."
+    ],
+    "blocks": [
+      "EIP-5.2-03-B03"
+    ],
+    "calculation": {
+      "method": "portfolio_volatility",
+      "inputs": [
+        0.6,
+        0.4,
+        0.2,
+        0.1,
+        0
+      ],
+      "expected": 0.12649110640673517
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Weights are one-third A and two-thirds B, with volatilities 20%/10%. Compare exact correlation −1 with −0.8, all else fixed. What volatility pair follows?",
+      "Os pesos são um terço em A e dois terços em B, com volatilidades 20%/10%. Compare correlação exata de −1 com −0.8, mantendo o restante. Qual par de volatilidades decorre?"
+    ],
+    "options": [
+      [
+        "Zero in both because both correlations are negative",
+        "Zero em ambos porque ambas as correlações são negativas"
+      ],
+      [
+        "Zero then 0.177778%, reporting variance as volatility",
+        "Zero depois 0.177778%, reportando variância como volatilidade"
+      ],
+      [
+        "Zero then approximately 9.4281%, omitting covariance in the second case",
+        "Zero depois de aproximadamente 9.4281%, omitindo covariância no segundo caso"
+      ],
+      [
+        "Zero then approximately 4.2164%, exposing sensitivity of the exact cancellation",
+        "Zero depois de aproximadamente 4.2164%, expondo sensibilidade do cancelamento exato"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "At −1, weighted volatilities both equal 0.066667 and cancel exactly under the model. At −0.8, individual variance terms sum to 0.00888889 and the cross term is −0.00711111, leaving 0.00177778; square root is about 4.2164%. Negative correlation alone does not ensure zero risk. Algebraic cancellation is conditional, not a legal, credit or liquidity guarantee.",
+      "A −1, as volatilidades ponderadas equivalem a 0.066667 e se cancelam exatamente no modelo. A −0.8, os termos individuais somam 0.00888889 e o cruzado é −0.00711111, restando 0.00177778; a raiz é cerca de 4.2164%. Correlação negativa isolada não assegura risco zero. O cancelamento algébrico é condicional, não garantia jurídica, de crédito ou liquidez."
+    ],
+    "blocks": [
+      "EIP-5.2-03-B07"
+    ],
+    "calculation": {
+      "method": "portfolio_volatility",
+      "inputs": [
+        0.3333333333333333,
+        0.6666666666666666,
+        0.2,
+        0.1,
+        -0.8
+      ],
+      "expected": 0.04216370213557839
+    }
+  }
+]

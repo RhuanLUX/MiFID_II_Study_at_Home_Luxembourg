@@ -1,0 +1,203 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "An ongoing fund expense already accrued in NAV is ______ when the same NAV return is used.",
+      "Uma despesa recorrente do fundo já acumulada na cota ______ quando se usa o retorno dessa mesma cota."
+    ],
+    "options": [
+      [
+        "an additional investor charge that must always be subtracted again",
+        "é um encargo adicional do investidor que sempre deve ser subtraído novamente"
+      ],
+      [
+        "absent unless a separate debit appears in the investor’s bank account",
+        "está ausente, salvo se aparecer débito separado na conta do investidor"
+      ],
+      [
+        "already reflected, so deducting it again double counts",
+        "já está refletida, portanto deduzi-la novamente duplica a contagem"
+      ],
+      [
+        "equivalent to a refundable deposit",
+        "equivale a um depósito restituível"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Fund-level accrued costs reduce net assets and the measured NAV return. Investor-level platform or advice charges can be additional, but the same embedded expense must not be deducted twice. Conversely, a gross portfolio return does need a cost bridge before it can represent the client’s net outcome.",
+      "Custos acumulados no fundo reduzem o patrimônio líquido e o retorno medido da cota. Encargos de plataforma ou consultoria do investidor podem ser adicionais, mas a mesma despesa embutida não deve ser deduzida duas vezes. Inversamente, um retorno bruto da carteira exige conciliação de custos antes de representar o resultado líquido do cliente."
+    ],
+    "blocks": [
+      "EIP-3.8-04-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Daily dealing describes a schedule under terms, not an unconditional promise of ______.",
+      "Negociação diária descreve um calendário sob condições, não uma promessa incondicional de ______."
+    ],
+    "options": [
+      [
+        "a periodic NAV calculation",
+        "um cálculo periódico da cota"
+      ],
+      [
+        "immediate full cash access at the last valuation",
+        "acesso imediato e integral ao dinheiro na última avaliação"
+      ],
+      [
+        "receiving an applicable dealing price under stated rules",
+        "receber um preço aplicável conforme regras informadas"
+      ],
+      [
+        "submitting requests on the stated dealing days",
+        "enviar pedidos nos dias de negociação informados"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The fund’s dealing schedule and underlying-asset liquidity are different layers. Pricing points, settlement, gates or other disclosed tools can alter amount or timing. A client with an essential deadline needs those conditions assessed rather than treating a published NAV as immediately spendable cash.",
+      "O calendário de negociação e a liquidez dos ativos subjacentes são camadas diferentes. Pontos de precificação, liquidação, limites de resgate ou outras ferramentas divulgadas podem alterar valor ou momento. Um cliente com prazo essencial precisa avaliar essas condições, não tratar a cota publicada como caixa imediatamente disponível."
+    ],
+    "blocks": [
+      "EIP-3.8-04-B01"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "If an annual fee of 0.5% is applied after 5% gross growth, which factor represents that stated convention?",
+      "Se uma tarifa anual de 0.5% é aplicada após crescimento bruto de 5%, qual fator representa essa convenção informada?"
+    ],
+    "options": [
+      [
+        "1.05 × 0.995 = 1.04475, which differs from subtracting 0.5 percentage point",
+        "1.05 × 0.995 = 1.04475, diferente de subtrair 0.5 ponto percentual"
+      ],
+      [
+        "1.045 exactly, identical under every fee convention",
+        "1.045 exatamente, idêntico em toda convenção de tarifa"
+      ],
+      [
+        "1.05/0.995, because fees increase investor wealth",
+        "1.05/0.995, pois tarifas aumentam a riqueza do investidor"
+      ],
+      [
+        "1.05 − 0.5 = 0.55, using the percent number as a decimal",
+        "1.05 − 0.5 = 0.55, usando o número percentual como decimal"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The specified fee base is post-growth value: multiply the 1.05 growth factor by 1 − 0.005 = 0.995, giving 1.04475. Subtracting 0.005 from 1.05 gives 1.045 under a different simplified drag convention. Fee basis and timing change exact results; neither formula is universal without the terms.",
+      "A base de tarifa especificada é o valor após crescimento: multiplique 1.05 por 1 − 0.005 = 0.995, dando 1.04475. Subtrair 0.005 de 1.05 dá 1.045 sob outra convenção simplificada de redução. Base e momento da tarifa mudam resultados exatos; nenhuma fórmula é universal sem as condições."
+    ],
+    "blocks": [
+      "EIP-3.8-04-B03"
+    ],
+    "calculation": {
+      "method": "fee_factor",
+      "inputs": [
+        0.05,
+        0.005
+      ],
+      "expected": 1.04475
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A retail class adds a 1% entry fee to invested capital. Total available cash is €10,100; annual NAV return after embedded expenses is 4%. No other charges or tax. What return on actual outlay follows?",
+      "Uma classe de varejo acrescenta tarifa de entrada de 1% ao capital investido. O caixa total disponível é €10,100; o retorno anual da cota após despesas embutidas é 4%. Sem outros encargos ou impostos. Qual retorno sobre o desembolso efetivo decorre?"
+    ],
+    "options": [
+      [
+        "4%, ignoring the entry charge",
+        "4%, ignorando a entrada"
+      ],
+      [
+        "3%, subtracting percentages without the actual denominator",
+        "3%, subtraindo porcentagens sem o denominador efetivo"
+      ],
+      [
+        "Approximately 2.9600%, subtracting 1% of total cash rather than using the stated fee base",
+        "Aproximadamente 2.9600%, subtraindo 1% do caixa total em vez da base informada"
+      ],
+      [
+        "Approximately 2.9703%, investing €10,000 and ending at €10,400",
+        "Aproximadamente 2.9703%, investindo €10,000 e terminando em €10,400"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Invested capital is 10,100/1.01 = €10,000; the fee is €100. NAV value becomes €10,400. Profit relative to €10,100 outlay is €300, giving 300/10,100 ≈ 2.9703%. Applying 1% to total cash invests €9,999 under a different fee basis. A cheaper institutional class is not an available comparison unless the client meets its eligibility conditions.",
+      "O capital investido é 10,100/1.01 = €10,000; a tarifa é €100. O valor da cota torna-se €10,400. O lucro diante do desembolso de €10,100 é €300, dando 300/10,100 ≈ 2.9703%. Aplicar 1% ao caixa total investe €9,999 sob outra base de tarifa. Uma classe institucional mais barata não é comparação disponível salvo se o cliente cumprir suas condições de elegibilidade."
+    ],
+    "blocks": [
+      "EIP-3.8-04-B05"
+    ],
+    "calculation": {
+      "method": "entry_added_return",
+      "inputs": [
+        10100,
+        0.01,
+        0.04
+      ],
+      "expected": [
+        10000,
+        10400,
+        0.0297029702970297
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A request redeems 1,000 units at NAV €100, but a stipulated gate processes only 40% now and defers 600 units. A €90,000 bill is due before later payment. Later NAV is €95; no fees. Which cash analysis is correct?",
+      "Um pedido resgata 1,000 cotas a valor de €100, mas um limite estipulado processa apenas 40% agora e adia 600 cotas. Uma conta de €90,000 vence antes do pagamento posterior. A cota posterior é €95; sem tarifas. Qual análise de caixa está correta?"
+    ],
+    "options": [
+      [
+        "€100,000 now; no deadline gap because the order covered all units",
+        "€100,000 agora; sem lacuna no prazo porque a ordem cobriu todas as cotas"
+      ],
+      [
+        "€40,000 now; €50,000 deadline gap; eventual total €97,000 does not fund the earlier bill on time",
+        "€40,000 agora; lacuna de €50,000 no prazo; total posterior de €97,000 não financia a conta anterior a tempo"
+      ],
+      [
+        "€60,000 now; €30,000 deadline gap, treating deferred units as processed",
+        "€60,000 agora; lacuna de €30,000, tratando cotas adiadas como processadas"
+      ],
+      [
+        "€97,000 available now because the eventual total is known in the scenario",
+        "€97,000 disponíveis agora porque o total posterior é conhecido no cenário"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Now 400 × 100 = €40,000 arrives, leaving €90,000 − €40,000 = €50,000 unfunded at the deadline. Later 600 × 95 = €57,000 arrives, for €97,000 in total. Adding later proceeds to today’s cash violates the timeline. The gate allocation is fictional and specified; real policy, settlement and subsequent NAV remain to be checked. A valuation and eventual total are not immediate liquidity.",
+      "Agora chegam 400 × 100 = €40,000, deixando €90,000 − €40,000 = €50,000 sem financiamento no prazo. Depois chegam 600 × 95 = €57,000, para total de €97,000. Somar recebimentos posteriores ao caixa de hoje viola a linha temporal. A alocação do limite é fictícia e especificada; política real, liquidação e cota subsequente ainda precisam ser verificadas. Avaliação e total posterior não são liquidez imediata."
+    ],
+    "blocks": [
+      "EIP-3.8-04-B07"
+    ],
+    "calculation": {
+      "method": "gate_timeline",
+      "inputs": [
+        1000,
+        0.4,
+        100,
+        95,
+        90000
+      ],
+      "expected": [
+        40000,
+        50000,
+        97000
+      ]
+    }
+  }
+]

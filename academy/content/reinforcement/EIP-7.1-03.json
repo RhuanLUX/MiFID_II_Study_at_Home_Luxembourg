@@ -1,0 +1,167 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Independent advice requires which product-range approach?",
+      "Consultoria independente exige qual abordagem de universo de produtos?"
+    ],
+    "options": [
+      [
+        "Every instrument in existence must be examined.",
+        "Todo instrumento existente precisa ser examinado."
+      ],
+      [
+        "A sufficiently diverse range that is not improperly restricted by close links",
+        "Um universo suficientemente diverso, sem restrição indevida por vínculos próximos"
+      ],
+      [
+        "Many classes of one group’s products automatically suffice.",
+        "Muitas classes de produtos de um grupo bastam automaticamente."
+      ],
+      [
+        "The highest-paying products define the range.",
+        "Os produtos que mais remuneram definem o universo."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Independence has regulatory conditions concerning range and third-party benefits. A diverse range supports meeting client objectives without an improper restriction to linked providers. It does not mean examining every instrument, and numerous share classes from one group do not by themselves establish independent analysis.",
+      "Independência tem condições regulatórias de universo e benefícios de terceiros. Um universo diverso ajuda a atender objetivos sem restrição indevida a instituições vinculadas. Não significa examinar todo instrumento, e numerosas classes de um grupo não estabelecem, por si só, análise independente."
+    ],
+    "blocks": [
+      "EIP-7.1-03-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "No separate advice invoice ______ the absence of economic incentives.",
+      "Ausência de fatura separada de consultoria ______ ausência de incentivos econômicos."
+    ],
+    "options": [
+      [
+        "proves",
+        "prova"
+      ],
+      [
+        "guarantees",
+        "garante"
+      ],
+      [
+        "does not establish",
+        "não estabelece"
+      ],
+      [
+        "is equivalent to",
+        "equivale a"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Provider commissions can fund distribution even without a visible client invoice. Determine who pays and whether the amount is embedded in disclosed product costs or genuinely additional. Neither a direct fee nor a commission alone settles suitability, service quality or the lawful service description.",
+      "Comissões da instituição podem financiar distribuição sem fatura visível ao cliente. Determine quem paga e se o valor está embutido nos custos divulgados ou é adicional. Nem tarifa direta nem comissão isolada resolve adequação, qualidade ou descrição legal do serviço."
+    ],
+    "blocks": [
+      "EIP-7.1-03-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A non-independent distributor discloses an ongoing commission and cites a generic newsletter sent to non-clients as enhanced monitoring. What remains necessary?",
+      "Um distribuidor não independente divulga comissão recorrente e cita boletim genérico enviado a não clientes como monitoramento aprimorado. O que ainda é necessário?"
+    ],
+    "options": [
+      [
+        "Disclosure alone establishes quality enhancement.",
+        "Divulgação sozinha estabelece melhoria de qualidade."
+      ],
+      [
+        "Any positive investment return makes the payment proportionate.",
+        "Qualquer retorno positivo torna o pagamento proporcional."
+      ],
+      [
+        "The client’s account size alone proves the additional service.",
+        "O tamanho da conta sozinho prova o serviço adicional."
+      ],
+      [
+        "Evidence of actual additional or higher-level service for the relevant client and proportionality, alongside other conditions",
+        "Prova de serviço efetivamente adicional ou superior para o cliente pertinente e proporcionalidade, junto às demais condições"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "A monitoring label is not proof that monitoring occurs. The applicable inducement test requires substantive enhancement and client benefit, not just disclosure or a percentage calculation. Ongoing payments need the relevant ongoing benefit. A documented review is relevant evidence but still requires a complete assessment of delivery, proportionality and client interests.",
+      "O rótulo monitoramento não prova sua ocorrência. O teste aplicável exige melhoria substantiva e benefício ao cliente, não apenas divulgação ou cálculo percentual. Pagamentos recorrentes exigem benefício recorrente pertinente. Revisão documentada é prova relevante, mas ainda requer análise completa de entrega, proporcionalidade e interesses do cliente."
+    ],
+    "blocks": [
+      "EIP-7.1-03-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A provider pays a distributor €600 on a €50,000 investment. What percentage and cost conclusion are supported?",
+      "Uma instituição paga €600 ao distribuidor sobre investimento de €50,000. Qual percentual e conclusão de custo são sustentados?"
+    ],
+    "options": [
+      [
+        "1.2%; establish whether it is embedded before adding it to other disclosed costs",
+        "1.2%; verificar se está embutido antes de somar a outros custos divulgados"
+      ],
+      [
+        "0.12%; it must always be added on top",
+        "0.12%; sempre deve ser somado por fora"
+      ],
+      [
+        "12%; no conflict exists without a client invoice",
+        "12%; não existe conflito sem fatura ao cliente"
+      ],
+      [
+        "1.2%; disclosure alone permits retention in every service",
+        "1.2%; divulgação sozinha permite retenção em todo serviço"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "600 / 50,000 = 0.012, or 1.2%. The economic funding must be reconciled to avoid counting an embedded commission twice. Correct arithmetic does not establish permissibility: independent advice and portfolio management have restrictions, while relevant non-independent arrangements have substantive conditions. No direct invoice does not mean no incentive.",
+      "600 / 50,000 = 0.012, ou 1.2%. O financiamento econômico deve ser conciliado para evitar dupla contagem de comissão embutida. Aritmética correta não estabelece permissibilidade: consultoria independente e gestão têm restrições, enquanto regimes não independentes pertinentes têm condições substantivas. Ausência de fatura direta não significa ausência de incentivo."
+    ],
+    "blocks": [
+      "EIP-7.1-03-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €60,000 holding would move from 0.7% to 1.2% annual cost, plus a €300 switch charge. Gross outcomes are identical and no client benefit is established; the distributor earns more. What is the reasoned assessment?",
+      "Uma posição de €60,000 passaria de custo anual de 0.7% para 1.2%, mais €300 pela troca. Resultados brutos são iguais e não se estabeleceu benefício ao cliente; o distribuidor ganha mais. Qual avaliação é fundamentada?"
+    ],
+    "options": [
+      [
+        "Only the €300 switch charge matters because annual percentages are small.",
+        "Apenas os €300 da troca importam porque os percentuais anuais são pequenos."
+      ],
+      [
+        "A simplified €600 first-year disadvantage and a conflict require a client-relevant rationale; signed commission disclosure is insufficient.",
+        "Desvantagem simplificada de €600 no primeiro ano e conflito exigem justificativa pertinente ao cliente; divulgação assinada da comissão é insuficiente."
+      ],
+      [
+        "€720 is the incremental annual disadvantage before switching costs.",
+        "€720 é a desvantagem anual incremental antes dos custos de troca."
+      ],
+      [
+        "The higher commission proves the recommendation is automatically unlawful without further facts.",
+        "A comissão maior prova que a recomendação é automaticamente ilegal sem outros fatos."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The annual difference is 60,000 × (1.2% − 0.7%) = €300. Adding the €300 switch cost gives €600 in the first year on the stipulated constant base. €720 is the new total annual cost, not its increment. The incentive creates a conflict and an unexplained disadvantage, but a legal conclusion requires the actual framework and facts. A genuine client benefit needs evidence, not merely remuneration disclosure.",
+      "A diferença anual é 60,000 × (1.2% − 0.7%) = €300. Somar os €300 da troca dá €600 no primeiro ano na base constante estipulada. €720 é o novo custo anual total, não seu incremento. O incentivo cria conflito e desvantagem inexplicada, mas conclusão jurídica exige regime e fatos efetivos. Benefício real exige prova, não apenas divulgação da remuneração."
+    ],
+    "blocks": [
+      "EIP-7.1-03-B07"
+    ]
+  }
+]

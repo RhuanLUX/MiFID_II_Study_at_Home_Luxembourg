@@ -1,0 +1,167 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Source of funds concerns ______.",
+      "Origem dos recursos trata de ______."
+    ],
+    "options": [
+      [
+        "the origin of the particular money in a transaction or relationship",
+        "a origem do dinheiro específico numa transação ou relação"
+      ],
+      [
+        "only how total lifetime wealth accumulated",
+        "apenas como o patrimônio total foi acumulado na vida"
+      ],
+      [
+        "only the client’s willingness to accept losses",
+        "apenas a disposição do cliente para aceitar perdas"
+      ],
+      [
+        "only whether the representative’s signature is authentic",
+        "apenas se a assinatura do representante é autêntica"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Source of funds explains the specific money; source of wealth concerns overall wealth accumulation. Identity, authority and investment suitability answer other questions. Evidence should connect to the actual receipt, not merely look official or describe an unrelated asset.",
+      "Origem dos recursos explica o dinheiro específico; origem patrimonial trata da acumulação global. Identidade, autoridade e adequação respondem outras questões. A prova precisa conectar-se ao recebimento efetivo, não apenas parecer oficial ou descrever ativo sem relação."
+    ],
+    "blocks": [
+      "EIP-7.2-03-B03"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Higher assessed AML risk ______ criminal activity.",
+      "Maior risco avaliado de lavagem de dinheiro ______ atividade criminosa."
+    ],
+    "options": [
+      [
+        "automatically proves",
+        "prova automaticamente"
+      ],
+      [
+        "does not itself prove",
+        "não prova por si só"
+      ],
+      [
+        "removes the need to examine",
+        "elimina a necessidade de examinar"
+      ],
+      [
+        "is a court finding of",
+        "é conclusão judicial de"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Risk-based controls adjust relevant scrutiny to identified factors. Higher risk is not guilt, while lower risk does not justify abandoning due diligence or ignoring inconsistent activity. A politically exposed person needs applicable enhanced measures, not an automatic accusation or blanket exclusion.",
+      "Controles baseados em risco ajustam a análise aos fatores identificados. Risco maior não é culpa; risco menor não justifica abandonar diligência nem ignorar atividade incoerente. Pessoa politicamente exposta exige medidas reforçadas aplicáveis, não acusação automática nem exclusão indiscriminada."
+    ],
+    "blocks": [
+      "EIP-7.2-03-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A company supplies its director’s passport and registration but leaves ultimate ownership and a third person’s instruction authority unclear. What follows?",
+      "Uma empresa fornece passaporte do diretor e registro, mas deixa incertos propriedade final e poderes de instrução de terceiro. O que decorre?"
+    ],
+    "options": [
+      [
+        "A verified passport resolves all beneficial ownership.",
+        "Passaporte verificado resolve toda propriedade beneficiária."
+      ],
+      [
+        "Large investment size permits bypassing the remaining evidence.",
+        "O grande investimento permite dispensar as provas restantes."
+      ],
+      [
+        "Separate entity, beneficial owner and authorised representative; complete required evidence and escalate unresolved due diligence.",
+        "Separar entidade, beneficiário final e representante autorizado; completar provas exigidas e encaminhar diligência não resolvida."
+      ],
+      [
+        "A standard structure label verifies the entire control chain.",
+        "O rótulo estrutura padrão verifica toda a cadeia de controle."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "One person’s identity does not establish natural-person ownership or authority of another sender. Understand the business, ownership/control chain, purpose and funds through the applicable process. Required due-diligence gaps can restrict relationships or transactions and require reporting consideration by the responsible function. Commercial pressure and a common structure description do not substitute for evidence.",
+      "Identidade de uma pessoa não estabelece propriedade por pessoa física nem autoridade de outro remetente. Entenda negócio, cadeia de propriedade/controle, finalidade e recursos pelo processo aplicável. Lacunas em diligências exigidas podem restringir relações ou operações e exigir consideração de comunicação pela função responsável. Pressão comercial e descrição de estrutura comum não substituem provas."
+    ],
+    "blocks": [
+      "EIP-7.2-03-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €240,000 receipt is described as property proceeds. Evidence supports €210,000; another €30,000 comes from an unrelated company. What is established?",
+      "Um recebimento de €240,000 é descrito como venda de imóvel. A prova sustenta €210,000; outros €30,000 vêm de empresa sem relação. O que foi estabelecido?"
+    ],
+    "options": [
+      [
+        "100% is explained because the total matches the account balance.",
+        "100% está explicado porque o total corresponde ao saldo."
+      ],
+      [
+        "12.5% is explained and 87.5% is missing.",
+        "12.5% está explicado e faltam 87.5%."
+      ],
+      [
+        "12.5% unexplained automatically proves a statutory offence.",
+        "12.5% sem explicação prova automaticamente infração legal."
+      ],
+      [
+        "87.5% is supported by the property evidence; the remaining 12.5% needs appropriate explanation, not an invented legal threshold.",
+        "87.5% é sustentado pela prova imobiliária; os 12.5% restantes exigem explicação adequada, não um limiar jurídico inventado."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "210,000 / 240,000 = 87.5%, leaving €30,000 or 12.5% outside that evidence. Reconcile the additional source through the firm’s procedures and escalate material inconsistencies. These percentages measure evidential coverage, not a legal suspicion threshold or proof of guilt. Preserve both the original explanation and subsequent evidence.",
+      "210,000 / 240,000 = 87.5%, deixando €30,000 ou 12.5% fora dessa prova. Concilie a fonte adicional pelos procedimentos da instituição e encaminhe inconsistências relevantes. Os percentuais medem cobertura probatória, não limiar legal de suspeita nem prova de culpa. Preserve explicação original e provas posteriores."
+    ],
+    "blocks": [
+      "EIP-7.2-03-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A client requests an urgent inconsistent transfer, gives contradictory beneficiary explanations and asks to avoid controls. The adviser has concern requiring escalation but no proof of crime. What is appropriate?",
+      "Um cliente solicita transferência urgente incoerente, dá explicações contraditórias do beneficiário e pede evitar controles. O consultor tem preocupação que exige encaminhamento, mas não prova de crime. O que é adequado?"
+    ],
+    "options": [
+      [
+        "Preserve facts and timing, escalate promptly through confidential designated channels and follow transaction controls without prohibited tipping-off.",
+        "Preservar fatos e horários, encaminhar prontamente pelos canais confidenciais designados e seguir controles sem comunicação proibida ao cliente."
+      ],
+      [
+        "Release the transfer because reporting requires proof of the precise crime.",
+        "Liberar a transferência porque comunicação exige prova do crime exato."
+      ],
+      [
+        "Tell the client a suspicious report exists and suggest changing the beneficiary.",
+        "Dizer ao cliente que existe comunicação suspeita e sugerir trocar beneficiário."
+      ],
+      [
+        "Record privately and delay escalation until a large enough transaction occurs.",
+        "Registrar privadamente e adiar encaminhamento até ocorrer operação suficientemente grande."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The framework can require action on suspicion or reasonable grounds, including attempted suspicious transactions regardless of amount; proof of a precise predicate offence is not a prerequisite. The adviser should use the responsible function promptly and preserve evidence. Do not coach around controls or disclose a report or investigation where prohibited. Concern does not justify publicly accusing the client of a crime.",
+      "O regime pode exigir ação por suspeita ou motivos razoáveis, inclusive tentativas suspeitas de qualquer valor; prova de crime antecedente específico não é requisito. O consultor deve usar prontamente a função responsável e preservar provas. Não ensine a contornar controles nem divulgue comunicação ou investigação quando proibido. Preocupação não justifica acusar publicamente o cliente de crime."
+    ],
+    "blocks": [
+      "EIP-7.2-03-B08"
+    ]
+  }
+]

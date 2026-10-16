@@ -1,0 +1,189 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Standard deviation is the ______ of variance.",
+      "O desvio-padrão é a ______ da variância."
+    ],
+    "options": [
+      [
+        "square",
+        "elevação ao quadrado"
+      ],
+      [
+        "arithmetic mean",
+        "média aritmética"
+      ],
+      [
+        "square root",
+        "raiz quadrada"
+      ],
+      [
+        "reciprocal",
+        "recíproca"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Variance averages squared deviations under the chosen denominator. Taking the square root returns the statistic to the original return units. A decimal variance of 0.01 therefore gives volatility 0.10, or 10%, rather than 1%. Preserve the sample convention and units through every step.",
+      "A variância calcula a média dos desvios ao quadrado sob o denominador escolhido. A raiz quadrada devolve a estatística às unidades originais de retorno. Uma variância decimal de 0.01 dá, portanto, volatilidade de 0.10, ou 10%, não 1%. Preserve a convenção amostral e as unidades em cada etapa."
+    ],
+    "blocks": [
+      "EIP-5.1-02-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which denominator belongs to the usual sample-variance estimator discussed here?",
+      "Qual denominador pertence ao estimador usual de variância amostral discutido aqui?"
+    ],
+    "options": [
+      [
+        "n − 1, under the stated estimation assumptions",
+        "n − 1, sob as hipóteses de estimação informadas"
+      ],
+      [
+        "n, regardless of whether sample or population is intended",
+        "n, independentemente de se pretender amostra ou população"
+      ],
+      [
+        "n + 1, to allow for the future observation",
+        "n + 1, para permitir a observação futura"
+      ],
+      [
+        "the mean return, rather than observation count",
+        "o retorno médio, em vez da quantidade de observações"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The usual sample denominator is n − 1 because estimating the mean constrains the deviations to sum to zero. Describing the full defined population uses N instead. The correction addresses a statistical estimation property; it does not make a small sample representative or guarantee that future variance matches it.",
+      "O denominador amostral usual é n − 1 porque estimar a média restringe os desvios a somar zero. Descrever a população definida inteira usa N. A correção trata de uma propriedade estatística de estimação; não torna uma amostra pequena representativa nem garante que a variância futura coincida."
+    ],
+    "blocks": [
+      "EIP-5.1-02-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A rarely valued asset shows very low historical volatility. Which interpretation is prudent?",
+      "Um ativo avaliado raramente mostra volatilidade histórica muito baixa. Qual interpretação é prudente?"
+    ],
+    "options": [
+      [
+        "Its maximum future loss equals the observed standard deviation.",
+        "Sua perda futura máxima equivale ao desvio-padrão observado."
+      ],
+      [
+        "Its credit and liquidity risks have been eliminated.",
+        "Seus riscos de crédito e liquidez foram eliminados."
+      ],
+      [
+        "No valuation or frequency review is needed once volatility is low.",
+        "Nenhuma revisão de avaliação ou frequência é necessária quando a volatilidade é baixa."
+      ],
+      [
+        "Stale or smoothed values may understate dispersion; valuation and liquidity need separate analysis.",
+        "Valores defasados ou suavizados podem subestimar dispersão; avaliação e liquidez exigem análise separada."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Low recorded movement can reflect infrequent marks rather than low economic risk. Standard deviation summarises a defined sample and treats upward/downward deviations symmetrically; it does not establish a loss ceiling or default safety. Inspect frequency, valuation methods and adverse cash-access scenarios before using it in a client comparison.",
+      "Movimento registrado baixo pode refletir marcações infrequentes, não risco econômico baixo. O desvio-padrão resume uma amostra definida e trata desvios positivos/negativos simetricamente; não estabelece teto de perda nem segurança de crédito. Inspecione frequência, métodos de avaliação e cenários adversos de acesso antes de usá-lo na comparação."
+    ],
+    "blocks": [
+      "EIP-5.1-02-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Annual returns are −10%, 0%, +10% and +20%, mean 5%. Squared decimal deviations sum to 0.05. What sample volatility follows?",
+      "Retornos anuais são −10%, 0%, +10% e +20%, média de 5%. Os desvios decimais ao quadrado somam 0.05. Qual volatilidade amostral decorre?"
+    ],
+    "options": [
+      [
+        "Approximately 11.1803%, using the population denominator",
+        "Aproximadamente 11.1803%, usando denominador populacional"
+      ],
+      [
+        "Approximately 12.9099%, from √(0.05/3)",
+        "Aproximadamente 12.9099%, de √(0.05/3)"
+      ],
+      [
+        "Approximately 1.6667%, reporting variance as volatility",
+        "Aproximadamente 1.6667%, reportando variância como volatilidade"
+      ],
+      [
+        "5%, because the mean equals dispersion",
+        "5%, porque a média equivale à dispersão"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "There are four observations, so sample variance is 0.05/(4 − 1) = 0.0166667. Its square root is 0.129099, or about 12.9099%. Dividing by four gives the different population statistic. Variance is in squared-return units, so it cannot be reported directly as volatility. The result does not guarantee the next return lies within one standard deviation of the mean.",
+      "Há quatro observações, portanto a variância amostral é 0.05/(4 − 1) = 0.0166667. Sua raiz é 0.129099, ou cerca de 12.9099%. Dividir por quatro dá a estatística populacional diferente. A variância está em unidades de retorno ao quadrado e não pode ser reportada diretamente como volatilidade. O resultado não garante que o próximo retorno fique a um desvio da média."
+    ],
+    "blocks": [
+      "EIP-5.1-02-B03"
+    ],
+    "calculation": {
+      "method": "sample_volatility",
+      "inputs": [
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ],
+      "expected": 0.12909944487358055
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Monthly volatility is 2%. Assume the specified model supports square-root-of-time scaling with stable variance and no relevant serial covariance. What annual scale applies to €100,000, and what does it mean?",
+      "A volatilidade mensal é 2%. Suponha que o modelo especificado permita escala pela raiz do tempo, com variância estável e sem covariância serial relevante. Qual escala anual se aplica a €100,000 e o que significa?"
+    ],
+    "options": [
+      [
+        "24%; €24,000, a guaranteed maximum annual loss",
+        "24%; €24,000, perda anual máxima garantida"
+      ],
+      [
+        "2%; €2,000, unchanged because volatility is unit-free",
+        "2%; €2,000, inalterados porque a volatilidade não tem unidade"
+      ],
+      [
+        "Approximately 6.9282%; €6,928.20, a dispersion scale rather than a loss ceiling",
+        "Aproximadamente 6.9282%; €6,928.20, escala de dispersão em vez de teto de perda"
+      ],
+      [
+        "Approximately 26.8242%; €26,824.18, compounding volatility as a return",
+        "Aproximadamente 26.8242%; €26,824.18, capitalizando volatilidade como retorno"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Annual estimate is 0.02 × √12 ≈ 0.069282; on €100,000 the scale is about €6,928.20. Multiplying by twelve or compounding 2% as a return answers the wrong question. This is not a confidence guarantee or maximum loss. Serial covariance and changing variance can invalidate the shortcut, and sample-input uncertainty remains even when the scaling assumptions are stipulated.",
+      "A estimativa anual é 0.02 × √12 ≈ 0.069282; sobre €100,000 a escala é cerca de €6,928.20. Multiplicar por doze ou capitalizar 2% como retorno responde à pergunta errada. Isso não é garantia de confiança nem perda máxima. Covariância serial e variância variável podem invalidar o atalho, e a incerteza do dado amostral permanece mesmo com hipóteses de escala estipuladas."
+    ],
+    "blocks": [
+      "EIP-5.1-02-B07"
+    ],
+    "calculation": {
+      "method": "annual_volatility",
+      "inputs": [
+        0.02,
+        12,
+        100000
+      ],
+      "expected": [
+        0.06928203230275509,
+        6928.203230275509
+      ]
+    }
+  }
+]

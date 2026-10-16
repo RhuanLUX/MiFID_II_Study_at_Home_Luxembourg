@@ -1,0 +1,192 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A customer buys fund units through a bank. What does the sales channel establish?",
+      "Um cliente compra cotas de fundo por um banco. O que o canal de venda demonstra?"
+    ],
+    "options": [
+      [
+        "The units are a bank deposit.",
+        "As cotas são um depósito bancário."
+      ],
+      [
+        "The claim must still be identified from the fund’s structure and terms.",
+        "A natureza do direito ainda deve ser identificada pela estrutura e condições do fundo."
+      ],
+      [
+        "The bank owes every underlying bond payment.",
+        "O banco deve cada pagamento dos títulos subjacentes."
+      ],
+      [
+        "The unit value is contractually fixed.",
+        "O valor da cota é contratualmente fixo."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The selling channel does not determine the legal or economic nature of the product. Fund units represent an interest under the fund structure, generally reflecting portfolio value and costs. A bank deposit is a different claim on the bank; distributing a fund does not turn it into that deposit.",
+      "O canal de venda não determina a natureza jurídica ou econômica do produto. Cotas representam uma participação conforme a estrutura do fundo, geralmente refletindo o valor da carteira e os custos. Um depósito bancário é um direito diferente contra o banco; distribuir um fundo não o transforma nesse depósito."
+    ],
+    "blocks": [
+      "EIP-2.1-01-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A trade confirmation shows agreement of a trade; completed transfer of securities and cash is ______.",
+      "A confirmação demonstra o acordo de uma negociação; a transferência concluída de títulos e dinheiro é a ______."
+    ],
+    "options": [
+      [
+        "execution",
+        "execução"
+      ],
+      [
+        "clearing",
+        "compensação"
+      ],
+      [
+        "custody",
+        "custódia"
+      ],
+      [
+        "settlement",
+        "liquidação"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Execution agrees the trade, clearing determines or manages obligations, and settlement completes the transfer under the applicable arrangements. A confirmation alone does not establish that settlement has occurred. The transaction’s timing and infrastructure must be checked rather than inferred from a generic convention.",
+      "A execução acorda a operação, a compensação determina ou administra obrigações, e a liquidação conclui a transferência conforme os arranjos aplicáveis. Uma confirmação isolada não demonstra que a liquidação ocorreu. O prazo e a infraestrutura da transação devem ser verificados, em vez de inferidos de uma convenção genérica."
+    ],
+    "blocks": [
+      "EIP-2.1-01-B07"
+    ]
+  },
+  {
+    "type": "matching",
+    "prompt": [
+      "Match each role to its distinct function.",
+      "Associe cada papel à sua função distinta."
+    ],
+    "concepts": [
+      [
+        "Bond issuer",
+        "Emissor de título de dívida"
+      ],
+      [
+        "Broker",
+        "Corretora"
+      ],
+      [
+        "Custodian",
+        "Custodiante"
+      ]
+    ],
+    "definitions": [
+      [
+        "Executes or transmits a customer’s order",
+        "Executa ou transmite a ordem de um cliente"
+      ],
+      [
+        "Owes the bond’s contractual payments",
+        "Deve os pagamentos contratuais do título"
+      ],
+      [
+        "Provides safekeeping under the custody arrangements",
+        "Presta guarda conforme os arranjos de custódia"
+      ]
+    ],
+    "answer": [
+      1,
+      0,
+      2
+    ],
+    "explanation": [
+      "The issuer owes the bond payments; a broker executes or transmits orders; a custodian safeguards assets under its arrangements. Execution and safekeeping do not make those providers the issuer of each security. Identifying the actual claim and obligation prevents confusing distribution or custody with repayment responsibility.",
+      "O emissor deve os pagamentos do título; a corretora executa ou transmite ordens; o custodiante guarda ativos conforme seus arranjos. Execução e guarda não tornam esses prestadores emissores de cada título. Identificar o direito e a obrigação efetivos evita confundir distribuição ou custódia com responsabilidade pelo pagamento."
+    ],
+    "blocks": [
+      "EIP-2.1-01-B07",
+      "EIP-2.1-01-B08"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A bank starts with assets 100, liabilities 90 and equity 10 (millions). It creates a loan of 5 by crediting the borrower’s deposit, with no immediate outflow. What is the immediate balance sheet?",
+      "Um banco começa com ativos 100, passivos 90 e patrimônio líquido 10 (milhões). Cria um empréstimo de 5 creditando o depósito do tomador, sem saída imediata. Qual é o balanço imediato?"
+    ],
+    "options": [
+      [
+        "Assets 105, liabilities 95, equity 10",
+        "Ativos 105, passivos 95, patrimônio 10"
+      ],
+      [
+        "Assets 105, liabilities 90, equity 15",
+        "Ativos 105, passivos 90, patrimônio 15"
+      ],
+      [
+        "Assets 100, liabilities 95, equity 5",
+        "Ativos 100, passivos 95, patrimônio 5"
+      ],
+      [
+        "Assets 95, liabilities 90, equity 5",
+        "Ativos 95, passivos 90, patrimônio 5"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The new loan is an asset of 5 and the credited deposit is a liability of 5. Both sides expand while equity remains 10: 105 = 95 + 10. Treating the loan as immediate profit ignores the matching obligation. No payment outflow or recognised loss has yet occurred, so neither reduces assets in this first step.",
+      "O novo empréstimo é um ativo de 5 e o depósito creditado é um passivo de 5. Os dois lados crescem, enquanto o patrimônio permanece 10: 105 = 95 + 10. Tratar o empréstimo como lucro imediato ignora a obrigação correspondente. Ainda não houve saída de pagamento ou perda reconhecida, portanto nenhuma reduz os ativos nesse primeiro passo."
+    ],
+    "blocks": [
+      "EIP-2.1-01-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A fund has €20 million net assets, including a €2 million bond position. Only that position falls 10%; units and other values stay unchanged. What loss reaches a household’s €5,000 holding through this channel?",
+      "Um fundo tem patrimônio líquido de €20 milhões, incluindo €2 milhões em um título de dívida. Apenas essa posição cai 10%; cotas e outros valores não mudam. Qual perda chega à posição de €5,000 de uma família por esse canal?"
+    ],
+    "options": [
+      [
+        "€500, because the bond fell 10%",
+        "€500, porque o título caiu 10%"
+      ],
+      [
+        "€5, because pooling removes most investment risk",
+        "€5, porque o agrupamento elimina a maior parte do risco"
+      ],
+      [
+        "€50, because the fund’s isolated loss is 1%",
+        "€50, porque a perda isolada do fundo é 1%"
+      ],
+      [
+        "Zero, because the household holds units rather than bonds",
+        "Zero, porque a família possui cotas em vez de títulos"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The bond loss is €2,000,000 × 10% = €200,000. Relative to €20,000,000 net assets this is 1%, so the household loses €5,000 × 1% = €50. Applying 10% to the entire holding ignores the fund’s position weight. Units transmit underlying losses rather than eliminate them. This calculation isolates one channel and does not claim other holdings are unaffected in a real shock.",
+      "A perda do título é €2,000,000 × 10% = €200,000. Em relação ao patrimônio de €20,000,000, isso é 1%, portanto a família perde €5,000 × 1% = €50. Aplicar 10% à posição inteira ignora o peso da posição no fundo. Cotas transmitem perdas subjacentes, em vez de eliminá-las. O cálculo isola um canal e não afirma que outras posições permaneceriam inalteradas em um choque real."
+    ],
+    "blocks": [
+      "EIP-2.1-01-B08"
+    ],
+    "calculation": {
+      "method": "weighted_loss",
+      "inputs": [
+        2000000,
+        20000000,
+        0.1,
+        5000
+      ],
+      "expected": 50
+    }
+  }
+]

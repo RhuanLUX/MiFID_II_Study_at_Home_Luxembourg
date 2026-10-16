@@ -1,0 +1,180 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which LuxSE route is described as admission without trading on its two exchange markets?",
+      "Qual rota da LuxSE é descrita como admissão sem negociação em seus dois mercados de bolsa?"
+    ],
+    "options": [
+      [
+        "Bourse de Luxembourg",
+        "Bourse de Luxembourg"
+      ],
+      [
+        "Euro MTF",
+        "Euro MTF"
+      ],
+      [
+        "Every fund redemption arrangement",
+        "Todo arranjo de resgate de fundo"
+      ],
+      [
+        "LuxSE Securities Official List (SOL)",
+        "LuxSE Securities Official List (SOL)"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "LuxSE distinguishes the two trading markets from SOL, its admission-without-trading platform. A SOL entry does not establish an order-book trading route on either market. Other possible transaction routes require separate verification for the particular instrument.",
+      "A LuxSE distingue os dois mercados de negociação da SOL, sua plataforma de admissão sem negociação. Uma entrada na SOL não comprova uma rota de negociação no livro de nenhum dos mercados. Outras rotas possíveis exigem verificação separada para o instrumento específico."
+    ],
+    "blocks": [
+      "EIP-2.3-04-B03"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Bourse de Luxembourg is the ______ market; Euro MTF is a distinct exchange-regulated market.",
+      "A Bourse de Luxembourg é o mercado ______; o Euro MTF é um mercado distinto regulado pela bolsa."
+    ],
+    "options": [
+      [
+        "EU-regulated",
+        "regulamentado pela União Europeia"
+      ],
+      [
+        "admission-without-trading",
+        "de admissão sem negociação"
+      ],
+      [
+        "OTC bilateral",
+        "OTC bilateral"
+      ],
+      [
+        "exchange-regulated MTF",
+        "MTF regulado pela bolsa"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Bourse de Luxembourg is LuxSE’s EU-regulated market. Euro MTF follows a distinct exchange-regulated route. These categories concern admission and regulation, not guaranteed repayment, hedging or client suitability. The full category matters when the ordinary word regulated appears in both descriptions.",
+      "A Bourse de Luxembourg é o mercado da LuxSE regulamentado pela União Europeia. O Euro MTF segue uma rota distinta regulada pela bolsa. Essas categorias dizem respeito à admissão e regulação, não a pagamento garantido, hedge ou adequação ao cliente. A categoria completa importa quando a palavra regulado aparece nas duas descrições."
+    ],
+    "blocks": [
+      "EIP-2.3-04-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A product is displayed on the Luxembourg Green Exchange. What additional conclusion should not be assumed?",
+      "Um produto é exibido na Luxembourg Green Exchange. Qual conclusão adicional não deve ser presumida?"
+    ],
+    "options": [
+      [
+        "Its exact instrument and terms need checking.",
+        "Seu instrumento exato e suas condições precisam ser verificados."
+      ],
+      [
+        "A sustainability display is separate from the legal trading category.",
+        "A exibição de sustentabilidade é separada da categoria jurídica de negociação."
+      ],
+      [
+        "The display guarantees repayment and matching of this client’s sustainability preferences.",
+        "A exibição garante pagamento e correspondência às preferências de sustentabilidade deste cliente."
+      ],
+      [
+        "Executable access must be verified separately.",
+        "O acesso executável deve ser verificado separadamente."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "A sustainability display does not itself guarantee repayment, liquidity or alignment with an individual’s preferences. The legal trading route, product terms and personal assessment remain distinct questions. Checking identifiers and executable conditions is still necessary; a platform label cannot substitute for those checks.",
+      "Uma exibição de sustentabilidade, por si só, não garante pagamento, liquidez ou alinhamento às preferências individuais. A rota jurídica de negociação, as condições do produto e a avaliação pessoal continuam sendo questões distintas. Verificar identificadores e condições executáveis permanece necessário; um rótulo de plataforma não substitui essas verificações."
+    ],
+    "blocks": [
+      "EIP-2.3-04-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A fictional SOL bond has a €100,000 minimum denomination. A client wants €5,000 and their intermediary has no route for it. What follows on these facts?",
+      "Um título fictício da SOL tem denominação mínima de €100,000. Um cliente deseja €5,000 e seu intermediário não tem rota para ele. O que decorre desses fatos?"
+    ],
+    "options": [
+      [
+        "SOL status guarantees immediate execution of €5,000.",
+        "A condição SOL garante execução imediata de €5,000."
+      ],
+      [
+        "The proposed purchase is unavailable as described; denomination and access both prevent it.",
+        "A compra proposta está indisponível como descrita; denominação e acesso a impedem."
+      ],
+      [
+        "Paying a higher price removes the denomination condition.",
+        "Pagar um preço maior elimina a condição de denominação."
+      ],
+      [
+        "Having €100,000 alone would resolve every access and suitability question.",
+        "Ter €100,000, por si só, resolveria toda questão de acesso e adequação."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The desired holding fails this instrument’s assumed denomination, and the intermediary lacks an execution route. SOL admission does not override either fact. Even sufficient money would not automatically establish access or suitability. The €100,000 condition is fictional and instrument-specific here, not a rule asserted for all SOL securities.",
+      "A posição desejada não atende à denominação suposta desse instrumento, e o intermediário não possui rota de execução. A admissão na SOL não supera nenhum dos fatos. Mesmo dinheiro suficiente não demonstraria automaticamente acesso ou adequação. A condição de €100,000 é fictícia e específica do instrumento aqui, não uma regra afirmada para todos os títulos da SOL."
+    ],
+    "blocks": [
+      "EIP-2.3-04-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A fund client owns 100 units, last NAV €120, and needs €12,000. The applicable redemption NAV becomes €118 with a 0.5% charge. Ignoring other costs, what cash and shortfall result, before checking payment timing?",
+      "Um cliente tem 100 cotas de fundo, último valor patrimonial de €120, e precisa de €12,000. O valor aplicável ao resgate torna-se €118, com cobrança de 0.5%. Sem outros custos, quais são o caixa e a insuficiência, antes de verificar o prazo de pagamento?"
+    ],
+    "options": [
+      [
+        "€12,000 cash; no shortfall",
+        "€12,000 de caixa; sem insuficiência"
+      ],
+      [
+        "€11,800 cash; €200 shortfall",
+        "€11,800 de caixa; insuficiência de €200"
+      ],
+      [
+        "€11,940 cash; €60 shortfall",
+        "€11,940 de caixa; insuficiência de €60"
+      ],
+      [
+        "€11,741 cash; €259 shortfall",
+        "€11,741 de caixa; insuficiência de €259"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Gross redemption is 100 × 118 = €11,800. The charge is 11,800 × 0.005 = €59, leaving €11,741 and a €259 gap. €11,800 ignores the charge; €11,940 applies the charge to the stale €12,000 valuation. A daily dealing arrangement does not promise the old NAV or immediate payment; cut-off and settlement terms still matter.",
+      "O resgate bruto é 100 × 118 = €11,800. A cobrança é 11,800 × 0.005 = €59, restando €11,741 e insuficiência de €259. €11,800 ignora a cobrança; €11,940 aplica a cobrança à avaliação anterior de €12,000. Um arranjo de negociação diária não promete o valor anterior ou pagamento imediato; os termos de horário-limite e liquidação ainda importam."
+    ],
+    "blocks": [
+      "EIP-2.3-04-B07"
+    ],
+    "calculation": {
+      "method": "redemption_gap",
+      "inputs": [
+        100,
+        118,
+        0.005,
+        12000
+      ],
+      "expected": [
+        11741,
+        259
+      ]
+    }
+  }
+]

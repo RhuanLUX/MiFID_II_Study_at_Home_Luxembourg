@@ -1,0 +1,196 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "An asset’s price rises while it remains held. What is that increase initially called?",
+      "O preço de um ativo sobe enquanto ele continua em carteira. Como esse aumento é inicialmente chamado?"
+    ],
+    "options": [
+      [
+        "Unrealised gain",
+        "Ganho não realizado"
+      ],
+      [
+        "Realised disposal gain",
+        "Ganho realizado de alienação"
+      ],
+      [
+        "Capital repayment",
+        "Devolução de capital"
+      ],
+      [
+        "Distributed cash income",
+        "Renda distribuída em dinheiro"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "An unrealised gain is a valuation increase before disposal. It differs from realised disposal gain, returned capital and cash income. Its economic presence on a performance statement does not by itself establish its current tax recognition; that requires the applicable event and legal rules.",
+      "Um ganho não realizado é um aumento de avaliação antes da alienação. Ele difere do ganho realizado de venda, da devolução de capital e da renda em dinheiro. Sua presença econômica no relatório de desempenho não demonstra, por si só, reconhecimento tributário atual; isso exige verificar o evento e as regras aplicáveis."
+    ],
+    "blocks": [
+      "EIP-3.2-01-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Withholding describes a collection mechanism; whether it is final or creditable depends on ______.",
+      "A retenção descreve um mecanismo de arrecadação; ser definitiva ou creditável depende de ______."
+    ],
+    "options": [
+      [
+        "the fact that cash entered a bank account",
+        "o dinheiro ter entrado em uma conta bancária"
+      ],
+      [
+        "the gross yield alone",
+        "apenas o rendimento bruto"
+      ],
+      [
+        "the applicable regime and conditions",
+        "o regime e as condições aplicáveis"
+      ],
+      [
+        "the instrument’s marketing name alone",
+        "apenas o nome comercial do instrumento"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Withholding reduces cash before receipt, but its relationship to final tax varies by regime. A creditable advance settles part of a later liability; a final levy follows its own treatment. The gross payment or a statement label cannot decide which rule applies.",
+      "A retenção reduz o caixa antes do recebimento, mas sua relação com o imposto final varia por regime. Um adiantamento creditável quita parte de uma obrigação posterior; uma cobrança definitiva segue seu próprio tratamento. O pagamento bruto ou o rótulo de um extrato não decide qual regra se aplica."
+    ],
+    "blocks": [
+      "EIP-3.2-01-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "For a €1,000 distribution, half the income is exempt and a stipulated 15% withholding still applies to gross income. Before other adjustments, which pair is consistent?",
+      "Para uma distribuição de €1,000, metade da renda é isenta e uma retenção estipulada de 15% ainda incide sobre a renda bruta. Antes de outros ajustes, qual par é consistente?"
+    ],
+    "options": [
+      [
+        "Taxable base €1,000; withholding €75",
+        "Base tributável €1,000; retenção €75"
+      ],
+      [
+        "Taxable base €500; withholding €150",
+        "Base tributável €500; retenção €150"
+      ],
+      [
+        "Taxable base €500; withholding €75",
+        "Base tributável €500; retenção €75"
+      ],
+      [
+        "Taxable base €850; withholding €150",
+        "Base tributável €850; retenção €150"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The stipulated exemption leaves €500 in the base, while the collection assumption takes 15% of gross €1,000 = €150. Exempting part of a base does not automatically halve the gross withholding. €850 is initial cash received, not the taxable base. These assumptions illustrate distinct concepts and do not establish a universal Luxembourg treatment.",
+      "A isenção estipulada deixa €500 na base, enquanto a hipótese de arrecadação retém 15% dos €1,000 brutos = €150. Isentar parte de uma base não reduz automaticamente pela metade a retenção sobre o bruto. €850 é o caixa inicial recebido, não a base tributável. Essas hipóteses ilustram conceitos distintos e não estabelecem um tratamento universal em Luxemburgo."
+    ],
+    "blocks": [
+      "EIP-3.2-01-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "200 shares cost €40 each plus €30 acquisition costs. They pay €200 gross distributions and sell at €44 each with €40 selling costs. What is total economic profit before tax?",
+      "200 ações custam €40 cada, mais €30 de aquisição. Pagam €200 de distribuições brutas e são vendidas a €44 cada, com €40 de custos de venda. Qual é o lucro econômico total antes de impostos?"
+    ],
+    "options": [
+      [
+        "€8,760",
+        "€8,760"
+      ],
+      [
+        "€1,000",
+        "€1,000"
+      ],
+      [
+        "€730",
+        "€730"
+      ],
+      [
+        "€930",
+        "€930"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Initial cash is €8,030 and net sale cash €8,760, so the disposal gain is €730. Add €200 distributions for €930 total profit. €8,760 includes returned invested capital; €1,000 omits the €70 combined costs; €730 omits income. This economic calculation does not itself decide tax-basis cost eligibility or taxable categories.",
+      "O desembolso inicial é €8,030 e o caixa líquido da venda €8,760, portanto o ganho de alienação é €730. Acrescente €200 de distribuições para obter lucro total de €930. €8,760 inclui a recuperação do capital investido; €1,000 omite os custos combinados de €70; €730 omite a renda. Esse cálculo econômico, por si só, não decide a elegibilidade de custos na base fiscal ou as categorias tributáveis."
+    ],
+    "blocks": [
+      "EIP-3.2-01-B04"
+    ],
+    "calculation": {
+      "method": "investment_profit",
+      "inputs": [
+        200,
+        40,
+        30,
+        44,
+        40,
+        200
+      ],
+      "expected": [
+        730,
+        930
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Gross income is €2,400; withholding €360; independently established final liability €480. Only €300 of withholding is legally creditable, with no refund or deduction for the remainder. What is final cash retained?",
+      "A renda bruta é €2,400; a retenção €360; a obrigação final estabelecida separadamente €480. Apenas €300 da retenção são legalmente creditáveis, sem restituição ou dedução do restante. Qual é o caixa final retido?"
+    ],
+    "options": [
+      [
+        "€1,860",
+        "€1,860"
+      ],
+      [
+        "€1,920",
+        "€1,920"
+      ],
+      [
+        "€2,040",
+        "€2,040"
+      ],
+      [
+        "€1,560",
+        "€1,560"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Additional tax is €480 − €300 = €180. Total cash taxes are €360 + €180 = €540, leaving €2,400 − €540 = €1,860. €1,920 wrongly credits the entire withholding; €2,040 ignores reconciliation; €1,560 deducts the full liability without giving the allowed credit. The limited credit is stipulated, not inferred from the withholding percentage.",
+      "O imposto adicional é €480 − €300 = €180. Os impostos pagos em caixa somam €360 + €180 = €540, restando €2,400 − €540 = €1,860. €1,920 credita incorretamente toda a retenção; €2,040 ignora a conciliação; €1,560 deduz a obrigação inteira sem conceder o crédito permitido. O crédito limitado é estipulado, não inferido da porcentagem de retenção."
+    ],
+    "blocks": [
+      "EIP-3.2-01-B06"
+    ],
+    "calculation": {
+      "method": "tax_credit_cash",
+      "inputs": [
+        2400,
+        360,
+        480,
+        300
+      ],
+      "expected": [
+        180,
+        540,
+        1860
+      ]
+    }
+  }
+]

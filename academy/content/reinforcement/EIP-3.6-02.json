@@ -1,0 +1,196 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Initial margin is primarily ______.",
+      "A margem inicial é principalmente ______."
+    ],
+    "options": [
+      [
+        "the full purchase price of the underlying",
+        "o preço integral de compra do subjacente"
+      ],
+      [
+        "an insurance premium limiting all losses",
+        "um prêmio de seguro que limita todas as perdas"
+      ],
+      [
+        "performance collateral supporting obligations",
+        "uma garantia de cumprimento que respalda obrigações"
+      ],
+      [
+        "trading profit recorded on opening",
+        "lucro de negociação registrado na abertura"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Margin supports contract performance under the framework and broker terms. It can be smaller than economic exposure and is not a universal loss cap. Maintenance, replenishment and liquidation rules must be checked; they are not inferred from the initial posted amount.",
+      "A margem respalda o cumprimento do contrato conforme o regime e as condições do intermediário. Pode ser menor que a exposição econômica e não é um limite universal de perda. Regras de manutenção, recomposição e liquidação devem ser verificadas, não inferidas do valor inicialmente depositado."
+    ],
+    "blocks": [
+      "EIP-3.6-02-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Using the convention in this lesson, basis equals ______.",
+      "Usando a convenção desta aula, a base equivale a ______."
+    ],
+    "options": [
+      [
+        "physical spot price minus the chosen futures price",
+        "preço físico à vista menos o preço do futuro escolhido"
+      ],
+      [
+        "initial margin minus maintenance margin",
+        "margem inicial menos margem de manutenção"
+      ],
+      [
+        "futures price minus physical spot price",
+        "preço futuro menos preço físico à vista"
+      ],
+      [
+        "the full notional in every case",
+        "o nocional inteiro em todos os casos"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The lesson explicitly defines basis as spot minus futures. Other markets may quote it differently, so stating the convention is essential. Uncertainty in the final relationship produces basis risk when the chosen derivative does not match the actual asset, date or location perfectly.",
+      "A aula define expressamente a base como à vista menos futuro. Outros mercados podem cotá-la de outro modo, portanto declarar a convenção é essencial. A incerteza na relação final produz risco de base quando o derivativo escolhido não corresponde perfeitamente ao ativo, data ou local efetivos."
+    ],
+    "blocks": [
+      "EIP-3.6-02-B06"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A producer’s short hedge loses €6,000 before its physical sale. The matching sale value is expected to be €6,000 higher. Which conclusion is sound?",
+      "A proteção vendida de um produtor perde €6,000 antes da venda física. Espera-se que o valor da venda correspondente seja €6,000 maior. Qual conclusão é correta?"
+    ],
+    "options": [
+      [
+        "No cash is needed because expected revenue can settle margin immediately.",
+        "Não é necessário dinheiro porque a receita esperada pode liquidar a margem imediatamente."
+      ],
+      [
+        "The €6,000 collateral contribution must be counted as another trading loss.",
+        "A contribuição de garantia de €6,000 deve ser contada como outra perda de negociação."
+      ],
+      [
+        "The hedge eliminates every funding deadline.",
+        "A proteção elimina todo prazo de financiamento."
+      ],
+      [
+        "The terminal economic offset can coexist with a current liquidity need.",
+        "A compensação econômica terminal pode coexistir com uma necessidade atual de liquidez."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "An expected or unrealised physical benefit is not necessarily cash available for variation settlement. The producer may need funding before selling the product. Additional collateral transfers are separate from the underlying trading result. Terminal hedge effectiveness and the ability to maintain the hedge through its cash path must both be assessed.",
+      "Um benefício físico esperado ou não realizado não é necessariamente dinheiro disponível para ajuste. O produtor pode precisar de financiamento antes de vender o produto. Transferências adicionais de garantia são separadas do resultado subjacente de negociação. Devem ser avaliadas tanto a eficácia econômica terminal quanto a capacidade de manter a proteção ao longo de sua trajetória de caixa."
+    ],
+    "blocks": [
+      "EIP-3.6-02-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A seller shorts 1,000 units of a related future at €100. At close, physical sale price is €92 and futures price €95. No costs or financing. What combined proceeds follow?",
+      "Um vendedor vende futuros relacionados de 1,000 unidades a €100. No fechamento, o preço físico de venda é €92 e o futuro €95. Sem custos ou financiamento. Qual recebimento combinado decorre?"
+    ],
+    "options": [
+      [
+        "€100,000 exactly",
+        "€100,000 exatamente"
+      ],
+      [
+        "€97,000, corresponding to final basis −€3 per unit",
+        "€97,000, correspondentes à base final de −€3 por unidade"
+      ],
+      [
+        "€87,000, subtracting the short futures gain",
+        "€87,000, subtraindo o ganho do futuro vendido"
+      ],
+      [
+        "€102,000, using an unrelated final futures price",
+        "€102,000, usando um preço final de futuro diferente"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Physical proceeds are €92,000 and the short futures gain is (100 − 95) × 1,000 = €5,000, totalling €97,000. Final basis is 92 − 95 = −€3; initial future 100 plus basis −3 gives €97 per unit. An exact €100 hedge would require matching terminal prices under the simplified model.",
+      "Os recebimentos físicos são €92,000 e o ganho no futuro vendido é (100 − 95) × 1,000 = €5,000, somando €97,000. A base final é 92 − 95 = −€3; futuro inicial 100 mais base −3 resulta em €97 por unidade. Uma proteção exata de €100 exigiria preços finais correspondentes sob o modelo simplificado."
+    ],
+    "blocks": [
+      "EIP-3.6-02-B07"
+    ],
+    "calculation": {
+      "method": "basis_hedge",
+      "inputs": [
+        1000,
+        100,
+        92,
+        95
+      ],
+      "expected": [
+        97000,
+        -3
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A long future has €20 per point, entered at 1,000. Initial margin €3,000, maintenance €2,400; a breach requires restoration to €3,000. Daily settlements are 980, 960, then closure at 990. No fees. What top-up and final net trading result follow?",
+      "Um futuro comprado tem €20 por ponto, entrada a 1,000. Margem inicial de €3,000, manutenção de €2,400; romper o limite exige recomposição para €3,000. Os ajustes diários são 980, 960 e fechamento a 990. Sem tarifas. Quais aporte adicional e resultado líquido final decorrem?"
+    ],
+    "options": [
+      [
+        "Top-up €400; trading loss €200",
+        "Aporte de €400; perda de negociação de €200"
+      ],
+      [
+        "Top-up €800; trading profit €600",
+        "Aporte de €800; lucro de negociação de €600"
+      ],
+      [
+        "Top-up €800; trading loss €200",
+        "Aporte de €800; perda de negociação de €200"
+      ],
+      [
+        "Top-up €800; trading loss €1,000 including the transfer",
+        "Aporte de €800; perda de negociação de €1,000 incluindo a transferência"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The first two daily losses are €400 each: equity becomes €2,600, then €2,200. Restoration requires €800, not €400. The last move gains €600, leaving €3,600. Total contributed is €3,800, so net loss is €200, also (990 − 1,000) × 20. The final day’s gain is not the whole trade’s gain; the top-up is an external transfer, not another loss. The €800 was nevertheless needed on time.",
+      "As primeiras duas perdas diárias são de €400 cada: o saldo vira €2,600, depois €2,200. Recompor exige €800, não €400. O último movimento ganha €600, restando €3,600. O total aportado é €3,800, portanto a perda líquida é €200, também (990 − 1,000) × 20. O ganho do último dia não é o ganho da operação inteira; o aporte é transferência externa, não outra perda. Ainda assim, os €800 foram necessários no prazo."
+    ],
+    "blocks": [
+      "EIP-3.6-02-B03"
+    ],
+    "calculation": {
+      "method": "margin_path",
+      "inputs": [
+        1000,
+        980,
+        960,
+        990,
+        20,
+        3000,
+        2400
+      ],
+      "expected": [
+        800,
+        -200
+      ]
+    }
+  }
+]

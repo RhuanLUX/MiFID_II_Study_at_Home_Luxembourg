@@ -1,0 +1,187 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "An input shortage that raises production costs is initially what type of shock?",
+      "Uma escassez de insumos que eleva custos de produção é inicialmente qual tipo de choque?"
+    ],
+    "options": [
+      [
+        "A supply shock",
+        "Um choque de oferta"
+      ],
+      [
+        "A demand shock caused initially by greater household willingness to buy",
+        "Um choque de demanda causado inicialmente por maior disposição das famílias para comprar"
+      ],
+      [
+        "Only a change in financing availability",
+        "Apenas uma mudança na disponibilidade de financiamento"
+      ],
+      [
+        "An uncertainty shock involving delayed investment with no initial change in input availability",
+        "Um choque de incerteza envolvendo adiamento do investimento sem mudança inicial na disponibilidade de insumos"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The initial channel is constrained supply or higher production costs. Secondary effects can include weaker real income and demand, but those do not change the identification of the initial shock. Explicitly tracing the chain prevents treating every consequence as the same event.",
+      "O canal inicial é a restrição da oferta ou a elevação de custos de produção. Efeitos secundários podem incluir redução da renda real e da demanda, mas não alteram a identificação do choque inicial. Explicitar a cadeia evita tratar todas as consequências como o mesmo evento."
+    ],
+    "blocks": [
+      "EIP-1.3-03-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A scenario’s output is conditional on its ______.",
+      "O resultado de um cenário depende de suas ______."
+    ],
+    "options": [
+      [
+        "arithmetic precision, which is sufficient to remove uncertainty about inputs",
+        "precisão aritmética, que basta para remover a incerteza sobre os dados"
+      ],
+      [
+        "selected central case, which makes adverse alternatives irrelevant",
+        "caso central selecionado, que torna irrelevantes as alternativas adversas"
+      ],
+      [
+        "assumptions and stated exposures",
+        "hipóteses e exposições declaradas"
+      ],
+      [
+        "being an unconditional forecast",
+        "condição de previsão incondicional"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "A scenario shows consequences under specified assumptions about costs, quantities, financing and behaviour. Numerical precision does not make those assumptions certain. Comparing alternative assumptions reveals sensitivities without pretending that one conditional outcome is a guaranteed forecast.",
+      "Um cenário mostra consequências sob hipóteses específicas sobre custos, quantidades, financiamento e comportamento. A precisão numérica não torna essas hipóteses certas. Comparar hipóteses alternativas revela sensibilidades sem fingir que um resultado condicional é uma previsão garantida."
+    ],
+    "blocks": [
+      "EIP-1.3-03-B06"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A model’s revenue loss already includes fewer units sold after a price rise. What should the analyst avoid?",
+      "A perda de receita do modelo já inclui menos unidades vendidas após uma alta de preço. O que o analista deve evitar?"
+    ],
+    "options": [
+      [
+        "Separating cash-flow changes from required-return changes",
+        "Separar mudanças no fluxo de caixa de mudanças no retorno exigido"
+      ],
+      [
+        "Subtracting the same lost-sales effect again as a separate demand loss",
+        "Subtrair novamente o mesmo efeito de vendas perdidas como uma perda de demanda separada"
+      ],
+      [
+        "Stating which volume and price assumptions were used",
+        "Informar quais hipóteses de volume e preço foram usadas"
+      ],
+      [
+        "Comparing the result with a constant-volume scenario",
+        "Comparar o resultado com um cenário de volume constante"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Subtracting the same sales effect twice exaggerates the loss. A transparent bridge identifies which changes are already included in revenue or contribution. Stating assumptions and comparing a constant-volume case improve analysis; they do not double count. Discount-rate changes belong in valuation and should not be confused with an identical operating cash-flow deduction.",
+      "Subtrair duas vezes o mesmo efeito de vendas exagera a perda. Uma conciliação transparente identifica quais mudanças já estão na receita ou contribuição. Declarar hipóteses e comparar um caso de volume constante melhora a análise; não duplica a contagem. Mudanças na taxa de desconto pertencem à avaliação e não devem ser confundidas com uma dedução operacional idêntica."
+    ],
+    "blocks": [
+      "EIP-1.3-03-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An unhedged exporter receives USD 1,000,000. The quote moves from USD 1.10 per EUR to USD 1.20 per EUR, with costs fixed at €800,000. Which revised margin is correct?",
+      "Uma exportadora sem hedge recebe USD 1,000,000. A cotação passa de USD 1.10 por EUR para USD 1.20 por EUR, com custos fixos de €800,000. Qual margem revisada está correta?"
+    ],
+    "options": [
+      [
+        "€400,000, because dollar revenue is multiplied by 1.20",
+        "€400,000, pois a receita em dólares é multiplicada por 1.20"
+      ],
+      [
+        "€109,090.91, unchanged despite the new quote",
+        "€109,090.91, inalterada apesar da nova cotação"
+      ],
+      [
+        "€200,000, because dollars and euros have the same value",
+        "€200,000, pois dólares e euros têm o mesmo valor"
+      ],
+      [
+        "€33,333.33, because dollar revenue is divided by 1.20",
+        "€33,333.33, pois a receita em dólares é dividida por 1.20"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "USD 1,000,000 ÷ 1.20 USD/EUR = €833,333.33; subtract €800,000 to obtain €33,333.33. The stronger euro reduces the euro proceeds of this fixed dollar receipt. Multiplying uses inconsistent units, while €109,090.91 retains the old quote. The conclusion is specific to this unhedged exposure; different currencies of costs or hedges could change it.",
+      "USD 1,000,000 ÷ 1.20 USD/EUR = €833,333.33; subtraia €800,000 para obter €33,333.33. O euro mais forte reduz o recebimento em euros dessa receita fixa em dólares. Multiplicar usa unidades incompatíveis, enquanto €109,090.91 mantém a cotação anterior. A conclusão é específica dessa exposição sem hedge; custos em outras moedas ou proteções poderiam alterá-la."
+    ],
+    "blocks": [
+      "EIP-1.3-03-B05"
+    ],
+    "calculation": {
+      "method": "fx_margin",
+      "inputs": [
+        1000000,
+        1.2,
+        800000
+      ],
+      "expected": 33333.33333333337
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Initial operating profit is €500,000. Energy expense of €300,000 rises 40%. Price increases add €100,000 revenue at original volume, but lower volume removes €60,000 contribution after variable costs. What is revised profit?",
+      "O lucro operacional inicial é €500,000. A despesa de energia de €300,000 sobe 40%. Reajustes de preço acrescentam €100,000 de receita no volume original, mas o volume menor elimina €60,000 de contribuição após custos variáveis. Qual é o lucro revisado?"
+    ],
+    "options": [
+      [
+        "€380,000",
+        "€380,000"
+      ],
+      [
+        "€480,000",
+        "€480,000"
+      ],
+      [
+        "€420,000",
+        "€420,000"
+      ],
+      [
+        "€120,000",
+        "€120,000"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The incremental energy cost is 300,000 × 0.40 = €120,000. Profit becomes 500,000 − 120,000 + 100,000 − 60,000 = €420,000. €380,000 omits both the price and volume responses; €480,000 ignores lost contribution. Subtracting the entire new €420,000 energy bill again would count the original expense twice and produce €120,000.",
+      "O custo incremental de energia é 300,000 × 0.40 = €120,000. O lucro torna-se 500,000 − 120,000 + 100,000 − 60,000 = €420,000. €380,000 omite as respostas de preço e volume; €480,000 ignora a contribuição perdida. Subtrair novamente toda a nova conta de energia de €420,000 duplicaria a despesa original e produziria €120,000."
+    ],
+    "blocks": [
+      "EIP-1.3-03-B03"
+    ],
+    "calculation": {
+      "method": "shock_profit",
+      "inputs": [
+        500000,
+        300000,
+        0.4,
+        100000,
+        60000
+      ],
+      "expected": 420000
+    }
+  }
+]

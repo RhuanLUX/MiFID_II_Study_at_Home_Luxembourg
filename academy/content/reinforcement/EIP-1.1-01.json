@@ -1,0 +1,182 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Scarcity means that ______.",
+      "Escassez significa que ______."
+    ],
+    "options": [
+      [
+        "resources are finite and have competing uses",
+        "os recursos são finitos e têm usos concorrentes"
+      ],
+      [
+        "a person has no valuable assets",
+        "uma pessoa não tem ativos valiosos"
+      ],
+      [
+        "a preferred investment is always available at a higher price",
+        "um investimento preferido está sempre disponível a um preço maior"
+      ],
+      [
+        "cash expenditure is the only relevant sacrifice",
+        "gasto em dinheiro é o único sacrifício relevante"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Even wealthy people have limited time and capital. Scarcity creates choices among competing uses; it does not mean destitution. Preferences rank feasible choices but cannot make an unavailable product feasible.",
+      "Mesmo pessoas ricas têm tempo e capital limitados. A escassez cria escolhas entre usos concorrentes; não significa miséria. Preferências ordenam escolhas viáveis, mas não tornam viável um produto indisponível."
+    ],
+    "blocks": [
+      "EIP-1.1-01-B01"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which amount best represents opportunity cost?",
+      "Qual valor melhor representa custo de oportunidade?"
+    ],
+    "options": [
+      [
+        "Every possible alternative added together",
+        "Todas as alternativas possíveis somadas"
+      ],
+      [
+        "The value of the best feasible alternative forgone",
+        "O valor da melhor alternativa viável à qual se renuncia"
+      ],
+      [
+        "Only the fee debited from an account",
+        "Somente a tarifa debitada de uma conta"
+      ],
+      [
+        "All irreversible expenditure incurred in the past",
+        "Todo gasto irreversível realizado no passado"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Opportunity cost concerns the next-best use that could actually have been chosen. Mutually exclusive alternatives cannot all be sacrificed together. It may include foregone work or flexibility even when no bank fee appears.",
+      "Custo de oportunidade trata do melhor uso alternativo que efetivamente poderia ter sido escolhido. Alternativas mutuamente exclusivas não podem ser todas sacrificadas juntas. Pode incluir trabalho ou flexibilidade renunciados mesmo sem tarifa bancária."
+    ],
+    "blocks": [
+      "EIP-1.1-01-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A non-refundable €200 booking is already paid. Attending requires another €80 and gives a benefit valued at €50. Compared with cancelling, what is the incremental financial result of attending?",
+      "Uma reserva não reembolsável de €200 já foi paga. Comparecer exige mais €80 e oferece benefício avaliado em €50. Em relação a cancelar, qual é o resultado financeiro incremental de comparecer?"
+    ],
+    "options": [
+      [
+        "A €170 advantage because the booking is recovered",
+        "Vantagem de €170 porque a reserva é recuperada"
+      ],
+      [
+        "A €230 disadvantage including the past booking",
+        "Desvantagem de €230 incluindo a reserva passada"
+      ],
+      [
+        "A €30 disadvantage from the remaining decision",
+        "Desvantagem de €30 decorrente da decisão restante"
+      ],
+      [
+        "A €50 advantage because the future payment is irrelevant",
+        "Vantagem de €50 porque o pagamento futuro é irrelevante"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The remaining choice adds €50 of benefit and €80 of cost: €50 − €80 = −€30. The €200 cannot be recovered under either choice, so counting it only against attendance distorts the comparison. A refundable booking would be a different premise.",
+      "A escolha restante acrescenta €50 de benefício e €80 de custo: €50 − €80 = −€30. Os €200 não podem ser recuperados em nenhuma escolha; contá-los apenas contra comparecer distorce a comparação. Uma reserva reembolsável teria outra premissa."
+    ],
+    "blocks": [
+      "EIP-1.1-01-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Marta needs her €8,000 for a bill in one year. A 3% deposit locks the money for eighteen months. Which reasoning is appropriate before comparing its interest with accessible cash?",
+      "Marta precisa de seus €8,000 para uma conta em um ano. Um depósito de 3% bloqueia o dinheiro por dezoito meses. Qual raciocínio é apropriado antes de comparar seus juros com dinheiro acessível?"
+    ],
+    "options": [
+      [
+        "Choose the deposit because any positive return meets the deadline",
+        "Escolher o depósito porque qualquer retorno positivo atende ao prazo"
+      ],
+      [
+        "Treat eighteen months as one year when calculating the opportunity cost",
+        "Tratar dezoito meses como um ano ao calcular o custo de oportunidade"
+      ],
+      [
+        "Ignore access if the deposit and cash have similar credit exposure",
+        "Ignorar acesso se depósito e caixa têm exposição de crédito semelhante"
+      ],
+      [
+        "Verify a separate funding plan; the locked deposit does not itself meet the bill date",
+        "Verificar um plano separado de financiamento; o depósito bloqueado não atende por si só à data da conta"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Feasibility includes the deadline and contractual access. The deposit cannot fund this bill on its own; bridge financing would add cost and risk. Similar credit exposure does not fix a timing mismatch, and a positive rate is not evidence of timely access.",
+      "Viabilidade inclui prazo e acesso contratual. O depósito não financia essa conta sozinho; financiamento-ponte acrescentaria custo e risco. Exposição de crédito semelhante não corrige um descasamento de prazo, e taxa positiva não comprova acesso no momento necessário."
+    ],
+    "blocks": [
+      "EIP-1.1-01-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A weekend job pays €900 with 80% probability and zero otherwise. Materials of €180 and travel of €70 are paid either way. Alternatively, ten hours of certain work pay €50 per hour without extra costs. Which expected contribution and comparison are correct?",
+      "Um trabalho de fim de semana paga €900 com probabilidade de 80% e zero caso contrário. Materiais de €180 e viagem de €70 são pagos em ambos os casos. Como alternativa, dez horas de trabalho certo pagam €50 por hora sem custos adicionais. Qual contribuição esperada e comparação estão corretas?"
+    ],
+    "options": [
+      [
+        "€650; €150 above the alternative",
+        "€650; €150 acima da alternativa"
+      ],
+      [
+        "€470; €30 below the alternative",
+        "€470; €30 abaixo da alternativa"
+      ],
+      [
+        "€720; €220 above the alternative",
+        "€720; €220 acima da alternativa"
+      ],
+      [
+        "€470; €30 above the alternative",
+        "€470; €30 acima da alternativa"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Expected revenue is 0.80 × €900 = €720. Subtract the €250 expenses incurred regardless of payment: expected contribution is €470, versus €500 for the alternative, a €30 disadvantage. €650 assumes certain payment; €720 omits costs. If no payment arrives, the actual result is −€250, so the expected €470 is not a guaranteed weekend receipt.",
+      "Receita esperada é 0.80 × €900 = €720. Subtraia os €250 de despesas incorridas independentemente do pagamento: contribuição esperada de €470, contra €500 da alternativa, desvantagem de €30. €650 presume pagamento certo; €720 omite custos. Se não houver pagamento, o resultado efetivo é −€250; portanto, os €470 esperados não são recebimento garantido no fim de semana."
+    ],
+    "blocks": [
+      "EIP-1.1-01-B06"
+    ],
+    "calculation": {
+      "method": "expected_job",
+      "inputs": [
+        900,
+        0.8,
+        180,
+        70,
+        10,
+        50
+      ],
+      "expected": [
+        470,
+        -30
+      ]
+    }
+  }
+]

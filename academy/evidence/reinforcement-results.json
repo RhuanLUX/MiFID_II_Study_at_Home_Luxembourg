@@ -1,0 +1,3839 @@
+{
+  "date": "2026-10-16",
+  "build_sha256": "57c7b4a714adac0e8883b5de1117ebb9edfc92a956dffc641340424df7a1da65",
+  "baseline_commit": "e37a85dba742e16bc3e4ca7651d484ee27951966",
+  "lessons": 95,
+  "exercises": 475,
+  "difficulty": {
+    "easy": 190,
+    "intermediate": 190,
+    "challenging": 95
+  },
+  "types": {
+    "fill_blank": 94,
+    "multiple_choice": 165,
+    "scenario": 204,
+    "matching": 12
+  },
+  "approved_lesson_content_preserved": true,
+  "reading_storage_preserved": true,
+  "rows": [
+    {
+      "id": "EIP-1.1-01-R1",
+      "lesson": "EIP-1.1-01",
+      "blocks": [
+        "EIP-1.1-01-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.1-01-R2",
+      "lesson": "EIP-1.1-01",
+      "blocks": [
+        "EIP-1.1-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.1-01-R3",
+      "lesson": "EIP-1.1-01",
+      "blocks": [
+        "EIP-1.1-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.1-01-R4",
+      "lesson": "EIP-1.1-01",
+      "blocks": [
+        "EIP-1.1-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.1-01-R5",
+      "lesson": "EIP-1.1-01",
+      "blocks": [
+        "EIP-1.1-01-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.1-02-R1",
+      "lesson": "EIP-1.1-02",
+      "blocks": [
+        "EIP-1.1-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.1-02-R2",
+      "lesson": "EIP-1.1-02",
+      "blocks": [
+        "EIP-1.1-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.1-02-R3",
+      "lesson": "EIP-1.1-02",
+      "blocks": [
+        "EIP-1.1-02-B05",
+        "EIP-1.1-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.1-02-R4",
+      "lesson": "EIP-1.1-02",
+      "blocks": [
+        "EIP-1.1-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.1-02-R5",
+      "lesson": "EIP-1.1-02",
+      "blocks": [
+        "EIP-1.1-02-B08"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.1-03-R1",
+      "lesson": "EIP-1.1-03",
+      "blocks": [
+        "EIP-1.1-03-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.1-03-R2",
+      "lesson": "EIP-1.1-03",
+      "blocks": [
+        "EIP-1.1-03-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.1-03-R3",
+      "lesson": "EIP-1.1-03",
+      "blocks": [
+        "EIP-1.1-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.1-03-R4",
+      "lesson": "EIP-1.1-03",
+      "blocks": [
+        "EIP-1.1-03-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.1-03-R5",
+      "lesson": "EIP-1.1-03",
+      "blocks": [
+        "EIP-1.1-03-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.2-01-R1",
+      "lesson": "EIP-1.2-01",
+      "blocks": [
+        "EIP-1.2-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.2-01-R2",
+      "lesson": "EIP-1.2-01",
+      "blocks": [
+        "EIP-1.2-01-B03",
+        "EIP-1.2-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.2-01-R3",
+      "lesson": "EIP-1.2-01",
+      "blocks": [
+        "EIP-1.2-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.2-01-R4",
+      "lesson": "EIP-1.2-01",
+      "blocks": [
+        "EIP-1.2-01-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.2-01-R5",
+      "lesson": "EIP-1.2-01",
+      "blocks": [
+        "EIP-1.2-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.2-02-R1",
+      "lesson": "EIP-1.2-02",
+      "blocks": [
+        "EIP-1.2-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.2-02-R2",
+      "lesson": "EIP-1.2-02",
+      "blocks": [
+        "EIP-1.2-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.2-02-R3",
+      "lesson": "EIP-1.2-02",
+      "blocks": [
+        "EIP-1.2-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.2-02-R4",
+      "lesson": "EIP-1.2-02",
+      "blocks": [
+        "EIP-1.2-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.2-02-R5",
+      "lesson": "EIP-1.2-02",
+      "blocks": [
+        "EIP-1.2-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.2-03-R1",
+      "lesson": "EIP-1.2-03",
+      "blocks": [
+        "EIP-1.2-03-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.2-03-R2",
+      "lesson": "EIP-1.2-03",
+      "blocks": [
+        "EIP-1.2-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.2-03-R3",
+      "lesson": "EIP-1.2-03",
+      "blocks": [
+        "EIP-1.2-03-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.2-03-R4",
+      "lesson": "EIP-1.2-03",
+      "blocks": [
+        "EIP-1.2-03-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.2-03-R5",
+      "lesson": "EIP-1.2-03",
+      "blocks": [
+        "EIP-1.2-03-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.3-01-R1",
+      "lesson": "EIP-1.3-01",
+      "blocks": [
+        "EIP-1.3-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.3-01-R2",
+      "lesson": "EIP-1.3-01",
+      "blocks": [
+        "EIP-1.3-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.3-01-R3",
+      "lesson": "EIP-1.3-01",
+      "blocks": [
+        "EIP-1.3-01-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.3-01-R4",
+      "lesson": "EIP-1.3-01",
+      "blocks": [
+        "EIP-1.3-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.3-01-R5",
+      "lesson": "EIP-1.3-01",
+      "blocks": [
+        "EIP-1.3-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.3-02-R1",
+      "lesson": "EIP-1.3-02",
+      "blocks": [
+        "EIP-1.3-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.3-02-R2",
+      "lesson": "EIP-1.3-02",
+      "blocks": [
+        "EIP-1.3-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.3-02-R3",
+      "lesson": "EIP-1.3-02",
+      "blocks": [
+        "EIP-1.3-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.3-02-R4",
+      "lesson": "EIP-1.3-02",
+      "blocks": [
+        "EIP-1.3-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.3-02-R5",
+      "lesson": "EIP-1.3-02",
+      "blocks": [
+        "EIP-1.3-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.3-03-R1",
+      "lesson": "EIP-1.3-03",
+      "blocks": [
+        "EIP-1.3-03-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.3-03-R2",
+      "lesson": "EIP-1.3-03",
+      "blocks": [
+        "EIP-1.3-03-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.3-03-R3",
+      "lesson": "EIP-1.3-03",
+      "blocks": [
+        "EIP-1.3-03-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.3-03-R4",
+      "lesson": "EIP-1.3-03",
+      "blocks": [
+        "EIP-1.3-03-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-1.3-03-R5",
+      "lesson": "EIP-1.3-03",
+      "blocks": [
+        "EIP-1.3-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.1-01-R1",
+      "lesson": "EIP-2.1-01",
+      "blocks": [
+        "EIP-2.1-01-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.1-01-R2",
+      "lesson": "EIP-2.1-01",
+      "blocks": [
+        "EIP-2.1-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.1-01-R3",
+      "lesson": "EIP-2.1-01",
+      "blocks": [
+        "EIP-2.1-01-B07",
+        "EIP-2.1-01-B08"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.1-01-R4",
+      "lesson": "EIP-2.1-01",
+      "blocks": [
+        "EIP-2.1-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.1-01-R5",
+      "lesson": "EIP-2.1-01",
+      "blocks": [
+        "EIP-2.1-01-B08"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.2-01-R1",
+      "lesson": "EIP-2.2-01",
+      "blocks": [
+        "EIP-2.2-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.2-01-R2",
+      "lesson": "EIP-2.2-01",
+      "blocks": [
+        "EIP-2.2-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.2-01-R3",
+      "lesson": "EIP-2.2-01",
+      "blocks": [
+        "EIP-2.2-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.2-01-R4",
+      "lesson": "EIP-2.2-01",
+      "blocks": [
+        "EIP-2.2-01-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.2-01-R5",
+      "lesson": "EIP-2.2-01",
+      "blocks": [
+        "EIP-2.2-01-B08"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-01-R1",
+      "lesson": "EIP-2.3-01",
+      "blocks": [
+        "EIP-2.3-01-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-01-R2",
+      "lesson": "EIP-2.3-01",
+      "blocks": [
+        "EIP-2.3-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-01-R3",
+      "lesson": "EIP-2.3-01",
+      "blocks": [
+        "EIP-2.3-01-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-01-R4",
+      "lesson": "EIP-2.3-01",
+      "blocks": [
+        "EIP-2.3-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-01-R5",
+      "lesson": "EIP-2.3-01",
+      "blocks": [
+        "EIP-2.3-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-02-R1",
+      "lesson": "EIP-2.3-02",
+      "blocks": [
+        "EIP-2.3-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-02-R2",
+      "lesson": "EIP-2.3-02",
+      "blocks": [
+        "EIP-2.3-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-02-R3",
+      "lesson": "EIP-2.3-02",
+      "blocks": [
+        "EIP-2.3-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-02-R4",
+      "lesson": "EIP-2.3-02",
+      "blocks": [
+        "EIP-2.3-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-02-R5",
+      "lesson": "EIP-2.3-02",
+      "blocks": [
+        "EIP-2.3-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-03-R1",
+      "lesson": "EIP-2.3-03",
+      "blocks": [
+        "EIP-2.3-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-03-R2",
+      "lesson": "EIP-2.3-03",
+      "blocks": [
+        "EIP-2.3-03-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-03-R3",
+      "lesson": "EIP-2.3-03",
+      "blocks": [
+        "EIP-2.3-03-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-03-R4",
+      "lesson": "EIP-2.3-03",
+      "blocks": [
+        "EIP-2.3-03-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-03-R5",
+      "lesson": "EIP-2.3-03",
+      "blocks": [
+        "EIP-2.3-03-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-04-R1",
+      "lesson": "EIP-2.3-04",
+      "blocks": [
+        "EIP-2.3-04-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-04-R2",
+      "lesson": "EIP-2.3-04",
+      "blocks": [
+        "EIP-2.3-04-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-04-R3",
+      "lesson": "EIP-2.3-04",
+      "blocks": [
+        "EIP-2.3-04-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-04-R4",
+      "lesson": "EIP-2.3-04",
+      "blocks": [
+        "EIP-2.3-04-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-2.3-04-R5",
+      "lesson": "EIP-2.3-04",
+      "blocks": [
+        "EIP-2.3-04-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.1-02-R1",
+      "lesson": "EIP-3.1-02",
+      "blocks": [
+        "EIP-3.1-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.1-02-R2",
+      "lesson": "EIP-3.1-02",
+      "blocks": [
+        "EIP-3.1-02-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.1-02-R3",
+      "lesson": "EIP-3.1-02",
+      "blocks": [
+        "EIP-3.1-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.1-02-R4",
+      "lesson": "EIP-3.1-02",
+      "blocks": [
+        "EIP-3.1-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.1-02-R5",
+      "lesson": "EIP-3.1-02",
+      "blocks": [
+        "EIP-3.1-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.1-A-R1",
+      "lesson": "EIP-3.1-A",
+      "blocks": [
+        "TVM-T2"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.1-A-R2",
+      "lesson": "EIP-3.1-A",
+      "blocks": [
+        "TVM-T1",
+        "TVM-C"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.1-A-R3",
+      "lesson": "EIP-3.1-A",
+      "blocks": [
+        "TVM-T3",
+        "TVM-T4"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.1-A-R4",
+      "lesson": "EIP-3.1-A",
+      "blocks": [
+        "TVM-T3"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.1-A-R5",
+      "lesson": "EIP-3.1-A",
+      "blocks": [
+        "TVM-E2",
+        "TVM-P"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.10-01-R1",
+      "lesson": "EIP-3.10-01",
+      "blocks": [
+        "EIP-3.10-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.10-01-R2",
+      "lesson": "EIP-3.10-01",
+      "blocks": [
+        "EIP-3.10-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.10-01-R3",
+      "lesson": "EIP-3.10-01",
+      "blocks": [
+        "EIP-3.10-01-B08"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.10-01-R4",
+      "lesson": "EIP-3.10-01",
+      "blocks": [
+        "EIP-3.10-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.10-01-R5",
+      "lesson": "EIP-3.10-01",
+      "blocks": [
+        "EIP-3.10-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.10-02-R1",
+      "lesson": "EIP-3.10-02",
+      "blocks": [
+        "EIP-3.10-02-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.10-02-R2",
+      "lesson": "EIP-3.10-02",
+      "blocks": [
+        "EIP-3.10-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.10-02-R3",
+      "lesson": "EIP-3.10-02",
+      "blocks": [
+        "EIP-3.10-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.10-02-R4",
+      "lesson": "EIP-3.10-02",
+      "blocks": [
+        "EIP-3.10-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.10-02-R5",
+      "lesson": "EIP-3.10-02",
+      "blocks": [
+        "EIP-3.10-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.2-01-R1",
+      "lesson": "EIP-3.2-01",
+      "blocks": [
+        "EIP-3.2-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.2-01-R2",
+      "lesson": "EIP-3.2-01",
+      "blocks": [
+        "EIP-3.2-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.2-01-R3",
+      "lesson": "EIP-3.2-01",
+      "blocks": [
+        "EIP-3.2-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.2-01-R4",
+      "lesson": "EIP-3.2-01",
+      "blocks": [
+        "EIP-3.2-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.2-01-R5",
+      "lesson": "EIP-3.2-01",
+      "blocks": [
+        "EIP-3.2-01-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.2-02-R1",
+      "lesson": "EIP-3.2-02",
+      "blocks": [
+        "EIP-3.2-02-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.2-02-R2",
+      "lesson": "EIP-3.2-02",
+      "blocks": [
+        "EIP-3.2-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.2-02-R3",
+      "lesson": "EIP-3.2-02",
+      "blocks": [
+        "EIP-3.2-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.2-02-R4",
+      "lesson": "EIP-3.2-02",
+      "blocks": [
+        "EIP-3.2-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.2-02-R5",
+      "lesson": "EIP-3.2-02",
+      "blocks": [
+        "EIP-3.2-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.2-03-R1",
+      "lesson": "EIP-3.2-03",
+      "blocks": [
+        "EIP-3.2-03-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.2-03-R2",
+      "lesson": "EIP-3.2-03",
+      "blocks": [
+        "EIP-3.2-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.2-03-R3",
+      "lesson": "EIP-3.2-03",
+      "blocks": [
+        "EIP-3.2-03-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.2-03-R4",
+      "lesson": "EIP-3.2-03",
+      "blocks": [
+        "EIP-3.2-03-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.2-03-R5",
+      "lesson": "EIP-3.2-03",
+      "blocks": [
+        "EIP-3.2-03-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-01-R1",
+      "lesson": "EIP-3.3-01",
+      "blocks": [
+        "EIP-3.3-01-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-01-R2",
+      "lesson": "EIP-3.3-01",
+      "blocks": [
+        "EIP-3.3-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-01-R3",
+      "lesson": "EIP-3.3-01",
+      "blocks": [
+        "EIP-3.3-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-01-R4",
+      "lesson": "EIP-3.3-01",
+      "blocks": [
+        "EIP-3.3-01-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-01-R5",
+      "lesson": "EIP-3.3-01",
+      "blocks": [
+        "EIP-3.3-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-02-R1",
+      "lesson": "EIP-3.3-02",
+      "blocks": [
+        "EIP-3.3-02-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-02-R2",
+      "lesson": "EIP-3.3-02",
+      "blocks": [
+        "EIP-3.3-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-02-R3",
+      "lesson": "EIP-3.3-02",
+      "blocks": [
+        "EIP-3.3-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-02-R4",
+      "lesson": "EIP-3.3-02",
+      "blocks": [
+        "EIP-3.3-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-02-R5",
+      "lesson": "EIP-3.3-02",
+      "blocks": [
+        "EIP-3.3-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-03-R1",
+      "lesson": "EIP-3.3-03",
+      "blocks": [
+        "EIP-3.3-03-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-03-R2",
+      "lesson": "EIP-3.3-03",
+      "blocks": [
+        "EIP-3.3-03-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-03-R3",
+      "lesson": "EIP-3.3-03",
+      "blocks": [
+        "EIP-3.3-03-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-03-R4",
+      "lesson": "EIP-3.3-03",
+      "blocks": [
+        "EIP-3.3-03-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-03-R5",
+      "lesson": "EIP-3.3-03",
+      "blocks": [
+        "EIP-3.3-03-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-04-R1",
+      "lesson": "EIP-3.3-04",
+      "blocks": [
+        "EIP-3.3-04-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-04-R2",
+      "lesson": "EIP-3.3-04",
+      "blocks": [
+        "EIP-3.3-04-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-04-R3",
+      "lesson": "EIP-3.3-04",
+      "blocks": [
+        "EIP-3.3-04-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-04-R4",
+      "lesson": "EIP-3.3-04",
+      "blocks": [
+        "EIP-3.3-04-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.3-04-R5",
+      "lesson": "EIP-3.3-04",
+      "blocks": [
+        "EIP-3.3-04-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-02-R1",
+      "lesson": "EIP-3.4-02",
+      "blocks": [
+        "EIP-3.4-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-02-R2",
+      "lesson": "EIP-3.4-02",
+      "blocks": [
+        "EIP-3.4-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-02-R3",
+      "lesson": "EIP-3.4-02",
+      "blocks": [
+        "EIP-3.4-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-02-R4",
+      "lesson": "EIP-3.4-02",
+      "blocks": [
+        "EIP-3.4-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-02-R5",
+      "lesson": "EIP-3.4-02",
+      "blocks": [
+        "EIP-3.4-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-03-R1",
+      "lesson": "EIP-3.4-03",
+      "blocks": [
+        "EIP-3.4-03-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-03-R2",
+      "lesson": "EIP-3.4-03",
+      "blocks": [
+        "EIP-3.4-03-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-03-R3",
+      "lesson": "EIP-3.4-03",
+      "blocks": [
+        "EIP-3.4-03-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-03-R4",
+      "lesson": "EIP-3.4-03",
+      "blocks": [
+        "EIP-3.4-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-03-R5",
+      "lesson": "EIP-3.4-03",
+      "blocks": [
+        "EIP-3.4-03-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-04-R1",
+      "lesson": "EIP-3.4-04",
+      "blocks": [
+        "EIP-3.4-04-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-04-R2",
+      "lesson": "EIP-3.4-04",
+      "blocks": [
+        "EIP-3.4-04-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-04-R3",
+      "lesson": "EIP-3.4-04",
+      "blocks": [
+        "EIP-3.4-04-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-04-R4",
+      "lesson": "EIP-3.4-04",
+      "blocks": [
+        "EIP-3.4-04-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-04-R5",
+      "lesson": "EIP-3.4-04",
+      "blocks": [
+        "EIP-3.4-04-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-05-R1",
+      "lesson": "EIP-3.4-05",
+      "blocks": [
+        "EIP-3.4-05-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-05-R2",
+      "lesson": "EIP-3.4-05",
+      "blocks": [
+        "EIP-3.4-05-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-05-R3",
+      "lesson": "EIP-3.4-05",
+      "blocks": [
+        "EIP-3.4-05-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-05-R4",
+      "lesson": "EIP-3.4-05",
+      "blocks": [
+        "EIP-3.4-05-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-05-R5",
+      "lesson": "EIP-3.4-05",
+      "blocks": [
+        "EIP-3.4-05-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-06-R1",
+      "lesson": "EIP-3.4-06",
+      "blocks": [
+        "EIP-3.4-06-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-06-R2",
+      "lesson": "EIP-3.4-06",
+      "blocks": [
+        "EIP-3.4-06-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-06-R3",
+      "lesson": "EIP-3.4-06",
+      "blocks": [
+        "EIP-3.4-06-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-06-R4",
+      "lesson": "EIP-3.4-06",
+      "blocks": [
+        "EIP-3.4-06-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-06-R5",
+      "lesson": "EIP-3.4-06",
+      "blocks": [
+        "EIP-3.4-06-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-07-R1",
+      "lesson": "EIP-3.4-07",
+      "blocks": [
+        "EIP-3.4-07-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-07-R2",
+      "lesson": "EIP-3.4-07",
+      "blocks": [
+        "EIP-3.4-07-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-07-R3",
+      "lesson": "EIP-3.4-07",
+      "blocks": [
+        "EIP-3.4-07-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-07-R4",
+      "lesson": "EIP-3.4-07",
+      "blocks": [
+        "EIP-3.4-07-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-07-R5",
+      "lesson": "EIP-3.4-07",
+      "blocks": [
+        "EIP-3.4-07-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-A-R1",
+      "lesson": "EIP-3.4-A",
+      "blocks": [
+        "BOND-T4"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-A-R2",
+      "lesson": "EIP-3.4-A",
+      "blocks": [
+        "BOND-T1"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-A-R3",
+      "lesson": "EIP-3.4-A",
+      "blocks": [
+        "BOND-T2"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-A-R4",
+      "lesson": "EIP-3.4-A",
+      "blocks": [
+        "BOND-E1"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.4-A-R5",
+      "lesson": "EIP-3.4-A",
+      "blocks": [
+        "BOND-E2",
+        "BOND-T3"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-01-R1",
+      "lesson": "EIP-3.5-01",
+      "blocks": [
+        "EIP-3.5-01-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-01-R2",
+      "lesson": "EIP-3.5-01",
+      "blocks": [
+        "EIP-3.5-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-01-R3",
+      "lesson": "EIP-3.5-01",
+      "blocks": [
+        "EIP-3.5-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-01-R4",
+      "lesson": "EIP-3.5-01",
+      "blocks": [
+        "EIP-3.5-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-01-R5",
+      "lesson": "EIP-3.5-01",
+      "blocks": [
+        "EIP-3.5-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-02-R1",
+      "lesson": "EIP-3.5-02",
+      "blocks": [
+        "EIP-3.5-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-02-R2",
+      "lesson": "EIP-3.5-02",
+      "blocks": [
+        "EIP-3.5-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-02-R3",
+      "lesson": "EIP-3.5-02",
+      "blocks": [
+        "EIP-3.5-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-02-R4",
+      "lesson": "EIP-3.5-02",
+      "blocks": [
+        "EIP-3.5-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-02-R5",
+      "lesson": "EIP-3.5-02",
+      "blocks": [
+        "EIP-3.5-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-03-R1",
+      "lesson": "EIP-3.5-03",
+      "blocks": [
+        "EIP-3.5-03-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-03-R2",
+      "lesson": "EIP-3.5-03",
+      "blocks": [
+        "EIP-3.5-03-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-03-R3",
+      "lesson": "EIP-3.5-03",
+      "blocks": [
+        "EIP-3.5-03-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-03-R4",
+      "lesson": "EIP-3.5-03",
+      "blocks": [
+        "EIP-3.5-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-03-R5",
+      "lesson": "EIP-3.5-03",
+      "blocks": [
+        "EIP-3.5-03-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-04-R1",
+      "lesson": "EIP-3.5-04",
+      "blocks": [
+        "EIP-3.5-04-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-04-R2",
+      "lesson": "EIP-3.5-04",
+      "blocks": [
+        "EIP-3.5-04-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-04-R3",
+      "lesson": "EIP-3.5-04",
+      "blocks": [
+        "EIP-3.5-04-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-04-R4",
+      "lesson": "EIP-3.5-04",
+      "blocks": [
+        "EIP-3.5-04-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-04-R5",
+      "lesson": "EIP-3.5-04",
+      "blocks": [
+        "EIP-3.5-04-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-05-R1",
+      "lesson": "EIP-3.5-05",
+      "blocks": [
+        "EIP-3.5-05-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-05-R2",
+      "lesson": "EIP-3.5-05",
+      "blocks": [
+        "EIP-3.5-05-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-05-R3",
+      "lesson": "EIP-3.5-05",
+      "blocks": [
+        "EIP-3.5-05-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-05-R4",
+      "lesson": "EIP-3.5-05",
+      "blocks": [
+        "EIP-3.5-05-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.5-05-R5",
+      "lesson": "EIP-3.5-05",
+      "blocks": [
+        "EIP-3.5-05-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-01-R1",
+      "lesson": "EIP-3.6-01",
+      "blocks": [
+        "EIP-3.6-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-01-R2",
+      "lesson": "EIP-3.6-01",
+      "blocks": [
+        "EIP-3.6-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-01-R3",
+      "lesson": "EIP-3.6-01",
+      "blocks": [
+        "EIP-3.6-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-01-R4",
+      "lesson": "EIP-3.6-01",
+      "blocks": [
+        "EIP-3.6-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-01-R5",
+      "lesson": "EIP-3.6-01",
+      "blocks": [
+        "EIP-3.6-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-02-R1",
+      "lesson": "EIP-3.6-02",
+      "blocks": [
+        "EIP-3.6-02-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-02-R2",
+      "lesson": "EIP-3.6-02",
+      "blocks": [
+        "EIP-3.6-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-02-R3",
+      "lesson": "EIP-3.6-02",
+      "blocks": [
+        "EIP-3.6-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-02-R4",
+      "lesson": "EIP-3.6-02",
+      "blocks": [
+        "EIP-3.6-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-02-R5",
+      "lesson": "EIP-3.6-02",
+      "blocks": [
+        "EIP-3.6-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-03-R1",
+      "lesson": "EIP-3.6-03",
+      "blocks": [
+        "EIP-3.6-03-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-03-R2",
+      "lesson": "EIP-3.6-03",
+      "blocks": [
+        "EIP-3.6-03-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-03-R3",
+      "lesson": "EIP-3.6-03",
+      "blocks": [
+        "EIP-3.6-03-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-03-R4",
+      "lesson": "EIP-3.6-03",
+      "blocks": [
+        "EIP-3.6-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-03-R5",
+      "lesson": "EIP-3.6-03",
+      "blocks": [
+        "EIP-3.6-03-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-04-R1",
+      "lesson": "EIP-3.6-04",
+      "blocks": [
+        "EIP-3.6-04-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-04-R2",
+      "lesson": "EIP-3.6-04",
+      "blocks": [
+        "EIP-3.6-04-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-04-R3",
+      "lesson": "EIP-3.6-04",
+      "blocks": [
+        "EIP-3.6-04-B08"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-04-R4",
+      "lesson": "EIP-3.6-04",
+      "blocks": [
+        "EIP-3.6-04-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-04-R5",
+      "lesson": "EIP-3.6-04",
+      "blocks": [
+        "EIP-3.6-04-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-05-R1",
+      "lesson": "EIP-3.6-05",
+      "blocks": [
+        "EIP-3.6-05-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-05-R2",
+      "lesson": "EIP-3.6-05",
+      "blocks": [
+        "EIP-3.6-05-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-05-R3",
+      "lesson": "EIP-3.6-05",
+      "blocks": [
+        "EIP-3.6-05-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-05-R4",
+      "lesson": "EIP-3.6-05",
+      "blocks": [
+        "EIP-3.6-05-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-05-R5",
+      "lesson": "EIP-3.6-05",
+      "blocks": [
+        "EIP-3.6-05-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-06-R1",
+      "lesson": "EIP-3.6-06",
+      "blocks": [
+        "EIP-3.6-06-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-06-R2",
+      "lesson": "EIP-3.6-06",
+      "blocks": [
+        "EIP-3.6-06-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-06-R3",
+      "lesson": "EIP-3.6-06",
+      "blocks": [
+        "EIP-3.6-06-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-06-R4",
+      "lesson": "EIP-3.6-06",
+      "blocks": [
+        "EIP-3.6-06-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.6-06-R5",
+      "lesson": "EIP-3.6-06",
+      "blocks": [
+        "EIP-3.6-06-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-01-R1",
+      "lesson": "EIP-3.7-01",
+      "blocks": [
+        "EIP-3.7-01-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-01-R2",
+      "lesson": "EIP-3.7-01",
+      "blocks": [
+        "EIP-3.7-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-01-R3",
+      "lesson": "EIP-3.7-01",
+      "blocks": [
+        "EIP-3.7-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-01-R4",
+      "lesson": "EIP-3.7-01",
+      "blocks": [
+        "EIP-3.7-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-01-R5",
+      "lesson": "EIP-3.7-01",
+      "blocks": [
+        "EIP-3.7-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-02-R1",
+      "lesson": "EIP-3.7-02",
+      "blocks": [
+        "EIP-3.7-02-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-02-R2",
+      "lesson": "EIP-3.7-02",
+      "blocks": [
+        "EIP-3.7-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-02-R3",
+      "lesson": "EIP-3.7-02",
+      "blocks": [
+        "EIP-3.7-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-02-R4",
+      "lesson": "EIP-3.7-02",
+      "blocks": [
+        "EIP-3.7-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-02-R5",
+      "lesson": "EIP-3.7-02",
+      "blocks": [
+        "EIP-3.7-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-03-R1",
+      "lesson": "EIP-3.7-03",
+      "blocks": [
+        "EIP-3.7-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-03-R2",
+      "lesson": "EIP-3.7-03",
+      "blocks": [
+        "EIP-3.7-03-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-03-R3",
+      "lesson": "EIP-3.7-03",
+      "blocks": [
+        "EIP-3.7-03-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-03-R4",
+      "lesson": "EIP-3.7-03",
+      "blocks": [
+        "EIP-3.7-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-03-R5",
+      "lesson": "EIP-3.7-03",
+      "blocks": [
+        "EIP-3.7-03-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-04-R1",
+      "lesson": "EIP-3.7-04",
+      "blocks": [
+        "EIP-3.7-04-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-04-R2",
+      "lesson": "EIP-3.7-04",
+      "blocks": [
+        "EIP-3.7-04-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-04-R3",
+      "lesson": "EIP-3.7-04",
+      "blocks": [
+        "EIP-3.7-04-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-04-R4",
+      "lesson": "EIP-3.7-04",
+      "blocks": [
+        "EIP-3.7-04-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.7-04-R5",
+      "lesson": "EIP-3.7-04",
+      "blocks": [
+        "EIP-3.7-04-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-01-R1",
+      "lesson": "EIP-3.8-01",
+      "blocks": [
+        "EIP-3.8-01-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-01-R2",
+      "lesson": "EIP-3.8-01",
+      "blocks": [
+        "EIP-3.8-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-01-R3",
+      "lesson": "EIP-3.8-01",
+      "blocks": [
+        "EIP-3.8-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-01-R4",
+      "lesson": "EIP-3.8-01",
+      "blocks": [
+        "EIP-3.8-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-01-R5",
+      "lesson": "EIP-3.8-01",
+      "blocks": [
+        "EIP-3.8-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-02-R1",
+      "lesson": "EIP-3.8-02",
+      "blocks": [
+        "EIP-3.8-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-02-R2",
+      "lesson": "EIP-3.8-02",
+      "blocks": [
+        "EIP-3.8-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-02-R3",
+      "lesson": "EIP-3.8-02",
+      "blocks": [
+        "EIP-3.8-02-B01",
+        "EIP-3.8-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-02-R4",
+      "lesson": "EIP-3.8-02",
+      "blocks": [
+        "EIP-3.8-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-02-R5",
+      "lesson": "EIP-3.8-02",
+      "blocks": [
+        "EIP-3.8-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-03-R1",
+      "lesson": "EIP-3.8-03",
+      "blocks": [
+        "EIP-3.8-03-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-03-R2",
+      "lesson": "EIP-3.8-03",
+      "blocks": [
+        "EIP-3.8-03-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-03-R3",
+      "lesson": "EIP-3.8-03",
+      "blocks": [
+        "EIP-3.8-03-B02",
+        "EIP-3.8-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-03-R4",
+      "lesson": "EIP-3.8-03",
+      "blocks": [
+        "EIP-3.8-03-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-03-R5",
+      "lesson": "EIP-3.8-03",
+      "blocks": [
+        "EIP-3.8-03-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-04-R1",
+      "lesson": "EIP-3.8-04",
+      "blocks": [
+        "EIP-3.8-04-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-04-R2",
+      "lesson": "EIP-3.8-04",
+      "blocks": [
+        "EIP-3.8-04-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-04-R3",
+      "lesson": "EIP-3.8-04",
+      "blocks": [
+        "EIP-3.8-04-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-04-R4",
+      "lesson": "EIP-3.8-04",
+      "blocks": [
+        "EIP-3.8-04-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-04-R5",
+      "lesson": "EIP-3.8-04",
+      "blocks": [
+        "EIP-3.8-04-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-05-R1",
+      "lesson": "EIP-3.8-05",
+      "blocks": [
+        "EIP-3.8-05-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-05-R2",
+      "lesson": "EIP-3.8-05",
+      "blocks": [
+        "EIP-3.8-05-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-05-R3",
+      "lesson": "EIP-3.8-05",
+      "blocks": [
+        "EIP-3.8-05-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-05-R4",
+      "lesson": "EIP-3.8-05",
+      "blocks": [
+        "EIP-3.8-05-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-05-R5",
+      "lesson": "EIP-3.8-05",
+      "blocks": [
+        "EIP-3.8-05-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-06-R1",
+      "lesson": "EIP-3.8-06",
+      "blocks": [
+        "EIP-3.8-06-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-06-R2",
+      "lesson": "EIP-3.8-06",
+      "blocks": [
+        "EIP-3.8-06-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-06-R3",
+      "lesson": "EIP-3.8-06",
+      "blocks": [
+        "EIP-3.8-06-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-06-R4",
+      "lesson": "EIP-3.8-06",
+      "blocks": [
+        "EIP-3.8-06-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.8-06-R5",
+      "lesson": "EIP-3.8-06",
+      "blocks": [
+        "EIP-3.8-06-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.9-01-R1",
+      "lesson": "EIP-3.9-01",
+      "blocks": [
+        "EIP-3.9-01-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.9-01-R2",
+      "lesson": "EIP-3.9-01",
+      "blocks": [
+        "EIP-3.9-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.9-01-R3",
+      "lesson": "EIP-3.9-01",
+      "blocks": [
+        "EIP-3.9-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.9-01-R4",
+      "lesson": "EIP-3.9-01",
+      "blocks": [
+        "EIP-3.9-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.9-01-R5",
+      "lesson": "EIP-3.9-01",
+      "blocks": [
+        "EIP-3.9-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.9-02-R1",
+      "lesson": "EIP-3.9-02",
+      "blocks": [
+        "EIP-3.9-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.9-02-R2",
+      "lesson": "EIP-3.9-02",
+      "blocks": [
+        "EIP-3.9-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.9-02-R3",
+      "lesson": "EIP-3.9-02",
+      "blocks": [
+        "EIP-3.9-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.9-02-R4",
+      "lesson": "EIP-3.9-02",
+      "blocks": [
+        "EIP-3.9-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.9-02-R5",
+      "lesson": "EIP-3.9-02",
+      "blocks": [
+        "EIP-3.9-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.9-03-R1",
+      "lesson": "EIP-3.9-03",
+      "blocks": [
+        "EIP-3.9-03-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.9-03-R2",
+      "lesson": "EIP-3.9-03",
+      "blocks": [
+        "EIP-3.9-03-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.9-03-R3",
+      "lesson": "EIP-3.9-03",
+      "blocks": [
+        "EIP-3.9-03-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.9-03-R4",
+      "lesson": "EIP-3.9-03",
+      "blocks": [
+        "EIP-3.9-03-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-3.9-03-R5",
+      "lesson": "EIP-3.9-03",
+      "blocks": [
+        "EIP-3.9-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-02-R1",
+      "lesson": "EIP-4.1-02",
+      "blocks": [
+        "EIP-4.1-02-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-02-R2",
+      "lesson": "EIP-4.1-02",
+      "blocks": [
+        "EIP-4.1-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-02-R3",
+      "lesson": "EIP-4.1-02",
+      "blocks": [
+        "EIP-4.1-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-02-R4",
+      "lesson": "EIP-4.1-02",
+      "blocks": [
+        "EIP-4.1-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-02-R5",
+      "lesson": "EIP-4.1-02",
+      "blocks": [
+        "EIP-4.1-02-B08"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-03-R1",
+      "lesson": "EIP-4.1-03",
+      "blocks": [
+        "EIP-4.1-03-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-03-R2",
+      "lesson": "EIP-4.1-03",
+      "blocks": [
+        "EIP-4.1-03-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-03-R3",
+      "lesson": "EIP-4.1-03",
+      "blocks": [
+        "EIP-4.1-03-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-03-R4",
+      "lesson": "EIP-4.1-03",
+      "blocks": [
+        "EIP-4.1-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-03-R5",
+      "lesson": "EIP-4.1-03",
+      "blocks": [
+        "EIP-4.1-03-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-04-R1",
+      "lesson": "EIP-4.1-04",
+      "blocks": [
+        "EIP-4.1-04-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-04-R2",
+      "lesson": "EIP-4.1-04",
+      "blocks": [
+        "EIP-4.1-04-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-04-R3",
+      "lesson": "EIP-4.1-04",
+      "blocks": [
+        "EIP-4.1-04-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-04-R4",
+      "lesson": "EIP-4.1-04",
+      "blocks": [
+        "EIP-4.1-04-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-04-R5",
+      "lesson": "EIP-4.1-04",
+      "blocks": [
+        "EIP-4.1-04-B05",
+        "EIP-4.1-04-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-A-R1",
+      "lesson": "EIP-4.1-A",
+      "blocks": [
+        "SUIT-T1"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-A-R2",
+      "lesson": "EIP-4.1-A",
+      "blocks": [
+        "SUIT-T2"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-A-R3",
+      "lesson": "EIP-4.1-A",
+      "blocks": [
+        "SUIT-T4",
+        "SUIT-T2"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-A-R4",
+      "lesson": "EIP-4.1-A",
+      "blocks": [
+        "SUIT-E1"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-4.1-A-R5",
+      "lesson": "EIP-4.1-A",
+      "blocks": [
+        "SUIT-E2",
+        "SUIT-T3"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.1-01-R1",
+      "lesson": "EIP-5.1-01",
+      "blocks": [
+        "EIP-5.1-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.1-01-R2",
+      "lesson": "EIP-5.1-01",
+      "blocks": [
+        "EIP-5.1-01-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.1-01-R3",
+      "lesson": "EIP-5.1-01",
+      "blocks": [
+        "EIP-5.1-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.1-01-R4",
+      "lesson": "EIP-5.1-01",
+      "blocks": [
+        "EIP-5.1-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.1-01-R5",
+      "lesson": "EIP-5.1-01",
+      "blocks": [
+        "EIP-5.1-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.1-02-R1",
+      "lesson": "EIP-5.1-02",
+      "blocks": [
+        "EIP-5.1-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.1-02-R2",
+      "lesson": "EIP-5.1-02",
+      "blocks": [
+        "EIP-5.1-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.1-02-R3",
+      "lesson": "EIP-5.1-02",
+      "blocks": [
+        "EIP-5.1-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.1-02-R4",
+      "lesson": "EIP-5.1-02",
+      "blocks": [
+        "EIP-5.1-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.1-02-R5",
+      "lesson": "EIP-5.1-02",
+      "blocks": [
+        "EIP-5.1-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.2-01-R1",
+      "lesson": "EIP-5.2-01",
+      "blocks": [
+        "EIP-5.2-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.2-01-R2",
+      "lesson": "EIP-5.2-01",
+      "blocks": [
+        "EIP-5.2-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.2-01-R3",
+      "lesson": "EIP-5.2-01",
+      "blocks": [
+        "EIP-5.2-01-B03",
+        "EIP-5.2-01-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.2-01-R4",
+      "lesson": "EIP-5.2-01",
+      "blocks": [
+        "EIP-5.2-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.2-01-R5",
+      "lesson": "EIP-5.2-01",
+      "blocks": [
+        "EIP-5.2-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.2-02-R1",
+      "lesson": "EIP-5.2-02",
+      "blocks": [
+        "EIP-5.2-02-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.2-02-R2",
+      "lesson": "EIP-5.2-02",
+      "blocks": [
+        "EIP-5.2-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.2-02-R3",
+      "lesson": "EIP-5.2-02",
+      "blocks": [
+        "EIP-5.2-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.2-02-R4",
+      "lesson": "EIP-5.2-02",
+      "blocks": [
+        "EIP-5.2-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.2-02-R5",
+      "lesson": "EIP-5.2-02",
+      "blocks": [
+        "EIP-5.2-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.2-03-R1",
+      "lesson": "EIP-5.2-03",
+      "blocks": [
+        "EIP-5.2-03-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.2-03-R2",
+      "lesson": "EIP-5.2-03",
+      "blocks": [
+        "EIP-5.2-03-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.2-03-R3",
+      "lesson": "EIP-5.2-03",
+      "blocks": [
+        "EIP-5.2-03-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.2-03-R4",
+      "lesson": "EIP-5.2-03",
+      "blocks": [
+        "EIP-5.2-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.2-03-R5",
+      "lesson": "EIP-5.2-03",
+      "blocks": [
+        "EIP-5.2-03-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.3-01-R1",
+      "lesson": "EIP-5.3-01",
+      "blocks": [
+        "EIP-5.3-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.3-01-R2",
+      "lesson": "EIP-5.3-01",
+      "blocks": [
+        "EIP-5.3-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.3-01-R3",
+      "lesson": "EIP-5.3-01",
+      "blocks": [
+        "EIP-5.3-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.3-01-R4",
+      "lesson": "EIP-5.3-01",
+      "blocks": [
+        "EIP-5.3-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.3-01-R5",
+      "lesson": "EIP-5.3-01",
+      "blocks": [
+        "EIP-5.3-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.3-02-R1",
+      "lesson": "EIP-5.3-02",
+      "blocks": [
+        "EIP-5.3-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.3-02-R2",
+      "lesson": "EIP-5.3-02",
+      "blocks": [
+        "EIP-5.3-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.3-02-R3",
+      "lesson": "EIP-5.3-02",
+      "blocks": [
+        "EIP-5.3-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.3-02-R4",
+      "lesson": "EIP-5.3-02",
+      "blocks": [
+        "EIP-5.3-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.3-02-R5",
+      "lesson": "EIP-5.3-02",
+      "blocks": [
+        "EIP-5.3-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.4-01-R1",
+      "lesson": "EIP-5.4-01",
+      "blocks": [
+        "EIP-5.4-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.4-01-R2",
+      "lesson": "EIP-5.4-01",
+      "blocks": [
+        "EIP-5.4-01-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.4-01-R3",
+      "lesson": "EIP-5.4-01",
+      "blocks": [
+        "EIP-5.4-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.4-01-R4",
+      "lesson": "EIP-5.4-01",
+      "blocks": [
+        "EIP-5.4-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.4-01-R5",
+      "lesson": "EIP-5.4-01",
+      "blocks": [
+        "EIP-5.4-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.4-02-R1",
+      "lesson": "EIP-5.4-02",
+      "blocks": [
+        "EIP-5.4-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.4-02-R2",
+      "lesson": "EIP-5.4-02",
+      "blocks": [
+        "EIP-5.4-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.4-02-R3",
+      "lesson": "EIP-5.4-02",
+      "blocks": [
+        "EIP-5.4-02-B09"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.4-02-R4",
+      "lesson": "EIP-5.4-02",
+      "blocks": [
+        "EIP-5.4-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.4-02-R5",
+      "lesson": "EIP-5.4-02",
+      "blocks": [
+        "EIP-5.4-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.5-01-R1",
+      "lesson": "EIP-5.5-01",
+      "blocks": [
+        "EIP-5.5-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.5-01-R2",
+      "lesson": "EIP-5.5-01",
+      "blocks": [
+        "EIP-5.5-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.5-01-R3",
+      "lesson": "EIP-5.5-01",
+      "blocks": [
+        "EIP-5.5-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.5-01-R4",
+      "lesson": "EIP-5.5-01",
+      "blocks": [
+        "EIP-5.5-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.5-01-R5",
+      "lesson": "EIP-5.5-01",
+      "blocks": [
+        "EIP-5.5-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.5-02-R1",
+      "lesson": "EIP-5.5-02",
+      "blocks": [
+        "EIP-5.5-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.5-02-R2",
+      "lesson": "EIP-5.5-02",
+      "blocks": [
+        "EIP-5.5-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.5-02-R3",
+      "lesson": "EIP-5.5-02",
+      "blocks": [
+        "EIP-5.5-02-B02",
+        "EIP-5.5-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.5-02-R4",
+      "lesson": "EIP-5.5-02",
+      "blocks": [
+        "EIP-5.5-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-5.5-02-R5",
+      "lesson": "EIP-5.5-02",
+      "blocks": [
+        "EIP-5.5-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-01-R1",
+      "lesson": "EIP-6.1-01",
+      "blocks": [
+        "EIP-6.1-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-01-R2",
+      "lesson": "EIP-6.1-01",
+      "blocks": [
+        "EIP-6.1-01-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-01-R3",
+      "lesson": "EIP-6.1-01",
+      "blocks": [
+        "EIP-6.1-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-01-R4",
+      "lesson": "EIP-6.1-01",
+      "blocks": [
+        "EIP-6.1-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-01-R5",
+      "lesson": "EIP-6.1-01",
+      "blocks": [
+        "EIP-6.1-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-02-R1",
+      "lesson": "EIP-6.1-02",
+      "blocks": [
+        "EIP-6.1-02-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-02-R2",
+      "lesson": "EIP-6.1-02",
+      "blocks": [
+        "EIP-6.1-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-02-R3",
+      "lesson": "EIP-6.1-02",
+      "blocks": [
+        "EIP-6.1-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-02-R4",
+      "lesson": "EIP-6.1-02",
+      "blocks": [
+        "EIP-6.1-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-02-R5",
+      "lesson": "EIP-6.1-02",
+      "blocks": [
+        "EIP-6.1-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-03-R1",
+      "lesson": "EIP-6.1-03",
+      "blocks": [
+        "EIP-6.1-03-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-03-R2",
+      "lesson": "EIP-6.1-03",
+      "blocks": [
+        "EIP-6.1-03-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-03-R3",
+      "lesson": "EIP-6.1-03",
+      "blocks": [
+        "EIP-6.1-03-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-03-R4",
+      "lesson": "EIP-6.1-03",
+      "blocks": [
+        "EIP-6.1-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-03-R5",
+      "lesson": "EIP-6.1-03",
+      "blocks": [
+        "EIP-6.1-03-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-04-R1",
+      "lesson": "EIP-6.1-04",
+      "blocks": [
+        "EIP-6.1-04-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-04-R2",
+      "lesson": "EIP-6.1-04",
+      "blocks": [
+        "EIP-6.1-04-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-04-R3",
+      "lesson": "EIP-6.1-04",
+      "blocks": [
+        "EIP-6.1-04-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-04-R4",
+      "lesson": "EIP-6.1-04",
+      "blocks": [
+        "EIP-6.1-04-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.1-04-R5",
+      "lesson": "EIP-6.1-04",
+      "blocks": [
+        "EIP-6.1-04-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-01-R1",
+      "lesson": "EIP-6.2-01",
+      "blocks": [
+        "EIP-6.2-01-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-01-R2",
+      "lesson": "EIP-6.2-01",
+      "blocks": [
+        "EIP-6.2-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-01-R3",
+      "lesson": "EIP-6.2-01",
+      "blocks": [
+        "EIP-6.2-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-01-R4",
+      "lesson": "EIP-6.2-01",
+      "blocks": [
+        "EIP-6.2-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-01-R5",
+      "lesson": "EIP-6.2-01",
+      "blocks": [
+        "EIP-6.2-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-02-R1",
+      "lesson": "EIP-6.2-02",
+      "blocks": [
+        "EIP-6.2-02-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-02-R2",
+      "lesson": "EIP-6.2-02",
+      "blocks": [
+        "EIP-6.2-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-02-R3",
+      "lesson": "EIP-6.2-02",
+      "blocks": [
+        "EIP-6.2-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-02-R4",
+      "lesson": "EIP-6.2-02",
+      "blocks": [
+        "EIP-6.2-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-02-R5",
+      "lesson": "EIP-6.2-02",
+      "blocks": [
+        "EIP-6.2-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-03-R1",
+      "lesson": "EIP-6.2-03",
+      "blocks": [
+        "EIP-6.2-03-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-03-R2",
+      "lesson": "EIP-6.2-03",
+      "blocks": [
+        "EIP-6.2-03-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-03-R3",
+      "lesson": "EIP-6.2-03",
+      "blocks": [
+        "EIP-6.2-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-03-R4",
+      "lesson": "EIP-6.2-03",
+      "blocks": [
+        "EIP-6.2-03-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-03-R5",
+      "lesson": "EIP-6.2-03",
+      "blocks": [
+        "EIP-6.2-03-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-04-R1",
+      "lesson": "EIP-6.2-04",
+      "blocks": [
+        "EIP-6.2-04-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-04-R2",
+      "lesson": "EIP-6.2-04",
+      "blocks": [
+        "EIP-6.2-04-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-04-R3",
+      "lesson": "EIP-6.2-04",
+      "blocks": [
+        "EIP-6.2-04-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-04-R4",
+      "lesson": "EIP-6.2-04",
+      "blocks": [
+        "EIP-6.2-04-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-6.2-04-R5",
+      "lesson": "EIP-6.2-04",
+      "blocks": [
+        "EIP-6.2-04-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-01-R1",
+      "lesson": "EIP-7.1-01",
+      "blocks": [
+        "EIP-7.1-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-01-R2",
+      "lesson": "EIP-7.1-01",
+      "blocks": [
+        "EIP-7.1-01-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-01-R3",
+      "lesson": "EIP-7.1-01",
+      "blocks": [
+        "EIP-7.1-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-01-R4",
+      "lesson": "EIP-7.1-01",
+      "blocks": [
+        "EIP-7.1-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-01-R5",
+      "lesson": "EIP-7.1-01",
+      "blocks": [
+        "EIP-7.1-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-02-R1",
+      "lesson": "EIP-7.1-02",
+      "blocks": [
+        "EIP-7.1-02-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-02-R2",
+      "lesson": "EIP-7.1-02",
+      "blocks": [
+        "EIP-7.1-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-02-R3",
+      "lesson": "EIP-7.1-02",
+      "blocks": [
+        "EIP-7.1-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-02-R4",
+      "lesson": "EIP-7.1-02",
+      "blocks": [
+        "EIP-7.1-02-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-02-R5",
+      "lesson": "EIP-7.1-02",
+      "blocks": [
+        "EIP-7.1-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-03-R1",
+      "lesson": "EIP-7.1-03",
+      "blocks": [
+        "EIP-7.1-03-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-03-R2",
+      "lesson": "EIP-7.1-03",
+      "blocks": [
+        "EIP-7.1-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-03-R3",
+      "lesson": "EIP-7.1-03",
+      "blocks": [
+        "EIP-7.1-03-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-03-R4",
+      "lesson": "EIP-7.1-03",
+      "blocks": [
+        "EIP-7.1-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-03-R5",
+      "lesson": "EIP-7.1-03",
+      "blocks": [
+        "EIP-7.1-03-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-04-R1",
+      "lesson": "EIP-7.1-04",
+      "blocks": [
+        "EIP-7.1-04-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-04-R2",
+      "lesson": "EIP-7.1-04",
+      "blocks": [
+        "EIP-7.1-04-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-04-R3",
+      "lesson": "EIP-7.1-04",
+      "blocks": [
+        "EIP-7.1-04-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-04-R4",
+      "lesson": "EIP-7.1-04",
+      "blocks": [
+        "EIP-7.1-04-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-04-R5",
+      "lesson": "EIP-7.1-04",
+      "blocks": [
+        "EIP-7.1-04-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-05-R1",
+      "lesson": "EIP-7.1-05",
+      "blocks": [
+        "EIP-7.1-05-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-05-R2",
+      "lesson": "EIP-7.1-05",
+      "blocks": [
+        "EIP-7.1-05-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-05-R3",
+      "lesson": "EIP-7.1-05",
+      "blocks": [
+        "EIP-7.1-05-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-05-R4",
+      "lesson": "EIP-7.1-05",
+      "blocks": [
+        "EIP-7.1-05-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-05-R5",
+      "lesson": "EIP-7.1-05",
+      "blocks": [
+        "EIP-7.1-05-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-06-R1",
+      "lesson": "EIP-7.1-06",
+      "blocks": [
+        "EIP-7.1-06-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-06-R2",
+      "lesson": "EIP-7.1-06",
+      "blocks": [
+        "EIP-7.1-06-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-06-R3",
+      "lesson": "EIP-7.1-06",
+      "blocks": [
+        "EIP-7.1-06-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-06-R4",
+      "lesson": "EIP-7.1-06",
+      "blocks": [
+        "EIP-7.1-06-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.1-06-R5",
+      "lesson": "EIP-7.1-06",
+      "blocks": [
+        "EIP-7.1-06-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.2-01-R1",
+      "lesson": "EIP-7.2-01",
+      "blocks": [
+        "EIP-7.2-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.2-01-R2",
+      "lesson": "EIP-7.2-01",
+      "blocks": [
+        "EIP-7.2-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.2-01-R3",
+      "lesson": "EIP-7.2-01",
+      "blocks": [
+        "EIP-7.2-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.2-01-R4",
+      "lesson": "EIP-7.2-01",
+      "blocks": [
+        "EIP-7.2-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.2-01-R5",
+      "lesson": "EIP-7.2-01",
+      "blocks": [
+        "EIP-7.2-01-B08"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.2-02-R1",
+      "lesson": "EIP-7.2-02",
+      "blocks": [
+        "EIP-7.2-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.2-02-R2",
+      "lesson": "EIP-7.2-02",
+      "blocks": [
+        "EIP-7.2-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.2-02-R3",
+      "lesson": "EIP-7.2-02",
+      "blocks": [
+        "EIP-7.2-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.2-02-R4",
+      "lesson": "EIP-7.2-02",
+      "blocks": [
+        "EIP-7.2-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.2-02-R5",
+      "lesson": "EIP-7.2-02",
+      "blocks": [
+        "EIP-7.2-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.2-03-R1",
+      "lesson": "EIP-7.2-03",
+      "blocks": [
+        "EIP-7.2-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.2-03-R2",
+      "lesson": "EIP-7.2-03",
+      "blocks": [
+        "EIP-7.2-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.2-03-R3",
+      "lesson": "EIP-7.2-03",
+      "blocks": [
+        "EIP-7.2-03-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.2-03-R4",
+      "lesson": "EIP-7.2-03",
+      "blocks": [
+        "EIP-7.2-03-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.2-03-R5",
+      "lesson": "EIP-7.2-03",
+      "blocks": [
+        "EIP-7.2-03-B08"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.3-01-R1",
+      "lesson": "EIP-7.3-01",
+      "blocks": [
+        "EIP-7.3-01-B01"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.3-01-R2",
+      "lesson": "EIP-7.3-01",
+      "blocks": [
+        "EIP-7.3-01-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.3-01-R3",
+      "lesson": "EIP-7.3-01",
+      "blocks": [
+        "EIP-7.3-01-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.3-01-R4",
+      "lesson": "EIP-7.3-01",
+      "blocks": [
+        "EIP-7.3-01-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.3-01-R5",
+      "lesson": "EIP-7.3-01",
+      "blocks": [
+        "EIP-7.3-01-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.3-02-R1",
+      "lesson": "EIP-7.3-02",
+      "blocks": [
+        "EIP-7.3-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.3-02-R2",
+      "lesson": "EIP-7.3-02",
+      "blocks": [
+        "EIP-7.3-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.3-02-R3",
+      "lesson": "EIP-7.3-02",
+      "blocks": [
+        "EIP-7.3-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.3-02-R4",
+      "lesson": "EIP-7.3-02",
+      "blocks": [
+        "EIP-7.3-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-7.3-02-R5",
+      "lesson": "EIP-7.3-02",
+      "blocks": [
+        "EIP-7.3-02-B08"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-01-R1",
+      "lesson": "EIP-M8-01",
+      "blocks": [
+        "EIP-M8-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-01-R2",
+      "lesson": "EIP-M8-01",
+      "blocks": [
+        "EIP-M8-01-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-01-R3",
+      "lesson": "EIP-M8-01",
+      "blocks": [
+        "EIP-M8-01-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-01-R4",
+      "lesson": "EIP-M8-01",
+      "blocks": [
+        "EIP-M8-01-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-01-R5",
+      "lesson": "EIP-M8-01",
+      "blocks": [
+        "EIP-M8-01-B08"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-02-R1",
+      "lesson": "EIP-M8-02",
+      "blocks": [
+        "EIP-M8-02-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-02-R2",
+      "lesson": "EIP-M8-02",
+      "blocks": [
+        "EIP-M8-02-B02"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-02-R3",
+      "lesson": "EIP-M8-02",
+      "blocks": [
+        "EIP-M8-02-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-02-R4",
+      "lesson": "EIP-M8-02",
+      "blocks": [
+        "EIP-M8-02-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-02-R5",
+      "lesson": "EIP-M8-02",
+      "blocks": [
+        "EIP-M8-02-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-03-R1",
+      "lesson": "EIP-M8-03",
+      "blocks": [
+        "EIP-M8-03-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-03-R2",
+      "lesson": "EIP-M8-03",
+      "blocks": [
+        "EIP-M8-03-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-03-R3",
+      "lesson": "EIP-M8-03",
+      "blocks": [
+        "EIP-M8-03-B10"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-03-R4",
+      "lesson": "EIP-M8-03",
+      "blocks": [
+        "EIP-M8-03-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-03-R5",
+      "lesson": "EIP-M8-03",
+      "blocks": [
+        "EIP-M8-03-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-04-R1",
+      "lesson": "EIP-M8-04",
+      "blocks": [
+        "EIP-M8-04-B05"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-04-R2",
+      "lesson": "EIP-M8-04",
+      "blocks": [
+        "EIP-M8-04-B07"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-04-R3",
+      "lesson": "EIP-M8-04",
+      "blocks": [
+        "EIP-M8-04-B03"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-04-R4",
+      "lesson": "EIP-M8-04",
+      "blocks": [
+        "EIP-M8-04-B06"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    },
+    {
+      "id": "EIP-M8-04-R5",
+      "lesson": "EIP-M8-04",
+      "blocks": [
+        "EIP-M8-04-B04"
+      ],
+      "status": "STRUCTURE_AND_BASELINE_CHECKED"
+    }
+  ],
+  "limitations": [
+    "Structural checks cannot establish unambiguous answers or pedagogical quality; separate content review is required."
+  ]
+}

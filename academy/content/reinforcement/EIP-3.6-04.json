@@ -1,0 +1,194 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A plain long call’s expiry profit is max(S − K, 0) minus ______.",
+      "O lucro de vencimento de uma opção de compra simples comprada é max(S − K, 0) menos ______."
+    ],
+    "options": [
+      [
+        "the strike again",
+        "o preço de exercício novamente"
+      ],
+      [
+        "the premium paid",
+        "o prêmio pago"
+      ],
+      [
+        "the underlying price again",
+        "o preço do subjacente novamente"
+      ],
+      [
+        "the writer’s entire margin",
+        "toda a margem do lançador"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Payoff measures the exercise difference; profit also accounts for the initial premium. A zero payoff therefore leaves the plain holder with a premium loss. Quantities, costs and financing must be added consistently for the actual position rather than confusing per-unit payoff with whole-contract profit.",
+      "O resultado de exercício mede a diferença do exercício; o lucro também considera o prêmio inicial. Um resultado zero deixa, portanto, o titular simples com perda do prêmio. Quantidades, custos e financiamento devem ser acrescentados consistentemente à posição efetiva, sem confundir resultado por unidade com lucro do contrato inteiro."
+    ],
+    "blocks": [
+      "EIP-3.6-04-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Under the stated plain-option model, a put’s expiry break-even is ______.",
+      "Sob o modelo informado de opção simples, o ponto de equilíbrio de uma opção de venda no vencimento é ______."
+    ],
+    "options": [
+      [
+        "strike plus premium",
+        "preço de exercício mais prêmio"
+      ],
+      [
+        "underlying purchase price minus premium",
+        "preço de compra do subjacente menos prêmio"
+      ],
+      [
+        "strike alone",
+        "apenas o preço de exercício"
+      ],
+      [
+        "strike minus premium",
+        "preço de exercício menos prêmio"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Below strike, long-put payoff is K − S. Set profit K − S − p to zero and obtain S = K − p. This is an expiry threshold under the no-financing, no-cost assumptions; it is not automatically the threshold for selling the option at a profit before expiry.",
+      "Abaixo do exercício, o resultado da opção de venda comprada é K − S. Iguale o lucro K − S − p a zero e obtenha S = K − p. Esse é um limite no vencimento sob hipóteses sem financiamento e custos; não é automaticamente o limite para vender a opção com lucro antes do vencimento."
+    ],
+    "blocks": [
+      "EIP-3.6-04-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Why is it invalid to average payoff-table rows equally to announce expected return when no probabilities were supplied?",
+      "Por que é inválido fazer a média igualmente ponderada das linhas de uma tabela de resultados para anunciar retorno esperado quando nenhuma probabilidade foi fornecida?"
+    ],
+    "options": [
+      [
+        "It invents a probability distribution that the scenario table did not establish.",
+        "Isso inventa uma distribuição de probabilidades que a tabela de cenários não estabeleceu."
+      ],
+      [
+        "Scenario tables cannot show losses.",
+        "Tabelas de cenários não podem mostrar perdas."
+      ],
+      [
+        "All terminal underlying prices are necessarily equally likely.",
+        "Todos os preços finais do subjacente são necessariamente equiprováveis."
+      ],
+      [
+        "Only the most favourable row is a valid expectation.",
+        "Apenas a linha mais favorável é uma expectativa válida."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Rows show conditional outcomes at selected prices, not their likelihoods. Equal weighting silently assumes equal probabilities. The table can reveal a severe possible loss and the shape of the contract without establishing expected return. Severity, likelihood and client capacity require distinct information.",
+      "As linhas mostram resultados condicionais em preços selecionados, não suas probabilidades. Ponderação igual supõe silenciosamente probabilidades iguais. A tabela pode revelar uma perda possível severa e o formato do contrato sem estabelecer retorno esperado. Gravidade, probabilidade e capacidade do cliente exigem informações distintas."
+    ],
+    "blocks": [
+      "EIP-3.6-04-B08"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A short put has strike €50, premium received €3 and 100 units. Assume a non-negative underlying and no other costs. At underlying zero, what loss and maximum gain characterise this plain position?",
+      "Uma opção de venda lançada tem exercício de €50, prêmio recebido de €3 e 100 unidades. Suponha subjacente não negativo e nenhum outro custo. Com subjacente zero, quais perda e ganho máximo caracterizam essa posição simples?"
+    ],
+    "options": [
+      [
+        "Loss €5,000; maximum gain €5,000",
+        "Perda €5,000; ganho máximo €5,000"
+      ],
+      [
+        "Loss €300; maximum gain €4,700",
+        "Perda €300; ganho máximo €4,700"
+      ],
+      [
+        "Loss €4,700; maximum gain €300",
+        "Perda €4,700; ganho máximo €300"
+      ],
+      [
+        "Loss zero; maximum gain unlimited",
+        "Perda zero; ganho máximo ilimitado"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "At zero, the short owes 50 × 100 = €5,000 payoff but retains €300 premium, so net loss is €4,700. Its largest profit is the €300 premium when payoff is zero. €5,000 omits premium; reversing €300 and €4,700 confuses holder and writer. A small upfront receipt can create a much larger downside obligation.",
+      "A zero, o lançador deve resultado de 50 × 100 = €5,000, mas retém prêmio de €300, portanto a perda líquida é €4,700. Seu maior lucro é o prêmio de €300 quando o resultado de exercício é zero. €5,000 omite o prêmio; inverter €300 e €4,700 confunde titular e lançador. Um recebimento inicial pequeno pode criar obrigação de perda muito maior."
+    ],
+    "blocks": [
+      "EIP-3.6-04-B05"
+    ],
+    "calculation": {
+      "method": "short_put_bounds",
+      "inputs": [
+        100,
+        50,
+        3
+      ],
+      "expected": [
+        4700,
+        300
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "150 shares cost €50 each. Puts protect only 100 shares at strike €45 for €2 premium per protected share. At matching expiry, shares are €20; no costs or tax. What combined value and loss result?",
+      "150 ações custam €50 cada. Opções de venda protegem apenas 100 ações a exercício de €45, com prêmio de €2 por ação protegida. No vencimento correspondente, as ações valem €20; sem custos ou impostos. Quais valor e perda combinados resultam?"
+    ],
+    "options": [
+      [
+        "Value €6,750; loss €950, treating every share as protected",
+        "Valor €6,750; perda €950, tratando toda ação como protegida"
+      ],
+      [
+        "Value €5,500; loss €2,200, because 50 shares remain unprotected",
+        "Valor €5,500; perda €2,200, pois 50 ações permanecem desprotegidas"
+      ],
+      [
+        "Value €4,500; loss €3,200, ignoring the remaining shares’ current value",
+        "Valor €4,500; perda €3,200, ignorando o valor atual das ações restantes"
+      ],
+      [
+        "Value €7,500; loss only the €200 premium",
+        "Valor €7,500; perda apenas do prêmio de €200"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Initial outlay is 150 × 50 + 100 × 2 = €7,700. Shares are worth 150 × 20 = €3,000; puts pay 100 × (45 − 20) = €2,500. Combined value is €5,500 and loss €2,200. A €6,750 floor wrongly protects all 150 shares. €4,500 ignores €1,000 value in the unprotected 50 shares at this price. Protection also retains the strike gap and premium cost.",
+      "O desembolso inicial é 150 × 50 + 100 × 2 = €7,700. As ações valem 150 × 20 = €3,000; as opções pagam 100 × (45 − 20) = €2,500. O valor combinado é €5,500 e a perda €2,200. Um piso de €6,750 protege incorretamente todas as 150 ações. €4,500 ignora €1,000 de valor nas 50 ações desprotegidas nesse preço. A proteção também mantém a diferença até o exercício e o custo do prêmio."
+    ],
+    "blocks": [
+      "EIP-3.6-04-B07"
+    ],
+    "calculation": {
+      "method": "partial_put",
+      "inputs": [
+        150,
+        50,
+        100,
+        45,
+        2,
+        20
+      ],
+      "expected": [
+        5500,
+        2200
+      ]
+    }
+  }
+]

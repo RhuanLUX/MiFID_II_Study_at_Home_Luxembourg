@@ -1,0 +1,167 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Reputational risk concerns harm from ______.",
+      "Risco reputacional trata de danos decorrentes de ______."
+    ],
+    "options": [
+      [
+        "only a direct trading-price movement",
+        "apenas movimento direto de preço negociado"
+      ],
+      [
+        "adverse perceptions affecting relationships and business",
+        "percepções adversas que afetam relações e negócios"
+      ],
+      [
+        "only a legally proven regulatory fine",
+        "apenas multa regulatória juridicamente comprovada"
+      ],
+      [
+        "only an issuer failing to pay a coupon",
+        "apenas emissor não pagar cupom"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Confidence can be affected by actual failures, misleading accounts or uncertainty about a response. Clients, staff and counterparties may react differently. Reputation therefore connects to conduct and operations, rather than being merely publicity or an automatic legal penalty.",
+      "A confiança pode ser afetada por falhas reais, relatos enganosos ou incerteza sobre a resposta. Clientes, funcionários e contrapartes podem reagir de modo diferente. Reputação conecta-se, portanto, à conduta e operações, não apenas publicidade ou penalidade jurídica automática."
+    ],
+    "blocks": [
+      "EIP-7.3-01-B01"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which response addresses the source of reputational harm?",
+      "Qual resposta trata da origem do dano reputacional?"
+    ],
+    "options": [
+      [
+        "Replace the public message while leaving known harm unchanged.",
+        "Substituir a mensagem pública mantendo dano conhecido."
+      ],
+      [
+        "Assume legal compliance guarantees every client perceives fairness.",
+        "Presumir que conformidade legal garante percepção de justiça por todo cliente."
+      ],
+      [
+        "Correct the underlying failure and communicate verified facts with appropriate confidentiality.",
+        "Corrigir a falha subjacente e comunicar fatos verificados com confidencialidade adequada."
+      ],
+      [
+        "Measure only publicity and ignore affected records.",
+        "Medir apenas publicidade e ignorar registros afetados."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Remediation should limit harm, identify affected records and address root causes. Communication supports that work but cannot replace it. Explain what is established and what remains under review, without promising a legal finding or compensation before assessment. Accurate correction is a concrete basis for rebuilding confidence.",
+      "A correção deve limitar danos, identificar registros afetados e tratar causas. Comunicação apoia esse trabalho, mas não o substitui. Explique o estabelecido e o que segue em análise, sem prometer conclusão jurídica ou indenização antes da avaliação. Correção precisa é base concreta para reconstruir confiança."
+    ],
+    "blocks": [
+      "EIP-7.3-01-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A portfolio worth €150,000 was overstated by €7,500 through double counting. Which interpretation and response are sound?",
+      "Uma carteira de €150,000 foi superestimada em €7,500 por dupla contagem. Qual interpretação e resposta são adequadas?"
+    ],
+    "options": [
+      [
+        "The 5% error is an investment return and can remain until the next cycle.",
+        "O erro de 5% é retorno de investimento e pode ficar até o próximo ciclo."
+      ],
+      [
+        "The overstatement automatically fixes legal damages at €7,500.",
+        "A superestimação fixa automaticamente indenização jurídica em €7,500."
+      ],
+      [
+        "Deleting the wrong record removes the need to assess reliance on it.",
+        "Apagar o registro errado elimina avaliar decisões baseadas nele."
+      ],
+      [
+        "The error equals 5% of true value; preserve evidence, escalate correction and assess affected decisions.",
+        "O erro é 5% do valor verdadeiro; preserve provas, encaminhe correção e avalie decisões afetadas."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "7,500 / 150,000 = 5% measures the overstatement relative to true value. It is neither performance nor an automatic compensation award. Verify the discrepancy, preserve the original statement and correct through the authorised process. A withdrawal planned from the wrong value can create an additional practical issue that needs assessment.",
+      "7,500 / 150,000 = 5% mede a superestimação sobre o valor verdadeiro. Não é desempenho nem indenização automática. Verifique a diferença, preserve o extrato original e corrija pelo processo autorizado. Retirada planejada com valor errado pode criar problema prático adicional a avaliar."
+    ],
+    "blocks": [
+      "EIP-7.3-01-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An €80 million asset base earns 0.60% annual recurring fees. A scenario assumes 8% departs, with no replacement. What annual gross revenue reduction follows on a constant base?",
+      "Uma base de €80 milhões rende tarifas recorrentes anuais de 0.60%. Um cenário supõe saída de 8%, sem reposição. Qual redução anual de receita bruta decorre sobre base constante?"
+    ],
+    "options": [
+      [
+        "€38,400",
+        "€38,400"
+      ],
+      [
+        "€480,000",
+        "€480,000"
+      ],
+      [
+        "€6.4 million",
+        "€6.4 milhões"
+      ],
+      [
+        "€384,000",
+        "€384,000"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Departing assets are 80 million × 8% = €6.4 million. Fee exposure is 6.4 million × 0.60% = €38,400 annually. €480,000 is original revenue on the whole base; €6.4 million is assets, not fees. This is an assumed gross revenue scenario, not a complete profit loss, empirical forecast or regulatory fine.",
+      "Os ativos que saem são 80 milhões × 8% = €6.4 milhões. A receita exposta é 6.4 milhões × 0.60% = €38,400 anuais. €480,000 é receita original da base inteira; €6.4 milhões são ativos, não tarifas. É cenário hipotético de receita bruta, não perda completa de lucro, previsão empírica ou multa."
+    ],
+    "blocks": [
+      "EIP-7.3-01-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An unverified social-media allegation names a real client and claims the firm sold data. Other clients ask questions. Which response balances urgency and evidence?",
+      "Uma alegação não verificada em rede social nomeia cliente real e diz que a instituição vendeu dados. Outros clientes perguntam. Qual resposta equilibra urgência e provas?"
+    ],
+    "options": [
+      [
+        "Publicly identify the client’s accounts to refute the story.",
+        "Identificar publicamente contas do cliente para refutar a história."
+      ],
+      [
+        "Preserve and escalate the allegation, protect client confidentiality and communicate authorised verified status while responsible teams investigate.",
+        "Preservar e encaminhar a alegação, proteger confidencialidade e comunicar situação verificada autorizada enquanto as equipes investigam."
+      ],
+      [
+        "Deny the allegation definitively on personal confidence alone.",
+        "Negar definitivamente apenas com confiança pessoal."
+      ],
+      [
+        "Treat the post as proof and publicly blame a colleague.",
+        "Tratar a publicação como prova e culpar publicamente um colega."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A possible incident needs prompt controlled investigation, but the allegation is not a verified finding. Confirming client status or account details can add harm; an unsupported denial can also mislead. Preserve source and timing, use incident and communications procedures, and distinguish known facts from uncertainty. Neither publicity management alone nor premature blame addresses the underlying issue.",
+      "Possível incidente exige investigação pronta e controlada, mas alegação não é conclusão verificada. Confirmar condição de cliente ou contas pode ampliar dano; negação sem base também pode enganar. Preserve origem e horário, use procedimentos de incidente e comunicação, distinguindo fatos conhecidos de incerteza. Nem gestão publicitária isolada nem culpa prematura trata do problema subjacente."
+    ],
+    "blocks": [
+      "EIP-7.3-01-B07"
+    ]
+  }
+]

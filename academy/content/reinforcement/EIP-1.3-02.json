@@ -1,0 +1,191 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Growth adjusted for changes in the relevant price level is ______ growth.",
+      "O crescimento ajustado pelas mudanças no nível de preços relevante é o crescimento ______."
+    ],
+    "options": [
+      [
+        "nominal",
+        "nominal"
+      ],
+      [
+        "real",
+        "real"
+      ],
+      [
+        "annualised nominal",
+        "nominal anualizado"
+      ],
+      [
+        "year-on-year nominal",
+        "nominal interanual"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Real growth aims to isolate changes in production volume from price changes. Nominal growth includes both. Price adjustment does not automatically annualise a rate or change its comparison period: those are separate transformations that must also be specified.",
+      "O crescimento real procura isolar mudanças no volume produzido das mudanças nos preços. O crescimento nominal inclui ambos. Ajustar preços não anualiza automaticamente uma taxa nem muda seu período de comparação: são transformações separadas que também precisam ser especificadas."
+    ],
+    "blocks": [
+      "EIP-1.3-02-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "What is a leading economic indicator?",
+      "O que é um indicador econômico antecedente?"
+    ],
+    "options": [
+      [
+        "A guaranteed forecast of the next turning point",
+        "Uma previsão garantida do próximo ponto de inflexão"
+      ],
+      [
+        "A measure that mainly confirms a turning point after activity has changed",
+        "Uma medida que principalmente confirma uma inflexão depois que a atividade mudou"
+      ],
+      [
+        "A measure that describes the same period as current activity",
+        "Uma medida que descreve o mesmo período da atividade atual"
+      ],
+      [
+        "A measure that can tend to move ahead of activity",
+        "Uma medida que pode tender a se mover antes da atividade"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Orders and surveys can sometimes provide earlier indications of activity. Their leading character does not guarantee the next turning point or remove statistical uncertainty. Employment may lag demand because firms first adjust hours or inventories, but no single indicator supplies a mechanical trading timetable.",
+      "Pedidos e pesquisas podem, às vezes, dar indicações antecipadas da atividade. Seu caráter antecedente não garante o próximo ponto de inflexão nem elimina a incerteza estatística. O emprego pode reagir depois da demanda porque as empresas primeiro ajustam horas ou estoques, mas nenhum indicador isolado fornece um calendário mecânico de negociação."
+    ],
+    "blocks": [
+      "EIP-1.3-02-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A firm’s earnings fall 20%, while investors had expected a 40% decline. Why could its share price rise?",
+      "O lucro de uma empresa cai 20%, enquanto os investidores esperavam queda de 40%. Por que a ação poderia subir?"
+    ],
+    "options": [
+      [
+        "The information improves expectations relative to what the price had anticipated.",
+        "A informação melhora as expectativas em relação ao que o preço havia antecipado."
+      ],
+      [
+        "An earnings decline always raises share prices.",
+        "Uma queda no lucro sempre eleva os preços das ações."
+      ],
+      [
+        "Reported earnings and required returns are irrelevant to valuation.",
+        "O lucro divulgado e os retornos exigidos são irrelevantes para a avaliação."
+      ],
+      [
+        "The firm has necessarily recovered its previous earnings level.",
+        "A empresa necessariamente recuperou seu nível anterior de lucro."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "A price can respond positively to bad absolute news that is better than expected. The surprise is the difference from prior expectations, not merely the sign of earnings growth. This does not guarantee a rise: required returns and other cash-flow news also matter. Falling earnings do not imply recovery of the old level.",
+      "Um preço pode responder positivamente a uma notícia ruim em termos absolutos que seja melhor que o esperado. A surpresa é a diferença em relação às expectativas anteriores, não apenas o sinal do crescimento do lucro. Isso não garante alta: retornos exigidos e outras informações sobre fluxos também importam. A queda do lucro não implica recuperação do nível anterior."
+    ],
+    "blocks": [
+      "EIP-1.3-02-B07"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An output index falls from 100 to 90, then grows 10%. What is its new level and recovery status?",
+      "Um índice de produção cai de 100 para 90 e depois cresce 10%. Qual é o novo nível e a situação da recuperação?"
+    ],
+    "options": [
+      [
+        "100; fully recovered",
+        "100; recuperação completa"
+      ],
+      [
+        "101; above the old level",
+        "101; acima do nível anterior"
+      ],
+      [
+        "99; positive growth but still below the old level",
+        "99; crescimento positivo, mas ainda abaixo do nível anterior"
+      ],
+      [
+        "90; growth has no effect on levels",
+        "90; crescimento não afeta os níveis"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The recovery applies to the reduced base: 90 × 1.10 = 99. Returning to 100 requires 100/90 − 1 ≈ 11.11%. Adding a 10% gain to a previous 10% loss ignores the different bases. Positive growth describes the direction of change, not completion of the recovery.",
+      "A recuperação incide sobre a base reduzida: 90 × 1.10 = 99. Voltar a 100 exige 100/90 − 1 ≈ 11.11%. Somar um ganho de 10% a uma perda anterior de 10% ignora bases diferentes. Crescimento positivo descreve a direção da mudança, não a conclusão da recuperação."
+    ],
+    "blocks": [
+      "EIP-1.3-02-B02"
+    ],
+    "calculation": {
+      "method": "growth",
+      "inputs": [
+        90,
+        0.1,
+        1
+      ],
+      "expected": 99
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A manufacturer sells 100,000 units at €50; unit variable cost €30, fixed operating cost €1.5 million and annual interest €200,000. Units fall 10%; other terms stay fixed. What happens to pretax profit?",
+      "Uma fabricante vende 100,000 unidades a €50; custo variável unitário €30, custo operacional fixo €1.5 milhão e juros anuais €200,000. As unidades caem 10%; os demais termos não mudam. O que ocorre com o lucro antes de impostos?"
+    ],
+    "options": [
+      [
+        "It falls 10% to €270,000.",
+        "Cai 10%, para €270,000."
+      ],
+      [
+        "It falls from €300,000 to €100,000, about 66.67%.",
+        "Cai de €300,000 para €100,000, cerca de 66.67%."
+      ],
+      [
+        "It falls from €500,000 to €300,000, or 40%, after interest.",
+        "Cai de €500,000 para €300,000, ou 40%, após juros."
+      ],
+      [
+        "It remains €300,000 because variable costs decline.",
+        "Permanece €300,000 porque os custos variáveis caem."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Initial pretax profit is (50 − 30) × 100,000 − 1,500,000 − 200,000 = €300,000. Afterwards it is 20 × 90,000 − 1,500,000 − 200,000 = €100,000. The €200,000 decline is two thirds of initial pretax profit. A 40% decline describes operating profit before interest, while 10% describes sales. Fixed costs and financing obligations amplify the percentage effect.",
+      "O lucro inicial antes de impostos é (50 − 30) × 100,000 − 1,500,000 − 200,000 = €300,000. Depois é 20 × 90,000 − 1,500,000 − 200,000 = €100,000. A queda de €200,000 equivale a dois terços do lucro inicial antes de impostos. A queda de 40% descreve o lucro operacional antes dos juros, enquanto 10% descreve as vendas. Custos fixos e obrigações financeiras ampliam o efeito percentual."
+    ],
+    "blocks": [
+      "EIP-1.3-02-B06"
+    ],
+    "calculation": {
+      "method": "profit_change",
+      "inputs": [
+        50,
+        100000,
+        50,
+        90000,
+        30,
+        1700000
+      ],
+      "expected": [
+        100000,
+        -0.6666666666666666
+      ]
+    }
+  }
+]

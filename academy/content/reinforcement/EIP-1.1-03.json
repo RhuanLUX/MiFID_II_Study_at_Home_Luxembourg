@@ -1,0 +1,187 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which observation best describes inflation?",
+      "Qual observação melhor descreve inflação?"
+    ],
+    "options": [
+      [
+        "A broad increase in the prices of goods and services",
+        "Um aumento amplo dos preços de bens e serviços"
+      ],
+      [
+        "An increase in the price of one item, regardless of other prices",
+        "Um aumento do preço de um item, independentemente dos outros preços"
+      ],
+      [
+        "A rise in nominal expenditure caused only by buying more units at unchanged prices",
+        "Uma alta do gasto nominal causada apenas pela compra de mais unidades com preços inalterados"
+      ],
+      [
+        "A fall in an investment’s market price",
+        "Uma queda do preço de mercado de um investimento"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Inflation concerns the broad price level. A single item can become dearer because of a specific shortage while other prices remain stable. An account balance and an asset price are different objects of measurement.",
+      "Inflação trata do nível amplo de preços. Um item pode ficar mais caro por escassez específica enquanto outros preços permanecem estáveis. Um saldo de conta e o preço de um ativo são outros objetos de mensuração."
+    ],
+    "blocks": [
+      "EIP-1.1-03-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Inflation slows from 6% to a still-positive 2%. This is ______.",
+      "A inflação desacelera de 6% para 2% ainda positivos. Isso é ______."
+    ],
+    "options": [
+      [
+        "deflation: the general price level is falling",
+        "deflação: o nível geral de preços está caindo"
+      ],
+      [
+        "a four-percent fall in the general price level",
+        "uma queda de quatro por cento do nível geral de preços"
+      ],
+      [
+        "disinflation: prices rise more slowly",
+        "desinflação: os preços sobem mais lentamente"
+      ],
+      [
+        "proof that prices have returned to their original level",
+        "prova de que preços retornaram ao nível original"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Disinflation is a lower positive inflation rate, so the price level continues rising. The rate fell four percentage points, not the price level by 4%. Deflation would require a falling general price level.",
+      "Desinflação é uma taxa positiva menor de inflação; portanto, o nível de preços continua subindo. A taxa caiu quatro pontos percentuais, não o nível de preços em 4%. Deflação exigiria queda do nível geral de preços."
+    ],
+    "blocks": [
+      "EIP-1.1-03-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Why can a household’s spending-price increase exceed the HICP even when both are measured correctly?",
+      "Por que o aumento dos preços dos gastos de uma família pode ultrapassar o HICP mesmo com ambas as medidas corretas?"
+    ],
+    "options": [
+      [
+        "HICP must equal the price change of every category",
+        "O HICP precisa igualar a mudança de preço de toda categoria"
+      ],
+      [
+        "The household can give more weight to items whose prices rose especially fast",
+        "A família pode dar mais peso a itens cujos preços subiram especialmente rápido"
+      ],
+      [
+        "HICP measures only the balance of a bank account",
+        "O HICP mede apenas o saldo de uma conta bancária"
+      ],
+      [
+        "The ECB’s target guarantees a 2% increase in each personal basket",
+        "A meta do BCE garante aumento de 2% em cada cesta pessoal"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "HICP is an average consumption-price measure. Different expenditure weights create different basket changes. A family heavily exposed to rapidly rising transport or food prices can face a greater increase; neither the aggregate index nor the ECB target guarantees its individual outcome.",
+      "O HICP é uma medida média de preços de consumo. Pesos diferentes de gastos criam mudanças diferentes das cestas. Uma família muito exposta a preços de transporte ou alimentos que sobem rapidamente pode enfrentar aumento maior; nem o índice agregado nem a meta do BCE garante seu resultado individual."
+    ],
+    "blocks": [
+      "EIP-1.1-03-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €20,000 portfolio earns 4% nominally while the relevant basket rises 6% in the same year. Which statement uses the exact real-return method?",
+      "Uma carteira de €20,000 rende 4% nominais enquanto a cesta relevante sobe 6% no mesmo ano. Qual afirmação usa o método exato de retorno real?"
+    ],
+    "options": [
+      [
+        "The account loses €400 nominally because 4% − 6% = −2%",
+        "A conta perde €400 nominais porque 4% − 6% = −2%"
+      ],
+      [
+        "The real return is +4% because the euro balance increased",
+        "O retorno real é +4% porque o saldo em euros aumentou"
+      ],
+      [
+        "The real return is exactly −2%, with no approximation",
+        "O retorno real é exatamente −2%, sem aproximação"
+      ],
+      [
+        "The account reaches €20,800, but real return is 1.04/1.06 − 1 ≈ −1.89%",
+        "A conta chega a €20,800, mas o retorno real é 1.04/1.06 − 1 ≈ −1.89%"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The nominal account gains €800. Divide growth factors to measure purchasing power: 1.04/1.06 − 1 = −1.886792%. Equivalently, €20,800/1.06 = €19,622.64 in starting-basket money. Subtracting inflation gives a useful −2% approximation, not the exact result or a nominal account loss.",
+      "A conta nominal ganha €800. Divida fatores de crescimento para medir poder de compra: 1.04/1.06 − 1 = −1.886792%. Equivalentemente, €20,800/1.06 = €19,622.64 em dinheiro da cesta inicial. Subtrair inflação dá aproximação útil de −2%, não o resultado exato nem perda nominal da conta."
+    ],
+    "blocks": [
+      "EIP-1.1-03-B06"
+    ],
+    "calculation": {
+      "method": "real_return",
+      "inputs": [
+        0.04,
+        0.06
+      ],
+      "expected": -0.0188679245283019
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A course costs €12,000 today. Its price rises 5% in year one and 2% in year two; a reserved cash balance earns zero. What bill and funding gap should be planned for at the end of year two?",
+      "Um curso custa €12,000 hoje. Seu preço sobe 5% no primeiro ano e 2% no segundo; o caixa reservado rende zero. Qual conta e insuficiência de financiamento devem ser planejadas para o final do segundo ano?"
+    ],
+    "options": [
+      [
+        "Bill €12,852; gap €852",
+        "Conta de €12,852; insuficiência de €852"
+      ],
+      [
+        "Bill €12,840; gap €840",
+        "Conta de €12,840; insuficiência de €840"
+      ],
+      [
+        "Bill €12,600; gap €600",
+        "Conta de €12,600; insuficiência de €600"
+      ],
+      [
+        "Bill €12,484.80; gap €484.80",
+        "Conta de €12,484.80; insuficiência de €484.80"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The second increase applies to the higher first-year price: €12,000 × 1.05 × 1.02 = €12,852, €852 above the unchanged cash. Adding 5% and 2% gives €12,840 and omits compounding. €12,600 stops after year one; €12,484.80 assumes 2% in both years. Slower positive inflation still raises the required payment.",
+      "O segundo aumento se aplica ao preço maior do primeiro ano: €12,000 × 1.05 × 1.02 = €12,852, €852 acima do caixa inalterado. Somar 5% e 2% dá €12,840 e omite capitalização. €12,600 para após o primeiro ano; €12,484.80 presume 2% nos dois anos. Inflação positiva mais lenta ainda eleva o pagamento exigido."
+    ],
+    "blocks": [
+      "EIP-1.1-03-B07"
+    ],
+    "calculation": {
+      "method": "inflated_goal",
+      "inputs": [
+        12000,
+        0.05,
+        0.02
+      ],
+      "expected": [
+        12852,
+        852
+      ]
+    }
+  }
+]

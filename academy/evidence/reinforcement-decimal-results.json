@@ -1,0 +1,1234 @@
+{
+  "date": "2026-10-16",
+  "build_sha256": "57c7b4a714adac0e8883b5de1117ebb9edfc92a956dffc641340424df7a1da65",
+  "exercise_file_sha256": {
+    "EIP-1.1-01.json": "61d011db9d8695cce8ece9787c456bde1266d3e9c8aea69e398ec93dbe575e77",
+    "EIP-1.1-02.json": "dc2b58f07e1234e32aec9ecaa7e09790f18374feb55c0d0d9a95c071dcdeb2b9",
+    "EIP-1.1-03.json": "757bd9eebfeb3c8f37c8bddb0319edda9f6f70fb8044ab3f66f18de6dc2a4474",
+    "EIP-1.2-01.json": "fe8e2113f1edb959a552617c1498339fb8b7d4027e461200955b21e7996a9989",
+    "EIP-1.2-02.json": "1c7548e5c2b6dfe0be5a1d75c60fe70a28c09011101d8a8068dc4f4ea352349c",
+    "EIP-1.2-03.json": "7fd98f162f2f573ce12fea5a82744535014f90f90a6682ce17f2e4079952a2cb",
+    "EIP-1.3-01.json": "da1b908510b99206cab1f75ed15d9071c4381b6179f5adc5853dadae14a20dc6",
+    "EIP-1.3-02.json": "50778eab8a0f8952a0c159fec4197a905a8d612d3142927ee215e5411f1b784d",
+    "EIP-1.3-03.json": "125d48ff56a6d4ae948144fe729e11c8ea07b741d14de8cbdf034adef3473800",
+    "EIP-2.1-01.json": "8a414dc2cdb1dfce309169d890cf3ff905e2409baf929c78e093f07a4bd6c598",
+    "EIP-2.2-01.json": "92a1bf07f1d6f5a4bed083fc875d81e56156672798b4dfc07da9f5dc972f982e",
+    "EIP-2.3-01.json": "2f9cd758b0844c3e570c641bf57758bbc81c6ded2b21333fd5e63505c05ddcd6",
+    "EIP-2.3-02.json": "9e1801dcab319527dd317a917e6f767f7ffaa501ce05256d9837a6a405804999",
+    "EIP-2.3-03.json": "f67fa65cd4ea6e38d3306d2c078e413439c2a582e37ad916fdf8aa8a4dc9b833",
+    "EIP-2.3-04.json": "35e7bd5d96d5359a95adec41ce9c7efbb205c9549c164d5235da5b5367cdc5f6",
+    "EIP-3.1-02.json": "0fbf7f3213392851d0031aa31a68840d8660e9a9222d23ccd7041ee22746d438",
+    "EIP-3.1-A.json": "c2750aa5c18be8fc91151451ec7a1a4eddee54bf82371387be8fb4518697810b",
+    "EIP-3.10-01.json": "a4fddf8e9603a39e557e6e0654bc448a58fc74e4e235f93024ee924603bd5de0",
+    "EIP-3.10-02.json": "bc862cc603bb38474d0fcbdfe16f34da5ddda5bb84e347170ff834445bf91dd4",
+    "EIP-3.2-01.json": "aee3c522d762409b071f00d3db7b15afe5158517e3aa726c47de083e9d7970f3",
+    "EIP-3.2-02.json": "332712088dda78b3fea059167dd23a999dc87715bafbe5c54699cc0729fb0b33",
+    "EIP-3.2-03.json": "b4a7acae28313c623d18c5f80d5013b1ee39e260675e00a3bce398ca542d99f9",
+    "EIP-3.3-01.json": "982f7cd784f6ce506d70f4230f9ccc0b360e4fe0e5232dfdd025f4bd05a51f0a",
+    "EIP-3.3-02.json": "69c5c065b50c99c59a165c3ab43b24576c607baeb97f50553ed4f7b518c4a19b",
+    "EIP-3.3-03.json": "cc65e1f384e6386fc8d34b99068d75ac3fcd93c84130720bdcea12c70f73fb46",
+    "EIP-3.3-04.json": "0a4d99dd852f4c51aeab8b629f08eb4b880e038e604793e5fdcc0b9e4cb6ef38",
+    "EIP-3.4-02.json": "909218e583d3df978a27f956c649efb5bb67f17502729361f2830083b796e26b",
+    "EIP-3.4-03.json": "746f8b2b118f17e89a842c31c91b17bce6849fa973a84459528d0bc53ca7bbb5",
+    "EIP-3.4-04.json": "9b18256a6c18bf21071462ea40d730234a984a76d9749d62ce5de376022d1143",
+    "EIP-3.4-05.json": "c155f7b33218019be64044af2ead521b8e9c1f5d86b91df4c4da8a4052e3ab11",
+    "EIP-3.4-06.json": "a0ffaa79a91f01ff8184793c7ff8f64801955921cc8d133094f7c9bd57ca02de",
+    "EIP-3.4-07.json": "c3933d9a99c12bfa40d6005ad0f8c5bd351400e2ae799ac4c1a0db819871d9e3",
+    "EIP-3.4-A.json": "c7a169d50394b2a85e4491d1929941f9c310b916204b998dd2c23c4802a9264b",
+    "EIP-3.5-01.json": "a44bc64b307683f2bb2a518f0877680f5696ff5a9b9ec2f46796041ae02ceff9",
+    "EIP-3.5-02.json": "ca09cb53000fcfd193935c4865e2957f86ff6c303520a773032e73d16daf86e2",
+    "EIP-3.5-03.json": "f9cbcf09ff5097f0ad69d4f0f7eb7880edcac78e58a16441cb550dda0a2e600f",
+    "EIP-3.5-04.json": "55aee442001089c246f725ef24258cfbca823e9f402dcd040d740b3775397f36",
+    "EIP-3.5-05.json": "b15558f1cb925620875cde11848580380cf077ba3d195bf1f9d354cfd371d5b1",
+    "EIP-3.6-01.json": "fa33ec853350eb32d20aedc5dab4ee72faf4940ecf1ee1caa2a643dfde8d19d5",
+    "EIP-3.6-02.json": "288efab6526460da6e9230b97e71aa82b9ad227de9d22238760bcf63b6be56ea",
+    "EIP-3.6-03.json": "58c6c8888717b6837468376dbfa2228b6220060a2983965740d0597ca8176964",
+    "EIP-3.6-04.json": "dfbc47258974b4f1cb01cccde0e1d2bd788a29bf4f2b1290962b3ea1d5fb8179",
+    "EIP-3.6-05.json": "b6092d8fec00743793df94e289c64be7612dd7cb1bc76ac1609baf7c5143acad",
+    "EIP-3.6-06.json": "55e5d47f1f8ea0bea2cf1bdb094ead5542a4b58d152772493d83c901ac7d8065",
+    "EIP-3.7-01.json": "a93a8fd0df4722491f69976651212cde4ddbd2531af98ebadf6829f024f773a9",
+    "EIP-3.7-02.json": "b2ab2092fba0a75d9fe4172091da53f70e607ef650d458509e3f73f8b7d643ea",
+    "EIP-3.7-03.json": "2058fdb25df55bc28c6e7475d1dfee6f34897fdf330868b801c8011d53e4d689",
+    "EIP-3.7-04.json": "b10a9c71266fee1ae15ef98a7fe85895d669340710d7b9f9c580c2fa5aa9be8d",
+    "EIP-3.8-01.json": "6f09506f0ae6be5003dd22457573e7ab26d3a570d24d0ea9e291455697fc6e31",
+    "EIP-3.8-02.json": "b20a2d9786f1c6f3dd45c69fb93a1d980cb411393aebb51ac24235afe0600f05",
+    "EIP-3.8-03.json": "1d4ece66dde118801f8b041013dfa23b9288225ddd414b8c30a8409f9e24c842",
+    "EIP-3.8-04.json": "4853c14182a2bfd709f1618af7176bcdf260d1975d51afef910ac6227bdf516f",
+    "EIP-3.8-05.json": "45f8a9e8605a020fc0cb21ec87ad1ff1ad744119f3ac1717804babc9d4419741",
+    "EIP-3.8-06.json": "3317231b4b7d51111054fc8d4e76dc7532700d5813a872cb555bf1fa3fe2cf94",
+    "EIP-3.9-01.json": "7922ac60fba12343b83b8d81a8b7ddade0ee8a08d40e34824af89b9beca64bd7",
+    "EIP-3.9-02.json": "20aaf89f8e56caba0c7975be801b69629b7a9a734bc7fab3151b77ec6268c442",
+    "EIP-3.9-03.json": "db0955a124d63d85820603e565a9ccc25eb411ef3b39a905272f84c25adf7636",
+    "EIP-4.1-02.json": "4048e9f8bc7ebe72b692d41497fa79126c03620eaeb396ca1cc13ca9d5b3a95f",
+    "EIP-4.1-03.json": "07ba58795ac3b3e1a357e37006d94dcad09fa654cccdbe557fbfe107f5d41c5e",
+    "EIP-4.1-04.json": "a83c0f0259ff256fdcfe1ea68bc5fb2554803ec23c3fbbe14eb87d1cdaf75211",
+    "EIP-4.1-A.json": "f698732d3e5e95f817ee7f428068860e52e585b8c9a4ddea24d400fc2661ec90",
+    "EIP-5.1-01.json": "895fa88ac430e10383fd33cd9ff4144618aa73a90a72d1ce35e5381cf1791f71",
+    "EIP-5.1-02.json": "15468e6d3f75984cb6aa00de85bd51c7d92ee546ff638e14d7a24e3fb68d1725",
+    "EIP-5.2-01.json": "da36d7d5eda547d0e065e81d26186385077b62fec68054f7ec62817d3db664a4",
+    "EIP-5.2-02.json": "b11bcf7c3cd7c18a53363c4becbbc1197031fea05e2df084b456244004dd7f10",
+    "EIP-5.2-03.json": "ab0a3135a0146e22e74aa2cd3d805b0ce9f21a6c09dacdc1ebfb00db69143ad2",
+    "EIP-5.3-01.json": "633e50e309dbfc9e74e7cbc97a7887f60edb962e8462dd6a844e2ffd07f29eef",
+    "EIP-5.3-02.json": "33dba38800a1f9846828718d9159ceaa77de330ad41997b6fedf1b0e219067a5",
+    "EIP-5.4-01.json": "58a9e47e46c0651a23215e00da85ab2f6003a0345064afe7e96f009d488a288e",
+    "EIP-5.4-02.json": "f903e4844c9c3ff3e24935e810d8e162076ef59ccfb8e6d3fc30bebb83f69b23",
+    "EIP-5.5-01.json": "587a9e244a664f59d8207a73a7c5167f8c882caf0246325bfeb58170839ae670",
+    "EIP-5.5-02.json": "474f937917d50bcf3ad4a99c6db8efcdb3c8f515114c4b2f7711261306c1e3dd",
+    "EIP-6.1-01.json": "6fa19b961d6d99675c028b9ceae4f88ee850ef9b1e61c541f60767027c214a2d",
+    "EIP-6.1-02.json": "81ac4e305426a7f3b2aca028f3089fdccf9ee2a321c3aa7caa248824e686bcdc",
+    "EIP-6.1-03.json": "9c6151f83c5f5755cab0e8f04eca3f40f50e81258db49918ed0d8e55877dde7b",
+    "EIP-6.1-04.json": "8ce3b40ce022dcce971b42d91dad46d29f02a985acfed48d99b7921d30a81f97",
+    "EIP-6.2-01.json": "9c43dbc53a4888a284cf3fd5090b52fc2c5110f9f18d6b70c3062e632cc4a27a",
+    "EIP-6.2-02.json": "f023c9d282f74613b0498e3062ffb1fa51022ab61ed529563c52dd17f5bb44fd",
+    "EIP-6.2-03.json": "2c8fea488d457ba5ef70bc7090d3462f32b1b81b97277d5f72e845d641cbca57",
+    "EIP-6.2-04.json": "710788f21f25373014e2d0fa77573bfd1a4cf1ae155b2ccb63250ee5b4c4c3d7",
+    "EIP-7.1-01.json": "8cadf4b6fc5a7df4645182ba9c73921a9cbd055f982fa70690540dcfcff25c84",
+    "EIP-7.1-02.json": "788107620e5a90d8fb4cec4bce05efa5f5b9f9fe5880b1f536955a2710f23ef8",
+    "EIP-7.1-03.json": "68944e2b366e35dbf738ba3499c8b5e11aba85e948b5e41b7297f72dd396356c",
+    "EIP-7.1-04.json": "b10c9c88e7dc951b9e28e8522e3bcc2a10da7aab3242baf9079a80c768d65bf2",
+    "EIP-7.1-05.json": "4d95086f5a05f6ee0fd1e38b2e06f9689c093e5bf21134a12c349265324acba0",
+    "EIP-7.1-06.json": "4542cce930459e59e929516374f4518a2db163a2aa1bd9f05b463707636027a6",
+    "EIP-7.2-01.json": "10a59ae2c4b1cb0dbb2819a7d37762a2e45dc9bd85b9cb9936dd55d43b28785d",
+    "EIP-7.2-02.json": "98db35e8b801f4fd408f76982bf26df253322ba7e78ac2590c5701d1314afe60",
+    "EIP-7.2-03.json": "7a153c15dc3310b15cba4e57ef5011e5e7d4df100bbc4d0cba02e94130468b1b",
+    "EIP-7.3-01.json": "10a3e6603c8e5dded80c2a443415dad5160d3822dabd822d795e546b66a627c2",
+    "EIP-7.3-02.json": "5bf4c5fba021298a120f784650e4432c3f529c4dbbb9dab886bcf4fb2a11f889",
+    "EIP-M8-01.json": "ad97395d9b660176119693c3e3a22090178b1c9f856634dfbffa9b05f2820654",
+    "EIP-M8-02.json": "36004045b3ab79187870d347cc9a46a979488b06f06056671603519529821837",
+    "EIP-M8-03.json": "abe440aafd50cc9bdde5dd387557235e0183b5b833d474abc37c8cbce5913465",
+    "EIP-M8-04.json": "12a943af78b00aa7ca88dcd08c9ca2d2013d3eed4f346e8823933bffc31b93d5"
+  },
+  "method": "Independent Python Decimal45-digit arithmetic; explicit formulas, no JavaScript execution",
+  "metadata_examples": 146,
+  "additional_direct_premise_checks": 41,
+  "total_checks": 187,
+  "status": "PASS",
+  "rows": [
+    {
+      "exercise": "EIP-1.1-01-R5",
+      "method": "expected_job",
+      "result": "[Decimal('470.0'), Decimal('-30.0')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.1-02-R4",
+      "method": "equilibrium",
+      "result": "[Decimal('20'), Decimal('800')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.1-02-R5",
+      "method": "profit_change",
+      "result": "[Decimal('6400'), Decimal('-0.2')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.1-03-R4",
+      "method": "real_return",
+      "result": "-0.018867924528301886792452830188679245283018868",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.1-03-R5",
+      "method": "inflated_goal",
+      "result": "[Decimal('12852.0000'), Decimal('852.0000')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.2-01-R4",
+      "method": "deficit_decomposition",
+      "result": "[Decimal('13'), Decimal('9'), Decimal('6'), Decimal('3')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.2-01-R5",
+      "method": "combined_profit",
+      "result": "700000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.2-02-R4",
+      "method": "interest_change",
+      "result": "[Decimal('7200.00'), Decimal('9000.0000'), Decimal('1800.0000')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.2-02-R5",
+      "method": "combined_profit",
+      "result": "-625",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.2-03-R4",
+      "method": "net_lending",
+      "result": "[Decimal('12000'), Decimal('-18000'), Decimal('25000')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.2-03-R5",
+      "method": "sector_balance",
+      "result": "[Decimal('3'), Decimal('-2')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.3-01-R3",
+      "method": "debt_ratio",
+      "result": "[Decimal('0.5'), Decimal('0.490476190476190476190476190476190476190476190')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.3-01-R4",
+      "method": "refinancing_interest",
+      "result": "2.40",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.3-01-R5",
+      "method": "debt_issuance",
+      "result": "[Decimal('21'), Decimal('123')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.3-02-R4",
+      "method": "growth",
+      "result": "99.0",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.3-02-R5",
+      "method": "profit_change",
+      "result": "[Decimal('100000'), Decimal('-0.666666666666666666666666666666666666666666667')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.3-03-R4",
+      "method": "fx_margin",
+      "result": "33333.333333333333333333333333333333333333333",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-1.3-03-R5",
+      "method": "shock_profit",
+      "result": "420000.0",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-2.1-01-R5",
+      "method": "weighted_loss",
+      "result": "50.0",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-2.2-01-R4",
+      "method": "spread_cost",
+      "result": "[Decimal('120.0'), Decimal('0.006')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-2.2-01-R5",
+      "method": "foreign_return",
+      "result": "[Decimal('9625.00'), Decimal('-0.0375')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-2.3-01-R4",
+      "method": "allocation",
+      "result": "2.5",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-2.3-01-R5",
+      "method": "issue_cashflows",
+      "result": "[Decimal('9780000.00'), Decimal('400000.00'), Decimal('10000000')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-2.3-02-R5",
+      "method": "route_proceeds",
+      "result": "[Decimal('9800'), Decimal('9805')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-2.3-03-R5",
+      "method": "weighted_execution",
+      "result": "[Decimal('20.1125'), Decimal('20.1425')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-2.3-04-R5",
+      "method": "redemption_gap",
+      "result": "[Decimal('11741.000'), Decimal('259.000')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.1-02-R3",
+      "method": "equivalent_monthly",
+      "result": "0.00948879293458297412635506919349395639446070",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.1-02-R4",
+      "method": "annuity_future",
+      "result": "3121.6000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.1-02-R5",
+      "method": "two_present_values",
+      "result": "11260.3605475109519578083089371819310770210675",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.1-A-R4",
+      "method": "effective_nominal",
+      "result": "0.0609",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.1-A-R5",
+      "method": "goal_funding",
+      "result": "[Decimal('13727.13'), Decimal('248.19')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.10-01-R4",
+      "method": "capped_note",
+      "result": "10800.00",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.10-01-R5",
+      "method": "barrier_pair",
+      "result": "[Decimal('10600'), Decimal('7500.00')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.10-02-R4",
+      "method": "exit_cash_pair",
+      "result": "[Decimal('19100'), Decimal('18400')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.10-02-R5",
+      "method": "difference",
+      "result": "2000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.2-01-R4",
+      "method": "investment_profit",
+      "result": "[Decimal('730'), Decimal('930')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.2-01-R5",
+      "method": "tax_credit_cash",
+      "result": "[Decimal('180'), Decimal('540'), Decimal('1860')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.2-02-R4",
+      "method": "income_share",
+      "result": "0.9",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.2-02-R5",
+      "method": "tax_credit_cash",
+      "result": "[Decimal('220'), Decimal('520'), Decimal('1480')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.2-03-R4",
+      "method": "net_income_yield",
+      "result": "[Decimal('320.0'), Decimal('0.0326530612244897959183673469387755102040816327')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.2-03-R5",
+      "method": "dividend_assessment",
+      "result": "[Decimal('1475.0'), Decimal('442.50'), Decimal('457.50')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.3-01-R4",
+      "method": "coverage_excess",
+      "result": "15000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.3-01-R5",
+      "method": "simple_interest",
+      "result": "180.000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.3-02-R4",
+      "method": "collateral_ceiling",
+      "result": "1020408.17",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.3-02-R5",
+      "method": "collateral_margin",
+      "result": "[Decimal('25900.00'), Decimal('26428.58')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.3-03-R4",
+      "method": "bill_yield",
+      "result": "[Decimal('0.01522842639593908629441624365482233502538071'), Decimal('0.03045685279187817258883248730964467005076142')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.3-03-R5",
+      "method": "discount_bill_cost",
+      "result": "[Decimal('49525.00'), Decimal('0.00959111559818273599192327107521453811206461')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.3-04-R4",
+      "method": "simple_interest",
+      "result": "2000.00",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.3-04-R5",
+      "method": "benchmark_floor",
+      "result": "[Decimal('250.00'), Decimal('100.000')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.4-02-R4",
+      "method": "dirty_cash",
+      "result": "9845.33333333333333333333333333333333333333333",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.4-02-R5",
+      "method": "coupon_holding",
+      "result": "[Decimal('4.16666666666666666666666666666666666666666665'), Decimal('0.00398406374501992031872509960159362549800796812')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.4-03-R4",
+      "method": "one_payment_net",
+      "result": "0.06122448979591836734693877551020408163265306",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.4-03-R5",
+      "method": "coupon_terminal",
+      "result": "[Decimal('1080'), Decimal('0.04902912600598104575902663191182524799240863')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.4-04-R4",
+      "method": "duration_change",
+      "result": "-400.000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.4-04-R5",
+      "method": "convexity_pair",
+      "result": "[Decimal('-0.0760'), Decimal('0.0840')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.4-05-R4",
+      "method": "priority_recovery",
+      "result": "20000.0000000000000000000000000000000000000000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.4-05-R5",
+      "method": "expected_receipt",
+      "result": "[Decimal('1040.20'), Decimal('19.80'), Decimal('0.0402')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.4-06-R4",
+      "method": "sale_shortfall",
+      "result": "[Decimal('93920.00'), Decimal('1080.00')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.4-06-R5",
+      "method": "goal_sale",
+      "result": "[Decimal('23800'), Decimal('1200')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.4-07-R4",
+      "method": "bond_after_tax",
+      "result": "[Decimal('100.0'), Decimal('0.00970873786407766990291262135922330097087379')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.4-07-R5",
+      "method": "conditional_net",
+      "result": "[Decimal('328'), Decimal('290'), Decimal('8'), Decimal('-30')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.4-A-R4",
+      "method": "two_present_values",
+      "result": "981.405895691609977324263038548752834467120181",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.4-A-R5",
+      "method": "zero_duration",
+      "result": "[Decimal('1.90476190476190476190476190476190476190476190'), Decimal('-0.00952380952380952380952380952380952380952380952'), Decimal('907.029478458049886621315192743764172335600907'), Decimal('898.452415713932750836683812133599874216661800')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.5-01-R4",
+      "method": "class_votes",
+      "result": "[Decimal('0.01'), Decimal('0.0526315789473684210526315789473684210526315789')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.5-01-R5",
+      "method": "equity_issue",
+      "result": "[Decimal('19.2'), Decimal('192000'), Decimal('0.008')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.5-02-R4",
+      "method": "gordon_pair",
+      "result": "[Decimal('42'), Decimal('35')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.5-02-R5",
+      "method": "adjusted_multiple",
+      "result": "27.2727272727272727272727272727272727272727273",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.5-03-R4",
+      "method": "investment_return",
+      "result": "-0.027888446215139442231075697211155378486055777",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.5-03-R5",
+      "method": "two_return_recovery",
+      "result": "[Decimal('9600.00'), Decimal('-0.020204102886728760721086370117643443213621008'), Decimal('0.04166666666666666666666666666666666666666667')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.5-04-R4",
+      "method": "weighted_return",
+      "result": "0.02",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.5-04-R5",
+      "method": "reserve_goal",
+      "result": "[Decimal('28500.00'), Decimal('500.00')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.5-05-R4",
+      "method": "dividend_actual_expense",
+      "result": "[Decimal('1950.0'), Decimal('585.00')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.5-05-R5",
+      "method": "equity_tax_timeline",
+      "result": "[Decimal('1055.00'), Decimal('815.00')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.6-01-R4",
+      "method": "linear_future",
+      "result": "-3000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.6-01-R5",
+      "method": "forward_fx_cost",
+      "result": "[Decimal('8.80E+4'), Decimal('12000')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.6-02-R4",
+      "method": "basis_hedge",
+      "result": "[Decimal('97000'), Decimal('-3')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.6-02-R5",
+      "method": "margin_path",
+      "result": "[Decimal('800'), Decimal('-200')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.6-03-R4",
+      "method": "physical_call",
+      "result": "[Decimal('5000'), Decimal('500')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.6-03-R5",
+      "method": "covered_call_pair",
+      "result": "[Decimal('700'), Decimal('-800')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.6-04-R4",
+      "method": "short_put_bounds",
+      "result": "[Decimal('4700'), Decimal('300')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.6-04-R5",
+      "method": "partial_put",
+      "result": "[Decimal('5500'), Decimal('2200')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.6-05-R4",
+      "method": "hedge_quantity",
+      "result": "4.0",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.6-05-R5",
+      "method": "overhedge",
+      "result": "[Decimal('60909.0909090909090909090909090909090909090909'), Decimal('63636.3636363636363636363636363636363636363636'), Decimal('2727.2727272727272727272727272727272727272727')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.6-06-R4",
+      "method": "tax_branch_difference",
+      "result": "[Decimal('10560.0'), Decimal('10640.0'), Decimal('80.0')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.6-06-R5",
+      "method": "annual_option_profit",
+      "result": "[Decimal('280'), Decimal('700'), Decimal('490.0')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.7-01-R4",
+      "method": "fx_divide",
+      "result": "1.0E+4",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.7-01-R5",
+      "method": "fx_roundtrip_fees",
+      "result": "[Decimal('9963.21071752951861943687556766575840145322434'), Decimal('36.78928247048138056312443233424159854677566')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.7-02-R4",
+      "method": "synthetic_sell",
+      "result": "9979.56867196367763904653802497162315550510783",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.7-02-R5",
+      "method": "fx_route_compare",
+      "result": "[Decimal('1644000.0'), Decimal('1644304.0000'), Decimal('304.0000')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.7-03-R4",
+      "method": "foreign_return",
+      "result": "[Decimal('9680'), Decimal('-0.032')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.7-03-R5",
+      "method": "foreign_net",
+      "result": "[Decimal('9980.00'), Decimal('-0.002')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.7-04-R4",
+      "method": "partial_fx",
+      "result": "[Decimal('93800'), Decimal('104800.0')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.7-04-R5",
+      "method": "principal_hedge_loss",
+      "result": "[Decimal('9.120E+4'), Decimal('89000')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.8-01-R5",
+      "method": "fund_net_holder",
+      "result": "[Decimal('103'), Decimal('10280'), Decimal('0.028')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.8-02-R4",
+      "method": "fund_redemption_return",
+      "result": "[Decimal('25850.000'), Decimal('0.034')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.8-02-R5",
+      "method": "distributed_swing",
+      "result": "9940.800",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.8-03-R4",
+      "method": "tracking_gap",
+      "result": "[Decimal('-0.006'), Decimal('10740.000'), Decimal('60.000')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.8-03-R5",
+      "method": "concentration_aggregate",
+      "result": "46",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.8-04-R3",
+      "method": "fee_factor",
+      "result": "1.04475",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.8-04-R4",
+      "method": "entry_added_return",
+      "result": "[Decimal('1.00E+4'), Decimal('10400'), Decimal('0.02970297029702970297029702970297029702970297')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.8-04-R5",
+      "method": "gate_timeline",
+      "result": "[Decimal('40000.0'), Decimal('50000.0'), Decimal('97000.0')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.8-05-R4",
+      "method": "fund_distribution_compare",
+      "result": "[Decimal('11800.00'), Decimal('11700.00'), Decimal('100.00')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.8-05-R5",
+      "method": "fund_overlap",
+      "result": "[Decimal('22000.0'), Decimal('0.22'), Decimal('8800.00'), Decimal('0.088')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.8-06-R4",
+      "method": "net_income_yield",
+      "result": "[Decimal('700.0'), Decimal('0.7')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.8-06-R5",
+      "method": "subscription_tax",
+      "result": "[Decimal('55000.0000'), Decimal('55.0000')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.9-01-R4",
+      "method": "weighted_amount",
+      "result": "600.00",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.9-01-R5",
+      "method": "intensity_weights",
+      "result": "[Decimal('60.0'), Decimal('40.00'), Decimal('0.333333333333333333333333333333333333333333333')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.9-02-R4",
+      "method": "absolute_intensity",
+      "result": "[Decimal('0.08'), Decimal('1000'), Decimal('900'), Decimal('-0.1')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.9-02-R5",
+      "method": "turnover_programme",
+      "result": "[Decimal('160000.00'), Decimal('-140000.00')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.9-03-R4",
+      "method": "transition_profit",
+      "result": "[Decimal('8000000'), Decimal('2000000.00'), Decimal('8000000.00')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-3.9-03-R5",
+      "method": "physical_cash_need",
+      "result": "2500000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-4.1-02-R4",
+      "method": "uncommitted",
+      "result": "20000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-4.1-02-R5",
+      "method": "loss_boundary",
+      "result": "0.28",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-4.1-03-R4",
+      "method": "retirement_flows",
+      "result": "[Decimal('12000'), Decimal('8400'), Decimal('-20400')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-4.1-03-R5",
+      "method": "inheritance_loss",
+      "result": "[Decimal('20000.0'), Decimal('0.0588235294117647058823529411764705882352941176')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-4.1-A-R4",
+      "method": "client_remaining",
+      "result": "8600.00",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.1-01-R4",
+      "method": "return_series",
+      "result": "[Decimal('12017.50000'), Decimal('0.20175'), Decimal('0.0666666666666666666666666666666666666666666667')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.1-01-R5",
+      "method": "withdrawal_sequence",
+      "result": "[Decimal('9900.00'), Decimal('9100.00')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.1-02-R4",
+      "method": "sample_volatility",
+      "result": "0.129099444873580562839308846659413320361097390",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.1-02-R5",
+      "method": "annual_volatility",
+      "result": "[Decimal('0.0692820323027550917410978536602348946777122102'), Decimal('6928.20323027550917410978536602348946777122102')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.2-01-R4",
+      "method": "paired_stats",
+      "result": "[Decimal('-0.001'), Decimal('-0.5')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.2-01-R5",
+      "method": "paired_stats",
+      "result": "[Decimal('0E-47'), Decimal('0.0')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.2-02-R4",
+      "method": "rebalance_two",
+      "result": "[Decimal('110000.00'), Decimal('0.10'), Decimal('6000.000')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.2-02-R5",
+      "method": "leveraged_return",
+      "result": "[Decimal('-24600.00'), Decimal('-0.246')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.2-03-R4",
+      "method": "portfolio_volatility",
+      "result": "0.126491106406735173279955741777308741348782206",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.2-03-R5",
+      "method": "portfolio_volatility",
+      "result": "0.0421637021355783868769483670345971377844026759",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.3-01-R4",
+      "method": "minimum_variance",
+      "result": "0.125",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.3-01-R5",
+      "method": "utility_comparison",
+      "result": "[Decimal('0.0384'), Decimal('0.0214'), Decimal('0.05640'), Decimal('0.06190')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.3-02-R4",
+      "method": "allocation_headroom",
+      "result": "[Decimal('10000.0'), Decimal('45000')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.3-02-R5",
+      "method": "switch_break_even",
+      "result": "[Decimal('-700.000'), Decimal('3.33333333333333333333333333333333333333333333')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.4-01-R4",
+      "method": "riskfree_mix",
+      "result": "[Decimal('0.056'), Decimal('0.090')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.4-01-R5",
+      "method": "riskfree_mix",
+      "result": "[Decimal('0.088'), Decimal('0.180')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.4-02-R4",
+      "method": "client_pool_equity",
+      "result": "[Decimal('110000'), Decimal('66000.0'), Decimal('0.366666666666666666666666666666666666666666667')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.4-02-R5",
+      "method": "required_goal_growth",
+      "result": "[Decimal('0.06160689621814597530814672364717772967236864'), Decimal('196993.24661971389839360000'), Decimal('3006.75338028610160640000')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.5-01-R4",
+      "method": "net_active",
+      "result": "[Decimal('0.065'), Decimal('-0.005'), Decimal('-500.00')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.5-01-R5",
+      "method": "cumulative_active",
+      "result": "[Decimal('-0.06'), Decimal('-0.057142857142857142857142857142857142857142857')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.5-02-R4",
+      "method": "sharpe_pair",
+      "result": "[Decimal('0.5'), Decimal('0.35')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-5.5-02-R5",
+      "method": "two_contribution_irr",
+      "result": "-0.082255312124217479704438145729142207388771549",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.1-01-R3",
+      "method": "guarantee_bonus",
+      "result": "[Decimal('19894.000'), Decimal('20194.000'), Decimal('-106.000')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.1-01-R4",
+      "method": "capped_note",
+      "result": "22000.0",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.1-01-R5",
+      "method": "unit_policy_value",
+      "result": "[Decimal('196.00'), Decimal('17343.6000'), Decimal('0.13282')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.1-02-R4",
+      "method": "benefit_floor_split",
+      "result": "[Decimal('100000'), Decimal('60000.0'), Decimal('40000.0')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.1-02-R5",
+      "method": "net_income_yield",
+      "result": "[Decimal('19600.00'), Decimal('0.98')]",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.1-03-R5",
+      "method": "growth",
+      "result": "4037.82799864834274427970716575964894410617315",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.1-04-R4",
+      "method": "weighted_amount",
+      "result": "111.6",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.1-04-R5",
+      "method": "weighted_amount",
+      "result": "604.8",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.1-03-R3",
+      "method": "direct-premise Decimal derivation",
+      "result": "16.6666666666666666666666666666666666666666667",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.1-03-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "90867.35",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.1-03-R5",
+      "method": "direct-premise Decimal derivation",
+      "result": "4037.82799864834612474930763415368027288050620",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.2-01-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "6000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.2-01-R5",
+      "method": "direct-premise Decimal derivation",
+      "result": "8000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.2-02-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "74000.00",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.2-02-R5",
+      "method": "direct-premise Decimal derivation",
+      "result": "120000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.2-03-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "100.0",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.2-03-R5",
+      "method": "direct-premise Decimal derivation",
+      "result": "7700.2381672801107758152594015712501947500000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.2-04-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "1350.0",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-6.2-04-R5",
+      "method": "direct-premise Decimal derivation",
+      "result": "6000.0",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.1-01-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "5015",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.1-01-R5",
+      "method": "direct-premise Decimal derivation",
+      "result": "50.0",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.1-02-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "480.0000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.1-02-R5",
+      "method": "direct-premise Decimal derivation",
+      "result": "4000.0",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.1-03-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "1.200",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.1-03-R5",
+      "method": "direct-premise Decimal derivation",
+      "result": "600.000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.1-04-R3",
+      "method": "direct-premise Decimal derivation",
+      "result": "1500",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.1-04-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "25",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.1-04-R5",
+      "method": "direct-premise Decimal derivation",
+      "result": "20690.600",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.1-05-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "7500.00",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.1-05-R5",
+      "method": "direct-premise Decimal derivation",
+      "result": "4000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.1-06-R3",
+      "method": "direct-premise Decimal derivation",
+      "result": "10000000.0",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.1-06-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "1.25",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.1-06-R5",
+      "method": "direct-premise Decimal derivation",
+      "result": "10",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.2-01-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "4.00",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.2-01-R5",
+      "method": "direct-premise Decimal derivation",
+      "result": "4500",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.2-02-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "400000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.2-03-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "87.500",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.3-01-R3",
+      "method": "direct-premise Decimal derivation",
+      "result": "5.00",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.3-01-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "38400.00000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-7.3-02-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "600.000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-M8-01-R3",
+      "method": "direct-premise Decimal derivation",
+      "result": "70.0",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-M8-01-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "50.0000",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-M8-01-R5",
+      "method": "direct-premise Decimal derivation",
+      "result": "18600.00",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-M8-02-R3",
+      "method": "direct-premise Decimal derivation",
+      "result": "35.00",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-M8-02-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "2",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-M8-02-R5",
+      "method": "direct-premise Decimal derivation",
+      "result": "40.0",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-M8-03-R4",
+      "method": "direct-premise Decimal derivation",
+      "result": "68.0",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-M8-03-R5",
+      "method": "direct-premise Decimal derivation",
+      "result": "57.5",
+      "status": "PASS"
+    },
+    {
+      "exercise": "EIP-M8-04-R5",
+      "method": "direct-premise Decimal derivation",
+      "result": "-12.00",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "Numerical verification is distinct from legal interpretation and independent specialist approval.",
+    "This script checks stated models; plausible wrong alternatives and answer meaning receive authoring/content review, not proof from arithmetic alone."
+  ]
+}

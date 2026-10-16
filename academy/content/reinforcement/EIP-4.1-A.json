@@ -1,0 +1,203 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which service requires the broader suitability assessment in this lesson?",
+      "Qual serviço exige a avaliação mais ampla de adequação nesta aula?"
+    ],
+    "options": [
+      [
+        "Every client-initiated trade automatically qualifies for execution-only",
+        "Toda operação iniciada pelo cliente qualifica automaticamente para somente execução"
+      ],
+      [
+        "Only identity verification under AML",
+        "Apenas verificação de identidade em PLD"
+      ],
+      [
+        "Investment advice or discretionary portfolio management",
+        "Aconselhamento de investimento ou gestão discricionária de carteira"
+      ],
+      [
+        "Only a generic product-information page with no personal recommendation",
+        "Apenas uma página genérica de informação de produto sem recomendação pessoal"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The substance of advice or portfolio management determines the suitability pathway. Relevant non-advised services have a different appropriateness enquiry and execution-only has cumulative conditions. A website label or signed form cannot transform an actual personal recommendation into a mere execution service.",
+      "A substância do aconselhamento ou gestão de carteira determina a rota de adequação. Serviços pertinentes sem aconselhamento têm outra avaliação de caráter apropriado, e somente execução exige condições cumulativas. Um rótulo no site ou formulário assinado não transforma recomendação pessoal efetiva em mero serviço de execução."
+    ],
+    "blocks": [
+      "SUIT-T1"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "When necessary suitability information cannot be obtained, the firm should ______.",
+      "Quando informações necessárias de adequação não podem ser obtidas, a instituição deve ______."
+    ],
+    "options": [
+      [
+        "not recommend on that missing evidence",
+        "não recomendar com essa evidência ausente"
+      ],
+      [
+        "recommend if the client signs a general disclaimer",
+        "recomendar se o cliente assinar ressalva geral"
+      ],
+      [
+        "replace the missing financial facts with trading experience",
+        "substituir fatos financeiros ausentes por experiência de negociação"
+      ],
+      [
+        "average willingness with missing capacity to produce an approval",
+        "fazer média da disposição com capacidade ausente para produzir aprovação"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "A recommendation requires the necessary reliable evidence. A signature does not transfer the firm’s duty, and experience does not establish capacity to bear losses. Investigate contradictions and update material facts rather than manufacture a sufficient score from incomplete information.",
+      "Uma recomendação exige as evidências confiáveis necessárias. Uma assinatura não transfere o dever da instituição, e experiência não estabelece capacidade de suportar perdas. Investigue contradições e atualize fatos materiais, em vez de fabricar uma pontuação suficiente a partir de informações incompletas."
+    ],
+    "blocks": [
+      "SUIT-T2"
+    ]
+  },
+  {
+    "type": "matching",
+    "prompt": [
+      "Match each client-evidence concept to its distinct question.",
+      "Associe cada conceito de evidência do cliente à sua pergunta distinta."
+    ],
+    "concepts": [
+      [
+        "Knowledge and experience",
+        "Conhecimento e experiência"
+      ],
+      [
+        "Risk tolerance",
+        "Tolerância ao risco"
+      ],
+      [
+        "Capacity for loss",
+        "Capacidade de suportar perdas"
+      ],
+      [
+        "Liquidity need",
+        "Necessidade de liquidez"
+      ]
+    ],
+    "definitions": [
+      [
+        "Would a loss undermine commitments or goals?",
+        "Uma perda comprometeria compromissos ou metas?"
+      ],
+      [
+        "When must cash be accessible on acceptable terms?",
+        "Quando o dinheiro deve estar acessível em condições aceitáveis?"
+      ],
+      [
+        "Does the client understand and have relevant experience of the product risks?",
+        "O cliente entende e tem experiência relevante dos riscos do produto?"
+      ],
+      [
+        "How willing is the client to accept investment risk?",
+        "Qual é a disposição do cliente para aceitar risco de investimento?"
+      ]
+    ],
+    "answer": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "explanation": [
+      "Knowledge and experience support understanding; tolerance concerns willingness; capacity concerns financial consequences; liquidity concerns usable cash when needed. A confident experienced investor can still lack money for an essential payment after a loss. These dimensions interact but cannot be replaced by one personality label or averaged to cancel a binding constraint.",
+      "Conhecimento e experiência sustentam compreensão; tolerância diz respeito à disposição; capacidade às consequências financeiras; liquidez ao dinheiro utilizável quando necessário. Um investidor confiante e experiente ainda pode não ter dinheiro para pagamento essencial após perda. As dimensões interagem, mas não podem ser substituídas por um rótulo de personalidade nem fazer média que anule restrição vinculante."
+    ],
+    "blocks": [
+      "SUIT-T4",
+      "SUIT-T2"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Ana invests €60,000; a stipulated 25% fall occurs. She then pays a €40,000 house commitment and adds twelve months of €300 saving, all available for this comparison. What remains, and what does the arithmetic establish?",
+      "Ana investe €60,000; ocorre queda estipulada de 25%. Depois paga compromisso imobiliário de €40,000 e acrescenta doze meses de poupança de €300, todos disponíveis nessa comparação. Quanto resta e o que a aritmética demonstra?"
+    ],
+    "options": [
+      [
+        "€20,000; willingness guarantees adequate reserves",
+        "€20,000; a disposição garante reservas suficientes"
+      ],
+      [
+        "€5,000; no saving should be included despite the assumption",
+        "€5,000; nenhuma poupança deve ser incluída apesar da hipótese"
+      ],
+      [
+        "€18,600; the loss affects only the house payment",
+        "€18,600; a perda afeta apenas o pagamento imobiliário"
+      ],
+      [
+        "€8,600; adequacy of reserves still requires actual expense and resource evidence",
+        "€8,600; a suficiência de reservas ainda exige evidência efetiva de despesas e recursos"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "After the loss, assets are 60,000 × 0.75 = €45,000; after the house payment €5,000 remains. Saving adds 12 × 300 = €3,600, producing €8,600. The number does not establish a sufficient emergency reserve or a maximum loss. Emotional tolerance does not fund commitments, and no universal reserve requirement is inferred from this fictional case.",
+      "Após a perda, os ativos são 60,000 × 0.75 = €45,000; após o pagamento imobiliário restam €5,000. A poupança acrescenta 12 × 300 = €3,600, produzindo €8,600. O número não demonstra reserva de emergência suficiente nem perda máxima. Tolerância emocional não financia compromissos, e nenhuma exigência universal de reserva é inferida do caso fictício."
+    ],
+    "blocks": [
+      "SUIT-E1"
+    ],
+    "calculation": {
+      "method": "client_remaining",
+      "inputs": [
+        60000,
+        -0.25,
+        40000,
+        300,
+        12
+      ],
+      "expected": 8600
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Two funds are already financially suitable for Bruno. His only sustainability criterion is at least 40% SFDR sustainable investments; verified A has 20%, B 45%. B becomes unavailable and A pays the adviser more. Which process is defensible?",
+      "Dois fundos já são financeiramente adequados para Bruno. Seu único critério de sustentabilidade é pelo menos 40% de investimentos sustentáveis SFDR; A tem 20% verificados, B 45%. B fica indisponível e A remunera mais o consultor. Qual processo é defensável?"
+    ],
+    "options": [
+      [
+        "Explain A’s 20-percentage-point gap; let Bruno retain or make an informed adaptation before any recommendation, record reasons and manage the conflict.",
+        "Explique a lacuna de 20 pontos percentuais de A; permita que Bruno mantenha ou adapte de modo informado antes de qualquer recomendação, registre razões e administre o conflito."
+      ],
+      [
+        "Recommend A first with a warning and adapt the preference afterwards.",
+        "Recomende A primeiro com alerta e adapte a preferência depois."
+      ],
+      [
+        "Automatically change Bruno’s preference to 20% because only A is available.",
+        "Mude automaticamente a preferência de Bruno para 20% porque apenas A está disponível."
+      ],
+      [
+        "Disclose the extra remuneration and describe A as already meeting 40%.",
+        "Divulgue a remuneração adicional e descreva A como já atendendo a 40%."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "A is 40 − 20 = 20 percentage points short; remuneration does not repair the mismatch. Transparent discussion of close alternatives can precede an informed client decision, but adaptation must occur before the relevant recommendation and be recorded with reasons. Bruno can retain his preference and receive no recommendation from this set. Adaptation does not automatically rewrite all future preferences or override financial suitability.",
+      "A fica 40 − 20 = 20 pontos percentuais abaixo; remuneração não corrige a incompatibilidade. A discussão transparente de alternativas próximas pode preceder decisão informada do cliente, mas a adaptação deve ocorrer antes da recomendação pertinente e ser registrada com razões. Bruno pode manter a preferência e não receber recomendação desse conjunto. A adaptação não reescreve automaticamente todas as preferências futuras nem supera a adequação financeira."
+    ],
+    "blocks": [
+      "SUIT-E2",
+      "SUIT-T3"
+    ]
+  }
+]

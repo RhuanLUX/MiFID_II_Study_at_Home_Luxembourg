@@ -1,0 +1,190 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which risk can remain in a broadly diversified equity portfolio?",
+      "Qual risco pode permanecer em uma carteira amplamente diversificada de ações?"
+    ],
+    "options": [
+      [
+        "None of the risks in the largest holdings, because fund count establishes complete diversification",
+        "Nenhum dos riscos das maiores posições, pois a quantidade de fundos comprova diversificação completa"
+      ],
+      [
+        "Only issuer-specific risk, with common risk eliminated by holding several sectors",
+        "Apenas risco específico de emissor, com risco comum eliminado por deter vários setores"
+      ],
+      [
+        "Common market shocks affecting many holdings together",
+        "Choques comuns de mercado que afetam muitas posições juntas"
+      ],
+      [
+        "Only risks evident in calm-period volatility, because stress correlations cannot change",
+        "Apenas riscos evidentes na volatilidade de períodos calmos, pois correlações de estresse não podem mudar"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Diversification can reduce dependence on particular issuers when weights and co-movements support it. Broad recession, rates or sector shocks can still affect many holdings. The number of funds alone does not establish distinct exposures because their underlying portfolios may overlap.",
+      "A diversificação pode reduzir a dependência de emissores específicos quando pesos e movimentos conjuntos a sustentam. Recessão, taxas ou choques setoriais amplos ainda podem afetar muitas posições. O número de fundos, isoladamente, não demonstra exposições distintas porque suas carteiras subjacentes podem se sobrepor."
+    ],
+    "blocks": [
+      "EIP-3.5-04-B04"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Capacity for loss concerns ______, distinct from willingness to accept fluctuations.",
+      "A capacidade de suportar perdas diz respeito a ______, distinta da disposição de aceitar oscilações."
+    ],
+    "options": [
+      [
+        "financial ability to absorb a shortfall without undermining essential needs",
+        "capacidade financeira de absorver uma insuficiência sem comprometer necessidades essenciais"
+      ],
+      [
+        "confidence that a familiar company will recover",
+        "confiança de que uma empresa familiar se recuperará"
+      ],
+      [
+        "the desire to accept fluctuations regardless of spending obligations",
+        "o desejo de aceitar oscilações independentemente das obrigações de gasto"
+      ],
+      [
+        "the time horizon alone, assuming it guarantees recovery",
+        "apenas o horizonte temporal, supondo que garanta recuperação"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "A confident investor can have limited financial capacity if an essential payment depends on the portfolio. Tolerance is a preference or willingness; capacity concerns the economic consequences of loss. A long horizon does not guarantee recovery of a failed business or make a near-term liability disappear.",
+      "Um investidor confiante pode ter capacidade financeira limitada se um pagamento essencial depender da carteira. A tolerância é uma preferência ou disposição; a capacidade diz respeito às consequências econômicas da perda. Um horizonte longo não garante recuperação de um negócio fracassado nem faz desaparecer uma obrigação próxima."
+    ],
+    "blocks": [
+      "EIP-3.5-04-B06"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Why can employer-share concentration be greater than the portfolio weight alone suggests?",
+      "Por que a concentração em ações do empregador pode ser maior do que o peso na carteira, isoladamente, sugere?"
+    ],
+    "options": [
+      [
+        "Salary necessarily rises when employer shares fall.",
+        "O salário necessariamente sobe quando as ações do empregador caem."
+      ],
+      [
+        "Familiarity guarantees that losses can be absorbed.",
+        "A familiaridade garante que perdas possam ser absorvidas."
+      ],
+      [
+        "The shares become an insured salary claim.",
+        "As ações tornam-se um direito salarial segurado."
+      ],
+      [
+        "The same business shock can weaken both investment value and household income.",
+        "O mesmo choque empresarial pode enfraquecer tanto o investimento quanto a renda familiar."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The household depends on the employer through both wages and investments. A portfolio-only loss scenario omits possible simultaneous income loss, which can reduce the ability to avoid selling. Knowledge of the employer’s products does not increase financial loss capacity or insure its shares. Evaluate the wider household exposure.",
+      "A família depende do empregador tanto pelo salário quanto pelos investimentos. Um cenário de perda apenas da carteira omite possível perda simultânea de renda, que pode reduzir a capacidade de evitar uma venda. Conhecer os produtos do empregador não aumenta a capacidade financeira de suportar perdas nem assegura suas ações. Avalie a exposição familiar mais ampla."
+    ],
+    "blocks": [
+      "EIP-3.5-04-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A has 20% portfolio weight and returns −30%; B has 80% and returns +10%. No other flows or costs. What is the portfolio return?",
+      "A tem peso de 20% na carteira e retorna −30%; B tem 80% e retorna +10%. Sem outros fluxos ou custos. Qual é o retorno da carteira?"
+    ],
+    "options": [
+      [
+        "−10%, using equal weights",
+        "−10%, usando pesos iguais"
+      ],
+      [
+        "+2%",
+        "+2%"
+      ],
+      [
+        "−20%, adding constituent returns",
+        "−20%, somando retornos dos componentes"
+      ],
+      [
+        "+10%, using the larger position alone",
+        "+10%, usando apenas a posição maior"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Weighted return is 0.2 × (−0.30) + 0.8 × 0.10 = 0.02, or 2%. Equal weights would give −10%, but those are not the stated weights. Adding returns ignores capital allocation. This is one conditional scenario, not expected return, because no scenario probabilities were supplied.",
+      "O retorno ponderado é 0.2 × (−0.30) + 0.8 × 0.10 = 0.02, ou 2%. Pesos iguais dariam −10%, mas não são os pesos informados. Somar retornos ignora a alocação de capital. Este é um cenário condicional, não o retorno esperado, pois não foram fornecidas probabilidades dos cenários."
+    ],
+    "blocks": [
+      "EIP-3.5-04-B05"
+    ],
+    "calculation": {
+      "method": "weighted_return",
+      "inputs": [
+        0.2,
+        -0.3,
+        0.8,
+        0.1
+      ],
+      "expected": 0.02
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A client has €30,000: €24,000 is held in an assumed accessible zero-return, no-loss reserve and €6,000 in equities. Equities lose 25%. The original €24,000 goal rises to €29,000. Which conclusion is correct under these assumptions?",
+      "Um cliente tem €30,000: €24,000 ficam em reserva suposta acessível, sem retorno nem perda, e €6,000 em ações. As ações perdem 25%. A meta original de €24,000 sobe para €29,000. Qual conclusão é correta sob essas hipóteses?"
+    ],
+    "options": [
+      [
+        "All goals remain funded because a reserve exists.",
+        "Todas as metas permanecem financiadas porque existe uma reserva."
+      ],
+      [
+        "Total resources are €22,500, because all capital lost 25%.",
+        "Os recursos totais são €22,500, pois todo o capital perdeu 25%."
+      ],
+      [
+        "Resources are €28,500; the old goal is funded but the new goal has a €500 gap.",
+        "Os recursos são €28,500; a meta anterior está financiada, mas a nova tem lacuna de €500."
+      ],
+      [
+        "Resources are €30,000 because diversification guarantees no loss.",
+        "Os recursos são €30,000 porque a diversificação garante ausência de perda."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Risky assets become 6,000 × 0.75 = €4,500; add the stipulated €24,000 reserve for €28,500. The old bill remains funded, but the new €29,000 goal exceeds resources by €500. Applying the loss to the reserve violates the assumptions; treating the reserve as sufficient forever ignores the changed goal. A real reserve still requires verification of access, counterparty and protection.",
+      "Os ativos arriscados tornam-se 6,000 × 0.75 = €4,500; some a reserva estipulada de €24,000 para €28,500. A conta anterior permanece financiada, mas a nova meta de €29,000 supera os recursos em €500. Aplicar a perda à reserva viola as hipóteses; tratar a reserva como suficiente para sempre ignora a meta alterada. Uma reserva real ainda exige verificar acesso, contraparte e proteção."
+    ],
+    "blocks": [
+      "EIP-3.5-04-B07"
+    ],
+    "calculation": {
+      "method": "reserve_goal",
+      "inputs": [
+        24000,
+        6000,
+        -0.25,
+        29000
+      ],
+      "expected": [
+        28500,
+        500
+      ]
+    }
+  }
+]

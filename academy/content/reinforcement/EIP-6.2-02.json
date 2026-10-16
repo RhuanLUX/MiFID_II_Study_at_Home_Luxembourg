@@ -1,0 +1,167 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which phase normally removes capital to support spending?",
+      "Qual fase normalmente retira capital para sustentar despesas?"
+    ],
+    "options": [
+      [
+        "Accumulation through new contributions",
+        "Acumulação mediante novas contribuições"
+      ],
+      [
+        "Reinvestment without withdrawals",
+        "Reinvestimento sem retiradas"
+      ],
+      [
+        "Retirement drawdown",
+        "Desacumulação na aposentadoria"
+      ],
+      [
+        "Compounding of every contribution without external flows",
+        "Capitalização de toda contribuição sem fluxos externos"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Drawdown finances spending by removing capital. Accumulation normally adds saving and compounds it. Because withdrawals change the amount exposed to later returns, the timing of gains and losses matters during retirement, even when two paths contain the same individual returns.",
+      "A desacumulação financia despesas retirando capital. A acumulação normalmente acrescenta poupança e a capitaliza. Como retiradas mudam o valor exposto aos retornos seguintes, o momento dos ganhos e perdas importa na aposentadoria, mesmo quando duas trajetórias contêm os mesmos retornos individuais."
+    ],
+    "blocks": [
+      "EIP-6.2-02-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Compared with identical year-end saving, beginning-of-year contributions in the constant-rate model receive ______.",
+      "Comparadas à mesma poupança ao fim do ano, contribuições no início do ano no modelo de taxa constante recebem ______."
+    ],
+    "options": [
+      [
+        "one fewer year of compounding each",
+        "um ano a menos de capitalização cada"
+      ],
+      [
+        "the same growth regardless of payment date",
+        "o mesmo crescimento independentemente da data"
+      ],
+      [
+        "an annual rate applied as a monthly rate",
+        "uma taxa anual aplicada como mensal"
+      ],
+      [
+        "one additional year of compounding each",
+        "um ano adicional de capitalização cada"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Beginning-of-year payments are invested earlier, so the year-end ordinary-annuity result is multiplied by one plus the annual rate. Dates and rate periods must match. This is a deterministic timing comparison, not a guarantee that actual markets will deliver a fixed return.",
+      "Pagamentos no início do ano são investidos antes; assim, o resultado da anuidade postecipada é multiplicado por um mais a taxa anual. Datas e períodos das taxas precisam corresponder. Trata-se de comparação determinística de prazo, não garantia de retorno fixo nos mercados."
+    ],
+    "blocks": [
+      "EIP-6.2-02-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Why can identical return observations in reverse order leave different balances when withdrawals continue?",
+      "Por que retornos individuais idênticos em ordem inversa podem deixar saldos diferentes quando continuam as retiradas?"
+    ],
+    "options": [
+      [
+        "Withdrawals alter the capital exposed to later returns.",
+        "As retiradas alteram o capital exposto aos retornos seguintes."
+      ],
+      [
+        "Reversing returns changes their arithmetic average.",
+        "Inverter os retornos muda sua média aritmética."
+      ],
+      [
+        "The no-flow compounded product necessarily changes when reordered.",
+        "O produto composto sem fluxos necessariamente muda com a ordem."
+      ],
+      [
+        "Every loss is recovered fully once an equal positive percentage occurs.",
+        "Toda perda é recuperada integralmente quando ocorre percentual positivo igual."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Multiplication of the same no-flow return factors is order-independent. Withdrawals break that equivalence because different balances remain invested after each payment. The arithmetic average does not change, and equal positive and negative percentages do not cancel on changing bases. Sequence risk concerns the interaction between returns and cash flows.",
+      "A multiplicação dos mesmos fatores de retorno sem fluxos independe da ordem. Retiradas rompem essa equivalência porque saldos diferentes permanecem investidos após cada pagamento. A média aritmética não muda, e percentuais positivos e negativos iguais não se anulam em bases variáveis. O risco de sequência trata da interação entre retornos e fluxos."
+    ],
+    "blocks": [
+      "EIP-6.2-02-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "€100,000 earns −20% then +20%, with €10,000 withdrawn at each year-end after returns. What is the final balance?",
+      "€100,000 rendem −20% e depois +20%, com retirada de €10,000 ao fim de cada ano após os retornos. Qual é o saldo final?"
+    ],
+    "options": [
+      [
+        "€96,000",
+        "€96,000"
+      ],
+      [
+        "€74,000",
+        "€74,000"
+      ],
+      [
+        "€78,000",
+        "€78,000"
+      ],
+      [
+        "€80,000",
+        "€80,000"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Year one leaves 100,000 × 0.80 − 10,000 = €70,000. Year two leaves 70,000 × 1.20 − 10,000 = €74,000. €96,000 ignores withdrawals; €78,000 is the reversed return order with the same withdrawals. A zero arithmetic average does not preserve principal, and spending continues to reduce the exposed balance.",
+      "O primeiro ano deixa 100,000 × 0.80 − 10,000 = €70,000. O segundo deixa 70,000 × 1.20 − 10,000 = €74,000. €96,000 ignora retiradas; €78,000 corresponde à ordem inversa dos retornos com as mesmas retiradas. Média aritmética zero não preserva principal, e despesas continuam reduzindo o saldo exposto."
+    ],
+    "blocks": [
+      "EIP-6.2-02-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A client needs €12,000 annually in constant purchasing power. In a zero-real-return, no-cost model, how does extending funding from 20 to 30 years affect required capital?",
+      "Um cliente precisa de €12,000 anuais em poder de compra constante. Num modelo sem retorno real nem custos, como estender o financiamento de 20 para 30 anos afeta o capital necessário?"
+    ],
+    "options": [
+      [
+        "It remains €240,000 because the annual withdrawal is unchanged.",
+        "Permanece €240,000 porque a retirada anual não muda."
+      ],
+      [
+        "It rises to €360,000, only 10% more than €240,000.",
+        "Sobe para €360,000, apenas 10% acima de €240,000."
+      ],
+      [
+        "It rises from €240,000 to €360,000, an additional €120,000 or 50%; a longer life cannot be dismissed using average returns.",
+        "Sobe de €240,000 para €360,000, mais €120,000 ou 50%; uma vida mais longa não pode ser descartada usando retornos médios."
+      ],
+      [
+        "It falls to €160,000 because the payments are spread over more years.",
+        "Cai para €160,000 porque os pagamentos se distribuem por mais anos."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The model requires 12,000 × 20 = €240,000 or 12,000 × 30 = €360,000. The extra €120,000 is 50% of the original need. These are real cash flows under an explicit zero-real-return assumption, not a universal withdrawal rule. Positive or negative real returns and changing spending alter the result; uncertain returns also require sequence analysis rather than a certain death date.",
+      "O modelo exige 12,000 × 20 = €240,000 ou 12,000 × 30 = €360,000. Os €120,000 adicionais são 50% da necessidade original. São fluxos reais sob hipótese explícita de retorno real zero, não regra universal de retirada. Retornos reais positivos ou negativos e despesas variáveis alteram o resultado; retornos incertos também exigem análise de sequência, não data certa de morte."
+    ],
+    "blocks": [
+      "EIP-6.2-02-B07"
+    ]
+  }
+]

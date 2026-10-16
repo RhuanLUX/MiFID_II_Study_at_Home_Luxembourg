@@ -1,0 +1,194 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which event can require review even if the investment itself has not changed?",
+      "Qual evento pode exigir revisão mesmo se o investimento não mudou?"
+    ],
+    "options": [
+      [
+        "A client retires and the portfolio must start funding essential withdrawals.",
+        "O cliente se aposenta e a carteira precisa começar a financiar retiradas essenciais."
+      ],
+      [
+        "Only a change in the product’s commercial name, regardless of consequences",
+        "Apenas uma mudança no nome comercial do produto, independentemente das consequências"
+      ],
+      [
+        "No event until a single universal annual deadline",
+        "Nenhum evento antes de um único prazo anual universal"
+      ],
+      [
+        "A signature confirming old facts despite a known new liability",
+        "Uma assinatura confirmando fatos antigos apesar de nova obrigação conhecida"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Client circumstances can change the purpose, liquidity and loss capacity of a holding while product terms remain fixed. Retirement, debts or new goals can be material triggers. Review should follow relevant procedures and consequences rather than rely on an arbitrary interval or another signature on stale information.",
+      "As circunstâncias podem mudar finalidade, liquidez e capacidade de perda de uma posição enquanto suas condições ficam fixas. Aposentadoria, dívidas ou novas metas podem ser gatilhos materiais. A revisão deve seguir procedimentos e consequências relevantes, não depender de intervalo arbitrário ou outra assinatura de informação antiga."
+    ],
+    "blocks": [
+      "EIP-4.1-03-B01"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "What does inheritance alone establish about complex-product understanding?",
+      "O que uma herança, sozinha, demonstra sobre compreensão de produtos complexos?"
+    ],
+    "options": [
+      [
+        "Understanding improves in proportion to the asset increase.",
+        "A compreensão melhora proporcionalmente ao aumento dos ativos."
+      ],
+      [
+        "Deposit-only experience now proves knowledge of barrier notes.",
+        "A experiência apenas em depósitos agora comprova conhecimento de notas com barreira."
+      ],
+      [
+        "No automatic improvement; relevant understanding must be assessed separately.",
+        "Nenhuma melhoria automática; a compreensão relevante deve ser avaliada separadamente."
+      ],
+      [
+        "Understanding becomes unnecessary if the position is a small fraction of wealth.",
+        "A compreensão torna-se desnecessária se a posição for uma pequena fração da riqueza."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Wealth, understanding and tolerance are distinct dimensions. More money can change capacity but does not establish it without liabilities and goals, nor create knowledge of barriers or exit risk. Update the changed asset facts while preserving an honest assessment of the client’s other characteristics.",
+      "Riqueza, compreensão e tolerância são dimensões distintas. Mais dinheiro pode mudar a capacidade, mas não a estabelece sem obrigações e metas nem cria conhecimento de barreiras ou risco de saída. Atualize os ativos alterados preservando avaliação honesta das demais características."
+    ],
+    "blocks": [
+      "EIP-4.1-03-B07"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Only one material client fact changes while other recent information remains reliable. What update approach is appropriate?",
+      "Apenas um fato material muda enquanto outras informações recentes continuam confiáveis. Qual abordagem de atualização é apropriada?"
+    ],
+    "options": [
+      [
+        "Ignore the fact because the rest of the form is current.",
+        "Ignore o fato porque o restante do formulário está atual."
+      ],
+      [
+        "Update the relevant evidence proportionately and assess its consequences for the recommendation.",
+        "Atualize proporcionalmente a evidência relevante e avalie suas consequências para a recomendação."
+      ],
+      [
+        "Automatically recollect every field without considering relevance.",
+        "Recolete automaticamente todos os campos sem considerar relevância."
+      ],
+      [
+        "Keep the allocation unchanged after obtaining only a signature on the old answers.",
+        "Mantenha a alocação após obter apenas assinatura nas respostas antigas."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A narrow factual change can have broad financial consequences. Preserve reliable information, date the update and connect the changed fact to goals, cash needs and capacity. Proportionality avoids needless repetition but does not permit ignoring a known change. The firm’s assessment duty is not transferred by a disclaimer.",
+      "Uma mudança factual estreita pode ter consequências financeiras amplas. Preserve informações confiáveis, date a atualização e conecte o fato alterado a metas, caixa e capacidade. A proporcionalidade evita repetição desnecessária, mas não permite ignorar mudança conhecida. O dever de avaliação não é transferido por ressalva."
+    ],
+    "blocks": [
+      "EIP-4.1-03-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Before retirement a client saved €1,000 monthly. Afterwards pension is €2,300 and essential spending €3,000 monthly. What annual external portfolio cash-flow change follows before tax and surprises?",
+      "Antes da aposentadoria, um cliente poupava €1,000 mensais. Depois, a pensão é €2,300 e os gastos essenciais €3,000 mensais. Qual mudança anual de fluxo externo da carteira decorre antes de impostos e imprevistos?"
+    ],
+    "options": [
+      [
+        "Only €8,400 worse, ignoring previous contributions",
+        "Apenas €8,400 pior, ignorando aportes anteriores"
+      ],
+      [
+        "Only €12,000 worse, ignoring new withdrawals",
+        "Apenas €12,000 pior, ignorando novas retiradas"
+      ],
+      [
+        "€700 worse annually, confusing monthly and annual values",
+        "€700 pior anualmente, confundindo valores mensais e anuais"
+      ],
+      [
+        "€20,400 worse: from €12,000 contributions to €8,400 withdrawals",
+        "€20,400 pior: de aportes de €12,000 para retiradas de €8,400"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The old annual contribution is 12 × 1,000 = €12,000. The new monthly gap is 3,000 − 2,300 = €700, or €8,400 annual withdrawal. Moving from +12,000 to −8,400 changes external flow by −€20,400. A forecast average investment return is not guaranteed cash for every withdrawal date, so the accumulation plan needs substantive review.",
+      "O aporte anual anterior é 12 × 1,000 = €12,000. A nova lacuna mensal é 3,000 − 2,300 = €700, ou retirada anual de €8,400. Passar de +12,000 para −8,400 muda o fluxo externo em −€20,400. Um retorno médio previsto não é caixa garantido para toda data de retirada, portanto o plano de acumulação exige revisão substancial."
+    ],
+    "blocks": [
+      "EIP-4.1-03-B03"
+    ],
+    "calculation": {
+      "method": "retirement_flows",
+      "inputs": [
+        1000,
+        2300,
+        3000,
+        12
+      ],
+      "expected": [
+        12000,
+        8400,
+        -20400
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A client had €40,000 and inherits €300,000, with deposit-only experience unchanged. A proposed €50,000 complex note can lose 40% in an adverse scenario. Which interpretation combines the calculation and required update correctly?",
+      "Um cliente tinha €40,000 e herda €300,000, mantendo experiência apenas em depósitos. Uma nota complexa proposta de €50,000 pode perder 40% em cenário adverso. Qual interpretação combina corretamente cálculo e atualização necessária?"
+    ],
+    "options": [
+      [
+        "The loss is €20,000, about 5.8824% of €340,000; understanding, commitments and tolerance still require assessment.",
+        "A perda é €20,000, cerca de 5.8824% de €340,000; compreensão, compromissos e tolerância ainda exigem avaliação."
+      ],
+      [
+        "The loss is 40% of all €340,000 and knowledge is established by inheritance.",
+        "A perda é 40% de todos os €340,000 e o conhecimento é estabelecido pela herança."
+      ],
+      [
+        "The loss is €20,000, so the small relative fraction automatically proves suitability.",
+        "A perda é €20,000, portanto a pequena fração relativa comprova automaticamente adequação."
+      ],
+      [
+        "Only the original €40,000 can be used as the denominator after the inheritance.",
+        "Apenas os €40,000 originais podem ser usados como denominador após a herança."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The position loss is 50,000 × 0.40 = €20,000. New financial assets are €340,000, giving 20,000/340,000 ≈ 5.8824%. This informs capacity but does not prove acceptability or understanding. Clarify inherited-resource commitments and assess barriers, credit and exit knowledge separately. Wealth changes do not waive the suitability process.",
+      "A perda da posição é 50,000 × 0.40 = €20,000. Os novos ativos financeiros são €340,000, dando 20,000/340,000 ≈ 5.8824%. Isso informa a capacidade, mas não prova aceitabilidade nem compreensão. Esclareça compromissos dos recursos herdados e avalie separadamente conhecimento de barreiras, crédito e saída. Mudanças de riqueza não dispensam a adequação."
+    ],
+    "blocks": [
+      "EIP-4.1-03-B07"
+    ],
+    "calculation": {
+      "method": "inheritance_loss",
+      "inputs": [
+        40000,
+        300000,
+        50000,
+        0.4
+      ],
+      "expected": [
+        20000,
+        0.058823529411764705
+      ]
+    }
+  }
+]

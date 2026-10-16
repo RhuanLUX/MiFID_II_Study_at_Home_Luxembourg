@@ -1,0 +1,190 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "One basis point equals ______ percentage point.",
+      "Um ponto-base equivale a ______ ponto percentual."
+    ],
+    "options": [
+      [
+        "0.1",
+        "0.1"
+      ],
+      [
+        "0.01",
+        "0.01"
+      ],
+      [
+        "1",
+        "1"
+      ],
+      [
+        "0.001",
+        "0.001"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A basis point is one hundredth of a percentage point. A move from 3.5% to 4.25% is 0.75 percentage point, or 75 basis points. The relative percentage increase uses the initial rate as denominator and is a different measure.",
+      "Um ponto-base é um centésimo de ponto percentual. A passagem de 3.5% para 4.25% representa 0.75 ponto percentual, ou 75 pontos-base. O aumento percentual relativo usa a taxa inicial como denominador e é uma medida diferente."
+    ],
+    "blocks": [
+      "EIP-1.2-02-B04"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Why might a five-year yield move before an ECB decision?",
+      "Por que uma taxa de cinco anos pode variar antes de uma decisão do BCE?"
+    ],
+    "options": [
+      [
+        "It must equal the current overnight policy rate.",
+        "Ela deve ser igual à taxa básica overnight atual."
+      ],
+      [
+        "All existing loan contracts reset immediately.",
+        "Todos os contratos de empréstimo existentes são reajustados imediatamente."
+      ],
+      [
+        "It reflects expectations about future rates as well as other compensation.",
+        "Ela reflete expectativas sobre taxas futuras e outras compensações."
+      ],
+      [
+        "It responds only to decisions already announced.",
+        "Ela responde apenas a decisões já anunciadas."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Market yields incorporate expectations about future short-term rates and compensation for relevant risks. Investors can therefore reprice before an anticipated decision. Retail lending terms and longer maturities are not mechanically identical to the current overnight policy rate.",
+      "As taxas de mercado incorporam expectativas sobre taxas de curto prazo futuras e compensação pelos riscos relevantes. Assim, investidores podem reavaliar preços antes de uma decisão esperada. Condições de crédito ao público e prazos longos não são mecanicamente iguais à taxa básica overnight atual."
+    ],
+    "blocks": [
+      "EIP-1.2-02-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "An official rate rises, but a fixed payment gains present value. Which explanation is consistent with the lesson?",
+      "A taxa básica sobe, mas um pagamento fixo ganha valor presente. Qual explicação é compatível com a aula?"
+    ],
+    "options": [
+      [
+        "The decision was less restrictive than expected and the relevant market discount rate fell.",
+        "A decisão foi menos restritiva que o esperado e a taxa de desconto de mercado relevante caiu."
+      ],
+      [
+        "A higher discount rate increases the value of an unchanged future payment.",
+        "Uma taxa de desconto maior aumenta o valor de um pagamento futuro inalterado."
+      ],
+      [
+        "The old official rate alone determines the new market price.",
+        "Somente a taxa básica anterior determina o novo preço de mercado."
+      ],
+      [
+        "A policy-rate increase guarantees a larger promised payment.",
+        "Uma alta da taxa básica garante um pagamento prometido maior."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Prices respond to changes relative to expectations. A less restrictive outcome can lower the relevant required market return even when the official rate increases from its previous level. For an unchanged payment, a lower discount rate raises present value; a higher discount rate would reduce it. A rate announcement does not rewrite the promised payment.",
+      "Os preços respondem às mudanças em relação às expectativas. Um resultado menos restritivo pode reduzir o retorno de mercado exigido mesmo quando a taxa básica sobe em relação ao nível anterior. Para um pagamento inalterado, uma taxa de desconto menor aumenta o valor presente; uma taxa maior o reduziria. O anúncio não altera o pagamento prometido."
+    ],
+    "blocks": [
+      "EIP-1.2-02-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Interest-only debt of €240,000 resets from 3% to 3.75% for a full year. Ignore fees, tax and caps. What is the additional annual interest?",
+      "Uma dívida de €240,000, com pagamento somente de juros, passa de 3% para 3.75% por um ano inteiro. Desconsidere tarifas, impostos e limites contratuais. Qual é o juro anual adicional?"
+    ],
+    "options": [
+      [
+        "€9,000",
+        "€9,000"
+      ],
+      [
+        "€600",
+        "€600"
+      ],
+      [
+        "€7,200",
+        "€7,200"
+      ],
+      [
+        "€1,800",
+        "€1,800"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Old interest is €240,000 × 0.03 = €7,200; new interest is €240,000 × 0.0375 = €9,000. The difference is €1,800, also €240,000 × 0.0075. The rate change is 75 basis points. €9,000 is the new total, not the increase; €7,200 is the old total. Principal is unchanged.",
+      "Os juros anteriores são €240,000 × 0.03 = €7,200; os novos são €240,000 × 0.0375 = €9,000. A diferença é €1,800, também obtida por €240,000 × 0.0075. A mudança é de 75 pontos-base. €9,000 é o novo total, não o aumento; €7,200 é o total anterior. O principal não muda."
+    ],
+    "blocks": [
+      "EIP-1.2-02-B04"
+    ],
+    "calculation": {
+      "method": "interest_change",
+      "inputs": [
+        240000,
+        0.03,
+        0.0375
+      ],
+      "expected": [
+        7200,
+        9000,
+        1800
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Savings of €50,000 gain an extra 1.5 percentage points only for the final six months. A resetting loan costs €1,000 more over the year. Using simple interest and no tax or fees, what is the combined annual change?",
+      "Uma poupança de €50,000 ganha 1.5 ponto percentual adicional apenas nos últimos seis meses. Um empréstimo reajustado custa €1,000 a mais no ano. Com juros simples, sem impostos ou tarifas, qual é a mudança anual combinada?"
+    ],
+    "options": [
+      [
+        "+€375",
+        "+€375"
+      ],
+      [
+        "−€250",
+        "−€250"
+      ],
+      [
+        "−€625",
+        "−€625"
+      ],
+      [
+        "−€1,000",
+        "−€1,000"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Extra deposit interest is €50,000 × 0.015 × 0.5 = €375. Subtract the full-year extra loan interest: €375 − €1,000 = −€625. The −€250 alternative wrongly uses a full year of extra deposit interest (€750); +€375 ignores the loan, while −€1,000 ignores the deposit benefit. Repricing dates matter as much as quoted rates.",
+      "O juro adicional do depósito é €50,000 × 0.015 × 0.5 = €375. Subtraia o custo adicional anual do empréstimo: €375 − €1,000 = −€625. A alternativa −€250 usa incorretamente um ano inteiro de juro adicional (€750); +€375 ignora o empréstimo, e −€1,000 ignora o benefício do depósito. As datas de reajuste importam tanto quanto as taxas."
+    ],
+    "blocks": [
+      "EIP-1.2-02-B05"
+    ],
+    "calculation": {
+      "method": "combined_profit",
+      "inputs": [
+        0,
+        375,
+        1000,
+        0
+      ],
+      "expected": -625
+    }
+  }
+]

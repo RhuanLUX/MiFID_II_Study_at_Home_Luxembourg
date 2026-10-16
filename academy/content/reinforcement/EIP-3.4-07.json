@@ -1,0 +1,196 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A 4% coupon on €10,000 nominal produces annual gross interest of ______ regardless of a different secondary purchase price.",
+      "Um cupom de 4% sobre €10,000 nominais produz juros brutos anuais de ______ independentemente de um preço secundário de compra diferente."
+    ],
+    "options": [
+      [
+        "€320",
+        "€320"
+      ],
+      [
+        "4% of whichever price the buyer paid",
+        "4% de qualquer preço pago pelo comprador"
+      ],
+      [
+        "€400",
+        "€400"
+      ],
+      [
+        "€10,400 interest alone",
+        "€10,400 apenas de juros"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The coupon uses contractual nominal: 10,000 × 0.04 = €400. Under stipulated qualifying 20% final tax, retained coupon is €320, a different amount. Purchase price affects income yield and total return but does not redefine the contract’s coupon base.",
+      "O cupom usa o nominal contratual: 10,000 × 0.04 = €400. Sob a cobrança definitiva qualificável estipulada de 20%, o cupom retido é €320, outro valor. O preço de compra afeta o rendimento de renda e o retorno total, mas não redefine a base contratual do cupom."
+    ],
+    "blocks": [
+      "EIP-3.4-07-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which statement correctly distinguishes directly held bond coupons from fund distributions?",
+      "Qual afirmação distingue corretamente cupons de títulos detidos diretamente de distribuições de fundos?"
+    ],
+    "options": [
+      [
+        "A fund’s bond holdings do not automatically give its distributions the same qualifying-interest treatment.",
+        "Os títulos de dívida de um fundo não dão automaticamente às distribuições o mesmo tratamento de juros qualificáveis."
+      ],
+      [
+        "Every distribution from a bond fund inherits the direct bond’s final-interest regime.",
+        "Toda distribuição de fundo de renda fixa herda o regime definitivo de juros do título direto."
+      ],
+      [
+        "Using the same paying agent makes every payment’s tax classification identical.",
+        "Usar o mesmo agente pagador torna idêntica a classificação fiscal de todo pagamento."
+      ],
+      [
+        "Fund domicile alone resolves recipient and payment eligibility.",
+        "O domicílio do fundo, sozinho, resolve a elegibilidade do beneficiário e do pagamento."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "An investor in fund units has a different claim from a direct bondholder. The fund’s underlying bonds do not by themselves make every distribution eligible for the bond-interest final regime. Classification also depends on recipient status, paying agent and payment character, rather than a marketing description.",
+      "Um investidor em cotas de fundo possui um direito diferente do detentor direto de título de dívida. Os títulos subjacentes do fundo não tornam, por si só, toda distribuição elegível ao regime definitivo de juros de títulos. A classificação também depende do beneficiário, agente pagador e caráter do pagamento, não de uma descrição comercial."
+    ],
+    "blocks": [
+      "EIP-3.4-07-B01"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A qualifying coupon is €400, price loss €400, and the final coupon levy €80. Assume no relief for the price loss. On a €10,000 investment, which outcome follows?",
+      "O cupom qualificável é €400, a perda de preço €400 e a cobrança definitiva sobre o cupom €80. Suponha ausência de benefício fiscal para a perda. Sobre investimento de €10,000, qual resultado decorre?"
+    ],
+    "options": [
+      [
+        "Zero net return because gains and losses always net for tax",
+        "Retorno líquido zero porque ganhos e perdas sempre se compensam fiscalmente"
+      ],
+      [
+        "−0.8% net return despite zero gross economic profit",
+        "Retorno líquido de −0.8% apesar de lucro econômico bruto zero"
+      ],
+      [
+        "+3.2% total return because the retained coupon is €320",
+        "Retorno total de +3.2% porque o cupom retido é €320"
+      ],
+      [
+        "−4.8% because both tax and the coupon are losses",
+        "−4.8% porque imposto e cupom são perdas"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Gross profit is 400 − 400 = zero. The stipulated tax remains €80 because no offset or relief was assumed. Net wealth falls €80, or 0.8% of €10,000. A retained-coupon yield of 3.2% omits the capital loss. This illustrates distinct categories; it does not assert the disposal treatment of every real bond.",
+      "O lucro bruto é 400 − 400 = zero. O imposto estipulado permanece €80 porque não se supôs compensação ou benefício. A riqueza líquida cai €80, ou 0.8% de €10,000. O rendimento de cupom retido de 3.2% omite a perda de capital. Isso ilustra categorias distintas; não afirma o tratamento de alienação de todo título real."
+    ],
+    "blocks": [
+      "EIP-3.4-07-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A one-year bond costs €10,300 and pays €10,000 principal plus €500 coupon. Only the coupon incurs stipulated 20% final tax; no relief for the €300 premium loss, fees or other taxes. What net profit and return result?",
+      "Um título de um ano custa €10,300 e paga €10,000 de principal mais cupom de €500. Apenas o cupom sofre cobrança definitiva estipulada de 20%; sem benefício para a perda de prêmio de €300, tarifas ou outros impostos. Quais lucro e retorno líquidos resultam?"
+    ],
+    "options": [
+      [
+        "€160; approximately 1.5534%",
+        "€160; aproximadamente 1.5534%"
+      ],
+      [
+        "€200; approximately 1.9417%",
+        "€200; aproximadamente 1.9417%"
+      ],
+      [
+        "€400; approximately 3.8835%",
+        "€400; aproximadamente 3.8835%"
+      ],
+      [
+        "€100; approximately 0.9709%",
+        "€100; aproximadamente 0.9709%"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Coupon tax is €100, leaving terminal cash of €10,400. Subtract €10,300 invested for €100 profit and divide by €10,300 for about 0.9709%. €200 is pretax profit; €400 is retained coupon without the premium loss. Multiplying aggregate gross profit by 80% gives €160 incorrectly because tax applies to the €500 coupon, not the €200 combined economic result.",
+      "O imposto sobre o cupom é €100, restando caixa terminal de €10,400. Subtraia €10,300 investidos para lucro de €100 e divida por €10,300 para cerca de 0.9709%. €200 é lucro antes de impostos; €400 é o cupom retido sem a perda do prêmio. Multiplicar o lucro bruto agregado por 80% dá €160 incorretamente porque o imposto incide sobre o cupom de €500, não sobre o resultado econômico combinado de €200."
+    ],
+    "blocks": [
+      "EIP-3.4-07-B05"
+    ],
+    "calculation": {
+      "method": "bond_after_tax",
+      "inputs": [
+        10300,
+        10000,
+        500,
+        0.2
+      ],
+      "expected": [
+        100,
+        0.009708737864077669
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Two €10,000 investments repay principal fully. A retains €320 income. B pays gross €460 with €40 costs; its tax route is unresolved. A stipulated final-levy scenario taxes B €92; an alternative ordinary assessment taxes B €130. Which explanation is sound?",
+      "Dois investimentos de €10,000 devolvem integralmente o principal. A retém €320 de renda. B paga €460 brutos, com custos de €40; sua rota fiscal está indefinida. Um cenário estipulado de cobrança definitiva tributa B em €92; uma avaliação ordinária alternativa em €130. Qual explicação é correta?"
+    ],
+    "options": [
+      [
+        "B leads by €8 in the first scenario but trails by €30 in the second; verify its legal route before concluding.",
+        "B supera por €8 no primeiro cenário, mas fica €30 atrás no segundo; verifique sua rota jurídica antes de concluir."
+      ],
+      [
+        "B is always better by the €60 gross coupon advantage.",
+        "B é sempre melhor pela vantagem bruta de cupom de €60."
+      ],
+      [
+        "B always retains €328 merely because the receipt is called interest.",
+        "B sempre retém €328 apenas porque o recebimento é chamado de juros."
+      ],
+      [
+        "A must be unsuitable whenever B can retain €8 more.",
+        "A necessariamente é inadequado sempre que B pode reter €8 a mais."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "B retains 460 − 40 − 92 = €328 in the first case, €8 above A; in the second, 460 − 40 − 130 = €290, €30 below A. The gross advantage ignores costs and regime differences. Do not assume an election has been made or is available. Even a confirmed €8 gain would not decide suitability without liquidity and counterparty analysis.",
+      "B retém 460 − 40 − 92 = €328 no primeiro caso, €8 acima de A; no segundo, 460 − 40 − 130 = €290, €30 abaixo. A vantagem bruta ignora custos e diferenças de regime. Não presuma que uma opção foi feita ou está disponível. Mesmo um ganho confirmado de €8 não decidiria a adequação sem análise de liquidez e contraparte."
+    ],
+    "blocks": [
+      "EIP-3.4-07-B07"
+    ],
+    "calculation": {
+      "method": "conditional_net",
+      "inputs": [
+        460,
+        40,
+        92,
+        130,
+        320
+      ],
+      "expected": [
+        328,
+        290,
+        8,
+        -30
+      ]
+    }
+  }
+]

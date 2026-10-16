@@ -1,0 +1,167 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which communication standard applies to client marketing under the taught MiFID framework?",
+      "Qual padrão de comunicação se aplica ao marketing ao cliente no regime MiFID ensinado?"
+    ],
+    "options": [
+      [
+        "Fair, clear and not misleading",
+        "Correto, claro e não enganoso"
+      ],
+      [
+        "Literally true headline regardless of omitted conditions",
+        "Título literalmente verdadeiro independentemente das condições omitidas"
+      ],
+      [
+        "Accurate formal document even if oral promises contradict it",
+        "Documento formal correto mesmo com promessas orais contraditórias"
+      ],
+      [
+        "Risk information supplied only after a decision in every case",
+        "Informação de risco fornecida apenas após decidir em todo caso"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The standard covers the overall communication, including marketing. A technically true favourable figure can mislead when material conditions or adverse consequences are obscured. Clarity requires explaining the actual mechanism to the intended client, with appropriate timing and prominence.",
+      "O padrão cobre a comunicação como um todo, incluindo marketing. Um valor favorável tecnicamente verdadeiro pode enganar quando condições relevantes ou consequências adversas ficam ocultas. Clareza exige explicar o mecanismo real ao público pretendido, com prazo e destaque adequados."
+    ],
+    "blocks": [
+      "EIP-7.1-02-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A signed risk disclosure ______ an unsuitable recommendation.",
+      "Uma divulgação de risco assinada ______ uma recomendação inadequada."
+    ],
+    "options": [
+      [
+        "automatically cures",
+        "corrige automaticamente"
+      ],
+      [
+        "does not by itself cure",
+        "não corrige por si só"
+      ],
+      [
+        "replaces all assessment obligations for",
+        "substitui todas as obrigações de avaliação de"
+      ],
+      [
+        "turns into discretionary authority for",
+        "transforma em autoridade discricionária para"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Disclosure informs the client, while suitability assesses compatibility with objectives, financial capacity and relevant knowledge. A signature does not create missing liquidity or loss capacity. The firm should address the underlying mismatch rather than treat acceptance of a warning as a substitute for its conduct duties.",
+      "A divulgação informa, enquanto adequação avalia compatibilidade com objetivos, capacidade financeira e conhecimentos pertinentes. Assinatura não cria liquidez nem capacidade de perda ausentes. A instituição deve tratar a incompatibilidade, em vez de considerar aceitação do alerta substituta de suas obrigações de conduta."
+    ],
+    "blocks": [
+      "EIP-7.1-02-B07"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Why can an earn €700 headline for a conditional coupon be misleading even if that amount is possible?",
+      "Por que um título ganhe €700 para cupom condicional pode enganar mesmo sendo esse valor possível?"
+    ],
+    "options": [
+      [
+        "Any mathematical favourable scenario is sufficient regardless of terms.",
+        "Qualquer cenário favorável matemático basta independentemente das condições."
+      ],
+      [
+        "An obscure footnote necessarily cures the opposite headline impression.",
+        "Uma nota obscura necessariamente corrige a impressão oposta do título."
+      ],
+      [
+        "Prominence and omitted conditions can imply dependable income or principal safety not established by the contract.",
+        "Destaque e condições omitidas podem sugerir renda certa ou segurança do principal não estabelecidas pelo contrato."
+      ],
+      [
+        "Only the client’s signature determines whether the statement is clear.",
+        "Apenas a assinatura do cliente determina se a afirmação é clara."
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Explain whether the coupon is conditional and what principal loss is possible before the decision. The overall impression matters, not only arithmetic truth in one favourable case. A generic risk warning or obscure footnote may fail to convey the specific mechanism. Marketing, oral statements and final terms should agree.",
+      "Explique antes da decisão se o cupom é condicional e qual perda de principal é possível. A impressão geral importa, não apenas verdade aritmética num caso favorável. Alerta genérico ou nota obscura pode não transmitir o mecanismo específico. Marketing, falas e condições finais devem concordar."
+    ],
+    "blocks": [
+      "EIP-7.1-02-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €25,000 outlay incurs a 2% entry charge. The remaining capital earns 4%, with no other costs. What profit and return relative to outlay follow?",
+      "Um desembolso de €25,000 sofre encargo inicial de 2%. O capital restante rende 4%, sem outros custos. Quais lucro e retorno sobre o desembolso decorrem?"
+    ],
+    "options": [
+      [
+        "€1,000 profit and 4%",
+        "€1,000 de lucro e 4%"
+      ],
+      [
+        "€980 profit and 3.92%",
+        "€980 de lucro e 3.92%"
+      ],
+      [
+        "€500 profit and 2%",
+        "€500 de lucro e 2%"
+      ],
+      [
+        "€480 profit and 1.92%",
+        "€480 de lucro e 1.92%"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The charge is €500 and invested capital €24,500. Growth gives 24,500 × 1.04 = €25,480, so profit over the €25,000 outlay is €480, or 1.92%. €980 is growth on the invested amount before recovering the entry charge; €1,000 ignores the charge. Timely cost information therefore affects the actual decision economics.",
+      "O encargo é €500 e o capital investido €24,500. O crescimento dá 24,500 × 1.04 = €25,480, portanto o lucro sobre o desembolso de €25,000 é €480, ou 1.92%. €980 é crescimento do valor investido antes de recuperar o encargo inicial; €1,000 ignora o encargo. Informação tempestiva de custos afeta a economia efetiva da decisão."
+    ],
+    "blocks": [
+      "EIP-7.1-02-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A client has €30,000, needs €28,000 in six months, and is offered an illiquid investment with a possible 20% loss. A detailed warning is signed. What analysis remains essential?",
+      "Um cliente tem €30,000, precisa de €28,000 em seis meses e recebe oferta de investimento ilíquido com perda possível de 20%. Assina alerta detalhado. Qual análise permanece essencial?"
+    ],
+    "options": [
+      [
+        "An adverse value of €24,000 leaves a €4,000 funding shortfall even if sale were possible; access and suitability remain unresolved by the signature.",
+        "Um valor adverso de €24,000 deixa déficit de €4,000 mesmo se fosse possível vender; acesso e adequação não são resolvidos pela assinatura."
+      ],
+      [
+        "The €6,000 valuation loss is the spending shortfall, and signature solves liquidity.",
+        "A perda de €6,000 é o déficit de despesas, e a assinatura resolve liquidez."
+      ],
+      [
+        "A positive initial €2,000 surplus guarantees the six-month payment.",
+        "Uma sobra inicial positiva de €2,000 garante o pagamento em seis meses."
+      ],
+      [
+        "Accurate warning makes the entire allocation suitable regardless of capacity.",
+        "Alerta correto torna toda a alocação adequada independentemente da capacidade."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Adverse value is 30,000 × 0.80 = €24,000, €4,000 below the dated €28,000 need. The €6,000 investment loss and €4,000 funding shortfall are different comparisons. Illiquidity can prevent payment independently of valuation. A warning neither creates accessible cash nor changes the spending date, so the recommendation needs a substantive suitability review before proceeding.",
+      "O valor adverso é 30,000 × 0.80 = €24,000, €4,000 abaixo da necessidade datada de €28,000. A perda de investimento de €6,000 e o déficit financeiro de €4,000 são comparações distintas. Iliquidez pode impedir pagamento independentemente da avaliação. Alerta não cria caixa acessível nem muda a data; a recomendação exige análise substantiva de adequação antes de prosseguir."
+    ],
+    "blocks": [
+      "EIP-7.1-02-B07"
+    ]
+  }
+]

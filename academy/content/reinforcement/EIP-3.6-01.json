@@ -1,0 +1,189 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A long forward agrees to ______ the specified underlying at the delivery price.",
+      "Uma posição comprada em contrato a termo concorda em ______ o ativo subjacente especificado pelo preço de entrega."
+    ],
+    "options": [
+      [
+        "sell",
+        "vender"
+      ],
+      [
+        "buy",
+        "comprar"
+      ],
+      [
+        "choose freely whether to perform",
+        "escolher livremente se cumprirá"
+      ],
+      [
+        "receive only an optional premium",
+        "receber apenas um prêmio opcional"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The long commits to buy, while the short commits to sell. A forward is an obligation, unlike the holder’s exercise choice in an option. Physical settlement exchanges the underlying and payment; a payoff comparison does not replace the contract’s actual delivery instructions.",
+      "A posição comprada compromete-se a comprar, e a vendida a vender. O termo é uma obrigação, diferentemente da escolha de exercício do titular de uma opção. A liquidação física troca o ativo e o pagamento; uma comparação de resultado não substitui as instruções efetivas de entrega do contrato."
+    ],
+    "blocks": [
+      "EIP-3.6-01-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "What does a small initial futures margin imply about maximum loss?",
+      "O que uma pequena margem inicial de futuros implica sobre a perda máxima?"
+    ],
+    "options": [
+      [
+        "Loss cannot exceed that margin.",
+        "A perda não pode superar essa margem."
+      ],
+      [
+        "Notional exposure equals the margin.",
+        "A exposição nocional equivale à margem."
+      ],
+      [
+        "The contract is optional when adverse.",
+        "O contrato é opcional quando desfavorável."
+      ],
+      [
+        "It does not by itself cap loss; exposure follows contract quantity and multiplier.",
+        "Ela não limita a perda por si só; a exposição segue a quantidade e o multiplicador do contrato."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Margin supports performance obligations and can be much smaller than notional exposure. Euro gains and losses follow the full contract’s price movement, quantity and multiplier. Further cash can be required; a percentage return on margin is not directly comparable to an unlevered investment return.",
+      "A margem respalda obrigações de cumprimento e pode ser muito menor que a exposição nocional. Ganhos e perdas em euros seguem a variação de preço, quantidade e multiplicador do contrato inteiro. Pode ser necessário dinheiro adicional; o retorno percentual sobre a margem não é diretamente comparável ao de um investimento sem alavancagem."
+    ],
+    "blocks": [
+      "EIP-3.6-01-B04"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A bakery’s forward purchase costs more than spot after input prices fall. Why can it still have served its hedge purpose?",
+      "A compra a termo de uma padaria custa mais que o mercado à vista após a queda do insumo. Por que ainda pode ter cumprido seu objetivo de proteção?"
+    ],
+    "options": [
+      [
+        "It fixed the agreed purchase cost rather than guaranteeing a gain against every future spot price.",
+        "Fixou o custo de compra acordado, em vez de garantir ganho contra todo preço à vista futuro."
+      ],
+      [
+        "An adverse derivative result automatically cancels payment.",
+        "Um resultado adverso do derivativo cancela automaticamente o pagamento."
+      ],
+      [
+        "Forward pricing guarantees the best future spot price.",
+        "O preço a termo garante o melhor preço à vista futuro."
+      ],
+      [
+        "The initial input need can disappear without leaving any exposure.",
+        "A necessidade inicial do insumo pode desaparecer sem deixar exposição."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "A hedge is assessed together with the underlying purchase need. Fixing a cost can be useful even when the eventual spot alternative would have been cheaper. The forward still creates obligations; cancellation or reduction of the physical need can leave an unoffset contract exposure. Negative standalone payoff is not enough to declare the original hedge ineffective.",
+      "Uma proteção é avaliada junto com a necessidade de compra subjacente. Fixar um custo pode ser útil mesmo quando a alternativa à vista posterior seria mais barata. O termo ainda cria obrigações; cancelar ou reduzir a necessidade física pode deixar exposição contratual sem compensação. Um resultado isolado negativo não basta para declarar a proteção original ineficaz."
+    ],
+    "blocks": [
+      "EIP-3.6-01-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Two long index futures start at 4,000 points with €10 per point per contract. Price falls to 3,850. Ignoring costs, what loss follows?",
+      "Dois futuros comprados de índice começam a 4,000 pontos com €10 por ponto por contrato. O preço cai para 3,850. Sem custos, qual perda decorre?"
+    ],
+    "options": [
+      [
+        "€150",
+        "€150"
+      ],
+      [
+        "€1,500",
+        "€1,500"
+      ],
+      [
+        "€3,000",
+        "€3,000"
+      ],
+      [
+        "€8,000, always equal to the margin",
+        "€8,000, sempre igual à margem"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The change is −150 points. Multiply by €10 and two contracts: −150 × 10 × 2 = −€3,000. €1,500 ignores one contract; €150 ignores multiplier and size. Margin is a separate collateral amount, not the formula for loss. State euro exposure before discussing returns on collateral.",
+      "A mudança é de −150 pontos. Multiplique por €10 e dois contratos: −150 × 10 × 2 = −€3,000. €1,500 ignora um contrato; €150 ignora multiplicador e tamanho. A margem é um valor separado de garantia, não a fórmula da perda. Expresse a exposição em euros antes de discutir retornos sobre a garantia."
+    ],
+    "blocks": [
+      "EIP-3.6-01-B05"
+    ],
+    "calculation": {
+      "method": "linear_future",
+      "inputs": [
+        4000,
+        3850,
+        10,
+        2
+      ],
+      "expected": -3000
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A company must pay USD 110,000 and has a matching forward supplying those dollars for €100,000. Maturity spot is USD 1.25 per EUR. What is the economic comparison and fixed contracted cost?",
+      "Uma empresa deve pagar USD 110,000 e possui termo correspondente que fornece esses dólares por €100,000. A cotação final à vista é USD 1.25 por EUR. Qual é a comparação econômica e o custo contratado fixo?"
+    ],
+    "options": [
+      [
+        "Forward saves €12,000; contracted cost €88,000.",
+        "O termo economiza €12,000; custo contratado de €88,000."
+      ],
+      [
+        "Forward costs €12,000 more than spot, while contracted cost remains €100,000.",
+        "O termo custa €12,000 a mais que à vista, enquanto o custo contratado permanece €100,000."
+      ],
+      [
+        "Forward costs €37,500 more because dollars are multiplied by 1.25.",
+        "O termo custa €37,500 a mais porque os dólares são multiplicados por 1.25."
+      ],
+      [
+        "The company may abandon the forward and pay €88,000 without consequence.",
+        "A empresa pode abandonar o termo e pagar €88,000 sem consequência."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Spot purchase would cost 110,000/1.25 = €88,000. The agreed €100,000 is €12,000 more, but its purpose was to fix the euro funding cost for the matched liability. Multiplication reverses quotation units. A forward is obligatory; the favourable spot alternative does not give a free abandonment right. Quantity or date changes would introduce a new mismatch.",
+      "A compra à vista custaria 110,000/1.25 = €88,000. Os €100,000 acordados são €12,000 a mais, mas o objetivo era fixar o custo em euros da obrigação correspondente. Multiplicar inverte as unidades da cotação. Um termo é obrigatório; a alternativa à vista favorável não concede direito gratuito de abandono. Mudanças na quantidade ou data introduziriam novo descasamento."
+    ],
+    "blocks": [
+      "EIP-3.6-01-B07"
+    ],
+    "calculation": {
+      "method": "forward_fx_cost",
+      "inputs": [
+        110000,
+        1.25,
+        100000
+      ],
+      "expected": [
+        88000,
+        12000
+      ]
+    }
+  }
+]

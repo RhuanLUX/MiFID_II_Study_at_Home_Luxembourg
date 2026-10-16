@@ -1,0 +1,192 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "The policyholder is the person who ______.",
+      "O tomador do seguro é a pessoa que ______."
+    ],
+    "options": [
+      [
+        "necessarily receives every death benefit",
+        "necessariamente recebe todo benefício por morte"
+      ],
+      [
+        "subscribes the contract and holds the relevant policyholder rights",
+        "celebra o contrato e detém os direitos pertinentes de tomador"
+      ],
+      [
+        "is necessarily the life on which every insured event rests",
+        "é necessariamente a vida sobre a qual recai todo evento segurado"
+      ],
+      [
+        "owes the benefit as insurer",
+        "deve o benefício como seguradora"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The subscribing policyholder, insured life, beneficiary and insurer are distinct roles that can coincide but need not. The insured event determines when cover is triggered, while the beneficiary clause and relevant rights determine who receives performance. Do not collapse all roles into the word owner.",
+      "Tomador contratante, pessoa segurada, beneficiário e seguradora são papéis distintos que podem coincidir, mas não precisam. O evento segurado determina quando a cobertura é acionada, enquanto a cláusula beneficiária e direitos relevantes determinam quem recebe o cumprimento. Não reúna todos os papéis na palavra proprietário."
+    ],
+    "blocks": [
+      "EIP-6.1-02-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Maria holds a policy on João’s life, payable on João’s death during the term. Maria’s death while João lives ______ that specified insured event.",
+      "Maria é tomadora de apólice sobre a vida de João, paga na morte dele durante o prazo. A morte de Maria enquanto João vive ______ esse evento segurado especificado."
+    ],
+    "options": [
+      [
+        "automatically triggers",
+        "aciona automaticamente"
+      ],
+      [
+        "triggers if Maria also is a beneficiary, regardless of terms",
+        "aciona se Maria também é beneficiária, independentemente das condições"
+      ],
+      [
+        "must be treated as João’s death for payment",
+        "deve ser tratada como morte de João para pagamento"
+      ],
+      [
+        "does not itself trigger",
+        "não aciona por si só"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The stipulated insured life is João. Maria’s death can raise separate questions about policyholder rights, succession and the contract, but it is not João’s insured death. Record the actual roles and triggering event instead of promising payment on the death of any named person.",
+      "A vida segurada estipulada é a de João. A morte de Maria pode levantar questões separadas sobre direitos do tomador, sucessão e contrato, mas não é a morte segurada de João. Registre papéis e evento acionador efetivos, sem prometer pagamento pela morte de qualquer pessoa nomeada."
+    ],
+    "blocks": [
+      "EIP-6.1-02-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A beneficiary has validly accepted the benefit and the taught consent condition applies. What does policy value alone establish about surrender?",
+      "Um beneficiário aceitou validamente o benefício e aplica-se a condição ensinada de consentimento. O que o valor da apólice sozinho demonstra sobre resgate?"
+    ],
+    "options": [
+      [
+        "It does not establish authority or immediate cash; required consent and contract conditions must be checked.",
+        "Não demonstra autoridade nem caixa imediato; consentimento exigido e condições contratuais devem ser verificados."
+      ],
+      [
+        "The policyholder can ignore acceptance because the account value is positive.",
+        "O tomador pode ignorar a aceitação porque o valor da conta é positivo."
+      ],
+      [
+        "Beneficiary consent removes all charges and liquidity conditions.",
+        "O consentimento do beneficiário remove todos os encargos e condições de liquidez."
+      ],
+      [
+        "Acceptance converts the policy into the beneficiary’s unrestricted brokerage account.",
+        "A aceitação converte a apólice em conta de corretagem irrestrita do beneficiário."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The accepted-benefit framework can condition surrender on beneficiary consent. Legal authority is separate from the arithmetic value, fees and access timing. Verify actual acceptance, any exceptions or third-party rights and the applicable contract. Consent does not itself promise a fee-free immediate payment or unchanged protection after surrender.",
+      "O regime de benefício aceito pode condicionar o resgate ao consentimento do beneficiário. Autoridade jurídica é separada de valor aritmético, tarifas e prazo de acesso. Verifique aceitação efetiva, eventuais exceções ou direitos de terceiros e o contrato aplicável. Consentimento, por si só, não promete pagamento imediato sem tarifas nem proteção inalterada após resgate."
+    ],
+    "blocks": [
+      "EIP-6.1-02-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A valid death claim pays the greater of investment value and €100,000, split 60%/40% between two beneficiaries. Investment value is €90,000. What total and allocations follow?",
+      "Uma reivindicação válida por morte paga o maior entre valor de investimento e €100,000, dividido 60%/40% entre dois beneficiários. O investimento vale €90,000. Quais total e alocações decorrem?"
+    ],
+    "options": [
+      [
+        "€190,000 total; €114,000 and €76,000",
+        "Total de €190,000; €114,000 e €76,000"
+      ],
+      [
+        "€90,000 total; €54,000 and €36,000",
+        "Total de €90,000; €54,000 e €36,000"
+      ],
+      [
+        "€100,000 total; €60,000 and €40,000",
+        "Total de €100,000; €60,000 e €40,000"
+      ],
+      [
+        "€100,000 entirely to the policyholder, ignoring the clause",
+        "€100,000 inteiramente ao tomador, ignorando a cláusula"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The formula is max(90,000, 100,000) = €100,000, not an addition. Apply the beneficiary shares to that benefit for €60,000 and €40,000. €190,000 overstates cover by adding a floor to value; €90,000 ignores the floor. Policyholder status does not override the stipulated clause in this bounded case.",
+      "A fórmula é max(90,000, 100,000) = €100,000, não uma soma. Aplique as parcelas beneficiárias a esse benefício para €60,000 e €40,000. €190,000 exagera a cobertura somando um piso ao valor; €90,000 ignora o piso. Ser tomador não supera a cláusula estipulada nesse caso delimitado."
+    ],
+    "blocks": [
+      "EIP-6.1-02-B05"
+    ],
+    "calculation": {
+      "method": "benefit_floor_split",
+      "inputs": [
+        90000,
+        100000,
+        0.6
+      ],
+      "expected": [
+        100000,
+        60000,
+        40000
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A policyholder requests €20,000 partial surrender. The benefit was validly accepted and consent is legally required, with no exception stipulated. If consent and all other conditions are met, a 2% charge applies to the requested amount. Which response combines authority, cash and benefit review correctly?",
+      "Um tomador solicita resgate parcial de €20,000. O benefício foi validamente aceito e o consentimento é juridicamente exigido, sem exceção estipulada. Se consentimento e demais condições forem atendidos, incide cobrança de 2% sobre o pedido. Qual resposta combina corretamente autoridade, caixa e revisão do benefício?"
+    ],
+    "options": [
+      [
+        "Pay €19,600 on the policyholder’s signature alone; correct arithmetic replaces consent.",
+        "Pague €19,600 apenas com assinatura do tomador; aritmética correta substitui consentimento."
+      ],
+      [
+        "Verify required consent and terms; conditional cash is €19,600, and remaining protection must be recalculated under the contract.",
+        "Verifique consentimento exigido e condições; o caixa condicional é €19,600, e a proteção restante deve ser recalculada conforme o contrato."
+      ],
+      [
+        "Pay €20,000 once consent arrives because consent waives all charges.",
+        "Pague €20,000 quando chegar consentimento porque ele dispensa todos os encargos."
+      ],
+      [
+        "Pay €19,600 and guarantee the original death cover remains unchanged.",
+        "Pague €19,600 e garanta que a cobertura original por morte permanece inalterada."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Consent addresses authority, while charge calculation addresses amount: 20,000 × 2% = €400, leaving €19,600 under the stipulated terms. A signature alone cannot cure the missing consent. Partial surrender can change future investment value and insurance benefits, so the original death cover must not be assumed unchanged. Other contractual liquidity and third-party rights also need checking.",
+      "Consentimento trata de autoridade, enquanto o cálculo da cobrança trata do valor: 20,000 × 2% = €400, restando €19,600 sob as condições estipuladas. Uma assinatura isolada não corrige consentimento ausente. O resgate parcial pode mudar valor futuro e benefícios de seguro; não se deve presumir cobertura original inalterada. Liquidez contratual e direitos de terceiros também precisam ser verificados."
+    ],
+    "blocks": [
+      "EIP-6.1-02-B07"
+    ],
+    "calculation": {
+      "method": "net_income_yield",
+      "inputs": [
+        20000,
+        0.02,
+        20000
+      ],
+      "expected": [
+        19600,
+        0.98
+      ]
+    }
+  }
+]

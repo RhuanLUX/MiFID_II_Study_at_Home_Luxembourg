@@ -1,0 +1,190 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Who normally receives payment when an existing bond is sold in a secondary transaction?",
+      "Quem normalmente recebe o pagamento quando um título existente é vendido em uma operação secundária?"
+    ],
+    "options": [
+      [
+        "The selling holder",
+        "O detentor vendedor"
+      ],
+      [
+        "The issuer as new issue proceeds",
+        "O emissor como recursos de nova emissão"
+      ],
+      [
+        "The issuer’s current bondholders as a new coupon distribution",
+        "Os atuais detentores de títulos do emissor como nova distribuição de cupom"
+      ],
+      [
+        "The fund receiving a subscription into newly created units",
+        "O fundo que recebe subscrição em cotas recém-criadas"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "A secondary transaction transfers an existing claim between holders and normally pays the seller. Primary issuance creates and distributes new claims and raises funds for the issuer. A later trade can affect market conditions without itself adding new issue proceeds to the issuer’s account.",
+      "Uma operação secundária transfere um direito existente entre detentores e normalmente paga o vendedor. A emissão primária cria e distribui novos direitos e capta recursos para o emissor. Uma negociação posterior pode afetar condições de mercado sem acrescentar recursos de nova emissão à conta do emissor."
+    ],
+    "blocks": [
+      "EIP-2.3-01-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A bond coupon stated as 4% of nominal is calculated on ______.",
+      "Um cupom de título definido como 4% do nominal é calculado sobre ______."
+    ],
+    "options": [
+      [
+        "the issuer’s net proceeds after all costs",
+        "os recursos líquidos do emissor após todos os custos"
+      ],
+      [
+        "the buyer’s later sale price",
+        "o preço de venda posterior do comprador"
+      ],
+      [
+        "the contractual nominal amount",
+        "o valor nominal contratual"
+      ],
+      [
+        "the issue discount alone",
+        "apenas o desconto de emissão"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The contract specifies nominal as the coupon base. Issuing below par or paying arrangement costs changes proceeds and financing economics but does not redefine that contractual base. Coupon divided by net proceeds is not the full financing internal rate of return because redemption and timing also matter.",
+      "O contrato especifica o nominal como base do cupom. Emitir abaixo do par ou pagar custos de estruturação muda os recursos captados e a economia do financiamento, mas não redefine essa base contratual. Cupom dividido pelos recursos líquidos não é a taxa interna de retorno completa do financiamento, pois resgate e tempo também importam."
+    ],
+    "blocks": [
+      "EIP-2.3-01-B04"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "An investor’s holding falls from 10% to 8% after an equity issue. What can be concluded from that arithmetic alone?",
+      "A participação de um investidor cai de 10% para 8% após uma emissão de ações. O que se pode concluir apenas dessa aritmética?"
+    ],
+    "options": [
+      [
+        "Wealth necessarily falls 20%.",
+        "A riqueza necessariamente cai 20%."
+      ],
+      [
+        "Ownership falls 2 percentage points, or 20% relatively; wealth effects need further analysis.",
+        "A participação cai 2 pontos percentuais, ou 20% relativamente; os efeitos patrimoniais exigem análise adicional."
+      ],
+      [
+        "The investor loses 20% of the number of shares held.",
+        "O investidor perde 20% do número de ações detidas."
+      ],
+      [
+        "The company receives no new resources.",
+        "A empresa não recebe novos recursos."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The relative reduction is (10 − 8)/10 = 20%, while the absolute change is 2 percentage points. The investor may still own the same number of shares. New company resources, issue pricing, costs and use of funds affect wealth, so proportional ownership dilution is not automatically an equal investment loss.",
+      "A redução relativa é (10 − 8)/10 = 20%, enquanto a mudança absoluta é de 2 pontos percentuais. O investidor pode continuar com o mesmo número de ações. Novos recursos da empresa, preço de emissão, custos e uso dos recursos afetam a riqueza; diluição percentual da participação não é automaticamente uma perda de investimento igual."
+    ],
+    "blocks": [
+      "EIP-2.3-01-B06"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An issue offers 50 million against firm eligible orders of 80 million, with an explicit proportional allocation rule and no rounding. How much of a 4 million request is allocated?",
+      "Uma emissão oferece 50 milhões para ordens firmes elegíveis de 80 milhões, com regra proporcional explícita e sem arredondamento. Quanto de um pedido de 4 milhões é alocado?"
+    ],
+    "options": [
+      [
+        "4 million",
+        "4 milhões"
+      ],
+      [
+        "1.5 million",
+        "1.5 milhão"
+      ],
+      [
+        "6.4 million",
+        "6.4 milhões"
+      ],
+      [
+        "2.5 million",
+        "2.5 milhões"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The factor is 50/80 = 62.5%, giving 4 × 0.625 = 2.5 million. The remaining 1.5 million was not invested and is not a loss. Inverting the factor produces 6.4 million, exceeding the request. Proportional allocation follows the stated rule; oversubscription alone does not establish that rule for other issues.",
+      "O fator é 50/80 = 62.5%, resultando em 4 × 0.625 = 2.5 milhões. O restante de 1.5 milhão não foi investido e não é uma perda. Inverter o fator produz 6.4 milhões, acima do pedido. A alocação proporcional decorre da regra informada; a demanda excedente, sozinha, não estabelece essa regra para outras emissões."
+    ],
+    "blocks": [
+      "EIP-2.3-01-B05"
+    ],
+    "calculation": {
+      "method": "allocation",
+      "inputs": [
+        50,
+        80,
+        4
+      ],
+      "expected": 2.5
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Bonds of €10 million nominal are issued at 99% with 4% annual coupon. Issuer costs are €120,000. With no other costs, tax or accrued interest, which combination is correct?",
+      "Títulos com nominal de €10 milhões são emitidos a 99%, com cupom anual de 4%. Os custos do emissor são €120,000. Sem outros custos, impostos ou juros acumulados, qual combinação está correta?"
+    ],
+    "options": [
+      [
+        "Net proceeds €9,780,000; annual coupon €400,000; redemption €10,000,000.",
+        "Recursos líquidos €9,780,000; cupom anual €400,000; resgate €10,000,000."
+      ],
+      [
+        "Net proceeds €9,780,000; annual coupon €391,200; redemption €10,000,000.",
+        "Recursos líquidos €9,780,000; cupom anual €391,200; resgate €10,000,000."
+      ],
+      [
+        "Net proceeds €9,900,000; annual coupon €400,000; redemption €9,900,000.",
+        "Recursos líquidos €9,900,000; cupom anual €400,000; resgate €9,900,000."
+      ],
+      [
+        "Net proceeds €10,000,000; annual coupon €400,000; redemption €9,780,000.",
+        "Recursos líquidos €10,000,000; cupom anual €400,000; resgate €9,780,000."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Gross proceeds are 10,000,000 × 0.99 = €9,900,000; deduct costs to obtain €9,780,000. Coupon is 10,000,000 × 0.04 = €400,000, and contractual redemption remains €10,000,000. €391,200 incorrectly applies the coupon to net proceeds. The issue discount and costs reduce initial funds, not the stated redemption principal.",
+      "Os recursos brutos são 10,000,000 × 0.99 = €9,900,000; deduza os custos para obter €9,780,000. O cupom é 10,000,000 × 0.04 = €400,000, e o resgate contratual permanece €10,000,000. €391,200 aplica incorretamente o cupom aos recursos líquidos. O desconto e os custos reduzem os recursos iniciais, não o principal de resgate informado."
+    ],
+    "blocks": [
+      "EIP-2.3-01-B04"
+    ],
+    "calculation": {
+      "method": "issue_cashflows",
+      "inputs": [
+        10000000,
+        0.99,
+        120000,
+        0.04
+      ],
+      "expected": [
+        9780000,
+        400000,
+        10000000
+      ]
+    }
+  }
+]

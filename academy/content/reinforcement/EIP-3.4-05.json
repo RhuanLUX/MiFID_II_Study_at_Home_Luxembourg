@@ -1,0 +1,191 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A bond’s simple yield spread is its yield minus a ______ reference yield.",
+      "O spread simples de rendimento de um título é sua taxa menos uma taxa de referência ______."
+    ],
+    "options": [
+      [
+        "comparable",
+        "comparável"
+      ],
+      [
+        "yield from the same currency but a different maturity without adjustment",
+        "de mesma moeda, mas prazo diferente sem ajuste"
+      ],
+      [
+        "coupon rate on nominal rather than a market reference yield",
+        "de cupom sobre o nominal, em vez de taxa de referência de mercado"
+      ],
+      [
+        "yield from a different currency and compounding basis without conversion",
+        "de moeda e base de capitalização diferentes sem conversão"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "A meaningful spread comparison aligns currency, maturity and calculation convention and identifies the chosen reference. The spread can reflect credit, liquidity and other influences. It is not directly a default probability or a percentage of principal certain to be lost.",
+      "Uma comparação significativa de spread alinha moeda, prazo e convenção de cálculo e identifica a referência escolhida. O spread pode refletir crédito, liquidez e outras influências. Não é diretamente uma probabilidade de inadimplência nem uma porcentagem de principal que certamente será perdida."
+    ],
+    "blocks": [
+      "EIP-3.4-05-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A model assumes principal recovery of 40% following default. What is principal loss-given-default?",
+      "Um modelo supõe recuperação de 40% do principal após inadimplência. Qual é a perda do principal dada a inadimplência?"
+    ],
+    "options": [
+      [
+        "40%",
+        "40%"
+      ],
+      [
+        "24%, multiplying recovery and unrecovered fractions",
+        "24%, multiplicando as frações recuperada e não recuperada"
+      ],
+      [
+        "60%",
+        "60%"
+      ],
+      [
+        "140%",
+        "140%"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Loss-given-default is the unrecovered share: 100% − 40% = 60% of the defined exposure. A principal-only measure may omit missed coupons and recovery timing. Default probability is a separate input and cannot be inferred from the recovery percentage.",
+      "A perda dada a inadimplência é a parcela não recuperada: 100% − 40% = 60% da exposição definida. Uma medida apenas do principal pode omitir cupons perdidos e o tempo da recuperação. A probabilidade de inadimplência é outro dado e não pode ser inferida da porcentagem de recuperação."
+    ],
+    "blocks": [
+      "EIP-3.4-05-B03"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "The reference yield is unchanged but an issuer’s spread widens. Promised cash flows remain fixed. What is consistent with the lesson?",
+      "A taxa de referência não muda, mas o spread do emissor aumenta. Os fluxos prometidos permanecem fixos. O que é compatível com a aula?"
+    ],
+    "options": [
+      [
+        "Price cannot change before a missed coupon.",
+        "O preço não pode mudar antes de um cupom não pago."
+      ],
+      [
+        "Required total yield rises and model price falls, without proving default.",
+        "A taxa total exigida sobe e o preço de modelo cai, sem provar inadimplência."
+      ],
+      [
+        "Coupon payments automatically increase by the spread change.",
+        "Os cupons automaticamente aumentam pela mudança do spread."
+      ],
+      [
+        "The price decline equals the probability of default.",
+        "A queda de preço equivale à probabilidade de inadimplência."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "Total yield combines the chosen reference and spread, so a wider spread can lower the discounted price even before non-payment. The promised coupon need not change. The price move is a valuation response to required compensation and is not a direct numerical measure of default probability or a certainty of default.",
+      "A taxa total combina referência e spread, portanto um spread maior pode reduzir o preço descontado antes de qualquer falta de pagamento. O cupom prometido não precisa mudar. A variação é uma resposta de avaliação à compensação exigida, não uma medida numérica direta da probabilidade nem uma certeza de inadimplência."
+    ],
+    "blocks": [
+      "EIP-3.4-05-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An isolated stipulated priority pays secured claims 80 first, then senior unsecured claims 60, then subordinated claims 20 (millions). Assets after costs are 120; no other claims apply. What does a €30,000 senior unsecured claim recover?",
+      "Uma prioridade isolada estipulada paga primeiro créditos garantidos de 80, depois créditos seniores sem garantia de 60 e depois subordinados de 20 (milhões). Os ativos após custos são 120; não há outros créditos. Quanto recupera um crédito sênior sem garantia de €30,000?"
+    ],
+    "options": [
+      [
+        "€30,000",
+        "€30,000"
+      ],
+      [
+        "Zero",
+        "Zero"
+      ],
+      [
+        "€15,000",
+        "€15,000"
+      ],
+      [
+        "€20,000",
+        "€20,000"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "After paying 80, only 40 remains for senior unsecured claims of 60: recovery is 40/60 = two thirds, so €30,000 recovers €20,000. No assets reach the subordinated group. Paying every claim equally ignores the stipulated ranking. This fictional waterfall illustrates claim structure and is not asserted as a universal Luxembourg insolvency rule.",
+      "Após pagar 80, restam apenas 40 para créditos seniores sem garantia de 60: a recuperação é 40/60 = dois terços, portanto €30,000 recuperam €20,000. Nenhum ativo chega ao grupo subordinado. Pagar igualmente todos os créditos ignora a prioridade estipulada. Essa ordem fictícia ilustra a estrutura dos créditos e não é afirmada como regra universal de insolvência luxemburguesa."
+    ],
+    "blocks": [
+      "EIP-3.4-05-B07"
+    ],
+    "calculation": {
+      "method": "priority_recovery",
+      "inputs": [
+        120,
+        80,
+        60,
+        30000
+      ],
+      "expected": 20000
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A one-year bond costs €1,000 and promises €1,060. Assume 97% full payment and 3% default with only €400 received at the same year-end. No costs or tax. What are expected receipt and shortfall relative to the promise?",
+      "Um título de um ano custa €1,000 e promete €1,060. Suponha 97% de pagamento integral e 3% de inadimplência com apenas €400 recebidos no mesmo fim de ano. Sem custos ou impostos. Quais são o recebimento esperado e a insuficiência em relação à promessa?"
+    ],
+    "options": [
+      [
+        "€1,040.20 and €19.80",
+        "€1,040.20 e €19.80"
+      ],
+      [
+        "€1,042 and €18, considering principal loss alone",
+        "€1,042 e €18, considerando apenas a perda do principal"
+      ],
+      [
+        "€1,060 and zero, because the promised yield is 6%",
+        "€1,060 e zero, pois o rendimento prometido é 6%"
+      ],
+      [
+        "€400 and €660, treating default as certain",
+        "€400 e €660, tratando a inadimplência como certa"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Expected receipt is 0.97 × 1,060 + 0.03 × 400 = €1,040.20, with expected return 4.02%. The €19.80 shortfall comprises expected principal loss 0.03 × 600 = €18 plus missed coupon 0.03 × 60 = €1.80. The principal-only alternative omits that coupon. An average is neither a guaranteed receipt nor proof the investor can tolerate the €600 default-case principal loss.",
+      "O recebimento esperado é 0.97 × 1,060 + 0.03 × 400 = €1,040.20, com retorno esperado de 4.02%. A insuficiência de €19.80 compreende a perda esperada de principal de 0.03 × 600 = €18 mais o cupom perdido de 0.03 × 60 = €1.80. A alternativa somente do principal omite esse cupom. Uma média não é recebimento garantido nem prova de que o investidor tolera a perda de €600 do principal no caso de inadimplência."
+    ],
+    "blocks": [
+      "EIP-3.4-05-B04"
+    ],
+    "calculation": {
+      "method": "expected_receipt",
+      "inputs": [
+        1000,
+        1060,
+        0.97,
+        400
+      ],
+      "expected": [
+        1040.2,
+        19.8,
+        0.0402
+      ]
+    }
+  }
+]

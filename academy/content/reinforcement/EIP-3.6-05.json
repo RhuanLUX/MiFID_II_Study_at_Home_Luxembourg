@@ -1,0 +1,190 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "What principally distinguishes hedging from speculation in the lesson?",
+      "O que distingue principalmente proteção de especulação na aula?"
+    ],
+    "options": [
+      [
+        "Whether the contract trades on an exchange rather than OTC",
+        "Se o contrato é negociado em bolsa em vez de OTC"
+      ],
+      [
+        "Whether the derivative produces a gain after the event",
+        "Se o derivativo gera ganho depois do evento"
+      ],
+      [
+        "Whether the position offsets a defined exposure or deliberately creates/increases exposure",
+        "Se a posição compensa uma exposição definida ou deliberadamente cria/aumenta exposição"
+      ],
+      [
+        "Whether the initial premium is zero",
+        "Se o prêmio inicial é zero"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Purpose, existing exposure, quantity and maturity determine the risk effect. The same contract can hedge one user and speculate for another. Neither exchange trading, a later gain nor a zero premium proves a hedge. Evaluate the combined underlying and derivative against the defined objective.",
+      "Finalidade, exposição existente, quantidade e vencimento determinam o efeito de risco. O mesmo contrato pode proteger um usuário e especular para outro. Negociação em bolsa, ganho posterior ou prêmio zero não comprovam proteção. Avalie o subjacente e o derivativo combinados diante do objetivo definido."
+    ],
+    "blocks": [
+      "EIP-3.6-05-B01"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "A matched short forward against a shareholding can fix simplified terminal value but gives up ______.",
+      "Um termo vendido correspondente a uma posição em ações pode fixar o valor terminal simplificado, mas abre mão de ______."
+    ],
+    "options": [
+      [
+        "all collateral and funding obligations",
+        "todas as obrigações de garantia e financiamento"
+      ],
+      [
+        "favourable upside relative to the fixed forward price",
+        "alta favorável em relação ao preço a termo fixado"
+      ],
+      [
+        "the obligation to perform after the underlying is cancelled",
+        "a obrigação de cumprir após o cancelamento do subjacente"
+      ],
+      [
+        "the need to match quantities",
+        "a necessidade de corresponder quantidades"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A linear hedge offsets increases as well as decreases under matching assumptions. The investor trades upside participation for a more fixed terminal result. Funding, performance and quantity obligations remain. An option can retain favourable participation but its premium and practical conditions must be included.",
+      "Uma proteção linear compensa altas e baixas sob hipóteses de correspondência. O investidor troca participação na alta por um resultado terminal mais fixo. Obrigações de financiamento, cumprimento e quantidade permanecem. Uma opção pode manter participação favorável, mas seu prêmio e condições práticas precisam ser incluídos."
+    ],
+    "blocks": [
+      "EIP-3.6-05-B04"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Why should a hedge be reassessed when a planned receipt shrinks?",
+      "Por que uma proteção deve ser reavaliada quando um recebimento planejado diminui?"
+    ],
+    "options": [
+      [
+        "The original derivative quantity can exceed the exposure and create an additional directional position.",
+        "A quantidade original do derivativo pode superar a exposição e criar uma posição direcional adicional."
+      ],
+      [
+        "A correct original direction guarantees every future quantity remains matched.",
+        "Uma direção original correta garante que toda quantidade futura permaneça correspondente."
+      ],
+      [
+        "The excess contract automatically cancels without cost.",
+        "O contrato excedente é cancelado automaticamente sem custo."
+      ],
+      [
+        "A derivative gain alone proves the reduced transaction is fully hedged.",
+        "Um ganho do derivativo, sozinho, prova que a transação reduzida está integralmente protegida."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Quantity is part of hedge design, not an incidental input. If a receipt falls while the forward obligation stays fixed, the user may need to acquire the missing currency or asset. The unmatched amount is a new exposure. Direction alone and a favourable realised result cannot establish continued risk reduction.",
+      "A quantidade integra o desenho da proteção, não é um dado incidental. Se um recebimento cai enquanto a obrigação a termo permanece fixa, o usuário pode precisar adquirir a moeda ou ativo faltante. O valor sem correspondência é uma nova exposição. A direção isolada e um resultado realizado favorável não demonstram redução contínua de risco."
+    ],
+    "blocks": [
+      "EIP-3.6-05-B03"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €200,000 portfolio is assumed to move 0.8 times an index’s percentage move. Each future has €40,000 notional. What initial short quantity matches that modelled sensitivity?",
+      "Supõe-se que uma carteira de €200,000 se mova 0.8 vez a mudança percentual de um índice. Cada futuro tem nocional de €40,000. Qual quantidade vendida inicial corresponde a essa sensibilidade modelada?"
+    ],
+    "options": [
+      [
+        "5 contracts",
+        "5 contratos"
+      ],
+      [
+        "6.25 contracts",
+        "6.25 contratos"
+      ],
+      [
+        "0.8 contract",
+        "0.8 contrato"
+      ],
+      [
+        "4 contracts",
+        "4 contratos"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Modelled exposure is 200,000 × 0.8 = €160,000; divide by €40,000 per contract for four shorts. Five ignores the sensitivity coefficient; 6.25 divides by it instead of multiplying. This arithmetic depends on the assumed relationship and compatible units; basis, model error and interim funding requirements remain.",
+      "A exposição modelada é 200,000 × 0.8 = €160,000; divida por €40,000 por contrato para quatro posições vendidas. Cinco ignora o coeficiente; 6.25 divide por ele em vez de multiplicar. A aritmética depende da relação suposta e de unidades compatíveis; base, erro de modelo e financiamento intermediário permanecem."
+    ],
+    "blocks": [
+      "EIP-3.6-05-B07"
+    ],
+    "calculation": {
+      "method": "hedge_quantity",
+      "inputs": [
+        200000,
+        0.8,
+        40000
+      ],
+      "expected": 4
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "An exporter sells USD 100,000 forward at USD 1.10 per EUR but receives only USD 70,000. Spot is USD 1.00 per EUR. Assuming delivery and no costs, what is the additional reduction in euro proceeds from the excess contract relative to a correctly sized USD 70,000 forward at 1.10?",
+      "Uma exportadora vende USD 100,000 a termo a USD 1.10 por EUR, mas recebe apenas USD 70,000. O preço à vista é USD 1.00 por EUR. Supondo entrega e sem custos, qual é a redução adicional dos recebimentos em euros pelo contrato excedente em relação a um termo corretamente dimensionado de USD 70,000 a 1.10?"
+    ],
+    "options": [
+      [
+        "€9,090.91, the whole difference from unhedged conversion",
+        "€9,090.91, toda a diferença da conversão sem proteção"
+      ],
+      [
+        "€6,363.64, the difference between matched hedge and unhedged conversion",
+        "€6,363.64, a diferença entre proteção correspondente e conversão sem proteção"
+      ],
+      [
+        "Approximately €2,727.27, isolating the excess USD 30,000 obligation",
+        "Aproximadamente €2,727.27, isolando a obrigação excedente de USD 30,000"
+      ],
+      [
+        "€30,000, equal to the entire missing-dollar purchase",
+        "€30,000, igual a toda a compra dos dólares faltantes"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The original forward receives 100,000/1.10 = €90,909.09, but buying the missing USD 30,000 costs €30,000: net €60,909.09. A matched forward yields 70,000/1.10 = €63,636.36. The excess therefore reduces proceeds by €2,727.27. €9,090.91 compares with the unhedged €70,000 and includes the matched hedge’s €6,363.64 effect; it is not all over-hedging cost.",
+      "O termo original recebe 100,000/1.10 = €90,909.09, mas comprar os USD 30,000 faltantes custa €30,000: líquido de €60,909.09. Um termo correspondente gera 70,000/1.10 = €63,636.36. O excedente, portanto, reduz os recebimentos em €2,727.27. €9,090.91 compara com €70,000 sem proteção e inclui o efeito de €6,363.64 da proteção correspondente; não é todo custo do excesso."
+    ],
+    "blocks": [
+      "EIP-3.6-05-B03"
+    ],
+    "calculation": {
+      "method": "overhedge",
+      "inputs": [
+        100000,
+        70000,
+        1.1,
+        1
+      ],
+      "expected": [
+        60909.0909090909,
+        63636.3636363636,
+        2727.2727272727
+      ]
+    }
+  }
+]

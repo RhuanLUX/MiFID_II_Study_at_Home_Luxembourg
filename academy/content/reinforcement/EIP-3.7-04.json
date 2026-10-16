@@ -1,0 +1,196 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A client expects a known dollar receipt and wants to fix its euro conversion. Which forward direction offsets that receipt?",
+      "Um cliente espera recebimento conhecido em dólares e quer fixar sua conversão em euros. Qual direção a termo compensa esse recebimento?"
+    ],
+    "options": [
+      [
+        "Sell those dollars forward for euros",
+        "Vender esses dólares a termo por euros"
+      ],
+      [
+        "Buy the same dollars forward using euros",
+        "Comprar os mesmos dólares a termo usando euros"
+      ],
+      [
+        "Sell euros forward to increase the final dollar holding",
+        "Vender euros a termo para aumentar o saldo final em dólares"
+      ],
+      [
+        "Buy a dollar asset of the same size instead of an offsetting exchange",
+        "Comprar um ativo em dólares do mesmo tamanho em vez de câmbio compensatório"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "A receipt creates dollars the client will want to exchange; selling them forward offsets that conversion uncertainty. Buying additional dollars increases the original direction. Amount and date must match, and the underlying payer’s credit risk remains even when the exchange rate is fixed.",
+      "Um recebimento cria dólares que o cliente desejará trocar; vendê-los a termo compensa essa incerteza de conversão. Comprar dólares adicionais aumenta a direção original. Valor e data devem corresponder, e o risco de crédito do pagador subjacente permanece mesmo com o câmbio fixado."
+    ],
+    "blocks": [
+      "EIP-3.7-04-B02"
+    ]
+  },
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "The difference between a forward and spot rate can reflect ______ and is not automatically a fee or a forecast.",
+      "A diferença entre uma taxa a termo e à vista pode refletir ______ e não é automaticamente uma tarifa ou previsão."
+    ],
+    "options": [
+      [
+        "a guaranteed future spot movement",
+        "um movimento futuro à vista garantido"
+      ],
+      [
+        "only an explicit provider commission",
+        "apenas uma comissão explícita do provedor"
+      ],
+      [
+        "interest differentials and contract pricing",
+        "diferenciais de juros e formação de preço contratual"
+      ],
+      [
+        "the foreign asset’s realised equity return",
+        "o retorno realizado das ações estrangeiras"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Forward terms incorporate financing relationships and contract pricing. Provider spreads, explicit charges and funding are additional considerations. Treating the whole difference as a fee or a prediction confuses separate economic components and can misstate the cost and purpose of a hedge.",
+      "Condições a termo incorporam relações de financiamento e formação de preço contratual. Spreads do provedor, cobranças explícitas e financiamento são considerações adicionais. Tratar toda a diferença como tarifa ou previsão confunde componentes econômicos separados e pode distorcer o custo e a finalidade da proteção."
+    ],
+    "blocks": [
+      "EIP-3.7-04-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Why does hedging only a risky investment’s initial foreign principal not fix every possible terminal euro value?",
+      "Por que proteger apenas o principal estrangeiro inicial de um investimento arriscado não fixa todo possível valor terminal em euros?"
+    ],
+    "options": [
+      [
+        "The foreign investment’s gains are always guaranteed by the forward.",
+        "Os ganhos do investimento estrangeiro são sempre garantidos pelo termo."
+      ],
+      [
+        "The future asset amount can differ, leaving gains unhedged or a delivery shortfall after losses.",
+        "O valor futuro do ativo pode diferir, deixando ganhos sem proteção ou falta para entrega após perdas."
+      ],
+      [
+        "Every principal hedge automatically resizes after each asset movement.",
+        "Toda proteção de principal se redimensiona automaticamente após cada movimento do ativo."
+      ],
+      [
+        "The forward eliminates the underlying asset’s market risk.",
+        "O termo elimina o risco de mercado do ativo subjacente."
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The delivery obligation is a defined foreign amount while a risky asset’s terminal value changes. A gain can leave extra foreign currency outside the hedge; a loss can leave too little to deliver. Periodic resizing is a separate policy with costs and timing. Currency protection does not guarantee local investment performance.",
+      "A obrigação de entrega é um valor estrangeiro definido, enquanto o valor terminal de um ativo arriscado muda. Um ganho pode deixar moeda estrangeira adicional fora da proteção; uma perda pode deixar pouco para entregar. Redimensionar periodicamente é uma política separada, com custos e prazo. A proteção cambial não garante desempenho local do investimento."
+    ],
+    "blocks": [
+      "EIP-3.7-04-B04"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A known USD 110,000 receipt is half hedged at USD 1.10 per EUR. The other half converts at spot. A €200 total charge applies. What net euros result at spot 1.25 and 1.00 respectively?",
+      "Um recebimento conhecido de USD 110,000 é metade protegido a USD 1.10 por EUR. A outra metade é convertida à vista. Há cobrança total de €200. Quais euros líquidos resultam com cotações à vista de 1.25 e 1.00, respectivamente?"
+    ],
+    "options": [
+      [
+        "€88,000 and €110,000",
+        "€88,000 e €110,000"
+      ],
+      [
+        "€94,000 and €105,000",
+        "€94,000 e €105,000"
+      ],
+      [
+        "€99,800 and €99,800",
+        "€99,800 e €99,800"
+      ],
+      [
+        "€93,800 and €104,800",
+        "€93,800 e €104,800"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "The hedged USD 55,000 gives €50,000. The rest gives 55,000/1.25 = €44,000 or 55,000/1.00 = €55,000. Add the fixed amount and deduct €200 for €93,800 or €104,800. The alternatives use no hedge, ignore the charge or assume full hedging. The scenario sensitivity is reduced, but no expected return follows without probabilities.",
+      "Os USD 55,000 protegidos dão €50,000. O restante dá 55,000/1.25 = €44,000 ou 55,000/1.00 = €55,000. Some o valor fixo e deduza €200 para €93,800 ou €104,800. As alternativas usam ausência de proteção, ignoram a cobrança ou supõem proteção integral. A sensibilidade entre cenários é reduzida, mas não decorre retorno esperado sem probabilidades."
+    ],
+    "blocks": [
+      "EIP-3.7-04-B07"
+    ],
+    "calculation": {
+      "method": "partial_fx",
+      "inputs": [
+        110000,
+        0.5,
+        1.1,
+        1.25,
+        1,
+        200
+      ],
+      "expected": [
+        93800,
+        104800
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "€100,000 becomes USD 110,000 at 1.10. The client sells USD 110,000 forward at 1.10, but the risky investment ends at only USD 99,000. The missing dollars must be bought at spot. No costs or default. What net euros result at spot 1.25 and 1.00?",
+      "€100,000 tornam-se USD 110,000 a 1.10. O cliente vende USD 110,000 a termo a 1.10, mas o investimento arriscado termina com apenas USD 99,000. Os dólares faltantes devem ser comprados à vista. Sem custos ou inadimplência. Quais euros líquidos resultam à vista de 1.25 e 1.00?"
+    ],
+    "options": [
+      [
+        "€100,000 and €100,000, because principal was hedged",
+        "€100,000 e €100,000, pois o principal foi protegido"
+      ],
+      [
+        "€90,000 and €90,000, assuming the whole loss is fixed at the forward rate",
+        "€90,000 e €90,000, supondo toda a perda fixada na taxa a termo"
+      ],
+      [
+        "€91,200 and €89,000, showing the residual shortfall exposure",
+        "€91,200 e €89,000, mostrando a exposição da insuficiência residual"
+      ],
+      [
+        "€79,200 and €99,000, ignoring the forward altogether",
+        "€79,200 e €99,000, ignorando totalmente o termo"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "The forward pays €100,000 but requires USD 110,000. With only USD 99,000, buy USD 11,000: cost €8,800 at 1.25 or €11,000 at 1.00. Net euros are €91,200 and €89,000. The fixed principal conversion does not insure the asset loss; the shortfall’s euro cost still varies. €90,000 assumes all terminal cash is perfectly matched, while the unhedged pair omits the contract.",
+      "O termo paga €100,000, mas exige USD 110,000. Com apenas USD 99,000, compre USD 11,000: custo de €8,800 a 1.25 ou €11,000 a 1.00. Os euros líquidos são €91,200 e €89,000. A conversão fixa do principal não assegura a perda do ativo; o custo em euros da insuficiência ainda varia. €90,000 supõe todo o caixa terminal perfeitamente correspondente, enquanto o par sem proteção omite o contrato."
+    ],
+    "blocks": [
+      "EIP-3.7-04-B05"
+    ],
+    "calculation": {
+      "method": "principal_hedge_loss",
+      "inputs": [
+        110000,
+        99000,
+        1.1,
+        1.25,
+        1
+      ],
+      "expected": [
+        91200,
+        89000
+      ]
+    }
+  }
+]

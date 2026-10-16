@@ -1,0 +1,196 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "An absolute emissions measure reports a ______, while intensity divides it by a stated denominator.",
+      "Uma medida absoluta de emissões reporta um ______, enquanto a intensidade o divide por um denominador informado."
+    ],
+    "options": [
+      [
+        "total quantity over the defined scope and period",
+        "total de quantidade no escopo e período definidos"
+      ],
+      [
+        "quantity per unit of revenue",
+        "valor por unidade de receita"
+      ],
+      [
+        "portfolio weight rather than emissions",
+        "peso de carteira em vez de emissões"
+      ],
+      [
+        "composite rating of unrelated factors",
+        "rating composto de fatores sem relação"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Absolute totals and intensity ratios measure different objects. Revenue growth, prices or scope changes can reduce a revenue-based intensity even while total emissions increase. Comparisons need matching boundaries, dates and denominators rather than treating every percentage improvement as a decline in total emissions.",
+      "Totais absolutos e razões de intensidade medem objetos diferentes. Crescimento da receita, preços ou mudanças de escopo podem reduzir intensidade baseada em receita mesmo com aumento das emissões totais. Comparações exigem limites, datas e denominadores correspondentes, sem tratar toda melhoria percentual como queda das emissões totais."
+    ],
+    "blocks": [
+      "EIP-3.9-02-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Which issue is principally governance-related in the lesson’s framework?",
+      "Qual questão é principalmente de governança no regime conceitual da aula?"
+    ],
+    "options": [
+      [
+        "Water dependency of a production site",
+        "Dependência de água de uma unidade produtiva"
+      ],
+      [
+        "Workforce turnover and training outcomes",
+        "Rotatividade da força de trabalho e resultados de treinamento"
+      ],
+      [
+        "Direct operational emissions intensity",
+        "Intensidade de emissões operacionais diretas"
+      ],
+      [
+        "Independent oversight of a related-party acquisition",
+        "Supervisão independente de aquisição entre partes relacionadas"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Governance addresses oversight, incentives, conflicts, accountability and decision processes. Water and emissions are environmental channels; workforce turnover is principally social. The categories can interact, but identifying the actual conflict and approval process helps explain how a related-party transaction could affect value.",
+      "A governança trata de supervisão, incentivos, conflitos, responsabilidade e processos decisórios. Água e emissões são canais ambientais; rotatividade é principalmente social. As categorias podem interagir, mas identificar o conflito efetivo e o processo de aprovação ajuda a explicar como uma transação entre partes relacionadas poderia afetar valor."
+    ],
+    "blocks": [
+      "EIP-3.9-02-B06"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "A company’s employee-turnover programme is followed by a lower turnover rate. What is still needed before claiming the programme caused the improvement?",
+      "Um programa de rotatividade de empregados é seguido de uma taxa menor. O que ainda é necessário antes de afirmar que o programa causou a melhoria?"
+    ],
+    "options": [
+      [
+        "No further evidence, because sequence proves causation",
+        "Nenhuma evidência adicional, pois a sequência prova causalidade"
+      ],
+      [
+        "Evidence about implementation, measurement and competing causes such as labour-market or pay changes",
+        "Evidências sobre implementação, mensuração e causas concorrentes como mudanças no mercado de trabalho ou salário"
+      ],
+      [
+        "Only a favourable composite ESG score",
+        "Apenas uma nota ESG composta favorável"
+      ],
+      [
+        "Only the programme budget, treating estimated savings as observed facts",
+        "Apenas o orçamento do programa, tratando economias estimadas como fatos observados"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "A before/after change can reflect labour-market conditions, hiring mix, pay or measurement as well as the programme. The financial estimate is conditional until evidence supports the causal link and cost assumptions. A budget or aggregate rating does not establish an outcome. Social objectives and financial sensitivity should both remain visible.",
+      "Uma mudança antes/depois pode refletir mercado de trabalho, composição das contratações, salário ou mensuração, além do programa. A estimativa financeira é condicional até que evidências sustentem a ligação causal e os custos. Um orçamento ou rating agregado não comprova um resultado. Objetivos sociais e sensibilidade financeira devem permanecer visíveis."
+    ],
+    "blocks": [
+      "EIP-3.9-02-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Emissions rise from 100,000 to 108,000 tonnes while revenue rises from €100m to €120m, same scope. Which pair correctly describes total and revenue-based intensity changes?",
+      "As emissões sobem de 100,000 para 108,000 toneladas enquanto a receita sobe de €100m para €120m, mesmo escopo. Qual par descreve corretamente mudanças do total e da intensidade por receita?"
+    ],
+    "options": [
+      [
+        "Total −10%; intensity +8%",
+        "Total −10%; intensidade +8%"
+      ],
+      [
+        "Total +8%; intensity +8%",
+        "Total +8%; intensidade +8%"
+      ],
+      [
+        "Total +8%; intensity −10%, from 1,000 to 900 tonnes per €1m",
+        "Total +8%; intensidade −10%, de 1,000 para 900 toneladas por €1m"
+      ],
+      [
+        "Total −10%; intensity −10%",
+        "Total −10%; intensidade −10%"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Total emissions change is 108,000/100,000 − 1 = 8%. Intensities are 100,000/100 = 1,000 and 108,000/120 = 900 tonnes per €1m, a 10% decline. The ratio improved while the total worsened. Revenue-price effects can also affect this denominator, so a lower intensity alone does not prove operational efficiency improved.",
+      "A mudança das emissões totais é 108,000/100,000 − 1 = 8%. As intensidades são 100,000/100 = 1,000 e 108,000/120 = 900 toneladas por €1m, queda de 10%. A razão melhorou enquanto o total piorou. Efeitos de preços da receita também podem afetar o denominador; uma intensidade menor isolada não prova eficiência operacional maior."
+    ],
+    "blocks": [
+      "EIP-3.9-02-B03"
+    ],
+    "calculation": {
+      "method": "absolute_intensity",
+      "inputs": [
+        100000,
+        100,
+        108000,
+        120
+      ],
+      "expected": [
+        0.08,
+        1000,
+        900,
+        -0.1
+      ]
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A 1,000-person firm initially has 20% annual departures, costing €8,000 each to replace. A €300,000 programme reduces assumed turnover only to 18%, with no other changes. What net model benefit results?",
+      "Uma empresa de 1,000 pessoas tem inicialmente 20% de saídas anuais, custando €8,000 cada para repor. Um programa de €300,000 reduz a rotatividade suposta apenas para 18%, sem outras mudanças. Qual benefício líquido do modelo resulta?"
+    ],
+    "options": [
+      [
+        "+€100,000, using a 15% outcome instead",
+        "+€100,000, usando resultado de 15%"
+      ],
+      [
+        "+€160,000, ignoring programme cost",
+        "+€160,000, ignorando o custo do programa"
+      ],
+      [
+        "−€300,000, ignoring replacement savings",
+        "−€300,000, ignorando economias de reposição"
+      ],
+      [
+        "−€140,000: €160,000 replacement savings less €300,000 cost",
+        "−€140,000: economia de reposição de €160,000 menos custo de €300,000"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Departures fall from 200 to 180, avoiding 20 replacements. Saving is 20 × €8,000 = €160,000; subtract programme cost for −€140,000. The +€100,000 case needs turnover of 15%, not the stated 18%. The result is conditional and omits productivity, service quality and timing; it does not alone prove causality or decide the social value of the programme.",
+      "As saídas caem de 200 para 180, evitando 20 reposições. A economia é 20 × €8,000 = €160,000; subtraia o custo do programa para −€140,000. O caso de +€100,000 exige rotatividade de 15%, não os 18% informados. O resultado é condicional e omite produtividade, qualidade e prazo; não prova sozinho causalidade nem decide o valor social do programa."
+    ],
+    "blocks": [
+      "EIP-3.9-02-B05"
+    ],
+    "calculation": {
+      "method": "turnover_programme",
+      "inputs": [
+        1000,
+        0.2,
+        0.18,
+        8000,
+        300000
+      ],
+      "expected": [
+        160000,
+        -140000
+      ]
+    }
+  }
+]

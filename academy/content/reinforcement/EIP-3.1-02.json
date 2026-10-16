@@ -1,0 +1,194 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "An ordinary annuity makes equal payments at each period’s ______.",
+      "Uma anuidade postecipada faz pagamentos iguais no ______ de cada período."
+    ],
+    "options": [
+      [
+        "beginning",
+        "início"
+      ],
+      [
+        "midpoint",
+        "meio"
+      ],
+      [
+        "end",
+        "fim"
+      ],
+      [
+        "beginning for contributions but end for withdrawals",
+        "início para contribuições, mas fim para retiradas"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "In time-value arithmetic an ordinary annuity pays at period-end, while an annuity due pays at period-beginning. The word annuity here describes a payment pattern, not necessarily an insurance product. Earlier contributions have more time to compound at the same rate.",
+      "Na matemática financeira, uma anuidade postecipada paga no fim do período, enquanto uma antecipada paga no início. Anuidade aqui descreve um padrão de pagamentos, não necessariamente um produto de seguro. Contribuições anteriores têm mais tempo para capitalizar à mesma taxa."
+    ],
+    "blocks": [
+      "EIP-3.1-02-B02"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Before adding the economic values of payments at different dates, what should be done?",
+      "Antes de somar os valores econômicos de pagamentos em datas diferentes, o que deve ser feito?"
+    ],
+    "options": [
+      [
+        "Move each to a common date with a consistent rate period.",
+        "Trazer cada um a uma data comum com um período de taxa consistente."
+      ],
+      [
+        "Assign every payment the longest maturity.",
+        "Atribuir a todos os pagamentos o maior prazo."
+      ],
+      [
+        "Ignore timing when amounts are equal.",
+        "Ignorar o tempo quando os valores são iguais."
+      ],
+      [
+        "Always multiply total nominal payments by one growth factor.",
+        "Sempre multiplicar o total nominal por um único fator de crescimento."
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "Each payment has its own growth or discounting interval. Converting every amount to the chosen comparison date makes the values additive. Equal amounts need not have equal present values, and a single factor applied to their nominal total generally assumes timing that was not given.",
+      "Cada pagamento tem seu próprio intervalo de capitalização ou desconto. Converter cada valor à data de comparação escolhida permite somar os valores. Quantias iguais não precisam ter valores presentes iguais, e um único fator aplicado ao total nominal geralmente supõe um momento que não foi informado."
+    ],
+    "blocks": [
+      "EIP-3.1-02-B01"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "How is a 12% effective annual rate converted to an equivalent monthly rate?",
+      "Como converter uma taxa efetiva anual de 12% em taxa mensal equivalente?"
+    ],
+    "options": [
+      [
+        "12%/12 = 1%, exactly",
+        "12%/12 = 1%, exatamente"
+      ],
+      [
+        "1.12^12 − 1",
+        "1.12^12 − 1"
+      ],
+      [
+        "12%, since an effective rate has no time interval",
+        "12%, pois uma taxa efetiva não tem intervalo temporal"
+      ],
+      [
+        "1.12^(1/12) − 1, approximately 0.948879%",
+        "1.12^(1/12) − 1, aproximadamente 0.948879%"
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "Equivalent growth factors must satisfy (1 + monthly rate)^12 = 1.12. Taking the twelfth root gives about 0.948879% per month. Dividing by 12 instead follows a nominal annual quote explicitly convertible monthly; that different convention produces 12.682503% effective annually. Raising 1.12 to 12 compounds twelve years rather than dividing one year.",
+      "Os fatores equivalentes devem satisfazer (1 + taxa mensal)^12 = 1.12. A raiz décima segunda dá cerca de 0.948879% ao mês. Dividir por 12 segue uma cotação nominal anual explicitamente conversível mensalmente; essa convenção diferente produz 12.682503% efetivos ao ano. Elevar 1.12 a 12 capitaliza doze anos, em vez de dividir um ano."
+    ],
+    "blocks": [
+      "EIP-3.1-02-B05"
+    ],
+    "calculation": {
+      "method": "equivalent_monthly",
+      "inputs": [
+        0.12
+      ],
+      "expected": 0.009488792934583046
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Contributions of €1,000 occur at the ends of years 1, 2 and 3, earning 4% effective annually. What is value just after the third contribution?",
+      "Contribuições de €1,000 ocorrem no fim dos anos 1, 2 e 3, rendendo 4% efetivos ao ano. Qual é o valor logo após a terceira contribuição?"
+    ],
+    "options": [
+      [
+        "€3,374.59",
+        "€3,374.59"
+      ],
+      [
+        "€3,121.60",
+        "€3,121.60"
+      ],
+      [
+        "€3,246.46",
+        "€3,246.46"
+      ],
+      [
+        "€3,000.00",
+        "€3,000.00"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "The contributions grow for two, one and zero years: 1,000 × 1.04² + 1,000 × 1.04 + 1,000 = €3,121.60. €3,374.59 incorrectly compounds all €3,000 for three years. €3,246.46 uses beginning-period timing instead; €3,000 omits interest. The final contribution has no growth before the chosen date.",
+      "As contribuições crescem por dois, um e zero anos: 1,000 × 1.04² + 1,000 × 1.04 + 1,000 = €3,121.60. €3,374.59 capitaliza incorretamente todos os €3,000 por três anos. €3,246.46 usa pagamentos no início dos períodos; €3,000 omite os juros. A contribuição final não cresce antes da data escolhida."
+    ],
+    "blocks": [
+      "EIP-3.1-02-B03"
+    ],
+    "calculation": {
+      "method": "annuity_future",
+      "inputs": [
+        1000,
+        0.04,
+        3
+      ],
+      "expected": 3121.6
+    }
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "Bills of €5,000 after one year and €7,000 after three years are valued today at 3% effective annually. Which calculation and rounded value correctly preserve both dates?",
+      "Contas de €5,000 após um ano e €7,000 após três anos são avaliadas hoje a 3% efetivos ao ano. Qual cálculo e valor arredondado preservam corretamente ambas as datas?"
+    ],
+    "options": [
+      [
+        "12,000/1.03³ ≈ €10,981.70",
+        "12,000/1.03³ ≈ €10,981.70"
+      ],
+      [
+        "12,000/1.03 ≈ €11,650.49",
+        "12,000/1.03 ≈ €11,650.49"
+      ],
+      [
+        "5,000/1.03 + 7,000/1.03³ ≈ €11,260.36",
+        "5,000/1.03 + 7,000/1.03³ ≈ €11,260.36"
+      ],
+      [
+        "5,000 × 1.03 + 7,000 × 1.03³ ≈ €12,799.09",
+        "5,000 × 1.03 + 7,000 × 1.03³ ≈ €12,799.09"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Discount each bill over its own interval: €4,854.368932 + €6,405.991615 = €11,260.360548. Putting the full total at year 3 understates funding by delaying the first bill; putting it all at year 1 overstates funding by advancing the second. Multiplication compounds forward rather than valuing today. This conditional model is not a guaranteed return from a risky investment.",
+      "Desconte cada conta por seu próprio intervalo: €4,854.368932 + €6,405.991615 = €11,260.360548. Colocar o total no ano 3 subestima o financiamento ao adiar a primeira conta; colocar tudo no ano 1 superestima ao antecipar a segunda. Multiplicar capitaliza para a frente, em vez de avaliar hoje. Esse modelo condicional não é um retorno garantido de um investimento arriscado."
+    ],
+    "blocks": [
+      "EIP-3.1-02-B06"
+    ],
+    "calculation": {
+      "method": "two_present_values",
+      "inputs": [
+        5000,
+        1,
+        7000,
+        3,
+        0.03
+      ],
+      "expected": 11260.36054751095
+    }
+  }
+]

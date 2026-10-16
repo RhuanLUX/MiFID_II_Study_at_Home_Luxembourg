@@ -1,0 +1,167 @@
+[
+  {
+    "type": "fill_blank",
+    "prompt": [
+      "Ex-ante cost information concerns ______.",
+      "Informação de custos ex ante trata de ______."
+    ],
+    "options": [
+      [
+        "only actual charges already incurred",
+        "apenas encargos efetivos já incorridos"
+      ],
+      [
+        "only the investment’s tax return",
+        "apenas a declaração tributária do investimento"
+      ],
+      [
+        "estimated relevant costs before the decision",
+        "custos relevantes estimados antes da decisão"
+      ],
+      [
+        "only product costs, excluding every service cost",
+        "apenas custos do produto, excluindo todo custo de serviço"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Ex-ante disclosure estimates costs using a stated basis before the decision; ex-post information concerns actual costs under the applicable relationship requirements. Different asset values and activity can change actual amounts. Explain the assumptions and differences rather than assume every departure proves an error.",
+      "Divulgação ex ante estima custos com base declarada antes da decisão; informação ex post trata de custos efetivos conforme as exigências da relação. Valores de ativos e atividade distintos podem mudar os montantes. Explique hipóteses e diferenças, em vez de presumir erro em todo desvio."
+    ],
+    "blocks": [
+      "EIP-7.1-04-B06"
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "prompt": [
+      "Why is a percentage fee alone insufficient to calculate cash cost?",
+      "Por que um percentual de tarifa sozinho é insuficiente para calcular custo em dinheiro?"
+    ],
+    "options": [
+      [
+        "All percentage charges use the same opening base.",
+        "Todo encargo percentual usa a mesma base inicial."
+      ],
+      [
+        "Only the account currency matters.",
+        "Apenas a moeda da conta importa."
+      ],
+      [
+        "An entry fee never affects subsequent growth.",
+        "Tarifa inicial nunca afeta crescimento posterior."
+      ],
+      [
+        "Its base, timing and inclusion in other charges must also be established.",
+        "Sua base, prazo e inclusão em outros encargos também precisam ser estabelecidos."
+      ]
+    ],
+    "answer": 3,
+    "explanation": [
+      "A fee on subscribed cash differs from one on average assets or added to the invested amount. Timing also changes capital available to earn returns. Identify whether costs are already reflected in a NAV return or embedded in another total before subtracting or aggregating them.",
+      "Tarifa sobre caixa subscrito difere de tarifa sobre ativos médios ou adicionada ao valor investido. O prazo também muda o capital que rende. Identifique se custos já estão refletidos no retorno da cota ou embutidos em outro total antes de subtrair ou agregar."
+    ],
+    "blocks": [
+      "EIP-7.1-04-B02"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "€1,000 product cost includes €400 distribution commission; a separate advice fee is €500. No other charges apply. What total should be reconciled?",
+      "Custo de produto de €1,000 inclui comissão de distribuição de €400; tarifa separada de consultoria é €500. Não há outros encargos. Qual total deve ser conciliado?"
+    ],
+    "options": [
+      [
+        "€1,500, identifying the embedded €400 without adding it again",
+        "€1,500, identificando os €400 embutidos sem somá-los novamente"
+      ],
+      [
+        "€1,900, adding every labelled item regardless of overlap",
+        "€1,900, somando todo item rotulado independentemente de sobreposição"
+      ],
+      [
+        "€1,100, subtracting the commission from product costs and then adding advice",
+        "€1,100, subtraindo a comissão dos custos do produto e depois somando consultoria"
+      ],
+      [
+        "€1,000, because product charges replace every service fee",
+        "€1,000, porque encargos de produto substituem toda tarifa de serviço"
+      ]
+    ],
+    "answer": 0,
+    "explanation": [
+      "The commission is part of the €1,000 product cost, so aggregate cost is 1,000 + 500 = €1,500. €1,900 counts the same €400 twice. Identify the inducement appropriately but assess whether retention is permitted separately. If it were genuinely additional, the total would differ; the actual funding arrangement determines that fact.",
+      "A comissão faz parte dos €1,000 do produto; o total é 1,000 + 500 = €1,500. €1,900 conta os mesmos €400 duas vezes. Identifique adequadamente o incentivo, mas avalie sua retenção separadamente. Se fosse realmente adicional, o total mudaria; o financiamento efetivo determina esse fato."
+    ],
+    "blocks": [
+      "EIP-7.1-04-B05"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "USD 30 is charged at a fictional conversion of USD 1.20 per euro, with no conversion fee. What euro cost belongs in the applicable aggregate?",
+      "São cobrados USD 30 à conversão fictícia de USD 1.20 por euro, sem tarifa cambial. Qual custo em euros pertence ao total aplicável?"
+    ],
+    "options": [
+      [
+        "€36",
+        "€36"
+      ],
+      [
+        "€25",
+        "€25"
+      ],
+      [
+        "€30 regardless of conversion",
+        "€30 independentemente da conversão"
+      ],
+      [
+        "€0 because the account currency is euros",
+        "€0 porque a moeda da conta é euro"
+      ]
+    ],
+    "answer": 1,
+    "explanation": [
+      "USD 30 / (USD 1.20 per euro) = €25. Multiplication would use the quote in the wrong direction; €30 treats different currencies as equal units. Foreign denomination does not make a relevant cost disappear. A real conversion charge, if present, also needs consistent inclusion and disclosure.",
+      "USD 30 / (USD 1.20 por euro) = €25. Multiplicar usaria a cotação no sentido errado; €30 trataria moedas distintas como unidades iguais. Denominação estrangeira não elimina custo relevante. Um encargo cambial real, se houver, também exige inclusão e divulgação coerentes."
+    ],
+    "blocks": [
+      "EIP-7.1-04-B07"
+    ]
+  },
+  {
+    "type": "scenario",
+    "prompt": [
+      "A €20,000 outlay pays 1% entry cost. Remaining €19,800 earns 6% gross. Year-end charges are 0.8% product and 0.5% service on opening €19,800, plus €40 dealing. Which ending wealth and no-cost comparison are correct?",
+      "Um desembolso de €20,000 paga 1% de entrada. Os €19,800 restantes rendem 6% brutos. Encargos ao fim do ano são 0.8% de produto e 0.5% de serviço sobre €19,800 iniciais, mais €40 de negociação. Quais patrimônio final e comparação sem custos estão corretos?"
+    ],
+    "options": [
+      [
+        "€20,702.60, because only cash charges matter",
+        "€20,702.60, porque apenas encargos em dinheiro importam"
+      ],
+      [
+        "€21,200, because the 6% gross return already includes all stipulated fees",
+        "€21,200, porque o retorno bruto de 6% já inclui todas as tarifas estipuladas"
+      ],
+      [
+        "€20,690.60, which is €509.40 below no-cost wealth, including €12 lost growth on the entry fee",
+        "€20,690.60, €509.40 abaixo do patrimônio sem custos, incluindo €12 de crescimento perdido sobre a entrada"
+      ],
+      [
+        "€20,940, from subtracting headline percentages without respecting bases and timing",
+        "€20,940, subtraindo percentuais anunciados sem respeitar bases e prazos"
+      ]
+    ],
+    "answer": 2,
+    "explanation": [
+      "Growth is €1,188; product and service charges are €158.40 and €99. Wealth is 19,800 + 1,188 − 158.40 − 99 − 40 = €20,690.60. Cash charges total €497.40, while no-cost wealth is €21,200. The €509.40 gap includes €12 growth forgone on the entry charge. Subtracting cash charges from no-cost wealth alone gives €20,702.60 and misses that opportunity cost.",
+      "O crescimento é €1,188; encargos de produto e serviço são €158.40 e €99. O patrimônio é 19,800 + 1,188 − 158.40 − 99 − 40 = €20,690.60. Encargos em dinheiro somam €497.40, enquanto patrimônio sem custos é €21,200. A lacuna de €509.40 inclui €12 de crescimento perdido sobre a entrada. Subtrair apenas encargos do patrimônio sem custos dá €20,702.60 e omite esse custo de oportunidade."
+    ],
+    "blocks": [
+      "EIP-7.1-04-B03"
+    ]
+  }
+]

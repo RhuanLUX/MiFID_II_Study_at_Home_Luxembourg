@@ -7,3 +7,4 @@
 *.css text eol=lf
 *.py text eol=lf
 EIP_Luxembourg_Codex_Pacote_Master/00_BASELINE/* -text
+references/phase3/MiFID_II_Luxembourg_Simulador_200_Questoes.html -text

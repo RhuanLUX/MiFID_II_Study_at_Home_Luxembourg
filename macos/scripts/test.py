@@ -15,7 +15,7 @@ subprocess.run(['ditto', '-x', '-k', str(archive), str(unpacked)], check=True)
 production = unpacked / 'EIP Luxembourg Academy.app'
 executable = production / 'Contents/MacOS/AcademyDesktop'
 subprocess.run(['codesign', '--verify', '--deep', '--strict', str(production)], check=True)
-subprocess.run(['lipo', '-verify_arch', 'arm64', 'x86_64', str(executable)], check=True)
+subprocess.run(['lipo', str(executable), '-verify_arch', 'arm64', 'x86_64'], check=True)
 expected = json.loads((root/'academy/evidence/phase2-frozen-baseline.json').read_text())['html_sha256']
 assert hashlib.sha256((production/'Contents/Resources/Academy.html').read_bytes()).hexdigest() == expected
 assert os.access(executable, os.X_OK), 'ZIP lost executable permissions'

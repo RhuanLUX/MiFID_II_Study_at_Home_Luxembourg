@@ -21,10 +21,11 @@ chmod 755 "$APP/Contents/MacOS/AcademyDesktop"
 # It is NOT Developer ID signing or Apple notarization.
 codesign --force --sign - --timestamp=none "$APP"
 codesign --verify --deep --strict "$APP"
-xcrun lipo -verify_arch arm64 x86_64 "$APP/Contents/MacOS/AcademyDesktop"
+xcrun lipo "$APP/Contents/MacOS/AcademyDesktop" -verify_arch arm64 x86_64
 plutil -lint "$APP/Contents/Info.plist"
 cp macos/FIRST_LAUNCH.txt "$OUT/FIRST_LAUNCH.txt"
 ditto -c -k --sequesterRsrc --keepParent "$APP" "$OUT/EIP_Luxembourg_Academy_macOS.zip"
+(cd "$OUT" && /usr/bin/zip -q EIP_Luxembourg_Academy_macOS.zip FIRST_LAUNCH.txt)
 shasum -a 256 "$OUT/EIP_Luxembourg_Academy_macOS.zip" > "$OUT/SHA256SUMS.txt"
 node - "$OUT" <<'JS'
 const fs=require('fs'),cp=require('child_process'),path=require('path');const out=process.argv[2];

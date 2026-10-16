@@ -2,3 +2,6 @@ academy/evidence/browser-profile/
 academy/evidence/test-reading-backup.json
 academy/evidence/*.pdf
 academy/evidence/*.pdf.txt
+macos/out/
+macos/downloads/
+macos/scripts/__pycache__/

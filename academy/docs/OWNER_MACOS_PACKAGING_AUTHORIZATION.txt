@@ -1,0 +1,203 @@
+# EIP LUXEMBOURG ACADEMY
+## MACOS DESKTOP APPLICATION PACKAGING
+
+**OWNER AUTHORIZATION: CREATE MACOS APPLICATION**
+
+Repository:
+https://github.com/RhuanLUX/MiFID_II_Study_at_Home_Luxembourg.git
+
+Current approved Phase 2 baseline:
+`9212d543d32699c0076b7553156cab721bf47b53`
+
+**OBJECTIVE**
+
+Package the existing EIP Luxembourg Academy as a standalone macOS desktop application.
+
+I want to send my wife a single ZIP file containing a ready-to-use macOS application.
+
+She should extract the ZIP, open the application and begin studying.
+
+The application must run completely offline and preserve her learning progress between sessions.
+
+**1. APPLICATION FORMAT**
+
+Deliver a real macOS `.app` application, distributed inside a ZIP file.
+
+Preferred filename:
+
+`EIP_Luxembourg_Academy_macOS.zip`
+
+Application name:
+
+`EIP Luxembourg Academy.app`
+
+The ZIP must contain a functional application, not just source files or installation scripts.
+
+Use a lightweight desktop wrapper such as Tauri, provided it is compatible with the existing application and does not compromise persistence.
+
+Avoid unnecessary complexity.
+
+**2. PRESERVE THE EXISTING ACADEMY**
+
+The current platform is approved.
+
+It contains:
+- 95 complete lessons.
+- English and PT-BR translations.
+- 475 reinforcement exercises.
+- Personal Notes.
+- Lesson completion tracking.
+- Offline functionality.
+- Backup export/import.
+
+Preserve the existing design and educational content.
+
+Do not create simulations.
+
+Do not redesign the interface.
+
+Do not add new educational features.
+
+This is a desktop packaging task only.
+
+**3. PERSISTENT STORAGE**
+
+This is a critical requirement.
+
+The application must remember:
+
+- Completed lessons.
+- Current learning progress.
+- Personal Notes.
+- Existing saved reinforcement exercise data, where applicable.
+- Relevant application preferences.
+
+Progress must survive:
+
+1. Closing and reopening the application.
+2. Restarting the Mac.
+3. Moving the application into the Applications folder.
+4. Updating the application without intentionally deleting user data.
+
+Use a stable application identity and reliable persistent storage.
+
+If the existing browser storage mechanism already works reliably inside the desktop wrapper, preserve it.
+
+If adaptation is necessary, implement the smallest safe change.
+
+Store user data independently from the application bundle whenever appropriate.
+
+Do not silently reset progress.
+
+Maintain the existing backup export/import functionality.
+
+The standalone application may start with an empty progress record. Existing browser progress does not need automatic migration, but importing a compatible backup must work.
+
+**4. OFFLINE REQUIREMENTS**
+
+Bundle all necessary HTML, CSS, JavaScript, educational content and translations inside the application.
+
+No internet connection should be required to:
+
+- Open the application.
+- Read lessons.
+- Access Portuguese translations.
+- Answer reinforcement exercises.
+- View explanations.
+- Save progress.
+- Take notes.
+- Export or import backups.
+
+Optional external reference links may open in the default browser, but must not be required for normal operation.
+
+**5. MACOS BUILD**
+
+If the current development environment is Windows, do not pretend that a Windows build produces a valid macOS executable.
+
+Use an appropriate macOS build environment.
+
+GitHub Actions with a macOS runner is authorized for this purpose.
+
+Configure the necessary build workflow, execute it and verify its results.
+
+Prefer a universal macOS application supporting both Apple Silicon and Intel Macs if practical.
+
+If a universal build is not feasible, provide separate clearly identified ZIP packages for Apple Silicon and Intel.
+
+Do not assume the user's Mac processor architecture.
+
+Do not require the student to install Node.js, Python, Rust, a terminal or development tools.
+
+The application should be ready to launch after extraction.
+
+**6. MACOS SECURITY**
+
+Do not assume Apple Developer signing credentials are available.
+
+If signing or notarization is unavailable, produce a functional unsigned build and clearly document the limitations.
+
+Include concise first-launch instructions using actual English macOS menu names.
+
+Do not disable macOS security protections globally.
+
+Do not claim that an unsigned application will launch without a Gatekeeper warning.
+
+**7. QUALITY ASSURANCE**
+
+Verify:
+
+- The application bundle was actually generated on macOS.
+- The ZIP contains the correct application structure.
+- The application starts successfully where GUI testing is available.
+- Lessons and translations render correctly.
+- Reinforcement exercises work.
+- Navigation functions normally.
+- Notes and completion tracking persist after restarting the application.
+- Backup export and import work.
+- No network connection is required for core features.
+- The original approved HTML platform remains functional.
+
+If a GUI test cannot be performed in the build environment, explicitly report that limitation instead of claiming it passed.
+
+**8. DELIVERY**
+
+Provide:
+
+1. Final ZIP package containing the macOS application.
+2. Exact location of the downloadable ZIP.
+3. Downloadable GitHub Actions artifact or GitHub Release asset, as appropriate.
+4. Brief installation and first-launch instructions.
+5. Confirmation of supported macOS architectures.
+6. Persistence and backup test results.
+7. Git commit SHA.
+8. Confirmation that source changes were pushed to GitHub.
+
+Do not consider delivery complete merely because a build workflow has been created.
+
+The actual ZIP must be successfully generated and made available for download.
+
+Preserve the original HTML version and the existing project history.
+
+**9. SCOPE RESTRICTIONS**
+
+Do not:
+- Modify approved educational content.
+- Modify the 475 exercises.
+- Start Phase 3 simulations.
+- Add user accounts.
+- Add synchronization services.
+- Add cloud storage.
+- Add authentication.
+- Add automatic updates.
+- Add telemetry or analytics.
+- Redesign the application.
+
+The objective is simply to provide a lightweight, reliable offline macOS application for personal study.
+
+**SUCCESS CRITERION**
+
+My wife can receive the ZIP, extract it, open the macOS application, study her lessons, close the application and return the following day with all her progress preserved.
+
+Execute autonomously until the complete macOS ZIP is available.
+
+START MACOS PACKAGING NOW.

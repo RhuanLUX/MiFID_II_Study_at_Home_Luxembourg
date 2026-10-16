@@ -1,0 +1,55 @@
+name: Build macOS Academy
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  universal:
+    runs-on: macos-15
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Preserve and validate approved HTML
+        run: |
+          node academy/tests/check.cjs
+          node academy/tests/reinforcement.cjs --final
+      - name: Build real universal macOS application
+        run: bash macos/scripts/build.sh
+      - name: Native WebKit QA on Apple Silicon
+        run: python3 macos/scripts/test.py
+      - name: Upload application and build evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: macOS-universal
+          path: |
+            macos/out/EIP_Luxembourg_Academy_macOS.zip
+            macos/out/FIRST_LAUNCH.txt
+            macos/out/SHA256SUMS.txt
+            macos/out/build.json
+            macos/out/qa/
+          retention-days: 30
+          if-no-files-found: error
+  intel:
+    needs: universal
+    runs-on: macos-15-intel
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: macOS-universal
+          path: macos/out
+      - name: Native Intel launch and persistence QA of the same ZIP
+        run: python3 macos/scripts/test.py
+      - name: Upload Intel QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: macOS-Intel-QA
+          path: macos/out/qa/x86_64/
+          retention-days: 30
+          if-no-files-found: error

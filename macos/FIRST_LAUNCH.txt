@@ -1,0 +1,29 @@
+EIP Luxembourg Academy — macOS
+
+Requires macOS 12.3 or later. One universal application supports Apple Silicon and Intel Macs.
+
+1. Double-click EIP_Luxembourg_Academy_macOS.zip to extract it.
+2. Drag EIP Luxembourg Academy.app to Applications (recommended).
+3. Open EIP Luxembourg Academy from Applications.
+
+This personal-study build has no Apple Developer ID signature and is not notarized.
+An ad-hoc signature supports executable integrity but does not establish a trusted developer.
+Gatekeeper may block the first launch. It is not promised to launch without a warning.
+
+If macOS blocks the app and you trust this supplied package:
+- Try opening it once, then use Apple menu > System Settings > Privacy & Security > Open Anyway.
+- Confirm the exception when prompted. On macOS Monterey, the corresponding path is
+  Apple menu > System Preferences > Security & Privacy > General > Open Anyway.
+- Do not disable Gatekeeper or other security protections globally.
+
+Study and backups work offline. Optional reference links need internet and open in your default browser.
+Use Backup > Export backup regularly. To transfer progress, use Backup and select a compatible JSON backup.
+The app starts with separate progress from your web browser; automatic browser migration is not provided.
+
+Notes, completion and the current lesson use persistent WebKit data outside the application bundle.
+The HTML is cached at ~/Library/Application Support/lu.eip.academy.desktop/Content/Academy.html.
+Keep the application identity and this support directory when updating or moving the .app.
+Deleting website data or user-support folders can remove progress. Keep exported backups separately.
+Reinforcement selections remain temporary, as in the approved browser application; they are not saved answers.
+
+No accounts, cloud sync, telemetry, automatic updates or examination simulator are included.
